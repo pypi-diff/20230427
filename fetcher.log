@@ -3107,3 +3107,43 @@
 [2023-04-27 01:34:43] INFO root fetch - main [MainThread]: End processing [tldextract]: success
 [2023-04-27 01:34:43] INFO root fetch - main [MainThread]: End processing [pyarmor]: success
 [2023-04-27 01:34:43] INFO root fetch - main [MainThread]: Store serial: [17873645]
+[2023-04-27 01:39:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17873645]
+[2023-04-27 01:39:52] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-27 01:39:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pygame-json-ui
+[2023-04-27 01:39:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-sops-secrets
+[2023-04-27 01:39:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: discovery-transition-ds
+[2023-04-27 01:39:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dsspy
+[2023-04-27 01:39:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mb-pytorch
+[2023-04-27 01:39:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autocalver
+[2023-04-27 01:39:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: unisci
+[2023-04-27 01:39:52] INFO root fetch - processPackages [pygame-json-ui]: New version: [0.0.0.4] Old Version: [0.0.0.3]
+[2023-04-27 01:39:52] WARNING root fetch - processPackages [unisci]: Skipping, unable to determine old version
+[2023-04-27 01:39:52] INFO root fetch - processPackages [autocalver]: New version: [2023.4.26.74472rc1] Old Version: [2022.8.11.62018]
+[2023-04-27 01:39:52] INFO root fetch - processPackages [discovery-transition-ds]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-04-27 01:39:52] INFO root fetch - main [MainThread]: End processing [unisci] error
+[2023-04-27 01:39:52] INFO root fetch - processPackages [mb-pytorch]: New version: [1.0.202304262325] Old Version: [1.0.202304262315]
+[2023-04-27 01:39:52] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-04-27 01:39:52] INFO root fetch - processPackages [dsspy]: New version: [2.2.6] Old Version: [2.2.5]
+[2023-04-27 01:39:52] INFO root fetch - processPackages [discovery-transition-ds]: executing diffoscope
+[2023-04-27 01:39:52] INFO root fetch - processPackages [discovery-transition-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discovery-transition-ds-4.9.8.tar.gz tmp/discovery-transition-ds-4.9.9.tar.gz --markdown 20230427/d/discovery-transition-ds/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-04-27 01:39:52] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/40/be/774b15d05cc3dd215928957660f8727a4c82b8ef8b77cbb39c57a72952f8/mb_pytorch-1.0.202304262325-py3-none-any.whl
+[2023-04-27 01:39:52] INFO root fetch - processPackages [mb-pytorch]: executing diffoscope
+[2023-04-27 01:39:52] INFO root fetch - processPackages [mb-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_pytorch-1.0.202304262315-py3-none-any.whl.zip tmp/mb_pytorch-1.0.202304262325-py3-none-any.whl.zip --markdown 20230427/m/mb-pytorch/1.0.202304262315-1.0.202304262325/diff.md --exclude *.pyd
+[2023-04-27 01:39:52] INFO root fetch - processPackages [dsspy]: Downloading https://files.pythonhosted.org/packages/4e/11/1fb0611870ac10fbefa5e8ff4247685bf6eea6a726c1624ed15194d73dc3/dsspy-2.2.5.tar.gz
+[2023-04-27 01:39:52] INFO root fetch - processPackages [autocalver]: executing diffoscope
+[2023-04-27 01:39:52] INFO root fetch - processPackages [autocalver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autocalver-2022.8.11.62018.tar.gz tmp/autocalver-2023.4.26.74472rc1.tar.gz --markdown 20230427/a/autocalver/2022.8.11.62018-2023.4.26.74472rc1/diff.md --exclude *.pyd
+[2023-04-27 01:39:52] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-04-27 01:39:52] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.8.tar.gz tmp/cdk-sops-secrets-1.2.9.tar.gz --markdown 20230427/c/cdk-sops-secrets/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-04-27 01:39:52] INFO root fetch - processPackages [pygame-json-ui]: Downloading https://files.pythonhosted.org/packages/af/9c/45868f4f78e73c369039ef85867d8de4c18b3bdfd8cb8b523a660f3a092a/pygame-json-ui-0.0.0.4.tar.gz
+[2023-04-27 01:39:52] INFO root fetch - processPackages [pygame-json-ui]: executing diffoscope
+[2023-04-27 01:39:52] INFO root fetch - processPackages [pygame-json-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygame-json-ui-0.0.0.3.tar.gz tmp/pygame-json-ui-0.0.0.4.tar.gz --markdown 20230427/p/pygame-json-ui/0.0.0.3-0.0.0.4/diff.md --exclude *.pyd
+[2023-04-27 01:39:53] INFO root fetch - processPackages [dsspy]: Downloading https://files.pythonhosted.org/packages/42/1d/47a131a8228575bd06860e567816b284fefaac8e2a7e5d212af0f1de7edd/dsspy-2.2.6.tar.gz
+[2023-04-27 01:39:53] INFO root fetch - processPackages [dsspy]: executing diffoscope
+[2023-04-27 01:39:53] INFO root fetch - processPackages [dsspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsspy-2.2.5.tar.gz tmp/dsspy-2.2.6.tar.gz --markdown 20230427/d/dsspy/2.2.5-2.2.6/diff.md --exclude *.pyd
+[2023-04-27 01:39:53] INFO root fetch - main [MainThread]: End processing [mb-pytorch]: success
+[2023-04-27 01:39:54] INFO root fetch - main [MainThread]: End processing [autocalver]: success
+[2023-04-27 01:39:54] INFO root fetch - main [MainThread]: End processing [pygame-json-ui]: success
+[2023-04-27 01:39:54] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-04-27 01:39:55] INFO root fetch - main [MainThread]: End processing [dsspy]: success
+[2023-04-27 01:39:56] INFO root fetch - main [MainThread]: End processing [discovery-transition-ds]: success
+[2023-04-27 01:39:56] INFO root fetch - main [MainThread]: Store serial: [17873665]
