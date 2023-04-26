@@ -3147,3 +3147,53 @@
 [2023-04-27 01:39:55] INFO root fetch - main [MainThread]: End processing [dsspy]: success
 [2023-04-27 01:39:56] INFO root fetch - main [MainThread]: End processing [discovery-transition-ds]: success
 [2023-04-27 01:39:56] INFO root fetch - main [MainThread]: Store serial: [17873665]
+[2023-04-27 01:45:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17873665]
+[2023-04-27 01:45:05] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-27 01:45:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eric-chen-forward
+[2023-04-27 01:45:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rime-sdk
+[2023-04-27 01:45:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: heaserver-trash-aws-s3
+[2023-04-27 01:45:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: unisci
+[2023-04-27 01:45:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: adafruit-circuitpython-typing
+[2023-04-27 01:45:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: langpack
+[2023-04-27 01:45:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: regpredict
+[2023-04-27 01:45:05] INFO root fetch - processPackages [langpack]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 01:45:05] INFO root fetch - processPackages [eric-chen-forward]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 01:45:05] INFO root fetch - processPackages [adafruit-circuitpython-typing]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-04-27 01:45:05] INFO root fetch - processPackages [unisci]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-04-27 01:45:05] INFO root fetch - processPackages [heaserver-trash-aws-s3]: New version: [1.0.0a2] Old Version: [1.0.0a1]
+[2023-04-27 01:45:05] INFO root fetch - processPackages [rime-sdk]: New version: [2.0.0rc8] Old Version: [2.0.0rc7]
+[2023-04-27 01:45:05] INFO root fetch - processPackages [regpredict]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 01:45:05] INFO root fetch - processPackages [rime-sdk]: executing diffoscope
+[2023-04-27 01:45:05] INFO root fetch - processPackages [rime-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rime_sdk-2.0.0rc7.tar.gz tmp/rime_sdk-2.0.0rc8.tar.gz --markdown 20230427/r/rime-sdk/2.0.0rc7-2.0.0rc8/diff.md --exclude *.pyd
+[2023-04-27 01:45:05] INFO root fetch - processPackages [langpack]: Downloading https://files.pythonhosted.org/packages/a7/12/dc9be0a7283a106f5e01d324b46511c8920ef6417690f0115dc05198d7e5/langpack-0.0.8-py2.py3-none-any.whl
+[2023-04-27 01:45:05] INFO root fetch - processPackages [eric-chen-forward]: Downloading https://files.pythonhosted.org/packages/bd/95/3ffa15a65173cd99b1cb44e3c944a6a156306f9d77f3b806671025a0eb09/eric_chen_forward-0.0.8.tar.gz
+[2023-04-27 01:45:05] INFO root fetch - processPackages [heaserver-trash-aws-s3]: Downloading https://files.pythonhosted.org/packages/9c/cb/f697b44891b437583edbccc9a03416ae682aa42cd035e30924899c54995e/heaserver-trash-aws-s3-1.0.0a1.tar.gz
+[2023-04-27 01:45:05] INFO root fetch - processPackages [adafruit-circuitpython-typing]: Downloading https://files.pythonhosted.org/packages/f0/85/4b9b1c1ee833cf1c8562477d57abba4cef3ca73180f3913d5a9b2f3fdaff/adafruit-circuitpython-typing-1.9.1.tar.gz
+[2023-04-27 01:45:05] INFO root fetch - processPackages [unisci]: Downloading https://files.pythonhosted.org/packages/85/20/49bbc533baaeea4b36ac953733242c287ed185800e61773c235b89224f8f/unisci-1.1.0.tar.gz
+[2023-04-27 01:45:05] INFO root fetch - processPackages [regpredict]: Downloading https://files.pythonhosted.org/packages/0a/f5/db3a1fa69360930599889257d2545d57d75927c3650bf12743511ccef501/regpredict-0.0.8.tar.gz
+[2023-04-27 01:45:05] INFO root fetch - processPackages [langpack]: Downloading https://files.pythonhosted.org/packages/61/80/117adb136013f8478716f7779cf3f300800f57287cd5acf6b647298d7195/langpack-0.0.9-py2.py3-none-any.whl
+[2023-04-27 01:45:05] INFO root fetch - processPackages [langpack]: executing diffoscope
+[2023-04-27 01:45:05] INFO root fetch - processPackages [langpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langpack-0.0.8-py2.py3-none-any.whl.zip tmp/langpack-0.0.9-py2.py3-none-any.whl.zip --markdown 20230427/l/langpack/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 01:45:05] INFO root fetch - processPackages [eric-chen-forward]: Downloading https://files.pythonhosted.org/packages/12/85/358eca87974b6d1f6bcbb930e7850d13dac4bcc078b99af4ef5a22025499/eric_chen_forward-0.0.9.tar.gz
+[2023-04-27 01:45:05] INFO root fetch - processPackages [adafruit-circuitpython-typing]: Downloading https://files.pythonhosted.org/packages/e1/cf/030ab10f3aff916679ac459eacff4280d345f709edd904caa55ec2a40d9e/adafruit-circuitpython-typing-1.9.2.tar.gz
+[2023-04-27 01:45:05] INFO root fetch - processPackages [eric-chen-forward]: executing diffoscope
+[2023-04-27 01:45:05] INFO root fetch - processPackages [eric-chen-forward]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eric_chen_forward-0.0.8.tar.gz tmp/eric_chen_forward-0.0.9.tar.gz --markdown 20230427/e/eric-chen-forward/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 01:45:05] INFO root fetch - processPackages [unisci]: Downloading https://files.pythonhosted.org/packages/01/25/74e05711ac73b5b4d19a9e5f1c4fa049f07409cf8b1c644ca67813a58c56/unisci-1.1.1.tar.gz
+[2023-04-27 01:45:05] INFO root fetch - processPackages [adafruit-circuitpython-typing]: executing diffoscope
+[2023-04-27 01:45:05] INFO root fetch - processPackages [adafruit-circuitpython-typing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-typing-1.9.1.tar.gz tmp/adafruit-circuitpython-typing-1.9.2.tar.gz --markdown 20230427/a/adafruit-circuitpython-typing/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-04-27 01:45:05] INFO root fetch - processPackages [unisci]: executing diffoscope
+[2023-04-27 01:45:05] INFO root fetch - processPackages [unisci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unisci-1.1.0.tar.gz tmp/unisci-1.1.1.tar.gz --markdown 20230427/u/unisci/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-04-27 01:45:05] INFO root fetch - processPackages [regpredict]: Downloading https://files.pythonhosted.org/packages/f1/2d/99f43cff649258e263b708870c40897d0e236ed1fb5ad32bc7c7fde634ab/regpredict-0.0.9.tar.gz
+[2023-04-27 01:45:06] INFO root fetch - processPackages [heaserver-trash-aws-s3]: Downloading https://files.pythonhosted.org/packages/ef/05/7b8ec31dfa15a465725eb781e417b76d4ca436db5582321fe780e4d33ce8/heaserver-trash-aws-s3-1.0.0a2.tar.gz
+[2023-04-27 01:45:06] INFO root fetch - processPackages [heaserver-trash-aws-s3]: executing diffoscope
+[2023-04-27 01:45:06] INFO root fetch - processPackages [heaserver-trash-aws-s3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver-trash-aws-s3-1.0.0a1.tar.gz tmp/heaserver-trash-aws-s3-1.0.0a2.tar.gz --markdown 20230427/h/heaserver-trash-aws-s3/1.0.0a1-1.0.0a2/diff.md --exclude *.pyd
+[2023-04-27 01:45:06] INFO root fetch - processPackages [regpredict]: executing diffoscope
+[2023-04-27 01:45:06] INFO root fetch - processPackages [regpredict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/regpredict-0.0.8.tar.gz tmp/regpredict-0.0.9.tar.gz --markdown 20230427/r/regpredict/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 01:45:06] INFO root fetch - main [MainThread]: End processing [langpack]: success
+[2023-04-27 01:45:07] INFO root fetch - main [MainThread]: End processing [eric-chen-forward]: success
+[2023-04-27 01:45:07] INFO root fetch - main [MainThread]: End processing [unisci]: success
+[2023-04-27 01:45:07] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-typing]: success
+[2023-04-27 01:45:07] INFO root fetch - main [MainThread]: End processing [regpredict]: success
+[2023-04-27 01:45:07] INFO root fetch - main [MainThread]: End processing [heaserver-trash-aws-s3]: success
+[2023-04-27 01:45:10] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
+[2023-04-27 01:45:10] INFO root fetch - main [MainThread]: Store serial: [17873685]
