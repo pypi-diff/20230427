@@ -70,3 +70,104 @@
 [2023-04-27 00:05:24] INFO root fetch - main [MainThread]: End processing [epyt]: success
 [2023-04-27 00:05:24] INFO root fetch - main [MainThread]: End processing [returnn]: success
 [2023-04-27 00:05:24] INFO root fetch - main [MainThread]: Store serial: [17872179]
+[2023-04-27 00:10:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17872179]
+[2023-04-27 00:10:33] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-04-27 00:10:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: plone.transformchain
+[2023-04-27 00:10:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyTermTk
+[2023-04-27 00:10:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pypmed
+[2023-04-27 00:10:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ttkDesigner
+[2023-04-27 00:10:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sparke-kinematics
+[2023-04-27 00:10:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: plone.theme
+[2023-04-27 00:10:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: state-space-generator
+[2023-04-27 00:10:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.cdk-serverless-cluster-from-snapshot
+[2023-04-27 00:10:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dcicutils
+[2023-04-27 00:10:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: frankAllSkyCam
+[2023-04-27 00:10:33] WARNING root fetch - processPackages [sparke-kinematics]: Skipping, unable to determine old version
+[2023-04-27 00:10:33] INFO root fetch - processPackages [sparke-kinematics]: Start processing: beginai
+[2023-04-27 00:10:33] INFO root fetch - main [MainThread]: End processing [sparke-kinematics] error
+[2023-04-27 00:10:33] INFO root fetch - processPackages [frankAllSkyCam]: New version: [3.2] Old Version: [3.0]
+[2023-04-27 00:10:33] INFO root fetch - processPackages [state-space-generator]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-04-27 00:10:33] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-27 00:10:33] INFO root fetch - processPackages [dcicutils]: New version: [7.3.0.1b36] Old Version: [7.3.0.1b35]
+[2023-04-27 00:10:33] INFO root fetch - processPackages [ttkDesigner]: New version: [0.30.0a9] Old Version: [0.30.0a8]
+[2023-04-27 00:10:33] WARNING root fetch - processPackages [pypmed]: Skipping, unable to determine old version
+[2023-04-27 00:10:33] INFO root fetch - processPackages [pypmed]: Start processing: beginai-cli
+[2023-04-27 00:10:33] INFO root fetch - main [MainThread]: End processing [pypmed] error
+[2023-04-27 00:10:33] INFO root fetch - processPackages [plone.transformchain]: New version: [3.0.0] Old Version: [2.0.2]
+[2023-04-27 00:10:33] INFO root fetch - processPackages [pyTermTk]: New version: [0.9.0a62] Old Version: [0.9.0a56]
+[2023-04-27 00:10:33] INFO root fetch - processPackages [plone.theme]: New version: [4.0.0] Old Version: [3.0.7]
+[2023-04-27 00:10:33] INFO root fetch - processPackages [beginai]: New version: [2.0.0] Old Version: [1.5.3]
+[2023-04-27 00:10:33] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: executing diffoscope
+[2023-04-27 00:10:33] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz --markdown 20230427/p/pepperize.cdk-serverless-cluster-from-snapshot/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-27 00:10:33] INFO root fetch - processPackages [dcicutils]: executing diffoscope
+[2023-04-27 00:10:33] INFO root fetch - processPackages [dcicutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicutils-7.3.0.1b35.tar.gz tmp/dcicutils-7.3.0.1b36.tar.gz --markdown 20230427/d/dcicutils/7.3.0.1b35-7.3.0.1b36/diff.md --exclude *.pyd
+[2023-04-27 00:10:33] INFO root fetch - processPackages [state-space-generator]: Downloading https://files.pythonhosted.org/packages/92/e7/3edffdb5e6957fa504623dab10a9b5f7f0f178b5a4f0e0e80fd6cb615be0/state_space_generator-0.0.9.tar.gz
+[2023-04-27 00:10:33] INFO root fetch - processPackages [frankAllSkyCam]: Downloading https://files.pythonhosted.org/packages/66/fc/2be6121d7873cc73b3b001b7dcc9903e094873d9c8c85f9f1928e697ee21/frankAllSkyCam-3.0.tar.gz
+[2023-04-27 00:10:33] INFO root fetch - processPackages [ttkDesigner]: Downloading https://files.pythonhosted.org/packages/d8/88/27c75b7b0f84d8dc43937299a3161d0a1bc100bd8df5cdede2fbf0aa266c/ttkDesigner-0.30.0a8.tar.gz
+[2023-04-27 00:10:33] INFO root fetch - processPackages [beginai]: Downloading https://files.pythonhosted.org/packages/e2/70/94aec63ee5f10a407f7a4bcbda8aa5b70daeda9fcdd9fb8fde9408c01dec/beginai-1.5.3.tar.gz
+[2023-04-27 00:10:33] INFO root fetch - processPackages [pyTermTk]: Downloading https://files.pythonhosted.org/packages/75/5c/de0a01268aca4e293afd0f3034da418a422a4063208fe6a2d89fa1efc89e/pyTermTk-0.9.0a56.tar.gz
+[2023-04-27 00:10:33] INFO root fetch - processPackages [state-space-generator]: Downloading https://files.pythonhosted.org/packages/ed/39/1a8fc728dbb338dfcc972ff36b479522d9a5e4cc8c19aaebd2140cb12a0e/state_space_generator-0.1.0.tar.gz
+[2023-04-27 00:10:33] INFO root fetch - processPackages [plone.transformchain]: Downloading https://files.pythonhosted.org/packages/31/4c/e9381ec4312adaf8f708ec95a37913ae59ed8bbf2a9eef94acb8a94d9412/plone.transformchain-2.0.2.tar.gz
+[2023-04-27 00:10:33] INFO root fetch - processPackages [plone.theme]: Downloading https://files.pythonhosted.org/packages/38/8a/26d1c814418d1d66202997027bca261c688f2785be03dfe412ec108bf918/plone.theme-3.0.7.tar.gz
+[2023-04-27 00:10:33] INFO root fetch - processPackages [state-space-generator]: executing diffoscope
+[2023-04-27 00:10:33] INFO root fetch - processPackages [state-space-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/state_space_generator-0.0.9.tar.gz tmp/state_space_generator-0.1.0.tar.gz --markdown 20230427/s/state-space-generator/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-04-27 00:10:33] INFO root fetch - processPackages [frankAllSkyCam]: Downloading https://files.pythonhosted.org/packages/80/31/44f388f84dd5572754a5d1b0fa6588e14a2b147bcd26d7b44917d7e405e7/frankAllSkyCam-3.2.tar.gz
+[2023-04-27 00:10:33] INFO root fetch - processPackages [beginai-cli]: New version: [1.7.0] Old Version: [1.6.0]
+[2023-04-27 00:10:33] INFO root fetch - processPackages [frankAllSkyCam]: executing diffoscope
+[2023-04-27 00:10:33] INFO root fetch - processPackages [frankAllSkyCam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frankAllSkyCam-3.0.tar.gz tmp/frankAllSkyCam-3.2.tar.gz --markdown 20230427/f/frankAllSkyCam/3.0-3.2/diff.md --exclude *.pyd
+[2023-04-27 00:10:33] INFO root fetch - processPackages [ttkDesigner]: Downloading https://files.pythonhosted.org/packages/20/bf/decece217929435b3fb030643261fdbb9926eab002727530b14fec645a11/ttkDesigner-0.30.0a9.tar.gz
+[2023-04-27 00:10:33] INFO root fetch - processPackages [pyTermTk]: Downloading https://files.pythonhosted.org/packages/05/bd/fe036dd7372cea97065d98f1d5d8c3f6453fa7fcb653d07550c359f9a113/pyTermTk-0.9.0a62.tar.gz
+[2023-04-27 00:10:33] INFO root fetch - processPackages [beginai]: Downloading https://files.pythonhosted.org/packages/b9/a7/dc91e302777b852621775faac1beaad0f34fd153522a33e62d3fc63e7156/beginai-2.0.0.tar.gz
+[2023-04-27 00:10:33] INFO root fetch - processPackages [pyTermTk]: executing diffoscope
+[2023-04-27 00:10:33] INFO root fetch - processPackages [pyTermTk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyTermTk-0.9.0a56.tar.gz tmp/pyTermTk-0.9.0a62.tar.gz --markdown 20230427/p/pyTermTk/0.9.0a56-0.9.0a62/diff.md --exclude *.pyd
+[2023-04-27 00:10:33] INFO root fetch - processPackages [plone.transformchain]: Downloading https://files.pythonhosted.org/packages/b1/57/5b7e0ee4392a2545631795d4d47bb2917444d201a485847be5178f633e34/plone.transformchain-3.0.0.tar.gz
+[2023-04-27 00:10:33] INFO root fetch - processPackages [ttkDesigner]: executing diffoscope
+[2023-04-27 00:10:33] INFO root fetch - processPackages [ttkDesigner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ttkDesigner-0.30.0a8.tar.gz tmp/ttkDesigner-0.30.0a9.tar.gz --markdown 20230427/t/ttkDesigner/0.30.0a8-0.30.0a9/diff.md --exclude *.pyd
+[2023-04-27 00:10:33] INFO root fetch - processPackages [beginai-cli]: Downloading https://files.pythonhosted.org/packages/96/0c/682b82a7d09a910b838f020c2982d0ed7b9581f929408c5876d2707ef2f3/beginai-cli-1.6.0.tar.gz
+[2023-04-27 00:10:34] INFO root fetch - processPackages [beginai]: executing diffoscope
+[2023-04-27 00:10:34] INFO root fetch - processPackages [beginai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beginai-1.5.3.tar.gz tmp/beginai-2.0.0.tar.gz --markdown 20230427/b/beginai/1.5.3-2.0.0/diff.md --exclude *.pyd
+[2023-04-27 00:10:34] INFO root fetch - processPackages [plone.transformchain]: executing diffoscope
+[2023-04-27 00:10:34] INFO root fetch - processPackages [plone.transformchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plone.transformchain-2.0.2.tar.gz tmp/plone.transformchain-3.0.0.tar.gz --markdown 20230427/p/plone.transformchain/2.0.2-3.0.0/diff.md --exclude *.pyd
+[2023-04-27 00:10:34] INFO root fetch - processPackages [plone.theme]: Downloading https://files.pythonhosted.org/packages/37/71/7d0c5a2448b2e1e331ab2457b91c7adbb0c0b632bf41f23b73cd2d0ab604/plone.theme-4.0.0.tar.gz
+[2023-04-27 00:10:34] INFO root fetch - processPackages [beginai-cli]: Downloading https://files.pythonhosted.org/packages/54/31/ee9b8516da7aba21c6efb0677ad638e0d4d942c40bf2a11178b5f5cf3bc3/beginai-cli-1.7.0.tar.gz
+[2023-04-27 00:10:34] INFO root fetch - processPackages [plone.theme]: executing diffoscope
+[2023-04-27 00:10:34] INFO root fetch - processPackages [plone.theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plone.theme-3.0.7.tar.gz tmp/plone.theme-4.0.0.tar.gz --markdown 20230427/p/plone.theme/3.0.7-4.0.0/diff.md --exclude *.pyd
+[2023-04-27 00:10:34] INFO root fetch - processPackages [beginai-cli]: executing diffoscope
+[2023-04-27 00:10:34] INFO root fetch - processPackages [beginai-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beginai-cli-1.6.0.tar.gz tmp/beginai-cli-1.7.0.tar.gz --markdown 20230427/b/beginai-cli/1.6.0-1.7.0/diff.md --exclude *.pyd
+[2023-04-27 00:10:35] INFO root fetch - processPackages [frankAllSkyCam]: Start processing: airflow-metrics-gbq
+[2023-04-27 00:10:35] INFO root fetch - main [MainThread]: End processing [frankAllSkyCam]: success
+[2023-04-27 00:10:35] INFO root fetch - processPackages [airflow-metrics-gbq]: New version: [0.0.4a3] Old Version: [0.0.4a2]
+[2023-04-27 00:10:35] INFO root fetch - processPackages [ttkDesigner]: Start processing: settngs
+[2023-04-27 00:10:35] INFO root fetch - main [MainThread]: End processing [ttkDesigner]: success
+[2023-04-27 00:10:35] INFO root fetch - processPackages [settngs]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-04-27 00:10:35] INFO root fetch - processPackages [airflow-metrics-gbq]: Downloading https://files.pythonhosted.org/packages/0b/20/1cb2d61de6e42fc20a99fd0497c21a15b49a793c299d55396bd168250fdb/airflow_metrics_gbq-0.0.4a3.tar.gz
+[2023-04-27 00:10:35] INFO root fetch - processPackages [plone.theme]: Start processing: py-to-proto
+[2023-04-27 00:10:35] INFO root fetch - main [MainThread]: End processing [plone.theme]: success
+[2023-04-27 00:10:35] INFO root fetch - processPackages [plone.transformchain]: Start processing: rust-circuit
+[2023-04-27 00:10:35] INFO root fetch - main [MainThread]: End processing [plone.transformchain]: success
+[2023-04-27 00:10:35] INFO root fetch - processPackages [airflow-metrics-gbq]: executing diffoscope
+[2023-04-27 00:10:35] INFO root fetch - processPackages [beginai-cli]: Start processing: lib-pod5
+[2023-04-27 00:10:35] INFO root fetch - main [MainThread]: End processing [beginai-cli]: success
+[2023-04-27 00:10:35] INFO root fetch - processPackages [airflow-metrics-gbq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airflow_metrics_gbq-0.0.4a2.tar.gz tmp/airflow_metrics_gbq-0.0.4a3.tar.gz --markdown 20230427/a/airflow-metrics-gbq/0.0.4a2-0.0.4a3/diff.md --exclude *.pyd
+[2023-04-27 00:10:35] INFO root fetch - processPackages [rust-circuit]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-04-27 00:10:35] WARNING root fetch - processPackages [py-to-proto]: Skipping, unable to determine old version
+[2023-04-27 00:10:35] INFO root fetch - main [MainThread]: End processing [py-to-proto] error
+[2023-04-27 00:10:35] INFO root fetch - processPackages [rust-circuit]: executing diffoscope
+[2023-04-27 00:10:35] INFO root fetch - processPackages [rust-circuit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rust_circuit-0.4.8.tar.gz tmp/rust_circuit-0.4.9.tar.gz --markdown 20230427/r/rust-circuit/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-04-27 00:10:35] INFO root fetch - main [MainThread]: End processing [pyTermTk]: success
+[2023-04-27 00:10:35] INFO root fetch - processPackages [settngs]: executing diffoscope
+[2023-04-27 00:10:35] INFO root fetch - processPackages [settngs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/settngs-0.6.2.tar.gz tmp/settngs-0.6.3.tar.gz --markdown 20230427/s/settngs/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-04-27 00:10:35] INFO root fetch - processPackages [lib-pod5]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-27 00:10:36] INFO root fetch - main [MainThread]: End processing [beginai]: success
+[2023-04-27 00:10:36] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-serverless-cluster-from-snapshot]: success
+[2023-04-27 00:10:36] INFO root fetch - processPackages [lib-pod5]: Downloading https://files.pythonhosted.org/packages/f3/53/00f9fcb5890449aa6f79627a0b2de2e4843fe5d4d114abd0edaa3ea14212/lib_pod5-0.1.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-27 00:10:36] INFO root fetch - main [MainThread]: End processing [airflow-metrics-gbq]: success
+[2023-04-27 00:10:36] INFO root fetch - processPackages [lib-pod5]: Downloading https://files.pythonhosted.org/packages/dd/2a/e993f74a6b40560274fd11bf5ab442e7addb8d070af8fdc7e7db4860ff16/lib_pod5-0.1.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-27 00:10:36] INFO root fetch - main [MainThread]: End processing [dcicutils]: success
+[2023-04-27 00:10:36] INFO root fetch - main [MainThread]: End processing [settngs]: success
+[2023-04-27 00:10:37] INFO root fetch - processPackages [lib-pod5]: executing diffoscope
+[2023-04-27 00:10:37] INFO root fetch - processPackages [lib-pod5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib_pod5-0.1.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/lib_pod5-0.1.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230427/l/lib-pod5/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-27 00:10:39] INFO root fetch - main [MainThread]: End processing [rust-circuit]: success
+[2023-04-27 00:10:39] INFO root fetch - main [MainThread]: End processing [state-space-generator]: success
+[2023-04-27 00:11:10] INFO root fetch - main [MainThread]: End processing [lib-pod5]: success
+[2023-04-27 00:11:10] INFO root fetch - main [MainThread]: Store serial: [17872240]
