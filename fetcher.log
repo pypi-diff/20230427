@@ -347,3 +347,72 @@
 [2023-04-27 00:24:00] INFO root fetch - main [MainThread]: End processing [workos]: success
 [2023-04-27 00:24:03] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-04-27 00:24:03] INFO root fetch - main [MainThread]: Store serial: [17872338]
+[2023-04-27 00:29:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17872338]
+[2023-04-27 00:29:13] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-27 00:29:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: weni-rp-apps
+[2023-04-27 00:29:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pynsee
+[2023-04-27 00:29:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mux-python
+[2023-04-27 00:29:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aws-service-catalog-factory
+[2023-04-27 00:29:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: colinote
+[2023-04-27 00:29:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cochleogram
+[2023-04-27 00:29:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: soilgrids
+[2023-04-27 00:29:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: piccolo-admin
+[2023-04-27 00:29:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: phylo-matt
+[2023-04-27 00:29:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: langpack
+[2023-04-27 00:29:13] INFO root fetch - processPackages [pynsee]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-27 00:29:13] INFO root fetch - processPackages [cochleogram]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-04-27 00:29:13] INFO root fetch - processPackages [langpack]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-27 00:29:13] INFO root fetch - processPackages [soilgrids]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-27 00:29:13] INFO root fetch - processPackages [mux-python]: New version: [3.9.0] Old Version: [3.8.0]
+[2023-04-27 00:29:13] INFO root fetch - processPackages [phylo-matt]: New version: [1.3] Old Version: [1.2.3]
+[2023-04-27 00:29:13] INFO root fetch - processPackages [piccolo-admin]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-04-27 00:29:13] INFO root fetch - processPackages [aws-service-catalog-factory]: New version: [0.99.0] Old Version: [0.98.1]
+[2023-04-27 00:29:13] INFO root fetch - processPackages [weni-rp-apps]: New version: [2.4.0a9] Old Version: [2.4.0a8]
+[2023-04-27 00:29:13] WARNING root fetch - processPackages [colinote]: Skipping, unable to determine old version
+[2023-04-27 00:29:13] INFO root fetch - processPackages [colinote]: Start processing: hedra
+[2023-04-27 00:29:13] INFO root fetch - main [MainThread]: End processing [colinote] error
+[2023-04-27 00:29:13] INFO root fetch - processPackages [hedra]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-04-27 00:29:13] INFO root fetch - processPackages [weni-rp-apps]: executing diffoscope
+[2023-04-27 00:29:13] INFO root fetch - processPackages [weni-rp-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weni_rp_apps-2.4.0a8.tar.gz tmp/weni_rp_apps-2.4.0a9.tar.gz --markdown 20230427/w/weni-rp-apps/2.4.0a8-2.4.0a9/diff.md --exclude *.pyd
+[2023-04-27 00:29:13] INFO root fetch - processPackages [pynsee]: Downloading https://files.pythonhosted.org/packages/36/99/b83637c28ce98d40e28d66c2428e26cad145ed4312686dd7113651ecf3d1/pynsee-0.1.3.tar.gz
+[2023-04-27 00:29:13] INFO root fetch - processPackages [cochleogram]: Downloading https://files.pythonhosted.org/packages/55/3b/305953aeb22a93996232759eeb2e57dafc8501b90d4f3b3ddedb25a77ea5/cochleogram-0.2.1.tar.gz
+[2023-04-27 00:29:13] INFO root fetch - processPackages [soilgrids]: Downloading https://files.pythonhosted.org/packages/7b/b5/9c3989cddecfc57ff25c52ea4f60ec12d75300d22df98d7e80e4d8341885/soilgrids-0.1.3-py3-none-any.whl
+[2023-04-27 00:29:13] INFO root fetch - processPackages [phylo-matt]: Downloading https://files.pythonhosted.org/packages/71/e3/01c3bfcc08a34887d00f3f0f9dbc5ef52d87466dbf7c3afc4d221f36a890/phylo-matt-1.2.3.tar.gz
+[2023-04-27 00:29:13] INFO root fetch - processPackages [piccolo-admin]: Downloading https://files.pythonhosted.org/packages/7d/1c/846778aacea5280833bd08d705ad777ff687019424c7d72e1690818c436f/piccolo_admin-0.9.1.tar.gz
+[2023-04-27 00:29:13] INFO root fetch - processPackages [langpack]: Downloading https://files.pythonhosted.org/packages/28/41/ed85b86c289ace1d5cdebf26e6034c8c4f42f0edac3240c14cec0990e57a/langpack-0.0.5-py2.py3-none-any.whl
+[2023-04-27 00:29:13] INFO root fetch - processPackages [cochleogram]: executing diffoscope
+[2023-04-27 00:29:13] INFO root fetch - processPackages [cochleogram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cochleogram-0.2.0.tar.gz tmp/cochleogram-0.2.1.tar.gz --markdown 20230427/c/cochleogram/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-04-27 00:29:13] INFO root fetch - processPackages [aws-service-catalog-factory]: Downloading https://files.pythonhosted.org/packages/02/61/6ad14efaef6d9695140a4b801f780647ae44e992b473667bb71de1079025/aws_service_catalog_factory-0.98.1.tar.gz
+[2023-04-27 00:29:13] INFO root fetch - processPackages [mux-python]: Downloading https://files.pythonhosted.org/packages/c8/10/6eda535c835a77808415fc02029be623d89b7c7ca9828936553e7b350786/mux_python-3.8.0.tar.gz
+[2023-04-27 00:29:13] INFO root fetch - processPackages [hedra]: executing diffoscope
+[2023-04-27 00:29:13] INFO root fetch - processPackages [hedra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hedra-0.7.8.tar.gz tmp/hedra-0.7.9.tar.gz --markdown 20230427/h/hedra/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-04-27 00:29:13] INFO root fetch - processPackages [langpack]: Downloading https://files.pythonhosted.org/packages/8d/08/b1c2d420082f8e550fe47334e6d085bba6b9b64d9ab371b68b7305b16948/langpack-0.0.6-py2.py3-none-any.whl
+[2023-04-27 00:29:14] INFO root fetch - processPackages [langpack]: executing diffoscope
+[2023-04-27 00:29:14] INFO root fetch - processPackages [langpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langpack-0.0.5-py2.py3-none-any.whl.zip tmp/langpack-0.0.6-py2.py3-none-any.whl.zip --markdown 20230427/l/langpack/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-27 00:29:14] INFO root fetch - processPackages [soilgrids]: Downloading https://files.pythonhosted.org/packages/3e/a9/0acdac1b2168d7eaa0264292cfc6aa73e448c693857413b1de57053172b2/soilgrids-0.1.4-py3-none-any.whl
+[2023-04-27 00:29:14] INFO root fetch - processPackages [soilgrids]: executing diffoscope
+[2023-04-27 00:29:14] INFO root fetch - processPackages [soilgrids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soilgrids-0.1.3-py3-none-any.whl.zip tmp/soilgrids-0.1.4-py3-none-any.whl.zip --markdown 20230427/s/soilgrids/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-27 00:29:14] INFO root fetch - processPackages [mux-python]: Downloading https://files.pythonhosted.org/packages/56/08/d6f6846b34e131444cdff643d33f14903c97fd56db5bceb0028310ed4b66/mux_python-3.9.0.tar.gz
+[2023-04-27 00:29:14] INFO root fetch - processPackages [piccolo-admin]: Downloading https://files.pythonhosted.org/packages/43/b2/3856fc5e7bdf85b4c2ed42267e3398d166a4258c80940c10bf6eb9ce9354/piccolo_admin-0.9.2.tar.gz
+[2023-04-27 00:29:14] WARNING root fetch - processPackages [phylo-matt]: Skipping package: exceeds size limit 13131627>=10485760
+[2023-04-27 00:29:14] INFO root fetch - main [MainThread]: End processing [phylo-matt] error
+[2023-04-27 00:29:14] INFO root fetch - processPackages [mux-python]: executing diffoscope
+[2023-04-27 00:29:14] INFO root fetch - processPackages [mux-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mux_python-3.8.0.tar.gz tmp/mux_python-3.9.0.tar.gz --markdown 20230427/m/mux-python/3.8.0-3.9.0/diff.md --exclude *.pyd
+[2023-04-27 00:29:14] INFO root fetch - processPackages [piccolo-admin]: executing diffoscope
+[2023-04-27 00:29:14] INFO root fetch - processPackages [piccolo-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piccolo_admin-0.9.1.tar.gz tmp/piccolo_admin-0.9.2.tar.gz --markdown 20230427/p/piccolo-admin/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-04-27 00:29:14] INFO root fetch - processPackages [aws-service-catalog-factory]: Downloading https://files.pythonhosted.org/packages/56/e5/667f7b1441c95e54956c4609aa2f6fceab21be33a6e93c4f320ec786e3dc/aws_service_catalog_factory-0.99.0.tar.gz
+[2023-04-27 00:29:14] INFO root fetch - processPackages [aws-service-catalog-factory]: executing diffoscope
+[2023-04-27 00:29:14] INFO root fetch - processPackages [aws-service-catalog-factory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_service_catalog_factory-0.98.1.tar.gz tmp/aws_service_catalog_factory-0.99.0.tar.gz --markdown 20230427/a/aws-service-catalog-factory/0.98.1-0.99.0/diff.md --exclude *.pyd
+[2023-04-27 00:29:15] INFO root fetch - main [MainThread]: End processing [langpack]: success
+[2023-04-27 00:29:15] INFO root fetch - main [MainThread]: End processing [soilgrids]: success
+[2023-04-27 00:29:15] INFO root fetch - main [MainThread]: End processing [cochleogram]: success
+[2023-04-27 00:29:15] INFO root fetch - processPackages [pynsee]: Downloading https://files.pythonhosted.org/packages/e2/9f/8d703daf030654bcb6bb25d32386333ec212d2b7be315d78a49b2dbdc3c1/pynsee-0.1.4.tar.gz
+[2023-04-27 00:29:15] INFO root fetch - processPackages [pynsee]: executing diffoscope
+[2023-04-27 00:29:15] INFO root fetch - processPackages [pynsee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynsee-0.1.3.tar.gz tmp/pynsee-0.1.4.tar.gz --markdown 20230427/p/pynsee/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-27 00:29:16] INFO root fetch - main [MainThread]: End processing [aws-service-catalog-factory]: success
+[2023-04-27 00:29:16] INFO root fetch - main [MainThread]: End processing [weni-rp-apps]: success
+[2023-04-27 00:29:18] INFO root fetch - main [MainThread]: End processing [mux-python]: success
+[2023-04-27 00:29:18] INFO root fetch - main [MainThread]: End processing [pynsee]: success
+[2023-04-27 00:29:22] INFO root fetch - main [MainThread]: End processing [hedra]: success
+[2023-04-27 00:29:28] INFO root fetch - main [MainThread]: End processing [piccolo-admin]: success
+[2023-04-27 00:29:28] INFO root fetch - main [MainThread]: Store serial: [17872374]
