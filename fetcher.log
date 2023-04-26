@@ -171,3 +171,94 @@
 [2023-04-27 00:10:39] INFO root fetch - main [MainThread]: End processing [state-space-generator]: success
 [2023-04-27 00:11:10] INFO root fetch - main [MainThread]: End processing [lib-pod5]: success
 [2023-04-27 00:11:10] INFO root fetch - main [MainThread]: Store serial: [17872240]
+[2023-04-27 00:16:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17872240]
+[2023-04-27 00:16:24] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-27 00:16:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: momento-wire-types
+[2023-04-27 00:16:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mell
+[2023-04-27 00:16:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pod5
+[2023-04-27 00:16:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-can-bluetooth
+[2023-04-27 00:16:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cohere
+[2023-04-27 00:16:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: shinylive
+[2023-04-27 00:16:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dark-matter
+[2023-04-27 00:16:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyspedas
+[2023-04-27 00:16:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyflutterinstall
+[2023-04-27 00:16:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: airport-codes
+[2023-04-27 00:16:24] INFO root fetch - processPackages [python-can-bluetooth]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-27 00:16:24] INFO root fetch - processPackages [pod5]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-27 00:16:24] INFO root fetch - processPackages [mell]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-04-27 00:16:24] INFO root fetch - processPackages [pyflutterinstall]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-04-27 00:16:24] WARNING root fetch - processPackages [airport-codes]: Skipping, unable to determine old version
+[2023-04-27 00:16:24] INFO root fetch - processPackages [airport-codes]: Start processing: captif-cpx-db
+[2023-04-27 00:16:24] INFO root fetch - main [MainThread]: End processing [airport-codes] error
+[2023-04-27 00:16:24] INFO root fetch - processPackages [cohere]: New version: [4.3.0] Old Version: [4.2.1]
+[2023-04-27 00:16:24] INFO root fetch - processPackages [shinylive]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 00:16:24] INFO root fetch - processPackages [momento-wire-types]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-04-27 00:16:24] INFO root fetch - processPackages [dark-matter]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-04-27 00:16:24] INFO root fetch - processPackages [pyspedas]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-04-27 00:16:24] INFO root fetch - processPackages [captif-cpx-db]: New version: [0.2] Old Version: [0.1]
+[2023-04-27 00:16:24] INFO root fetch - processPackages [python-can-bluetooth]: Downloading https://files.pythonhosted.org/packages/8b/11/a716e72ec9814f2d29fe8c16ecb138b95b8f119426c6e87119525b860649/python-can-bluetooth-0.1.1.tar.gz
+[2023-04-27 00:16:24] INFO root fetch - processPackages [pod5]: Downloading https://files.pythonhosted.org/packages/06/66/f47d9c849743d0a74627da58b0e9305475537e177d5d01da8121e87899e9/pod5-0.1.4-py3-none-any.whl
+[2023-04-27 00:16:24] INFO root fetch - processPackages [pyflutterinstall]: Downloading https://files.pythonhosted.org/packages/18/b1/d837341b3879ba71748eaec0c358064b26089dbf3eb9635fe90f746b7b5f/pyflutterinstall-1.2.5.tar.gz
+[2023-04-27 00:16:24] INFO root fetch - processPackages [pyspedas]: Downloading https://files.pythonhosted.org/packages/bf/ad/dd5890f9278e06a201ee6130e2aa675b3982727c5e12f18a5a30aef3b52f/pyspedas-1.4.8.tar.gz
+[2023-04-27 00:16:24] INFO root fetch - processPackages [mell]: Downloading https://files.pythonhosted.org/packages/4e/71/22433835e0fa14c9bd8359428706e8b0cc89d770d63bf58d5a5bddb5b1da/mell-2.0.2.tar.gz
+[2023-04-27 00:16:24] INFO root fetch - processPackages [shinylive]: Downloading https://files.pythonhosted.org/packages/dc/bd/1febe95c8382d6141a8247e700c20d0d3a680a66615654cb1434076451d6/shinylive-0.0.8.tar.gz
+[2023-04-27 00:16:24] INFO root fetch - processPackages [captif-cpx-db]: Downloading https://files.pythonhosted.org/packages/30/bb/1a1ad6b083e89e5b34efca6442a630ae9f4d9c1474f34fbacabadaa01387/captif_cpx_db-0.1.tar.gz
+[2023-04-27 00:16:24] INFO root fetch - processPackages [cohere]: Downloading https://files.pythonhosted.org/packages/6f/32/91a5935afb0dea2e8a2c32ba8bdfc49b3519363ce37123d69e03435cd259/cohere-4.3.0.tar.gz
+[2023-04-27 00:16:24] INFO root fetch - processPackages [momento-wire-types]: executing diffoscope
+[2023-04-27 00:16:24] INFO root fetch - processPackages [momento-wire-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/momento-wire-types-0.9.1.tar.gz tmp/momento-wire-types-0.9.2.tar.gz --markdown 20230427/m/momento-wire-types/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-04-27 00:16:24] INFO root fetch - processPackages [dark-matter]: executing diffoscope
+[2023-04-27 00:16:24] INFO root fetch - processPackages [dark-matter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dark-matter-4.0.8.tar.gz tmp/dark-matter-4.0.9.tar.gz --markdown 20230427/d/dark-matter/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-04-27 00:16:24] INFO root fetch - processPackages [cohere]: executing diffoscope
+[2023-04-27 00:16:24] INFO root fetch - processPackages [cohere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cohere-4.2.1.tar.gz tmp/cohere-4.3.0.tar.gz --markdown 20230427/c/cohere/4.2.1-4.3.0/diff.md --exclude *.pyd
+[2023-04-27 00:16:24] INFO root fetch - processPackages [shinylive]: Downloading https://files.pythonhosted.org/packages/8d/be/a35a5b65d34cdd1462e80feed76c05f541de3d1a8298df15c8811e655b37/shinylive-0.0.9.tar.gz
+[2023-04-27 00:16:24] INFO root fetch - processPackages [python-can-bluetooth]: Downloading https://files.pythonhosted.org/packages/86/20/5c645356c11f824710b005a6cc6987758c4429f1a922b498e5bc6712f2a6/python-can-bluetooth-0.1.2.tar.gz
+[2023-04-27 00:16:24] INFO root fetch - processPackages [pyflutterinstall]: Downloading https://files.pythonhosted.org/packages/96/98/e5c6631dd4dcfe8fe881df868fcf0eb16a45eed2aa6bddf05dc2605e2c29/pyflutterinstall-1.2.6.tar.gz
+[2023-04-27 00:16:24] INFO root fetch - processPackages [pod5]: Downloading https://files.pythonhosted.org/packages/59/4b/7806c3f696a4a13e9b101d748615f3602b47e20fe6f9cecf47f97e644244/pod5-0.1.5-py3-none-any.whl
+[2023-04-27 00:16:24] INFO root fetch - processPackages [python-can-bluetooth]: executing diffoscope
+[2023-04-27 00:16:24] INFO root fetch - processPackages [python-can-bluetooth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-can-bluetooth-0.1.1.tar.gz tmp/python-can-bluetooth-0.1.2.tar.gz --markdown 20230427/p/python-can-bluetooth/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-27 00:16:24] INFO root fetch - processPackages [shinylive]: executing diffoscope
+[2023-04-27 00:16:24] INFO root fetch - processPackages [shinylive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shinylive-0.0.8.tar.gz tmp/shinylive-0.0.9.tar.gz --markdown 20230427/s/shinylive/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 00:16:24] INFO root fetch - processPackages [pyflutterinstall]: executing diffoscope
+[2023-04-27 00:16:24] INFO root fetch - processPackages [pyflutterinstall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyflutterinstall-1.2.5.tar.gz tmp/pyflutterinstall-1.2.6.tar.gz --markdown 20230427/p/pyflutterinstall/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-04-27 00:16:24] INFO root fetch - processPackages [captif-cpx-db]: Downloading https://files.pythonhosted.org/packages/0f/e5/4a156759f39af23934b8ec92bc705d8ce2a782bff7c048cdf04d38ceb1d4/captif_cpx_db-0.2.tar.gz
+[2023-04-27 00:16:24] INFO root fetch - processPackages [mell]: Downloading https://files.pythonhosted.org/packages/19/2d/9b87b91faaf7896a7264e6558b64ac5b6d8c46a12b3c270a6c2a6aee51f5/mell-2.0.3.tar.gz
+[2023-04-27 00:16:24] INFO root fetch - processPackages [mell]: executing diffoscope
+[2023-04-27 00:16:24] INFO root fetch - processPackages [mell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mell-2.0.2.tar.gz tmp/mell-2.0.3.tar.gz --markdown 20230427/m/mell/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-04-27 00:16:24] INFO root fetch - processPackages [pod5]: executing diffoscope
+[2023-04-27 00:16:24] INFO root fetch - processPackages [pod5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pod5-0.1.4-py3-none-any.whl.zip tmp/pod5-0.1.5-py3-none-any.whl.zip --markdown 20230427/p/pod5/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-27 00:16:24] INFO root fetch - processPackages [captif-cpx-db]: executing diffoscope
+[2023-04-27 00:16:24] INFO root fetch - processPackages [captif-cpx-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/captif_cpx_db-0.1.tar.gz tmp/captif_cpx_db-0.2.tar.gz --markdown 20230427/c/captif-cpx-db/0.1-0.2/diff.md --exclude *.pyd
+[2023-04-27 00:16:25] INFO root fetch - processPackages [pyspedas]: Downloading https://files.pythonhosted.org/packages/b5/b7/3d48261535fe611ab7382df525da5ac6ff263d92d0ddfb4219bafdc22a84/pyspedas-1.4.9.tar.gz
+[2023-04-27 00:16:25] INFO root fetch - processPackages [pyspedas]: executing diffoscope
+[2023-04-27 00:16:25] INFO root fetch - processPackages [pyspedas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyspedas-1.4.8.tar.gz tmp/pyspedas-1.4.9.tar.gz --markdown 20230427/p/pyspedas/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-04-27 00:16:26] INFO root fetch - processPackages [momento-wire-types]: Start processing: pypmed
+[2023-04-27 00:16:26] INFO root fetch - main [MainThread]: End processing [momento-wire-types]: success
+[2023-04-27 00:16:26] INFO root fetch - processPackages [pypmed]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-27 00:16:26] INFO root fetch - processPackages [pypmed]: Downloading https://files.pythonhosted.org/packages/4f/c4/d954ceb8b3a5470136eaf5f802fe286a51a2454284a6185c6217a6d2160e/pypmed-0.1.3.tar.gz
+[2023-04-27 00:16:26] INFO root fetch - processPackages [captif-cpx-db]: Start processing: kcli
+[2023-04-27 00:16:26] INFO root fetch - main [MainThread]: End processing [captif-cpx-db]: success
+[2023-04-27 00:16:26] INFO root fetch - processPackages [kcli]: New version: [99.0.202304262215] Old Version: [99.0.202304260901]
+[2023-04-27 00:16:26] INFO root fetch - processPackages [shinylive]: Start processing: viser
+[2023-04-27 00:16:26] INFO root fetch - main [MainThread]: End processing [shinylive]: success
+[2023-04-27 00:16:26] INFO root fetch - main [MainThread]: End processing [pyflutterinstall]: success
+[2023-04-27 00:16:26] INFO root fetch - processPackages [pypmed]: Downloading https://files.pythonhosted.org/packages/77/33/c14f211e3ad4dcdaebf506aa56b09449f6f0e7f84705372f55ce8aed1838/pypmed-0.1.4.tar.gz
+[2023-04-27 00:16:26] INFO root fetch - processPackages [viser]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-27 00:16:26] INFO root fetch - main [MainThread]: End processing [cohere]: success
+[2023-04-27 00:16:26] INFO root fetch - main [MainThread]: End processing [mell]: success
+[2023-04-27 00:16:26] INFO root fetch - main [MainThread]: End processing [python-can-bluetooth]: success
+[2023-04-27 00:16:26] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/52/ef/aa61223da1fbdcbe504025cf9703d81d01cafd797865585daff2a5ca9cab/kcli-99.0.202304262215-py3-none-any.whl
+[2023-04-27 00:16:26] INFO root fetch - main [MainThread]: End processing [pod5]: success
+[2023-04-27 00:16:26] INFO root fetch - processPackages [pypmed]: executing diffoscope
+[2023-04-27 00:16:26] INFO root fetch - processPackages [pypmed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypmed-0.1.3.tar.gz tmp/pypmed-0.1.4.tar.gz --markdown 20230427/p/pypmed/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-27 00:16:26] INFO root fetch - processPackages [viser]: Downloading https://files.pythonhosted.org/packages/64/90/e2bfa1c1c619de2a031da67fb16a692ce2e8708b371d677b2344539b9460/viser-0.0.6.tar.gz
+[2023-04-27 00:16:26] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-04-27 00:16:26] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202304260901-py3-none-any.whl.zip tmp/kcli-99.0.202304262215-py3-none-any.whl.zip --markdown 20230427/k/kcli/99.0.202304260901-99.0.202304262215/diff.md --exclude *.pyd
+[2023-04-27 00:16:27] INFO root fetch - processPackages [viser]: Downloading https://files.pythonhosted.org/packages/0f/07/b4fbb4d9733007c8480c115f3fb622b31397751a9e4422c3d99a11d3d70b/viser-0.0.7.tar.gz
+[2023-04-27 00:16:27] INFO root fetch - processPackages [viser]: executing diffoscope
+[2023-04-27 00:16:27] INFO root fetch - processPackages [viser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viser-0.0.6.tar.gz tmp/viser-0.0.7.tar.gz --markdown 20230427/v/viser/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-27 00:16:27] INFO root fetch - main [MainThread]: End processing [pypmed]: success
+[2023-04-27 00:16:28] INFO root fetch - main [MainThread]: End processing [dark-matter]: success
+[2023-04-27 00:16:30] INFO root fetch - main [MainThread]: End processing [pyspedas]: success
+[2023-04-27 00:16:34] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-04-27 00:18:47] INFO root fetch - main [MainThread]: End processing [viser]: success
+[2023-04-27 00:18:47] INFO root fetch - main [MainThread]: Store serial: [17872299]
