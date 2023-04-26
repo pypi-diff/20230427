@@ -2493,3 +2493,389 @@
 [2023-04-27 01:10:25] INFO root fetch - main [MainThread]: End processing [aws-cdk.aws-scheduler]: success
 [2023-04-27 01:10:26] INFO root fetch - main [MainThread]: End processing [aws-cdk.aws-sdb]: success
 [2023-04-27 01:10:26] INFO root fetch - main [MainThread]: Store serial: [17873062]
+[2023-04-27 01:15:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17873062]
+[2023-04-27 01:15:35] INFO root fetch - main [MainThread]: Found 59 changed packages
+[2023-04-27 01:15:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aws-cdk.aws-scheduler
+[2023-04-27 01:15:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aws-cdk.aws-sdb
+[2023-04-27 01:15:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aws-cdk.aws-secretsmanager
+[2023-04-27 01:15:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aws-cdk.aws-securityhub
+[2023-04-27 01:15:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aws-cdk.aws-servicecatalog
+[2023-04-27 01:15:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aws-cdk.aws-servicecatalogappregistry
+[2023-04-27 01:15:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aws-cdk.aws-servicediscovery
+[2023-04-27 01:15:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aws-cdk.aws-ses
+[2023-04-27 01:15:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aws-cdk.aws-ses-actions
+[2023-04-27 01:15:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aws-cdk.aws-signer
+[2023-04-27 01:15:35] INFO root fetch - processPackages [aws-cdk.aws-scheduler]: New version: [1.200.0] Old Version: [1.199.0]
+[2023-04-27 01:15:35] INFO root fetch - processPackages [aws-cdk.aws-servicecatalog]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-04-27 01:15:35] INFO root fetch - processPackages [aws-cdk.aws-sdb]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-04-27 01:15:35] INFO root fetch - processPackages [aws-cdk.aws-secretsmanager]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-04-27 01:15:35] INFO root fetch - processPackages [aws-cdk.aws-servicecatalogappregistry]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-04-27 01:15:35] INFO root fetch - processPackages [aws-cdk.aws-ses-actions]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-04-27 01:15:35] INFO root fetch - processPackages [aws-cdk.aws-servicediscovery]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-04-27 01:15:35] INFO root fetch - processPackages [aws-cdk.aws-ses]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-04-27 01:15:35] INFO root fetch - processPackages [aws-cdk.aws-securityhub]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-04-27 01:15:35] INFO root fetch - processPackages [aws-cdk.aws-signer]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-04-27 01:15:35] INFO root fetch - processPackages [aws-cdk.aws-sdb]: executing diffoscope
+[2023-04-27 01:15:35] INFO root fetch - processPackages [aws-cdk.aws-sdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.aws-sdb-1.98.0.tar.gz tmp/aws-cdk.aws-sdb-1.99.0.tar.gz --markdown 20230427/a/aws-cdk.aws-sdb/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-04-27 01:15:35] INFO root fetch - processPackages [aws-cdk.aws-scheduler]: executing diffoscope
+[2023-04-27 01:15:35] INFO root fetch - processPackages [aws-cdk.aws-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.aws-scheduler-1.199.0.tar.gz tmp/aws_cdk.aws_scheduler-1.200.0-py3-none-any.whl.zip --markdown 20230427/a/aws-cdk.aws-scheduler/1.199.0-1.200.0/diff.md --exclude *.pyd
+[2023-04-27 01:15:35] INFO root fetch - processPackages [aws-cdk.aws-servicecatalog]: Downloading https://files.pythonhosted.org/packages/0a/95/a8c675e0a1b4478b7685e2b64591a5eb11d0a2ea668ac9431fd246302ee7/aws-cdk.aws-servicecatalog-1.98.0.tar.gz
+[2023-04-27 01:15:35] INFO root fetch - processPackages [aws-cdk.aws-servicediscovery]: Downloading https://files.pythonhosted.org/packages/27/e5/78124d055965229b809d1f7a977abc5b4a0addf6b3e980bf4bf1ada1bfeb/aws-cdk.aws-servicediscovery-1.98.0.tar.gz
+[2023-04-27 01:15:35] INFO root fetch - processPackages [aws-cdk.aws-servicecatalogappregistry]: Downloading https://files.pythonhosted.org/packages/7d/36/5228f5ebebccc14faf6fdc25fb80db5516d8d7f8134c2ffeb503d82613f0/aws-cdk.aws-servicecatalogappregistry-1.98.0.tar.gz
+[2023-04-27 01:15:35] INFO root fetch - processPackages [aws-cdk.aws-ses]: Downloading https://files.pythonhosted.org/packages/28/96/f2f4159b4db895f829589109a30a3563d951672632b04124eaf27f39c355/aws-cdk.aws-ses-1.98.0.tar.gz
+[2023-04-27 01:15:35] INFO root fetch - processPackages [aws-cdk.aws-signer]: Downloading https://files.pythonhosted.org/packages/d5/32/13b8848cf5fa20d9b86ec25f23cd68fa8839861a8627d084ef593f86d551/aws-cdk.aws-signer-1.98.0.tar.gz
+[2023-04-27 01:15:35] INFO root fetch - processPackages [aws-cdk.aws-securityhub]: Downloading https://files.pythonhosted.org/packages/fc/a0/ff1e27b960081ff3a89433f0ca9725b19181ddb606538c95cec3e184b93e/aws-cdk.aws-securityhub-1.98.0.tar.gz
+[2023-04-27 01:15:35] INFO root fetch - processPackages [aws-cdk.aws-secretsmanager]: Downloading https://files.pythonhosted.org/packages/49/12/ab908188d7c2ef19c5341d82a85c198cd3cf5a36c0262c2f2f2595238b7f/aws-cdk.aws-secretsmanager-1.98.0.tar.gz
+[2023-04-27 01:15:35] INFO root fetch - processPackages [aws-cdk.aws-ses-actions]: Downloading https://files.pythonhosted.org/packages/e2/14/7540e62108c620a9e24627d8d385c3fad335e73c5dcbcfb251a960c71540/aws-cdk.aws-ses-actions-1.98.0.tar.gz
+[2023-04-27 01:15:35] INFO root fetch - processPackages [aws-cdk.aws-servicecatalogappregistry]: Downloading https://files.pythonhosted.org/packages/02/b6/fa348b753c91823ad14bf44cb83279574442b2a46817f5874ec1ecafb147/aws-cdk.aws-servicecatalogappregistry-1.99.0.tar.gz
+[2023-04-27 01:15:35] INFO root fetch - processPackages [aws-cdk.aws-servicecatalog]: Downloading https://files.pythonhosted.org/packages/7d/34/9c8f1ebceb80ba0d41ecaad1d78823080dfd2ccfda246b536d6dc2997bd9/aws-cdk.aws-servicecatalog-1.99.0.tar.gz
+[2023-04-27 01:15:35] INFO root fetch - processPackages [aws-cdk.aws-securityhub]: Downloading https://files.pythonhosted.org/packages/76/68/bbee8db1661dd40d7c27ea45d336abbbd812cfe252d9317245dc3671931d/aws-cdk.aws-securityhub-1.99.0.tar.gz
+[2023-04-27 01:15:35] INFO root fetch - processPackages [aws-cdk.aws-signer]: Downloading https://files.pythonhosted.org/packages/0b/6f/0666112117d5278487ea0f96358525a7b3a8368ea935e479d04875ea4249/aws-cdk.aws-signer-1.99.0.tar.gz
+[2023-04-27 01:15:35] INFO root fetch - processPackages [aws-cdk.aws-ses]: Downloading https://files.pythonhosted.org/packages/e4/57/799b4945081bdfb203dff65ec26fc0fe494656744c361c607b5f85686a32/aws-cdk.aws-ses-1.99.0.tar.gz
+[2023-04-27 01:15:35] INFO root fetch - processPackages [aws-cdk.aws-ses-actions]: Downloading https://files.pythonhosted.org/packages/3e/a4/0d238cd5ecd5d4ea7cd4686ec3ee5cf78a2cdda5eb21222472b661b3d254/aws-cdk.aws-ses-actions-1.99.0.tar.gz
+[2023-04-27 01:15:35] INFO root fetch - processPackages [aws-cdk.aws-servicediscovery]: Downloading https://files.pythonhosted.org/packages/3c/35/d4103f6706ffe3eba102671dd25d56ef6cd58cad958ff37533b5e26eab88/aws-cdk.aws-servicediscovery-1.99.0.tar.gz
+[2023-04-27 01:15:35] INFO root fetch - processPackages [aws-cdk.aws-servicecatalogappregistry]: executing diffoscope
+[2023-04-27 01:15:35] INFO root fetch - processPackages [aws-cdk.aws-servicecatalogappregistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.aws-servicecatalogappregistry-1.98.0.tar.gz tmp/aws-cdk.aws-servicecatalogappregistry-1.99.0.tar.gz --markdown 20230427/a/aws-cdk.aws-servicecatalogappregistry/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-04-27 01:15:35] INFO root fetch - processPackages [aws-cdk.aws-signer]: executing diffoscope
+[2023-04-27 01:15:35] INFO root fetch - processPackages [aws-cdk.aws-signer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.aws-signer-1.98.0.tar.gz tmp/aws-cdk.aws-signer-1.99.0.tar.gz --markdown 20230427/a/aws-cdk.aws-signer/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-04-27 01:15:35] INFO root fetch - processPackages [aws-cdk.aws-ses]: executing diffoscope
+[2023-04-27 01:15:35] INFO root fetch - processPackages [aws-cdk.aws-ses]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.aws-ses-1.98.0.tar.gz tmp/aws-cdk.aws-ses-1.99.0.tar.gz --markdown 20230427/a/aws-cdk.aws-ses/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-04-27 01:15:35] INFO root fetch - processPackages [aws-cdk.aws-ses-actions]: executing diffoscope
+[2023-04-27 01:15:35] INFO root fetch - processPackages [aws-cdk.aws-ses-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.aws-ses-actions-1.98.0.tar.gz tmp/aws-cdk.aws-ses-actions-1.99.0.tar.gz --markdown 20230427/a/aws-cdk.aws-ses-actions/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-04-27 01:15:35] INFO root fetch - processPackages [aws-cdk.aws-servicediscovery]: executing diffoscope
+[2023-04-27 01:15:35] INFO root fetch - processPackages [aws-cdk.aws-servicediscovery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.aws-servicediscovery-1.98.0.tar.gz tmp/aws-cdk.aws-servicediscovery-1.99.0.tar.gz --markdown 20230427/a/aws-cdk.aws-servicediscovery/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-04-27 01:15:36] INFO root fetch - processPackages [aws-cdk.aws-securityhub]: executing diffoscope
+[2023-04-27 01:15:36] INFO root fetch - processPackages [aws-cdk.aws-securityhub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.aws-securityhub-1.98.0.tar.gz tmp/aws-cdk.aws-securityhub-1.99.0.tar.gz --markdown 20230427/a/aws-cdk.aws-securityhub/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-04-27 01:15:36] INFO root fetch - processPackages [aws-cdk.aws-servicecatalog]: executing diffoscope
+[2023-04-27 01:15:36] INFO root fetch - processPackages [aws-cdk.aws-servicecatalog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.aws-servicecatalog-1.98.0.tar.gz tmp/aws-cdk.aws-servicecatalog-1.99.0.tar.gz --markdown 20230427/a/aws-cdk.aws-servicecatalog/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-04-27 01:15:36] INFO root fetch - processPackages [aws-cdk.aws-scheduler]: Start processing: aws-cdk.aws-simspaceweaver
+[2023-04-27 01:15:36] INFO root fetch - main [MainThread]: End processing [aws-cdk.aws-scheduler]: success
+[2023-04-27 01:15:36] INFO root fetch - processPackages [aws-cdk.aws-simspaceweaver]: New version: [1.200.0] Old Version: [1.199.0]
+[2023-04-27 01:15:36] INFO root fetch - processPackages [aws-cdk.aws-sdb]: Start processing: aws-cdk.aws-sns
+[2023-04-27 01:15:36] INFO root fetch - main [MainThread]: End processing [aws-cdk.aws-sdb]: success
+[2023-04-27 01:15:36] INFO root fetch - processPackages [aws-cdk.aws-secretsmanager]: Downloading https://files.pythonhosted.org/packages/70/3e/5cc3ed8e114cec8a30f1dc9c3d78faf6e932786e1b613d54de27d2f63bfd/aws-cdk.aws-secretsmanager-1.99.0.tar.gz
+[2023-04-27 01:15:36] INFO root fetch - processPackages [aws-cdk.aws-sns]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-04-27 01:15:36] INFO root fetch - processPackages [aws-cdk.aws-simspaceweaver]: Downloading https://files.pythonhosted.org/packages/46/fe/0bd66ebc9f74b530ddc67b2c8d55f39b898c2e1f02bd58e37eadb4f5440f/aws-cdk.aws-simspaceweaver-1.199.0.tar.gz
+[2023-04-27 01:15:36] INFO root fetch - processPackages [aws-cdk.aws-sns]: Downloading https://files.pythonhosted.org/packages/47/da/c2a8fcc4d67ec3812939f4a19bca0da999f1c9e0dda758146fe555e7d516/aws-cdk.aws-sns-1.98.0.tar.gz
+[2023-04-27 01:15:36] INFO root fetch - processPackages [aws-cdk.aws-simspaceweaver]: Downloading https://files.pythonhosted.org/packages/b1/18/cb6cd5db1eb8c974ff7571f8572ac1c9381014411f942d77c546aca9ec0c/aws_cdk.aws_simspaceweaver-1.200.0-py3-none-any.whl
+[2023-04-27 01:15:36] INFO root fetch - processPackages [aws-cdk.aws-simspaceweaver]: executing diffoscope
+[2023-04-27 01:15:36] INFO root fetch - processPackages [aws-cdk.aws-simspaceweaver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.aws-simspaceweaver-1.199.0.tar.gz tmp/aws_cdk.aws_simspaceweaver-1.200.0-py3-none-any.whl.zip --markdown 20230427/a/aws-cdk.aws-simspaceweaver/1.199.0-1.200.0/diff.md --exclude *.pyd
+[2023-04-27 01:15:36] INFO root fetch - processPackages [aws-cdk.aws-secretsmanager]: executing diffoscope
+[2023-04-27 01:15:36] INFO root fetch - processPackages [aws-cdk.aws-secretsmanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.aws-secretsmanager-1.98.0.tar.gz tmp/aws-cdk.aws-secretsmanager-1.99.0.tar.gz --markdown 20230427/a/aws-cdk.aws-secretsmanager/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-04-27 01:15:36] INFO root fetch - processPackages [aws-cdk.aws-sns]: Downloading https://files.pythonhosted.org/packages/1a/56/e30362004d2d55e57a4441f512d357cd490b0c63582f88ca4714755c4a5b/aws-cdk.aws-sns-1.99.0.tar.gz
+[2023-04-27 01:15:37] INFO root fetch - processPackages [aws-cdk.aws-sns]: executing diffoscope
+[2023-04-27 01:15:37] INFO root fetch - processPackages [aws-cdk.aws-sns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.aws-sns-1.98.0.tar.gz tmp/aws-cdk.aws-sns-1.99.0.tar.gz --markdown 20230427/a/aws-cdk.aws-sns/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-04-27 01:15:37] INFO root fetch - processPackages [aws-cdk.aws-servicecatalogappregistry]: Start processing: aws-cdk.aws-sns-subscriptions
+[2023-04-27 01:15:37] INFO root fetch - main [MainThread]: End processing [aws-cdk.aws-servicecatalogappregistry]: success
+[2023-04-27 01:15:37] INFO root fetch - processPackages [aws-cdk.aws-sns-subscriptions]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-04-27 01:15:37] INFO root fetch - processPackages [aws-cdk.aws-signer]: Start processing: aws-cdk.aws-sqs
+[2023-04-27 01:15:37] INFO root fetch - main [MainThread]: End processing [aws-cdk.aws-signer]: success
+[2023-04-27 01:15:37] INFO root fetch - processPackages [aws-cdk.aws-sqs]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-04-27 01:15:37] INFO root fetch - processPackages [aws-cdk.aws-sns-subscriptions]: Downloading https://files.pythonhosted.org/packages/6e/83/8cbde624c749977a2ad50b15514e548f3577ead1b43646df3d1280e866b1/aws-cdk.aws-sns-subscriptions-1.98.0.tar.gz
+[2023-04-27 01:15:37] INFO root fetch - processPackages [aws-cdk.aws-sqs]: Downloading https://files.pythonhosted.org/packages/6c/f4/18eceda3f2ec24ee7e7016128e783511447fc177af730926f7995890cf48/aws-cdk.aws-sqs-1.98.0.tar.gz
+[2023-04-27 01:15:37] INFO root fetch - processPackages [aws-cdk.aws-servicediscovery]: Start processing: aws-cdk.aws-ssm
+[2023-04-27 01:15:37] INFO root fetch - main [MainThread]: End processing [aws-cdk.aws-servicediscovery]: success
+[2023-04-27 01:15:37] INFO root fetch - processPackages [aws-cdk.aws-ssm]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-04-27 01:15:37] INFO root fetch - processPackages [aws-cdk.aws-servicecatalog]: Start processing: aws-cdk.aws-ssmcontacts
+[2023-04-27 01:15:37] INFO root fetch - main [MainThread]: End processing [aws-cdk.aws-servicecatalog]: success
+[2023-04-27 01:15:37] INFO root fetch - processPackages [aws-cdk.aws-ssmcontacts]: New version: [1.200.0] Old Version: [1.199.0]
+[2023-04-27 01:15:37] INFO root fetch - processPackages [aws-cdk.aws-ses-actions]: Start processing: aws-cdk.aws-ssmincidents
+[2023-04-27 01:15:37] INFO root fetch - main [MainThread]: End processing [aws-cdk.aws-ses-actions]: success
+[2023-04-27 01:15:37] INFO root fetch - processPackages [aws-cdk.aws-ssmincidents]: New version: [1.200.0] Old Version: [1.199.0]
+[2023-04-27 01:15:37] INFO root fetch - processPackages [aws-cdk.aws-securityhub]: Start processing: aws-cdk.aws-sso
+[2023-04-27 01:15:37] INFO root fetch - main [MainThread]: End processing [aws-cdk.aws-securityhub]: success
+[2023-04-27 01:15:37] INFO root fetch - processPackages [aws-cdk.aws-sso]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-04-27 01:15:37] INFO root fetch - processPackages [aws-cdk.aws-ses]: Start processing: aws-cdk.aws-stepfunctions
+[2023-04-27 01:15:37] INFO root fetch - main [MainThread]: End processing [aws-cdk.aws-ses]: success
+[2023-04-27 01:15:37] INFO root fetch - processPackages [aws-cdk.aws-ssm]: Downloading https://files.pythonhosted.org/packages/56/1b/946e09104dd4c9771a34d85d5ce50d1b290df47562cca86fd0b21b6bab38/aws-cdk.aws-ssm-1.98.0.tar.gz
+[2023-04-27 01:15:37] INFO root fetch - processPackages [aws-cdk.aws-stepfunctions]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-04-27 01:15:37] INFO root fetch - processPackages [aws-cdk.aws-sns-subscriptions]: Downloading https://files.pythonhosted.org/packages/54/9a/c9ddb01bcdf27810006a8e89bcdfe15c525e8533de49acc4c74901b17711/aws-cdk.aws-sns-subscriptions-1.99.0.tar.gz
+[2023-04-27 01:15:37] INFO root fetch - processPackages [aws-cdk.aws-ssmcontacts]: Downloading https://files.pythonhosted.org/packages/9c/d6/63f0352264ccdcc7ee8d3294b27ce22ee4e63f3a69a16ef9c33c03327e3c/aws-cdk.aws-ssmcontacts-1.199.0.tar.gz
+[2023-04-27 01:15:37] INFO root fetch - processPackages [aws-cdk.aws-sqs]: Downloading https://files.pythonhosted.org/packages/1d/94/127073cac18929823861918c40d770f35e0992092986cbfa0629e6c9de70/aws-cdk.aws-sqs-1.99.0.tar.gz
+[2023-04-27 01:15:37] INFO root fetch - processPackages [aws-cdk.aws-ssmincidents]: Downloading https://files.pythonhosted.org/packages/57/ab/d5a7f08d3ead2c565f8b9dfbffbbb73e35c2fe588888edfee1508b8ef7db/aws-cdk.aws-ssmincidents-1.199.0.tar.gz
+[2023-04-27 01:15:37] INFO root fetch - processPackages [aws-cdk.aws-sso]: Downloading https://files.pythonhosted.org/packages/05/ea/6cbdbcc03e2ec28b7c35fcd07b4390f6261d08a662945167dee9f3c51b85/aws-cdk.aws-sso-1.98.0.tar.gz
+[2023-04-27 01:15:37] INFO root fetch - processPackages [aws-cdk.aws-stepfunctions]: Downloading https://files.pythonhosted.org/packages/05/b4/1fca534d53401be2143752c5052593093da9cbeffc0fa7fea470cadcb1b1/aws-cdk.aws-stepfunctions-1.98.0.tar.gz
+[2023-04-27 01:15:38] INFO root fetch - processPackages [aws-cdk.aws-sns-subscriptions]: executing diffoscope
+[2023-04-27 01:15:38] INFO root fetch - processPackages [aws-cdk.aws-sns-subscriptions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.aws-sns-subscriptions-1.98.0.tar.gz tmp/aws-cdk.aws-sns-subscriptions-1.99.0.tar.gz --markdown 20230427/a/aws-cdk.aws-sns-subscriptions/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-04-27 01:15:38] INFO root fetch - processPackages [aws-cdk.aws-ssmcontacts]: Downloading https://files.pythonhosted.org/packages/a1/03/f3b782eda5dc13e9d69015d5b378620b1288c2b2d2137fec5a7993d568b4/aws_cdk.aws_ssmcontacts-1.200.0-py3-none-any.whl
+[2023-04-27 01:15:38] INFO root fetch - processPackages [aws-cdk.aws-simspaceweaver]: Start processing: dcicutils
+[2023-04-27 01:15:38] INFO root fetch - main [MainThread]: End processing [aws-cdk.aws-simspaceweaver]: success
+[2023-04-27 01:15:38] INFO root fetch - processPackages [aws-cdk.aws-sqs]: executing diffoscope
+[2023-04-27 01:15:38] INFO root fetch - processPackages [aws-cdk.aws-sqs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.aws-sqs-1.98.0.tar.gz tmp/aws-cdk.aws-sqs-1.99.0.tar.gz --markdown 20230427/a/aws-cdk.aws-sqs/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-04-27 01:15:38] INFO root fetch - processPackages [dcicutils]: New version: [7.3.0.1b38] Old Version: [7.3.0.1b37]
+[2023-04-27 01:15:38] INFO root fetch - processPackages [aws-cdk.aws-ssmcontacts]: executing diffoscope
+[2023-04-27 01:15:38] INFO root fetch - processPackages [aws-cdk.aws-ssmcontacts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.aws-ssmcontacts-1.199.0.tar.gz tmp/aws_cdk.aws_ssmcontacts-1.200.0-py3-none-any.whl.zip --markdown 20230427/a/aws-cdk.aws-ssmcontacts/1.199.0-1.200.0/diff.md --exclude *.pyd
+[2023-04-27 01:15:38] INFO root fetch - processPackages [aws-cdk.aws-ssmincidents]: Downloading https://files.pythonhosted.org/packages/4b/d1/ab082e102623c19c068f269263b497a5d8a371fcb81a151507cf8081e1a7/aws_cdk.aws_ssmincidents-1.200.0-py3-none-any.whl
+[2023-04-27 01:15:38] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/63/31/6605e6c1b0ea984f3a28c3d263ca5cb5c99cc30e89bcaa5576c7fc2d919e/dcicutils-7.3.0.1b37.tar.gz
+[2023-04-27 01:15:38] INFO root fetch - processPackages [aws-cdk.aws-sso]: Downloading https://files.pythonhosted.org/packages/7e/d0/bc76fe5ce923d0a633dfe623e8be1e2aeed35f9b9f8eb00e0ef66d47fb2d/aws-cdk.aws-sso-1.99.0.tar.gz
+[2023-04-27 01:15:38] INFO root fetch - processPackages [aws-cdk.aws-ssmincidents]: executing diffoscope
+[2023-04-27 01:15:38] INFO root fetch - processPackages [aws-cdk.aws-ssmincidents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.aws-ssmincidents-1.199.0.tar.gz tmp/aws_cdk.aws_ssmincidents-1.200.0-py3-none-any.whl.zip --markdown 20230427/a/aws-cdk.aws-ssmincidents/1.199.0-1.200.0/diff.md --exclude *.pyd
+[2023-04-27 01:15:38] INFO root fetch - processPackages [aws-cdk.aws-secretsmanager]: Start processing: aws-cdk.aws-stepfunctions-tasks
+[2023-04-27 01:15:38] INFO root fetch - main [MainThread]: End processing [aws-cdk.aws-secretsmanager]: success
+[2023-04-27 01:15:38] INFO root fetch - processPackages [aws-cdk.aws-stepfunctions]: Downloading https://files.pythonhosted.org/packages/7b/d1/f29eecaba7c5ba1267f025e0cac57c7f1581c75c2436689a2d69aef0f264/aws-cdk.aws-stepfunctions-1.99.0.tar.gz
+[2023-04-27 01:15:38] INFO root fetch - processPackages [aws-cdk.aws-stepfunctions-tasks]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-04-27 01:15:38] INFO root fetch - processPackages [aws-cdk.aws-sns]: Start processing: aws-cdk.aws-supportapp
+[2023-04-27 01:15:38] INFO root fetch - main [MainThread]: End processing [aws-cdk.aws-sns]: success
+[2023-04-27 01:15:38] INFO root fetch - processPackages [aws-cdk.aws-ssm]: Downloading https://files.pythonhosted.org/packages/6b/e4/74ed570a44f249f27e089c6517864f09ad6810ec1e438ece06c543bd6f83/aws-cdk.aws-ssm-1.99.0.tar.gz
+[2023-04-27 01:15:38] INFO root fetch - processPackages [aws-cdk.aws-supportapp]: New version: [1.200.0] Old Version: [1.199.0]
+[2023-04-27 01:15:38] INFO root fetch - processPackages [aws-cdk.aws-sso]: executing diffoscope
+[2023-04-27 01:15:38] INFO root fetch - processPackages [aws-cdk.aws-sso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.aws-sso-1.98.0.tar.gz tmp/aws-cdk.aws-sso-1.99.0.tar.gz --markdown 20230427/a/aws-cdk.aws-sso/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-04-27 01:15:38] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/4b/aa/a244476d59a9ceddf42a8adad1e469ea9b8ba9ad9cecb84431a32564ee68/dcicutils-7.3.0.1b38.tar.gz
+[2023-04-27 01:15:38] INFO root fetch - processPackages [aws-cdk.aws-stepfunctions]: executing diffoscope
+[2023-04-27 01:15:38] INFO root fetch - processPackages [aws-cdk.aws-stepfunctions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.aws-stepfunctions-1.98.0.tar.gz tmp/aws-cdk.aws-stepfunctions-1.99.0.tar.gz --markdown 20230427/a/aws-cdk.aws-stepfunctions/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-04-27 01:15:38] INFO root fetch - processPackages [aws-cdk.aws-ssm]: executing diffoscope
+[2023-04-27 01:15:38] INFO root fetch - processPackages [aws-cdk.aws-ssm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.aws-ssm-1.98.0.tar.gz tmp/aws-cdk.aws-ssm-1.99.0.tar.gz --markdown 20230427/a/aws-cdk.aws-ssm/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-04-27 01:15:38] INFO root fetch - processPackages [aws-cdk.aws-stepfunctions-tasks]: Downloading https://files.pythonhosted.org/packages/4f/97/39efb1124a4622c28e807043d627437170c333b01d1f2168ada1058983ce/aws-cdk.aws-stepfunctions-tasks-1.98.0.tar.gz
+[2023-04-27 01:15:38] INFO root fetch - processPackages [aws-cdk.aws-supportapp]: Downloading https://files.pythonhosted.org/packages/d7/f8/a758865cef4c0f0b9eaf506e36635391cd7123226654dcfeb52773b89e21/aws-cdk.aws-supportapp-1.199.0.tar.gz
+[2023-04-27 01:15:38] INFO root fetch - processPackages [dcicutils]: executing diffoscope
+[2023-04-27 01:15:38] INFO root fetch - processPackages [dcicutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicutils-7.3.0.1b37.tar.gz tmp/dcicutils-7.3.0.1b38.tar.gz --markdown 20230427/d/dcicutils/7.3.0.1b37-7.3.0.1b38/diff.md --exclude *.pyd
+[2023-04-27 01:15:38] INFO root fetch - processPackages [aws-cdk.aws-supportapp]: Downloading https://files.pythonhosted.org/packages/ba/36/6a0e97b757784b7b7b0e8c0974582d14f1e0e9dd4e8e75b620935c5f3f22/aws_cdk.aws_supportapp-1.200.0-py3-none-any.whl
+[2023-04-27 01:15:38] INFO root fetch - processPackages [aws-cdk.aws-supportapp]: executing diffoscope
+[2023-04-27 01:15:38] INFO root fetch - processPackages [aws-cdk.aws-supportapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.aws-supportapp-1.199.0.tar.gz tmp/aws_cdk.aws_supportapp-1.200.0-py3-none-any.whl.zip --markdown 20230427/a/aws-cdk.aws-supportapp/1.199.0-1.200.0/diff.md --exclude *.pyd
+[2023-04-27 01:15:39] INFO root fetch - processPackages [aws-cdk.aws-stepfunctions-tasks]: Downloading https://files.pythonhosted.org/packages/a1/dd/c0fb2a1f1d103e30b8768ff3d75679113d6278a93328719cd7eb673bbe68/aws-cdk.aws-stepfunctions-tasks-1.99.0.tar.gz
+[2023-04-27 01:15:39] INFO root fetch - processPackages [aws-cdk.aws-stepfunctions-tasks]: executing diffoscope
+[2023-04-27 01:15:39] INFO root fetch - processPackages [aws-cdk.aws-stepfunctions-tasks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.aws-stepfunctions-tasks-1.98.0.tar.gz tmp/aws-cdk.aws-stepfunctions-tasks-1.99.0.tar.gz --markdown 20230427/a/aws-cdk.aws-stepfunctions-tasks/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-04-27 01:15:39] INFO root fetch - processPackages [aws-cdk.aws-sns-subscriptions]: Start processing: aws-cdk.aws-synthetics
+[2023-04-27 01:15:39] INFO root fetch - main [MainThread]: End processing [aws-cdk.aws-sns-subscriptions]: success
+[2023-04-27 01:15:39] INFO root fetch - processPackages [aws-cdk.aws-ssmcontacts]: Start processing: aws-cdk.aws-systemsmanagersap
+[2023-04-27 01:15:39] INFO root fetch - main [MainThread]: End processing [aws-cdk.aws-ssmcontacts]: success
+[2023-04-27 01:15:39] INFO root fetch - processPackages [aws-cdk.aws-synthetics]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-04-27 01:15:39] INFO root fetch - processPackages [aws-cdk.aws-systemsmanagersap]: New version: [1.200.0] Old Version: [1.199.0]
+[2023-04-27 01:15:39] INFO root fetch - processPackages [aws-cdk.aws-sso]: Start processing: aws-cdk.aws-timestream
+[2023-04-27 01:15:39] INFO root fetch - main [MainThread]: End processing [aws-cdk.aws-sso]: success
+[2023-04-27 01:15:39] INFO root fetch - processPackages [aws-cdk.aws-timestream]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-04-27 01:15:39] INFO root fetch - processPackages [aws-cdk.aws-synthetics]: Downloading https://files.pythonhosted.org/packages/b1/64/02162f66a8b91e30199655420d85af03843dcf4d0526ca56c036b96bd5bb/aws-cdk.aws-synthetics-1.98.0.tar.gz
+[2023-04-27 01:15:39] INFO root fetch - processPackages [aws-cdk.aws-systemsmanagersap]: Downloading https://files.pythonhosted.org/packages/0f/9c/196e67efaf91e363b3c96593ef7bcc4cc82701259faca6df89264afe6a3d/aws-cdk.aws-systemsmanagersap-1.199.0.tar.gz
+[2023-04-27 01:15:39] INFO root fetch - processPackages [aws-cdk.aws-stepfunctions]: Start processing: aws-cdk.aws-transfer
+[2023-04-27 01:15:39] INFO root fetch - main [MainThread]: End processing [aws-cdk.aws-stepfunctions]: success
+[2023-04-27 01:15:40] INFO root fetch - processPackages [aws-cdk.aws-ssm]: Start processing: aws-cdk.aws-voiceid
+[2023-04-27 01:15:40] INFO root fetch - main [MainThread]: End processing [aws-cdk.aws-ssm]: success
+[2023-04-27 01:15:40] INFO root fetch - processPackages [aws-cdk.aws-transfer]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-04-27 01:15:40] INFO root fetch - processPackages [aws-cdk.aws-voiceid]: New version: [1.200.0] Old Version: [1.199.0]
+[2023-04-27 01:15:40] INFO root fetch - processPackages [aws-cdk.aws-timestream]: Downloading https://files.pythonhosted.org/packages/91/20/f6b743af24ad6457d42d79cfe8acc0f40a55f9999b5a0050d7c4fd0e25ae/aws-cdk.aws-timestream-1.98.0.tar.gz
+[2023-04-27 01:15:40] INFO root fetch - processPackages [aws-cdk.aws-ssmincidents]: Start processing: aws-cdk.aws-vpclattice
+[2023-04-27 01:15:40] INFO root fetch - main [MainThread]: End processing [aws-cdk.aws-ssmincidents]: success
+[2023-04-27 01:15:40] INFO root fetch - processPackages [aws-cdk.aws-vpclattice]: New version: [1.200.0] Old Version: [1.199.0]
+[2023-04-27 01:15:40] INFO root fetch - processPackages [aws-cdk.aws-systemsmanagersap]: Downloading https://files.pythonhosted.org/packages/ea/1c/d112956695f6bfb3b5b544823d7ddf7431a6b5bff562231c29433a3f263c/aws_cdk.aws_systemsmanagersap-1.200.0-py3-none-any.whl
+[2023-04-27 01:15:40] INFO root fetch - processPackages [aws-cdk.aws-transfer]: Downloading https://files.pythonhosted.org/packages/1f/1c/166f4a4a32e5fc30e4676a02f261f9f39291155646b27ad29670494666ed/aws-cdk.aws-transfer-1.98.0.tar.gz
+[2023-04-27 01:15:40] INFO root fetch - processPackages [aws-cdk.aws-voiceid]: Downloading https://files.pythonhosted.org/packages/9b/a3/ea5737aa38e2e8ffd86d8ad5ac1415381219779546fd89b30ed77429b792/aws-cdk.aws-voiceid-1.199.0.tar.gz
+[2023-04-27 01:15:40] INFO root fetch - processPackages [aws-cdk.aws-systemsmanagersap]: executing diffoscope
+[2023-04-27 01:15:40] INFO root fetch - processPackages [aws-cdk.aws-systemsmanagersap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.aws-systemsmanagersap-1.199.0.tar.gz tmp/aws_cdk.aws_systemsmanagersap-1.200.0-py3-none-any.whl.zip --markdown 20230427/a/aws-cdk.aws-systemsmanagersap/1.199.0-1.200.0/diff.md --exclude *.pyd
+[2023-04-27 01:15:40] INFO root fetch - processPackages [aws-cdk.aws-synthetics]: Downloading https://files.pythonhosted.org/packages/87/c8/5c510c4450d85452ec1ff95a01f4dca76f2bbe1b303fff9762d5092f4126/aws-cdk.aws-synthetics-1.99.0.tar.gz
+[2023-04-27 01:15:40] INFO root fetch - processPackages [dcicutils]: Start processing: aws-cdk.aws-waf
+[2023-04-27 01:15:40] INFO root fetch - main [MainThread]: End processing [dcicutils]: success
+[2023-04-27 01:15:40] INFO root fetch - processPackages [aws-cdk.aws-vpclattice]: Downloading https://files.pythonhosted.org/packages/7f/ae/4116945b6b28a1e5517a77e6986953d51b1e54c299bb5c4f65657012be79/aws-cdk.aws-vpclattice-1.199.0.tar.gz
+[2023-04-27 01:15:40] INFO root fetch - processPackages [aws-cdk.aws-waf]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-04-27 01:15:40] INFO root fetch - processPackages [aws-cdk.aws-supportapp]: Start processing: aws-cdk.aws-wafregional
+[2023-04-27 01:15:40] INFO root fetch - main [MainThread]: End processing [aws-cdk.aws-supportapp]: success
+[2023-04-27 01:15:40] INFO root fetch - processPackages [aws-cdk.aws-wafregional]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-04-27 01:15:40] INFO root fetch - processPackages [aws-cdk.aws-timestream]: Downloading https://files.pythonhosted.org/packages/31/42/4a7f05795c3512159a3980df57eb4bbffabf656960aba3c84ad337b37939/aws-cdk.aws-timestream-1.99.0.tar.gz
+[2023-04-27 01:15:40] INFO root fetch - processPackages [aws-cdk.aws-voiceid]: Downloading https://files.pythonhosted.org/packages/e5/76/3137dd91c9986f8021311b0807ab0c080d6489cf8ddfacbf2e789b00a083/aws_cdk.aws_voiceid-1.200.0-py3-none-any.whl
+[2023-04-27 01:15:40] INFO root fetch - processPackages [aws-cdk.aws-synthetics]: executing diffoscope
+[2023-04-27 01:15:40] INFO root fetch - processPackages [aws-cdk.aws-synthetics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.aws-synthetics-1.98.0.tar.gz tmp/aws-cdk.aws-synthetics-1.99.0.tar.gz --markdown 20230427/a/aws-cdk.aws-synthetics/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-04-27 01:15:40] INFO root fetch - processPackages [aws-cdk.aws-sqs]: Start processing: aws-cdk.aws-wafv2
+[2023-04-27 01:15:40] INFO root fetch - main [MainThread]: End processing [aws-cdk.aws-sqs]: success
+[2023-04-27 01:15:40] INFO root fetch - processPackages [aws-cdk.aws-waf]: Downloading https://files.pythonhosted.org/packages/f4/72/ae80e67d2d76f4aac3a3b1c46b3a3738b562338373a74177cc7b17bb47aa/aws-cdk.aws-waf-1.98.0.tar.gz
+[2023-04-27 01:15:40] INFO root fetch - processPackages [aws-cdk.aws-voiceid]: executing diffoscope
+[2023-04-27 01:15:40] INFO root fetch - processPackages [aws-cdk.aws-voiceid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.aws-voiceid-1.199.0.tar.gz tmp/aws_cdk.aws_voiceid-1.200.0-py3-none-any.whl.zip --markdown 20230427/a/aws-cdk.aws-voiceid/1.199.0-1.200.0/diff.md --exclude *.pyd
+[2023-04-27 01:15:40] INFO root fetch - processPackages [aws-cdk.aws-transfer]: Downloading https://files.pythonhosted.org/packages/8b/24/205c093f328cfd4ee39b5147fde79a386b039336eae3f4f15aa461487be0/aws-cdk.aws-transfer-1.99.0.tar.gz
+[2023-04-27 01:15:40] INFO root fetch - processPackages [aws-cdk.aws-stepfunctions-tasks]: Start processing: aws-cdk.aws-wisdom
+[2023-04-27 01:15:40] INFO root fetch - main [MainThread]: End processing [aws-cdk.aws-stepfunctions-tasks]: success
+[2023-04-27 01:15:40] INFO root fetch - processPackages [aws-cdk.aws-wafv2]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-04-27 01:15:40] INFO root fetch - processPackages [aws-cdk.aws-vpclattice]: Downloading https://files.pythonhosted.org/packages/ac/83/762304c6f8cb36d38548735d1ab76f05f10cd14c0d91be03e497d8dce23e/aws_cdk.aws_vpclattice-1.200.0-py3-none-any.whl
+[2023-04-27 01:15:40] INFO root fetch - processPackages [aws-cdk.aws-wafregional]: Downloading https://files.pythonhosted.org/packages/f7/ff/c14a481f45bb125372130cec045b2a2c767e992531af69d3bcde0acfe7e2/aws-cdk.aws-wafregional-1.98.0.tar.gz
+[2023-04-27 01:15:40] INFO root fetch - processPackages [aws-cdk.aws-wisdom]: New version: [1.200.0] Old Version: [1.199.0]
+[2023-04-27 01:15:40] INFO root fetch - processPackages [aws-cdk.aws-timestream]: executing diffoscope
+[2023-04-27 01:15:40] INFO root fetch - processPackages [aws-cdk.aws-timestream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.aws-timestream-1.98.0.tar.gz tmp/aws-cdk.aws-timestream-1.99.0.tar.gz --markdown 20230427/a/aws-cdk.aws-timestream/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-04-27 01:15:40] INFO root fetch - processPackages [aws-cdk.aws-vpclattice]: executing diffoscope
+[2023-04-27 01:15:40] INFO root fetch - processPackages [aws-cdk.aws-vpclattice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.aws-vpclattice-1.199.0.tar.gz tmp/aws_cdk.aws_vpclattice-1.200.0-py3-none-any.whl.zip --markdown 20230427/a/aws-cdk.aws-vpclattice/1.199.0-1.200.0/diff.md --exclude *.pyd
+[2023-04-27 01:15:40] INFO root fetch - processPackages [aws-cdk.aws-wafv2]: Downloading https://files.pythonhosted.org/packages/8d/57/bd6033e3105dd174001076ebaa05292173bd52d229584507511a5c2f4d70/aws-cdk.aws-wafv2-1.98.0.tar.gz
+[2023-04-27 01:15:40] INFO root fetch - processPackages [aws-cdk.aws-wisdom]: Downloading https://files.pythonhosted.org/packages/8f/06/c0ab068459e80b80f2c3fba167df3899f17755eac3728d11d52bf36673cc/aws-cdk.aws-wisdom-1.199.0.tar.gz
+[2023-04-27 01:15:40] INFO root fetch - processPackages [aws-cdk.aws-waf]: Downloading https://files.pythonhosted.org/packages/db/9b/172f5f52c1b0e8759dd33afef1498be0428b4bc6dda82b4556b361ab13c8/aws-cdk.aws-waf-1.99.0.tar.gz
+[2023-04-27 01:15:40] INFO root fetch - processPackages [aws-cdk.aws-transfer]: executing diffoscope
+[2023-04-27 01:15:40] INFO root fetch - processPackages [aws-cdk.aws-transfer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.aws-transfer-1.98.0.tar.gz tmp/aws-cdk.aws-transfer-1.99.0.tar.gz --markdown 20230427/a/aws-cdk.aws-transfer/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-04-27 01:15:41] INFO root fetch - processPackages [aws-cdk.aws-wafregional]: Downloading https://files.pythonhosted.org/packages/a1/fc/4b155f204ab2e5f8827515bc75ab5ce9a16628a6be0307d2ccab2fb87a90/aws-cdk.aws-wafregional-1.99.0.tar.gz
+[2023-04-27 01:15:41] INFO root fetch - processPackages [aws-cdk.aws-wisdom]: Downloading https://files.pythonhosted.org/packages/c3/c2/427f7df764b897eecfd67c3a3776e07f73352d40435aeb75c6e135c5ac9c/aws_cdk.aws_wisdom-1.200.0-py3-none-any.whl
+[2023-04-27 01:15:41] INFO root fetch - processPackages [aws-cdk.aws-wisdom]: executing diffoscope
+[2023-04-27 01:15:41] INFO root fetch - processPackages [aws-cdk.aws-wisdom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.aws-wisdom-1.199.0.tar.gz tmp/aws_cdk.aws_wisdom-1.200.0-py3-none-any.whl.zip --markdown 20230427/a/aws-cdk.aws-wisdom/1.199.0-1.200.0/diff.md --exclude *.pyd
+[2023-04-27 01:15:41] INFO root fetch - processPackages [aws-cdk.aws-waf]: executing diffoscope
+[2023-04-27 01:15:41] INFO root fetch - processPackages [aws-cdk.aws-waf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.aws-waf-1.98.0.tar.gz tmp/aws-cdk.aws-waf-1.99.0.tar.gz --markdown 20230427/a/aws-cdk.aws-waf/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-04-27 01:15:41] INFO root fetch - processPackages [aws-cdk.aws-wafv2]: Downloading https://files.pythonhosted.org/packages/a9/05/8b916a605b28193a0d7fb7919f9a9cdd43e48e3fc54becdca5ac09a1b109/aws-cdk.aws-wafv2-1.99.0.tar.gz
+[2023-04-27 01:15:41] INFO root fetch - processPackages [aws-cdk.aws-wafregional]: executing diffoscope
+[2023-04-27 01:15:41] INFO root fetch - processPackages [aws-cdk.aws-wafregional]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.aws-wafregional-1.98.0.tar.gz tmp/aws-cdk.aws-wafregional-1.99.0.tar.gz --markdown 20230427/a/aws-cdk.aws-wafregional/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-04-27 01:15:41] INFO root fetch - processPackages [aws-cdk.aws-systemsmanagersap]: Start processing: aws-cdk.aws-workspaces
+[2023-04-27 01:15:41] INFO root fetch - main [MainThread]: End processing [aws-cdk.aws-systemsmanagersap]: success
+[2023-04-27 01:15:41] INFO root fetch - processPackages [aws-cdk.aws-workspaces]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-04-27 01:15:41] INFO root fetch - processPackages [aws-cdk.aws-wafv2]: executing diffoscope
+[2023-04-27 01:15:41] INFO root fetch - processPackages [aws-cdk.aws-wafv2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.aws-wafv2-1.98.0.tar.gz tmp/aws-cdk.aws-wafv2-1.99.0.tar.gz --markdown 20230427/a/aws-cdk.aws-wafv2/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-04-27 01:15:41] INFO root fetch - processPackages [aws-cdk.aws-workspaces]: Downloading https://files.pythonhosted.org/packages/67/d1/a46cd3107481ee3a3f18691cdddcd88e92ec2cde2d06fc61144219ce6e62/aws-cdk.aws-workspaces-1.98.0.tar.gz
+[2023-04-27 01:15:41] INFO root fetch - processPackages [aws-cdk.aws-voiceid]: Start processing: aws-cdk.aws-xray
+[2023-04-27 01:15:41] INFO root fetch - main [MainThread]: End processing [aws-cdk.aws-voiceid]: success
+[2023-04-27 01:15:41] INFO root fetch - processPackages [aws-cdk.aws-xray]: New version: [1.200.0] Old Version: [1.199.0]
+[2023-04-27 01:15:41] INFO root fetch - processPackages [aws-cdk.aws-vpclattice]: Start processing: aws-cdk.cdk-assets-schema
+[2023-04-27 01:15:41] INFO root fetch - main [MainThread]: End processing [aws-cdk.aws-vpclattice]: success
+[2023-04-27 01:15:41] INFO root fetch - processPackages [aws-cdk.aws-workspaces]: Downloading https://files.pythonhosted.org/packages/f1/e1/738976305716e4a5d10ae8e751e496d71ed7931eeeb157dc8b1fc2db9e06/aws-cdk.aws-workspaces-1.99.0.tar.gz
+[2023-04-27 01:15:41] INFO root fetch - processPackages [aws-cdk.cdk-assets-schema]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-04-27 01:15:41] INFO root fetch - processPackages [aws-cdk.aws-xray]: Downloading https://files.pythonhosted.org/packages/02/e9/5712a91ce203413842663e671322eacee904a14573677b1ad30d1dd219b8/aws-cdk.aws-xray-1.199.0.tar.gz
+[2023-04-27 01:15:42] INFO root fetch - processPackages [aws-cdk.aws-workspaces]: executing diffoscope
+[2023-04-27 01:15:42] INFO root fetch - processPackages [aws-cdk.aws-workspaces]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.aws-workspaces-1.98.0.tar.gz tmp/aws-cdk.aws-workspaces-1.99.0.tar.gz --markdown 20230427/a/aws-cdk.aws-workspaces/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-04-27 01:15:42] INFO root fetch - processPackages [aws-cdk.cdk-assets-schema]: Downloading https://files.pythonhosted.org/packages/0d/2d/289d99fa7ed58b1e1e180da5575b7a601b60ac59dbad500f576135f0b986/aws-cdk.cdk-assets-schema-1.98.0.tar.gz
+[2023-04-27 01:15:42] INFO root fetch - processPackages [aws-cdk.aws-timestream]: Start processing: aws-cdk.cloud-assembly-schema
+[2023-04-27 01:15:42] INFO root fetch - main [MainThread]: End processing [aws-cdk.aws-timestream]: success
+[2023-04-27 01:15:42] INFO root fetch - processPackages [aws-cdk.cloud-assembly-schema]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-04-27 01:15:42] INFO root fetch - processPackages [aws-cdk.aws-xray]: Downloading https://files.pythonhosted.org/packages/5f/7b/bf7f92bfca72d8eb4fb1bab89c3897b39c3b3045a8bf11d01509469f493c/aws_cdk.aws_xray-1.200.0-py3-none-any.whl
+[2023-04-27 01:15:42] INFO root fetch - processPackages [aws-cdk.aws-synthetics]: Start processing: aws-cdk.cloudformation-include
+[2023-04-27 01:15:42] INFO root fetch - main [MainThread]: End processing [aws-cdk.aws-synthetics]: success
+[2023-04-27 01:15:42] INFO root fetch - processPackages [aws-cdk.cloudformation-include]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-04-27 01:15:42] INFO root fetch - processPackages [aws-cdk.aws-xray]: executing diffoscope
+[2023-04-27 01:15:42] INFO root fetch - processPackages [aws-cdk.aws-xray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.aws-xray-1.199.0.tar.gz tmp/aws_cdk.aws_xray-1.200.0-py3-none-any.whl.zip --markdown 20230427/a/aws-cdk.aws-xray/1.199.0-1.200.0/diff.md --exclude *.pyd
+[2023-04-27 01:15:42] INFO root fetch - processPackages [aws-cdk.aws-waf]: Start processing: aws-cdk.core
+[2023-04-27 01:15:42] INFO root fetch - main [MainThread]: End processing [aws-cdk.aws-waf]: success
+[2023-04-27 01:15:42] INFO root fetch - processPackages [aws-cdk.core]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-04-27 01:15:42] INFO root fetch - processPackages [aws-cdk.cloudformation-include]: Downloading https://files.pythonhosted.org/packages/cc/70/18ce4d3c8dff6348e826cbbd388b2a0c2106e5769840f7d5761ac4638270/aws-cdk.cloudformation-include-1.98.0.tar.gz
+[2023-04-27 01:15:42] INFO root fetch - processPackages [aws-cdk.cdk-assets-schema]: Downloading https://files.pythonhosted.org/packages/1c/6e/e7458d2dcbc72a33c23f0fd930b287698679c43a11efe2cedfe17a9fef76/aws-cdk.cdk-assets-schema-1.99.0.tar.gz
+[2023-04-27 01:15:42] INFO root fetch - processPackages [aws-cdk.cloud-assembly-schema]: executing diffoscope
+[2023-04-27 01:15:42] INFO root fetch - processPackages [aws-cdk.cloud-assembly-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.cloud-assembly-schema-2.8.0.tar.gz tmp/aws-cdk.cloud-assembly-schema-2.9.0.tar.gz --markdown 20230427/a/aws-cdk.cloud-assembly-schema/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-04-27 01:15:42] INFO root fetch - processPackages [aws-cdk.core]: Downloading https://files.pythonhosted.org/packages/b7/a1/a3549e397f9ff04d71077e7ad7b6163e19c4be116928507c4c8850aecf40/aws-cdk.core-1.98.0.tar.gz
+[2023-04-27 01:15:42] INFO root fetch - processPackages [aws-cdk.cdk-assets-schema]: executing diffoscope
+[2023-04-27 01:15:42] INFO root fetch - processPackages [aws-cdk.cdk-assets-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.cdk-assets-schema-1.98.0.tar.gz tmp/aws-cdk.cdk-assets-schema-1.99.0.tar.gz --markdown 20230427/a/aws-cdk.cdk-assets-schema/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-04-27 01:15:42] INFO root fetch - processPackages [aws-cdk.aws-transfer]: Start processing: aws-cdk.custom-resources
+[2023-04-27 01:15:42] INFO root fetch - main [MainThread]: End processing [aws-cdk.aws-transfer]: success
+[2023-04-27 01:15:42] INFO root fetch - processPackages [aws-cdk.custom-resources]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-04-27 01:15:42] INFO root fetch - processPackages [aws-cdk.cloudformation-include]: Downloading https://files.pythonhosted.org/packages/0a/d5/775b150db54858bf4d0fc3128e98e189049f1b955ccb87e6a6e73e333058/aws-cdk.cloudformation-include-1.99.0.tar.gz
+[2023-04-27 01:15:42] INFO root fetch - processPackages [aws-cdk.custom-resources]: Downloading https://files.pythonhosted.org/packages/58/70/258bc598f9abee8e779ad073077b8a91a518c39a6d99d2a388597ef80045/aws-cdk.custom-resources-1.98.0.tar.gz
+[2023-04-27 01:15:42] INFO root fetch - processPackages [aws-cdk.aws-wisdom]: Start processing: aws-cdk.cx-api
+[2023-04-27 01:15:42] INFO root fetch - main [MainThread]: End processing [aws-cdk.aws-wisdom]: success
+[2023-04-27 01:15:43] INFO root fetch - processPackages [aws-cdk.cx-api]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-04-27 01:15:43] INFO root fetch - processPackages [aws-cdk.core]: Downloading https://files.pythonhosted.org/packages/82/06/847166d1fd30f8843f9c67c37bc7334cdb620b74eb89bf68b2de12640a6e/aws-cdk.core-1.99.0.tar.gz
+[2023-04-27 01:15:43] INFO root fetch - processPackages [aws-cdk.aws-workspaces]: Start processing: quakeio
+[2023-04-27 01:15:43] INFO root fetch - main [MainThread]: End processing [aws-cdk.aws-workspaces]: success
+[2023-04-27 01:15:43] INFO root fetch - processPackages [quakeio]: New version: [0.1.9] Old Version: [0.1.7]
+[2023-04-27 01:15:43] INFO root fetch - processPackages [aws-cdk.core]: executing diffoscope
+[2023-04-27 01:15:43] INFO root fetch - processPackages [aws-cdk.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.core-1.98.0.tar.gz tmp/aws-cdk.core-1.99.0.tar.gz --markdown 20230427/a/aws-cdk.core/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-04-27 01:15:43] INFO root fetch - processPackages [aws-cdk.aws-xray]: Start processing: aws-cdk.integ-tests
+[2023-04-27 01:15:43] INFO root fetch - main [MainThread]: End processing [aws-cdk.aws-xray]: success
+[2023-04-27 01:15:43] INFO root fetch - processPackages [aws-cdk.integ-tests]: New version: [1.200.0] Old Version: [1.199.0]
+[2023-04-27 01:15:43] INFO root fetch - processPackages [aws-cdk.custom-resources]: Downloading https://files.pythonhosted.org/packages/82/bc/c4210e529182f9fe03d4a33efe613092b93f7d9144f486638a752df757a7/aws-cdk.custom-resources-1.99.0.tar.gz
+[2023-04-27 01:15:43] INFO root fetch - processPackages [aws-cdk.cloudformation-include]: executing diffoscope
+[2023-04-27 01:15:43] INFO root fetch - processPackages [aws-cdk.cloudformation-include]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.cloudformation-include-1.98.0.tar.gz tmp/aws-cdk.cloudformation-include-1.99.0.tar.gz --markdown 20230427/a/aws-cdk.cloudformation-include/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-04-27 01:15:43] INFO root fetch - processPackages [quakeio]: Downloading https://files.pythonhosted.org/packages/b5/b7/687af851f40f088052988e3b07d57e06104249cc61c77202616b332f3787/quakeio-0.1.7.tar.gz
+[2023-04-27 01:15:43] INFO root fetch - processPackages [aws-cdk.cx-api]: executing diffoscope
+[2023-04-27 01:15:43] INFO root fetch - processPackages [aws-cdk.cx-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.cx-api-2.8.0.tar.gz tmp/aws-cdk.cx-api-2.9.0.tar.gz --markdown 20230427/a/aws-cdk.cx-api/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-04-27 01:15:43] WARNING root fetch - processPackages [quakeio]: Skipping package: exceeds size limit 15708043>=10485760
+[2023-04-27 01:15:43] INFO root fetch - processPackages [quakeio]: Start processing: aws-cdk.lambda-layer-awscli
+[2023-04-27 01:15:43] INFO root fetch - main [MainThread]: End processing [quakeio] error
+[2023-04-27 01:15:43] INFO root fetch - processPackages [aws-cdk.lambda-layer-awscli]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-04-27 01:15:43] INFO root fetch - processPackages [aws-cdk.integ-tests]: Downloading https://files.pythonhosted.org/packages/5c/6b/c92f1e6ed2d4c21dbfecaf819f48c3347f3150f91fc5416808288ea79971/aws-cdk.integ-tests-1.199.0.tar.gz
+[2023-04-27 01:15:43] INFO root fetch - processPackages [aws-cdk.custom-resources]: executing diffoscope
+[2023-04-27 01:15:43] INFO root fetch - processPackages [aws-cdk.custom-resources]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.custom-resources-1.98.0.tar.gz tmp/aws-cdk.custom-resources-1.99.0.tar.gz --markdown 20230427/a/aws-cdk.custom-resources/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-04-27 01:15:43] INFO root fetch - processPackages [aws-cdk.aws-wafv2]: Start processing: sdo-image-parameter-api
+[2023-04-27 01:15:43] INFO root fetch - main [MainThread]: End processing [aws-cdk.aws-wafv2]: success
+[2023-04-27 01:15:43] INFO root fetch - processPackages [aws-cdk.lambda-layer-awscli]: Downloading https://files.pythonhosted.org/packages/dc/9d/c79dda35c07ee2489089f89282f8db097f92d6d281be5b6fb2b6357dc963/aws-cdk.lambda-layer-awscli-1.98.0.tar.gz
+[2023-04-27 01:15:43] INFO root fetch - processPackages [sdo-image-parameter-api]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-27 01:15:43] INFO root fetch - processPackages [aws-cdk.cloud-assembly-schema]: Start processing: aws-cdk.lambda-layer-kubectl
+[2023-04-27 01:15:43] INFO root fetch - main [MainThread]: End processing [aws-cdk.cloud-assembly-schema]: success
+[2023-04-27 01:15:43] INFO root fetch - processPackages [aws-cdk.lambda-layer-kubectl]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-04-27 01:15:43] WARNING root fetch - processPackages [aws-cdk.lambda-layer-awscli]: Skipping package: exceeds size limit 10966912>=10485760
+[2023-04-27 01:15:43] INFO root fetch - processPackages [aws-cdk.lambda-layer-awscli]: Start processing: aws-cdk.lambda-layer-node-proxy-agent
+[2023-04-27 01:15:43] INFO root fetch - main [MainThread]: End processing [aws-cdk.lambda-layer-awscli] error
+[2023-04-27 01:15:43] INFO root fetch - processPackages [aws-cdk.integ-tests]: Downloading https://files.pythonhosted.org/packages/10/da/2d7ab46107921bcaa722e33194bc11355268851d301d5359686fd146a8b6/aws_cdk.integ_tests-1.200.0-py3-none-any.whl
+[2023-04-27 01:15:43] INFO root fetch - processPackages [aws-cdk.cdk-assets-schema]: Start processing: aws-cdk.pipelines
+[2023-04-27 01:15:43] INFO root fetch - main [MainThread]: End processing [aws-cdk.cdk-assets-schema]: success
+[2023-04-27 01:15:43] INFO root fetch - processPackages [sdo-image-parameter-api]: Downloading https://files.pythonhosted.org/packages/41/6d/0de2bb1ec10ea86dd56ab843bf19a1da65434e10bdd1469d1815b1c1756b/sdo_image_parameter_api-0.0.5.tar.gz
+[2023-04-27 01:15:43] INFO root fetch - processPackages [aws-cdk.lambda-layer-node-proxy-agent]: New version: [1.200.0] Old Version: [1.199.0]
+[2023-04-27 01:15:43] INFO root fetch - processPackages [aws-cdk.pipelines]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-04-27 01:15:43] WARNING root fetch - processPackages [sdo-image-parameter-api]: Skipping package: exceeds size limit 56346507>=10485760
+[2023-04-27 01:15:43] INFO root fetch - processPackages [sdo-image-parameter-api]: Start processing: aws-cdk.region-info
+[2023-04-27 01:15:43] INFO root fetch - main [MainThread]: End processing [sdo-image-parameter-api] error
+[2023-04-27 01:15:43] INFO root fetch - processPackages [aws-cdk.region-info]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-04-27 01:15:43] INFO root fetch - processPackages [aws-cdk.integ-tests]: executing diffoscope
+[2023-04-27 01:15:43] INFO root fetch - processPackages [aws-cdk.integ-tests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.integ-tests-1.199.0.tar.gz tmp/aws_cdk.integ_tests-1.200.0-py3-none-any.whl.zip --markdown 20230427/a/aws-cdk.integ-tests/1.199.0-1.200.0/diff.md --exclude *.pyd
+[2023-04-27 01:15:43] INFO root fetch - processPackages [aws-cdk.aws-wafregional]: Start processing: aws-cdk.triggers
+[2023-04-27 01:15:43] INFO root fetch - main [MainThread]: End processing [aws-cdk.aws-wafregional]: success
+[2023-04-27 01:15:44] INFO root fetch - processPackages [aws-cdk.lambda-layer-node-proxy-agent]: Downloading https://files.pythonhosted.org/packages/57/85/57bdc0baea516d18512ff0f322c56d2b7d11949898aee023a2f022fbf619/aws-cdk.lambda-layer-node-proxy-agent-1.199.0.tar.gz
+[2023-04-27 01:15:44] INFO root fetch - processPackages [aws-cdk.triggers]: New version: [1.200.0] Old Version: [1.199.0]
+[2023-04-27 01:15:44] INFO root fetch - processPackages [aws-cdk.lambda-layer-kubectl]: Downloading https://files.pythonhosted.org/packages/61/43/164a73a665bb955b0f7bbb783d5b892da21b15d8f512d0cda7b920c4814e/aws-cdk.lambda-layer-kubectl-1.98.0.tar.gz
+[2023-04-27 01:15:44] INFO root fetch - processPackages [aws-cdk.region-info]: executing diffoscope
+[2023-04-27 01:15:44] INFO root fetch - processPackages [aws-cdk.region-info]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.region-info-2.8.0.tar.gz tmp/aws-cdk.region-info-2.9.0.tar.gz --markdown 20230427/a/aws-cdk.region-info/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-04-27 01:15:44] INFO root fetch - processPackages [aws-cdk.pipelines]: Downloading https://files.pythonhosted.org/packages/5d/49/836ebc0ecc9e3a379e660a11a1a80d1fd1abe57bf7391cc6cf736fd35ae8/aws-cdk.pipelines-1.98.0.tar.gz
+[2023-04-27 01:15:44] INFO root fetch - processPackages [aws-cdk.triggers]: Downloading https://files.pythonhosted.org/packages/26/b9/39e3f64fc2638fb010ac7985b4622a2669651dcb1227f39ff3a8b1f07a8c/aws-cdk.triggers-1.199.0.tar.gz
+[2023-04-27 01:15:44] WARNING root fetch - processPackages [aws-cdk.lambda-layer-kubectl]: Skipping package: exceeds size limit 25151703>=10485760
+[2023-04-27 01:15:44] INFO root fetch - processPackages [aws-cdk.lambda-layer-kubectl]: Start processing: aws-cdk.yaml-cfn
+[2023-04-27 01:15:44] INFO root fetch - main [MainThread]: End processing [aws-cdk.lambda-layer-kubectl] error
+[2023-04-27 01:15:44] INFO root fetch - processPackages [aws-cdk.triggers]: Downloading https://files.pythonhosted.org/packages/8f/17/66ec2ffed3c9cf094d79080faf0a58421c717b2b08e2cae207607ad419fa/aws_cdk.triggers-1.200.0-py3-none-any.whl
+[2023-04-27 01:15:44] INFO root fetch - processPackages [aws-cdk.yaml-cfn]: New version: [2.0.0a6] Old Version: [2.0.0a5]
+[2023-04-27 01:15:44] INFO root fetch - processPackages [aws-cdk.lambda-layer-node-proxy-agent]: Downloading https://files.pythonhosted.org/packages/15/5b/0689eaefbf6ea3fa0b983155f75aa7ac0a87a666358855b5768f834a2e4c/aws_cdk.lambda_layer_node_proxy_agent-1.200.0-py3-none-any.whl
+[2023-04-27 01:15:44] INFO root fetch - processPackages [aws-cdk.pipelines]: Downloading https://files.pythonhosted.org/packages/77/8f/b72a390e09a7782a76600f708959eeea820ee72b805e27eb4f7f7d4f7f25/aws-cdk.pipelines-1.99.0.tar.gz
+[2023-04-27 01:15:44] INFO root fetch - processPackages [aws-cdk.triggers]: executing diffoscope
+[2023-04-27 01:15:44] INFO root fetch - processPackages [aws-cdk.triggers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.triggers-1.199.0.tar.gz tmp/aws_cdk.triggers-1.200.0-py3-none-any.whl.zip --markdown 20230427/a/aws-cdk.triggers/1.199.0-1.200.0/diff.md --exclude *.pyd
+[2023-04-27 01:15:44] INFO root fetch - processPackages [aws-cdk.core]: Start processing: monocdk
+[2023-04-27 01:15:44] INFO root fetch - main [MainThread]: End processing [aws-cdk.core]: success
+[2023-04-27 01:15:44] INFO root fetch - processPackages [aws-cdk.lambda-layer-node-proxy-agent]: executing diffoscope
+[2023-04-27 01:15:44] INFO root fetch - processPackages [aws-cdk.lambda-layer-node-proxy-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.lambda-layer-node-proxy-agent-1.199.0.tar.gz tmp/aws_cdk.lambda_layer_node_proxy_agent-1.200.0-py3-none-any.whl.zip --markdown 20230427/a/aws-cdk.lambda-layer-node-proxy-agent/1.199.0-1.200.0/diff.md --exclude *.pyd
+[2023-04-27 01:15:44] INFO root fetch - processPackages [monocdk]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-04-27 01:15:44] INFO root fetch - processPackages [aws-cdk.yaml-cfn]: Downloading https://files.pythonhosted.org/packages/62/d2/a50923d3be118e86498091b3983bcc33d630eb312a0237a51a0ebc592e41/aws-cdk.yaml-cfn-2.0.0a5.tar.gz
+[2023-04-27 01:15:44] INFO root fetch - processPackages [aws-cdk.pipelines]: executing diffoscope
+[2023-04-27 01:15:44] INFO root fetch - processPackages [aws-cdk.pipelines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.pipelines-1.98.0.tar.gz tmp/aws-cdk.pipelines-1.99.0.tar.gz --markdown 20230427/a/aws-cdk.pipelines/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-04-27 01:15:44] INFO root fetch - processPackages [aws-cdk.cx-api]: Start processing: highcharts-gantt
+[2023-04-27 01:15:44] INFO root fetch - main [MainThread]: End processing [aws-cdk.cx-api]: success
+[2023-04-27 01:15:44] INFO root fetch - processPackages [highcharts-gantt]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-04-27 01:15:44] INFO root fetch - processPackages [monocdk]: Downloading https://files.pythonhosted.org/packages/1e/58/0c31033859ec4261bfcbddfffb5940d98aa264ffcec79c7305e0a88a7ec9/monocdk-1.98.0.tar.gz
+[2023-04-27 01:15:44] INFO root fetch - processPackages [aws-cdk.cloudformation-include]: Start processing: python-roborock
+[2023-04-27 01:15:44] INFO root fetch - main [MainThread]: End processing [aws-cdk.cloudformation-include]: success
+[2023-04-27 01:15:44] INFO root fetch - processPackages [python-roborock]: New version: [0.7.8] Old Version: [0.7.7]
+[2023-04-27 01:15:44] INFO root fetch - processPackages [highcharts-gantt]: Downloading https://files.pythonhosted.org/packages/0b/3d/d333c7a29864d3976a8a573abc9621ea70c634e8eeb477aaec68f68c7e94/highcharts_gantt-1.0.1.tar.gz
+[2023-04-27 01:15:44] WARNING root fetch - processPackages [monocdk]: Skipping package: exceeds size limit 52400909>=10485760
+[2023-04-27 01:15:44] INFO root fetch - processPackages [monocdk]: Start processing: termai
+[2023-04-27 01:15:44] INFO root fetch - main [MainThread]: End processing [monocdk] error
+[2023-04-27 01:15:44] INFO root fetch - processPackages [termai]: New version: [0.1.1] Old Version: [0.1]
+[2023-04-27 01:15:45] INFO root fetch - processPackages [termai]: executing diffoscope
+[2023-04-27 01:15:45] INFO root fetch - processPackages [termai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/termai-0.1.tar.gz tmp/termai-0.1.1.tar.gz --markdown 20230427/t/termai/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-04-27 01:15:45] INFO root fetch - processPackages [python-roborock]: Downloading https://files.pythonhosted.org/packages/b5/98/21ee0023ee3fb55b4cfcf51422ff695a98538f6687c2e952558c3e69b0a3/python_roborock-0.7.8.tar.gz
+[2023-04-27 01:15:45] INFO root fetch - processPackages [highcharts-gantt]: Downloading https://files.pythonhosted.org/packages/9b/85/0b85c5edc1ccd7d216f4b9025fc7ef0c39c462258ed1900d243763f33857/highcharts_gantt-1.1.0.tar.gz
+[2023-04-27 01:15:45] INFO root fetch - processPackages [python-roborock]: executing diffoscope
+[2023-04-27 01:15:45] INFO root fetch - processPackages [python-roborock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_roborock-0.7.7.tar.gz tmp/python_roborock-0.7.8.tar.gz --markdown 20230427/p/python-roborock/0.7.7-0.7.8/diff.md --exclude *.pyd
+[2023-04-27 01:15:45] INFO root fetch - processPackages [aws-cdk.custom-resources]: Start processing: owl-builder
+[2023-04-27 01:15:45] INFO root fetch - main [MainThread]: End processing [aws-cdk.custom-resources]: success
+[2023-04-27 01:15:45] INFO root fetch - processPackages [owl-builder]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-04-27 01:15:45] INFO root fetch - processPackages [aws-cdk.yaml-cfn]: Downloading https://files.pythonhosted.org/packages/25/04/95fe9b62c529b1e82a69c7de4330ea2ebdfe0d4de0f8625306608aa4f33f/aws-cdk.yaml-cfn-2.0.0a6.tar.gz
+[2023-04-27 01:15:45] INFO root fetch - processPackages [owl-builder]: Downloading https://files.pythonhosted.org/packages/27/46/4bcdba3736c8f564c88279f39fe14a44bc41d60862f7fdf73db425941535/owl-builder-0.2.0.tar.gz
+[2023-04-27 01:15:45] WARNING root fetch - processPackages [highcharts-gantt]: Skipping package: exceeds size limit 10712658>=10485760
+[2023-04-27 01:15:45] INFO root fetch - processPackages [highcharts-gantt]: Start processing: django-tenants-schemas
+[2023-04-27 01:15:45] INFO root fetch - main [MainThread]: End processing [highcharts-gantt] error
+[2023-04-27 01:15:45] INFO root fetch - processPackages [aws-cdk.yaml-cfn]: executing diffoscope
+[2023-04-27 01:15:45] INFO root fetch - processPackages [aws-cdk.yaml-cfn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.yaml-cfn-2.0.0a5.tar.gz tmp/aws-cdk.yaml-cfn-2.0.0a6.tar.gz --markdown 20230427/a/aws-cdk.yaml-cfn/2.0.0a5-2.0.0a6/diff.md --exclude *.pyd
+[2023-04-27 01:15:45] INFO root fetch - processPackages [aws-cdk.pipelines]: Start processing: pytifications
+[2023-04-27 01:15:45] INFO root fetch - main [MainThread]: End processing [aws-cdk.pipelines]: success
+[2023-04-27 01:15:45] WARNING root fetch - processPackages [django-tenants-schemas]: Skipping, unable to determine old version
+[2023-04-27 01:15:45] INFO root fetch - processPackages [django-tenants-schemas]: Start processing: solvis
+[2023-04-27 01:15:45] INFO root fetch - main [MainThread]: End processing [django-tenants-schemas] error
+[2023-04-27 01:15:45] INFO root fetch - processPackages [aws-cdk.lambda-layer-node-proxy-agent]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-04-27 01:15:45] INFO root fetch - main [MainThread]: End processing [aws-cdk.lambda-layer-node-proxy-agent]: success
+[2023-04-27 01:15:45] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.291] Old Version: [0.3.290]
+[2023-04-27 01:15:45] INFO root fetch - processPackages [pytifications]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 01:15:45] INFO root fetch - main [MainThread]: End processing [aws-cdk.region-info]: success
+[2023-04-27 01:15:45] INFO root fetch - processPackages [solvis]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-04-27 01:15:45] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-04-27 01:15:45] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.290.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.291.tar.gz --markdown 20230427/p/pepperize.cdk-ses-smtp-credentials/0.3.290-0.3.291/diff.md --exclude *.pyd
+[2023-04-27 01:15:46] INFO root fetch - main [MainThread]: End processing [aws-cdk.triggers]: success
+[2023-04-27 01:15:46] INFO root fetch - processPackages [owl-builder]: Downloading https://files.pythonhosted.org/packages/22/d9/b9ef908b51d4effc65a790ccfd1aa5fb513637d083f744b45781dfa6775f/owl-builder-0.2.1.tar.gz
+[2023-04-27 01:15:46] INFO root fetch - processPackages [owl-builder]: executing diffoscope
+[2023-04-27 01:15:46] INFO root fetch - processPackages [owl-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owl-builder-0.2.0.tar.gz tmp/owl-builder-0.2.1.tar.gz --markdown 20230427/o/owl-builder/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-04-27 01:15:46] INFO root fetch - processPackages [pytifications]: Downloading https://files.pythonhosted.org/packages/b7/d7/72647799e4a4317a0ded8e09619c47e9d559e1634eb76988860d5643082b/pytifications-0.0.8.tar.gz
+[2023-04-27 01:15:46] INFO root fetch - main [MainThread]: End processing [termai]: success
+[2023-04-27 01:15:46] INFO root fetch - processPackages [solvis]: Downloading https://files.pythonhosted.org/packages/39/18/7cf4c365db4969469429f3f80f508ab9490534e89f25d6a0f7cedacc4fb9/solvis-0.6.0.tar.gz
+[2023-04-27 01:15:46] INFO root fetch - main [MainThread]: End processing [aws-cdk.integ-tests]: success
+[2023-04-27 01:15:46] INFO root fetch - main [MainThread]: End processing [python-roborock]: success
+[2023-04-27 01:15:46] INFO root fetch - processPackages [pytifications]: Downloading https://files.pythonhosted.org/packages/4c/48/4bc7b80396f101138c92b640baf4c6b6a17227133598e1aa154341ac0b41/pytifications-0.0.9.tar.gz
+[2023-04-27 01:15:46] INFO root fetch - processPackages [pytifications]: executing diffoscope
+[2023-04-27 01:15:46] INFO root fetch - processPackages [pytifications]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytifications-0.0.8.tar.gz tmp/pytifications-0.0.9.tar.gz --markdown 20230427/p/pytifications/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 01:15:46] INFO root fetch - main [MainThread]: End processing [aws-cdk.yaml-cfn]: success
+[2023-04-27 01:15:47] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-04-27 01:15:47] INFO root fetch - processPackages [solvis]: Downloading https://files.pythonhosted.org/packages/e4/a4/c2de5028d4d9494bab99087dbb3b75358021dde9dc72a2fac8812a45d2f6/solvis-0.7.0.tar.gz
+[2023-04-27 01:15:47] INFO root fetch - main [MainThread]: End processing [owl-builder]: success
+[2023-04-27 01:15:47] INFO root fetch - main [MainThread]: End processing [pytifications]: success
+[2023-04-27 01:15:48] INFO root fetch - processPackages [solvis]: executing diffoscope
+[2023-04-27 01:15:48] INFO root fetch - processPackages [solvis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solvis-0.6.0.tar.gz tmp/solvis-0.7.0.tar.gz --markdown 20230427/s/solvis/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-04-27 01:15:51] INFO root fetch - main [MainThread]: End processing [solvis]: success
+[2023-04-27 01:15:51] INFO root fetch - main [MainThread]: Store serial: [17873365]
