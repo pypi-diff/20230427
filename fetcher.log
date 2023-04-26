@@ -3232,3 +3232,40 @@
 [2023-04-27 01:50:20] INFO root fetch - main [MainThread]: End processing [mb-pytorch]: success
 [2023-04-27 01:50:39] INFO root fetch - main [MainThread]: End processing [lhf]: success
 [2023-04-27 01:50:39] INFO root fetch - main [MainThread]: Store serial: [17873699]
+[2023-04-27 01:55:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17873699]
+[2023-04-27 01:55:50] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-27 01:55:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bentoml
+[2023-04-27 01:55:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tomtoolkit
+[2023-04-27 01:55:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autocalver
+[2023-04-27 01:55:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: langpack
+[2023-04-27 01:55:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ncconvert
+[2023-04-27 01:55:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: request5
+[2023-04-27 01:55:50] INFO root fetch - processPackages [autocalver]: New version: [2023.4.26.85833] Old Version: [2023.4.26.84995rc1]
+[2023-04-27 01:55:50] INFO root fetch - processPackages [langpack]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 01:55:50] INFO root fetch - processPackages [request5]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-27 01:55:50] INFO root fetch - processPackages [bentoml]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-27 01:55:50] WARNING root fetch - processPackages [ncconvert]: Skipping, unable to determine old version
+[2023-04-27 01:55:50] INFO root fetch - main [MainThread]: End processing [ncconvert] error
+[2023-04-27 01:55:50] INFO root fetch - processPackages [tomtoolkit]: New version: [2.9.2] Old Version: [2.9.1]
+[2023-04-27 01:55:50] INFO root fetch - processPackages [langpack]: executing diffoscope
+[2023-04-27 01:55:50] INFO root fetch - processPackages [langpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langpack-0.0.8-py2.py3-none-any.whl.zip tmp/langpack-0.0.9-py2.py3-none-any.whl.zip --markdown 20230427/l/langpack/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 01:55:51] INFO root fetch - processPackages [autocalver]: Downloading https://files.pythonhosted.org/packages/df/a3/8516d2dce9eb9aa7e2203335dfa56a92473a9cc680bacca52d1d81a0b336/autocalver-2023.4.26.84995rc1.tar.gz
+[2023-04-27 01:55:51] INFO root fetch - processPackages [request5]: Downloading https://files.pythonhosted.org/packages/6a/45/756e68c9ce6b4963085cc9029ad5dc1196a423ccee5588a443dca873de8f/request5-0.0.1.tar.gz
+[2023-04-27 01:55:51] INFO root fetch - processPackages [tomtoolkit]: Downloading https://files.pythonhosted.org/packages/2e/18/d0f42d8924abcb6ee5a727ed833a1e2b25892c0e27ca84d362e7025c6066/tomtoolkit-2.9.1.tar.gz
+[2023-04-27 01:55:51] INFO root fetch - processPackages [bentoml]: Downloading https://files.pythonhosted.org/packages/03/dd/fcdee2ea476e419e1baa92d9614d8de2d843cd53fc82c4ccb1b5a86d7b46/bentoml-1.0.8.tar.gz
+[2023-04-27 01:55:51] INFO root fetch - processPackages [request5]: Downloading https://files.pythonhosted.org/packages/ba/1d/afceec24b4abadfb4995c165f20d4330f9dbb7ed414847ecbae9bfe08476/request5-0.0.2.tar.gz
+[2023-04-27 01:55:51] INFO root fetch - processPackages [request5]: executing diffoscope
+[2023-04-27 01:55:51] INFO root fetch - processPackages [autocalver]: Downloading https://files.pythonhosted.org/packages/99/1d/b95133c406c37252c7fecc03ec05e392ba6a74b8509cd7b98958e435534a/autocalver-2023.4.26.85833.tar.gz
+[2023-04-27 01:55:51] INFO root fetch - processPackages [request5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/request5-0.0.1.tar.gz tmp/request5-0.0.2.tar.gz --markdown 20230427/r/request5/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-27 01:55:51] WARNING root fetch - processPackages [bentoml]: Skipping package: exceeds size limit 14352845>=10485760
+[2023-04-27 01:55:51] INFO root fetch - main [MainThread]: End processing [bentoml] error
+[2023-04-27 01:55:51] INFO root fetch - processPackages [autocalver]: executing diffoscope
+[2023-04-27 01:55:51] INFO root fetch - processPackages [autocalver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autocalver-2023.4.26.84995rc1.tar.gz tmp/autocalver-2023.4.26.85833.tar.gz --markdown 20230427/a/autocalver/2023.4.26.84995rc1-2023.4.26.85833/diff.md --exclude *.pyd
+[2023-04-27 01:55:52] INFO root fetch - main [MainThread]: End processing [langpack]: success
+[2023-04-27 01:55:52] INFO root fetch - main [MainThread]: End processing [request5]: success
+[2023-04-27 01:55:52] INFO root fetch - main [MainThread]: End processing [autocalver]: success
+[2023-04-27 01:55:52] INFO root fetch - processPackages [tomtoolkit]: Downloading https://files.pythonhosted.org/packages/b4/d6/06d7b659b2225273b399ed75420195b3c428a784f7b84284c6348f096284/tomtoolkit-2.9.2.tar.gz
+[2023-04-27 01:55:53] INFO root fetch - processPackages [tomtoolkit]: executing diffoscope
+[2023-04-27 01:55:53] INFO root fetch - processPackages [tomtoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tomtoolkit-2.9.1.tar.gz tmp/tomtoolkit-2.9.2.tar.gz --markdown 20230427/t/tomtoolkit/2.9.1-2.9.2/diff.md --exclude *.pyd
+[2023-04-27 01:55:58] INFO root fetch - main [MainThread]: End processing [tomtoolkit]: success
+[2023-04-27 01:55:58] INFO root fetch - main [MainThread]: Store serial: [17873726]
