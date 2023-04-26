@@ -650,3 +650,75 @@
 [2023-04-27 00:50:39] INFO root fetch - main [MainThread]: End processing [ge25519]: success
 [2023-04-27 00:50:40] INFO root fetch - main [MainThread]: End processing [feed-archiver]: success
 [2023-04-27 00:50:40] INFO root fetch - main [MainThread]: Store serial: [17872494]
+[2023-04-27 00:55:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17872494]
+[2023-04-27 00:55:48] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-27 00:55:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: graph-envs
+[2023-04-27 00:55:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aiostp
+[2023-04-27 00:55:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: causalforge
+[2023-04-27 00:55:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: doorloop
+[2023-04-27 00:55:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: q2gui
+[2023-04-27 00:55:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mb-pytorch
+[2023-04-27 00:55:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fast-agave
+[2023-04-27 00:55:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sdo-image-parameter-api
+[2023-04-27 00:55:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: graphandlerpy
+[2023-04-27 00:55:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ibm-continuous-delivery
+[2023-04-27 00:55:48] INFO root fetch - processPackages [causalforge]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-27 00:55:48] INFO root fetch - processPackages [graph-envs]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 00:55:48] INFO root fetch - processPackages [doorloop]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-27 00:55:48] INFO root fetch - processPackages [aiostp]: New version: [0.0.9] Old Version: [0.0.8.dev0]
+[2023-04-27 00:55:48] INFO root fetch - processPackages [sdo-image-parameter-api]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-27 00:55:48] INFO root fetch - processPackages [ibm-continuous-delivery]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-27 00:55:48] INFO root fetch - processPackages [graphandlerpy]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-27 00:55:48] INFO root fetch - processPackages [q2gui]: New version: [0.1.9] Old Version: [0.1.83]
+[2023-04-27 00:55:48] INFO root fetch - processPackages [mb-pytorch]: New version: [1.0.202304262252] Old Version: [1.0.202304262233]
+[2023-04-27 00:55:48] INFO root fetch - processPackages [fast-agave]: New version: [0.9.0.dev1] Old Version: [0.9.0.dev0]
+[2023-04-27 00:55:49] INFO root fetch - processPackages [fast-agave]: executing diffoscope
+[2023-04-27 00:55:49] INFO root fetch - processPackages [fast-agave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_agave-0.9.0.dev0.tar.gz tmp/fast_agave-0.9.0.dev1.tar.gz --markdown 20230427/f/fast-agave/0.9.0.dev0-0.9.0.dev1/diff.md --exclude *.pyd
+[2023-04-27 00:55:49] INFO root fetch - processPackages [causalforge]: Downloading https://files.pythonhosted.org/packages/2a/42/0e90044b18b235d658a3cc23a3b2a98b6f754d5888318d664340eaa4d961/causalforge-0.0.1.tar.gz
+[2023-04-27 00:55:49] INFO root fetch - processPackages [sdo-image-parameter-api]: Downloading https://files.pythonhosted.org/packages/71/b2/17efe58fedc50aace2a69a23020b96728553f281aa92183f3ea9986eb115/sdo_image_parameter_api-0.0.3.tar.gz
+[2023-04-27 00:55:49] INFO root fetch - processPackages [graphandlerpy]: Downloading https://files.pythonhosted.org/packages/98/5f/4656d251058b781c601a0f258eced10cc88a4e6d9328a0e207ec81414d7e/graphandlerpy-0.0.1.tar.gz
+[2023-04-27 00:55:49] INFO root fetch - processPackages [graph-envs]: Downloading https://files.pythonhosted.org/packages/04/f2/27668b746055c29a37c7498375cc1456cef849cef80f9c0b8749a0b9095b/graph-envs-0.0.8.tar.gz
+[2023-04-27 00:55:49] INFO root fetch - processPackages [q2gui]: Downloading https://files.pythonhosted.org/packages/b3/dd/fbd87f7f00081159d8da7ce21499e21476dc68b58efb93b6176e0bb4e725/q2gui-0.1.83.tar.gz
+[2023-04-27 00:55:49] INFO root fetch - processPackages [ibm-continuous-delivery]: Downloading https://files.pythonhosted.org/packages/3a/8a/0c842c4d0e5beebdbb6ed46b0758dd3c125001525aee808fb9ae2f8f8e93/ibm-continuous-delivery-1.0.0.tar.gz
+[2023-04-27 00:55:49] WARNING root fetch - processPackages [sdo-image-parameter-api]: Skipping package: exceeds size limit 55850683>=10485760
+[2023-04-27 00:55:49] INFO root fetch - processPackages [sdo-image-parameter-api]: Start processing: InvokeAI
+[2023-04-27 00:55:49] INFO root fetch - main [MainThread]: End processing [sdo-image-parameter-api] error
+[2023-04-27 00:55:49] INFO root fetch - processPackages [doorloop]: Downloading https://files.pythonhosted.org/packages/a7/f1/4895454550c9701f98e9c28f86b4dc8b0bfaa5d475d0998dd1003809ec48/doorloop-0.0.5.tar.gz
+[2023-04-27 00:55:49] INFO root fetch - processPackages [InvokeAI]: New version: [2.3.5rc1] Old Version: [2.3.4rc1]
+[2023-04-27 00:55:49] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/78/a3/9216bb41522207c70744b2f174f5e042bf70eb7e2861983befb28532d59f/mb_pytorch-1.0.202304262252-py3-none-any.whl
+[2023-04-27 00:55:49] INFO root fetch - processPackages [q2gui]: executing diffoscope
+[2023-04-27 00:55:49] INFO root fetch - processPackages [q2gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/q2gui-0.1.83.tar.gz tmp/q2gui-0.1.9.tar.gz --markdown 20230427/q/q2gui/0.1.83-0.1.9/diff.md --exclude *.pyd
+[2023-04-27 00:55:49] INFO root fetch - processPackages [mb-pytorch]: executing diffoscope
+[2023-04-27 00:55:49] INFO root fetch - processPackages [mb-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_pytorch-1.0.202304262233-py3-none-any.whl.zip tmp/mb_pytorch-1.0.202304262252-py3-none-any.whl.zip --markdown 20230427/m/mb-pytorch/1.0.202304262233-1.0.202304262252/diff.md --exclude *.pyd
+[2023-04-27 00:55:49] INFO root fetch - processPackages [aiostp]: executing diffoscope
+[2023-04-27 00:55:49] INFO root fetch - processPackages [aiostp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiostp-0.0.8.dev0.tar.gz tmp/aiostp-0.0.9.tar.gz --markdown 20230427/a/aiostp/0.0.8.dev0-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 00:55:49] INFO root fetch - processPackages [graphandlerpy]: Downloading https://files.pythonhosted.org/packages/ce/cf/88f51f0ac02362066d27cd23add5ee7f8894535775d5b0b43bcf831821a1/graphandlerpy-0.0.2.tar.gz
+[2023-04-27 00:55:49] INFO root fetch - processPackages [causalforge]: Downloading https://files.pythonhosted.org/packages/d4/9d/64eb3d845982403047f578664c35a32ae5b5f2ae5e03b5f5b81c512fd394/causalforge-0.0.2.tar.gz
+[2023-04-27 00:55:49] INFO root fetch - processPackages [graph-envs]: Downloading https://files.pythonhosted.org/packages/4d/b2/31d92c42dd199b971b6afa83ea3f4bd903c59fa760f2c2397c8e5be0a6d1/graph-envs-0.0.9.tar.gz
+[2023-04-27 00:55:49] INFO root fetch - processPackages [InvokeAI]: Downloading https://files.pythonhosted.org/packages/da/bc/6dbbf0496be5248e077c921909fde37547bcd2fb5d3ec63b21b77ca6c71a/InvokeAI-2.3.4rc1.tar.gz
+[2023-04-27 00:55:49] INFO root fetch - processPackages [graphandlerpy]: executing diffoscope
+[2023-04-27 00:55:49] INFO root fetch - processPackages [graphandlerpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphandlerpy-0.0.1.tar.gz tmp/graphandlerpy-0.0.2.tar.gz --markdown 20230427/g/graphandlerpy/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-27 00:55:49] INFO root fetch - processPackages [causalforge]: executing diffoscope
+[2023-04-27 00:55:49] INFO root fetch - processPackages [causalforge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/causalforge-0.0.1.tar.gz tmp/causalforge-0.0.2.tar.gz --markdown 20230427/c/causalforge/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-27 00:55:49] INFO root fetch - processPackages [ibm-continuous-delivery]: Downloading https://files.pythonhosted.org/packages/e5/44/4516e0810326d47efb6725a24a445f14c21c978ece9af106e5bb21cd7549/ibm-continuous-delivery-1.0.1.tar.gz
+[2023-04-27 00:55:49] INFO root fetch - processPackages [doorloop]: Downloading https://files.pythonhosted.org/packages/3f/65/bb64929d7d40713bd397a15994e2ee6b3453e2bfbe2888e328f8bc80c146/doorloop-0.0.6.tar.gz
+[2023-04-27 00:55:49] INFO root fetch - processPackages [ibm-continuous-delivery]: executing diffoscope
+[2023-04-27 00:55:49] INFO root fetch - processPackages [ibm-continuous-delivery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibm-continuous-delivery-1.0.0.tar.gz tmp/ibm-continuous-delivery-1.0.1.tar.gz --markdown 20230427/i/ibm-continuous-delivery/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-27 00:55:49] INFO root fetch - processPackages [doorloop]: executing diffoscope
+[2023-04-27 00:55:49] INFO root fetch - processPackages [doorloop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doorloop-0.0.5.tar.gz tmp/doorloop-0.0.6.tar.gz --markdown 20230427/d/doorloop/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-27 00:55:49] INFO root fetch - processPackages [graph-envs]: executing diffoscope
+[2023-04-27 00:55:49] INFO root fetch - processPackages [graph-envs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graph-envs-0.0.8.tar.gz tmp/graph-envs-0.0.9.tar.gz --markdown 20230427/g/graph-envs/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 00:55:50] INFO root fetch - processPackages [InvokeAI]: Downloading https://files.pythonhosted.org/packages/3c/8b/f60a1af99a56be7393d623d40176f4f11428a2d033261eefc3df8887cc1d/InvokeAI-2.3.5rc1.tar.gz
+[2023-04-27 00:55:50] INFO root fetch - main [MainThread]: End processing [fast-agave]: success
+[2023-04-27 00:55:50] INFO root fetch - processPackages [InvokeAI]: executing diffoscope
+[2023-04-27 00:55:50] INFO root fetch - processPackages [InvokeAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/InvokeAI-2.3.4rc1.tar.gz tmp/InvokeAI-2.3.5rc1.tar.gz --markdown 20230427/I/InvokeAI/2.3.4rc1-2.3.5rc1/diff.md --exclude *.pyd
+[2023-04-27 00:55:50] INFO root fetch - main [MainThread]: End processing [graphandlerpy]: success
+[2023-04-27 00:55:50] INFO root fetch - main [MainThread]: End processing [mb-pytorch]: success
+[2023-04-27 00:55:50] INFO root fetch - main [MainThread]: End processing [causalforge]: success
+[2023-04-27 00:55:50] INFO root fetch - main [MainThread]: End processing [q2gui]: success
+[2023-04-27 00:55:51] INFO root fetch - main [MainThread]: End processing [aiostp]: success
+[2023-04-27 00:55:51] INFO root fetch - main [MainThread]: End processing [ibm-continuous-delivery]: success
+[2023-04-27 00:55:51] INFO root fetch - main [MainThread]: End processing [graph-envs]: success
+[2023-04-27 00:55:51] INFO root fetch - main [MainThread]: End processing [doorloop]: success
+[2023-04-27 00:56:06] INFO root fetch - main [MainThread]: End processing [InvokeAI]: success
+[2023-04-27 00:56:06] INFO root fetch - main [MainThread]: Store serial: [17872527]
