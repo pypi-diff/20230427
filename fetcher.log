@@ -262,3 +262,88 @@
 [2023-04-27 00:16:34] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-04-27 00:18:47] INFO root fetch - main [MainThread]: End processing [viser]: success
 [2023-04-27 00:18:47] INFO root fetch - main [MainThread]: Store serial: [17872299]
+[2023-04-27 00:23:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17872299]
+[2023-04-27 00:23:55] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-27 00:23:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: widgetron
+[2023-04-27 00:23:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fmdt-python
+[2023-04-27 00:23:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cochleogram
+[2023-04-27 00:23:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tartanair
+[2023-04-27 00:23:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dj-rest-admin
+[2023-04-27 00:23:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: front
+[2023-04-27 00:23:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fpds
+[2023-04-27 00:23:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: covalent-awslambda-plugin
+[2023-04-27 00:23:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: numalogic-prometheus
+[2023-04-27 00:23:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kcli
+[2023-04-27 00:23:55] INFO root fetch - processPackages [cochleogram]: New version: [0.2.0] Old Version: [0.1.8]
+[2023-04-27 00:23:55] WARNING root fetch - processPackages [dj-rest-admin]: Skipping, unable to determine old version
+[2023-04-27 00:23:55] INFO root fetch - processPackages [dj-rest-admin]: Start processing: airflow-metrics-gbq
+[2023-04-27 00:23:55] INFO root fetch - processPackages [fmdt-python]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 00:23:55] INFO root fetch - main [MainThread]: End processing [dj-rest-admin] error
+[2023-04-27 00:23:55] INFO root fetch - processPackages [widgetron]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-04-27 00:23:55] INFO root fetch - processPackages [tartanair]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-27 00:23:55] INFO root fetch - processPackages [covalent-awslambda-plugin]: New version: [0.9.0rc0] Old Version: [0.8.3rc0]
+[2023-04-27 00:23:55] INFO root fetch - processPackages [front]: New version: [0.1.9] Old Version: [0.1.88]
+[2023-04-27 00:23:55] INFO root fetch - processPackages [fpds]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-27 00:23:55] INFO root fetch - processPackages [airflow-metrics-gbq]: New version: [0.0.4a4] Old Version: [0.0.4a3]
+[2023-04-27 00:23:55] INFO root fetch - processPackages [numalogic-prometheus]: New version: [0.3.2a0] Old Version: [0.3.1a0]
+[2023-04-27 00:23:56] INFO root fetch - processPackages [kcli]: New version: [99.0.202304262221] Old Version: [99.0.202304262215]
+[2023-04-27 00:23:56] INFO root fetch - processPackages [front]: Downloading https://files.pythonhosted.org/packages/b7/c0/fa09b23ae74989a60d7b4a1f6f0914fd01ffc4f4bd5c7543a9bc5a5e793b/front-0.1.88.tar.gz
+[2023-04-27 00:23:56] INFO root fetch - processPackages [tartanair]: Downloading https://files.pythonhosted.org/packages/ab/3c/7709b9676ce5541a17b10ab9c197ae5c99187a1df060e32e11f358b02263/tartanair-1.0.0.tar.gz
+[2023-04-27 00:23:56] INFO root fetch - processPackages [widgetron]: Downloading https://files.pythonhosted.org/packages/24/3f/d516f54f65b37d078e733af1b63824724b319edfb6734cd79c7ab4681110/widgetron-0.1.7.tar.gz
+[2023-04-27 00:23:56] INFO root fetch - processPackages [fpds]: Downloading https://files.pythonhosted.org/packages/3b/b6/9d7018e849af90f3b2a7fa8a58ce4ba72bd08af7d3c21d4e98141210159b/fpds-1.0.2.tar.gz
+[2023-04-27 00:23:56] INFO root fetch - processPackages [covalent-awslambda-plugin]: executing diffoscope
+[2023-04-27 00:23:56] INFO root fetch - processPackages [covalent-awslambda-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/covalent-awslambda-plugin-0.8.3rc0.tar.gz tmp/covalent-awslambda-plugin-0.9.0rc0.tar.gz --markdown 20230427/c/covalent-awslambda-plugin/0.8.3rc0-0.9.0rc0/diff.md --exclude *.pyd
+[2023-04-27 00:23:56] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/24/de/4581fa20179b2ea6bdb8262ee80b61070ba18f9e4a12981d8d1adc2367fc/kcli-99.0.202304262221-py3-none-any.whl
+[2023-04-27 00:23:56] INFO root fetch - processPackages [airflow-metrics-gbq]: Downloading https://files.pythonhosted.org/packages/9e/fa/05173a102978db05ffcc3f6188e128583f673c9fffff2a63ce0c3f28a3f8/airflow_metrics_gbq-0.0.4a4.tar.gz
+[2023-04-27 00:23:56] WARNING root fetch - processPackages [tartanair]: Skipping package: exceeds size limit 27983371>=10485760
+[2023-04-27 00:23:56] INFO root fetch - processPackages [tartanair]: Start processing: captif-cpx-db
+[2023-04-27 00:23:56] INFO root fetch - main [MainThread]: End processing [tartanair] error
+[2023-04-27 00:23:56] INFO root fetch - processPackages [cochleogram]: Downloading https://files.pythonhosted.org/packages/ac/36/6049c31a10c8f44761f201b6acfb1a817a715e3f65ea1f1947c290390798/cochleogram-0.2.0.tar.gz
+[2023-04-27 00:23:56] INFO root fetch - processPackages [captif-cpx-db]: New version: [0.3] Old Version: [0.2]
+[2023-04-27 00:23:56] INFO root fetch - processPackages [airflow-metrics-gbq]: executing diffoscope
+[2023-04-27 00:23:56] INFO root fetch - processPackages [airflow-metrics-gbq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airflow_metrics_gbq-0.0.4a3.tar.gz tmp/airflow_metrics_gbq-0.0.4a4.tar.gz --markdown 20230427/a/airflow-metrics-gbq/0.0.4a3-0.0.4a4/diff.md --exclude *.pyd
+[2023-04-27 00:23:56] INFO root fetch - processPackages [numalogic-prometheus]: Downloading https://files.pythonhosted.org/packages/e2/39/14a7cc657695880104e21e482166a1e745c2e6726b0e0f3a5dc5c9b69060/numalogic_prometheus-0.3.2a0.tar.gz
+[2023-04-27 00:23:56] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-04-27 00:23:56] INFO root fetch - processPackages [fmdt-python]: executing diffoscope
+[2023-04-27 00:23:56] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202304262215-py3-none-any.whl.zip tmp/kcli-99.0.202304262221-py3-none-any.whl.zip --markdown 20230427/k/kcli/99.0.202304262215-99.0.202304262221/diff.md --exclude *.pyd
+[2023-04-27 00:23:56] INFO root fetch - processPackages [fmdt-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fmdt_python-0.0.8.tar.gz tmp/fmdt_python-0.0.9.tar.gz --markdown 20230427/f/fmdt-python/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 00:23:56] INFO root fetch - processPackages [cochleogram]: executing diffoscope
+[2023-04-27 00:23:56] INFO root fetch - processPackages [cochleogram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cochleogram-0.1.8.tar.gz tmp/cochleogram-0.2.0.tar.gz --markdown 20230427/c/cochleogram/0.1.8-0.2.0/diff.md --exclude *.pyd
+[2023-04-27 00:23:56] INFO root fetch - processPackages [widgetron]: Downloading https://files.pythonhosted.org/packages/d8/2b/256840beac1a7d534fb1960cb6a5614b2cd882346efdbccffd35bf0a3b0a/widgetron-0.1.8.tar.gz
+[2023-04-27 00:23:56] INFO root fetch - processPackages [front]: Downloading https://files.pythonhosted.org/packages/0e/fb/90e062fc3b77ed3815624b5eb756de870f5dc34ba0c75bf0b1dcd609f3df/front-0.1.9.tar.gz
+[2023-04-27 00:23:56] INFO root fetch - processPackages [numalogic-prometheus]: executing diffoscope
+[2023-04-27 00:23:56] INFO root fetch - processPackages [numalogic-prometheus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numalogic_prometheus-0.3.1a0.tar.gz tmp/numalogic_prometheus-0.3.2a0.tar.gz --markdown 20230427/n/numalogic-prometheus/0.3.1a0-0.3.2a0/diff.md --exclude *.pyd
+[2023-04-27 00:23:56] INFO root fetch - processPackages [captif-cpx-db]: Downloading https://files.pythonhosted.org/packages/35/98/9a249f8fbada3399d94bafe58f868385caec58880e731b87ea17b5b9238f/captif_cpx_db-0.3.tar.gz
+[2023-04-27 00:23:56] INFO root fetch - processPackages [fpds]: Downloading https://files.pythonhosted.org/packages/6b/92/0575c787f842e58c567b032515a29e69bfe927032fa4c787abcd268f0a2b/fpds-1.0.3.tar.gz
+[2023-04-27 00:23:56] INFO root fetch - processPackages [widgetron]: executing diffoscope
+[2023-04-27 00:23:56] INFO root fetch - processPackages [widgetron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/widgetron-0.1.7.tar.gz tmp/widgetron-0.1.8.tar.gz --markdown 20230427/w/widgetron/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-04-27 00:23:56] INFO root fetch - processPackages [captif-cpx-db]: executing diffoscope
+[2023-04-27 00:23:56] INFO root fetch - processPackages [captif-cpx-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/captif_cpx_db-0.2.tar.gz tmp/captif_cpx_db-0.3.tar.gz --markdown 20230427/c/captif-cpx-db/0.2-0.3/diff.md --exclude *.pyd
+[2023-04-27 00:23:56] INFO root fetch - processPackages [fpds]: executing diffoscope
+[2023-04-27 00:23:56] INFO root fetch - processPackages [fpds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fpds-1.0.2.tar.gz tmp/fpds-1.0.3.tar.gz --markdown 20230427/f/fpds/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-27 00:23:56] INFO root fetch - processPackages [front]: executing diffoscope
+[2023-04-27 00:23:56] INFO root fetch - processPackages [front]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/front-0.1.88.tar.gz tmp/front-0.1.9.tar.gz --markdown 20230427/f/front/0.1.88-0.1.9/diff.md --exclude *.pyd
+[2023-04-27 00:23:57] INFO root fetch - processPackages [airflow-metrics-gbq]: Start processing: mb-pytorch
+[2023-04-27 00:23:57] INFO root fetch - main [MainThread]: End processing [airflow-metrics-gbq]: success
+[2023-04-27 00:23:57] INFO root fetch - processPackages [mb-pytorch]: New version: [1.0.202304262221] Old Version: [1.0.202304250033]
+[2023-04-27 00:23:58] INFO root fetch - processPackages [cochleogram]: Start processing: workos
+[2023-04-27 00:23:58] INFO root fetch - main [MainThread]: End processing [cochleogram]: success
+[2023-04-27 00:23:58] INFO root fetch - main [MainThread]: End processing [widgetron]: success
+[2023-04-27 00:23:58] INFO root fetch - main [MainThread]: End processing [fmdt-python]: success
+[2023-04-27 00:23:58] INFO root fetch - processPackages [workos]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-04-27 00:23:58] INFO root fetch - main [MainThread]: End processing [covalent-awslambda-plugin]: success
+[2023-04-27 00:23:58] INFO root fetch - main [MainThread]: End processing [captif-cpx-db]: success
+[2023-04-27 00:23:58] INFO root fetch - main [MainThread]: End processing [numalogic-prometheus]: success
+[2023-04-27 00:23:58] INFO root fetch - processPackages [workos]: Downloading https://files.pythonhosted.org/packages/fa/8d/353a2989ca173f10c4b54863f8f6b076fc1187c4a5ff205c4c8cd946eb50/workos-1.8.0.tar.gz
+[2023-04-27 00:23:58] INFO root fetch - main [MainThread]: End processing [fpds]: success
+[2023-04-27 00:23:58] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/d2/3e/5a7e830242ffd99d7b4382e363842a0f228db0c0391d47ede889cd94d099/mb_pytorch-1.0.202304262221-py3-none-any.whl
+[2023-04-27 00:23:58] INFO root fetch - processPackages [mb-pytorch]: executing diffoscope
+[2023-04-27 00:23:58] INFO root fetch - processPackages [mb-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_pytorch-1.0.202304250033-py3-none-any.whl.zip tmp/mb_pytorch-1.0.202304262221-py3-none-any.whl.zip --markdown 20230427/m/mb-pytorch/1.0.202304250033-1.0.202304262221/diff.md --exclude *.pyd
+[2023-04-27 00:23:58] INFO root fetch - main [MainThread]: End processing [front]: success
+[2023-04-27 00:23:59] INFO root fetch - processPackages [workos]: Downloading https://files.pythonhosted.org/packages/a4/b3/813363ee5aded1d7a93976bd822f32ead11e155db844f7ba25029cdf9a6b/workos-1.9.0.tar.gz
+[2023-04-27 00:23:59] INFO root fetch - main [MainThread]: End processing [mb-pytorch]: success
+[2023-04-27 00:23:59] INFO root fetch - processPackages [workos]: executing diffoscope
+[2023-04-27 00:23:59] INFO root fetch - processPackages [workos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/workos-1.8.0.tar.gz tmp/workos-1.9.0.tar.gz --markdown 20230427/w/workos/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-04-27 00:24:00] INFO root fetch - main [MainThread]: End processing [workos]: success
+[2023-04-27 00:24:03] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-04-27 00:24:03] INFO root fetch - main [MainThread]: Store serial: [17872338]
