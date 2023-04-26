@@ -1,0 +1,72 @@
+[2023-04-27 00:05:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17872140]
+[2023-04-27 00:05:18] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-27 00:05:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ovos-dinkum-listener
+[2023-04-27 00:05:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: comet-ml
+[2023-04-27 00:05:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: epyt
+[2023-04-27 00:05:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: netbox-subnet-allocator
+[2023-04-27 00:05:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: plone.resource
+[2023-04-27 00:05:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: plone.resourceeditor
+[2023-04-27 00:05:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gradio-tools
+[2023-04-27 00:05:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyensign
+[2023-04-27 00:05:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: returnn
+[2023-04-27 00:05:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tcod-ecs
+[2023-04-27 00:05:18] INFO root fetch - processPackages [ovos-dinkum-listener]: New version: [0.0.2a8] Old Version: [0.0.2a7]
+[2023-04-27 00:05:18] INFO root fetch - processPackages [epyt]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-04-27 00:05:18] INFO root fetch - processPackages [netbox-subnet-allocator]: New version: [0.2] Old Version: [0.1]
+[2023-04-27 00:05:18] INFO root fetch - processPackages [plone.resource]: New version: [3.0.0] Old Version: [2.1.4]
+[2023-04-27 00:05:18] INFO root fetch - processPackages [comet-ml]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-04-27 00:05:18] INFO root fetch - processPackages [plone.resourceeditor]: New version: [4.0.0] Old Version: [3.0.4]
+[2023-04-27 00:05:18] INFO root fetch - processPackages [returnn]: New version: [1.20230426.105022] Old Version: [1.20230424.151137]
+[2023-04-27 00:05:18] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/25/14/2a46a3371e9b2ad8c4b73ce302e8477a047d7434ef390d9bdf8a574ce208/returnn-1.20230424.151137.tar.gz
+[2023-04-27 00:05:18] INFO root fetch - processPackages [gradio-tools]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-27 00:05:18] INFO root fetch - processPackages [pyensign]: New version: [0.6b0] Old Version: [0.1a1]
+[2023-04-27 00:05:18] INFO root fetch - processPackages [tcod-ecs]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-04-27 00:05:18] INFO root fetch - processPackages [epyt]: Downloading https://files.pythonhosted.org/packages/0a/e5/0fa8b77018eeb5a330124f412c4cd82d71184d93d3d4b3123fb563f11628/epyt-1.0.3.tar.gz
+[2023-04-27 00:05:18] INFO root fetch - processPackages [ovos-dinkum-listener]: Downloading https://files.pythonhosted.org/packages/f7/b8/c7a3710aeea6a8d6b2205bde1a98e1850933c7924424d21e13b48c33102c/ovos_dinkum_listener-0.0.2a7-py3-none-any.whl
+[2023-04-27 00:05:18] INFO root fetch - processPackages [netbox-subnet-allocator]: Downloading https://files.pythonhosted.org/packages/46/3e/82403f057caca61957561e7cb2a2987916bf7126bf8814465ab58d530d20/netbox-subnet-allocator-0.1.tar.gz
+[2023-04-27 00:05:18] INFO root fetch - processPackages [plone.resource]: Downloading https://files.pythonhosted.org/packages/28/7d/cc6c88dd3bedf14cf5d2e2fc5bbc731b75db4a5631f2bc76f4efce38f311/plone.resource-2.1.4.tar.gz
+[2023-04-27 00:05:18] INFO root fetch - processPackages [comet-ml]: Downloading https://files.pythonhosted.org/packages/fb/d1/5b364541fde741bc08ab30b76b39bd9dceaf41e597c7878d897b2397d984/comet_ml-3.9.0.tar.gz
+[2023-04-27 00:05:18] INFO root fetch - processPackages [plone.resourceeditor]: Downloading https://files.pythonhosted.org/packages/bb/39/c44e79c0987079265102f838d10d539939a840e4044ab548fda9390eec0e/plone.resourceeditor-3.0.4.tar.gz
+[2023-04-27 00:05:19] INFO root fetch - processPackages [tcod-ecs]: Downloading https://files.pythonhosted.org/packages/ff/66/3a2ae8fdf809a65ca0279a1aba5e022d99d8f77dfb7c8c5fbd0a9fafdd8c/tcod-ecs-1.1.0.tar.gz
+[2023-04-27 00:05:19] INFO root fetch - processPackages [pyensign]: Downloading https://files.pythonhosted.org/packages/18/0b/551dff689fd4cca091919980e42f619605fababbfb72fe3a8f57f07a2253/pyensign-0.1a1.tar.gz
+[2023-04-27 00:05:19] INFO root fetch - processPackages [gradio-tools]: Downloading https://files.pythonhosted.org/packages/d5/d6/70fc51b3f0f2bf535e41345383791a6020e3b9317692730da1ef5784f9a1/gradio_tools-0.0.5.tar.gz
+[2023-04-27 00:05:19] INFO root fetch - processPackages [ovos-dinkum-listener]: Downloading https://files.pythonhosted.org/packages/54/9d/f4a7d3d070c3e43f01821753e98fd2cfbbbf6ceeb574e5d9627bddcc9359/ovos_dinkum_listener-0.0.2a8-py3-none-any.whl
+[2023-04-27 00:05:19] INFO root fetch - processPackages [epyt]: Downloading https://files.pythonhosted.org/packages/25/0a/dd8826c87a089e7f52de4f913cd0bbc7412ab7930391b688b53e9fd332c1/epyt-1.0.4.tar.gz
+[2023-04-27 00:05:19] INFO root fetch - processPackages [netbox-subnet-allocator]: Downloading https://files.pythonhosted.org/packages/76/56/75c3d2f634909543865af6b6c026dcdc4e8cef30dd1b4d138c027f2c082e/netbox-subnet-allocator-0.2.tar.gz
+[2023-04-27 00:05:19] INFO root fetch - processPackages [ovos-dinkum-listener]: executing diffoscope
+[2023-04-27 00:05:19] INFO root fetch - processPackages [ovos-dinkum-listener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_dinkum_listener-0.0.2a7-py3-none-any.whl.zip tmp/ovos_dinkum_listener-0.0.2a8-py3-none-any.whl.zip --markdown 20230427/o/ovos-dinkum-listener/0.0.2a7-0.0.2a8/diff.md --exclude *.pyd
+[2023-04-27 00:05:19] INFO root fetch - processPackages [netbox-subnet-allocator]: executing diffoscope
+[2023-04-27 00:05:19] INFO root fetch - processPackages [netbox-subnet-allocator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-subnet-allocator-0.1.tar.gz tmp/netbox-subnet-allocator-0.2.tar.gz --markdown 20230427/n/netbox-subnet-allocator/0.1-0.2/diff.md --exclude *.pyd
+[2023-04-27 00:05:19] INFO root fetch - processPackages [plone.resource]: Downloading https://files.pythonhosted.org/packages/7c/8c/2e4a1756502adad21e77a32820458afb6102cd9eb85a6436ba615f685e03/plone.resource-3.0.0.tar.gz
+[2023-04-27 00:05:19] INFO root fetch - processPackages [epyt]: executing diffoscope
+[2023-04-27 00:05:19] INFO root fetch - processPackages [epyt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epyt-1.0.3.tar.gz tmp/epyt-1.0.4.tar.gz --markdown 20230427/e/epyt/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-04-27 00:05:19] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-04-27 00:05:19] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230424.151137.tar.gz tmp/returnn-1.20230426.105022.tar.gz --markdown 20230427/r/returnn/1.20230424.151137-1.20230426.105022/diff.md --exclude *.pyd
+[2023-04-27 00:05:19] INFO root fetch - processPackages [pyensign]: Downloading https://files.pythonhosted.org/packages/b4/9d/7a3b4fd37faea0311d603a23e9de1e86e0f12c52b408434c42d76b49b47c/pyensign-0.6b0.tar.gz
+[2023-04-27 00:05:19] INFO root fetch - processPackages [plone.resourceeditor]: Downloading https://files.pythonhosted.org/packages/1d/02/a4b3ef8246e5e15a011630d729f742b73884d0c4f738c5a8194f28af5888/plone.resourceeditor-4.0.0.tar.gz
+[2023-04-27 00:05:19] INFO root fetch - processPackages [comet-ml]: Downloading https://files.pythonhosted.org/packages/17/97/9f1e153f6b4df253f5eea38e51f9be34256bc8bf0d363d01a1ffc2d2d668/comet_ml-3.9.1.tar.gz
+[2023-04-27 00:05:19] INFO root fetch - processPackages [tcod-ecs]: Downloading https://files.pythonhosted.org/packages/00/88/f21fd283b981baebbe3386f53d183d5c6bee75a9d54949555c236ae77556/tcod-ecs-1.2.0.tar.gz
+[2023-04-27 00:05:19] INFO root fetch - processPackages [plone.resource]: executing diffoscope
+[2023-04-27 00:05:19] INFO root fetch - processPackages [plone.resource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plone.resource-2.1.4.tar.gz tmp/plone.resource-3.0.0.tar.gz --markdown 20230427/p/plone.resource/2.1.4-3.0.0/diff.md --exclude *.pyd
+[2023-04-27 00:05:19] INFO root fetch - processPackages [pyensign]: executing diffoscope
+[2023-04-27 00:05:19] INFO root fetch - processPackages [pyensign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyensign-0.1a1.tar.gz tmp/pyensign-0.6b0.tar.gz --markdown 20230427/p/pyensign/0.1a1-0.6b0/diff.md --exclude *.pyd
+[2023-04-27 00:05:19] INFO root fetch - processPackages [plone.resourceeditor]: executing diffoscope
+[2023-04-27 00:05:19] INFO root fetch - processPackages [plone.resourceeditor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plone.resourceeditor-3.0.4.tar.gz tmp/plone.resourceeditor-4.0.0.tar.gz --markdown 20230427/p/plone.resourceeditor/3.0.4-4.0.0/diff.md --exclude *.pyd
+[2023-04-27 00:05:19] INFO root fetch - processPackages [tcod-ecs]: executing diffoscope
+[2023-04-27 00:05:19] INFO root fetch - processPackages [comet-ml]: executing diffoscope
+[2023-04-27 00:05:19] INFO root fetch - processPackages [tcod-ecs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tcod-ecs-1.1.0.tar.gz tmp/tcod-ecs-1.2.0.tar.gz --markdown 20230427/t/tcod-ecs/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-04-27 00:05:19] INFO root fetch - processPackages [comet-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comet_ml-3.9.0.tar.gz tmp/comet_ml-3.9.1.tar.gz --markdown 20230427/c/comet-ml/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-04-27 00:05:19] INFO root fetch - processPackages [gradio-tools]: Downloading https://files.pythonhosted.org/packages/26/d3/8cfcb3997148f87c64f3453d2fb9922404217cb28eec30226fb30ba338a3/gradio_tools-0.0.6.tar.gz
+[2023-04-27 00:05:21] INFO root fetch - main [MainThread]: End processing [ovos-dinkum-listener]: success
+[2023-04-27 00:05:21] INFO root fetch - main [MainThread]: End processing [netbox-subnet-allocator]: success
+[2023-04-27 00:05:21] INFO root fetch - processPackages [gradio-tools]: executing diffoscope
+[2023-04-27 00:05:21] INFO root fetch - processPackages [gradio-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gradio_tools-0.0.5.tar.gz tmp/gradio_tools-0.0.6.tar.gz --markdown 20230427/g/gradio-tools/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-27 00:05:21] INFO root fetch - main [MainThread]: End processing [tcod-ecs]: success
+[2023-04-27 00:05:21] INFO root fetch - main [MainThread]: End processing [pyensign]: success
+[2023-04-27 00:05:21] INFO root fetch - main [MainThread]: End processing [plone.resourceeditor]: success
+[2023-04-27 00:05:21] INFO root fetch - main [MainThread]: End processing [plone.resource]: success
+[2023-04-27 00:05:22] INFO root fetch - main [MainThread]: End processing [comet-ml]: success
+[2023-04-27 00:05:23] INFO root fetch - main [MainThread]: End processing [gradio-tools]: success
+[2023-04-27 00:05:24] INFO root fetch - main [MainThread]: End processing [epyt]: success
+[2023-04-27 00:05:24] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-04-27 00:05:24] INFO root fetch - main [MainThread]: Store serial: [17872179]
