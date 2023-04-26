@@ -478,3 +478,64 @@
 [2023-04-27 00:34:42] INFO root fetch - main [MainThread]: End processing [pulumi-gitlab]: success
 [2023-04-27 00:34:44] INFO root fetch - main [MainThread]: End processing [gdsfactory]: success
 [2023-04-27 00:34:44] INFO root fetch - main [MainThread]: Store serial: [17872403]
+[2023-04-27 00:39:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17872403]
+[2023-04-27 00:39:53] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-27 00:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: settngs
+[2023-04-27 00:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jtd-to-proto
+[2023-04-27 00:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: highcharts-maps
+[2023-04-27 00:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyleoclim
+[2023-04-27 00:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quakeio
+[2023-04-27 00:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: solaredge-local
+[2023-04-27 00:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lctest
+[2023-04-27 00:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jaaql-monitor
+[2023-04-27 00:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mikan-card-downloader
+[2023-04-27 00:39:53] INFO root fetch - processPackages [settngs]: New version: [0.6.5] Old Version: [0.6.3]
+[2023-04-27 00:39:53] INFO root fetch - processPackages [pyleoclim]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-27 00:39:53] INFO root fetch - processPackages [jtd-to-proto]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-04-27 00:39:53] INFO root fetch - processPackages [solaredge-local]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-27 00:39:53] INFO root fetch - processPackages [quakeio]: New version: [0.1.9] Old Version: [0.1.7]
+[2023-04-27 00:39:53] INFO root fetch - processPackages [lctest]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-04-27 00:39:53] INFO root fetch - processPackages [jaaql-monitor]: New version: [1.2.12] Old Version: [1.2.11]
+[2023-04-27 00:39:53] INFO root fetch - processPackages [highcharts-maps]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-04-27 00:39:54] INFO root fetch - processPackages [settngs]: Downloading https://files.pythonhosted.org/packages/44/9f/c953966119e5cd833eea9d7a2848eb613bc56d929a5aaffa0d0006417bee/settngs-0.6.5.tar.gz
+[2023-04-27 00:39:54] INFO root fetch - processPackages [mikan-card-downloader]: New version: [1.0.0] Old Version: [0.3.0]
+[2023-04-27 00:39:54] INFO root fetch - processPackages [settngs]: executing diffoscope
+[2023-04-27 00:39:54] INFO root fetch - processPackages [settngs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/settngs-0.6.3.tar.gz tmp/settngs-0.6.5.tar.gz --markdown 20230427/s/settngs/0.6.3-0.6.5/diff.md --exclude *.pyd
+[2023-04-27 00:39:54] INFO root fetch - processPackages [jtd-to-proto]: Downloading https://files.pythonhosted.org/packages/a5/ba/16eed98e5822738df34bb430e7ce82543b6fe3a78211324688c964503150/jtd_to_proto-0.8.2-py39-none-any.whl
+[2023-04-27 00:39:54] INFO root fetch - processPackages [lctest]: Downloading https://files.pythonhosted.org/packages/96/24/8132907db5827a805bcb43713b24463568068ca8fe2e8376649dcb7fec9b/lctest-0.1.7.tar.gz
+[2023-04-27 00:39:54] INFO root fetch - processPackages [jaaql-monitor]: Downloading https://files.pythonhosted.org/packages/33/ee/ee0b2f34f0dc12aa02d18689d6c5ac394e5f7bc4d4b2e2f25b42e274b887/jaaql-monitor-1.2.11.tar.gz
+[2023-04-27 00:39:54] INFO root fetch - processPackages [solaredge-local]: Downloading https://files.pythonhosted.org/packages/f9/3d/cfb268fc40d94218c39c01232d212b8868184a751152c25c785a3c05b9f6/solaredge_local-0.2.2.tar.gz
+[2023-04-27 00:39:54] INFO root fetch - processPackages [highcharts-maps]: Downloading https://files.pythonhosted.org/packages/31/96/72c013beafa481d561878019468d28a2c4d4ebb0ec18dedd8d93eef7b387/highcharts_maps-1.0.1.tar.gz
+[2023-04-27 00:39:54] INFO root fetch - processPackages [mikan-card-downloader]: Downloading https://files.pythonhosted.org/packages/54/df/f79009f76496467e0c3c997a8bb20b7b78e97b9e76eb09ce3db210983595/mikan_card_downloader-0.3.0.tar.gz
+[2023-04-27 00:39:54] INFO root fetch - processPackages [solaredge-local]: executing diffoscope
+[2023-04-27 00:39:54] INFO root fetch - processPackages [solaredge-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solaredge_local-0.2.1.tar.gz tmp/solaredge_local-0.2.2.tar.gz --markdown 20230427/s/solaredge-local/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-27 00:39:54] INFO root fetch - processPackages [jaaql-monitor]: Downloading https://files.pythonhosted.org/packages/df/c6/5a1fab6c3b7b59ae13fd99ae4f9eb3d5151dd0452600c85274560b3d6f90/jaaql-monitor-1.2.12.tar.gz
+[2023-04-27 00:39:54] INFO root fetch - processPackages [lctest]: Downloading https://files.pythonhosted.org/packages/30/21/b11bc73922c5f9243ded151edbdc69080c966597372d6a1a846cab8fb7bc/lctest-0.1.8.tar.gz
+[2023-04-27 00:39:54] INFO root fetch - processPackages [mikan-card-downloader]: Downloading https://files.pythonhosted.org/packages/17/28/a468f69c6684a0f5008babd778c9ceeb6e55badec03a9ec406520fd19b28/mikan_card_downloader-1.0.0.tar.gz
+[2023-04-27 00:39:54] INFO root fetch - processPackages [jtd-to-proto]: Downloading https://files.pythonhosted.org/packages/f2/c8/9f9c951bff99a9b58f76c1c3abf52fb8eeb4c203915d07d61c2597e2bb0c/jtd_to_proto-0.9.0-py39-none-any.whl
+[2023-04-27 00:39:54] INFO root fetch - processPackages [lctest]: executing diffoscope
+[2023-04-27 00:39:54] INFO root fetch - processPackages [jaaql-monitor]: executing diffoscope
+[2023-04-27 00:39:54] INFO root fetch - processPackages [lctest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lctest-0.1.7.tar.gz tmp/lctest-0.1.8.tar.gz --markdown 20230427/l/lctest/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-04-27 00:39:54] INFO root fetch - processPackages [jaaql-monitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaaql-monitor-1.2.11.tar.gz tmp/jaaql-monitor-1.2.12.tar.gz --markdown 20230427/j/jaaql-monitor/1.2.11-1.2.12/diff.md --exclude *.pyd
+[2023-04-27 00:39:54] INFO root fetch - processPackages [mikan-card-downloader]: executing diffoscope
+[2023-04-27 00:39:54] INFO root fetch - processPackages [jtd-to-proto]: executing diffoscope
+[2023-04-27 00:39:54] INFO root fetch - processPackages [mikan-card-downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mikan_card_downloader-0.3.0.tar.gz tmp/mikan_card_downloader-1.0.0.tar.gz --markdown 20230427/m/mikan-card-downloader/0.3.0-1.0.0/diff.md --exclude *.pyd
+[2023-04-27 00:39:54] INFO root fetch - processPackages [jtd-to-proto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jtd_to_proto-0.8.2-py39-none-any.whl.zip tmp/jtd_to_proto-0.9.0-py39-none-any.whl.zip --markdown 20230427/j/jtd-to-proto/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-04-27 00:39:55] INFO root fetch - processPackages [pyleoclim]: Downloading https://files.pythonhosted.org/packages/77/ff/ebf3b8be5d2df6a94b018148de520c0203983104c1eea6c8ad87ce33d73c/pyleoclim-0.9.0.tar.gz
+[2023-04-27 00:39:55] INFO root fetch - processPackages [quakeio]: Downloading https://files.pythonhosted.org/packages/b5/b7/687af851f40f088052988e3b07d57e06104249cc61c77202616b332f3787/quakeio-0.1.7.tar.gz
+[2023-04-27 00:39:55] INFO root fetch - main [MainThread]: End processing [settngs]: success
+[2023-04-27 00:39:55] INFO root fetch - processPackages [pyleoclim]: Downloading https://files.pythonhosted.org/packages/03/f2/afd2a7b682ae2f22f23ace8792606a30069d430f850ac67ed67840d4e79f/pyleoclim-0.9.1.tar.gz
+[2023-04-27 00:39:55] WARNING root fetch - processPackages [quakeio]: Skipping package: exceeds size limit 15708043>=10485760
+[2023-04-27 00:39:55] INFO root fetch - main [MainThread]: End processing [quakeio] error
+[2023-04-27 00:39:55] INFO root fetch - main [MainThread]: End processing [solaredge-local]: success
+[2023-04-27 00:39:55] INFO root fetch - processPackages [pyleoclim]: executing diffoscope
+[2023-04-27 00:39:55] INFO root fetch - processPackages [pyleoclim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyleoclim-0.9.0.tar.gz tmp/pyleoclim-0.9.1.tar.gz --markdown 20230427/p/pyleoclim/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-27 00:39:55] INFO root fetch - main [MainThread]: End processing [lctest]: success
+[2023-04-27 00:39:55] INFO root fetch - main [MainThread]: End processing [jaaql-monitor]: success
+[2023-04-27 00:39:55] INFO root fetch - main [MainThread]: End processing [mikan-card-downloader]: success
+[2023-04-27 00:39:55] INFO root fetch - main [MainThread]: End processing [jtd-to-proto]: success
+[2023-04-27 00:39:56] INFO root fetch - processPackages [highcharts-maps]: Downloading https://files.pythonhosted.org/packages/15/cd/67fb623f480ea1eab1f814c25abdb60f53b804507ad6433745a962713d34/highcharts_maps-1.1.0.tar.gz
+[2023-04-27 00:39:56] WARNING root fetch - processPackages [highcharts-maps]: Skipping package: exceeds size limit 11105733>=10485760
+[2023-04-27 00:39:56] INFO root fetch - main [MainThread]: End processing [highcharts-maps] error
+[2023-04-27 00:39:57] INFO root fetch - main [MainThread]: End processing [pyleoclim]: success
+[2023-04-27 00:39:57] INFO root fetch - main [MainThread]: Store serial: [17872432]
