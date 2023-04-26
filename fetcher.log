@@ -722,3 +722,88 @@
 [2023-04-27 00:55:51] INFO root fetch - main [MainThread]: End processing [doorloop]: success
 [2023-04-27 00:56:06] INFO root fetch - main [MainThread]: End processing [InvokeAI]: success
 [2023-04-27 00:56:06] INFO root fetch - main [MainThread]: Store serial: [17872527]
+[2023-04-27 01:01:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17872527]
+[2023-04-27 01:01:16] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-27 01:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-roborock
+[2023-04-27 01:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: phys2bids
+[2023-04-27 01:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: q2rad
+[2023-04-27 01:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bluesky-adaptive
+[2023-04-27 01:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: netkiller-devops
+[2023-04-27 01:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: netin
+[2023-04-27 01:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: circuitpython-stubs
+[2023-04-27 01:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wajig
+[2023-04-27 01:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sqlmesh
+[2023-04-27 01:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Colors-and-Styles
+[2023-04-27 01:01:16] INFO root fetch - processPackages [netin]: New version: [1.0.5.9.1] Old Version: [1.0.5.9]
+[2023-04-27 01:01:16] INFO root fetch - processPackages [wajig]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-04-27 01:01:17] INFO root fetch - processPackages [bluesky-adaptive]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-27 01:01:17] INFO root fetch - processPackages [netkiller-devops]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-04-27 01:01:17] INFO root fetch - processPackages [sqlmesh]: New version: [0.6.2.dev2] Old Version: [0.6.2]
+[2023-04-27 01:01:17] INFO root fetch - processPackages [python-roborock]: New version: [0.7.7] Old Version: [0.7.6]
+[2023-04-27 01:01:17] INFO root fetch - processPackages [Colors-and-Styles]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-27 01:01:17] INFO root fetch - processPackages [q2rad]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-04-27 01:01:17] INFO root fetch - processPackages [phys2bids]: New version: [2.8.4] Old Version: [2.8.3]
+[2023-04-27 01:01:17] INFO root fetch - processPackages [circuitpython-stubs]: New version: [8.1.0b2] Old Version: [8.1.0b1]
+[2023-04-27 01:01:17] INFO root fetch - processPackages [sqlmesh]: Downloading https://files.pythonhosted.org/packages/2c/86/67a65059e074cc148525883aac9802ec44213d5febfb6523a3d3eb4d1f08/sqlmesh-0.6.2.tar.gz
+[2023-04-27 01:01:17] INFO root fetch - processPackages [wajig]: Downloading https://files.pythonhosted.org/packages/65/64/bd3f69e4f176b74665eb2f82d78b2361e02a91a1c03bff98f6afc6f8bcab/wajig-4.0.8.tar.gz
+[2023-04-27 01:01:17] INFO root fetch - processPackages [phys2bids]: Downloading https://files.pythonhosted.org/packages/5f/f8/7ffcca79d386b337924ed344721ce0c308eb5e8f5c6fef6ebab5f50c1016/phys2bids-2.8.3.tar.gz
+[2023-04-27 01:01:17] INFO root fetch - processPackages [netin]: Downloading https://files.pythonhosted.org/packages/f3/04/d29873f463f25d79d9560d24f8178195b5e5080695a777b98ed6b90e1eb3/netin-1.0.5.9.1.tar.gz
+[2023-04-27 01:01:17] INFO root fetch - processPackages [netkiller-devops]: Downloading https://files.pythonhosted.org/packages/93/d6/ae182fc211ee1bba7cba75521c026d2f21a322be5f67d47cf29cb0de4bd2/netkiller-devops-0.6.8.tar.gz
+[2023-04-27 01:01:17] INFO root fetch - processPackages [python-roborock]: Downloading https://files.pythonhosted.org/packages/be/b8/fffebeaf81daf51b8a6bfcb74e00fa2e1cfb3d31eaa3693f6080d6a1a918/python_roborock-0.7.6.tar.gz
+[2023-04-27 01:01:17] INFO root fetch - processPackages [circuitpython-stubs]: Downloading https://files.pythonhosted.org/packages/ec/8d/6840e49e34d55640392406a1fcc3609e23164237233adbdcf15b16872b8b/circuitpython-stubs-8.1.0b1.tar.gz
+[2023-04-27 01:01:17] INFO root fetch - processPackages [q2rad]: executing diffoscope
+[2023-04-27 01:01:17] INFO root fetch - processPackages [q2rad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/q2rad-0.1.98.tar.gz tmp/q2rad-0.1.99.tar.gz --markdown 20230427/q/q2rad/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-04-27 01:01:17] INFO root fetch - processPackages [netin]: executing diffoscope
+[2023-04-27 01:01:17] INFO root fetch - processPackages [netin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netin-1.0.5.9.tar.gz tmp/netin-1.0.5.9.1.tar.gz --markdown 20230427/n/netin/1.0.5.9-1.0.5.9.1/diff.md --exclude *.pyd
+[2023-04-27 01:01:17] INFO root fetch - processPackages [bluesky-adaptive]: Downloading https://files.pythonhosted.org/packages/c3/52/cf8cf480881b7cfa82a865918f47f438764e48e926704930c8cab2276942/bluesky-adaptive-0.3.1.tar.gz
+[2023-04-27 01:01:17] INFO root fetch - processPackages [bluesky-adaptive]: executing diffoscope
+[2023-04-27 01:01:17] INFO root fetch - processPackages [bluesky-adaptive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluesky-adaptive-0.3.0.tar.gz tmp/bluesky-adaptive-0.3.1.tar.gz --markdown 20230427/b/bluesky-adaptive/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-27 01:01:17] INFO root fetch - processPackages [Colors-and-Styles]: Downloading https://files.pythonhosted.org/packages/4b/eb/290c00837e0c40dcbaa29dbc7ffdc21a801072df587b0d073b2eb9ff0f5c/Colors%20and%20Styles-1.0.2.tar.gz
+[2023-04-27 01:01:17] INFO root fetch - processPackages [Colors-and-Styles]: executing diffoscope
+[2023-04-27 01:01:17] INFO root fetch - processPackages [Colors-and-Styles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Colors and Styles-1.0.1.tar.gz tmp/Colors and Styles-1.0.2.tar.gz --markdown 20230427/C/Colors-and-Styles/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-27 01:01:17] INFO root fetch - processPackages [netkiller-devops]: Downloading https://files.pythonhosted.org/packages/ce/91/1f51d10a8e8f6c7a28e675b4772809fc03f85769b309088029be64b7b960/netkiller-devops-0.6.9.tar.gz
+[2023-04-27 01:01:17] INFO root fetch - processPackages [phys2bids]: Downloading https://files.pythonhosted.org/packages/b1/12/c97accaa5a70c73831d8393dd0e846f97a7358fd3902cb5b132bbc393f12/phys2bids-2.8.4.tar.gz
+[2023-04-27 01:01:17] INFO root fetch - processPackages [python-roborock]: Downloading https://files.pythonhosted.org/packages/23/8f/9a2e88fdcb221c39abc1572741dc2a5929008fdeb3e6d7acb3d69d87f457/python_roborock-0.7.7.tar.gz
+[2023-04-27 01:01:17] INFO root fetch - processPackages [netkiller-devops]: executing diffoscope
+[2023-04-27 01:01:17] INFO root fetch - processPackages [netkiller-devops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netkiller-devops-0.6.8.tar.gz tmp/netkiller-devops-0.6.9.tar.gz --markdown 20230427/n/netkiller-devops/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-04-27 01:01:17] INFO root fetch - processPackages [circuitpython-stubs]: Downloading https://files.pythonhosted.org/packages/69/7d/632fdbd789506e66b83e812e0b8a9c753adcd0b9fe8b9283bbe99cae1719/circuitpython-stubs-8.1.0b2.tar.gz
+[2023-04-27 01:01:17] INFO root fetch - processPackages [phys2bids]: executing diffoscope
+[2023-04-27 01:01:17] INFO root fetch - processPackages [phys2bids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phys2bids-2.8.3.tar.gz tmp/phys2bids-2.8.4.tar.gz --markdown 20230427/p/phys2bids/2.8.3-2.8.4/diff.md --exclude *.pyd
+[2023-04-27 01:01:17] INFO root fetch - processPackages [python-roborock]: executing diffoscope
+[2023-04-27 01:01:17] INFO root fetch - processPackages [python-roborock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_roborock-0.7.6.tar.gz tmp/python_roborock-0.7.7.tar.gz --markdown 20230427/p/python-roborock/0.7.6-0.7.7/diff.md --exclude *.pyd
+[2023-04-27 01:01:17] INFO root fetch - processPackages [wajig]: Downloading https://files.pythonhosted.org/packages/e4/49/cdff4152459b744e13e6f35c5aad96485d1e774d8e16f0dfc730df3ea49c/wajig-4.0.9.tar.gz
+[2023-04-27 01:01:17] INFO root fetch - processPackages [circuitpython-stubs]: executing diffoscope
+[2023-04-27 01:01:17] INFO root fetch - processPackages [circuitpython-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circuitpython-stubs-8.1.0b1.tar.gz tmp/circuitpython-stubs-8.1.0b2.tar.gz --markdown 20230427/c/circuitpython-stubs/8.1.0b1-8.1.0b2/diff.md --exclude *.pyd
+[2023-04-27 01:01:17] INFO root fetch - processPackages [wajig]: executing diffoscope
+[2023-04-27 01:01:17] INFO root fetch - processPackages [wajig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wajig-4.0.8.tar.gz tmp/wajig-4.0.9.tar.gz --markdown 20230427/w/wajig/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-04-27 01:01:18] INFO root fetch - processPackages [sqlmesh]: executing diffoscope
+[2023-04-27 01:01:18] INFO root fetch - processPackages [sqlmesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlmesh-0.6.2.tar.gz tmp/sqlmesh-0.6.2.dev2.tar.gz --markdown 20230427/s/sqlmesh/0.6.2-0.6.2.dev2/diff.md --exclude *.pyd
+[2023-04-27 01:01:18] INFO root fetch - processPackages [Colors-and-Styles]: Start processing: openvpn-helpers
+[2023-04-27 01:01:18] INFO root fetch - main [MainThread]: End processing [Colors-and-Styles]: success
+[2023-04-27 01:01:19] WARNING root fetch - processPackages [openvpn-helpers]: Skipping, unable to determine old version
+[2023-04-27 01:01:19] INFO root fetch - processPackages [openvpn-helpers]: Start processing: oblivious
+[2023-04-27 01:01:19] INFO root fetch - main [MainThread]: End processing [openvpn-helpers] error
+[2023-04-27 01:01:19] INFO root fetch - processPackages [oblivious]: New version: [7.0.0] Old Version: [6.0.0]
+[2023-04-27 01:01:19] INFO root fetch - processPackages [bluesky-adaptive]: Start processing: pyserve3
+[2023-04-27 01:01:19] INFO root fetch - main [MainThread]: End processing [bluesky-adaptive]: success
+[2023-04-27 01:01:19] INFO root fetch - processPackages [pyserve3]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-27 01:01:19] INFO root fetch - main [MainThread]: End processing [python-roborock]: success
+[2023-04-27 01:01:19] INFO root fetch - processPackages [oblivious]: Downloading https://files.pythonhosted.org/packages/5a/b9/cc575ea4b9fdff0fb7dfcb9117dcbc47c98a4296a8444774a3491d0c37a3/oblivious-6.0.0.tar.gz
+[2023-04-27 01:01:19] INFO root fetch - main [MainThread]: End processing [q2rad]: success
+[2023-04-27 01:01:19] INFO root fetch - processPackages [pyserve3]: Downloading https://files.pythonhosted.org/packages/c2/ef/4e49ff7071e5e9b9969bb2d2aeb390ba48724901085efe723dbf03f8957d/pyserve3-0.0.3.tar.gz
+[2023-04-27 01:01:19] INFO root fetch - main [MainThread]: End processing [wajig]: success
+[2023-04-27 01:01:19] INFO root fetch - main [MainThread]: End processing [netkiller-devops]: success
+[2023-04-27 01:01:19] INFO root fetch - processPackages [oblivious]: Downloading https://files.pythonhosted.org/packages/40/1d/0e5bb39234ff1d99a732c78294e118c508281a8d90ff0f43673cd2822da9/oblivious-7.0.0.tar.gz
+[2023-04-27 01:01:19] INFO root fetch - processPackages [oblivious]: executing diffoscope
+[2023-04-27 01:01:19] INFO root fetch - processPackages [oblivious]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oblivious-6.0.0.tar.gz tmp/oblivious-7.0.0.tar.gz --markdown 20230427/o/oblivious/6.0.0-7.0.0/diff.md --exclude *.pyd
+[2023-04-27 01:01:19] INFO root fetch - main [MainThread]: End processing [netin]: success
+[2023-04-27 01:01:19] INFO root fetch - processPackages [pyserve3]: Downloading https://files.pythonhosted.org/packages/e8/4e/f25d5b97f1b0bb54eecf6ae8da745254ab5818a4fcdd8c0e58dedd496df1/pyserve3-0.0.4.tar.gz
+[2023-04-27 01:01:19] INFO root fetch - processPackages [pyserve3]: executing diffoscope
+[2023-04-27 01:01:19] INFO root fetch - processPackages [pyserve3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyserve3-0.0.3.tar.gz tmp/pyserve3-0.0.4.tar.gz --markdown 20230427/p/pyserve3/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-27 01:01:19] INFO root fetch - main [MainThread]: End processing [circuitpython-stubs]: success
+[2023-04-27 01:01:19] INFO root fetch - main [MainThread]: End processing [phys2bids]: success
+[2023-04-27 01:01:20] INFO root fetch - main [MainThread]: End processing [pyserve3]: success
+[2023-04-27 01:01:20] INFO root fetch - main [MainThread]: End processing [oblivious]: success
+[2023-04-27 01:04:18] ERROR root fetch - processPackages [sqlmesh]: Timeout during execution of pkgdiff
+[2023-04-27 01:04:18] INFO root fetch - main [MainThread]: End processing [sqlmesh] error
+[2023-04-27 01:04:18] INFO root fetch - main [MainThread]: Store serial: [17872563]
