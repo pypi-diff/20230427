@@ -2931,3 +2931,114 @@
 [2023-04-27 01:24:00] ERROR root fetch - processPackages [sqlmesh]: Timeout during execution of pkgdiff
 [2023-04-27 01:24:00] INFO root fetch - main [MainThread]: End processing [sqlmesh] error
 [2023-04-27 01:24:00] INFO root fetch - main [MainThread]: Store serial: [17873513]
+[2023-04-27 01:29:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17873513]
+[2023-04-27 01:29:08] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-04-27 01:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ImmunoViewer
+[2023-04-27 01:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: request5
+[2023-04-27 01:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: graph-envs
+[2023-04-27 01:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: causalforge
+[2023-04-27 01:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: adafruit-circuitpython-ducky
+[2023-04-27 01:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyarmor.cli
+[2023-04-27 01:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyarmor.cli.core
+[2023-04-27 01:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fileaccess
+[2023-04-27 01:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fast-agave
+[2023-04-27 01:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tensorflow-determinism
+[2023-04-27 01:29:08] WARNING root fetch - processPackages [request5]: Skipping, unable to determine old version
+[2023-04-27 01:29:08] INFO root fetch - processPackages [ImmunoViewer]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-27 01:29:08] INFO root fetch - processPackages [request5]: Start processing: finlogic
+[2023-04-27 01:29:08] INFO root fetch - main [MainThread]: End processing [request5] error
+[2023-04-27 01:29:08] INFO root fetch - processPackages [adafruit-circuitpython-ducky]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-04-27 01:29:08] INFO root fetch - processPackages [graph-envs]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 01:29:08] INFO root fetch - processPackages [causalforge]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-27 01:29:08] INFO root fetch - processPackages [pyarmor.cli]: New version: [8.1.dev9] Old Version: [8.1.dev8]
+[2023-04-27 01:29:08] INFO root fetch - processPackages [fast-agave]: New version: [0.9.0.dev1] Old Version: [0.9.0.dev0]
+[2023-04-27 01:29:08] INFO root fetch - processPackages [tensorflow-determinism]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-04-27 01:29:09] WARNING root fetch - processPackages [fileaccess]: Skipping, unable to determine old version
+[2023-04-27 01:29:09] INFO root fetch - processPackages [fileaccess]: Start processing: acnaweblib
+[2023-04-27 01:29:09] INFO root fetch - main [MainThread]: End processing [fileaccess] error
+[2023-04-27 01:29:09] INFO root fetch - processPackages [finlogic]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-27 01:29:09] INFO root fetch - processPackages [pyarmor.cli.core]: New version: [2.1.dev9] Old Version: [2.1.dev7]
+[2023-04-27 01:29:09] INFO root fetch - processPackages [acnaweblib]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-04-27 01:29:09] INFO root fetch - processPackages [fast-agave]: executing diffoscope
+[2023-04-27 01:29:09] INFO root fetch - processPackages [fast-agave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_agave-0.9.0.dev0.tar.gz tmp/fast_agave-0.9.0.dev1.tar.gz --markdown 20230427/f/fast-agave/0.9.0.dev0-0.9.0.dev1/diff.md --exclude *.pyd
+[2023-04-27 01:29:09] INFO root fetch - processPackages [acnaweblib]: executing diffoscope
+[2023-04-27 01:29:09] INFO root fetch - processPackages [acnaweblib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acnaweblib-0.1.7.tar.gz tmp/acnaweblib-0.1.8.tar.gz --markdown 20230427/a/acnaweblib/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-04-27 01:29:09] INFO root fetch - processPackages [causalforge]: Downloading https://files.pythonhosted.org/packages/e4/e8/41b004ac6e6275c5b896c7ec3fecc64d27af36a95c90a6e003ec57ed7a78/causalforge-0.0.4.tar.gz
+[2023-04-27 01:29:09] INFO root fetch - processPackages [adafruit-circuitpython-ducky]: Downloading https://files.pythonhosted.org/packages/76/70/612578e21f2f55b6b79432c45f96c8cf7689129c66f317f8e6b99671aaec/adafruit-circuitpython-ducky-1.0.9.tar.gz
+[2023-04-27 01:29:09] INFO root fetch - processPackages [tensorflow-determinism]: Downloading https://files.pythonhosted.org/packages/76/56/79d74f25b326d8719753172496abc524980fa67d1d98bb247021376e370a/tensorflow-determinism-0.3.0.tar.gz
+[2023-04-27 01:29:09] INFO root fetch - processPackages [pyarmor.cli]: Downloading https://files.pythonhosted.org/packages/98/d2/09298ce4d6cef5352be9b08542f215db3eaca30cc8c47e4b3da2933b7ab7/pyarmor.cli-8.1.dev8-py2.py3-none-any.whl
+[2023-04-27 01:29:09] INFO root fetch - processPackages [finlogic]: Downloading https://files.pythonhosted.org/packages/9b/df/487a67a00fd7fb5917dc44975cda05b2cfb6d8a7c1573b99f88cac589bd9/finlogic-0.3.8.tar.gz
+[2023-04-27 01:29:09] INFO root fetch - processPackages [pyarmor.cli.core]: Downloading https://files.pythonhosted.org/packages/fe/5e/069f9976a6869195aed73f2734abfa36eaa40462bab221439c325296d4ae/pyarmor.cli.core-2.1.dev7-cp39-none-win_amd64.whl
+[2023-04-27 01:29:09] INFO root fetch - processPackages [ImmunoViewer]: Downloading https://files.pythonhosted.org/packages/48/92/e92f31627a826bc4b70ad55ff488c9c5ba07b44a037343ce69310bd62a70/ImmunoViewer-0.1.4.tar.gz
+[2023-04-27 01:29:09] INFO root fetch - processPackages [graph-envs]: executing diffoscope
+[2023-04-27 01:29:09] INFO root fetch - processPackages [graph-envs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graph-envs-0.0.8.tar.gz tmp/graph-envs-0.0.9.tar.gz --markdown 20230427/g/graph-envs/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 01:29:09] INFO root fetch - processPackages [ImmunoViewer]: executing diffoscope
+[2023-04-27 01:29:09] INFO root fetch - processPackages [ImmunoViewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ImmunoViewer-0.1.3.tar.gz tmp/ImmunoViewer-0.1.4.tar.gz --markdown 20230427/I/ImmunoViewer/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-27 01:29:09] INFO root fetch - processPackages [causalforge]: Downloading https://files.pythonhosted.org/packages/a4/17/d44f230028363a064455efa99da5a56aed2b934613f4a6dcc632af57e77b/causalforge-0.0.5.tar.gz
+[2023-04-27 01:29:09] INFO root fetch - processPackages [tensorflow-determinism]: Downloading https://files.pythonhosted.org/packages/c1/0c/4bd0445e72414f60e9b5d2334f6a12225ee25b30159ec59bd070a1bc7706/tensorflow-determinism-0.4.0.tar.gz
+[2023-04-27 01:29:09] INFO root fetch - processPackages [causalforge]: executing diffoscope
+[2023-04-27 01:29:09] INFO root fetch - processPackages [adafruit-circuitpython-ducky]: Downloading https://files.pythonhosted.org/packages/f6/a1/5f02efab8f852d135fe401337fe84f6ab03c9bcb87ad5e4e79cb1d3d90f9/adafruit-circuitpython-ducky-1.1.0.tar.gz
+[2023-04-27 01:29:09] INFO root fetch - processPackages [causalforge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/causalforge-0.0.4.tar.gz tmp/causalforge-0.0.5.tar.gz --markdown 20230427/c/causalforge/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-27 01:29:09] INFO root fetch - processPackages [finlogic]: executing diffoscope
+[2023-04-27 01:29:09] INFO root fetch - processPackages [finlogic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finlogic-0.3.8.tar.gz tmp/finlogic-0.3.9.tar.gz --markdown 20230427/f/finlogic/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-27 01:29:09] INFO root fetch - processPackages [tensorflow-determinism]: executing diffoscope
+[2023-04-27 01:29:09] INFO root fetch - processPackages [tensorflow-determinism]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow-determinism-0.3.0.tar.gz tmp/tensorflow-determinism-0.4.0.tar.gz --markdown 20230427/t/tensorflow-determinism/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-04-27 01:29:09] INFO root fetch - processPackages [pyarmor.cli]: Downloading https://files.pythonhosted.org/packages/36/0f/2cbd9db7733fefece616834452e24550d901511718d8890e4d9b080ccd9f/pyarmor.cli-8.1.dev9-py2.py3-none-any.whl
+[2023-04-27 01:29:09] INFO root fetch - processPackages [adafruit-circuitpython-ducky]: executing diffoscope
+[2023-04-27 01:29:09] INFO root fetch - processPackages [adafruit-circuitpython-ducky]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-ducky-1.0.9.tar.gz tmp/adafruit-circuitpython-ducky-1.1.0.tar.gz --markdown 20230427/a/adafruit-circuitpython-ducky/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-04-27 01:29:09] INFO root fetch - processPackages [pyarmor.cli]: executing diffoscope
+[2023-04-27 01:29:09] INFO root fetch - processPackages [pyarmor.cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli-8.1.dev8-py2.py3-none-any.whl.zip tmp/pyarmor.cli-8.1.dev9-py2.py3-none-any.whl.zip --markdown 20230427/p/pyarmor.cli/8.1.dev8-8.1.dev9/diff.md --exclude *.pyd
+[2023-04-27 01:29:09] INFO root fetch - processPackages [pyarmor.cli.core]: Downloading https://files.pythonhosted.org/packages/2b/d1/8f7d6500a457fcda40ad3be793c4108109b0d74b58620e5862a0ec230f81/pyarmor.cli.core-2.1.dev9-cp39-none-win_amd64.whl
+[2023-04-27 01:29:10] INFO root fetch - processPackages [acnaweblib]: Start processing: juno-ai
+[2023-04-27 01:29:10] INFO root fetch - main [MainThread]: End processing [acnaweblib]: success
+[2023-04-27 01:29:10] INFO root fetch - processPackages [fast-agave]: Start processing: acnaweblib
+[2023-04-27 01:29:10] INFO root fetch - main [MainThread]: End processing [fast-agave]: success
+[2023-04-27 01:29:10] INFO root fetch - processPackages [acnaweblib]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-04-27 01:29:10] INFO root fetch - processPackages [juno-ai]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-27 01:29:10] INFO root fetch - processPackages [pyarmor.cli.core]: executing diffoscope
+[2023-04-27 01:29:10] INFO root fetch - processPackages [pyarmor.cli.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.core-2.1.dev7-cp39-none-win_amd64.whl.zip tmp/pyarmor.cli.core-2.1.dev9-cp39-none-win_amd64.whl.zip --markdown 20230427/p/pyarmor.cli.core/2.1.dev7-2.1.dev9/diff.md --exclude *.pyd
+[2023-04-27 01:29:10] INFO root fetch - processPackages [acnaweblib]: executing diffoscope
+[2023-04-27 01:29:10] INFO root fetch - processPackages [acnaweblib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acnaweblib-0.1.7.tar.gz tmp/acnaweblib-0.1.8.tar.gz --markdown 20230427/a/acnaweblib/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-04-27 01:29:10] INFO root fetch - processPackages [juno-ai]: Downloading https://files.pythonhosted.org/packages/cd/4f/fa1f24f9ecbd9e4f6a05078d30a7fd4fbdd51c278d55951c3c1e4dd9622d/juno-ai-0.0.4.tar.gz
+[2023-04-27 01:29:10] INFO root fetch - processPackages [graph-envs]: Start processing: coastseg
+[2023-04-27 01:29:10] INFO root fetch - main [MainThread]: End processing [graph-envs]: success
+[2023-04-27 01:29:10] INFO root fetch - processPackages [coastseg]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 01:29:10] INFO root fetch - processPackages [tensorflow-determinism]: Start processing: termai
+[2023-04-27 01:29:10] INFO root fetch - main [MainThread]: End processing [tensorflow-determinism]: success
+[2023-04-27 01:29:10] INFO root fetch - processPackages [causalforge]: Start processing: myfxbook
+[2023-04-27 01:29:10] INFO root fetch - main [MainThread]: End processing [causalforge]: success
+[2023-04-27 01:29:10] INFO root fetch - processPackages [coastseg]: Downloading https://files.pythonhosted.org/packages/75/3b/19efffac60ef69a861417a37a370dc3f3a497cb93009fe8fff8dda38b476/coastseg-0.0.8.tar.gz
+[2023-04-27 01:29:10] INFO root fetch - processPackages [termai]: New version: [0.1.1.1] Old Version: [0.1.1]
+[2023-04-27 01:29:11] INFO root fetch - processPackages [juno-ai]: executing diffoscope
+[2023-04-27 01:29:11] INFO root fetch - processPackages [juno-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/juno-ai-0.0.3.tar.gz tmp/juno-ai-0.0.4.tar.gz --markdown 20230427/j/juno-ai/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-27 01:29:11] INFO root fetch - processPackages [finlogic]: Start processing: shekhar-bmi-calculator
+[2023-04-27 01:29:11] INFO root fetch - main [MainThread]: End processing [finlogic]: success
+[2023-04-27 01:29:11] WARNING root fetch - processPackages [myfxbook]: Skipping, unable to determine old version
+[2023-04-27 01:29:11] INFO root fetch - processPackages [myfxbook]: Start processing: pyarmor.cli.runtime
+[2023-04-27 01:29:11] INFO root fetch - main [MainThread]: End processing [myfxbook] error
+[2023-04-27 01:29:11] WARNING root fetch - processPackages [coastseg]: Skipping package: exceeds size limit 38421077>=10485760
+[2023-04-27 01:29:11] INFO root fetch - processPackages [coastseg]: Start processing: mb-pytorch
+[2023-04-27 01:29:11] INFO root fetch - main [MainThread]: End processing [coastseg] error
+[2023-04-27 01:29:11] WARNING root fetch - processPackages [shekhar-bmi-calculator]: Skipping, unable to determine old version
+[2023-04-27 01:29:11] INFO root fetch - main [MainThread]: End processing [shekhar-bmi-calculator] error
+[2023-04-27 01:29:11] INFO root fetch - main [MainThread]: End processing [pyarmor.cli]: success
+[2023-04-27 01:29:11] INFO root fetch - processPackages [mb-pytorch]: New version: [1.0.202304262315] Old Version: [1.0.202304262305]
+[2023-04-27 01:29:11] INFO root fetch - processPackages [termai]: Downloading https://files.pythonhosted.org/packages/7f/a2/2fdad0e5b71566562d86bf2e6d05f3bbf1ce616000bef078a937aed90632/termai-0.1.1.1.tar.gz
+[2023-04-27 01:29:11] INFO root fetch - processPackages [pyarmor.cli.runtime]: New version: [2.1.dev9] Old Version: [2.1.dev8]
+[2023-04-27 01:29:11] INFO root fetch - processPackages [mb-pytorch]: executing diffoscope
+[2023-04-27 01:29:11] INFO root fetch - processPackages [mb-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_pytorch-1.0.202304262305-py3-none-any.whl.zip tmp/mb_pytorch-1.0.202304262315-py3-none-any.whl.zip --markdown 20230427/m/mb-pytorch/1.0.202304262305-1.0.202304262315/diff.md --exclude *.pyd
+[2023-04-27 01:29:11] INFO root fetch - processPackages [termai]: executing diffoscope
+[2023-04-27 01:29:11] INFO root fetch - processPackages [termai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/termai-0.1.1.tar.gz tmp/termai-0.1.1.1.tar.gz --markdown 20230427/t/termai/0.1.1-0.1.1.1/diff.md --exclude *.pyd
+[2023-04-27 01:29:11] INFO root fetch - main [MainThread]: End processing [ImmunoViewer]: success
+[2023-04-27 01:29:11] INFO root fetch - processPackages [pyarmor.cli.runtime]: Downloading https://files.pythonhosted.org/packages/72/15/fed03ddb7b1a2e7a8a10b5bc6c60732b04c81292849483d20112f7b459c7/pyarmor.cli.runtime-2.1.dev8-cp39-none-any.whl
+[2023-04-27 01:29:11] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-ducky]: success
+[2023-04-27 01:29:11] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core]: success
+[2023-04-27 01:29:11] INFO root fetch - main [MainThread]: End processing [acnaweblib]: success
+[2023-04-27 01:29:12] INFO root fetch - main [MainThread]: End processing [termai]: success
+[2023-04-27 01:29:12] INFO root fetch - main [MainThread]: End processing [mb-pytorch]: success
+[2023-04-27 01:29:12] INFO root fetch - processPackages [pyarmor.cli.runtime]: Downloading https://files.pythonhosted.org/packages/df/a1/448ec9d21588a205f94722a91c5eddcf902cffefadcb36b6d29aa7b49e47/pyarmor.cli.runtime-2.1.dev9-cp39-none-any.whl
+[2023-04-27 01:29:13] INFO root fetch - processPackages [pyarmor.cli.runtime]: executing diffoscope
+[2023-04-27 01:29:13] INFO root fetch - processPackages [pyarmor.cli.runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.runtime-2.1.dev8-cp39-none-any.whl.zip tmp/pyarmor.cli.runtime-2.1.dev9-cp39-none-any.whl.zip --markdown 20230427/p/pyarmor.cli.runtime/2.1.dev8-2.1.dev9/diff.md --exclude *.pyd
+[2023-04-27 01:29:14] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.runtime]: success
+[2023-04-27 01:29:31] INFO root fetch - main [MainThread]: End processing [juno-ai]: success
+[2023-04-27 01:29:31] INFO root fetch - main [MainThread]: Store serial: [17873613]
