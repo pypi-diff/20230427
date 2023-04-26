@@ -2879,3 +2879,55 @@
 [2023-04-27 01:15:48] INFO root fetch - processPackages [solvis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solvis-0.6.0.tar.gz tmp/solvis-0.7.0.tar.gz --markdown 20230427/s/solvis/0.6.0-0.7.0/diff.md --exclude *.pyd
 [2023-04-27 01:15:51] INFO root fetch - main [MainThread]: End processing [solvis]: success
 [2023-04-27 01:15:51] INFO root fetch - main [MainThread]: Store serial: [17873365]
+[2023-04-27 01:20:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17873365]
+[2023-04-27 01:20:59] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-27 01:20:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torchchronos
+[2023-04-27 01:20:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mb-pytorch
+[2023-04-27 01:20:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: duplocloud-client
+[2023-04-27 01:20:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: causalforge
+[2023-04-27 01:20:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytifications
+[2023-04-27 01:20:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sqlmesh
+[2023-04-27 01:20:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: opteryx
+[2023-04-27 01:20:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: unisci
+[2023-04-27 01:20:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: culturalconformity
+[2023-04-27 01:20:59] INFO root fetch - processPackages [torchchronos]: New version: [0.0.3.post1] Old Version: [0.0.2]
+[2023-04-27 01:20:59] INFO root fetch - processPackages [sqlmesh]: New version: [0.6.2.dev2] Old Version: [0.6.2]
+[2023-04-27 01:20:59] INFO root fetch - processPackages [mb-pytorch]: New version: [1.0.202304262315] Old Version: [1.0.202304262305]
+[2023-04-27 01:20:59] INFO root fetch - processPackages [causalforge]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-27 01:20:59] INFO root fetch - processPackages [culturalconformity]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-27 01:20:59] INFO root fetch - processPackages [pytifications]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 01:20:59] INFO root fetch - processPackages [duplocloud-client]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-27 01:20:59] WARNING root fetch - processPackages [unisci]: Skipping, unable to determine old version
+[2023-04-27 01:20:59] INFO root fetch - main [MainThread]: End processing [unisci] error
+[2023-04-27 01:20:59] INFO root fetch - processPackages [pytifications]: executing diffoscope
+[2023-04-27 01:20:59] INFO root fetch - processPackages [pytifications]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytifications-0.0.8.tar.gz tmp/pytifications-0.0.9.tar.gz --markdown 20230427/p/pytifications/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 01:20:59] INFO root fetch - processPackages [sqlmesh]: executing diffoscope
+[2023-04-27 01:20:59] INFO root fetch - processPackages [sqlmesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlmesh-0.6.2.tar.gz tmp/sqlmesh-0.6.2.dev2.tar.gz --markdown 20230427/s/sqlmesh/0.6.2-0.6.2.dev2/diff.md --exclude *.pyd
+[2023-04-27 01:20:59] INFO root fetch - processPackages [torchchronos]: Downloading https://files.pythonhosted.org/packages/41/42/7fbc26da6377a9af537adbb1b0b219d732730bc1a1fd81a7ebde641c33ba/torchchronos-0.0.2.tar.gz
+[2023-04-27 01:20:59] INFO root fetch - processPackages [opteryx]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-04-27 01:20:59] INFO root fetch - processPackages [causalforge]: executing diffoscope
+[2023-04-27 01:20:59] INFO root fetch - processPackages [causalforge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/causalforge-0.0.2.tar.gz tmp/causalforge-0.0.3.tar.gz --markdown 20230427/c/causalforge/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-27 01:20:59] INFO root fetch - processPackages [culturalconformity]: executing diffoscope
+[2023-04-27 01:20:59] INFO root fetch - processPackages [culturalconformity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/culturalconformity-0.0.6.tar.gz tmp/culturalconformity-0.0.7.tar.gz --markdown 20230427/c/culturalconformity/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-27 01:21:00] INFO root fetch - processPackages [duplocloud-client]: Downloading https://files.pythonhosted.org/packages/e4/23/dc8ac6b45a1e95012332f08bb9befb0e3b9e28dfb2db34495c67c68dbc43/duplocloud-client-0.0.6.tar.gz
+[2023-04-27 01:21:00] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/94/5a/0e158bec54bc756399cd40bf4ebdb9bf25e0ace4f82b67daae66dbee94df/mb_pytorch-1.0.202304262315-py3-none-any.whl
+[2023-04-27 01:21:00] INFO root fetch - processPackages [mb-pytorch]: executing diffoscope
+[2023-04-27 01:21:00] INFO root fetch - processPackages [mb-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_pytorch-1.0.202304262305-py3-none-any.whl.zip tmp/mb_pytorch-1.0.202304262315-py3-none-any.whl.zip --markdown 20230427/m/mb-pytorch/1.0.202304262305-1.0.202304262315/diff.md --exclude *.pyd
+[2023-04-27 01:21:00] INFO root fetch - processPackages [duplocloud-client]: Downloading https://files.pythonhosted.org/packages/07/17/7accd978ee57d65f660cb7f3284d697006da408788d8dd7808095cb40307/duplocloud-client-0.0.7.tar.gz
+[2023-04-27 01:21:00] INFO root fetch - processPackages [torchchronos]: Downloading https://files.pythonhosted.org/packages/7e/de/3ea6433c509a3ac04040d2098823bb6beebc0a8fa6558ec6e17914034d9c/torchchronos-0.0.3.post1.tar.gz
+[2023-04-27 01:21:00] INFO root fetch - processPackages [opteryx]: executing diffoscope
+[2023-04-27 01:21:00] INFO root fetch - processPackages [opteryx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opteryx-0.9.2.tar.gz tmp/opteryx-0.9.3.tar.gz --markdown 20230427/o/opteryx/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-04-27 01:21:00] INFO root fetch - processPackages [duplocloud-client]: executing diffoscope
+[2023-04-27 01:21:00] INFO root fetch - processPackages [duplocloud-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duplocloud-client-0.0.6.tar.gz tmp/duplocloud-client-0.0.7.tar.gz --markdown 20230427/d/duplocloud-client/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-27 01:21:00] INFO root fetch - processPackages [torchchronos]: executing diffoscope
+[2023-04-27 01:21:00] INFO root fetch - processPackages [torchchronos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchchronos-0.0.2.tar.gz tmp/torchchronos-0.0.3.post1.tar.gz --markdown 20230427/t/torchchronos/0.0.2-0.0.3.post1/diff.md --exclude *.pyd
+[2023-04-27 01:21:01] INFO root fetch - main [MainThread]: End processing [culturalconformity]: success
+[2023-04-27 01:21:01] INFO root fetch - main [MainThread]: End processing [pytifications]: success
+[2023-04-27 01:21:01] INFO root fetch - main [MainThread]: End processing [causalforge]: success
+[2023-04-27 01:21:01] INFO root fetch - main [MainThread]: End processing [mb-pytorch]: success
+[2023-04-27 01:21:01] INFO root fetch - main [MainThread]: End processing [torchchronos]: success
+[2023-04-27 01:21:01] INFO root fetch - main [MainThread]: End processing [duplocloud-client]: success
+[2023-04-27 01:21:02] INFO root fetch - main [MainThread]: End processing [opteryx]: success
+[2023-04-27 01:24:00] ERROR root fetch - processPackages [sqlmesh]: Timeout during execution of pkgdiff
+[2023-04-27 01:24:00] INFO root fetch - main [MainThread]: End processing [sqlmesh] error
+[2023-04-27 01:24:00] INFO root fetch - main [MainThread]: Store serial: [17873513]
