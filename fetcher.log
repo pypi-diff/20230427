@@ -630,3 +630,23 @@
 [2023-04-27 00:45:16] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
 [2023-04-27 00:45:29] INFO root fetch - main [MainThread]: End processing [always-updates]: success
 [2023-04-27 00:45:29] INFO root fetch - main [MainThread]: Store serial: [17872484]
+[2023-04-27 00:50:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17872484]
+[2023-04-27 00:50:38] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-04-27 00:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: feed-archiver
+[2023-04-27 00:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: always-updates
+[2023-04-27 00:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ge25519
+[2023-04-27 00:50:38] INFO root fetch - processPackages [ge25519]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-04-27 00:50:38] INFO root fetch - processPackages [feed-archiver]: New version: [2.0.3] Old Version: [2.0.2b0]
+[2023-04-27 00:50:38] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-04-27 00:50:38] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-04-27 00:50:38] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230427/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-04-27 00:50:38] INFO root fetch - processPackages [feed-archiver]: Downloading https://files.pythonhosted.org/packages/4b/a0/6be4805049ac4fe6a2f68f3b777144381e16f6ba8f70668002e054a9c6fc/feed-archiver-2.0.3.tar.gz
+[2023-04-27 00:50:38] INFO root fetch - processPackages [ge25519]: Downloading https://files.pythonhosted.org/packages/66/1a/30923e1f2b73ae0c7a3e2cc866e1393d8721dd7923ce015d9ee290a32069/ge25519-1.4.2.tar.gz
+[2023-04-27 00:50:38] INFO root fetch - processPackages [feed-archiver]: executing diffoscope
+[2023-04-27 00:50:38] INFO root fetch - processPackages [feed-archiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feed-archiver-2.0.2b0.tar.gz tmp/feed-archiver-2.0.3.tar.gz --markdown 20230427/f/feed-archiver/2.0.2b0-2.0.3/diff.md --exclude *.pyd
+[2023-04-27 00:50:38] INFO root fetch - processPackages [ge25519]: executing diffoscope
+[2023-04-27 00:50:38] INFO root fetch - processPackages [ge25519]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ge25519-1.4.1.tar.gz tmp/ge25519-1.4.2.tar.gz --markdown 20230427/g/ge25519/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-04-27 00:50:39] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-04-27 00:50:39] INFO root fetch - main [MainThread]: End processing [ge25519]: success
+[2023-04-27 00:50:40] INFO root fetch - main [MainThread]: End processing [feed-archiver]: success
+[2023-04-27 00:50:40] INFO root fetch - main [MainThread]: Store serial: [17872494]
