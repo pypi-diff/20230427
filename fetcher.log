@@ -9142,3 +9142,38 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 06:05:32] INFO root fetch - main [MainThread]: End processing [currensees]: success
 [2023-04-27 06:05:32] INFO root fetch - main [MainThread]: End processing [inventronet]: success
 [2023-04-27 06:05:32] INFO root fetch - main [MainThread]: Store serial: [17877381]
+[2023-04-27 06:10:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17877381]
+[2023-04-27 06:10:41] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-27 06:10:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyxet
+[2023-04-27 06:10:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: truera
+[2023-04-27 06:10:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo13-addon-website-sale-b2x-alt-price
+[2023-04-27 06:10:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pilotlight-tools
+[2023-04-27 06:10:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-website-sale-filter-product-brand
+[2023-04-27 06:10:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyXhUtils
+[2023-04-27 06:10:41] INFO root fetch - processPackages [odoo13-addon-website-sale-b2x-alt-price]: New version: [13.0.1.1.0] Old Version: [13.0.1.0.1.dev2]
+[2023-04-27 06:10:41] INFO root fetch - processPackages [pilotlight-tools]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-04-27 06:10:41] INFO root fetch - processPackages [pyXhUtils]: New version: [1.3.5] Old Version: [1.3.4]
+[2023-04-27 06:10:41] INFO root fetch - processPackages [truera]: New version: [9.9.0] Old Version: [9.8.2]
+[2023-04-27 06:10:41] INFO root fetch - processPackages [odoo14-addon-website-sale-filter-product-brand]: New version: [14.0.1.0.1.dev4] Old Version: [14.0.1.0.1.dev2]
+[2023-04-27 06:10:41] WARNING root fetch - processPackages [pyxet]: Skipping, unable to determine old version
+[2023-04-27 06:10:41] INFO root fetch - main [MainThread]: End processing [pyxet] error
+[2023-04-27 06:10:41] INFO root fetch - processPackages [pilotlight-tools]: executing diffoscope
+[2023-04-27 06:10:41] INFO root fetch - processPackages [pilotlight-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pilotlight_tools-0.7.0.tar.gz tmp/pilotlight_tools-0.7.1.tar.gz --markdown 20230427/p/pilotlight-tools/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-04-27 06:10:41] INFO root fetch - processPackages [odoo13-addon-website-sale-b2x-alt-price]: executing diffoscope
+[2023-04-27 06:10:41] INFO root fetch - processPackages [odoo13-addon-website-sale-b2x-alt-price]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_website_sale_b2x_alt_price-13.0.1.0.1.dev2-py3-none-any.whl.zip tmp/odoo13_addon_website_sale_b2x_alt_price-13.0.1.1.0-py3-none-any.whl.zip --markdown 20230427/o/odoo13-addon-website-sale-b2x-alt-price/13.0.1.0.1.dev2-13.0.1.1.0/diff.md --exclude *.pyd
+[2023-04-27 06:10:41] INFO root fetch - processPackages [pyXhUtils]: executing diffoscope
+[2023-04-27 06:10:41] INFO root fetch - processPackages [pyXhUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyXhUtils-1.3.4.tar.gz tmp/pyXhUtils-1.3.5.tar.gz --markdown 20230427/p/pyXhUtils/1.3.4-1.3.5/diff.md --exclude *.pyd
+[2023-04-27 06:10:41] INFO root fetch - processPackages [odoo14-addon-website-sale-filter-product-brand]: Downloading https://files.pythonhosted.org/packages/7b/b1/d3e287e4d16bd24e7b561098d80b31fa845641597f9efa4f2607f514de8f/odoo14_addon_website_sale_filter_product_brand-14.0.1.0.1.dev2-py3-none-any.whl
+[2023-04-27 06:10:41] INFO root fetch - processPackages [truera]: Downloading https://files.pythonhosted.org/packages/dd/55/b3b828a4152d8509dde06e7e6b13009dd7e66cba7cac92d46474789d7c21/truera-9.8.2-py3-none-any.whl
+[2023-04-27 06:10:41] INFO root fetch - processPackages [odoo14-addon-website-sale-filter-product-brand]: Downloading https://files.pythonhosted.org/packages/89/77/1a24de8179809b76275837ac7282a3beea0b3b77f5df853f54450409a580/odoo14_addon_website_sale_filter_product_brand-14.0.1.0.1.dev4-py3-none-any.whl
+[2023-04-27 06:10:42] INFO root fetch - processPackages [odoo14-addon-website-sale-filter-product-brand]: executing diffoscope
+[2023-04-27 06:10:42] INFO root fetch - processPackages [odoo14-addon-website-sale-filter-product-brand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_website_sale_filter_product_brand-14.0.1.0.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_website_sale_filter_product_brand-14.0.1.0.1.dev4-py3-none-any.whl.zip --markdown 20230427/o/odoo14-addon-website-sale-filter-product-brand/14.0.1.0.1.dev2-14.0.1.0.1.dev4/diff.md --exclude *.pyd
+[2023-04-27 06:10:42] INFO root fetch - processPackages [truera]: Downloading https://files.pythonhosted.org/packages/da/5c/46e66b4a298d0c50335401afc22a359b87ea349f143c05316973514d60fa/truera-9.9.0-py3-none-any.whl
+[2023-04-27 06:10:42] INFO root fetch - processPackages [truera]: executing diffoscope
+[2023-04-27 06:10:42] INFO root fetch - processPackages [truera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/truera-9.8.2-py3-none-any.whl.zip tmp/truera-9.9.0-py3-none-any.whl.zip --markdown 20230427/t/truera/9.8.2-9.9.0/diff.md --exclude *.pyd
+[2023-04-27 06:10:42] INFO root fetch - main [MainThread]: End processing [pilotlight-tools]: success
+[2023-04-27 06:10:42] INFO root fetch - main [MainThread]: End processing [pyXhUtils]: success
+[2023-04-27 06:10:42] INFO root fetch - main [MainThread]: End processing [odoo13-addon-website-sale-b2x-alt-price]: success
+[2023-04-27 06:10:43] INFO root fetch - main [MainThread]: End processing [odoo14-addon-website-sale-filter-product-brand]: success
+[2023-04-27 06:10:49] INFO root fetch - main [MainThread]: End processing [truera]: success
+[2023-04-27 06:10:49] INFO root fetch - main [MainThread]: Store serial: [17877398]
