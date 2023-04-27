@@ -16963,3 +16963,104 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 13:06:03] INFO root fetch - main [MainThread]: End processing [ansible-risk-insight]: success
 [2023-04-27 13:06:04] INFO root fetch - main [MainThread]: End processing [OpenGeode-Geosciences]: success
 [2023-04-27 13:06:04] INFO root fetch - main [MainThread]: Store serial: [17881695]
+[2023-04-27 13:11:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17881695]
+[2023-04-27 13:11:16] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-04-27 13:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pollstats
+[2023-04-27 13:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flirimageextractor
+[2023-04-27 13:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cogdl
+[2023-04-27 13:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spotinst-agent-beta
+[2023-04-27 13:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sar-handler
+[2023-04-27 13:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: markdownparser
+[2023-04-27 13:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mlpj
+[2023-04-27 13:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: woe-scoring
+[2023-04-27 13:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aqueduct-utility
+[2023-04-27 13:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: eeg-blinks
+[2023-04-27 13:11:16] INFO root fetch - processPackages [cogdl]: New version: [0.6] Old Version: [0.5.3]
+[2023-04-27 13:11:16] INFO root fetch - processPackages [pollstats]: New version: [0.2] Old Version: [0.1]
+[2023-04-27 13:11:16] INFO root fetch - processPackages [eeg-blinks]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-27 13:11:16] INFO root fetch - processPackages [sar-handler]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-27 13:11:16] INFO root fetch - processPackages [flirimageextractor]: New version: [1.5.0] Old Version: [1.4.1]
+[2023-04-27 13:11:16] INFO root fetch - processPackages [woe-scoring]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-27 13:11:16] INFO root fetch - processPackages [spotinst-agent-beta]: New version: [2.2.264] Old Version: [2.2.263]
+[2023-04-27 13:11:16] INFO root fetch - processPackages [mlpj]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-27 13:11:16] INFO root fetch - processPackages [aqueduct-utility]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-04-27 13:11:16] INFO root fetch - processPackages [markdownparser]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-27 13:11:16] INFO root fetch - processPackages [cogdl]: Downloading https://files.pythonhosted.org/packages/4c/2d/f76ddbdc85c4eab5f9aba3aa46558f57520ba03c1e18a02ee74833c7e663/cogdl-0.5.3.tar.gz
+[2023-04-27 13:11:16] INFO root fetch - processPackages [eeg-blinks]: Downloading https://files.pythonhosted.org/packages/9a/dd/016adb53448f51cc69b2fa3750df34e3204a4d0bbb1a6b5345e22ed6ac9d/eeg_blinks-0.0.5.tar.gz
+[2023-04-27 13:11:16] INFO root fetch - processPackages [spotinst-agent-beta]: Downloading https://files.pythonhosted.org/packages/8e/5a/81231d4956bd98508838e9557ea130182d267470ae486259750d9581de34/spotinst-agent-beta-2.2.264.tar.gz
+[2023-04-27 13:11:16] INFO root fetch - processPackages [markdownparser]: Downloading https://files.pythonhosted.org/packages/8a/b2/52ccdd89fc7caa4994bd4c05c48aeda01af624e08759e6c044f54dbce1ea/markdownparser-0.3.8.tar.gz
+[2023-04-27 13:11:16] INFO root fetch - processPackages [mlpj]: Downloading https://files.pythonhosted.org/packages/47/d0/4ed3f994a2332f0e5c551759e2fefab17c2e2fe2587d4d9ca0020b62ff58/mlpj-0.2.2.tar.gz
+[2023-04-27 13:11:16] INFO root fetch - processPackages [sar-handler]: Downloading https://files.pythonhosted.org/packages/8e/4c/0f0f1b190ac70c41969c5590680e3e60ebc031d92c33989870f6f0dcbbd3/sar_handler-0.1.4.tar.gz
+[2023-04-27 13:11:16] INFO root fetch - processPackages [pollstats]: Downloading https://files.pythonhosted.org/packages/b7/d8/d3aba3b3d2a26bb49d3b130a0efe4450cf247e3d786f6f67f5797ad50d5e/pollstats-0.1.tar.gz
+[2023-04-27 13:11:16] INFO root fetch - processPackages [aqueduct-utility]: Downloading https://files.pythonhosted.org/packages/35/32/ea3c9d8df807bd542a3a43aa2ff5993eb3bf2abf00c8a8f86c5d3384ffed/aqueduct-utility-0.9.3.tar.gz
+[2023-04-27 13:11:16] INFO root fetch - processPackages [eeg-blinks]: executing diffoscope
+[2023-04-27 13:11:16] INFO root fetch - processPackages [eeg-blinks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eeg_blinks-0.0.4.tar.gz tmp/eeg_blinks-0.0.5.tar.gz --markdown 20230427/e/eeg-blinks/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-27 13:11:16] INFO root fetch - processPackages [sar-handler]: executing diffoscope
+[2023-04-27 13:11:16] INFO root fetch - processPackages [sar-handler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sar_handler-0.1.3.tar.gz tmp/sar_handler-0.1.4.tar.gz --markdown 20230427/s/sar-handler/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-27 13:11:16] INFO root fetch - processPackages [spotinst-agent-beta]: executing diffoscope
+[2023-04-27 13:11:16] INFO root fetch - processPackages [spotinst-agent-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotinst-agent-beta-2.2.263.tar.gz tmp/spotinst-agent-beta-2.2.264.tar.gz --markdown 20230427/s/spotinst-agent-beta/2.2.263-2.2.264/diff.md --exclude *.pyd
+[2023-04-27 13:11:16] INFO root fetch - processPackages [mlpj]: executing diffoscope
+[2023-04-27 13:11:16] INFO root fetch - processPackages [mlpj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlpj-0.2.1.tar.gz tmp/mlpj-0.2.2.tar.gz --markdown 20230427/m/mlpj/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-27 13:11:16] INFO root fetch - processPackages [flirimageextractor]: Downloading https://files.pythonhosted.org/packages/b1/44/851b78bc4e5385dda715db4a41158570dac0e10239783383f0617376ff42/flirimageextractor-1.5.0.tar.gz
+[2023-04-27 13:11:16] INFO root fetch - processPackages [pollstats]: Downloading https://files.pythonhosted.org/packages/e5/75/b04861c9f73976c08ae6e39e4fa5c31a52316a482b42c8ea53c1bb68cede/pollstats-0.2.tar.gz
+[2023-04-27 13:11:16] INFO root fetch - processPackages [woe-scoring]: executing diffoscope
+[2023-04-27 13:11:16] INFO root fetch - processPackages [woe-scoring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/woe_scoring-0.8.0.tar.gz tmp/woe_scoring-0.9.0.tar.gz --markdown 20230427/w/woe-scoring/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-27 13:11:16] INFO root fetch - processPackages [cogdl]: Downloading https://files.pythonhosted.org/packages/4d/d8/021b5022592bb71219f9473e2a102c72aa2ac767c52efd6d1743ed077b58/cogdl-0.6.tar.gz
+[2023-04-27 13:11:16] INFO root fetch - processPackages [flirimageextractor]: executing diffoscope
+[2023-04-27 13:11:16] INFO root fetch - processPackages [flirimageextractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flirimageextractor-1.4.1.tar.gz tmp/flirimageextractor-1.5.0.tar.gz --markdown 20230427/f/flirimageextractor/1.4.1-1.5.0/diff.md --exclude *.pyd
+[2023-04-27 13:11:16] INFO root fetch - processPackages [pollstats]: executing diffoscope
+[2023-04-27 13:11:16] INFO root fetch - processPackages [pollstats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pollstats-0.1.tar.gz tmp/pollstats-0.2.tar.gz --markdown 20230427/p/pollstats/0.1-0.2/diff.md --exclude *.pyd
+[2023-04-27 13:11:16] INFO root fetch - processPackages [markdownparser]: Downloading https://files.pythonhosted.org/packages/92/d9/85d6b6edb49301d543e1a997bde5104edcdcb3de3dfdc096729bebfc80fc/markdownparser-0.3.9.tar.gz
+[2023-04-27 13:11:16] INFO root fetch - processPackages [cogdl]: executing diffoscope
+[2023-04-27 13:11:16] INFO root fetch - processPackages [cogdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cogdl-0.5.3.tar.gz tmp/cogdl-0.6.tar.gz --markdown 20230427/c/cogdl/0.5.3-0.6/diff.md --exclude *.pyd
+[2023-04-27 13:11:17] INFO root fetch - processPackages [aqueduct-utility]: Downloading https://files.pythonhosted.org/packages/97/78/03e711e1a03889192ba931be1e93fbb57366a36ab009469f9d24787c29b8/aqueduct-utility-0.9.4.tar.gz
+[2023-04-27 13:11:17] INFO root fetch - processPackages [markdownparser]: executing diffoscope
+[2023-04-27 13:11:17] INFO root fetch - processPackages [markdownparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markdownparser-0.3.8.tar.gz tmp/markdownparser-0.3.9.tar.gz --markdown 20230427/m/markdownparser/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-27 13:11:17] INFO root fetch - processPackages [aqueduct-utility]: executing diffoscope
+[2023-04-27 13:11:17] INFO root fetch - processPackages [aqueduct-utility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aqueduct-utility-0.9.3.tar.gz tmp/aqueduct-utility-0.9.4.tar.gz --markdown 20230427/a/aqueduct-utility/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-04-27 13:11:18] INFO root fetch - processPackages [sar-handler]: Start processing: mypackage-prince-boom
+[2023-04-27 13:11:18] INFO root fetch - main [MainThread]: End processing [sar-handler]: success
+[2023-04-27 13:11:18] INFO root fetch - processPackages [mypackage-prince-boom]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-27 13:11:18] INFO root fetch - processPackages [pollstats]: Start processing: mealpy
+[2023-04-27 13:11:18] INFO root fetch - main [MainThread]: End processing [pollstats]: success
+[2023-04-27 13:11:18] INFO root fetch - processPackages [mealpy]: New version: [2.5.3a1] Old Version: [2.5.3]
+[2023-04-27 13:11:18] INFO root fetch - processPackages [eeg-blinks]: Start processing: wizata-dsapi
+[2023-04-27 13:11:18] INFO root fetch - main [MainThread]: End processing [eeg-blinks]: success
+[2023-04-27 13:11:18] INFO root fetch - processPackages [mealpy]: Downloading https://files.pythonhosted.org/packages/b0/3c/9cace18c6f3911344317fcc16a37752c3829643a0434a71678da567e2042/mealpy-2.5.3.tar.gz
+[2023-04-27 13:11:18] INFO root fetch - processPackages [wizata-dsapi]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-27 13:11:19] INFO root fetch - processPackages [woe-scoring]: Start processing: stc-tools
+[2023-04-27 13:11:19] INFO root fetch - main [MainThread]: End processing [woe-scoring]: success
+[2023-04-27 13:11:19] INFO root fetch - processPackages [stc-tools]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-27 13:11:19] INFO root fetch - processPackages [mypackage-prince-boom]: Downloading https://files.pythonhosted.org/packages/2c/6f/69b107e7a8693aa17e1be23f63be3f18d2666a9245953cfa8f303d0c561a/mypackage_prince_boom-0.0.3.tar.gz
+[2023-04-27 13:11:19] INFO root fetch - processPackages [wizata-dsapi]: executing diffoscope
+[2023-04-27 13:11:19] INFO root fetch - processPackages [wizata-dsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizata-dsapi-0.1.8.tar.gz tmp/wizata-dsapi-0.1.9.tar.gz --markdown 20230427/w/wizata-dsapi/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-27 13:11:19] INFO root fetch - processPackages [mypackage-prince-boom]: executing diffoscope
+[2023-04-27 13:11:19] INFO root fetch - processPackages [mypackage-prince-boom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypackage_prince_boom-0.0.2.tar.gz tmp/mypackage_prince_boom-0.0.3.tar.gz --markdown 20230427/m/mypackage-prince-boom/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-27 13:11:19] INFO root fetch - processPackages [stc-tools]: executing diffoscope
+[2023-04-27 13:11:19] INFO root fetch - processPackages [stc-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stc-tools-1.0.8.tar.gz tmp/stc-tools-1.0.9.tar.gz --markdown 20230427/s/stc-tools/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-27 13:11:19] INFO root fetch - processPackages [flirimageextractor]: Start processing: pydmt
+[2023-04-27 13:11:19] INFO root fetch - main [MainThread]: End processing [flirimageextractor]: success
+[2023-04-27 13:11:19] INFO root fetch - processPackages [pydmt]: New version: [0.1.81] Old Version: [0.1.80]
+[2023-04-27 13:11:19] INFO root fetch - processPackages [mealpy]: Downloading https://files.pythonhosted.org/packages/9f/61/72264351bd767371d7e2c91298ae6cf2be6c299deb303b4835ae48000ab7/mealpy-2.5.3a1.tar.gz
+[2023-04-27 13:11:19] INFO root fetch - processPackages [aqueduct-utility]: Start processing: fabrique-nodes-core
+[2023-04-27 13:11:19] INFO root fetch - main [MainThread]: End processing [aqueduct-utility]: success
+[2023-04-27 13:11:19] INFO root fetch - main [MainThread]: End processing [spotinst-agent-beta]: success
+[2023-04-27 13:11:19] INFO root fetch - processPackages [pydmt]: executing diffoscope
+[2023-04-27 13:11:19] INFO root fetch - processPackages [pydmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydmt-0.1.80.tar.gz tmp/pydmt-0.1.81.tar.gz --markdown 20230427/p/pydmt/0.1.80-0.1.81/diff.md --exclude *.pyd
+[2023-04-27 13:11:19] INFO root fetch - processPackages [fabrique-nodes-core]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-04-27 13:11:19] INFO root fetch - processPackages [mealpy]: executing diffoscope
+[2023-04-27 13:11:19] INFO root fetch - processPackages [mealpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mealpy-2.5.3.tar.gz tmp/mealpy-2.5.3a1.tar.gz --markdown 20230427/m/mealpy/2.5.3-2.5.3a1/diff.md --exclude *.pyd
+[2023-04-27 13:11:19] INFO root fetch - main [MainThread]: End processing [markdownparser]: success
+[2023-04-27 13:11:19] INFO root fetch - processPackages [fabrique-nodes-core]: Downloading https://files.pythonhosted.org/packages/59/21/5347bdae23e1f4486334f037f76d34b2023effebb750f85fb4e5d087fdc9/fabrique_nodes_core-0.9.7-py3-none-any.whl
+[2023-04-27 13:11:19] INFO root fetch - processPackages [fabrique-nodes-core]: Downloading https://files.pythonhosted.org/packages/82/20/2f588d230e810ce50e4b1f27f47a5ff3114cba10e64659f1208874ac1396/fabrique_nodes_core-0.9.8-py3-none-any.whl
+[2023-04-27 13:11:19] INFO root fetch - main [MainThread]: End processing [mlpj]: success
+[2023-04-27 13:11:20] INFO root fetch - processPackages [fabrique-nodes-core]: executing diffoscope
+[2023-04-27 13:11:20] INFO root fetch - processPackages [fabrique-nodes-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabrique_nodes_core-0.9.7-py3-none-any.whl.zip tmp/fabrique_nodes_core-0.9.8-py3-none-any.whl.zip --markdown 20230427/f/fabrique-nodes-core/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-04-27 13:11:20] INFO root fetch - main [MainThread]: End processing [stc-tools]: success
+[2023-04-27 13:11:20] INFO root fetch - main [MainThread]: End processing [mypackage-prince-boom]: success
+[2023-04-27 13:11:21] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
+[2023-04-27 13:11:21] INFO root fetch - main [MainThread]: End processing [pydmt]: success
+[2023-04-27 13:11:24] INFO root fetch - main [MainThread]: End processing [cogdl]: success
+[2023-04-27 13:11:26] INFO root fetch - main [MainThread]: End processing [mealpy]: success
+[2023-04-27 13:11:36] INFO root fetch - main [MainThread]: End processing [fabrique-nodes-core]: success
+[2023-04-27 13:11:36] INFO root fetch - main [MainThread]: Store serial: [17881741]
