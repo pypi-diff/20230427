@@ -12413,3 +12413,115 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 10:00:31] INFO root fetch - processPackages [TissUUmaps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TissUUmaps-3.1rc2.tar.gz tmp/TissUUmaps-3.1rc3.tar.gz --markdown 20230427/T/TissUUmaps/3.1rc2-3.1rc3/diff.md --exclude *.pyd
 [2023-04-27 10:00:57] INFO root fetch - main [MainThread]: End processing [TissUUmaps]: success
 [2023-04-27 10:00:57] INFO root fetch - main [MainThread]: Store serial: [17879182]
+[2023-04-27 10:06:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17879182]
+[2023-04-27 10:06:06] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-04-27 10:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: navalmartin-mir-vision-utils
+[2023-04-27 10:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spectralib
+[2023-04-27 10:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eis1600
+[2023-04-27 10:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyogrio
+[2023-04-27 10:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: raga-cli
+[2023-04-27 10:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xsocs
+[2023-04-27 10:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: robotmk
+[2023-04-27 10:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dlplan
+[2023-04-27 10:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: scaleway-functions-python
+[2023-04-27 10:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: coso
+[2023-04-27 10:06:06] INFO root fetch - processPackages [robotmk]: New version: [0.0.61] Old Version: [0.0.60]
+[2023-04-27 10:06:06] INFO root fetch - processPackages [dlplan]: New version: [0.2.0] Old Version: [0.1.16]
+[2023-04-27 10:06:06] INFO root fetch - processPackages [coso]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-04-27 10:06:06] INFO root fetch - processPackages [xsocs]: New version: [2022.9.1] Old Version: [2022.9.0]
+[2023-04-27 10:06:06] INFO root fetch - processPackages [navalmartin-mir-vision-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 10:06:06] INFO root fetch - processPackages [raga-cli]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-27 10:06:06] INFO root fetch - processPackages [spectralib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 10:06:06] INFO root fetch - processPackages [scaleway-functions-python]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-04-27 10:06:06] INFO root fetch - processPackages [pyogrio]: New version: [0.6.0] Old Version: [0.5.1]
+[2023-04-27 10:06:06] INFO root fetch - processPackages [eis1600]: New version: [0.8.6] Old Version: [0.8.5]
+[2023-04-27 10:06:06] INFO root fetch - processPackages [robotmk]: executing diffoscope
+[2023-04-27 10:06:06] INFO root fetch - processPackages [robotmk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotmk-0.0.60.tar.gz tmp/robotmk-0.0.61.tar.gz --markdown 20230427/r/robotmk/0.0.60-0.0.61/diff.md --exclude *.pyd
+[2023-04-27 10:06:06] INFO root fetch - processPackages [xsocs]: executing diffoscope
+[2023-04-27 10:06:06] INFO root fetch - processPackages [xsocs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xsocs-2022.9.0.tar.gz tmp/xsocs-2022.9.1.tar.gz --markdown 20230427/x/xsocs/2022.9.0-2022.9.1/diff.md --exclude *.pyd
+[2023-04-27 10:06:07] INFO root fetch - processPackages [coso]: executing diffoscope
+[2023-04-27 10:06:07] INFO root fetch - processPackages [coso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coso-1.0.3.tar.gz tmp/coso-1.0.4.tar.gz --markdown 20230427/c/coso/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-04-27 10:06:07] INFO root fetch - processPackages [scaleway-functions-python]: Downloading https://files.pythonhosted.org/packages/0f/64/51fdba41c2d83ad075136c065255147c17059bbd7202d2362dbf31fcae75/scaleway_functions_python-0.1.1.tar.gz
+[2023-04-27 10:06:07] INFO root fetch - processPackages [eis1600]: Downloading https://files.pythonhosted.org/packages/d8/b5/7710784f709495de98200d041a5e58a302a23ba89141adf836872e8f8d5d/eis1600-0.8.5.tar.gz
+[2023-04-27 10:06:07] INFO root fetch - processPackages [pyogrio]: Downloading https://files.pythonhosted.org/packages/a8/54/b1b53fc81f64325c68140f556fa8d09c488afbac4c6d7b5e51eae4f42380/pyogrio-0.5.1.tar.gz
+[2023-04-27 10:06:07] INFO root fetch - processPackages [spectralib]: executing diffoscope
+[2023-04-27 10:06:07] INFO root fetch - processPackages [spectralib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spectralib-0.0.8.tar.gz tmp/spectralib-0.0.9.tar.gz --markdown 20230427/s/spectralib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 10:06:07] INFO root fetch - processPackages [dlplan]: Downloading https://files.pythonhosted.org/packages/78/7a/c94204b847cfc9d1d7e9add4450c9fadec8cc2ac2664be9c5e8c6e312b2f/dlplan-0.2.0.tar.gz
+[2023-04-27 10:06:07] INFO root fetch - processPackages [raga-cli]: Downloading https://files.pythonhosted.org/packages/2c/08/d27ff0c900193b80e5eb54167aa5ad6f75fb9770ef50ce988552f1e56371/raga-cli-0.1.4.tar.gz
+[2023-04-27 10:06:07] INFO root fetch - processPackages [dlplan]: executing diffoscope
+[2023-04-27 10:06:07] INFO root fetch - processPackages [dlplan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlplan-0.1.16.tar.gz tmp/dlplan-0.2.0.tar.gz --markdown 20230427/d/dlplan/0.1.16-0.2.0/diff.md --exclude *.pyd
+[2023-04-27 10:06:07] INFO root fetch - processPackages [raga-cli]: executing diffoscope
+[2023-04-27 10:06:07] INFO root fetch - processPackages [raga-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga-cli-0.1.3.tar.gz tmp/raga-cli-0.1.4.tar.gz --markdown 20230427/r/raga-cli/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-27 10:06:07] INFO root fetch - processPackages [navalmartin-mir-vision-utils]: executing diffoscope
+[2023-04-27 10:06:07] INFO root fetch - processPackages [navalmartin-mir-vision-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/navalmartin_mir_vision_utils-0.0.8.tar.gz tmp/navalmartin_mir_vision_utils-0.0.9.tar.gz --markdown 20230427/n/navalmartin-mir-vision-utils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 10:06:07] INFO root fetch - processPackages [scaleway-functions-python]: Downloading https://files.pythonhosted.org/packages/82/f0/d9d5a2e6128695ae9eda008b18168c80c0421291c6461d4465565fc483a5/scaleway_functions_python-0.2.0.tar.gz
+[2023-04-27 10:06:07] INFO root fetch - processPackages [eis1600]: Downloading https://files.pythonhosted.org/packages/32/ca/4ad540c7e2431c2e71d0335d8e8a1395dfb619ea2ecb86d0fa958cc32dcf/eis1600-0.8.6.tar.gz
+[2023-04-27 10:06:07] INFO root fetch - processPackages [pyogrio]: Downloading https://files.pythonhosted.org/packages/10/37/f103377d1c83bd93fc8b0ae976592fff8623df2e49b92fb36f4b9b91f39f/pyogrio-0.6.0.tar.gz
+[2023-04-27 10:06:07] INFO root fetch - processPackages [scaleway-functions-python]: executing diffoscope
+[2023-04-27 10:06:07] INFO root fetch - processPackages [scaleway-functions-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scaleway_functions_python-0.1.1.tar.gz tmp/scaleway_functions_python-0.2.0.tar.gz --markdown 20230427/s/scaleway-functions-python/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-04-27 10:06:07] INFO root fetch - processPackages [eis1600]: executing diffoscope
+[2023-04-27 10:06:07] INFO root fetch - processPackages [eis1600]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eis1600-0.8.5.tar.gz tmp/eis1600-0.8.6.tar.gz --markdown 20230427/e/eis1600/0.8.5-0.8.6/diff.md --exclude *.pyd
+[2023-04-27 10:06:07] INFO root fetch - processPackages [pyogrio]: executing diffoscope
+[2023-04-27 10:06:07] INFO root fetch - processPackages [pyogrio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyogrio-0.5.1.tar.gz tmp/pyogrio-0.6.0.tar.gz --markdown 20230427/p/pyogrio/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2023-04-27 10:06:08] INFO root fetch - processPackages [robotmk]: Start processing: base-system
+[2023-04-27 10:06:08] INFO root fetch - main [MainThread]: End processing [robotmk]: success
+[2023-04-27 10:06:08] INFO root fetch - processPackages [base-system]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-27 10:06:08] INFO root fetch - processPackages [base-system]: Downloading https://files.pythonhosted.org/packages/76/18/94c4305eba9c97442f308a47ebb3065eec99caed6ef73d5714020c9264e4/base_system-0.1.4.tar.gz
+[2023-04-27 10:06:08] INFO root fetch - processPackages [spectralib]: Start processing: tract
+[2023-04-27 10:06:08] INFO root fetch - main [MainThread]: End processing [spectralib]: success
+[2023-04-27 10:06:08] INFO root fetch - processPackages [raga-cli]: Start processing: findmyorder
+[2023-04-27 10:06:08] INFO root fetch - main [MainThread]: End processing [raga-cli]: success
+[2023-04-27 10:06:08] INFO root fetch - processPackages [tract]: New version: [0.20.3] Old Version: [0.19.8]
+[2023-04-27 10:06:08] INFO root fetch - processPackages [findmyorder]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-04-27 10:06:08] INFO root fetch - processPackages [base-system]: executing diffoscope
+[2023-04-27 10:06:08] INFO root fetch - processPackages [base-system]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/base_system-0.1.3.tar.gz tmp/base_system-0.1.4.tar.gz --markdown 20230427/b/base-system/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-27 10:06:08] INFO root fetch - processPackages [tract]: executing diffoscope
+[2023-04-27 10:06:08] INFO root fetch - processPackages [tract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tract-0.19.8.tar.gz tmp/tract-0.20.3.tar.gz --markdown 20230427/t/tract/0.19.8-0.20.3/diff.md --exclude *.pyd
+[2023-04-27 10:06:09] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/14/36/e3aacd3a5a5c20303d5bc5fe3979d6d8356f0d97a035d2f2433398de46a9/findmyorder-1.0.8.tar.gz
+[2023-04-27 10:06:09] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-04-27 10:06:09] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-1.0.7.tar.gz tmp/findmyorder-1.0.8.tar.gz --markdown 20230427/f/findmyorder/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-04-27 10:06:09] INFO root fetch - processPackages [eis1600]: Start processing: esphome
+[2023-04-27 10:06:09] INFO root fetch - main [MainThread]: End processing [eis1600]: success
+[2023-04-27 10:06:09] INFO root fetch - processPackages [scaleway-functions-python]: Start processing: spotinst-agent-2-beta
+[2023-04-27 10:06:09] INFO root fetch - main [MainThread]: End processing [scaleway-functions-python]: success
+[2023-04-27 10:06:09] INFO root fetch - processPackages [esphome]: New version: [2023.4.1] Old Version: [2023.4.0b4]
+[2023-04-27 10:06:09] INFO root fetch - processPackages [spotinst-agent-2-beta]: New version: [3.1.12] Old Version: [2.0.9]
+[2023-04-27 10:06:09] INFO root fetch - processPackages [pyogrio]: Start processing: innerverz-package
+[2023-04-27 10:06:09] INFO root fetch - main [MainThread]: End processing [pyogrio]: success
+[2023-04-27 10:06:09] WARNING root fetch - processPackages [innerverz-package]: Skipping, unable to determine old version
+[2023-04-27 10:06:09] INFO root fetch - processPackages [innerverz-package]: Start processing: algokit-utils
+[2023-04-27 10:06:09] INFO root fetch - main [MainThread]: End processing [innerverz-package] error
+[2023-04-27 10:06:09] INFO root fetch - processPackages [esphome]: Downloading https://files.pythonhosted.org/packages/7f/d2/f773acb91e269f89acd9e939841f0c05e5f2782c70ebf50117318d664b49/esphome-2023.4.0b4.tar.gz
+[2023-04-27 10:06:09] INFO root fetch - processPackages [algokit-utils]: New version: [1.1.0b1] Old Version: [1.0.4b4]
+[2023-04-27 10:06:09] INFO root fetch - processPackages [coso]: Start processing: chalkpy
+[2023-04-27 10:06:09] INFO root fetch - main [MainThread]: End processing [coso]: success
+[2023-04-27 10:06:09] INFO root fetch - processPackages [chalkpy]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-04-27 10:06:09] INFO root fetch - processPackages [algokit-utils]: executing diffoscope
+[2023-04-27 10:06:09] INFO root fetch - processPackages [algokit-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algokit_utils-1.0.4b4-py3-none-any.whl.zip tmp/algokit_utils-1.1.0b1-py3-none-any.whl.zip --markdown 20230427/a/algokit-utils/1.0.4b4-1.1.0b1/diff.md --exclude *.pyd
+[2023-04-27 10:06:09] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-04-27 10:06:09] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-1.9.8.tar.gz tmp/chalkpy-1.9.9.tar.gz --markdown 20230427/c/chalkpy/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-04-27 10:06:09] INFO root fetch - processPackages [spotinst-agent-2-beta]: Downloading https://files.pythonhosted.org/packages/a9/5f/51db1f85f2a440d8dcecb37594a91f132263ee517d075e6723bfc1c25549/spotinst-agent-2-beta-2.0.9.tar.gz
+[2023-04-27 10:06:10] INFO root fetch - processPackages [esphome]: Downloading https://files.pythonhosted.org/packages/ac/c9/6539d2e988eb8aabc7714654ce02292c94d4f5d4f9aedc8a13cf9a2555a6/esphome-2023.4.1.tar.gz
+[2023-04-27 10:06:10] INFO root fetch - processPackages [spotinst-agent-2-beta]: Downloading https://files.pythonhosted.org/packages/72/90/3552de960b695e99c7561b23404636015d3d8fe72cbdf01462808d33af8a/spotinst-agent-2-beta-3.1.12.tar.gz
+[2023-04-27 10:06:10] INFO root fetch - processPackages [esphome]: executing diffoscope
+[2023-04-27 10:06:10] INFO root fetch - processPackages [esphome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esphome-2023.4.0b4.tar.gz tmp/esphome-2023.4.1.tar.gz --markdown 20230427/e/esphome/2023.4.0b4-2023.4.1/diff.md --exclude *.pyd
+[2023-04-27 10:06:10] INFO root fetch - processPackages [spotinst-agent-2-beta]: executing diffoscope
+[2023-04-27 10:06:10] INFO root fetch - processPackages [spotinst-agent-2-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotinst-agent-2-beta-2.0.9.tar.gz tmp/spotinst-agent-2-beta-3.1.12.tar.gz --markdown 20230427/s/spotinst-agent-2-beta/2.0.9-3.1.12/diff.md --exclude *.pyd
+[2023-04-27 10:06:10] INFO root fetch - processPackages [base-system]: Start processing: windpyutils
+[2023-04-27 10:06:10] INFO root fetch - main [MainThread]: End processing [base-system]: success
+[2023-04-27 10:06:10] INFO root fetch - main [MainThread]: End processing [navalmartin-mir-vision-utils]: success
+[2023-04-27 10:06:10] INFO root fetch - processPackages [windpyutils]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-04-27 10:06:10] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-04-27 10:06:10] INFO root fetch - main [MainThread]: End processing [tract]: success
+[2023-04-27 10:06:10] INFO root fetch - processPackages [windpyutils]: Downloading https://files.pythonhosted.org/packages/ac/8c/2614eb99a1814611752dd6b4c0cc1ee6ebbbd0e650dcc68f90c49c452609/windpyutils-2.0.8.tar.gz
+[2023-04-27 10:06:10] INFO root fetch - main [MainThread]: End processing [dlplan]: success
+[2023-04-27 10:06:10] INFO root fetch - main [MainThread]: End processing [algokit-utils]: success
+[2023-04-27 10:06:11] INFO root fetch - processPackages [windpyutils]: Downloading https://files.pythonhosted.org/packages/77/34/f29f466178be699a3a4f46c4a0a4dd2b9b6aa80dee5bc8fc08b8385515a1/windpyutils-2.0.9.tar.gz
+[2023-04-27 10:06:11] INFO root fetch - main [MainThread]: End processing [spotinst-agent-2-beta]: success
+[2023-04-27 10:06:11] INFO root fetch - processPackages [windpyutils]: executing diffoscope
+[2023-04-27 10:06:11] INFO root fetch - processPackages [windpyutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windpyutils-2.0.8.tar.gz tmp/windpyutils-2.0.9.tar.gz --markdown 20230427/w/windpyutils/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-04-27 10:06:12] INFO root fetch - main [MainThread]: End processing [xsocs]: success
+[2023-04-27 10:06:12] INFO root fetch - main [MainThread]: End processing [windpyutils]: success
+[2023-04-27 10:06:18] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-04-27 10:06:54] INFO root fetch - main [MainThread]: End processing [esphome]: success
+[2023-04-27 10:06:54] INFO root fetch - main [MainThread]: Store serial: [17879318]
