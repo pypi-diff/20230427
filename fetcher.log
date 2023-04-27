@@ -10149,3 +10149,38 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 07:05:06] INFO root fetch - main [MainThread]: End processing [odoo12-addon-l10n-it-fatturapa-export-zip]: success
 [2023-04-27 07:05:06] INFO root fetch - main [MainThread]: End processing [odoo12-addon-l10n-it-central-journal]: success
 [2023-04-27 07:05:06] INFO root fetch - main [MainThread]: Store serial: [17877858]
+[2023-04-27 07:10:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17877858]
+[2023-04-27 07:10:20] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-27 07:10:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-l10n-it-delivery-note
+[2023-04-27 07:10:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: multi-model-server
+[2023-04-27 07:10:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TreeSAK
+[2023-04-27 07:10:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pybi-next
+[2023-04-27 07:10:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: normalize-japanese-address
+[2023-04-27 07:10:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: katalytic-checks
+[2023-04-27 07:10:20] INFO root fetch - processPackages [odoo-addon-l10n-it-delivery-note]: New version: [16.0.1.0.2.4] Old Version: [16.0.1.0.2.3]
+[2023-04-27 07:10:20] INFO root fetch - processPackages [normalize-japanese-address]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 07:10:20] INFO root fetch - processPackages [TreeSAK]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-04-27 07:10:20] INFO root fetch - processPackages [multi-model-server]: New version: [1.1.8b20230426] Old Version: [1.1.8b20230425]
+[2023-04-27 07:10:20] INFO root fetch - processPackages [pybi-next]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-04-27 07:10:20] WARNING root fetch - processPackages [katalytic-checks]: Skipping, unable to determine old version
+[2023-04-27 07:10:20] INFO root fetch - main [MainThread]: End processing [katalytic-checks] error
+[2023-04-27 07:10:20] INFO root fetch - processPackages [multi-model-server]: executing diffoscope
+[2023-04-27 07:10:20] INFO root fetch - processPackages [multi-model-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multi_model_server-1.1.8b20230425-py2.py3-none-any.whl.zip tmp/multi_model_server-1.1.8b20230426-py2.py3-none-any.whl.zip --markdown 20230427/m/multi-model-server/1.1.8b20230425-1.1.8b20230426/diff.md --exclude *.pyd
+[2023-04-27 07:10:20] INFO root fetch - processPackages [TreeSAK]: executing diffoscope
+[2023-04-27 07:10:20] INFO root fetch - processPackages [TreeSAK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TreeSAK-1.9.1.tar.gz tmp/TreeSAK-1.9.2.tar.gz --markdown 20230427/T/TreeSAK/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-04-27 07:10:20] INFO root fetch - processPackages [odoo-addon-l10n-it-delivery-note]: Downloading https://files.pythonhosted.org/packages/7a/b1/d38768a9eab4465deb8125402fc6915e7250cb9870fc8f9a16fadca75132/odoo_addon_l10n_it_delivery_note-16.0.1.0.2.3-py3-none-any.whl
+[2023-04-27 07:10:20] INFO root fetch - processPackages [normalize-japanese-address]: executing diffoscope
+[2023-04-27 07:10:20] INFO root fetch - processPackages [normalize-japanese-address]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/normalize_japanese_address-0.0.8.tar.gz tmp/normalize_japanese_address-0.0.9.tar.gz --markdown 20230427/n/normalize-japanese-address/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 07:10:20] INFO root fetch - processPackages [pybi-next]: Downloading https://files.pythonhosted.org/packages/46/0f/4568c44b576827a28f00b19e98c1629122157d5387f444c30074783f0aed/pybi-next-0.4.1.tar.gz
+[2023-04-27 07:10:21] INFO root fetch - processPackages [odoo-addon-l10n-it-delivery-note]: Downloading https://files.pythonhosted.org/packages/7e/45/7fc4d6b52d0340f56ccca3f20dbe8c97a0677a09d1fa9d1f45f82b14a320/odoo_addon_l10n_it_delivery_note-16.0.1.0.2.4-py3-none-any.whl
+[2023-04-27 07:10:21] INFO root fetch - processPackages [odoo-addon-l10n-it-delivery-note]: executing diffoscope
+[2023-04-27 07:10:21] INFO root fetch - processPackages [odoo-addon-l10n-it-delivery-note]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_it_delivery_note-16.0.1.0.2.3-py3-none-any.whl.zip tmp/odoo_addon_l10n_it_delivery_note-16.0.1.0.2.4-py3-none-any.whl.zip --markdown 20230427/o/odoo-addon-l10n-it-delivery-note/16.0.1.0.2.3-16.0.1.0.2.4/diff.md --exclude *.pyd
+[2023-04-27 07:10:21] INFO root fetch - processPackages [pybi-next]: Downloading https://files.pythonhosted.org/packages/d7/1e/225c5083d220dea0590960c670b7f2640b9fc5605f46a64ff8000ae88748/pybi-next-0.4.2.tar.gz
+[2023-04-27 07:10:21] INFO root fetch - processPackages [pybi-next]: executing diffoscope
+[2023-04-27 07:10:21] INFO root fetch - processPackages [pybi-next]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybi-next-0.4.1.tar.gz tmp/pybi-next-0.4.2.tar.gz --markdown 20230427/p/pybi-next/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-04-27 07:10:21] INFO root fetch - main [MainThread]: End processing [TreeSAK]: success
+[2023-04-27 07:10:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-it-delivery-note]: success
+[2023-04-27 07:10:29] INFO root fetch - main [MainThread]: End processing [pybi-next]: success
+[2023-04-27 07:10:53] INFO root fetch - main [MainThread]: End processing [normalize-japanese-address]: success
+[2023-04-27 07:13:09] INFO root fetch - main [MainThread]: End processing [multi-model-server]: success
+[2023-04-27 07:13:09] INFO root fetch - main [MainThread]: Store serial: [17877885]
