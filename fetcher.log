@@ -21655,3 +21655,159 @@ EOFError: EOF read where object expected
 [2023-04-27 16:39:38] INFO root fetch - main [MainThread]: End processing [aheadworks-deploy-manager]: success
 [2023-04-27 16:39:45] INFO root fetch - main [MainThread]: End processing [hordelib]: success
 [2023-04-27 16:39:45] INFO root fetch - main [MainThread]: Store serial: [17884553]
+[2023-04-27 16:44:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17884553]
+[2023-04-27 16:44:54] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-04-27 16:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bw-temporalis
+[2023-04-27 16:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rmsp
+[2023-04-27 16:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: customdataclass
+[2023-04-27 16:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spotinst-agent-beta
+[2023-04-27 16:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: onavdata
+[2023-04-27 16:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: worky
+[2023-04-27 16:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: leap-model-parser
+[2023-04-27 16:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ovos-gui
+[2023-04-27 16:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-bootstrap-sidebar
+[2023-04-27 16:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pygamd
+[2023-04-27 16:44:54] INFO root fetch - processPackages [worky]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-27 16:44:54] INFO root fetch - processPackages [onavdata]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-04-27 16:44:54] INFO root fetch - processPackages [spotinst-agent-beta]: New version: [2.2.267] Old Version: [2.2.266]
+[2023-04-27 16:44:54] INFO root fetch - processPackages [onavdata]: Downloading https://files.pythonhosted.org/packages/4c/d2/c90c08385ed11904f9edd931d68cb4d11bd83297f73e641fe75136078bf5/onavdata-0.2.2.tar.gz
+[2023-04-27 16:44:54] INFO root fetch - processPackages [bw-temporalis]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-27 16:44:54] INFO root fetch - processPackages [rmsp]: New version: [0.0.9] Old Version: [0.0.1]
+[2023-04-27 16:44:54] INFO root fetch - processPackages [ovos-gui]: New version: [0.0.2a9] Old Version: [0.0.2a8]
+[2023-04-27 16:44:54] WARNING root fetch - processPackages [onavdata]: Skipping package: exceeds size limit 26509660>=10485760
+[2023-04-27 16:44:54] INFO root fetch - processPackages [onavdata]: Start processing: azureml-automl-dnn-vision
+[2023-04-27 16:44:54] WARNING root fetch - processPackages [customdataclass]: Skipping, unable to determine old version
+[2023-04-27 16:44:54] INFO root fetch - processPackages [pygamd]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-04-27 16:44:54] INFO root fetch - main [MainThread]: End processing [onavdata] error
+[2023-04-27 16:44:54] INFO root fetch - processPackages [customdataclass]: Start processing: azureml-automl-runtime
+[2023-04-27 16:44:54] INFO root fetch - main [MainThread]: End processing [customdataclass] error
+[2023-04-27 16:44:54] INFO root fetch - processPackages [django-bootstrap-sidebar]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-04-27 16:44:54] INFO root fetch - processPackages [leap-model-parser]: New version: [0.1.92.1] Old Version: [0.1.92]
+[2023-04-27 16:44:54] INFO root fetch - processPackages [azureml-automl-runtime]: New version: [1.9.0.post3] Old Version: [1.9.0.post2]
+[2023-04-27 16:44:54] INFO root fetch - processPackages [azureml-automl-dnn-vision]: New version: [1.50.0.post1] Old Version: [1.50.0]
+[2023-04-27 16:44:54] INFO root fetch - processPackages [worky]: Downloading https://files.pythonhosted.org/packages/5b/39/c27952fcea096f60e798568b37b4ee3ab66ac34541784c2f70c76e9d321a/worky-0.1.6.tar.gz
+[2023-04-27 16:44:54] INFO root fetch - processPackages [spotinst-agent-beta]: Downloading https://files.pythonhosted.org/packages/ae/5b/86d0011277598066d7ef6b5eeb2e55b0e6bd40330dab2ddee6fcea110609/spotinst-agent-beta-2.2.267.tar.gz
+[2023-04-27 16:44:54] INFO root fetch - processPackages [bw-temporalis]: Downloading https://files.pythonhosted.org/packages/79/1a/bb1cd9140a3ee5cd9a56a237abb7d38518cb34eea10b16aa2909f21ff01a/bw_temporalis-0.3.0.tar.gz
+[2023-04-27 16:44:54] INFO root fetch - processPackages [rmsp]: Downloading https://files.pythonhosted.org/packages/53/ca/8fd04635e110d7c328709ed5f599124823c0a1fdd2e8b71603ac881ff32c/rmsp-0.0.1.tar.gz
+[2023-04-27 16:44:54] INFO root fetch - processPackages [pygamd]: Downloading https://files.pythonhosted.org/packages/6f/7b/dc07da1239f8b50e5e52c441978797dd32d93d9dfbc293d980c6119134ff/pygamd-1.2.8.tar.gz
+[2023-04-27 16:44:54] INFO root fetch - processPackages [leap-model-parser]: Downloading https://files.pythonhosted.org/packages/c9/e2/f5375de91a40cfc9144e0ef2393fe1f3427007e1e856259344ab88ca453d/leap_model_parser-0.1.92.tar.gz
+[2023-04-27 16:44:54] INFO root fetch - processPackages [ovos-gui]: Downloading https://files.pythonhosted.org/packages/6e/7b/4ab5e1092b8e3e73e654b9d31d8f81020be76e2d78c33c366ec03c162eff/ovos_gui-0.0.2a8-py3-none-any.whl
+[2023-04-27 16:44:54] INFO root fetch - processPackages [django-bootstrap-sidebar]: Downloading https://files.pythonhosted.org/packages/8a/8a/384ce09a08439c754d7859d39dea666a12aab707c98fb630b04a02665a9f/django-bootstrap-sidebar-1.1.0.tar.gz
+[2023-04-27 16:44:54] INFO root fetch - processPackages [worky]: executing diffoscope
+[2023-04-27 16:44:54] INFO root fetch - processPackages [worky]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/worky-0.1.5.tar.gz tmp/worky-0.1.6.tar.gz --markdown 20230427/w/worky/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-27 16:44:55] INFO root fetch - processPackages [azureml-automl-dnn-vision]: Downloading https://files.pythonhosted.org/packages/29/f0/7c8d5e60697e15df686a0ec24f5a04328c70076824a0c2d74c8d7e39ca32/azureml_automl_dnn_vision-1.50.0-py3-none-any.whl
+[2023-04-27 16:44:55] INFO root fetch - processPackages [spotinst-agent-beta]: executing diffoscope
+[2023-04-27 16:44:55] INFO root fetch - processPackages [spotinst-agent-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotinst-agent-beta-2.2.266.tar.gz tmp/spotinst-agent-beta-2.2.267.tar.gz --markdown 20230427/s/spotinst-agent-beta/2.2.266-2.2.267/diff.md --exclude *.pyd
+[2023-04-27 16:44:55] WARNING root fetch - processPackages [pygamd]: Skipping package: exceeds size limit 25524384>=10485760
+[2023-04-27 16:44:55] INFO root fetch - processPackages [pygamd]: Start processing: woostream
+[2023-04-27 16:44:55] INFO root fetch - main [MainThread]: End processing [pygamd] error
+[2023-04-27 16:44:55] INFO root fetch - processPackages [woostream]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-27 16:44:55] INFO root fetch - processPackages [azureml-automl-runtime]: Downloading https://files.pythonhosted.org/packages/ef/d8/7b1f03072a292857230a7fdf9a68f7ce4a0ba5a4818b573ffef7fd14d665/azureml_automl_runtime-1.9.0.post2-py3-none-any.whl
+[2023-04-27 16:44:55] INFO root fetch - processPackages [leap-model-parser]: Downloading https://files.pythonhosted.org/packages/6b/17/d593790e4469d4a7d5d1cbb5167c19223d5ce2a6f596cbb81e545d2813cb/leap_model_parser-0.1.92.1.tar.gz
+[2023-04-27 16:44:55] INFO root fetch - processPackages [azureml-automl-dnn-vision]: Downloading https://files.pythonhosted.org/packages/6b/50/4bbf0db499393ddf5b86f48d67c9cc728f7c8cd206e436e480dd0a52fd5b/azureml_automl_dnn_vision-1.50.0.post1-py3-none-any.whl
+[2023-04-27 16:44:55] INFO root fetch - processPackages [bw-temporalis]: Downloading https://files.pythonhosted.org/packages/4a/41/6e0ed81cb01f7caae4379c1694f164141785cdc4a6457510bcfce3ce70b3/bw_temporalis-0.3.1.tar.gz
+[2023-04-27 16:44:55] INFO root fetch - processPackages [rmsp]: Downloading https://files.pythonhosted.org/packages/89/b3/eee543165076c386ba7b9c1747c553d14b720c8fa4e011476aec23f77c03/rmsp-0.0.9.tar.gz
+[2023-04-27 16:44:55] INFO root fetch - processPackages [leap-model-parser]: executing diffoscope
+[2023-04-27 16:44:55] INFO root fetch - processPackages [leap-model-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leap_model_parser-0.1.92.tar.gz tmp/leap_model_parser-0.1.92.1.tar.gz --markdown 20230427/l/leap-model-parser/0.1.92-0.1.92.1/diff.md --exclude *.pyd
+[2023-04-27 16:44:55] INFO root fetch - processPackages [ovos-gui]: Downloading https://files.pythonhosted.org/packages/50/4d/55db54f31c6ee92e653921ceae27e780d2d31003eec9144c1783eaa7b5fb/ovos_gui-0.0.2a9-py3-none-any.whl
+[2023-04-27 16:44:55] INFO root fetch - processPackages [woostream]: Downloading https://files.pythonhosted.org/packages/1e/11/1524c7b96a885e10f49ddf295e9df7d26ad5d6904b6c6dc210a67bac130d/woostream-0.1.3.tar.gz
+[2023-04-27 16:44:55] INFO root fetch - processPackages [bw-temporalis]: executing diffoscope
+[2023-04-27 16:44:55] INFO root fetch - processPackages [bw-temporalis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bw_temporalis-0.3.0.tar.gz tmp/bw_temporalis-0.3.1.tar.gz --markdown 20230427/b/bw-temporalis/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-27 16:44:55] INFO root fetch - processPackages [rmsp]: executing diffoscope
+[2023-04-27 16:44:55] INFO root fetch - processPackages [rmsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rmsp-0.0.1.tar.gz tmp/rmsp-0.0.9.tar.gz --markdown 20230427/r/rmsp/0.0.1-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 16:44:55] INFO root fetch - processPackages [azureml-automl-dnn-vision]: executing diffoscope
+[2023-04-27 16:44:55] INFO root fetch - processPackages [azureml-automl-dnn-vision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_automl_dnn_vision-1.50.0-py3-none-any.whl.zip tmp/azureml_automl_dnn_vision-1.50.0.post1-py3-none-any.whl.zip --markdown 20230427/a/azureml-automl-dnn-vision/1.50.0-1.50.0.post1/diff.md --exclude *.pyd
+[2023-04-27 16:44:55] INFO root fetch - processPackages [django-bootstrap-sidebar]: Downloading https://files.pythonhosted.org/packages/0b/ad/93dcffd7d92c92b1f04d743c2f4b6725e0a0b0541e1493aa6c5c96556003/django-bootstrap-sidebar-1.1.1.tar.gz
+[2023-04-27 16:44:55] INFO root fetch - processPackages [woostream]: executing diffoscope
+[2023-04-27 16:44:55] INFO root fetch - processPackages [woostream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/woostream-0.1.2.tar.gz tmp/woostream-0.1.3.tar.gz --markdown 20230427/w/woostream/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-27 16:44:55] INFO root fetch - processPackages [ovos-gui]: executing diffoscope
+[2023-04-27 16:44:55] INFO root fetch - processPackages [ovos-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_gui-0.0.2a8-py3-none-any.whl.zip tmp/ovos_gui-0.0.2a9-py3-none-any.whl.zip --markdown 20230427/o/ovos-gui/0.0.2a8-0.0.2a9/diff.md --exclude *.pyd
+[2023-04-27 16:44:55] INFO root fetch - processPackages [django-bootstrap-sidebar]: executing diffoscope
+[2023-04-27 16:44:55] INFO root fetch - processPackages [django-bootstrap-sidebar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-bootstrap-sidebar-1.1.0.tar.gz tmp/django-bootstrap-sidebar-1.1.1.tar.gz --markdown 20230427/d/django-bootstrap-sidebar/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-04-27 16:44:55] INFO root fetch - processPackages [azureml-automl-runtime]: Downloading https://files.pythonhosted.org/packages/05/95/54abee729a1d3723cdad1bcbf2e36d9d5e0bd014a1f49ffc84699e5a6074/azureml_automl_runtime-1.9.0.post3-py3-none-any.whl
+[2023-04-27 16:44:55] INFO root fetch - processPackages [azureml-automl-runtime]: executing diffoscope
+[2023-04-27 16:44:55] INFO root fetch - processPackages [azureml-automl-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_automl_runtime-1.9.0.post2-py3-none-any.whl.zip tmp/azureml_automl_runtime-1.9.0.post3-py3-none-any.whl.zip --markdown 20230427/a/azureml-automl-runtime/1.9.0.post2-1.9.0.post3/diff.md --exclude *.pyd
+[2023-04-27 16:44:56] INFO root fetch - processPackages [worky]: Start processing: azureml-training-tabular
+[2023-04-27 16:44:56] INFO root fetch - main [MainThread]: End processing [worky]: success
+[2023-04-27 16:44:56] INFO root fetch - processPackages [azureml-training-tabular]: New version: [1.50.0.post1] Old Version: [1.50.0]
+[2023-04-27 16:44:56] INFO root fetch - processPackages [spotinst-agent-beta]: Start processing: titan-iris
+[2023-04-27 16:44:56] INFO root fetch - main [MainThread]: End processing [spotinst-agent-beta]: success
+[2023-04-27 16:44:56] INFO root fetch - processPackages [titan-iris]: New version: [0.3.9a2] Old Version: [0.3.9a1]
+[2023-04-27 16:44:56] INFO root fetch - processPackages [azureml-training-tabular]: Downloading https://files.pythonhosted.org/packages/ce/b9/c6afd5b4a9442d98bd05d73e18d45ae2b993446a53e5b50665d7d5ed8fdd/azureml_training_tabular-1.50.0-py3-none-any.whl
+[2023-04-27 16:44:56] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-04-27 16:44:56] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.3.9a1.tar.gz tmp/titan-iris-0.3.9a2.tar.gz --markdown 20230427/t/titan-iris/0.3.9a1-0.3.9a2/diff.md --exclude *.pyd
+[2023-04-27 16:44:56] INFO root fetch - processPackages [leap-model-parser]: Start processing: pcb-parser
+[2023-04-27 16:44:56] INFO root fetch - main [MainThread]: End processing [leap-model-parser]: success
+[2023-04-27 16:44:56] INFO root fetch - processPackages [pcb-parser]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 16:44:56] INFO root fetch - processPackages [pcb-parser]: executing diffoscope
+[2023-04-27 16:44:56] INFO root fetch - processPackages [pcb-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pcb-parser-0.0.8.tar.gz tmp/pcb-parser-0.0.9.tar.gz --markdown 20230427/p/pcb-parser/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 16:44:57] INFO root fetch - processPackages [bw-temporalis]: Start processing: reliably-cli
+[2023-04-27 16:44:57] INFO root fetch - main [MainThread]: End processing [bw-temporalis]: success
+[2023-04-27 16:44:57] INFO root fetch - processPackages [azureml-training-tabular]: Downloading https://files.pythonhosted.org/packages/88/59/27b31ab4ac723733db54b707f17bc0bb93a3dbe3efc97a8f0328136693ce/azureml_training_tabular-1.50.0.post1-py3-none-any.whl
+[2023-04-27 16:44:57] INFO root fetch - processPackages [reliably-cli]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-04-27 16:44:57] INFO root fetch - processPackages [ovos-gui]: Start processing: uharfbuzz
+[2023-04-27 16:44:57] INFO root fetch - main [MainThread]: End processing [ovos-gui]: success
+[2023-04-27 16:44:57] INFO root fetch - processPackages [rmsp]: Start processing: taskiq-dependencies
+[2023-04-27 16:44:57] INFO root fetch - main [MainThread]: End processing [rmsp]: success
+[2023-04-27 16:44:57] INFO root fetch - processPackages [taskiq-dependencies]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-04-27 16:44:57] INFO root fetch - processPackages [reliably-cli]: executing diffoscope
+[2023-04-27 16:44:57] INFO root fetch - processPackages [reliably-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reliably-cli-0.5.8.tar.gz tmp/reliably-cli-0.5.9.tar.gz --markdown 20230427/r/reliably-cli/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-04-27 16:44:57] INFO root fetch - processPackages [uharfbuzz]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-27 16:44:57] INFO root fetch - processPackages [woostream]: Start processing: mrx-link-core
+[2023-04-27 16:44:57] INFO root fetch - main [MainThread]: End processing [woostream]: success
+[2023-04-27 16:44:57] INFO root fetch - processPackages [taskiq-dependencies]: executing diffoscope
+[2023-04-27 16:44:57] INFO root fetch - processPackages [taskiq-dependencies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskiq_dependencies-1.2.0.tar.gz tmp/taskiq_dependencies-1.2.1.tar.gz --markdown 20230427/t/taskiq-dependencies/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-04-27 16:44:57] INFO root fetch - processPackages [mrx-link-core]: New version: [1.1.0.dev9] Old Version: [1.1.0.dev8]
+[2023-04-27 16:44:57] INFO root fetch - processPackages [uharfbuzz]: Downloading https://files.pythonhosted.org/packages/34/fd/ae1008840e04c90636fe4e1b605df94f4a8ad8c3ee4170aeaf91f61e49ac/uharfbuzz-0.9.0.zip
+[2023-04-27 16:44:57] INFO root fetch - processPackages [azureml-training-tabular]: executing diffoscope
+[2023-04-27 16:44:57] INFO root fetch - processPackages [azureml-training-tabular]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_training_tabular-1.50.0-py3-none-any.whl.zip tmp/azureml_training_tabular-1.50.0.post1-py3-none-any.whl.zip --markdown 20230427/a/azureml-training-tabular/1.50.0-1.50.0.post1/diff.md --exclude *.pyd
+[2023-04-27 16:44:57] INFO root fetch - processPackages [mrx-link-core]: Downloading https://files.pythonhosted.org/packages/b2/73/6c8e773da12a8dcdbae7891f677c860431edd35591509bda0f1d8c24556f/mrx_link_core-1.1.0.dev9-cp39-cp39-win_amd64.whl
+[2023-04-27 16:44:57] INFO root fetch - processPackages [uharfbuzz]: Downloading https://files.pythonhosted.org/packages/d2/85/2bc6dc16bca729561f4b906023b3fc8bba3e05dbc3ca2724a45f9a6cfb37/uharfbuzz-0.9.1.zip
+[2023-04-27 16:44:58] INFO root fetch - processPackages [mrx-link-core]: executing diffoscope
+[2023-04-27 16:44:58] INFO root fetch - processPackages [mrx-link-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrx_link_core-1.1.0.dev8-cp39-cp39-win_amd64.whl.zip tmp/mrx_link_core-1.1.0.dev9-cp39-cp39-win_amd64.whl.zip --markdown 20230427/m/mrx-link-core/1.1.0.dev8-1.1.0.dev9/diff.md --exclude *.pyd
+[2023-04-27 16:44:58] INFO root fetch - processPackages [pcb-parser]: Start processing: fw-meta
+[2023-04-27 16:44:58] INFO root fetch - main [MainThread]: End processing [pcb-parser]: success
+[2023-04-27 16:44:58] INFO root fetch - processPackages [fw-meta]: New version: [3.3.0] Old Version: [3.2.0]
+[2023-04-27 16:44:58] INFO root fetch - processPackages [uharfbuzz]: executing diffoscope
+[2023-04-27 16:44:58] INFO root fetch - processPackages [uharfbuzz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uharfbuzz-0.9.0.zip tmp/uharfbuzz-0.9.1.zip --markdown 20230427/u/uharfbuzz/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-27 16:44:58] INFO root fetch - processPackages [titan-iris]: Start processing: pywrapid
+[2023-04-27 16:44:58] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-04-27 16:44:58] INFO root fetch - processPackages [pywrapid]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-27 16:44:58] INFO root fetch - processPackages [fw-meta]: Downloading https://files.pythonhosted.org/packages/d3/c8/42ae888d7cd005ecc8e982c5b595ca44e30d16bc2e33b9e75d8ff3640fc1/fw_meta-3.2.0-py3-none-any.whl
+[2023-04-27 16:44:58] INFO root fetch - processPackages [taskiq-dependencies]: Start processing: locura-iotlab-bridge
+[2023-04-27 16:44:58] INFO root fetch - main [MainThread]: End processing [taskiq-dependencies]: success
+[2023-04-27 16:44:58] INFO root fetch - processPackages [locura-iotlab-bridge]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-27 16:44:58] INFO root fetch - processPackages [azureml-automl-dnn-vision]: Start processing: camouflage-decryptor
+[2023-04-27 16:44:58] INFO root fetch - main [MainThread]: End processing [azureml-automl-dnn-vision]: success
+[2023-04-27 16:44:58] INFO root fetch - processPackages [camouflage-decryptor]: New version: [0.1.1] Old Version: [0.0.1]
+[2023-04-27 16:44:58] INFO root fetch - processPackages [fw-meta]: Downloading https://files.pythonhosted.org/packages/9b/b8/6a2a4fc38ebd81b60b394b00c6b7d7cb2bb1d061d15e6053798314f518d8/fw_meta-3.3.0-py3-none-any.whl
+[2023-04-27 16:44:58] INFO root fetch - processPackages [pywrapid]: Downloading https://files.pythonhosted.org/packages/ca/4f/6885a5166cdb6ebb189cdece8ffe42bfce05f7d528a8637b478d9bec5d9c/pywrapid-0.2.9.tar.gz
+[2023-04-27 16:44:58] INFO root fetch - processPackages [locura-iotlab-bridge]: Downloading https://files.pythonhosted.org/packages/c4/06/b3e9474b034777e47422ca3755e71688c49b1b99f422a7833bcd787d76df/locura_iotlab_bridge-0.1.2.tar.gz
+[2023-04-27 16:44:58] INFO root fetch - processPackages [reliably-cli]: Start processing: nonebot-plugin-autoreply
+[2023-04-27 16:44:58] INFO root fetch - main [MainThread]: End processing [reliably-cli]: success
+[2023-04-27 16:44:58] INFO root fetch - processPackages [fw-meta]: executing diffoscope
+[2023-04-27 16:44:58] INFO root fetch - processPackages [fw-meta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fw_meta-3.2.0-py3-none-any.whl.zip tmp/fw_meta-3.3.0-py3-none-any.whl.zip --markdown 20230427/f/fw-meta/3.2.0-3.3.0/diff.md --exclude *.pyd
+[2023-04-27 16:44:59] INFO root fetch - processPackages [pywrapid]: executing diffoscope
+[2023-04-27 16:44:59] INFO root fetch - processPackages [pywrapid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywrapid-0.2.8.tar.gz tmp/pywrapid-0.2.9.tar.gz --markdown 20230427/p/pywrapid/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-27 16:44:59] INFO root fetch - processPackages [camouflage-decryptor]: Downloading https://files.pythonhosted.org/packages/d2/5a/883ef39ca9c11d4e6820760fc3189848d92078a9455a953ee144c0a8646c/camouflage_decryptor-0.0.1.tar.gz
+[2023-04-27 16:44:59] INFO root fetch - processPackages [nonebot-plugin-autoreply]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-04-27 16:44:59] INFO root fetch - processPackages [locura-iotlab-bridge]: Downloading https://files.pythonhosted.org/packages/07/b7/7c1c683ad911972c01c4c79e9d66dcfae72d008ca274d55638c6b97db8a9/locura_iotlab_bridge-0.1.3.tar.gz
+[2023-04-27 16:44:59] INFO root fetch - processPackages [camouflage-decryptor]: Downloading https://files.pythonhosted.org/packages/6a/5d/b158c5d34e48b0bf3736f7ecc585d944bb425333d3b84790708a8407c780/camouflage_decryptor-0.1.1.tar.gz
+[2023-04-27 16:44:59] INFO root fetch - processPackages [locura-iotlab-bridge]: executing diffoscope
+[2023-04-27 16:44:59] INFO root fetch - processPackages [locura-iotlab-bridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/locura_iotlab_bridge-0.1.2.tar.gz tmp/locura_iotlab_bridge-0.1.3.tar.gz --markdown 20230427/l/locura-iotlab-bridge/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-27 16:44:59] INFO root fetch - processPackages [nonebot-plugin-autoreply]: Downloading https://files.pythonhosted.org/packages/e8/11/33f134f6980d5c84c8b6bbb85960bd9b82d7641cdc27396bb0207e153dc6/nonebot_plugin_autoreply-0.2.8.tar.gz
+[2023-04-27 16:44:59] INFO root fetch - processPackages [camouflage-decryptor]: executing diffoscope
+[2023-04-27 16:44:59] INFO root fetch - processPackages [camouflage-decryptor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camouflage_decryptor-0.0.1.tar.gz tmp/camouflage_decryptor-0.1.1.tar.gz --markdown 20230427/c/camouflage-decryptor/0.0.1-0.1.1/diff.md --exclude *.pyd
+[2023-04-27 16:44:59] INFO root fetch - processPackages [nonebot-plugin-autoreply]: executing diffoscope
+[2023-04-27 16:44:59] INFO root fetch - processPackages [nonebot-plugin-autoreply]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_autoreply-0.2.7.tar.gz tmp/nonebot_plugin_autoreply-0.2.8.tar.gz --markdown 20230427/n/nonebot-plugin-autoreply/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-04-27 16:44:59] INFO root fetch - main [MainThread]: End processing [mrx-link-core]: success
+[2023-04-27 16:44:59] INFO root fetch - main [MainThread]: End processing [uharfbuzz]: success
+[2023-04-27 16:44:59] INFO root fetch - main [MainThread]: End processing [azureml-automl-runtime]: success
+[2023-04-27 16:45:00] INFO root fetch - main [MainThread]: End processing [fw-meta]: success
+[2023-04-27 16:45:00] INFO root fetch - main [MainThread]: End processing [azureml-training-tabular]: success
+[2023-04-27 16:45:00] INFO root fetch - main [MainThread]: End processing [pywrapid]: success
+[2023-04-27 16:45:00] INFO root fetch - main [MainThread]: End processing [locura-iotlab-bridge]: success
+[2023-04-27 16:45:00] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-autoreply]: success
+[2023-04-27 16:45:00] INFO root fetch - main [MainThread]: End processing [camouflage-decryptor]: success
+[2023-04-27 16:45:04] INFO root fetch - main [MainThread]: End processing [django-bootstrap-sidebar]: success
+[2023-04-27 16:45:04] INFO root fetch - main [MainThread]: Store serial: [17884680]
