@@ -8826,3 +8826,78 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 05:36:09] INFO root fetch - main [MainThread]: End processing [sinhala-subtitles]: success
 [2023-04-27 05:36:10] INFO root fetch - main [MainThread]: End processing [brandpy]: success
 [2023-04-27 05:36:10] INFO root fetch - main [MainThread]: Store serial: [17877161]
+[2023-04-27 05:41:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17877161]
+[2023-04-27 05:41:20] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-27 05:41:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: samna
+[2023-04-27 05:41:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flask-oidc-sso
+[2023-04-27 05:41:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: accelbyte-py-sdk
+[2023-04-27 05:41:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: p-ttauto-crawler
+[2023-04-27 05:41:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gpt-review
+[2023-04-27 05:41:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: beta-cnltk
+[2023-04-27 05:41:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jarvis-ironman
+[2023-04-27 05:41:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: donpeterlibs
+[2023-04-27 05:41:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nitrado
+[2023-04-27 05:41:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: airflow-kubernetes-job-operator-test26
+[2023-04-27 05:41:20] INFO root fetch - processPackages [flask-oidc-sso]: New version: [1.4.9b0] Old Version: [1.4.7]
+[2023-04-27 05:41:20] INFO root fetch - processPackages [p-ttauto-crawler]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 05:41:20] INFO root fetch - processPackages [gpt-review]: New version: [0.0.1rc93.post1] Old Version: [0.0.1rc85.post1]
+[2023-04-27 05:41:20] INFO root fetch - processPackages [nitrado]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-27 05:41:20] INFO root fetch - processPackages [accelbyte-py-sdk]: New version: [0.39.0] Old Version: [0.38.0]
+[2023-04-27 05:41:20] INFO root fetch - processPackages [samna]: New version: [0.9.39.0] Old Version: [0.9.38.0]
+[2023-04-27 05:41:20] WARNING root fetch - processPackages [beta-cnltk]: Skipping, unable to determine old version
+[2023-04-27 05:41:20] INFO root fetch - processPackages [beta-cnltk]: Start processing: mymoviebook
+[2023-04-27 05:41:20] INFO root fetch - main [MainThread]: End processing [beta-cnltk] error
+[2023-04-27 05:41:20] WARNING root fetch - processPackages [airflow-kubernetes-job-operator-test26]: Skipping, unable to determine old version
+[2023-04-27 05:41:20] INFO root fetch - processPackages [airflow-kubernetes-job-operator-test26]: Start processing: geomapdemo
+[2023-04-27 05:41:20] INFO root fetch - main [MainThread]: End processing [airflow-kubernetes-job-operator-test26] error
+[2023-04-27 05:41:20] WARNING root fetch - processPackages [donpeterlibs]: Skipping, unable to determine old version
+[2023-04-27 05:41:20] INFO root fetch - processPackages [donpeterlibs]: Start processing: lazyearth
+[2023-04-27 05:41:20] INFO root fetch - main [MainThread]: End processing [donpeterlibs] error
+[2023-04-27 05:41:20] INFO root fetch - processPackages [jarvis-ironman]: New version: [2.5] Old Version: [2.4]
+[2023-04-27 05:41:20] INFO root fetch - processPackages [lazyearth]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-04-27 05:41:20] INFO root fetch - processPackages [accelbyte-py-sdk]: Downloading https://files.pythonhosted.org/packages/8e/d7/885a4b610d71148a851310668a43b3580187f0b0c24cbd91df278db966de/accelbyte_py_sdk-0.38.0.tar.gz
+[2023-04-27 05:41:20] INFO root fetch - processPackages [mymoviebook]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-04-27 05:41:20] INFO root fetch - processPackages [gpt-review]: Downloading https://files.pythonhosted.org/packages/2e/7d/4a0412d8fa257bb5c38003a3fac64feafcfb7f18b19e79fe01e0bad2ac77/gpt-review-0.0.1rc93.post1.tar.gz
+[2023-04-27 05:41:20] INFO root fetch - processPackages [flask-oidc-sso]: Downloading https://files.pythonhosted.org/packages/44/4b/696ddc4177ef33f09a6ed31a29a2cc6d822a1081d247aa9ad233c920c098/flask_oidc_sso-1.4.7-py2.py3-none-any.whl
+[2023-04-27 05:41:20] INFO root fetch - processPackages [geomapdemo]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-27 05:41:20] INFO root fetch - processPackages [samna]: Downloading https://files.pythonhosted.org/packages/ac/49/8e22575b9ef0f797dd5332cff83b9f2288c02887aeff0cb8048a960a2edb/samna-0.9.38.0-py3-none-any.whl
+[2023-04-27 05:41:20] INFO root fetch - processPackages [nitrado]: executing diffoscope
+[2023-04-27 05:41:20] INFO root fetch - processPackages [nitrado]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nitrado-1.0.8.tar.gz tmp/nitrado-1.0.9.tar.gz --markdown 20230427/n/nitrado/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-27 05:41:20] INFO root fetch - processPackages [lazyearth]: executing diffoscope
+[2023-04-27 05:41:20] INFO root fetch - processPackages [lazyearth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyearth-1.0.7.tar.gz tmp/lazyearth-1.0.8.tar.gz --markdown 20230427/l/lazyearth/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-04-27 05:41:20] INFO root fetch - processPackages [p-ttauto-crawler]: executing diffoscope
+[2023-04-27 05:41:20] INFO root fetch - processPackages [p-ttauto-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p-ttauto-crawler-0.0.8.tar.gz tmp/p-ttauto-crawler-0.0.9.tar.gz --markdown 20230427/p/p-ttauto-crawler/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 05:41:20] INFO root fetch - processPackages [jarvis-ironman]: Downloading https://files.pythonhosted.org/packages/59/44/d10b6a1d4a745ec98552ad4c98fcb0450f00adfb1fa5862d605621240093/jarvis_ironman-2.4-py3-none-any.whl
+[2023-04-27 05:41:20] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-04-27 05:41:20] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-review-0.0.1rc85.post1.tar.gz tmp/gpt-review-0.0.1rc93.post1.tar.gz --markdown 20230427/g/gpt-review/0.0.1rc85.post1-0.0.1rc93.post1/diff.md --exclude *.pyd
+[2023-04-27 05:41:20] INFO root fetch - processPackages [mymoviebook]: Downloading https://files.pythonhosted.org/packages/09/14/3ff6d77b6264e49c9e3163e610f02a5a815efebea781bc1ff2aea613e37e/mymoviebook-1.8.0.tar.gz
+[2023-04-27 05:41:20] INFO root fetch - processPackages [samna]: Downloading https://files.pythonhosted.org/packages/00/d4/3de54a6c91f47d5c29700e274166c999cadaf0ba26c263d4a4b8a40342e2/samna-0.9.39.0-py3-none-any.whl
+[2023-04-27 05:41:21] INFO root fetch - processPackages [flask-oidc-sso]: Downloading https://files.pythonhosted.org/packages/b0/59/0d7421a1a68a040d437dd938f63c0e253ae05eed2f694302a33812ba10d6/flask-oidc-sso-1.4.9b0.tar.gz
+[2023-04-27 05:41:21] INFO root fetch - processPackages [geomapdemo]: Downloading https://files.pythonhosted.org/packages/88/38/ab587c6b2b850268c3b58f04024e39faf13de684b5b327c08e3050f6149f/geomapdemo-0.2.2.tar.gz
+[2023-04-27 05:41:21] INFO root fetch - processPackages [accelbyte-py-sdk]: Downloading https://files.pythonhosted.org/packages/90/39/1cb52789a3debf427484d059e0081555ff98ded8f995591ef154c954269e/accelbyte_py_sdk-0.39.0.tar.gz
+[2023-04-27 05:41:21] INFO root fetch - processPackages [samna]: executing diffoscope
+[2023-04-27 05:41:21] INFO root fetch - processPackages [samna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/samna-0.9.38.0-py3-none-any.whl.zip tmp/samna-0.9.39.0-py3-none-any.whl.zip --markdown 20230427/s/samna/0.9.38.0-0.9.39.0/diff.md --exclude *.pyd
+[2023-04-27 05:41:21] INFO root fetch - processPackages [flask-oidc-sso]: executing diffoscope
+[2023-04-27 05:41:21] INFO root fetch - processPackages [flask-oidc-sso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_oidc_sso-1.4.7-py2.py3-none-any.whl.zip tmp/flask-oidc-sso-1.4.9b0.tar.gz --markdown 20230427/f/flask-oidc-sso/1.4.7-1.4.9b0/diff.md --exclude *.pyd
+[2023-04-27 05:41:21] INFO root fetch - processPackages [geomapdemo]: executing diffoscope
+[2023-04-27 05:41:21] INFO root fetch - processPackages [geomapdemo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geomapdemo-0.2.1.tar.gz tmp/geomapdemo-0.2.2.tar.gz --markdown 20230427/g/geomapdemo/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-27 05:41:21] INFO root fetch - processPackages [mymoviebook]: Downloading https://files.pythonhosted.org/packages/03/c0/6dc7fda9a8b36bca8f60066fc4b37470a4b9555efc54280c54fcc4b4217e/mymoviebook-1.9.0.tar.gz
+[2023-04-27 05:41:21] INFO root fetch - processPackages [accelbyte-py-sdk]: executing diffoscope
+[2023-04-27 05:41:21] INFO root fetch - processPackages [accelbyte-py-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accelbyte_py_sdk-0.38.0.tar.gz tmp/accelbyte_py_sdk-0.39.0.tar.gz --markdown 20230427/a/accelbyte-py-sdk/0.38.0-0.39.0/diff.md --exclude *.pyd
+[2023-04-27 05:41:21] INFO root fetch - processPackages [mymoviebook]: executing diffoscope
+[2023-04-27 05:41:21] INFO root fetch - processPackages [mymoviebook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mymoviebook-1.8.0.tar.gz tmp/mymoviebook-1.9.0.tar.gz --markdown 20230427/m/mymoviebook/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-04-27 05:41:21] INFO root fetch - processPackages [jarvis-ironman]: Downloading https://files.pythonhosted.org/packages/c6/9f/54cde9bc9f57a624148abbad306576922bbc112dc3e0adc5981c78fbd68e/jarvis_ironman-2.5-py3-none-any.whl
+[2023-04-27 05:41:21] INFO root fetch - processPackages [jarvis-ironman]: executing diffoscope
+[2023-04-27 05:41:21] INFO root fetch - processPackages [jarvis-ironman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jarvis_ironman-2.4-py3-none-any.whl.zip tmp/jarvis_ironman-2.5-py3-none-any.whl.zip --markdown 20230427/j/jarvis-ironman/2.4-2.5/diff.md --exclude *.pyd
+[2023-04-27 05:41:22] INFO root fetch - main [MainThread]: End processing [p-ttauto-crawler]: success
+[2023-04-27 05:41:22] INFO root fetch - main [MainThread]: End processing [nitrado]: success
+[2023-04-27 05:41:22] INFO root fetch - main [MainThread]: End processing [samna]: success
+[2023-04-27 05:41:22] INFO root fetch - main [MainThread]: End processing [lazyearth]: success
+[2023-04-27 05:41:22] INFO root fetch - main [MainThread]: End processing [flask-oidc-sso]: success
+[2023-04-27 05:41:22] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-04-27 05:41:22] INFO root fetch - main [MainThread]: End processing [geomapdemo]: success
+[2023-04-27 05:41:24] INFO root fetch - main [MainThread]: End processing [mymoviebook]: success
+[2023-04-27 05:41:24] INFO root fetch - main [MainThread]: End processing [jarvis-ironman]: success
+[2023-04-27 05:44:21] ERROR root fetch - processPackages [accelbyte-py-sdk]: Timeout during execution of pkgdiff
+[2023-04-27 05:44:21] INFO root fetch - main [MainThread]: End processing [accelbyte-py-sdk] error
+[2023-04-27 05:44:21] INFO root fetch - main [MainThread]: Store serial: [17877211]
