@@ -12321,3 +12321,64 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 09:49:45] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-04-27 09:49:45] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
 [2023-04-27 09:49:45] INFO root fetch - main [MainThread]: Store serial: [17879099]
+[2023-04-27 09:54:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17879099]
+[2023-04-27 09:54:55] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-27 09:54:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cognite-sdk-experimental
+[2023-04-27 09:54:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: inventronet
+[2023-04-27 09:54:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tf-nightly-cpu
+[2023-04-27 09:54:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aloso
+[2023-04-27 09:54:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spectralib
+[2023-04-27 09:54:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fertex
+[2023-04-27 09:54:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pygitpub
+[2023-04-27 09:54:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo13-addon-web-disable-export-group
+[2023-04-27 09:54:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyassorted
+[2023-04-27 09:54:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: analysisbykwok
+[2023-04-27 09:54:55] INFO root fetch - processPackages [inventronet]: New version: [0.0.4a0] Old Version: [0.0.3a0]
+[2023-04-27 09:54:55] INFO root fetch - processPackages [aloso]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 09:54:55] INFO root fetch - processPackages [spectralib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 09:54:55] INFO root fetch - processPackages [aloso]: executing diffoscope
+[2023-04-27 09:54:55] INFO root fetch - processPackages [aloso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aloso-0.0.8-py3-none-any.whl.zip tmp/aloso-0.0.9-py3-none-any.whl.zip --markdown 20230427/a/aloso/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 09:54:55] INFO root fetch - processPackages [inventronet]: executing diffoscope
+[2023-04-27 09:54:55] INFO root fetch - processPackages [inventronet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inventronet-0.0.3a0.tar.gz tmp/inventronet-0.0.4a0.tar.gz --markdown 20230427/i/inventronet/0.0.3a0-0.0.4a0/diff.md --exclude *.pyd
+[2023-04-27 09:54:55] WARNING root fetch - processPackages [fertex]: Skipping, unable to determine old version
+[2023-04-27 09:54:55] INFO root fetch - processPackages [odoo13-addon-web-disable-export-group]: New version: [13.0.2.1.1.dev4] Old Version: [13.0.2.1.1.dev3]
+[2023-04-27 09:54:55] INFO root fetch - main [MainThread]: End processing [fertex] error
+[2023-04-27 09:54:55] INFO root fetch - processPackages [pyassorted]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-04-27 09:54:55] INFO root fetch - processPackages [pygitpub]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 09:54:55] INFO root fetch - processPackages [spectralib]: executing diffoscope
+[2023-04-27 09:54:55] INFO root fetch - processPackages [spectralib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spectralib-0.0.8.tar.gz tmp/spectralib-0.0.9.tar.gz --markdown 20230427/s/spectralib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 09:54:55] INFO root fetch - processPackages [analysisbykwok]: New version: [0.0.22] Old Version: [0.0.21]
+[2023-04-27 09:54:55] INFO root fetch - processPackages [cognite-sdk-experimental]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-04-27 09:54:55] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.13.0.dev20230427] Old Version: [2.13.0.dev20230426]
+[2023-04-27 09:54:55] INFO root fetch - processPackages [pyassorted]: Downloading https://files.pythonhosted.org/packages/f7/cf/108e9a52e616d0a7fb37f1f86a2a9581a58d3616366b68a6420f03dd8bb2/pyassorted-0.4.0.tar.gz
+[2023-04-27 09:54:55] INFO root fetch - processPackages [pygitpub]: Downloading https://files.pythonhosted.org/packages/2d/0b/63751894c06acce591148ead54ef22ff96409f4f173321132a4d03c56405/pygitpub-0.0.8.tar.gz
+[2023-04-27 09:54:55] INFO root fetch - processPackages [cognite-sdk-experimental]: Downloading https://files.pythonhosted.org/packages/38/13/ad0923915b3cbf4fe7c0577fc8cd4195dc7103fba9a2a7dbc603f3129176/cognite-sdk-experimental-0.98.0.tar.gz
+[2023-04-27 09:54:55] INFO root fetch - processPackages [odoo13-addon-web-disable-export-group]: Downloading https://files.pythonhosted.org/packages/82/3e/d35bd387d037efdeea62c70e7314a5f0070f24fc033a31c312237be87162/odoo13_addon_web_disable_export_group-13.0.2.1.1.dev3-py3-none-any.whl
+[2023-04-27 09:54:55] INFO root fetch - processPackages [analysisbykwok]: Downloading https://files.pythonhosted.org/packages/72/3a/c88ee378f40b863bbd851e0bac862e75a0d7bec7bbe9d5d09341fb1a2095/analysisbykwok-0.0.22.tar.gz
+[2023-04-27 09:54:55] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/5b/6f/8010baa67384a3ebce87ec0de4bb5db74380c1098b8433604f45c5abdd07/tf_nightly_cpu-2.13.0.dev20230427-cp39-cp39-win_amd64.whl
+[2023-04-27 09:54:55] INFO root fetch - processPackages [analysisbykwok]: executing diffoscope
+[2023-04-27 09:54:55] INFO root fetch - processPackages [analysisbykwok]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/analysisbykwok-0.0.21.tar.gz tmp/analysisbykwok-0.0.22.tar.gz --markdown 20230427/a/analysisbykwok/0.0.21-0.0.22/diff.md --exclude *.pyd
+[2023-04-27 09:54:56] INFO root fetch - processPackages [odoo13-addon-web-disable-export-group]: Downloading https://files.pythonhosted.org/packages/3c/23/9061f710dadce09e51f2745ad976bbc61de91b4b7e91f5e179bc977217f7/odoo13_addon_web_disable_export_group-13.0.2.1.1.dev4-py3-none-any.whl
+[2023-04-27 09:54:56] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-04-27 09:54:56] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.13.0.dev20230426-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.13.0.dev20230427-cp39-cp39-win_amd64.whl.zip --markdown 20230427/t/tf-nightly-cpu/2.13.0.dev20230426-2.13.0.dev20230427/diff.md --exclude *.pyd
+[2023-04-27 09:54:56] INFO root fetch - processPackages [pygitpub]: Downloading https://files.pythonhosted.org/packages/14/96/752057f31b33b1fd8411d1912dff98141e2c829e9579f5a5e6111740820f/pygitpub-0.0.9.tar.gz
+[2023-04-27 09:54:56] INFO root fetch - processPackages [pyassorted]: Downloading https://files.pythonhosted.org/packages/8f/19/3b42e8656c397b31cf91e56f86744a1447c30494f0d76839d94c0b399c04/pyassorted-0.5.0.tar.gz
+[2023-04-27 09:54:56] INFO root fetch - processPackages [cognite-sdk-experimental]: Downloading https://files.pythonhosted.org/packages/c8/14/a4154ec3c6e7cec5cde322f9be77d7d1ab979ae9f4ad5de8c946c528d0a6/cognite-sdk-experimental-0.99.0.tar.gz
+[2023-04-27 09:54:56] INFO root fetch - processPackages [odoo13-addon-web-disable-export-group]: executing diffoscope
+[2023-04-27 09:54:56] INFO root fetch - processPackages [odoo13-addon-web-disable-export-group]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_web_disable_export_group-13.0.2.1.1.dev3-py3-none-any.whl.zip tmp/odoo13_addon_web_disable_export_group-13.0.2.1.1.dev4-py3-none-any.whl.zip --markdown 20230427/o/odoo13-addon-web-disable-export-group/13.0.2.1.1.dev3-13.0.2.1.1.dev4/diff.md --exclude *.pyd
+[2023-04-27 09:54:56] INFO root fetch - processPackages [pygitpub]: executing diffoscope
+[2023-04-27 09:54:56] INFO root fetch - processPackages [pyassorted]: executing diffoscope
+[2023-04-27 09:54:56] INFO root fetch - processPackages [pygitpub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygitpub-0.0.8.tar.gz tmp/pygitpub-0.0.9.tar.gz --markdown 20230427/p/pygitpub/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 09:54:56] INFO root fetch - processPackages [pyassorted]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyassorted-0.4.0.tar.gz tmp/pyassorted-0.5.0.tar.gz --markdown 20230427/p/pyassorted/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-04-27 09:54:56] INFO root fetch - processPackages [cognite-sdk-experimental]: executing diffoscope
+[2023-04-27 09:54:56] INFO root fetch - processPackages [cognite-sdk-experimental]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite-sdk-experimental-0.98.0.tar.gz tmp/cognite-sdk-experimental-0.99.0.tar.gz --markdown 20230427/c/cognite-sdk-experimental/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-04-27 09:54:56] INFO root fetch - main [MainThread]: End processing [inventronet]: success
+[2023-04-27 09:54:56] INFO root fetch - main [MainThread]: End processing [aloso]: success
+[2023-04-27 09:54:57] INFO root fetch - main [MainThread]: End processing [spectralib]: success
+[2023-04-27 09:54:57] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-04-27 09:54:57] INFO root fetch - main [MainThread]: End processing [analysisbykwok]: success
+[2023-04-27 09:54:57] INFO root fetch - main [MainThread]: End processing [pyassorted]: success
+[2023-04-27 09:54:57] INFO root fetch - main [MainThread]: End processing [pygitpub]: success
+[2023-04-27 09:54:58] INFO root fetch - main [MainThread]: End processing [cognite-sdk-experimental]: success
+[2023-04-27 09:55:17] INFO root fetch - main [MainThread]: End processing [odoo13-addon-web-disable-export-group]: success
+[2023-04-27 09:55:17] INFO root fetch - main [MainThread]: Store serial: [17879141]
