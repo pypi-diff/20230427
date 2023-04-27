@@ -11551,3 +11551,34 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 08:55:02] INFO root fetch - main [MainThread]: End processing [dm-cli]: success
 [2023-04-27 08:55:02] INFO root fetch - main [MainThread]: End processing [CUQIpy]: success
 [2023-04-27 08:55:02] INFO root fetch - main [MainThread]: Store serial: [17878649]
+[2023-04-27 09:00:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17878649]
+[2023-04-27 09:00:12] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-27 09:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ansible-later
+[2023-04-27 09:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sfr-pyrca
+[2023-04-27 09:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kcli
+[2023-04-27 09:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo12-addon-sale-blanket-order
+[2023-04-27 09:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: findmyorder
+[2023-04-27 09:00:12] INFO root fetch - processPackages [findmyorder]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-04-27 09:00:12] INFO root fetch - processPackages [kcli]: New version: [99.0.202304262221] Old Version: [99.0.202304262215]
+[2023-04-27 09:00:12] INFO root fetch - processPackages [ansible-later]: New version: [3.3.0] Old Version: [3.2.3]
+[2023-04-27 09:00:12] WARNING root fetch - processPackages [sfr-pyrca]: Skipping, unable to determine old version
+[2023-04-27 09:00:12] INFO root fetch - main [MainThread]: End processing [sfr-pyrca] error
+[2023-04-27 09:00:12] INFO root fetch - processPackages [odoo12-addon-sale-blanket-order]: New version: [12.0.1.0.2.99.dev9] Old Version: [12.0.1.0.2.99.dev8]
+[2023-04-27 09:00:12] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-04-27 09:00:12] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202304262215-py3-none-any.whl.zip tmp/kcli-99.0.202304262221-py3-none-any.whl.zip --markdown 20230427/k/kcli/99.0.202304262215-99.0.202304262221/diff.md --exclude *.pyd
+[2023-04-27 09:00:12] INFO root fetch - processPackages [ansible-later]: Downloading https://files.pythonhosted.org/packages/44/6a/06c0ad27e999a7f2cd21f0775c504483d6574161bbe3624733732c116b60/ansible_later-3.2.3.tar.gz
+[2023-04-27 09:00:12] INFO root fetch - processPackages [odoo12-addon-sale-blanket-order]: Downloading https://files.pythonhosted.org/packages/cc/d9/3d347f8997b06fa0fb9cef0155642378ef9aef6f61a1d9f6764dfe8fa8e2/odoo12_addon_sale_blanket_order-12.0.1.0.2.99.dev8-py3-none-any.whl
+[2023-04-27 09:00:12] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/83/20/55477d1ccfee616b789a5de568e1c9bd9c368c31413d69e274ce68d708d3/findmyorder-1.0.7.tar.gz
+[2023-04-27 09:00:12] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-04-27 09:00:12] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-1.0.6.tar.gz tmp/findmyorder-1.0.7.tar.gz --markdown 20230427/f/findmyorder/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-04-27 09:00:12] INFO root fetch - processPackages [ansible-later]: Downloading https://files.pythonhosted.org/packages/55/70/3627f0ff3752ff635cb48db8080142860cb53332b4b6030fcd01f91d785f/ansible_later-3.3.0.tar.gz
+[2023-04-27 09:00:12] INFO root fetch - processPackages [ansible-later]: executing diffoscope
+[2023-04-27 09:00:12] INFO root fetch - processPackages [ansible-later]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansible_later-3.2.3.tar.gz tmp/ansible_later-3.3.0.tar.gz --markdown 20230427/a/ansible-later/3.2.3-3.3.0/diff.md --exclude *.pyd
+[2023-04-27 09:00:13] INFO root fetch - processPackages [odoo12-addon-sale-blanket-order]: Downloading https://files.pythonhosted.org/packages/1e/45/6dbdb3eee4920a7de3bc5944fd8341d9b5bc029ad486041447963cf1f074/odoo12_addon_sale_blanket_order-12.0.1.0.2.99.dev9-py3-none-any.whl
+[2023-04-27 09:00:13] INFO root fetch - processPackages [odoo12-addon-sale-blanket-order]: executing diffoscope
+[2023-04-27 09:00:13] INFO root fetch - processPackages [odoo12-addon-sale-blanket-order]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_sale_blanket_order-12.0.1.0.2.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_sale_blanket_order-12.0.1.0.2.99.dev9-py3-none-any.whl.zip --markdown 20230427/o/odoo12-addon-sale-blanket-order/12.0.1.0.2.99.dev8-12.0.1.0.2.99.dev9/diff.md --exclude *.pyd
+[2023-04-27 09:00:13] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-04-27 09:00:14] INFO root fetch - main [MainThread]: End processing [ansible-later]: success
+[2023-04-27 09:00:14] INFO root fetch - main [MainThread]: End processing [odoo12-addon-sale-blanket-order]: success
+[2023-04-27 09:00:22] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-04-27 09:00:22] INFO root fetch - main [MainThread]: Store serial: [17878667]
