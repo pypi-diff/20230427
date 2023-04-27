@@ -9773,3 +9773,37 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 06:54:31] INFO root fetch - main [MainThread]: End processing [jquants-api-client]: success
 [2023-04-27 06:54:31] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
 [2023-04-27 06:54:31] INFO root fetch - main [MainThread]: Store serial: [17877722]
+[2023-04-27 06:59:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17877722]
+[2023-04-27 06:59:40] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-27 06:59:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cs1-robots
+[2023-04-27 06:59:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: virtuaaliviivakoodi
+[2023-04-27 06:59:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crocodile
+[2023-04-27 06:59:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dtsh
+[2023-04-27 06:59:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: manitest
+[2023-04-27 06:59:40] INFO root fetch - processPackages [crocodile]: New version: [9.0] Old Version: [8.40]
+[2023-04-27 06:59:40] INFO root fetch - processPackages [dtsh]: New version: [0.1.0a6] Old Version: [0.1.0a4]
+[2023-04-27 06:59:40] INFO root fetch - processPackages [virtuaaliviivakoodi]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-27 06:59:40] INFO root fetch - processPackages [cs1-robots]: New version: [0.1.6.2] Old Version: [0.1.6]
+[2023-04-27 06:59:40] WARNING root fetch - processPackages [manitest]: Skipping, unable to determine old version
+[2023-04-27 06:59:40] INFO root fetch - main [MainThread]: End processing [manitest] error
+[2023-04-27 06:59:40] INFO root fetch - processPackages [cs1-robots]: Downloading https://files.pythonhosted.org/packages/52/c9/cea02ec3c61b285eb2247d4d830140a661ff05c84ec6c0979560a06f5587/cs1-robots-0.1.6.tar.gz
+[2023-04-27 06:59:40] INFO root fetch - processPackages [dtsh]: Downloading https://files.pythonhosted.org/packages/a9/09/0944630da402ed5f6701dad0bab7c3f14a3a403073a16fa06d0422d59028/dtsh-0.1.0a4.tar.gz
+[2023-04-27 06:59:40] INFO root fetch - processPackages [virtuaaliviivakoodi]: Downloading https://files.pythonhosted.org/packages/cc/0a/74cf5a3feb23e12e32ccdf2865aa1222cb9a1d7300bc92f58f7ccc77a7c6/virtuaaliviivakoodi-1.0.0.tar.gz
+[2023-04-27 06:59:40] INFO root fetch - processPackages [crocodile]: Downloading https://files.pythonhosted.org/packages/e9/40/be6d740c3728563bfe597684afb2910e709703124f4949c8feb4e58848c7/crocodile-8.40.tar.gz
+[2023-04-27 06:59:40] INFO root fetch - processPackages [cs1-robots]: Downloading https://files.pythonhosted.org/packages/84/27/98299857d812f3b85d0f1757125d6e6e637a6737ecd16a6fc7c0ac0b5117/cs1-robots-0.1.6.2.tar.gz
+[2023-04-27 06:59:40] INFO root fetch - processPackages [virtuaaliviivakoodi]: Downloading https://files.pythonhosted.org/packages/0c/98/1c91d59ff164611299affcae3b1768ffa12965f25230fd3443031655c1f9/virtuaaliviivakoodi-1.0.1.tar.gz
+[2023-04-27 06:59:40] INFO root fetch - processPackages [dtsh]: Downloading https://files.pythonhosted.org/packages/16/f5/cfd90fa6ba308b257a42c9ef1c2400907a29c04f70e488d032ea1ca3dee1/dtsh-0.1.0a6.tar.gz
+[2023-04-27 06:59:40] INFO root fetch - processPackages [crocodile]: Downloading https://files.pythonhosted.org/packages/8a/bf/2f3287d553ecdb0e999ea3393172dd7cd331c9581887d8d09d10b25fcdab/crocodile-9.0.tar.gz
+[2023-04-27 06:59:40] INFO root fetch - processPackages [cs1-robots]: executing diffoscope
+[2023-04-27 06:59:40] INFO root fetch - processPackages [cs1-robots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs1-robots-0.1.6.tar.gz tmp/cs1-robots-0.1.6.2.tar.gz --markdown 20230427/c/cs1-robots/0.1.6-0.1.6.2/diff.md --exclude *.pyd
+[2023-04-27 06:59:40] INFO root fetch - processPackages [virtuaaliviivakoodi]: executing diffoscope
+[2023-04-27 06:59:40] INFO root fetch - processPackages [virtuaaliviivakoodi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/virtuaaliviivakoodi-1.0.0.tar.gz tmp/virtuaaliviivakoodi-1.0.1.tar.gz --markdown 20230427/v/virtuaaliviivakoodi/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-27 06:59:40] INFO root fetch - processPackages [crocodile]: executing diffoscope
+[2023-04-27 06:59:40] INFO root fetch - processPackages [crocodile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crocodile-8.40.tar.gz tmp/crocodile-9.0.tar.gz --markdown 20230427/c/crocodile/8.40-9.0/diff.md --exclude *.pyd
+[2023-04-27 06:59:40] INFO root fetch - processPackages [dtsh]: executing diffoscope
+[2023-04-27 06:59:40] INFO root fetch - processPackages [dtsh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtsh-0.1.0a4.tar.gz tmp/dtsh-0.1.0a6.tar.gz --markdown 20230427/d/dtsh/0.1.0a4-0.1.0a6/diff.md --exclude *.pyd
+[2023-04-27 06:59:41] INFO root fetch - main [MainThread]: End processing [virtuaaliviivakoodi]: success
+[2023-04-27 06:59:42] INFO root fetch - main [MainThread]: End processing [cs1-robots]: success
+[2023-04-27 06:59:42] INFO root fetch - main [MainThread]: End processing [dtsh]: success
+[2023-04-27 06:59:42] INFO root fetch - main [MainThread]: End processing [crocodile]: success
+[2023-04-27 06:59:42] INFO root fetch - main [MainThread]: Store serial: [17877738]
