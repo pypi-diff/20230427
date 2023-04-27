@@ -20602,3 +20602,147 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 15:57:05] INFO root fetch - main [MainThread]: End processing [solarmach]: success
 [2023-04-27 15:57:05] INFO root fetch - main [MainThread]: End processing [fortigate-api]: success
 [2023-04-27 15:57:05] INFO root fetch - main [MainThread]: Store serial: [17883905]
+[2023-04-27 16:02:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17883905]
+[2023-04-27 16:02:14] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-04-27 16:02:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kompos
+[2023-04-27 16:02:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Bigsansar
+[2023-04-27 16:02:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kappadata
+[2023-04-27 16:02:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: RepRepBuild
+[2023-04-27 16:02:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yangsuite
+[2023-04-27 16:02:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rdfizer
+[2023-04-27 16:02:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: domolibrary
+[2023-04-27 16:02:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dbt-glue
+[2023-04-27 16:02:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sqlalchemy-iris
+[2023-04-27 16:02:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: quantconnect-stubs
+[2023-04-27 16:02:14] INFO root fetch - processPackages [yangsuite]: New version: [2.9.9] Old Version: [2.9.8.post0.dev8]
+[2023-04-27 16:02:14] INFO root fetch - processPackages [domolibrary]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-04-27 16:02:14] INFO root fetch - processPackages [quantconnect-stubs]: New version: [9998] Old Version: [9997]
+[2023-04-27 16:02:14] INFO root fetch - processPackages [Bigsansar]: New version: [1.0.0] Old Version: [0.9.9]
+[2023-04-27 16:02:14] INFO root fetch - processPackages [kompos]: New version: [0.4.5] Old Version: [0.4.2]
+[2023-04-27 16:02:14] INFO root fetch - processPackages [RepRepBuild]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-04-27 16:02:14] INFO root fetch - processPackages [sqlalchemy-iris]: New version: [0.8.1b1] Old Version: [0.8.0]
+[2023-04-27 16:02:14] INFO root fetch - processPackages [yangsuite]: executing diffoscope
+[2023-04-27 16:02:14] INFO root fetch - processPackages [yangsuite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yangsuite-2.9.8.post0.dev8-py3-none-any.whl.zip tmp/yangsuite-2.9.9-py3-none-any.whl.zip --markdown 20230427/y/yangsuite/2.9.8.post0.dev8-2.9.9/diff.md --exclude *.pyd
+[2023-04-27 16:02:14] INFO root fetch - processPackages [kappadata]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-04-27 16:02:14] INFO root fetch - processPackages [dbt-glue]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-04-27 16:02:14] INFO root fetch - processPackages [rdfizer]: New version: [4.7.dev1682603926] Old Version: [4.7.dev1682603874]
+[2023-04-27 16:02:14] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2023-04-27 16:02:14] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-0.1.7.tar.gz tmp/domolibrary-0.1.8.tar.gz --markdown 20230427/d/domolibrary/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-04-27 16:02:14] INFO root fetch - processPackages [quantconnect-stubs]: executing diffoscope
+[2023-04-27 16:02:14] INFO root fetch - processPackages [quantconnect-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantconnect-stubs-9997.tar.gz tmp/quantconnect-stubs-9998.tar.gz --markdown 20230427/q/quantconnect-stubs/9997-9998/diff.md --exclude *.pyd
+[2023-04-27 16:02:14] INFO root fetch - processPackages [Bigsansar]: Downloading https://files.pythonhosted.org/packages/0f/79/8237564af1c2c3a1b673b5e3e109c0c87bec9eb8a52f4adc217cb989b93b/Bigsansar-0.9.9.tar.gz
+[2023-04-27 16:02:14] INFO root fetch - processPackages [rdfizer]: Downloading https://files.pythonhosted.org/packages/9c/69/f926f79050903d7181f6dd0e91e494af7ba43c4c9369205e9332f4a4db3f/rdfizer-4.7.dev1682603874.tar.gz
+[2023-04-27 16:02:14] INFO root fetch - processPackages [dbt-glue]: Downloading https://files.pythonhosted.org/packages/70/f8/dbbfd17e272031cf92753bb68976f644f0dc4cabbc45fe1bf123448022b3/dbt-glue-1.4.1.tar.gz
+[2023-04-27 16:02:14] INFO root fetch - processPackages [RepRepBuild]: Downloading https://files.pythonhosted.org/packages/6c/81/dea0445aec19283ed9ad39fd867cdbdadb5e85087dc4c9caddf33c74632a/RepRepBuild-0.7.1.tar.gz
+[2023-04-27 16:02:14] INFO root fetch - processPackages [kompos]: Downloading https://files.pythonhosted.org/packages/2a/35/e1a8c8180c9393c4b639290ef50ae0bc035c9be166e0fcfbe4347075557b/kompos-0.4.2.tar.gz
+[2023-04-27 16:02:14] INFO root fetch - processPackages [kappadata]: Downloading https://files.pythonhosted.org/packages/c5/80/77c18d6fe20c85e84690c356497f237d348af2b7558ce01b14c460db59e9/kappadata-1.2.8.tar.gz
+[2023-04-27 16:02:15] INFO root fetch - processPackages [sqlalchemy-iris]: Downloading https://files.pythonhosted.org/packages/15/8d/b384ea6bb812705d0902f3fdc7b587788309bbac2105d41e1fce25c7b7a8/sqlalchemy-iris-0.8.1b1.tar.gz
+[2023-04-27 16:02:15] INFO root fetch - processPackages [RepRepBuild]: Downloading https://files.pythonhosted.org/packages/ff/ec/c807d1e2599814e10b05b61cd81b5698bca9cfb268c7997138fd9f700015/RepRepBuild-0.7.2.tar.gz
+[2023-04-27 16:02:15] INFO root fetch - processPackages [Bigsansar]: Downloading https://files.pythonhosted.org/packages/b4/a9/d8767de122465ed66416b18bb195e091b2b6de703a340f214f8556d454e2/Bigsansar-1.0.0.tar.gz
+[2023-04-27 16:02:15] INFO root fetch - processPackages [rdfizer]: Downloading https://files.pythonhosted.org/packages/70/cd/8dd4da328815d460b588f71a1270cf043ce0d2cae360ce0b321d3d1255b6/rdfizer-4.7.dev1682603926.tar.gz
+[2023-04-27 16:02:15] INFO root fetch - processPackages [sqlalchemy-iris]: executing diffoscope
+[2023-04-27 16:02:15] INFO root fetch - processPackages [sqlalchemy-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy-iris-0.8.0.tar.gz tmp/sqlalchemy-iris-0.8.1b1.tar.gz --markdown 20230427/s/sqlalchemy-iris/0.8.0-0.8.1b1/diff.md --exclude *.pyd
+[2023-04-27 16:02:15] INFO root fetch - processPackages [kompos]: Downloading https://files.pythonhosted.org/packages/50/43/b16248e09ebbf98dabc25f48878ac91455121ddbaa99b275896f12da0324/kompos-0.4.5.tar.gz
+[2023-04-27 16:02:15] INFO root fetch - processPackages [dbt-glue]: Downloading https://files.pythonhosted.org/packages/84/26/63b7d83f121d1ca7d8ce8468c212648e9a3294424088ca22a7712ad372e9/dbt-glue-1.4.2.tar.gz
+[2023-04-27 16:02:15] INFO root fetch - processPackages [RepRepBuild]: executing diffoscope
+[2023-04-27 16:02:15] INFO root fetch - processPackages [RepRepBuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RepRepBuild-0.7.1.tar.gz tmp/RepRepBuild-0.7.2.tar.gz --markdown 20230427/R/RepRepBuild/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-04-27 16:02:15] INFO root fetch - processPackages [Bigsansar]: executing diffoscope
+[2023-04-27 16:02:15] INFO root fetch - processPackages [Bigsansar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Bigsansar-0.9.9.tar.gz tmp/Bigsansar-1.0.0.tar.gz --markdown 20230427/B/Bigsansar/0.9.9-1.0.0/diff.md --exclude *.pyd
+[2023-04-27 16:02:15] INFO root fetch - processPackages [kompos]: executing diffoscope
+[2023-04-27 16:02:15] INFO root fetch - processPackages [kompos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kompos-0.4.2.tar.gz tmp/kompos-0.4.5.tar.gz --markdown 20230427/k/kompos/0.4.2-0.4.5/diff.md --exclude *.pyd
+[2023-04-27 16:02:15] INFO root fetch - processPackages [dbt-glue]: executing diffoscope
+[2023-04-27 16:02:15] INFO root fetch - processPackages [rdfizer]: executing diffoscope
+[2023-04-27 16:02:15] INFO root fetch - processPackages [dbt-glue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-glue-1.4.1.tar.gz tmp/dbt-glue-1.4.2.tar.gz --markdown 20230427/d/dbt-glue/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-04-27 16:02:15] INFO root fetch - processPackages [rdfizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdfizer-4.7.dev1682603874.tar.gz tmp/rdfizer-4.7.dev1682603926.tar.gz --markdown 20230427/r/rdfizer/4.7.dev1682603874-4.7.dev1682603926/diff.md --exclude *.pyd
+[2023-04-27 16:02:15] INFO root fetch - processPackages [kappadata]: Downloading https://files.pythonhosted.org/packages/6b/25/ceb4f83c59a4447b0c7e6db154402e4159e2a5dd958e4428d855e0248515/kappadata-1.2.9.tar.gz
+[2023-04-27 16:02:15] INFO root fetch - processPackages [kappadata]: executing diffoscope
+[2023-04-27 16:02:15] INFO root fetch - processPackages [kappadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kappadata-1.2.8.tar.gz tmp/kappadata-1.2.9.tar.gz --markdown 20230427/k/kappadata/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-04-27 16:02:16] INFO root fetch - processPackages [RepRepBuild]: Start processing: rdfizer
+[2023-04-27 16:02:16] INFO root fetch - main [MainThread]: End processing [RepRepBuild]: success
+[2023-04-27 16:02:16] INFO root fetch - processPackages [rdfizer]: New version: [4.7.dev1682603926] Old Version: [4.7.dev1682603874]
+[2023-04-27 16:02:16] INFO root fetch - processPackages [rdfizer]: executing diffoscope
+[2023-04-27 16:02:16] INFO root fetch - processPackages [rdfizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdfizer-4.7.dev1682603874.tar.gz tmp/rdfizer-4.7.dev1682603926.tar.gz --markdown 20230427/r/rdfizer/4.7.dev1682603874-4.7.dev1682603926/diff.md --exclude *.pyd
+[2023-04-27 16:02:17] INFO root fetch - processPackages [rdfizer]: Start processing: worky
+[2023-04-27 16:02:17] INFO root fetch - main [MainThread]: End processing [rdfizer]: success
+[2023-04-27 16:02:17] INFO root fetch - processPackages [worky]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-27 16:02:17] INFO root fetch - processPackages [kompos]: Start processing: python-automation-framework
+[2023-04-27 16:02:17] INFO root fetch - main [MainThread]: End processing [kompos]: success
+[2023-04-27 16:02:17] INFO root fetch - processPackages [domolibrary]: Start processing: sql-field-report
+[2023-04-27 16:02:17] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2023-04-27 16:02:17] INFO root fetch - processPackages [worky]: executing diffoscope
+[2023-04-27 16:02:17] INFO root fetch - processPackages [worky]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/worky-0.1.4.tar.gz tmp/worky-0.1.5.tar.gz --markdown 20230427/w/worky/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-27 16:02:17] WARNING root fetch - processPackages [python-automation-framework]: Skipping, unable to determine old version
+[2023-04-27 16:02:17] INFO root fetch - processPackages [python-automation-framework]: Start processing: cloudshell-snmp
+[2023-04-27 16:02:17] INFO root fetch - main [MainThread]: End processing [python-automation-framework] error
+[2023-04-27 16:02:17] INFO root fetch - processPackages [sql-field-report]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-27 16:02:17] INFO root fetch - processPackages [dbt-glue]: Start processing: curriculum-analysis
+[2023-04-27 16:02:17] INFO root fetch - main [MainThread]: End processing [dbt-glue]: success
+[2023-04-27 16:02:17] INFO root fetch - processPackages [curriculum-analysis]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-04-27 16:02:17] INFO root fetch - processPackages [sqlalchemy-iris]: Start processing: odoo-addon-fieldservice
+[2023-04-27 16:02:17] INFO root fetch - main [MainThread]: End processing [sqlalchemy-iris]: success
+[2023-04-27 16:02:17] INFO root fetch - processPackages [cloudshell-snmp]: New version: [5.0.1] Old Version: [5.0.0]
+[2023-04-27 16:02:17] INFO root fetch - processPackages [odoo-addon-fieldservice]: New version: [16.0.1.0.1.5] Old Version: [16.0.1.0.1.4]
+[2023-04-27 16:02:17] INFO root fetch - processPackages [sql-field-report]: Downloading https://files.pythonhosted.org/packages/2f/5d/eefeb9e1a9a6e0dea3a1d29715bc5ffe30b3c4a7294de16adb0237933d52/sql_field_report-0.1.0.tar.gz
+[2023-04-27 16:02:17] INFO root fetch - processPackages [curriculum-analysis]: executing diffoscope
+[2023-04-27 16:02:17] INFO root fetch - processPackages [curriculum-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/curriculum_analysis-0.1.1.tar.gz tmp/curriculum_analysis-0.2.0.tar.gz --markdown 20230427/c/curriculum-analysis/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-04-27 16:02:17] INFO root fetch - processPackages [odoo-addon-fieldservice]: executing diffoscope
+[2023-04-27 16:02:17] INFO root fetch - processPackages [odoo-addon-fieldservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fieldservice-16.0.1.0.1.4-py3-none-any.whl.zip tmp/odoo_addon_fieldservice-16.0.1.0.1.5-py3-none-any.whl.zip --markdown 20230427/o/odoo-addon-fieldservice/16.0.1.0.1.4-16.0.1.0.1.5/diff.md --exclude *.pyd
+[2023-04-27 16:02:17] INFO root fetch - processPackages [cloudshell-snmp]: Downloading https://files.pythonhosted.org/packages/aa/21/7ff02e992333a5c9f08d3aaa9e19ebc50ab0f8f064b1e8bf32c039c9d113/cloudshell-snmp-5.0.0.zip
+[2023-04-27 16:02:17] INFO root fetch - processPackages [sql-field-report]: Downloading https://files.pythonhosted.org/packages/f7/8e/553d2288d37a8918a8269cf3d98d62612feaf7b3385cad1b86b2a53494df/sql_field_report-0.1.1.tar.gz
+[2023-04-27 16:02:17] INFO root fetch - processPackages [Bigsansar]: Start processing: i2a-oauth2-api-client
+[2023-04-27 16:02:17] INFO root fetch - main [MainThread]: End processing [Bigsansar]: success
+[2023-04-27 16:02:17] INFO root fetch - processPackages [kappadata]: Start processing: highcharts-core
+[2023-04-27 16:02:17] INFO root fetch - main [MainThread]: End processing [kappadata]: success
+[2023-04-27 16:02:17] INFO root fetch - processPackages [i2a-oauth2-api-client]: New version: [3.0.0] Old Version: [2.0.9]
+[2023-04-27 16:02:17] INFO root fetch - processPackages [highcharts-core]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-04-27 16:02:17] INFO root fetch - processPackages [i2a-oauth2-api-client]: executing diffoscope
+[2023-04-27 16:02:17] INFO root fetch - processPackages [i2a-oauth2-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/i2a_oauth2_api_client-2.0.9.tar.gz tmp/i2a_oauth2_api_client-3.0.0.tar.gz --markdown 20230427/i/i2a-oauth2-api-client/2.0.9-3.0.0/diff.md --exclude *.pyd
+[2023-04-27 16:02:17] INFO root fetch - processPackages [sql-field-report]: executing diffoscope
+[2023-04-27 16:02:17] INFO root fetch - processPackages [sql-field-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sql_field_report-0.1.0.tar.gz tmp/sql_field_report-0.1.1.tar.gz --markdown 20230427/s/sql-field-report/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-27 16:02:17] INFO root fetch - processPackages [highcharts-core]: Downloading https://files.pythonhosted.org/packages/33/16/d356fde2ea2dffc8e498dfab1b4300b9c15edc585e19f5dd87067816a869/highcharts_core-1.1.0.tar.gz
+[2023-04-27 16:02:17] WARNING root fetch - processPackages [highcharts-core]: Skipping package: exceeds size limit 11162660>=10485760
+[2023-04-27 16:02:17] INFO root fetch - processPackages [highcharts-core]: Start processing: pyxui
+[2023-04-27 16:02:17] INFO root fetch - main [MainThread]: End processing [highcharts-core] error
+[2023-04-27 16:02:17] INFO root fetch - processPackages [cloudshell-snmp]: Downloading https://files.pythonhosted.org/packages/02/b9/bac697c10a9bdf65e004ec5aeb663c030e3d28b4cd828d5ec536ce4bcf5f/cloudshell-snmp-5.0.1.zip
+[2023-04-27 16:02:17] WARNING root fetch - processPackages [pyxui]: Skipping, unable to determine old version
+[2023-04-27 16:02:17] INFO root fetch - processPackages [pyxui]: Start processing: rdfizer
+[2023-04-27 16:02:17] INFO root fetch - main [MainThread]: End processing [pyxui] error
+[2023-04-27 16:02:17] INFO root fetch - processPackages [rdfizer]: New version: [4.7.dev1682603926] Old Version: [4.7.dev1682603874]
+[2023-04-27 16:02:18] INFO root fetch - processPackages [rdfizer]: executing diffoscope
+[2023-04-27 16:02:18] INFO root fetch - processPackages [rdfizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdfizer-4.7.dev1682603874.tar.gz tmp/rdfizer-4.7.dev1682603926.tar.gz --markdown 20230427/r/rdfizer/4.7.dev1682603874-4.7.dev1682603926/diff.md --exclude *.pyd
+[2023-04-27 16:02:18] INFO root fetch - processPackages [cloudshell-snmp]: executing diffoscope
+[2023-04-27 16:02:18] INFO root fetch - processPackages [cloudshell-snmp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudshell-snmp-5.0.0.zip tmp/cloudshell-snmp-5.0.1.zip --markdown 20230427/c/cloudshell-snmp/5.0.0-5.0.1/diff.md --exclude *.pyd
+[2023-04-27 16:02:18] INFO root fetch - processPackages [worky]: Start processing: ghastoolkit
+[2023-04-27 16:02:18] INFO root fetch - main [MainThread]: End processing [worky]: success
+[2023-04-27 16:02:18] INFO root fetch - processPackages [rdfizer]: Start processing: tailwind-colors
+[2023-04-27 16:02:18] INFO root fetch - main [MainThread]: End processing [rdfizer]: success
+[2023-04-27 16:02:18] INFO root fetch - processPackages [ghastoolkit]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-27 16:02:18] INFO root fetch - processPackages [tailwind-colors]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-27 16:02:19] INFO root fetch - processPackages [ghastoolkit]: Downloading https://files.pythonhosted.org/packages/94/1e/4e2392052873fa888c0bb2c8ea13581c184886dc4c151f5a7da4e9d62e29/ghastoolkit-0.1.9.tar.gz
+[2023-04-27 16:02:19] INFO root fetch - processPackages [tailwind-colors]: Downloading https://files.pythonhosted.org/packages/03/68/a7f3db09f3064e74ab09dc38578b4520ac7209026f0ac7e7491d8c43ded2/tailwind_colors-1.0.0.tar.gz
+[2023-04-27 16:02:19] INFO root fetch - processPackages [curriculum-analysis]: Start processing: lvpyio
+[2023-04-27 16:02:19] INFO root fetch - main [MainThread]: End processing [curriculum-analysis]: success
+[2023-04-27 16:02:19] INFO root fetch - processPackages [ghastoolkit]: executing diffoscope
+[2023-04-27 16:02:19] INFO root fetch - processPackages [ghastoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghastoolkit-0.1.8.tar.gz tmp/ghastoolkit-0.1.9.tar.gz --markdown 20230427/g/ghastoolkit/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-27 16:02:19] WARNING root fetch - processPackages [lvpyio]: Skipping, unable to determine old version
+[2023-04-27 16:02:19] INFO root fetch - processPackages [lvpyio]: Start processing: django-dynamic-attachments
+[2023-04-27 16:02:19] INFO root fetch - main [MainThread]: End processing [lvpyio] error
+[2023-04-27 16:02:19] INFO root fetch - main [MainThread]: End processing [sql-field-report]: success
+[2023-04-27 16:02:19] INFO root fetch - main [MainThread]: End processing [i2a-oauth2-api-client]: success
+[2023-04-27 16:02:19] INFO root fetch - processPackages [django-dynamic-attachments]: New version: [3.5.0] Old Version: [3.4.2]
+[2023-04-27 16:02:19] INFO root fetch - processPackages [tailwind-colors]: Downloading https://files.pythonhosted.org/packages/65/ef/1e579571132e1a157a6e6d11257fe51399ffad0a1f177e53f62dd7e2935e/tailwind_colors-1.0.1.tar.gz
+[2023-04-27 16:02:19] INFO root fetch - processPackages [tailwind-colors]: executing diffoscope
+[2023-04-27 16:02:19] INFO root fetch - processPackages [tailwind-colors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tailwind_colors-1.0.0.tar.gz tmp/tailwind_colors-1.0.1.tar.gz --markdown 20230427/t/tailwind-colors/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-27 16:02:19] INFO root fetch - processPackages [django-dynamic-attachments]: Downloading https://files.pythonhosted.org/packages/2b/5d/16d66d4acb1b806c01d8631f453ead8475b29f812fd987160c46ad934907/django-dynamic-attachments-3.4.2.tar.gz
+[2023-04-27 16:02:19] INFO root fetch - main [MainThread]: End processing [rdfizer]: success
+[2023-04-27 16:02:19] INFO root fetch - main [MainThread]: End processing [odoo-addon-fieldservice]: success
+[2023-04-27 16:02:19] INFO root fetch - processPackages [django-dynamic-attachments]: Downloading https://files.pythonhosted.org/packages/c8/70/fa82edd6e2369f117229698dfdaf289a2f0a7d2788159032723d74145e6c/django-dynamic-attachments-3.5.0.tar.gz
+[2023-04-27 16:02:19] INFO root fetch - processPackages [django-dynamic-attachments]: executing diffoscope
+[2023-04-27 16:02:19] INFO root fetch - processPackages [django-dynamic-attachments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-dynamic-attachments-3.4.2.tar.gz tmp/django-dynamic-attachments-3.5.0.tar.gz --markdown 20230427/d/django-dynamic-attachments/3.4.2-3.5.0/diff.md --exclude *.pyd
+[2023-04-27 16:02:20] INFO root fetch - main [MainThread]: End processing [cloudshell-snmp]: success
+[2023-04-27 16:02:20] INFO root fetch - main [MainThread]: End processing [ghastoolkit]: success
+[2023-04-27 16:02:20] INFO root fetch - main [MainThread]: End processing [tailwind-colors]: success
+[2023-04-27 16:02:20] INFO root fetch - main [MainThread]: End processing [django-dynamic-attachments]: success
+[2023-04-27 16:02:22] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
+[2023-04-27 16:02:25] INFO root fetch - main [MainThread]: End processing [yangsuite]: success
+[2023-04-27 16:02:25] INFO root fetch - main [MainThread]: Store serial: [17883993]
