@@ -20018,3 +20018,180 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 15:29:45] INFO root fetch - main [MainThread]: End processing [astromartini]: success
 [2023-04-27 15:29:46] INFO root fetch - main [MainThread]: End processing [onvif-gui]: success
 [2023-04-27 15:29:46] INFO root fetch - main [MainThread]: Store serial: [17883574]
+[2023-04-27 15:34:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17883574]
+[2023-04-27 15:34:57] INFO root fetch - main [MainThread]: Found 27 changed packages
+[2023-04-27 15:34:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: drb-driver-wcs
+[2023-04-27 15:34:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CUQIpy-FEniCS
+[2023-04-27 15:34:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dbt-core
+[2023-04-27 15:34:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dbt-postgres
+[2023-04-27 15:34:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dbt-tests-adapter
+[2023-04-27 15:34:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: criteo-api-marketingsolutions-sdk
+[2023-04-27 15:34:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: criteo-api-marketingsolutions-sdk
+[2023-04-27 15:34:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: criteo-api-marketingsolutions-sdk
+[2023-04-27 15:34:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: criteo-api-marketingsolutions-sdk
+[2023-04-27 15:34:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: criteo-api-marketingsolutions-sdk
+[2023-04-27 15:34:57] INFO root fetch - processPackages [drb-driver-wcs]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-04-27 15:34:57] INFO root fetch - processPackages [dbt-tests-adapter]: New version: [1.5.0rc2] Old Version: [1.5.0rc1]
+[2023-04-27 15:34:57] INFO root fetch - processPackages [criteo-api-marketingsolutions-sdk]: New version: [2023.4.0.230427] Old Version: [2023.1.0.230427]
+[2023-04-27 15:34:57] INFO root fetch - processPackages [criteo-api-marketingsolutions-sdk]: New version: [2023.4.0.230427] Old Version: [2023.1.0.230427]
+[2023-04-27 15:34:57] INFO root fetch - processPackages [CUQIpy-FEniCS]: New version: [0.3.0.post0.dev5] Old Version: [0.3.0]
+[2023-04-27 15:34:57] INFO root fetch - processPackages [criteo-api-marketingsolutions-sdk]: New version: [2023.4.0.230427] Old Version: [2023.1.0.230427]
+[2023-04-27 15:34:57] INFO root fetch - processPackages [criteo-api-marketingsolutions-sdk]: New version: [2023.4.0.230427] Old Version: [2023.1.0.230427]
+[2023-04-27 15:34:57] INFO root fetch - processPackages [criteo-api-marketingsolutions-sdk]: New version: [2023.4.0.230427] Old Version: [2023.1.0.230427]
+[2023-04-27 15:34:57] INFO root fetch - processPackages [dbt-core]: New version: [1.5.0rc2] Old Version: [1.5.0rc1]
+[2023-04-27 15:34:58] INFO root fetch - processPackages [dbt-postgres]: New version: [1.5.0rc2] Old Version: [1.5.0rc1]
+[2023-04-27 15:34:58] INFO root fetch - processPackages [criteo-api-marketingsolutions-sdk]: Downloading https://files.pythonhosted.org/packages/bd/28/11d007a487ab1cdb4eef3fad2827de0e8ff62c5b63196d7df5d0f593edb6/criteo-api-marketingsolutions-sdk-2023.1.0.230427.tar.gz
+[2023-04-27 15:34:58] INFO root fetch - processPackages [drb-driver-wcs]: Downloading https://files.pythonhosted.org/packages/00/1c/6d1b521254eee2c811924a99e4f3a22a7d9f09e7dd238a6627da151b913d/drb-driver-wcs-1.1.0.tar.gz
+[2023-04-27 15:34:58] INFO root fetch - processPackages [criteo-api-marketingsolutions-sdk]: Downloading https://files.pythonhosted.org/packages/bd/28/11d007a487ab1cdb4eef3fad2827de0e8ff62c5b63196d7df5d0f593edb6/criteo-api-marketingsolutions-sdk-2023.1.0.230427.tar.gz
+[2023-04-27 15:34:58] INFO root fetch - processPackages [criteo-api-marketingsolutions-sdk]: Downloading https://files.pythonhosted.org/packages/bd/28/11d007a487ab1cdb4eef3fad2827de0e8ff62c5b63196d7df5d0f593edb6/criteo-api-marketingsolutions-sdk-2023.1.0.230427.tar.gz
+[2023-04-27 15:34:58] INFO root fetch - processPackages [criteo-api-marketingsolutions-sdk]: Downloading https://files.pythonhosted.org/packages/bd/28/11d007a487ab1cdb4eef3fad2827de0e8ff62c5b63196d7df5d0f593edb6/criteo-api-marketingsolutions-sdk-2023.1.0.230427.tar.gz
+[2023-04-27 15:34:58] INFO root fetch - processPackages [criteo-api-marketingsolutions-sdk]: Downloading https://files.pythonhosted.org/packages/bd/28/11d007a487ab1cdb4eef3fad2827de0e8ff62c5b63196d7df5d0f593edb6/criteo-api-marketingsolutions-sdk-2023.1.0.230427.tar.gz
+[2023-04-27 15:34:58] INFO root fetch - processPackages [dbt-tests-adapter]: Downloading https://files.pythonhosted.org/packages/e5/2b/1064fad8e83693a29264d647ba0d9b40892d7a5634f676d094a312e82eff/dbt-tests-adapter-1.5.0rc1.tar.gz
+[2023-04-27 15:34:58] INFO root fetch - processPackages [CUQIpy-FEniCS]: Downloading https://files.pythonhosted.org/packages/c3/4f/a12e100e9dfcee193bdc40f9eba399a88458a69edc6a6a580d745a21685d/CUQIpy-FEniCS-0.3.0.tar.gz
+[2023-04-27 15:34:58] INFO root fetch - processPackages [dbt-core]: Downloading https://files.pythonhosted.org/packages/b2/5c/5f4139521855a72e115f7374a8a0c40c615a6ec7a7aae805136f4730961b/dbt-core-1.5.0rc1.tar.gz
+[2023-04-27 15:34:58] INFO root fetch - processPackages [dbt-postgres]: Downloading https://files.pythonhosted.org/packages/75/9b/f9105646700c94c98dc64e5630d3882a3bf2af358ffced4b04098a7c96c0/dbt-postgres-1.5.0rc1.tar.gz
+[2023-04-27 15:34:58] INFO root fetch - processPackages [criteo-api-marketingsolutions-sdk]: Downloading https://files.pythonhosted.org/packages/b7/4b/83c3d87edd40406d202f8c2842161b02deca003fc90a3c7bd801e2082a8e/criteo-api-marketingsolutions-sdk-2023.4.0.230427.tar.gz
+[2023-04-27 15:34:58] INFO root fetch - processPackages [criteo-api-marketingsolutions-sdk]: Downloading https://files.pythonhosted.org/packages/b7/4b/83c3d87edd40406d202f8c2842161b02deca003fc90a3c7bd801e2082a8e/criteo-api-marketingsolutions-sdk-2023.4.0.230427.tar.gz
+[2023-04-27 15:34:58] INFO root fetch - processPackages [criteo-api-marketingsolutions-sdk]: Downloading https://files.pythonhosted.org/packages/b7/4b/83c3d87edd40406d202f8c2842161b02deca003fc90a3c7bd801e2082a8e/criteo-api-marketingsolutions-sdk-2023.4.0.230427.tar.gz
+[2023-04-27 15:34:58] INFO root fetch - processPackages [criteo-api-marketingsolutions-sdk]: Downloading https://files.pythonhosted.org/packages/b7/4b/83c3d87edd40406d202f8c2842161b02deca003fc90a3c7bd801e2082a8e/criteo-api-marketingsolutions-sdk-2023.4.0.230427.tar.gz
+[2023-04-27 15:34:58] INFO root fetch - processPackages [criteo-api-marketingsolutions-sdk]: Downloading https://files.pythonhosted.org/packages/b7/4b/83c3d87edd40406d202f8c2842161b02deca003fc90a3c7bd801e2082a8e/criteo-api-marketingsolutions-sdk-2023.4.0.230427.tar.gz
+[2023-04-27 15:34:58] INFO root fetch - processPackages [drb-driver-wcs]: Downloading https://files.pythonhosted.org/packages/42/82/3fe4bc800f6a1fedf5f20e67b64e2ee5e1e72ed636fb4fdee9a9bd5c19d0/drb-driver-wcs-1.2.0.tar.gz
+[2023-04-27 15:34:58] INFO root fetch - processPackages [dbt-postgres]: Downloading https://files.pythonhosted.org/packages/01/a7/5a11922e593a0c0cec7ab6a4675d388e9ba1ede0f096a0979f9b68e796ad/dbt-postgres-1.5.0rc2.tar.gz
+[2023-04-27 15:34:58] INFO root fetch - processPackages [dbt-tests-adapter]: Downloading https://files.pythonhosted.org/packages/b4/4f/666adea028e949f6c34943b05e7f6d41c9e93bb1a371228d66b24c790732/dbt-tests-adapter-1.5.0rc2.tar.gz
+[2023-04-27 15:34:58] INFO root fetch - processPackages [dbt-core]: Downloading https://files.pythonhosted.org/packages/be/3c/46a753257b7e21af53cdd54244e7e9aac24cbcd49fef9b9bb19b0089a289/dbt-core-1.5.0rc2.tar.gz
+[2023-04-27 15:34:58] INFO root fetch - processPackages [CUQIpy-FEniCS]: Downloading https://files.pythonhosted.org/packages/7b/f4/781fa4518bfcae62bccdf4f5d6bbb78e1a937a9c36d2d35d8c300307aab6/CUQIpy-FEniCS-0.3.0.post0.dev5.tar.gz
+[2023-04-27 15:34:58] INFO root fetch - processPackages [criteo-api-marketingsolutions-sdk]: executing diffoscope
+[2023-04-27 15:34:58] INFO root fetch - processPackages [criteo-api-marketingsolutions-sdk]: executing diffoscope
+[2023-04-27 15:34:58] INFO root fetch - processPackages [criteo-api-marketingsolutions-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/criteo-api-marketingsolutions-sdk-2023.1.0.230427.tar.gz tmp/criteo-api-marketingsolutions-sdk-2023.4.0.230427.tar.gz --markdown 20230427/c/criteo-api-marketingsolutions-sdk/2023.1.0.230427-2023.4.0.230427/diff.md --exclude *.pyd
+[2023-04-27 15:34:58] INFO root fetch - processPackages [criteo-api-marketingsolutions-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/criteo-api-marketingsolutions-sdk-2023.1.0.230427.tar.gz tmp/criteo-api-marketingsolutions-sdk-2023.4.0.230427.tar.gz --markdown 20230427/c/criteo-api-marketingsolutions-sdk/2023.1.0.230427-2023.4.0.230427/diff.md --exclude *.pyd
+[2023-04-27 15:34:58] INFO root fetch - processPackages [criteo-api-marketingsolutions-sdk]: executing diffoscope
+[2023-04-27 15:34:58] INFO root fetch - processPackages [criteo-api-marketingsolutions-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/criteo-api-marketingsolutions-sdk-2023.1.0.230427.tar.gz tmp/criteo-api-marketingsolutions-sdk-2023.4.0.230427.tar.gz --markdown 20230427/c/criteo-api-marketingsolutions-sdk/2023.1.0.230427-2023.4.0.230427/diff.md --exclude *.pyd
+[2023-04-27 15:34:58] INFO root fetch - processPackages [criteo-api-marketingsolutions-sdk]: executing diffoscope
+[2023-04-27 15:34:58] INFO root fetch - processPackages [criteo-api-marketingsolutions-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/criteo-api-marketingsolutions-sdk-2023.1.0.230427.tar.gz tmp/criteo-api-marketingsolutions-sdk-2023.4.0.230427.tar.gz --markdown 20230427/c/criteo-api-marketingsolutions-sdk/2023.1.0.230427-2023.4.0.230427/diff.md --exclude *.pyd
+[2023-04-27 15:34:58] INFO root fetch - processPackages [criteo-api-marketingsolutions-sdk]: executing diffoscope
+[2023-04-27 15:34:58] INFO root fetch - processPackages [criteo-api-marketingsolutions-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/criteo-api-marketingsolutions-sdk-2023.1.0.230427.tar.gz tmp/criteo-api-marketingsolutions-sdk-2023.4.0.230427.tar.gz --markdown 20230427/c/criteo-api-marketingsolutions-sdk/2023.1.0.230427-2023.4.0.230427/diff.md --exclude *.pyd
+[2023-04-27 15:34:58] INFO root fetch - processPackages [dbt-postgres]: executing diffoscope
+[2023-04-27 15:34:58] INFO root fetch - processPackages [dbt-postgres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-postgres-1.5.0rc1.tar.gz tmp/dbt-postgres-1.5.0rc2.tar.gz --markdown 20230427/d/dbt-postgres/1.5.0rc1-1.5.0rc2/diff.md --exclude *.pyd
+[2023-04-27 15:34:58] INFO root fetch - processPackages [drb-driver-wcs]: executing diffoscope
+[2023-04-27 15:34:58] INFO root fetch - processPackages [drb-driver-wcs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drb-driver-wcs-1.1.0.tar.gz tmp/drb-driver-wcs-1.2.0.tar.gz --markdown 20230427/d/drb-driver-wcs/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-04-27 15:34:58] INFO root fetch - processPackages [dbt-tests-adapter]: executing diffoscope
+[2023-04-27 15:34:58] INFO root fetch - processPackages [dbt-tests-adapter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-tests-adapter-1.5.0rc1.tar.gz tmp/dbt-tests-adapter-1.5.0rc2.tar.gz --markdown 20230427/d/dbt-tests-adapter/1.5.0rc1-1.5.0rc2/diff.md --exclude *.pyd
+[2023-04-27 15:34:58] INFO root fetch - processPackages [CUQIpy-FEniCS]: executing diffoscope
+[2023-04-27 15:34:58] INFO root fetch - processPackages [CUQIpy-FEniCS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CUQIpy-FEniCS-0.3.0.tar.gz tmp/CUQIpy-FEniCS-0.3.0.post0.dev5.tar.gz --markdown 20230427/C/CUQIpy-FEniCS/0.3.0-0.3.0.post0.dev5/diff.md --exclude *.pyd
+[2023-04-27 15:34:58] INFO root fetch - processPackages [dbt-core]: executing diffoscope
+[2023-04-27 15:34:58] INFO root fetch - processPackages [dbt-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-core-1.5.0rc1.tar.gz tmp/dbt-core-1.5.0rc2.tar.gz --markdown 20230427/d/dbt-core/1.5.0rc1-1.5.0rc2/diff.md --exclude *.pyd
+[2023-04-27 15:35:00] INFO root fetch - processPackages [dbt-postgres]: Start processing: criteo-api-retailmedia-sdk
+[2023-04-27 15:35:00] INFO root fetch - main [MainThread]: End processing [dbt-postgres]: success
+[2023-04-27 15:35:01] INFO root fetch - processPackages [drb-driver-wcs]: Start processing: criteo-api-retailmedia-sdk
+[2023-04-27 15:35:01] INFO root fetch - main [MainThread]: End processing [drb-driver-wcs]: success
+[2023-04-27 15:35:01] INFO root fetch - processPackages [criteo-api-retailmedia-sdk]: New version: [2023.4.0.230427] Old Version: [2023.1.0.230427]
+[2023-04-27 15:35:01] INFO root fetch - processPackages [criteo-api-retailmedia-sdk]: New version: [2023.4.0.230427] Old Version: [2023.1.0.230427]
+[2023-04-27 15:35:01] INFO root fetch - processPackages [criteo-api-retailmedia-sdk]: Downloading https://files.pythonhosted.org/packages/4d/5e/b96750e246922fb465d63b756e8eaeb3764796e3c079a914c6252271bb1c/criteo-api-retailmedia-sdk-2023.1.0.230427.tar.gz
+[2023-04-27 15:35:01] INFO root fetch - processPackages [criteo-api-retailmedia-sdk]: Downloading https://files.pythonhosted.org/packages/4d/5e/b96750e246922fb465d63b756e8eaeb3764796e3c079a914c6252271bb1c/criteo-api-retailmedia-sdk-2023.1.0.230427.tar.gz
+[2023-04-27 15:35:01] INFO root fetch - processPackages [CUQIpy-FEniCS]: Start processing: criteo-api-retailmedia-sdk
+[2023-04-27 15:35:01] INFO root fetch - main [MainThread]: End processing [CUQIpy-FEniCS]: success
+[2023-04-27 15:35:01] INFO root fetch - processPackages [criteo-api-retailmedia-sdk]: New version: [2023.4.0.230427] Old Version: [2023.1.0.230427]
+[2023-04-27 15:35:01] INFO root fetch - processPackages [criteo-api-retailmedia-sdk]: Downloading https://files.pythonhosted.org/packages/60/23/c372d78c01cc155ec32d82b25a42e07b3c669a556952389627488acc3ae8/criteo-api-retailmedia-sdk-2023.4.0.230427.tar.gz
+[2023-04-27 15:35:01] INFO root fetch - processPackages [criteo-api-retailmedia-sdk]: Downloading https://files.pythonhosted.org/packages/60/23/c372d78c01cc155ec32d82b25a42e07b3c669a556952389627488acc3ae8/criteo-api-retailmedia-sdk-2023.4.0.230427.tar.gz
+[2023-04-27 15:35:01] INFO root fetch - processPackages [criteo-api-retailmedia-sdk]: Downloading https://files.pythonhosted.org/packages/60/23/c372d78c01cc155ec32d82b25a42e07b3c669a556952389627488acc3ae8/criteo-api-retailmedia-sdk-2023.4.0.230427.tar.gz
+[2023-04-27 15:35:01] INFO root fetch - processPackages [criteo-api-retailmedia-sdk]: executing diffoscope
+[2023-04-27 15:35:01] INFO root fetch - processPackages [criteo-api-retailmedia-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/criteo-api-retailmedia-sdk-2023.1.0.230427.tar.gz tmp/criteo-api-retailmedia-sdk-2023.4.0.230427.tar.gz --markdown 20230427/c/criteo-api-retailmedia-sdk/2023.1.0.230427-2023.4.0.230427/diff.md --exclude *.pyd
+[2023-04-27 15:35:01] INFO root fetch - processPackages [criteo-api-retailmedia-sdk]: executing diffoscope
+[2023-04-27 15:35:01] INFO root fetch - processPackages [criteo-api-retailmedia-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/criteo-api-retailmedia-sdk-2023.1.0.230427.tar.gz tmp/criteo-api-retailmedia-sdk-2023.4.0.230427.tar.gz --markdown 20230427/c/criteo-api-retailmedia-sdk/2023.1.0.230427-2023.4.0.230427/diff.md --exclude *.pyd
+[2023-04-27 15:35:01] INFO root fetch - processPackages [criteo-api-retailmedia-sdk]: executing diffoscope
+[2023-04-27 15:35:01] INFO root fetch - processPackages [criteo-api-retailmedia-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/criteo-api-retailmedia-sdk-2023.1.0.230427.tar.gz tmp/criteo-api-retailmedia-sdk-2023.4.0.230427.tar.gz --markdown 20230427/c/criteo-api-retailmedia-sdk/2023.1.0.230427-2023.4.0.230427/diff.md --exclude *.pyd
+[2023-04-27 15:35:02] INFO root fetch - processPackages [criteo-api-marketingsolutions-sdk]: Start processing: criteo-api-retailmedia-sdk
+[2023-04-27 15:35:02] INFO root fetch - main [MainThread]: End processing [criteo-api-marketingsolutions-sdk]: success
+[2023-04-27 15:35:02] INFO root fetch - processPackages [criteo-api-retailmedia-sdk]: New version: [2023.4.0.230427] Old Version: [2023.1.0.230427]
+[2023-04-27 15:35:02] INFO root fetch - processPackages [criteo-api-marketingsolutions-sdk]: Start processing: tycho-api
+[2023-04-27 15:35:02] INFO root fetch - main [MainThread]: End processing [criteo-api-marketingsolutions-sdk]: success
+[2023-04-27 15:35:02] INFO root fetch - processPackages [criteo-api-retailmedia-sdk]: executing diffoscope
+[2023-04-27 15:35:02] INFO root fetch - processPackages [criteo-api-retailmedia-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/criteo-api-retailmedia-sdk-2023.1.0.230427.tar.gz tmp/criteo-api-retailmedia-sdk-2023.4.0.230427.tar.gz --markdown 20230427/c/criteo-api-retailmedia-sdk/2023.1.0.230427-2023.4.0.230427/diff.md --exclude *.pyd
+[2023-04-27 15:35:02] INFO root fetch - processPackages [dbt-core]: Start processing: criteo-api-retailmedia-sdk
+[2023-04-27 15:35:02] INFO root fetch - main [MainThread]: End processing [dbt-core]: success
+[2023-04-27 15:35:02] INFO root fetch - processPackages [tycho-api]: New version: [1.9a1.dev3] Old Version: [1.9a1.dev2]
+[2023-04-27 15:35:02] INFO root fetch - processPackages [criteo-api-retailmedia-sdk]: New version: [2023.4.0.230427] Old Version: [2023.1.0.230427]
+[2023-04-27 15:35:02] INFO root fetch - processPackages [criteo-api-retailmedia-sdk]: executing diffoscope
+[2023-04-27 15:35:02] INFO root fetch - processPackages [criteo-api-retailmedia-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/criteo-api-retailmedia-sdk-2023.1.0.230427.tar.gz tmp/criteo-api-retailmedia-sdk-2023.4.0.230427.tar.gz --markdown 20230427/c/criteo-api-retailmedia-sdk/2023.1.0.230427-2023.4.0.230427/diff.md --exclude *.pyd
+[2023-04-27 15:35:02] INFO root fetch - processPackages [tycho-api]: Downloading https://files.pythonhosted.org/packages/30/18/2d4be3e6d94ee0981e5af1e4d024016403e7e220fee37b52a4e750e6d405/tycho-api-1.9a1.dev2.tar.gz
+[2023-04-27 15:35:02] INFO root fetch - processPackages [dbt-tests-adapter]: Start processing: code-loader
+[2023-04-27 15:35:02] INFO root fetch - main [MainThread]: End processing [dbt-tests-adapter]: success
+[2023-04-27 15:35:02] INFO root fetch - processPackages [code-loader]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-27 15:35:03] INFO root fetch - processPackages [tycho-api]: Downloading https://files.pythonhosted.org/packages/74/a4/b3c529c3b0436d698f0c26faa278d0fbb02bae0d515e4d6d827a53424e23/tycho-api-1.9a1.dev3.tar.gz
+[2023-04-27 15:35:03] INFO root fetch - processPackages [tycho-api]: executing diffoscope
+[2023-04-27 15:35:03] INFO root fetch - processPackages [tycho-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tycho-api-1.9a1.dev2.tar.gz tmp/tycho-api-1.9a1.dev3.tar.gz --markdown 20230427/t/tycho-api/1.9a1.dev2-1.9a1.dev3/diff.md --exclude *.pyd
+[2023-04-27 15:35:03] INFO root fetch - processPackages [code-loader]: executing diffoscope
+[2023-04-27 15:35:03] INFO root fetch - processPackages [code-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/code-loader-0.2.8.tar.gz tmp/code-loader-0.2.9.tar.gz --markdown 20230427/c/code-loader/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-27 15:35:04] INFO root fetch - processPackages [code-loader]: Start processing: zndraw
+[2023-04-27 15:35:04] INFO root fetch - main [MainThread]: End processing [code-loader]: success
+[2023-04-27 15:35:04] INFO root fetch - processPackages [zndraw]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-27 15:35:04] INFO root fetch - processPackages [tycho-api]: Start processing: py-osc2
+[2023-04-27 15:35:04] INFO root fetch - main [MainThread]: End processing [tycho-api]: success
+[2023-04-27 15:35:04] INFO root fetch - processPackages [zndraw]: executing diffoscope
+[2023-04-27 15:35:04] INFO root fetch - processPackages [zndraw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zndraw-0.1.5.tar.gz tmp/zndraw-0.1.6.tar.gz --markdown 20230427/z/zndraw/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-27 15:35:04] INFO root fetch - processPackages [py-osc2]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-27 15:35:04] INFO root fetch - processPackages [py-osc2]: Downloading https://files.pythonhosted.org/packages/6b/4c/0b5cf93a65a28912a3ccf678542f97a354725488d89fe4fba58a1b65b627/py-osc2-0.0.6.tar.gz
+[2023-04-27 15:35:04] INFO root fetch - processPackages [criteo-api-marketingsolutions-sdk]: Start processing: fabric-orchestrator-client
+[2023-04-27 15:35:04] INFO root fetch - main [MainThread]: End processing [criteo-api-marketingsolutions-sdk]: success
+[2023-04-27 15:35:05] INFO root fetch - processPackages [fabric-orchestrator-client]: New version: [1.4.5rc0] Old Version: [1.4.4]
+[2023-04-27 15:35:05] INFO root fetch - processPackages [py-osc2]: Downloading https://files.pythonhosted.org/packages/4b/b2/acaa2b25bed5ec67ba0ab53753ed4742b68e3290f0a6bacc026511a7e1f6/py-osc2-0.0.7.tar.gz
+[2023-04-27 15:35:05] INFO root fetch - processPackages [fabric-orchestrator-client]: Downloading https://files.pythonhosted.org/packages/11/24/9f6fcf4cc893c561de27dc2827a33d0b55d386d90b5a154a9e8f36d43e16/fabric-orchestrator-client-1.4.4.tar.gz
+[2023-04-27 15:35:05] INFO root fetch - processPackages [py-osc2]: executing diffoscope
+[2023-04-27 15:35:05] INFO root fetch - processPackages [py-osc2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-osc2-0.0.6.tar.gz tmp/py-osc2-0.0.7.tar.gz --markdown 20230427/p/py-osc2/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-27 15:35:05] INFO root fetch - processPackages [fabric-orchestrator-client]: Downloading https://files.pythonhosted.org/packages/20/db/e57b6c8a63f47b72a638fdd92a50b291aa3f6a24398c7a30b36b5a6216ce/fabric-orchestrator-client-1.4.5rc0.tar.gz
+[2023-04-27 15:35:05] INFO root fetch - processPackages [fabric-orchestrator-client]: executing diffoscope
+[2023-04-27 15:35:05] INFO root fetch - processPackages [fabric-orchestrator-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabric-orchestrator-client-1.4.4.tar.gz tmp/fabric-orchestrator-client-1.4.5rc0.tar.gz --markdown 20230427/f/fabric-orchestrator-client/1.4.4-1.4.5rc0/diff.md --exclude *.pyd
+[2023-04-27 15:35:06] INFO root fetch - processPackages [criteo-api-marketingsolutions-sdk]: Start processing: data-snack
+[2023-04-27 15:35:06] INFO root fetch - main [MainThread]: End processing [criteo-api-marketingsolutions-sdk]: success
+[2023-04-27 15:35:06] INFO root fetch - processPackages [data-snack]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-27 15:35:06] INFO root fetch - processPackages [data-snack]: Downloading https://files.pythonhosted.org/packages/ae/eb/fe41a5e1d7354b54a029407db0883419d15428039d76a335a23af18c3d6f/data_snack-0.3.0.tar.gz
+[2023-04-27 15:35:06] INFO root fetch - processPackages [py-osc2]: Start processing: django-common-task-system
+[2023-04-27 15:35:06] INFO root fetch - main [MainThread]: End processing [py-osc2]: success
+[2023-04-27 15:35:06] INFO root fetch - processPackages [criteo-api-marketingsolutions-sdk]: Start processing: robotmk
+[2023-04-27 15:35:06] INFO root fetch - main [MainThread]: End processing [criteo-api-marketingsolutions-sdk]: success
+[2023-04-27 15:35:06] INFO root fetch - processPackages [django-common-task-system]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-04-27 15:35:06] INFO root fetch - processPackages [robotmk]: New version: [0.0.57] Old Version: [0.0.56]
+[2023-04-27 15:35:06] INFO root fetch - processPackages [django-common-task-system]: executing diffoscope
+[2023-04-27 15:35:06] INFO root fetch - processPackages [django-common-task-system]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-common-task-system-1.2.3.tar.gz tmp/django-common-task-system-1.2.4.tar.gz --markdown 20230427/d/django-common-task-system/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-04-27 15:35:06] INFO root fetch - processPackages [robotmk]: executing diffoscope
+[2023-04-27 15:35:06] INFO root fetch - processPackages [robotmk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotmk-0.0.56.tar.gz tmp/robotmk-0.0.57.tar.gz --markdown 20230427/r/robotmk/0.0.56-0.0.57/diff.md --exclude *.pyd
+[2023-04-27 15:35:07] INFO root fetch - processPackages [data-snack]: Downloading https://files.pythonhosted.org/packages/ac/81/a1a2e06b70dc5b56b3ddd1fc24cca5013586b1dfbe2951be4ddabb97126b/data_snack-0.3.1.tar.gz
+[2023-04-27 15:35:07] INFO root fetch - processPackages [data-snack]: executing diffoscope
+[2023-04-27 15:35:07] INFO root fetch - processPackages [data-snack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_snack-0.3.0.tar.gz tmp/data_snack-0.3.1.tar.gz --markdown 20230427/d/data-snack/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-27 15:35:07] INFO root fetch - processPackages [fabric-orchestrator-client]: Start processing: cmem-plugin-base
+[2023-04-27 15:35:07] INFO root fetch - main [MainThread]: End processing [fabric-orchestrator-client]: success
+[2023-04-27 15:35:07] INFO root fetch - processPackages [cmem-plugin-base]: New version: [3.1.0rc1] Old Version: [3.1.0]
+[2023-04-27 15:35:07] INFO root fetch - processPackages [cmem-plugin-base]: Downloading https://files.pythonhosted.org/packages/54/6c/dd3cd3835452f94d576df59ae3e993b049650eb8b9ea335fd4ba0af0e1f4/cmem_plugin_base-3.1.0.tar.gz
+[2023-04-27 15:35:07] INFO root fetch - processPackages [criteo-api-retailmedia-sdk]: Start processing: ztfidr
+[2023-04-27 15:35:07] INFO root fetch - main [MainThread]: End processing [criteo-api-retailmedia-sdk]: success
+[2023-04-27 15:35:08] INFO root fetch - processPackages [ztfidr]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-04-27 15:35:08] INFO root fetch - processPackages [zndraw]: Start processing: fabrictestbed
+[2023-04-27 15:35:08] INFO root fetch - main [MainThread]: End processing [zndraw]: success
+[2023-04-27 15:35:08] INFO root fetch - processPackages [cmem-plugin-base]: Downloading https://files.pythonhosted.org/packages/d7/2b/35e6bf2ef1f2899027f24c0953c3a36cbe5b45941fec1a78c7de13844c2e/cmem_plugin_base-3.1.0rc1.tar.gz
+[2023-04-27 15:35:08] INFO root fetch - processPackages [fabrictestbed]: New version: [1.4.5rc0] Old Version: [1.4.4]
+[2023-04-27 15:35:08] INFO root fetch - processPackages [ztfidr]: Downloading https://files.pythonhosted.org/packages/3d/c9/528d9e2a4e9a22b46203d466d42278369ae2f032d31ce312d3b64d95eb22/ztfidr-0.7.8.tar.gz
+[2023-04-27 15:35:08] INFO root fetch - processPackages [criteo-api-retailmedia-sdk]: Start processing: netdoc
+[2023-04-27 15:35:08] INFO root fetch - main [MainThread]: End processing [criteo-api-retailmedia-sdk]: success
+[2023-04-27 15:35:08] INFO root fetch - processPackages [netdoc]: New version: [0.9.57] Old Version: [0.9.56]
+[2023-04-27 15:35:08] INFO root fetch - processPackages [cmem-plugin-base]: executing diffoscope
+[2023-04-27 15:35:08] INFO root fetch - processPackages [cmem-plugin-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmem_plugin_base-3.1.0.tar.gz tmp/cmem_plugin_base-3.1.0rc1.tar.gz --markdown 20230427/c/cmem-plugin-base/3.1.0-3.1.0rc1/diff.md --exclude *.pyd
+[2023-04-27 15:35:08] INFO root fetch - processPackages [fabrictestbed]: Downloading https://files.pythonhosted.org/packages/bb/18/a54f298d3dbd786ec55f2943de9562402abf8b50f92620d833cc19ac52b8/fabrictestbed-1.4.4.tar.gz
+[2023-04-27 15:35:08] INFO root fetch - processPackages [netdoc]: executing diffoscope
+[2023-04-27 15:35:08] INFO root fetch - processPackages [netdoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netdoc-0.9.56.tar.gz tmp/netdoc-0.9.57.tar.gz --markdown 20230427/n/netdoc/0.9.56-0.9.57/diff.md --exclude *.pyd
+[2023-04-27 15:35:08] INFO root fetch - processPackages [ztfidr]: Downloading https://files.pythonhosted.org/packages/e9/b0/0cc1ec65c02acecd40f9036d78045c081b039c906dd686d4eff0183e3762/ztfidr-0.7.9.tar.gz
+[2023-04-27 15:35:08] INFO root fetch - processPackages [fabrictestbed]: Downloading https://files.pythonhosted.org/packages/f3/ca/6adad7e4028be5ad58035766ef17128fcf1ca3433f79a12aadcc8319e63a/fabrictestbed-1.4.5rc0.tar.gz
+[2023-04-27 15:35:08] INFO root fetch - processPackages [ztfidr]: executing diffoscope
+[2023-04-27 15:35:08] INFO root fetch - processPackages [ztfidr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ztfidr-0.7.8.tar.gz tmp/ztfidr-0.7.9.tar.gz --markdown 20230427/z/ztfidr/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-04-27 15:35:08] INFO root fetch - main [MainThread]: End processing [robotmk]: success
+[2023-04-27 15:35:08] INFO root fetch - processPackages [fabrictestbed]: executing diffoscope
+[2023-04-27 15:35:08] INFO root fetch - processPackages [fabrictestbed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabrictestbed-1.4.4.tar.gz tmp/fabrictestbed-1.4.5rc0.tar.gz --markdown 20230427/f/fabrictestbed/1.4.4-1.4.5rc0/diff.md --exclude *.pyd
+[2023-04-27 15:35:09] INFO root fetch - main [MainThread]: End processing [data-snack]: success
+[2023-04-27 15:35:09] INFO root fetch - main [MainThread]: End processing [criteo-api-retailmedia-sdk]: success
+[2023-04-27 15:35:09] INFO root fetch - main [MainThread]: End processing [cmem-plugin-base]: success
+[2023-04-27 15:35:09] INFO root fetch - main [MainThread]: End processing [ztfidr]: success
+[2023-04-27 15:35:10] INFO root fetch - main [MainThread]: End processing [fabrictestbed]: success
+[2023-04-27 15:35:10] INFO root fetch - main [MainThread]: End processing [django-common-task-system]: success
+[2023-04-27 15:35:10] INFO root fetch - main [MainThread]: End processing [netdoc]: success
+[2023-04-27 15:35:10] INFO root fetch - main [MainThread]: End processing [criteo-api-retailmedia-sdk]: success
+[2023-04-27 15:35:11] INFO root fetch - main [MainThread]: End processing [criteo-api-retailmedia-sdk]: success
+[2023-04-27 15:35:11] INFO root fetch - main [MainThread]: Store serial: [17883654]
