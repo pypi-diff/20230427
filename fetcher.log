@@ -11487,3 +11487,67 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 08:49:45] INFO root fetch - main [MainThread]: End processing [odoo12-addon-rma]: success
 [2023-04-27 08:49:49] INFO root fetch - main [MainThread]: End processing [networklab]: success
 [2023-04-27 08:49:49] INFO root fetch - main [MainThread]: Store serial: [17878617]
+[2023-04-27 08:54:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17878617]
+[2023-04-27 08:54:58] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-27 08:54:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pycmdtools
+[2023-04-27 08:54:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CUQIpy
+[2023-04-27 08:54:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zendron
+[2023-04-27 08:54:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sherlibs
+[2023-04-27 08:54:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: onestep
+[2023-04-27 08:54:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ssb-altinn3-util
+[2023-04-27 08:54:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nure
+[2023-04-27 08:54:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ezQpy
+[2023-04-27 08:54:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: quao
+[2023-04-27 08:54:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dm-cli
+[2023-04-27 08:54:58] INFO root fetch - processPackages [ssb-altinn3-util]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 08:54:58] INFO root fetch - processPackages [quao]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-27 08:54:58] INFO root fetch - processPackages [onestep]: New version: [0.1.78] Old Version: [0.1.77]
+[2023-04-27 08:54:58] INFO root fetch - processPackages [zendron]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-27 08:54:58] INFO root fetch - processPackages [sherlibs]: New version: [7.4.4] Old Version: [27.4.2023]
+[2023-04-27 08:54:58] INFO root fetch - processPackages [pycmdtools]: New version: [0.0.80] Old Version: [0.0.79]
+[2023-04-27 08:54:58] INFO root fetch - processPackages [zendron]: executing diffoscope
+[2023-04-27 08:54:58] INFO root fetch - processPackages [zendron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zendron-1.0.8.tar.gz tmp/zendron-1.0.9.tar.gz --markdown 20230427/z/zendron/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-27 08:54:58] INFO root fetch - processPackages [ezQpy]: New version: [0.2.0.5] Old Version: [0.2.0.4]
+[2023-04-27 08:54:58] INFO root fetch - processPackages [CUQIpy]: New version: [0.3.0.post0.dev7] Old Version: [0.3.0.post0.dev5]
+[2023-04-27 08:54:58] INFO root fetch - processPackages [nure]: New version: [2023.4.27] Old Version: [2023.2.17]
+[2023-04-27 08:54:58] INFO root fetch - processPackages [quao]: executing diffoscope
+[2023-04-27 08:54:58] INFO root fetch - processPackages [quao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quao-0.0.1.tar.gz tmp/quao-0.0.2.tar.gz --markdown 20230427/q/quao/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-27 08:54:58] INFO root fetch - processPackages [ssb-altinn3-util]: executing diffoscope
+[2023-04-27 08:54:58] INFO root fetch - processPackages [ssb-altinn3-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssb_altinn3_util-0.0.8.tar.gz tmp/ssb_altinn3_util-0.0.9.tar.gz --markdown 20230427/s/ssb-altinn3-util/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 08:54:58] INFO root fetch - processPackages [dm-cli]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-04-27 08:54:58] INFO root fetch - processPackages [onestep]: Downloading https://files.pythonhosted.org/packages/fc/32/0aa8903fb599fb5d94b69dfb7e02dc442f85368d187a965b778cccf863d8/onestep-0.1.78.tar.gz
+[2023-04-27 08:54:58] INFO root fetch - processPackages [sherlibs]: executing diffoscope
+[2023-04-27 08:54:58] INFO root fetch - processPackages [sherlibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sherlibs-27.4.2023.tar.gz tmp/sherlibs-7.4.4.tar.gz --markdown 20230427/s/sherlibs/27.4.2023-7.4.4/diff.md --exclude *.pyd
+[2023-04-27 08:54:58] INFO root fetch - processPackages [pycmdtools]: Downloading https://files.pythonhosted.org/packages/ad/0a/29d8dad277a0242527ef94b6135773d12ebcebfcd2e8d4e76dfc6053aa59/pycmdtools-0.0.79.tar.gz
+[2023-04-27 08:54:58] INFO root fetch - processPackages [ezQpy]: Downloading https://files.pythonhosted.org/packages/40/a2/2b2b3ac62b36cb8f594d7c3db7ec1b7e44675564187df29512f2ef0d9f37/ezQpy-0.2.0.4-py3-none-any.whl
+[2023-04-27 08:54:58] INFO root fetch - processPackages [CUQIpy]: Downloading https://files.pythonhosted.org/packages/97/a1/49a43ddeaf8a9206501143de48713ff42c1cc4e0bc21dfbf69d47ec209a8/CUQIpy-0.3.0.post0.dev5.tar.gz
+[2023-04-27 08:54:58] INFO root fetch - processPackages [nure]: Downloading https://files.pythonhosted.org/packages/42/01/900a6a168b19bde886871e049748d0fcad7d267c824d78a24ff0f8618fa4/nure-2023.2.17.tar.gz
+[2023-04-27 08:54:58] INFO root fetch - processPackages [onestep]: executing diffoscope
+[2023-04-27 08:54:58] INFO root fetch - processPackages [onestep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onestep-0.1.77.tar.gz tmp/onestep-0.1.78.tar.gz --markdown 20230427/o/onestep/0.1.77-0.1.78/diff.md --exclude *.pyd
+[2023-04-27 08:54:58] INFO root fetch - processPackages [dm-cli]: Downloading https://files.pythonhosted.org/packages/79/a2/76086be54ce365909931a9d24ab9efdc1c8b3a9802949b2fca0aa895db6b/dm-cli-1.0.6.tar.gz
+[2023-04-27 08:54:59] INFO root fetch - processPackages [ezQpy]: Downloading https://files.pythonhosted.org/packages/dc/62/5c665dd3e947ee304c114032b6c5bdde77e290d46bec055f611644c01714/ezQpy-0.2.0.5.tar.gz
+[2023-04-27 08:54:59] INFO root fetch - processPackages [pycmdtools]: Downloading https://files.pythonhosted.org/packages/14/7d/54b9b025fcc81ba33bf3383b32c28052228db22ba0d1409a0e7e4478ffd1/pycmdtools-0.0.80.tar.gz
+[2023-04-27 08:54:59] INFO root fetch - processPackages [ezQpy]: executing diffoscope
+[2023-04-27 08:54:59] INFO root fetch - processPackages [ezQpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezQpy-0.2.0.4-py3-none-any.whl.zip tmp/ezQpy-0.2.0.5.tar.gz --markdown 20230427/e/ezQpy/0.2.0.4-0.2.0.5/diff.md --exclude *.pyd
+[2023-04-27 08:54:59] INFO root fetch - processPackages [nure]: Downloading https://files.pythonhosted.org/packages/57/1a/bb3981d04fa03cdd121156ef5193d4ea8eb599b9c0bb7ae7149bba710df3/nure-2023.4.27.tar.gz
+[2023-04-27 08:54:59] INFO root fetch - processPackages [pycmdtools]: executing diffoscope
+[2023-04-27 08:54:59] INFO root fetch - processPackages [pycmdtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycmdtools-0.0.79.tar.gz tmp/pycmdtools-0.0.80.tar.gz --markdown 20230427/p/pycmdtools/0.0.79-0.0.80/diff.md --exclude *.pyd
+[2023-04-27 08:54:59] INFO root fetch - processPackages [dm-cli]: Downloading https://files.pythonhosted.org/packages/85/d3/b17cd31336e7b2a09eb82ff000978105a0b0570e00f75fda9ee2668c7928/dm-cli-1.0.7.tar.gz
+[2023-04-27 08:54:59] INFO root fetch - processPackages [nure]: executing diffoscope
+[2023-04-27 08:54:59] INFO root fetch - processPackages [nure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nure-2023.2.17.tar.gz tmp/nure-2023.4.27.tar.gz --markdown 20230427/n/nure/2023.2.17-2023.4.27/diff.md --exclude *.pyd
+[2023-04-27 08:54:59] INFO root fetch - processPackages [CUQIpy]: Downloading https://files.pythonhosted.org/packages/43/e5/a0ca19319f37a3f4a5ca4e028f3f37dbc0e13a85df1ca7fb1cfb4d50c4f2/CUQIpy-0.3.0.post0.dev7.tar.gz
+[2023-04-27 08:54:59] INFO root fetch - processPackages [dm-cli]: executing diffoscope
+[2023-04-27 08:54:59] INFO root fetch - processPackages [dm-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dm-cli-1.0.6.tar.gz tmp/dm-cli-1.0.7.tar.gz --markdown 20230427/d/dm-cli/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-04-27 08:54:59] INFO root fetch - processPackages [CUQIpy]: executing diffoscope
+[2023-04-27 08:54:59] INFO root fetch - processPackages [CUQIpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CUQIpy-0.3.0.post0.dev5.tar.gz tmp/CUQIpy-0.3.0.post0.dev7.tar.gz --markdown 20230427/C/CUQIpy/0.3.0.post0.dev5-0.3.0.post0.dev7/diff.md --exclude *.pyd
+[2023-04-27 08:55:00] INFO root fetch - main [MainThread]: End processing [quao]: success
+[2023-04-27 08:55:00] INFO root fetch - main [MainThread]: End processing [ssb-altinn3-util]: success
+[2023-04-27 08:55:00] INFO root fetch - main [MainThread]: End processing [zendron]: success
+[2023-04-27 08:55:00] INFO root fetch - main [MainThread]: End processing [ezQpy]: success
+[2023-04-27 08:55:00] INFO root fetch - main [MainThread]: End processing [onestep]: success
+[2023-04-27 08:55:00] INFO root fetch - main [MainThread]: End processing [sherlibs]: success
+[2023-04-27 08:55:00] INFO root fetch - main [MainThread]: End processing [pycmdtools]: success
+[2023-04-27 08:55:01] INFO root fetch - main [MainThread]: End processing [nure]: success
+[2023-04-27 08:55:02] INFO root fetch - main [MainThread]: End processing [dm-cli]: success
+[2023-04-27 08:55:02] INFO root fetch - main [MainThread]: End processing [CUQIpy]: success
+[2023-04-27 08:55:02] INFO root fetch - main [MainThread]: Store serial: [17878649]
