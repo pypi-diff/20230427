@@ -11655,3 +11655,100 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 09:05:34] INFO root fetch - main [MainThread]: End processing [microservices-common]: success
 [2023-04-27 09:05:36] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
 [2023-04-27 09:05:36] INFO root fetch - main [MainThread]: Store serial: [17878714]
+[2023-04-27 09:10:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17878714]
+[2023-04-27 09:10:44] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-04-27 09:10:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zhmc-prometheus-exporter
+[2023-04-27 09:10:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: onestep
+[2023-04-27 09:10:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pgx
+[2023-04-27 09:10:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ansible-risk-insight
+[2023-04-27 09:10:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pylyzer
+[2023-04-27 09:10:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: leocli
+[2023-04-27 09:10:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: recon-lw
+[2023-04-27 09:10:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-04-27 09:10:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cli-aws-mfa
+[2023-04-27 09:10:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: zendron
+[2023-04-27 09:10:45] INFO root fetch - processPackages [onestep]: New version: [0.1.80] Old Version: [0.1.79]
+[2023-04-27 09:10:45] INFO root fetch - processPackages [zhmc-prometheus-exporter]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-04-27 09:10:45] INFO root fetch - processPackages [cli-aws-mfa]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 09:10:45] INFO root fetch - processPackages [ansible-risk-insight]: New version: [0.1.5rc1] Old Version: [0.1.4]
+[2023-04-27 09:10:45] INFO root fetch - processPackages [pylyzer]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 09:10:45] INFO root fetch - processPackages [recon-lw]: New version: [2.0.0.dev4816988331] Old Version: [2.0.0.dev4808598137]
+[2023-04-27 09:10:45] INFO root fetch - processPackages [pgx]: New version: [6.0.0] Old Version: [0.5.3]
+[2023-04-27 09:10:45] INFO root fetch - processPackages [leocli]: New version: [3.4.2] Old Version: [3.4.1]
+[2023-04-27 09:10:45] INFO root fetch - processPackages [zendron]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-27 09:10:45] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-04-27 09:10:45] INFO root fetch - processPackages [cli-aws-mfa]: executing diffoscope
+[2023-04-27 09:10:45] INFO root fetch - processPackages [cli-aws-mfa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cli-aws-mfa-0.0.8.tar.gz tmp/cli-aws-mfa-0.0.9.tar.gz --markdown 20230427/c/cli-aws-mfa/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 09:10:45] INFO root fetch - processPackages [zendron]: executing diffoscope
+[2023-04-27 09:10:45] INFO root fetch - processPackages [zendron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zendron-1.0.8.tar.gz tmp/zendron-1.0.9.tar.gz --markdown 20230427/z/zendron/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-27 09:10:45] INFO root fetch - processPackages [ansible-risk-insight]: Downloading https://files.pythonhosted.org/packages/e7/35/ac4eb0b1e927e54c48ce3f25b1714e083c09966fed289f514fbfb138eb09/ansible-risk-insight-0.1.4.tar.gz
+[2023-04-27 09:10:45] INFO root fetch - processPackages [zhmc-prometheus-exporter]: Downloading https://files.pythonhosted.org/packages/c1/6d/f040df8971820771e695ab86d6ca971048b1c9b70237a82f5b2a1d399b99/zhmc_prometheus_exporter-1.4.0.tar.gz
+[2023-04-27 09:10:45] INFO root fetch - processPackages [onestep]: Downloading https://files.pythonhosted.org/packages/54/8d/89435e0e808c9557ca91d154cb3303a7a55c5bd2cae87f12eb19945df239/onestep-0.1.79.tar.gz
+[2023-04-27 09:10:45] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/cc/70/157a29e3d609b7b86b17a6469eb768473584b4c6cc2d16727c40fba61a08/recon_lw-2.0.0.dev4816988331.tar.gz
+[2023-04-27 09:10:45] INFO root fetch - processPackages [leocli]: Downloading https://files.pythonhosted.org/packages/35/0b/8dbf591547e8954aff4b2cce2afe5afba681f592313bfae62d6e78797823/leocli-3.4.1.tar.gz
+[2023-04-27 09:10:45] INFO root fetch - processPackages [pylyzer]: Downloading https://files.pythonhosted.org/packages/4f/c6/0664a2210ddbcbbfc0544f0aecc604bc4a92fecbae9a5318d8945f980f4f/pylyzer-0.0.8-py3-none-win_amd64.whl
+[2023-04-27 09:10:45] INFO root fetch - processPackages [pgx]: Downloading https://files.pythonhosted.org/packages/ca/9d/f5d2738287e645c15fbb0dfcf0a7b75c382f0237c4d8f452e266e24d78f3/pgx-6.0.0.tar.gz
+[2023-04-27 09:10:45] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-04-27 09:10:45] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230427/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-04-27 09:10:45] INFO root fetch - processPackages [pgx]: executing diffoscope
+[2023-04-27 09:10:45] INFO root fetch - processPackages [pgx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgx-0.5.3.tar.gz tmp/pgx-6.0.0.tar.gz --markdown 20230427/p/pgx/0.5.3-6.0.0/diff.md --exclude *.pyd
+[2023-04-27 09:10:45] INFO root fetch - processPackages [recon-lw]: executing diffoscope
+[2023-04-27 09:10:45] INFO root fetch - processPackages [recon-lw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recon_lw-2.0.0.dev4808598137.tar.gz tmp/recon_lw-2.0.0.dev4816988331.tar.gz --markdown 20230427/r/recon-lw/2.0.0.dev4808598137-2.0.0.dev4816988331/diff.md --exclude *.pyd
+[2023-04-27 09:10:45] INFO root fetch - processPackages [onestep]: Downloading https://files.pythonhosted.org/packages/61/b0/8242428293086539d8f78d889228d1cda5be6a733f3ea503b2f659ea707b/onestep-0.1.80.tar.gz
+[2023-04-27 09:10:45] INFO root fetch - processPackages [ansible-risk-insight]: Downloading https://files.pythonhosted.org/packages/2c/60/6075b895a299a9e364e5bcb19372a94926dce5a199197cf2fbc192f8639a/ansible-risk-insight-0.1.5rc1.tar.gz
+[2023-04-27 09:10:45] INFO root fetch - processPackages [onestep]: executing diffoscope
+[2023-04-27 09:10:45] INFO root fetch - processPackages [onestep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onestep-0.1.79.tar.gz tmp/onestep-0.1.80.tar.gz --markdown 20230427/o/onestep/0.1.79-0.1.80/diff.md --exclude *.pyd
+[2023-04-27 09:10:45] INFO root fetch - processPackages [zhmc-prometheus-exporter]: Downloading https://files.pythonhosted.org/packages/91/d3/acab861db7f756df4a91db68a085ab54909f439aff0a28c672345819cd76/zhmc_prometheus_exporter-1.4.1.tar.gz
+[2023-04-27 09:10:45] INFO root fetch - processPackages [zhmc-prometheus-exporter]: executing diffoscope
+[2023-04-27 09:10:45] INFO root fetch - processPackages [zhmc-prometheus-exporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhmc_prometheus_exporter-1.4.0.tar.gz tmp/zhmc_prometheus_exporter-1.4.1.tar.gz --markdown 20230427/z/zhmc-prometheus-exporter/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-04-27 09:10:45] INFO root fetch - processPackages [leocli]: Downloading https://files.pythonhosted.org/packages/4c/7c/1204437147834197a5d899c1a35ce0e4a77aef9fd429829bdbf39fdd58f4/leocli-3.4.2.tar.gz
+[2023-04-27 09:10:45] INFO root fetch - processPackages [leocli]: executing diffoscope
+[2023-04-27 09:10:45] INFO root fetch - processPackages [leocli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leocli-3.4.1.tar.gz tmp/leocli-3.4.2.tar.gz --markdown 20230427/l/leocli/3.4.1-3.4.2/diff.md --exclude *.pyd
+[2023-04-27 09:10:45] INFO root fetch - processPackages [ansible-risk-insight]: executing diffoscope
+[2023-04-27 09:10:45] INFO root fetch - processPackages [ansible-risk-insight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansible-risk-insight-0.1.4.tar.gz tmp/ansible-risk-insight-0.1.5rc1.tar.gz --markdown 20230427/a/ansible-risk-insight/0.1.4-0.1.5rc1/diff.md --exclude *.pyd
+[2023-04-27 09:10:46] INFO root fetch - processPackages [cli-aws-mfa]: Start processing: localstack-core
+[2023-04-27 09:10:46] INFO root fetch - main [MainThread]: End processing [cli-aws-mfa]: success
+[2023-04-27 09:10:46] INFO root fetch - processPackages [localstack-core]: New version: [2.0.3.dev20230427070834] Old Version: [2.0.3.dev20230426170324]
+[2023-04-27 09:10:46] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/1a/73/521b5f907df749cd6c1dae9ee635f1701d1b679598ea74a56b31430fd1ca/localstack-core-2.0.3.dev20230427070834.tar.gz
+[2023-04-27 09:10:46] INFO root fetch - processPackages [recon-lw]: Start processing: django-cas-nge
+[2023-04-27 09:10:46] INFO root fetch - main [MainThread]: End processing [recon-lw]: success
+[2023-04-27 09:10:46] INFO root fetch - processPackages [zendron]: Start processing: few-shot-priming
+[2023-04-27 09:10:46] INFO root fetch - main [MainThread]: End processing [zendron]: success
+[2023-04-27 09:10:46] WARNING root fetch - processPackages [django-cas-nge]: Skipping, unable to determine old version
+[2023-04-27 09:10:46] INFO root fetch - processPackages [django-cas-nge]: Start processing: pyXhUtils
+[2023-04-27 09:10:46] INFO root fetch - main [MainThread]: End processing [django-cas-nge] error
+[2023-04-27 09:10:46] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-04-27 09:10:46] INFO root fetch - processPackages [pyXhUtils]: New version: [1.3.8] Old Version: [1.3.7]
+[2023-04-27 09:10:47] INFO root fetch - processPackages [leocli]: Start processing: steam-pysigma
+[2023-04-27 09:10:47] INFO root fetch - main [MainThread]: End processing [leocli]: success
+[2023-04-27 09:10:47] INFO root fetch - processPackages [steam-pysigma]: New version: [2023.4.8] Old Version: [2023.4.7]
+[2023-04-27 09:10:47] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-04-27 09:10:47] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230427/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-04-27 09:10:47] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-04-27 09:10:47] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.0.3.dev20230426170324.tar.gz tmp/localstack-core-2.0.3.dev20230427070834.tar.gz --markdown 20230427/l/localstack-core/2.0.3.dev20230426170324-2.0.3.dev20230427070834/diff.md --exclude *.pyd
+[2023-04-27 09:10:47] INFO root fetch - processPackages [pyXhUtils]: Downloading https://files.pythonhosted.org/packages/52/b5/0b0bbea8a7045d2805dafe97a16bfc7c40e66f257c1f8702c29eab19a7da/pyXhUtils-1.3.8.tar.gz
+[2023-04-27 09:10:47] INFO root fetch - processPackages [steam-pysigma]: executing diffoscope
+[2023-04-27 09:10:47] INFO root fetch - processPackages [steam-pysigma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steam-pysigma-2023.4.7.tar.gz tmp/steam-pysigma-2023.4.8.tar.gz --markdown 20230427/s/steam-pysigma/2023.4.7-2023.4.8/diff.md --exclude *.pyd
+[2023-04-27 09:10:47] INFO root fetch - processPackages [pylyzer]: Downloading https://files.pythonhosted.org/packages/cc/0a/4a378f3aa880a5556006b21d0369dc5df4f54e0c90ea175006814eac5d27/pylyzer-0.0.9-py3-none-win_amd64.whl
+[2023-04-27 09:10:47] INFO root fetch - processPackages [pyXhUtils]: executing diffoscope
+[2023-04-27 09:10:47] INFO root fetch - processPackages [pyXhUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyXhUtils-1.3.7.tar.gz tmp/pyXhUtils-1.3.8.tar.gz --markdown 20230427/p/pyXhUtils/1.3.7-1.3.8/diff.md --exclude *.pyd
+[2023-04-27 09:10:47] INFO root fetch - processPackages [onestep]: Start processing: innerverz-package
+[2023-04-27 09:10:47] INFO root fetch - main [MainThread]: End processing [onestep]: success
+[2023-04-27 09:10:47] INFO root fetch - processPackages [innerverz-package]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-27 09:10:47] INFO root fetch - main [MainThread]: End processing [zhmc-prometheus-exporter]: success
+[2023-04-27 09:10:47] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-04-27 09:10:47] INFO root fetch - processPackages [innerverz-package]: Downloading https://files.pythonhosted.org/packages/7e/78/126bfde565f30b6f9abff4e1068a093a42d5fe47dd8005f957a694ac9db9/innerverz_package-0.0.1.tar.gz
+[2023-04-27 09:10:47] INFO root fetch - processPackages [innerverz-package]: Downloading https://files.pythonhosted.org/packages/d1/45/19d46d639489cd2ccc08c7574fe1935318747a5636a10d005a81e573edb3/innerverz_package-0.0.2.tar.gz
+[2023-04-27 09:10:47] INFO root fetch - processPackages [innerverz-package]: executing diffoscope
+[2023-04-27 09:10:47] INFO root fetch - processPackages [innerverz-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/innerverz_package-0.0.1.tar.gz tmp/innerverz_package-0.0.2.tar.gz --markdown 20230427/i/innerverz-package/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-27 09:10:48] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-04-27 09:10:48] INFO root fetch - main [MainThread]: End processing [steam-pysigma]: success
+[2023-04-27 09:10:48] INFO root fetch - main [MainThread]: End processing [ansible-risk-insight]: success
+[2023-04-27 09:10:48] INFO root fetch - main [MainThread]: End processing [pyXhUtils]: success
+[2023-04-27 09:10:48] INFO root fetch - main [MainThread]: End processing [innerverz-package]: success
+[2023-04-27 09:10:49] INFO root fetch - processPackages [pylyzer]: executing diffoscope
+[2023-04-27 09:10:49] INFO root fetch - processPackages [pylyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylyzer-0.0.8-py3-none-win_amd64.whl.zip tmp/pylyzer-0.0.9-py3-none-win_amd64.whl.zip --markdown 20230427/p/pylyzer/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 09:10:50] INFO root fetch - main [MainThread]: End processing [pgx]: success
+[2023-04-27 09:10:53] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-04-27 09:11:48] INFO root fetch - main [MainThread]: End processing [pylyzer]: success
+[2023-04-27 09:11:48] INFO root fetch - main [MainThread]: Store serial: [17878763]
