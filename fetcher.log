@@ -10742,3 +10742,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 07:40:42] INFO root fetch - main [MainThread]: End processing [qctrl-client]: success
 [2023-04-27 07:40:42] INFO root fetch - main [MainThread]: End processing [odoo14-addon-quality-control-oca]: success
 [2023-04-27 07:40:42] INFO root fetch - main [MainThread]: Store serial: [17878157]
+[2023-04-27 07:45:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17878157]
+[2023-04-27 07:45:51] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-27 07:45:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyIndego
+[2023-04-27 07:45:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sinhala-subtitle
+[2023-04-27 07:45:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: antchain-das
+[2023-04-27 07:45:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tuneSurvey
+[2023-04-27 07:45:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pil-utils
+[2023-04-27 07:45:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: perftester
+[2023-04-27 07:45:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: koai
+[2023-04-27 07:45:51] INFO root fetch - processPackages [pyIndego]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-04-27 07:45:51] WARNING root fetch - processPackages [tuneSurvey]: Skipping, unable to determine old version
+[2023-04-27 07:45:51] INFO root fetch - processPackages [pil-utils]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-04-27 07:45:51] INFO root fetch - main [MainThread]: End processing [tuneSurvey] error
+[2023-04-27 07:45:51] INFO root fetch - processPackages [sinhala-subtitle]: New version: [2.0.1] Old Version: [1.0.1]
+[2023-04-27 07:45:51] INFO root fetch - processPackages [perftester]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-04-27 07:45:51] INFO root fetch - processPackages [koai]: New version: [1.0.8.7] Old Version: [1.0.8.6]
+[2023-04-27 07:45:51] INFO root fetch - processPackages [antchain-das]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-04-27 07:45:51] INFO root fetch - processPackages [koai]: executing diffoscope
+[2023-04-27 07:45:51] INFO root fetch - processPackages [koai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/koai-1.0.8.6-cp38-cp38-macosx_13_0_arm64.whl.zip tmp/koai-1.0.8.7-cp38-cp38-macosx_13_0_arm64.whl.zip --markdown 20230427/k/koai/1.0.8.6-1.0.8.7/diff.md --exclude *.pyd
+[2023-04-27 07:45:51] INFO root fetch - processPackages [pyIndego]: Downloading https://files.pythonhosted.org/packages/11/2c/17aa6d7d0cf2bef93803a4e6b45b169a2af76c3b174e62e96fd6f52d7180/pyIndego-3.0.1.tar.gz
+[2023-04-27 07:45:51] ERROR root fetch - processPackages [sinhala-subtitle]: Unable to fetch info: No such project/version 'sinhala-subtitle' 1.0.1
+[2023-04-27 07:45:51] INFO root fetch - main [MainThread]: End processing [sinhala-subtitle] error
+[2023-04-27 07:45:51] INFO root fetch - processPackages [pil-utils]: Downloading https://files.pythonhosted.org/packages/06/d7/60a73b8ae80d4c39ca0ddb6ea462a88ae2fd0c409480b4180790f1e91a26/pil_utils-0.1.6.tar.gz
+[2023-04-27 07:45:52] INFO root fetch - processPackages [perftester]: Downloading https://files.pythonhosted.org/packages/a7/71/7ffaec1d4f03ac29d7d4657403f98a3717483cad9cd7c76ba66b7db249a0/perftester-0.5.0.tar.gz
+[2023-04-27 07:45:52] INFO root fetch - processPackages [antchain-das]: Downloading https://files.pythonhosted.org/packages/91/4e/12f5bc9c5d4ef401ee60eb3d26967eb674d5354ba3bfaba3aa75805e32fe/antchain_das-1.1.5.tar.gz
+[2023-04-27 07:45:52] INFO root fetch - processPackages [pyIndego]: executing diffoscope
+[2023-04-27 07:45:52] INFO root fetch - processPackages [pyIndego]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyIndego-3.0.0.tar.gz tmp/pyIndego-3.0.1.tar.gz --markdown 20230427/p/pyIndego/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-04-27 07:45:52] INFO root fetch - processPackages [pil-utils]: Downloading https://files.pythonhosted.org/packages/83/bc/29163ff913798e2f4fd1526f12f9d76982dd9cd1c3198e30d694f7acd98a/pil_utils-0.1.7.tar.gz
+[2023-04-27 07:45:52] INFO root fetch - processPackages [perftester]: Downloading https://files.pythonhosted.org/packages/b6/2f/9e073985eba41f29c1db9197a6be569bdd43e04d3f19e4158f41f2f5b017/perftester-0.5.1-py3-none-any.whl
+[2023-04-27 07:45:52] INFO root fetch - processPackages [pil-utils]: executing diffoscope
+[2023-04-27 07:45:52] INFO root fetch - processPackages [pil-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pil_utils-0.1.6.tar.gz tmp/pil_utils-0.1.7.tar.gz --markdown 20230427/p/pil-utils/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-04-27 07:45:52] INFO root fetch - processPackages [perftester]: executing diffoscope
+[2023-04-27 07:45:52] INFO root fetch - processPackages [perftester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perftester-0.5.0.tar.gz tmp/perftester-0.5.1-py3-none-any.whl.zip --markdown 20230427/p/perftester/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-04-27 07:45:52] INFO root fetch - processPackages [antchain-das]: Downloading https://files.pythonhosted.org/packages/03/f4/1f952e12e964abe29313d9437d8acfe7610a263b57f372ae21b8ce63fe08/antchain_das-1.1.6.tar.gz
+[2023-04-27 07:45:52] INFO root fetch - processPackages [antchain-das]: executing diffoscope
+[2023-04-27 07:45:52] INFO root fetch - processPackages [antchain-das]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_das-1.1.5.tar.gz tmp/antchain_das-1.1.6.tar.gz --markdown 20230427/a/antchain-das/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-04-27 07:45:52] INFO root fetch - main [MainThread]: End processing [koai]: success
+[2023-04-27 07:45:53] INFO root fetch - main [MainThread]: End processing [pyIndego]: success
+[2023-04-27 07:45:53] INFO root fetch - main [MainThread]: End processing [perftester]: success
+[2023-04-27 07:45:53] INFO root fetch - main [MainThread]: End processing [pil-utils]: success
+[2023-04-27 07:45:54] INFO root fetch - main [MainThread]: End processing [antchain-das]: success
+[2023-04-27 07:45:54] INFO root fetch - main [MainThread]: Store serial: [17878188]
