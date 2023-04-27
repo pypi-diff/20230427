@@ -12744,3 +12744,109 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 10:17:41] INFO root fetch - main [MainThread]: End processing [laboneq]: success
 [2023-04-27 10:17:43] INFO root fetch - main [MainThread]: End processing [sphere-base]: success
 [2023-04-27 10:17:43] INFO root fetch - main [MainThread]: Store serial: [17879439]
+[2023-04-27 10:22:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17879439]
+[2023-04-27 10:22:53] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-04-27 10:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyconch
+[2023-04-27 10:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ilds
+[2023-04-27 10:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: m3-django-composite-foreignkey
+[2023-04-27 10:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spectralib
+[2023-04-27 10:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tala
+[2023-04-27 10:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: inspectnn
+[2023-04-27 10:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zendron
+[2023-04-27 10:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pycookie
+[2023-04-27 10:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: methodism
+[2023-04-27 10:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: biotrade
+[2023-04-27 10:22:53] INFO root fetch - processPackages [spectralib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 10:22:53] INFO root fetch - processPackages [tala]: New version: [9.0.0] Old Version: [8.0.0]
+[2023-04-27 10:22:53] INFO root fetch - processPackages [spectralib]: executing diffoscope
+[2023-04-27 10:22:53] INFO root fetch - processPackages [spectralib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spectralib-0.0.8.tar.gz tmp/spectralib-0.0.9.tar.gz --markdown 20230427/s/spectralib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 10:22:53] INFO root fetch - processPackages [inspectnn]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-04-27 10:22:53] INFO root fetch - processPackages [pyconch]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-27 10:22:53] INFO root fetch - processPackages [m3-django-composite-foreignkey]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-27 10:22:53] INFO root fetch - processPackages [pycookie]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-27 10:22:53] WARNING root fetch - processPackages [methodism]: Skipping, unable to determine old version
+[2023-04-27 10:22:53] INFO root fetch - processPackages [methodism]: Start processing: odoo12-addon-fieldservice-calendar
+[2023-04-27 10:22:53] INFO root fetch - main [MainThread]: End processing [methodism] error
+[2023-04-27 10:22:53] INFO root fetch - processPackages [zendron]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-04-27 10:22:53] WARNING root fetch - processPackages [biotrade]: Skipping, unable to determine old version
+[2023-04-27 10:22:53] INFO root fetch - processPackages [tala]: executing diffoscope
+[2023-04-27 10:22:53] INFO root fetch - processPackages [biotrade]: Start processing: innerverz-package
+[2023-04-27 10:22:53] INFO root fetch - main [MainThread]: End processing [biotrade] error
+[2023-04-27 10:22:53] INFO root fetch - processPackages [tala]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tala-8.0.0-py3-none-any.whl.zip tmp/tala-9.0.0-py3-none-any.whl.zip --markdown 20230427/t/tala/8.0.0-9.0.0/diff.md --exclude *.pyd
+[2023-04-27 10:22:53] INFO root fetch - processPackages [ilds]: New version: [2023.4.3] Old Version: [2023.4.27]
+[2023-04-27 10:22:53] WARNING root fetch - processPackages [odoo12-addon-fieldservice-calendar]: Skipping, unable to determine old version
+[2023-04-27 10:22:53] INFO root fetch - processPackages [odoo12-addon-fieldservice-calendar]: Start processing: pydatacheck
+[2023-04-27 10:22:53] INFO root fetch - main [MainThread]: End processing [odoo12-addon-fieldservice-calendar] error
+[2023-04-27 10:22:53] INFO root fetch - processPackages [innerverz-package]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-27 10:22:53] INFO root fetch - processPackages [inspectnn]: Downloading https://files.pythonhosted.org/packages/c9/6d/9363471b08d287b4e6ab80100a2ea385413ed208846adcc27a0abaa20e4f/inspectnn-0.2.2.tar.gz
+[2023-04-27 10:22:53] INFO root fetch - processPackages [ilds]: Downloading https://files.pythonhosted.org/packages/f7/fc/66d9e7a6760c75f1968fe150bc316ae711fb8cd737336f29fb1aec976de3/ilds-2023.4.27.tar.gz
+[2023-04-27 10:22:53] INFO root fetch - processPackages [pycookie]: Downloading https://files.pythonhosted.org/packages/cc/eb/687ab77d0806e1beca48214d4f696f2dcc11c09144ea52b6abec5664f4f8/pycookie-0.0.1.tar.gz
+[2023-04-27 10:22:53] INFO root fetch - processPackages [zendron]: Downloading https://files.pythonhosted.org/packages/5d/6e/82f58afec2129ed2c21400d938bd6cd21a385c6b61bb2064ecee2bffdf65/zendron-1.1.0.tar.gz
+[2023-04-27 10:22:53] INFO root fetch - processPackages [pyconch]: Downloading https://files.pythonhosted.org/packages/1a/ca/8fb5b98608714653f3448d7988735a25daaca96b4babd31ef61af39df61b/pyconch-0.0.3.tar.gz
+[2023-04-27 10:22:53] INFO root fetch - processPackages [m3-django-composite-foreignkey]: Downloading https://files.pythonhosted.org/packages/e9/56/d26a0031ead87f7507c12252cc2ee887cedca84ce249465671048eecf637/m3-django-composite-foreignkey-1.0.2.tar.gz
+[2023-04-27 10:22:53] INFO root fetch - processPackages [pydatacheck]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-27 10:22:53] INFO root fetch - processPackages [innerverz-package]: Downloading https://files.pythonhosted.org/packages/62/f9/cadbc463c207e22aa5eef1e152ad85f922041ce134c6ec3de74ff4220909/innerverz_package-0.0.5.tar.gz
+[2023-04-27 10:22:53] INFO root fetch - processPackages [zendron]: executing diffoscope
+[2023-04-27 10:22:53] INFO root fetch - processPackages [zendron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zendron-1.0.9.tar.gz tmp/zendron-1.1.0.tar.gz --markdown 20230427/z/zendron/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-04-27 10:22:53] INFO root fetch - processPackages [pydatacheck]: Downloading https://files.pythonhosted.org/packages/0c/39/8ef69ca30ef9ca3d82b3066c508ea37aabfeae717387af4bb2ceb421d1d7/pydatacheck-0.0.6.tar.gz
+[2023-04-27 10:22:53] INFO root fetch - processPackages [inspectnn]: Downloading https://files.pythonhosted.org/packages/c5/cd/10c64c6bf618da3af525b05f125b1459f41b3129343d8db54f677771eccc/inspectnn-0.3.0.tar.gz
+[2023-04-27 10:22:53] INFO root fetch - processPackages [pyconch]: Downloading https://files.pythonhosted.org/packages/ee/ae/99ee770e9e2ce0cf57d420fa2a80d3041ce4478ec03395907fa408b77710/pyconch-0.0.4.tar.gz
+[2023-04-27 10:22:53] INFO root fetch - processPackages [m3-django-composite-foreignkey]: Downloading https://files.pythonhosted.org/packages/8b/fc/3e032e9a6859bc0fb205bc024361080d8737888a87484f37d393817cd3d5/m3-django-composite-foreignkey-1.0.3.tar.gz
+[2023-04-27 10:22:53] INFO root fetch - processPackages [pycookie]: Downloading https://files.pythonhosted.org/packages/f3/53/15fbefd2c67e21e14f71d2ce1e07e6d716dc9336afd8aaf3e2023ffbc86f/pycookie-0.0.2.tar.gz
+[2023-04-27 10:22:54] WARNING root fetch - processPackages [inspectnn]: Skipping package: exceeds size limit 18790917>=10485760
+[2023-04-27 10:22:54] INFO root fetch - processPackages [inspectnn]: Start processing: diameter-codec
+[2023-04-27 10:22:54] INFO root fetch - main [MainThread]: End processing [inspectnn] error
+[2023-04-27 10:22:54] INFO root fetch - processPackages [innerverz-package]: Downloading https://files.pythonhosted.org/packages/e7/34/92d853e13d6f25d41d4d0cda77eb6c5009c8bb655029ebcd1e670cb33a00/innerverz_package-0.0.6.tar.gz
+[2023-04-27 10:22:54] INFO root fetch - processPackages [ilds]: Downloading https://files.pythonhosted.org/packages/09/f9/92ade0b0f7c746f90622a7f51dd074a650fa374c15eb922ae695277e9fed/ilds-2023.4.3.tar.gz
+[2023-04-27 10:22:54] INFO root fetch - processPackages [pyconch]: executing diffoscope
+[2023-04-27 10:22:54] INFO root fetch - processPackages [pyconch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyconch-0.0.3.tar.gz tmp/pyconch-0.0.4.tar.gz --markdown 20230427/p/pyconch/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-27 10:22:54] INFO root fetch - processPackages [m3-django-composite-foreignkey]: executing diffoscope
+[2023-04-27 10:22:54] INFO root fetch - processPackages [m3-django-composite-foreignkey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m3-django-composite-foreignkey-1.0.2.tar.gz tmp/m3-django-composite-foreignkey-1.0.3.tar.gz --markdown 20230427/m/m3-django-composite-foreignkey/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-27 10:22:54] INFO root fetch - processPackages [pycookie]: executing diffoscope
+[2023-04-27 10:22:54] INFO root fetch - processPackages [pycookie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycookie-0.0.1.tar.gz tmp/pycookie-0.0.2.tar.gz --markdown 20230427/p/pycookie/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-27 10:22:54] INFO root fetch - processPackages [diameter-codec]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-27 10:22:54] INFO root fetch - processPackages [innerverz-package]: executing diffoscope
+[2023-04-27 10:22:54] INFO root fetch - processPackages [innerverz-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/innerverz_package-0.0.5.tar.gz tmp/innerverz_package-0.0.6.tar.gz --markdown 20230427/i/innerverz-package/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-27 10:22:54] INFO root fetch - processPackages [ilds]: executing diffoscope
+[2023-04-27 10:22:54] INFO root fetch - processPackages [ilds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ilds-2023.4.27.tar.gz tmp/ilds-2023.4.3.tar.gz --markdown 20230427/i/ilds/2023.4.27-2023.4.3/diff.md --exclude *.pyd
+[2023-04-27 10:22:54] INFO root fetch - processPackages [diameter-codec]: Downloading https://files.pythonhosted.org/packages/1a/5f/9945321959cfdbee7471c7e5c411d26f48c58a0812c415b9e437d264c9f4/diameter-codec-1.0.2.tar.gz
+[2023-04-27 10:22:54] INFO root fetch - processPackages [pydatacheck]: Downloading https://files.pythonhosted.org/packages/13/05/0729698820f1e1bd081883e0f7fc67a1fbecbf680bba896f63290d8444db/pydatacheck-0.0.7.tar.gz
+[2023-04-27 10:22:54] INFO root fetch - processPackages [pydatacheck]: executing diffoscope
+[2023-04-27 10:22:54] INFO root fetch - processPackages [pydatacheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydatacheck-0.0.6.tar.gz tmp/pydatacheck-0.0.7.tar.gz --markdown 20230427/p/pydatacheck/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-27 10:22:54] INFO root fetch - processPackages [diameter-codec]: Downloading https://files.pythonhosted.org/packages/f2/98/9829f1df9248fade0062a8d2f57c268a3701208e1348318896b03ff3c79f/diameter-codec-1.0.3.tar.gz
+[2023-04-27 10:22:54] INFO root fetch - processPackages [diameter-codec]: executing diffoscope
+[2023-04-27 10:22:54] INFO root fetch - processPackages [diameter-codec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diameter-codec-1.0.2.tar.gz tmp/diameter-codec-1.0.3.tar.gz --markdown 20230427/d/diameter-codec/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-27 10:22:55] INFO root fetch - processPackages [spectralib]: Start processing: jcvi
+[2023-04-27 10:22:55] INFO root fetch - main [MainThread]: End processing [spectralib]: success
+[2023-04-27 10:22:55] INFO root fetch - processPackages [jcvi]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-04-27 10:22:55] INFO root fetch - processPackages [jcvi]: Downloading https://files.pythonhosted.org/packages/9d/ea/340e82d55c1848f969d92574557977444398de715cf08bea9ef3a4c6b9cf/jcvi-1.3.3.tar.gz
+[2023-04-27 10:22:55] INFO root fetch - processPackages [pyconch]: Start processing: scrollingtext
+[2023-04-27 10:22:55] INFO root fetch - main [MainThread]: End processing [pyconch]: success
+[2023-04-27 10:22:55] INFO root fetch - processPackages [pycookie]: Start processing: pyflexebs
+[2023-04-27 10:22:55] INFO root fetch - main [MainThread]: End processing [pycookie]: success
+[2023-04-27 10:22:55] WARNING root fetch - processPackages [scrollingtext]: Skipping, unable to determine old version
+[2023-04-27 10:22:55] INFO root fetch - processPackages [scrollingtext]: Start processing: robotmk
+[2023-04-27 10:22:55] INFO root fetch - main [MainThread]: End processing [scrollingtext] error
+[2023-04-27 10:22:55] INFO root fetch - main [MainThread]: End processing [innerverz-package]: success
+[2023-04-27 10:22:55] INFO root fetch - processPackages [pyflexebs]: New version: [0.0.9] Old Version: [0.0.87]
+[2023-04-27 10:22:55] INFO root fetch - processPackages [robotmk]: New version: [0.0.57] Old Version: [0.0.56]
+[2023-04-27 10:22:55] INFO root fetch - processPackages [jcvi]: Downloading https://files.pythonhosted.org/packages/13/c6/c6c98fcce95751ab20b85433aeabad4ad11599d4e1ceaa43b27e1f1d1881/jcvi-1.3.4.tar.gz
+[2023-04-27 10:22:55] INFO root fetch - main [MainThread]: End processing [m3-django-composite-foreignkey]: success
+[2023-04-27 10:22:55] INFO root fetch - processPackages [pyflexebs]: Downloading https://files.pythonhosted.org/packages/72/5c/cc4ff850f63c39c6e06923f1358d6bee63fdd0b156e9d45e6dd354820340/pyflexebs-0.0.87.tar.gz
+[2023-04-27 10:22:55] INFO root fetch - main [MainThread]: End processing [zendron]: success
+[2023-04-27 10:22:55] INFO root fetch - main [MainThread]: End processing [pydatacheck]: success
+[2023-04-27 10:22:55] INFO root fetch - processPackages [jcvi]: executing diffoscope
+[2023-04-27 10:22:55] INFO root fetch - processPackages [jcvi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jcvi-1.3.3.tar.gz tmp/jcvi-1.3.4.tar.gz --markdown 20230427/j/jcvi/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-04-27 10:22:56] INFO root fetch - main [MainThread]: End processing [diameter-codec]: success
+[2023-04-27 10:22:56] INFO root fetch - processPackages [robotmk]: Downloading https://files.pythonhosted.org/packages/76/d3/60ea98d5b7e273819f5cfa892923a47e30d06d8b8d9293417d8d650de8f4/robotmk-0.0.57.tar.gz
+[2023-04-27 10:22:56] INFO root fetch - processPackages [pyflexebs]: Downloading https://files.pythonhosted.org/packages/7a/40/348cbed84a08fb3d1c35d594594ae8698c3b819ea24170c5bbdae262593f/pyflexebs-0.0.9.tar.gz
+[2023-04-27 10:22:56] INFO root fetch - processPackages [robotmk]: executing diffoscope
+[2023-04-27 10:22:56] INFO root fetch - processPackages [robotmk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotmk-0.0.56.tar.gz tmp/robotmk-0.0.57.tar.gz --markdown 20230427/r/robotmk/0.0.56-0.0.57/diff.md --exclude *.pyd
+[2023-04-27 10:22:56] INFO root fetch - processPackages [pyflexebs]: executing diffoscope
+[2023-04-27 10:22:56] INFO root fetch - processPackages [pyflexebs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyflexebs-0.0.87.tar.gz tmp/pyflexebs-0.0.9.tar.gz --markdown 20230427/p/pyflexebs/0.0.87-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 10:22:56] INFO root fetch - main [MainThread]: End processing [ilds]: success
+[2023-04-27 10:22:56] INFO root fetch - main [MainThread]: End processing [tala]: success
+[2023-04-27 10:22:57] INFO root fetch - main [MainThread]: End processing [pyflexebs]: success
+[2023-04-27 10:22:57] INFO root fetch - main [MainThread]: End processing [robotmk]: success
+[2023-04-27 10:22:58] INFO root fetch - main [MainThread]: End processing [jcvi]: success
+[2023-04-27 10:22:58] INFO root fetch - main [MainThread]: Store serial: [17879507]
