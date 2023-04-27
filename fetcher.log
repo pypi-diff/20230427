@@ -11243,3 +11243,65 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 08:28:13] INFO root fetch - main [MainThread]: End processing [decorworld-database-model]: success
 [2023-04-27 08:28:51] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-04-27 08:28:51] INFO root fetch - main [MainThread]: Store serial: [17878491]
+[2023-04-27 08:33:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17878491]
+[2023-04-27 08:34:00] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-27 08:34:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: decorworld-database-model
+[2023-04-27 08:34:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: algokit-utils
+[2023-04-27 08:34:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fling-start
+[2023-04-27 08:34:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fake-bpy-module-latest
+[2023-04-27 08:34:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-project-mail-chatter
+[2023-04-27 08:34:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: syft
+[2023-04-27 08:34:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-project-scrum
+[2023-04-27 08:34:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pystorz
+[2023-04-27 08:34:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dioptra
+[2023-04-27 08:34:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: zendron
+[2023-04-27 08:34:01] INFO root fetch - processPackages [zendron]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-27 08:34:01] INFO root fetch - processPackages [syft]: New version: [0.8.0b9] Old Version: [0.8.0b8]
+[2023-04-27 08:34:01] INFO root fetch - processPackages [dioptra]: New version: [1.0.9rc1] Old Version: [1.0.9]
+[2023-04-27 08:34:01] INFO root fetch - processPackages [pystorz]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-27 08:34:01] INFO root fetch - processPackages [decorworld-database-model]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-04-27 08:34:01] INFO root fetch - processPackages [fling-start]: New version: [0.1.5] Old Version: [0.1.3]
+[2023-04-27 08:34:01] INFO root fetch - processPackages [algokit-utils]: New version: [1.1.0b1] Old Version: [1.0.4b4]
+[2023-04-27 08:34:01] INFO root fetch - processPackages [odoo14-addon-project-mail-chatter]: New version: [14.0.1.1.1.dev9] Old Version: [14.0.1.1.1.dev8]
+[2023-04-27 08:34:01] INFO root fetch - processPackages [odoo14-addon-project-scrum]: New version: [14.0.1.0.1.dev9] Old Version: [14.0.1.0.1.dev8]
+[2023-04-27 08:34:01] INFO root fetch - processPackages [zendron]: executing diffoscope
+[2023-04-27 08:34:01] INFO root fetch - processPackages [dioptra]: executing diffoscope
+[2023-04-27 08:34:01] INFO root fetch - processPackages [zendron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zendron-1.0.8.tar.gz tmp/zendron-1.0.9.tar.gz --markdown 20230427/z/zendron/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-27 08:34:01] INFO root fetch - processPackages [dioptra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dioptra-1.0.9.tar.gz tmp/dioptra-1.0.9rc1.tar.gz --markdown 20230427/d/dioptra/1.0.9-1.0.9rc1/diff.md --exclude *.pyd
+[2023-04-27 08:34:01] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20230427] Old Version: [20230426]
+[2023-04-27 08:34:01] INFO root fetch - processPackages [syft]: Downloading https://files.pythonhosted.org/packages/59/2a/de5855ad933fea0f7260c144e45216158852b7a15c0c65452a16b7427292/syft-0.8.0b9.tar.gz
+[2023-04-27 08:34:01] INFO root fetch - processPackages [pystorz]: executing diffoscope
+[2023-04-27 08:34:01] INFO root fetch - processPackages [pystorz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystorz-0.1.0.tar.gz tmp/pystorz-0.1.1.tar.gz --markdown 20230427/p/pystorz/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-27 08:34:01] INFO root fetch - processPackages [syft]: executing diffoscope
+[2023-04-27 08:34:01] INFO root fetch - processPackages [syft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syft-0.8.0b8.tar.gz tmp/syft-0.8.0b9.tar.gz --markdown 20230427/s/syft/0.8.0b8-0.8.0b9/diff.md --exclude *.pyd
+[2023-04-27 08:34:01] INFO root fetch - processPackages [odoo14-addon-project-scrum]: Downloading https://files.pythonhosted.org/packages/b9/dc/63f8367ebefe40a901574746e2b0688d6004203e10453272a876b55baa90/odoo14_addon_project_scrum-14.0.1.0.1.dev8-py3-none-any.whl
+[2023-04-27 08:34:01] INFO root fetch - processPackages [odoo14-addon-project-mail-chatter]: Downloading https://files.pythonhosted.org/packages/e4/7b/968eb012dd656cd14144a759809528ce5debf38759bed1f608d04e72785a/odoo14_addon_project_mail_chatter-14.0.1.1.1.dev8-py3-none-any.whl
+[2023-04-27 08:34:01] INFO root fetch - processPackages [algokit-utils]: Downloading https://files.pythonhosted.org/packages/23/c3/8eb85acb27bc35620b86a3f83c1245fc9e77a19eab1fae2bd76ff2b40339/algokit_utils-1.1.0b1-py3-none-any.whl
+[2023-04-27 08:34:01] INFO root fetch - processPackages [fling-start]: Downloading https://files.pythonhosted.org/packages/e5/24/afa135467b5dc25dee9af3d3e75c99c8b64f73e7bd610bd436683e2decae/fling_start-0.1.5.tar.gz
+[2023-04-27 08:34:01] INFO root fetch - processPackages [decorworld-database-model]: Downloading https://files.pythonhosted.org/packages/ec/5c/777761a70f353f4d09f0ed5aa1a4e39d58af537142eb6b61e6f8551b44e3/decorworld_database_model-0.6.0.tar.gz
+[2023-04-27 08:34:01] INFO root fetch - processPackages [algokit-utils]: executing diffoscope
+[2023-04-27 08:34:01] INFO root fetch - processPackages [algokit-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algokit_utils-1.0.4b4-py3-none-any.whl.zip tmp/algokit_utils-1.1.0b1-py3-none-any.whl.zip --markdown 20230427/a/algokit-utils/1.0.4b4-1.1.0b1/diff.md --exclude *.pyd
+[2023-04-27 08:34:01] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/64/f2/7508cd8fa55077806db85325732b7bf27868535f27ae4569fef488f96120/fake-bpy-module-latest-20230427.tar.gz
+[2023-04-27 08:34:01] INFO root fetch - processPackages [fling-start]: executing diffoscope
+[2023-04-27 08:34:01] INFO root fetch - processPackages [fling-start]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fling_start-0.1.3.tar.gz tmp/fling_start-0.1.5.tar.gz --markdown 20230427/f/fling-start/0.1.3-0.1.5/diff.md --exclude *.pyd
+[2023-04-27 08:34:01] INFO root fetch - processPackages [decorworld-database-model]: executing diffoscope
+[2023-04-27 08:34:01] INFO root fetch - processPackages [decorworld-database-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decorworld_database_model-0.5.0.tar.gz tmp/decorworld_database_model-0.6.0.tar.gz --markdown 20230427/d/decorworld-database-model/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-04-27 08:34:01] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2023-04-27 08:34:01] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-latest-20230426.tar.gz tmp/fake-bpy-module-latest-20230427.tar.gz --markdown 20230427/f/fake-bpy-module-latest/20230426-20230427/diff.md --exclude *.pyd
+[2023-04-27 08:34:01] INFO root fetch - processPackages [odoo14-addon-project-mail-chatter]: Downloading https://files.pythonhosted.org/packages/79/c2/3c1b3d3165e5233338fedcdfe23767a9ee0555541fe8f48f571f1237e27e/odoo14_addon_project_mail_chatter-14.0.1.1.1.dev9-py3-none-any.whl
+[2023-04-27 08:34:01] INFO root fetch - processPackages [odoo14-addon-project-scrum]: Downloading https://files.pythonhosted.org/packages/f6/fb/9d2304aec76a914fbaebfc595a0cc31fa2e13884f8aa14119f06f242b37d/odoo14_addon_project_scrum-14.0.1.0.1.dev9-py3-none-any.whl
+[2023-04-27 08:34:01] INFO root fetch - processPackages [odoo14-addon-project-mail-chatter]: executing diffoscope
+[2023-04-27 08:34:01] INFO root fetch - processPackages [odoo14-addon-project-mail-chatter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_project_mail_chatter-14.0.1.1.1.dev8-py3-none-any.whl.zip tmp/odoo14_addon_project_mail_chatter-14.0.1.1.1.dev9-py3-none-any.whl.zip --markdown 20230427/o/odoo14-addon-project-mail-chatter/14.0.1.1.1.dev8-14.0.1.1.1.dev9/diff.md --exclude *.pyd
+[2023-04-27 08:34:01] INFO root fetch - processPackages [odoo14-addon-project-scrum]: executing diffoscope
+[2023-04-27 08:34:01] INFO root fetch - processPackages [odoo14-addon-project-scrum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_project_scrum-14.0.1.0.1.dev8-py3-none-any.whl.zip tmp/odoo14_addon_project_scrum-14.0.1.0.1.dev9-py3-none-any.whl.zip --markdown 20230427/o/odoo14-addon-project-scrum/14.0.1.0.1.dev8-14.0.1.0.1.dev9/diff.md --exclude *.pyd
+[2023-04-27 08:34:02] INFO root fetch - main [MainThread]: End processing [dioptra]: success
+[2023-04-27 08:34:03] INFO root fetch - main [MainThread]: End processing [fling-start]: success
+[2023-04-27 08:34:03] INFO root fetch - main [MainThread]: End processing [zendron]: success
+[2023-04-27 08:34:03] INFO root fetch - main [MainThread]: End processing [pystorz]: success
+[2023-04-27 08:34:03] INFO root fetch - main [MainThread]: End processing [odoo14-addon-project-mail-chatter]: success
+[2023-04-27 08:34:03] INFO root fetch - main [MainThread]: End processing [algokit-utils]: success
+[2023-04-27 08:34:03] INFO root fetch - main [MainThread]: End processing [decorworld-database-model]: success
+[2023-04-27 08:34:03] INFO root fetch - main [MainThread]: End processing [odoo14-addon-project-scrum]: success
+[2023-04-27 08:34:05] INFO root fetch - main [MainThread]: End processing [syft]: success
+[2023-04-27 08:34:08] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2023-04-27 08:34:08] INFO root fetch - main [MainThread]: Store serial: [17878517]
