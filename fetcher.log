@@ -17190,3 +17190,232 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 13:17:17] INFO root fetch - main [MainThread]: End processing [Geode-Background]: success
 [2023-04-27 13:17:43] INFO root fetch - main [MainThread]: End processing [anitya]: success
 [2023-04-27 13:17:43] INFO root fetch - main [MainThread]: Store serial: [17881813]
+[2023-04-27 13:22:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17881813]
+[2023-04-27 13:23:01] INFO root fetch - main [MainThread]: Found 38 changed packages
+[2023-04-27 13:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: petprep-hmc
+[2023-04-27 13:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyprocessors-generative_augmenter
+[2023-04-27 13:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: squad-foundries-plugins
+[2023-04-27 13:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyprocessors-openai_completion
+[2023-04-27 13:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: loggerml
+[2023-04-27 13:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: codeforlife-portal
+[2023-04-27 13:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ssb-sgis
+[2023-04-27 13:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cfl-common
+[2023-04-27 13:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: honeybee-radiance-postprocess
+[2023-04-27 13:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: linkit
+[2023-04-27 13:23:01] INFO root fetch - processPackages [petprep-hmc]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-04-27 13:23:01] INFO root fetch - processPackages [pyprocessors-generative_augmenter]: New version: [0.5.9] Old Version: [0.5.11]
+[2023-04-27 13:23:01] INFO root fetch - processPackages [linkit]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-04-27 13:23:01] INFO root fetch - processPackages [pyprocessors-openai_completion]: New version: [0.5.9] Old Version: [0.5.43]
+[2023-04-27 13:23:01] INFO root fetch - processPackages [squad-foundries-plugins]: New version: [1.1] Old Version: [1.0]
+[2023-04-27 13:23:01] INFO root fetch - processPackages [loggerml]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-27 13:23:01] INFO root fetch - processPackages [ssb-sgis]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-27 13:23:01] INFO root fetch - processPackages [honeybee-radiance-postprocess]: New version: [0.4.99] Old Version: [0.4.98]
+[2023-04-27 13:23:01] INFO root fetch - processPackages [cfl-common]: New version: [6.9.0] Old Version: [6.8.9]
+[2023-04-27 13:23:01] INFO root fetch - processPackages [codeforlife-portal]: New version: [6.9.0] Old Version: [6.8.9]
+[2023-04-27 13:23:01] INFO root fetch - processPackages [pyprocessors-generative_augmenter]: Downloading https://files.pythonhosted.org/packages/5c/26/545af39c2c62cdb4dffd6a268137bc39d3f6d25110cd203adc53edb9287e/pyprocessors-generative_augmenter-0.5.11.tar.gz
+[2023-04-27 13:23:01] INFO root fetch - processPackages [cfl-common]: executing diffoscope
+[2023-04-27 13:23:01] INFO root fetch - processPackages [cfl-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfl-common-6.8.9.tar.gz tmp/cfl-common-6.9.0.tar.gz --markdown 20230427/c/cfl-common/6.8.9-6.9.0/diff.md --exclude *.pyd
+[2023-04-27 13:23:01] INFO root fetch - processPackages [petprep-hmc]: Downloading https://files.pythonhosted.org/packages/0f/a9/b39102492ed7b5a3255cb75491ab2eb4449094eb527d889cd5c1be326881/petprep_hmc-0.0.1.tar.gz
+[2023-04-27 13:23:01] INFO root fetch - processPackages [squad-foundries-plugins]: Downloading https://files.pythonhosted.org/packages/ca/b5/078901e72ccf08d8e201c1780c59c4c0b603f36f99b8db6c9cc63d984f0c/squad-foundries-plugins-1.0.tar.gz
+[2023-04-27 13:23:01] INFO root fetch - processPackages [pyprocessors-openai_completion]: Downloading https://files.pythonhosted.org/packages/18/45/4484a4386f5a5ca4663dafa4a565cb1ff9a9f04f596ab446ec6f1adcfd8d/pyprocessors-openai_completion-0.5.43.tar.gz
+[2023-04-27 13:23:01] INFO root fetch - processPackages [linkit]: Downloading https://files.pythonhosted.org/packages/4d/c1/3c99f1c28d7657c9ef2f54e16db7a093d40de1ee27439fdf4f9d252bf168/linkit-0.1.6.tar.gz
+[2023-04-27 13:23:01] INFO root fetch - processPackages [ssb-sgis]: Downloading https://files.pythonhosted.org/packages/43/72/e24a5ed9bdcbc37d7ef6a9a157389b1c6105293a4d5dcf908db0119bb0f4/ssb_sgis-0.1.8.tar.gz
+[2023-04-27 13:23:01] INFO root fetch - processPackages [loggerml]: Downloading https://files.pythonhosted.org/packages/a3/12/55afb64526a13a004f144f6ab84ab2f210dacd72c8d11a47e0331aaac372/loggerml-0.1.4.tar.gz
+[2023-04-27 13:23:01] INFO root fetch - processPackages [codeforlife-portal]: executing diffoscope
+[2023-04-27 13:23:01] INFO root fetch - processPackages [codeforlife-portal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codeforlife-portal-6.8.9.tar.gz tmp/codeforlife-portal-6.9.0.tar.gz --markdown 20230427/c/codeforlife-portal/6.8.9-6.9.0/diff.md --exclude *.pyd
+[2023-04-27 13:23:01] INFO root fetch - processPackages [loggerml]: executing diffoscope
+[2023-04-27 13:23:01] INFO root fetch - processPackages [loggerml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loggerml-0.1.3.tar.gz tmp/loggerml-0.1.4.tar.gz --markdown 20230427/l/loggerml/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-27 13:23:01] INFO root fetch - processPackages [pyprocessors-generative_augmenter]: executing diffoscope
+[2023-04-27 13:23:01] INFO root fetch - processPackages [pyprocessors-generative_augmenter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyprocessors-generative_augmenter-0.5.11.tar.gz tmp/pyprocessors-generative_augmenter-0.5.9.tar.gz --markdown 20230427/p/pyprocessors-generative_augmenter/0.5.11-0.5.9/diff.md --exclude *.pyd
+[2023-04-27 13:23:01] INFO root fetch - processPackages [petprep-hmc]: Downloading https://files.pythonhosted.org/packages/33/ae/689d9b75facbf7062ec0b9d0088fe3c845bdfa132b2e6d86575bb2ecc6f0/petprep_hmc-0.0.3.tar.gz
+[2023-04-27 13:23:01] INFO root fetch - processPackages [squad-foundries-plugins]: Downloading https://files.pythonhosted.org/packages/7a/55/398fb14b90ade7225fde5625b09badc0e278c33ea8ac6068189f186c395d/squad-foundries-plugins-1.1.tar.gz
+[2023-04-27 13:23:01] INFO root fetch - processPackages [honeybee-radiance-postprocess]: executing diffoscope
+[2023-04-27 13:23:01] INFO root fetch - processPackages [honeybee-radiance-postprocess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-radiance-postprocess-0.4.98.tar.gz tmp/honeybee-radiance-postprocess-0.4.99.tar.gz --markdown 20230427/h/honeybee-radiance-postprocess/0.4.98-0.4.99/diff.md --exclude *.pyd
+[2023-04-27 13:23:01] INFO root fetch - processPackages [pyprocessors-openai_completion]: executing diffoscope
+[2023-04-27 13:23:01] INFO root fetch - processPackages [pyprocessors-openai_completion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyprocessors-openai_completion-0.5.43.tar.gz tmp/pyprocessors-openai_completion-0.5.9.tar.gz --markdown 20230427/p/pyprocessors-openai_completion/0.5.43-0.5.9/diff.md --exclude *.pyd
+[2023-04-27 13:23:01] INFO root fetch - processPackages [squad-foundries-plugins]: executing diffoscope
+[2023-04-27 13:23:01] INFO root fetch - processPackages [squad-foundries-plugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/squad-foundries-plugins-1.0.tar.gz tmp/squad-foundries-plugins-1.1.tar.gz --markdown 20230427/s/squad-foundries-plugins/1.0-1.1/diff.md --exclude *.pyd
+[2023-04-27 13:23:01] INFO root fetch - processPackages [ssb-sgis]: Downloading https://files.pythonhosted.org/packages/42/98/a5a8a06b56bb8c509b69c4199bf4c37f860b784fcead59c2b2e27ac48031/ssb_sgis-0.1.9.tar.gz
+[2023-04-27 13:23:01] INFO root fetch - processPackages [petprep-hmc]: executing diffoscope
+[2023-04-27 13:23:01] INFO root fetch - processPackages [petprep-hmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petprep_hmc-0.0.1.tar.gz tmp/petprep_hmc-0.0.3.tar.gz --markdown 20230427/p/petprep-hmc/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-04-27 13:23:01] INFO root fetch - processPackages [linkit]: Downloading https://files.pythonhosted.org/packages/04/18/d6e54dcc2f1e8803aa68b2d7c6dff9bc6e6eb45f4f4a0728a9f1f1f37e58/linkit-0.1.7.tar.gz
+[2023-04-27 13:23:01] INFO root fetch - processPackages [linkit]: executing diffoscope
+[2023-04-27 13:23:01] INFO root fetch - processPackages [linkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linkit-0.1.6.tar.gz tmp/linkit-0.1.7.tar.gz --markdown 20230427/l/linkit/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-04-27 13:23:01] INFO root fetch - processPackages [ssb-sgis]: executing diffoscope
+[2023-04-27 13:23:01] INFO root fetch - processPackages [ssb-sgis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssb_sgis-0.1.8.tar.gz tmp/ssb_sgis-0.1.9.tar.gz --markdown 20230427/s/ssb-sgis/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-27 13:23:03] INFO root fetch - processPackages [pyprocessors-generative_augmenter]: Start processing: seven-studio
+[2023-04-27 13:23:03] INFO root fetch - main [MainThread]: End processing [pyprocessors-generative_augmenter]: success
+[2023-04-27 13:23:03] INFO root fetch - processPackages [seven-studio]: New version: [1.3.2] Old Version: [1.2.0]
+[2023-04-27 13:23:03] INFO root fetch - processPackages [seven-studio]: Downloading https://files.pythonhosted.org/packages/00/d9/c5bb30ae043cdb683a318c0c7bb988dcae5d8ab7974ee0464cb6ca73f55d/seven_studio-1.2.0.tar.gz
+[2023-04-27 13:23:03] INFO root fetch - processPackages [linkit]: Start processing: worky
+[2023-04-27 13:23:03] INFO root fetch - main [MainThread]: End processing [linkit]: success
+[2023-04-27 13:23:03] WARNING root fetch - processPackages [worky]: Skipping, unable to determine old version
+[2023-04-27 13:23:03] INFO root fetch - processPackages [worky]: Start processing: vembrane
+[2023-04-27 13:23:03] INFO root fetch - main [MainThread]: End processing [worky] error
+[2023-04-27 13:23:03] INFO root fetch - processPackages [petprep-hmc]: Start processing: serl
+[2023-04-27 13:23:03] INFO root fetch - main [MainThread]: End processing [petprep-hmc]: success
+[2023-04-27 13:23:03] INFO root fetch - processPackages [vembrane]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-27 13:23:03] INFO root fetch - processPackages [serl]: New version: [0.2.0b0] Old Version: [0.1.0b0]
+[2023-04-27 13:23:03] INFO root fetch - processPackages [squad-foundries-plugins]: Start processing: import-export-extensions
+[2023-04-27 13:23:03] INFO root fetch - main [MainThread]: End processing [squad-foundries-plugins]: success
+[2023-04-27 13:23:03] INFO root fetch - processPackages [import-export-extensions]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-27 13:23:03] INFO root fetch - processPackages [pyprocessors-openai_completion]: Start processing: upyrc
+[2023-04-27 13:23:03] INFO root fetch - main [MainThread]: End processing [pyprocessors-openai_completion]: success
+[2023-04-27 13:23:03] INFO root fetch - processPackages [upyrc]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-27 13:23:03] INFO root fetch - processPackages [seven-studio]: Downloading https://files.pythonhosted.org/packages/7c/ac/69e67cd16c135004a549ffa6d6d66713d6bbb1390b3b27091abf3f70ea31/seven_studio-1.3.2.tar.gz
+[2023-04-27 13:23:03] INFO root fetch - processPackages [vembrane]: Downloading https://files.pythonhosted.org/packages/78/6d/805ff162f15a82affd36556d9e76418382e4d978dd0463904d43d8d21f58/vembrane-1.0.0.tar.gz
+[2023-04-27 13:23:03] INFO root fetch - processPackages [serl]: Downloading https://files.pythonhosted.org/packages/68/11/bed444b2306ed5c15c6db5dcc8242b1302f77c271a3a3343a11fb8cb02e7/serl-0.1.0b0.tar.gz
+[2023-04-27 13:23:03] INFO root fetch - processPackages [seven-studio]: executing diffoscope
+[2023-04-27 13:23:03] INFO root fetch - processPackages [seven-studio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_studio-1.2.0.tar.gz tmp/seven_studio-1.3.2.tar.gz --markdown 20230427/s/seven-studio/1.2.0-1.3.2/diff.md --exclude *.pyd
+[2023-04-27 13:23:03] INFO root fetch - processPackages [import-export-extensions]: Downloading https://files.pythonhosted.org/packages/cc/fe/c1431aa29dacb2ccce087bd6e96d62727e175ce76af9c8078b0618b883fe/import_export_extensions-0.1.0.tar.gz
+[2023-04-27 13:23:04] INFO root fetch - processPackages [upyrc]: Downloading https://files.pythonhosted.org/packages/9f/4c/3fb50f083b8dc9d3ac7ff506688be776a0e394797c728b8dfc94348796e2/upyrc-0.9.0.tar.gz
+[2023-04-27 13:23:04] INFO root fetch - processPackages [serl]: Downloading https://files.pythonhosted.org/packages/ec/3c/c7c725731f88d4283a0a664aebc8bb3ade129a293c0629ec9b2cf3650337/serl-0.2.0b0.tar.gz
+[2023-04-27 13:23:04] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Start processing: resotoeventlog
+[2023-04-27 13:23:04] INFO root fetch - main [MainThread]: End processing [honeybee-radiance-postprocess]: success
+[2023-04-27 13:23:04] INFO root fetch - processPackages [resotoeventlog]: New version: [3.4.0] Old Version: [3.3.4]
+[2023-04-27 13:23:04] INFO root fetch - processPackages [vembrane]: Downloading https://files.pythonhosted.org/packages/cf/40/60c99781f7b4d8a68d96eed64dcf7dd2865040e605920b01f46cef8c5994/vembrane-1.0.1.tar.gz
+[2023-04-27 13:23:04] INFO root fetch - processPackages [serl]: executing diffoscope
+[2023-04-27 13:23:04] INFO root fetch - processPackages [serl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serl-0.1.0b0.tar.gz tmp/serl-0.2.0b0.tar.gz --markdown 20230427/s/serl/0.1.0b0-0.2.0b0/diff.md --exclude *.pyd
+[2023-04-27 13:23:04] INFO root fetch - processPackages [import-export-extensions]: Downloading https://files.pythonhosted.org/packages/ce/86/5f876857bdf8208a29a46aa2ea00e8c91756fb0690141d24947871d85d2c/import_export_extensions-0.1.1.tar.gz
+[2023-04-27 13:23:04] INFO root fetch - processPackages [vembrane]: executing diffoscope
+[2023-04-27 13:23:04] INFO root fetch - processPackages [vembrane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vembrane-1.0.0.tar.gz tmp/vembrane-1.0.1.tar.gz --markdown 20230427/v/vembrane/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-27 13:23:04] INFO root fetch - processPackages [import-export-extensions]: executing diffoscope
+[2023-04-27 13:23:04] INFO root fetch - processPackages [import-export-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/import_export_extensions-0.1.0.tar.gz tmp/import_export_extensions-0.1.1.tar.gz --markdown 20230427/i/import-export-extensions/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-27 13:23:04] INFO root fetch - processPackages [resotoeventlog]: Downloading https://files.pythonhosted.org/packages/68/6d/8236c8db67f5fe4c8586d93d44db5d816fe54d262fee72ff8a4df8773ed9/resotoeventlog-3.4.0.tar.gz
+[2023-04-27 13:23:04] INFO root fetch - processPackages [resotoeventlog]: executing diffoscope
+[2023-04-27 13:23:04] INFO root fetch - processPackages [resotoeventlog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resotoeventlog-3.3.4.tar.gz tmp/resotoeventlog-3.4.0.tar.gz --markdown 20230427/r/resotoeventlog/3.3.4-3.4.0/diff.md --exclude *.pyd
+[2023-04-27 13:23:04] INFO root fetch - processPackages [upyrc]: Downloading https://files.pythonhosted.org/packages/95/e4/d973a9a213efe7b9c7fb2108445a54ba9d64ead5e8ae9ddebca9bc52216d/upyrc-0.9.1.tar.gz
+[2023-04-27 13:23:04] INFO root fetch - processPackages [upyrc]: executing diffoscope
+[2023-04-27 13:23:04] INFO root fetch - processPackages [upyrc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upyrc-0.9.0.tar.gz tmp/upyrc-0.9.1.tar.gz --markdown 20230427/u/upyrc/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-27 13:23:04] INFO root fetch - processPackages [cfl-common]: Start processing: ew-sdk
+[2023-04-27 13:23:04] INFO root fetch - main [MainThread]: End processing [cfl-common]: success
+[2023-04-27 13:23:04] INFO root fetch - processPackages [ew-sdk]: New version: [2.1.2] Old Version: [1.2.3]
+[2023-04-27 13:23:05] INFO root fetch - processPackages [ew-sdk]: Downloading https://files.pythonhosted.org/packages/2f/52/9d657c22ffbe035f5acca18808a97ac1b2a529bf1a322af643b1097b9799/ew-sdk-1.2.3.tar.gz
+[2023-04-27 13:23:05] INFO root fetch - processPackages [ssb-sgis]: Start processing: wave-train
+[2023-04-27 13:23:05] INFO root fetch - main [MainThread]: End processing [ssb-sgis]: success
+[2023-04-27 13:23:05] INFO root fetch - processPackages [wave-train]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-04-27 13:23:05] INFO root fetch - processPackages [ew-sdk]: Downloading https://files.pythonhosted.org/packages/4c/be/279b16c08e6ea20ebfb01ac6df29d068ac6c5963382b45cbd2cb73fc69ce/ew-sdk-2.1.2.tar.gz
+[2023-04-27 13:23:05] INFO root fetch - processPackages [loggerml]: Start processing: resoto-plugin-onprem
+[2023-04-27 13:23:05] INFO root fetch - main [MainThread]: End processing [loggerml]: success
+[2023-04-27 13:23:05] INFO root fetch - processPackages [wave-train]: Downloading https://files.pythonhosted.org/packages/ef/76/09d13bb241163dc1718f267090e0df5f231b0915b736e5d32c5b9f2008ae/wave_train-1.0.7.tar.gz
+[2023-04-27 13:23:05] INFO root fetch - processPackages [ew-sdk]: executing diffoscope
+[2023-04-27 13:23:05] INFO root fetch - processPackages [ew-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ew-sdk-1.2.3.tar.gz tmp/ew-sdk-2.1.2.tar.gz --markdown 20230427/e/ew-sdk/1.2.3-2.1.2/diff.md --exclude *.pyd
+[2023-04-27 13:23:05] INFO root fetch - processPackages [resoto-plugin-onprem]: New version: [3.4.0] Old Version: [3.3.4]
+[2023-04-27 13:23:05] INFO root fetch - processPackages [resoto-plugin-onprem]: Downloading https://files.pythonhosted.org/packages/13/2d/379f03e1096a339edc7dba1b18f455e75f8d3f0158cd757c45946ef4e76e/resoto-plugin-onprem-3.4.0.tar.gz
+[2023-04-27 13:23:05] INFO root fetch - processPackages [wave-train]: Downloading https://files.pythonhosted.org/packages/21/d0/689c994306ca82a6de47812f3fdddf1590af1e5c91ed53bfb752fcd0a3d4/wave_train-1.0.8.tar.gz
+[2023-04-27 13:23:05] INFO root fetch - processPackages [resoto-plugin-onprem]: executing diffoscope
+[2023-04-27 13:23:05] INFO root fetch - processPackages [resoto-plugin-onprem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resoto-plugin-onprem-3.3.4.tar.gz tmp/resoto-plugin-onprem-3.4.0.tar.gz --markdown 20230427/r/resoto-plugin-onprem/3.3.4-3.4.0/diff.md --exclude *.pyd
+[2023-04-27 13:23:05] INFO root fetch - processPackages [wave-train]: executing diffoscope
+[2023-04-27 13:23:05] INFO root fetch - processPackages [wave-train]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wave_train-1.0.7.tar.gz tmp/wave_train-1.0.8.tar.gz --markdown 20230427/w/wave-train/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-04-27 13:23:06] INFO root fetch - processPackages [resotoeventlog]: Start processing: resoto-plugin-cleanup-expired
+[2023-04-27 13:23:06] INFO root fetch - main [MainThread]: End processing [resotoeventlog]: success
+[2023-04-27 13:23:06] INFO root fetch - processPackages [resoto-plugin-cleanup-expired]: New version: [3.4.0] Old Version: [3.3.4]
+[2023-04-27 13:23:06] INFO root fetch - processPackages [resoto-plugin-cleanup-expired]: Downloading https://files.pythonhosted.org/packages/12/dd/6b6a4aca3527e16cce683d41bacfdca67e93311f6b78f8d0249cd18caaa0/resoto-plugin-cleanup-expired-3.4.0.tar.gz
+[2023-04-27 13:23:07] INFO root fetch - processPackages [resoto-plugin-cleanup-expired]: executing diffoscope
+[2023-04-27 13:23:07] INFO root fetch - processPackages [resoto-plugin-cleanup-expired]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resoto-plugin-cleanup-expired-3.3.4.tar.gz tmp/resoto-plugin-cleanup-expired-3.4.0.tar.gz --markdown 20230427/r/resoto-plugin-cleanup-expired/3.3.4-3.4.0/diff.md --exclude *.pyd
+[2023-04-27 13:23:07] INFO root fetch - processPackages [vembrane]: Start processing: resoto-plugin-example-collector
+[2023-04-27 13:23:07] INFO root fetch - main [MainThread]: End processing [vembrane]: success
+[2023-04-27 13:23:07] INFO root fetch - processPackages [resoto-plugin-example-collector]: New version: [3.4.0] Old Version: [3.3.4]
+[2023-04-27 13:23:07] INFO root fetch - processPackages [serl]: Start processing: resoto-plugin-dockerhub
+[2023-04-27 13:23:07] INFO root fetch - main [MainThread]: End processing [serl]: success
+[2023-04-27 13:23:07] INFO root fetch - processPackages [resoto-plugin-dockerhub]: New version: [3.4.0] Old Version: [3.3.4]
+[2023-04-27 13:23:07] INFO root fetch - processPackages [resoto-plugin-example-collector]: Downloading https://files.pythonhosted.org/packages/6c/b8/1aed04a3b33a6c59ece502f0ea805817afaef600b7fe959348f3d485f6fc/resoto-plugin-example-collector-3.4.0.tar.gz
+[2023-04-27 13:23:07] INFO root fetch - processPackages [upyrc]: Start processing: assisted-service-client
+[2023-04-27 13:23:07] INFO root fetch - main [MainThread]: End processing [upyrc]: success
+[2023-04-27 13:23:07] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2023-04-27 13:23:07] INFO root fetch - processPackages [import-export-extensions]: Start processing: resoto-plugin-github
+[2023-04-27 13:23:07] INFO root fetch - main [MainThread]: End processing [import-export-extensions]: success
+[2023-04-27 13:23:07] INFO root fetch - processPackages [resoto-plugin-dockerhub]: Downloading https://files.pythonhosted.org/packages/67/42/f2a2802c5b76931208809bd28bffaacdf0f71d442f965c278571226f0981/resoto-plugin-dockerhub-3.4.0.tar.gz
+[2023-04-27 13:23:07] INFO root fetch - processPackages [resoto-plugin-example-collector]: executing diffoscope
+[2023-04-27 13:23:07] INFO root fetch - processPackages [resoto-plugin-example-collector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resoto-plugin-example-collector-3.3.4.tar.gz tmp/resoto-plugin-example-collector-3.4.0.tar.gz --markdown 20230427/r/resoto-plugin-example-collector/3.3.4-3.4.0/diff.md --exclude *.pyd
+[2023-04-27 13:23:07] INFO root fetch - processPackages [resoto-plugin-github]: New version: [3.4.0] Old Version: [3.3.4]
+[2023-04-27 13:23:07] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2023-04-27 13:23:07] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20230427/a/assisted-service-client/2.9.0.post8-2.9.0.post9/diff.md --exclude *.pyd
+[2023-04-27 13:23:07] INFO root fetch - processPackages [resoto-plugin-dockerhub]: executing diffoscope
+[2023-04-27 13:23:07] INFO root fetch - processPackages [resoto-plugin-dockerhub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resoto-plugin-dockerhub-3.3.4.tar.gz tmp/resoto-plugin-dockerhub-3.4.0.tar.gz --markdown 20230427/r/resoto-plugin-dockerhub/3.3.4-3.4.0/diff.md --exclude *.pyd
+[2023-04-27 13:23:08] INFO root fetch - processPackages [resoto-plugin-github]: Downloading https://files.pythonhosted.org/packages/e5/67/0aa503714ab47b86e74a1f8562014c777a83a8f75e30b348492afb5b0fc1/resoto-plugin-github-3.4.0.tar.gz
+[2023-04-27 13:23:08] INFO root fetch - processPackages [resoto-plugin-github]: executing diffoscope
+[2023-04-27 13:23:08] INFO root fetch - processPackages [resoto-plugin-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resoto-plugin-github-3.3.4.tar.gz tmp/resoto-plugin-github-3.4.0.tar.gz --markdown 20230427/r/resoto-plugin-github/3.3.4-3.4.0/diff.md --exclude *.pyd
+[2023-04-27 13:23:08] INFO root fetch - processPackages [seven-studio]: Start processing: resoto-plugin-posthog
+[2023-04-27 13:23:08] INFO root fetch - main [MainThread]: End processing [seven-studio]: success
+[2023-04-27 13:23:08] INFO root fetch - processPackages [resoto-plugin-posthog]: New version: [3.4.0] Old Version: [3.3.4]
+[2023-04-27 13:23:08] INFO root fetch - processPackages [resoto-plugin-onprem]: Start processing: resoto-plugin-random
+[2023-04-27 13:23:08] INFO root fetch - main [MainThread]: End processing [resoto-plugin-onprem]: success
+[2023-04-27 13:23:08] INFO root fetch - processPackages [resoto-plugin-random]: New version: [3.3.4] Old Version: [3.3.3]
+[2023-04-27 13:23:08] INFO root fetch - processPackages [resoto-plugin-posthog]: Downloading https://files.pythonhosted.org/packages/30/bf/b1e4a811f3a32444282f9d4290189e75ca5b11b2aa5a68dc70d250f18ebd/resoto-plugin-posthog-3.4.0.tar.gz
+[2023-04-27 13:23:08] INFO root fetch - processPackages [ew-sdk]: Start processing: resoto-plugin-vsphere
+[2023-04-27 13:23:08] INFO root fetch - main [MainThread]: End processing [ew-sdk]: success
+[2023-04-27 13:23:08] INFO root fetch - processPackages [resoto-plugin-random]: executing diffoscope
+[2023-04-27 13:23:08] INFO root fetch - processPackages [resoto-plugin-random]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resoto-plugin-random-3.3.3.tar.gz tmp/resoto-plugin-random-3.3.4.tar.gz --markdown 20230427/r/resoto-plugin-random/3.3.3-3.3.4/diff.md --exclude *.pyd
+[2023-04-27 13:23:08] INFO root fetch - processPackages [resoto-plugin-vsphere]: New version: [3.3.4] Old Version: [3.3.3]
+[2023-04-27 13:23:08] INFO root fetch - processPackages [resoto-plugin-posthog]: executing diffoscope
+[2023-04-27 13:23:08] INFO root fetch - processPackages [resoto-plugin-posthog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resoto-plugin-posthog-3.3.4.tar.gz tmp/resoto-plugin-posthog-3.4.0.tar.gz --markdown 20230427/r/resoto-plugin-posthog/3.3.4-3.4.0/diff.md --exclude *.pyd
+[2023-04-27 13:23:08] INFO root fetch - processPackages [resoto-plugin-vsphere]: executing diffoscope
+[2023-04-27 13:23:08] INFO root fetch - processPackages [resoto-plugin-vsphere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resoto-plugin-vsphere-3.3.3.tar.gz tmp/resoto-plugin-vsphere-3.3.4.tar.gz --markdown 20230427/r/resoto-plugin-vsphere/3.3.3-3.3.4/diff.md --exclude *.pyd
+[2023-04-27 13:23:09] INFO root fetch - processPackages [resoto-plugin-cleanup-expired]: Start processing: resoto-plugin-cleanup-aws-loadbalancers
+[2023-04-27 13:23:09] INFO root fetch - main [MainThread]: End processing [resoto-plugin-cleanup-expired]: success
+[2023-04-27 13:23:09] INFO root fetch - processPackages [resoto-plugin-cleanup-aws-loadbalancers]: New version: [3.4.0] Old Version: [3.3.4]
+[2023-04-27 13:23:09] INFO root fetch - processPackages [resoto-plugin-cleanup-aws-loadbalancers]: Downloading https://files.pythonhosted.org/packages/1d/6e/9496fb54dc83ec47313e999aeff971aabb6ef255eb07b9c9690406864a98/resoto-plugin-cleanup-aws-loadbalancers-3.4.0.tar.gz
+[2023-04-27 13:23:09] INFO root fetch - processPackages [wave-train]: Start processing: resoto-plugin-protector
+[2023-04-27 13:23:09] INFO root fetch - main [MainThread]: End processing [wave-train]: success
+[2023-04-27 13:23:10] INFO root fetch - processPackages [resoto-plugin-protector]: New version: [3.4.0] Old Version: [3.3.4]
+[2023-04-27 13:23:10] INFO root fetch - processPackages [resoto-plugin-cleanup-aws-loadbalancers]: executing diffoscope
+[2023-04-27 13:23:10] INFO root fetch - processPackages [resoto-plugin-cleanup-aws-loadbalancers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resoto-plugin-cleanup-aws-loadbalancers-3.3.4.tar.gz tmp/resoto-plugin-cleanup-aws-loadbalancers-3.4.0.tar.gz --markdown 20230427/r/resoto-plugin-cleanup-aws-loadbalancers/3.3.4-3.4.0/diff.md --exclude *.pyd
+[2023-04-27 13:23:10] INFO root fetch - processPackages [resoto-plugin-example-collector]: Start processing: resotometrics
+[2023-04-27 13:23:10] INFO root fetch - main [MainThread]: End processing [resoto-plugin-example-collector]: success
+[2023-04-27 13:23:10] INFO root fetch - processPackages [resoto-plugin-protector]: Downloading https://files.pythonhosted.org/packages/76/0e/1fae7a5305fbff51d1b864dd34099719662ce8d4c63756c2ae3b2989a648/resoto-plugin-protector-3.4.0.tar.gz
+[2023-04-27 13:23:10] INFO root fetch - processPackages [resotometrics]: New version: [3.3.4] Old Version: [3.3.3]
+[2023-04-27 13:23:10] INFO root fetch - processPackages [resoto-plugin-protector]: executing diffoscope
+[2023-04-27 13:23:10] INFO root fetch - processPackages [resoto-plugin-protector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resoto-plugin-protector-3.3.4.tar.gz tmp/resoto-plugin-protector-3.4.0.tar.gz --markdown 20230427/r/resoto-plugin-protector/3.3.4-3.4.0/diff.md --exclude *.pyd
+[2023-04-27 13:23:10] INFO root fetch - processPackages [resotometrics]: executing diffoscope
+[2023-04-27 13:23:10] INFO root fetch - processPackages [resotometrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resotometrics-3.3.3.tar.gz tmp/resotometrics-3.3.4.tar.gz --markdown 20230427/r/resotometrics/3.3.3-3.3.4/diff.md --exclude *.pyd
+[2023-04-27 13:23:10] INFO root fetch - processPackages [resoto-plugin-dockerhub]: Start processing: resoto-plugin-aws-k8s
+[2023-04-27 13:23:10] INFO root fetch - main [MainThread]: End processing [resoto-plugin-dockerhub]: success
+[2023-04-27 13:23:10] INFO root fetch - processPackages [resoto-plugin-github]: Start processing: viper-lib
+[2023-04-27 13:23:10] INFO root fetch - main [MainThread]: End processing [resoto-plugin-github]: success
+[2023-04-27 13:23:10] INFO root fetch - processPackages [resoto-plugin-aws-k8s]: New version: [3.4.0] Old Version: [3.3.4]
+[2023-04-27 13:23:11] INFO root fetch - processPackages [viper-lib]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-04-27 13:23:11] INFO root fetch - processPackages [resoto-plugin-aws-k8s]: Downloading https://files.pythonhosted.org/packages/99/e6/7c87747c5028060a5ed99214bcc55d765ae90bf73dd67cfb8b97d1c0570e/resoto-plugin-aws-k8s-3.4.0.tar.gz
+[2023-04-27 13:23:11] INFO root fetch - processPackages [viper-lib]: Downloading https://files.pythonhosted.org/packages/e6/1a/be1440c5f3a6321aa248ab5f49beb53eb05d8a792506f380518beae54708/viper_lib-0.5.1.tar.gz
+[2023-04-27 13:23:11] INFO root fetch - processPackages [resoto-plugin-aws-k8s]: executing diffoscope
+[2023-04-27 13:23:11] INFO root fetch - processPackages [resoto-plugin-aws-k8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resoto-plugin-aws-k8s-3.3.4.tar.gz tmp/resoto-plugin-aws-k8s-3.4.0.tar.gz --markdown 20230427/r/resoto-plugin-aws-k8s/3.3.4-3.4.0/diff.md --exclude *.pyd
+[2023-04-27 13:23:11] INFO root fetch - processPackages [resoto-plugin-posthog]: Start processing: resoto-plugin-scarf
+[2023-04-27 13:23:11] INFO root fetch - main [MainThread]: End processing [resoto-plugin-posthog]: success
+[2023-04-27 13:23:11] INFO root fetch - processPackages [resoto-plugin-scarf]: New version: [3.3.4] Old Version: [3.3.3]
+[2023-04-27 13:23:11] INFO root fetch - processPackages [resoto-plugin-random]: Start processing: lqg
+[2023-04-27 13:23:11] INFO root fetch - main [MainThread]: End processing [resoto-plugin-random]: success
+[2023-04-27 13:23:11] INFO root fetch - processPackages [lqg]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-04-27 13:23:11] INFO root fetch - processPackages [resoto-plugin-scarf]: executing diffoscope
+[2023-04-27 13:23:11] INFO root fetch - processPackages [resoto-plugin-scarf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resoto-plugin-scarf-3.3.3.tar.gz tmp/resoto-plugin-scarf-3.3.4.tar.gz --markdown 20230427/r/resoto-plugin-scarf/3.3.3-3.3.4/diff.md --exclude *.pyd
+[2023-04-27 13:23:11] INFO root fetch - processPackages [viper-lib]: Downloading https://files.pythonhosted.org/packages/42/c2/48ff8cbee9a41695553f2776abbf04ffb59e51a1e74fa106e130bc181ab8/viper_lib-0.5.2.tar.gz
+[2023-04-27 13:23:11] INFO root fetch - processPackages [lqg]: Downloading https://files.pythonhosted.org/packages/0f/cc/c797214838bad38eaf65b66b442466ab56eeddf03ce1115188779e37c50b/lqg-0.1.7.tar.gz
+[2023-04-27 13:23:11] INFO root fetch - processPackages [resoto-plugin-vsphere]: Start processing: resoto-plugin-k8s
+[2023-04-27 13:23:11] INFO root fetch - main [MainThread]: End processing [resoto-plugin-vsphere]: success
+[2023-04-27 13:23:11] INFO root fetch - processPackages [viper-lib]: executing diffoscope
+[2023-04-27 13:23:11] INFO root fetch - processPackages [viper-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viper_lib-0.5.1.tar.gz tmp/viper_lib-0.5.2.tar.gz --markdown 20230427/v/viper-lib/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-04-27 13:23:11] INFO root fetch - processPackages [resoto-plugin-k8s]: New version: [3.4.0] Old Version: [3.3.4]
+[2023-04-27 13:23:12] INFO root fetch - processPackages [resoto-plugin-k8s]: Downloading https://files.pythonhosted.org/packages/91/62/1212b1175e3d53a7515050fe6b01ab9ba16246df1fb70b88d41d04cbefd0/resoto-plugin-k8s-3.4.0.tar.gz
+[2023-04-27 13:23:12] INFO root fetch - processPackages [lqg]: Downloading https://files.pythonhosted.org/packages/c1/fc/d95a7f546f61620d0fec55f4597d1618c83f323b86f4acd22f1cf11abeeb/lqg-0.1.8.tar.gz
+[2023-04-27 13:23:12] INFO root fetch - processPackages [lqg]: executing diffoscope
+[2023-04-27 13:23:12] INFO root fetch - processPackages [lqg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lqg-0.1.7.tar.gz tmp/lqg-0.1.8.tar.gz --markdown 20230427/l/lqg/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-04-27 13:23:12] INFO root fetch - processPackages [resoto-plugin-k8s]: executing diffoscope
+[2023-04-27 13:23:12] INFO root fetch - processPackages [resoto-plugin-k8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resoto-plugin-k8s-3.3.4.tar.gz tmp/resoto-plugin-k8s-3.4.0.tar.gz --markdown 20230427/r/resoto-plugin-k8s/3.3.4-3.4.0/diff.md --exclude *.pyd
+[2023-04-27 13:23:12] INFO root fetch - processPackages [resoto-plugin-cleanup-aws-loadbalancers]: Start processing: rabbitmq-utils
+[2023-04-27 13:23:12] INFO root fetch - main [MainThread]: End processing [resoto-plugin-cleanup-aws-loadbalancers]: success
+[2023-04-27 13:23:12] WARNING root fetch - processPackages [rabbitmq-utils]: Skipping, unable to determine old version
+[2023-04-27 13:23:12] INFO root fetch - processPackages [rabbitmq-utils]: Start processing: resoto-plugin-digitalocean-k8s
+[2023-04-27 13:23:12] INFO root fetch - main [MainThread]: End processing [rabbitmq-utils] error
+[2023-04-27 13:23:12] INFO root fetch - processPackages [resoto-plugin-digitalocean-k8s]: New version: [3.3.4] Old Version: [3.3.3]
+[2023-04-27 13:23:12] INFO root fetch - main [MainThread]: End processing [resoto-plugin-protector]: success
+[2023-04-27 13:23:12] INFO root fetch - processPackages [resoto-plugin-digitalocean-k8s]: executing diffoscope
+[2023-04-27 13:23:12] INFO root fetch - processPackages [resoto-plugin-digitalocean-k8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resoto-plugin-digitalocean-k8s-3.3.3.tar.gz tmp/resoto-plugin-digitalocean-k8s-3.3.4.tar.gz --markdown 20230427/r/resoto-plugin-digitalocean-k8s/3.3.3-3.3.4/diff.md --exclude *.pyd
+[2023-04-27 13:23:13] INFO root fetch - main [MainThread]: End processing [resotometrics]: success
+[2023-04-27 13:23:14] INFO root fetch - main [MainThread]: End processing [resoto-plugin-aws-k8s]: success
+[2023-04-27 13:23:14] INFO root fetch - main [MainThread]: End processing [resoto-plugin-scarf]: success
+[2023-04-27 13:23:15] INFO root fetch - main [MainThread]: End processing [resoto-plugin-digitalocean-k8s]: success
+[2023-04-27 13:23:15] INFO root fetch - main [MainThread]: End processing [lqg]: success
+[2023-04-27 13:23:15] INFO root fetch - main [MainThread]: End processing [resoto-plugin-k8s]: success
+[2023-04-27 13:23:15] INFO root fetch - main [MainThread]: End processing [viper-lib]: success
+[2023-04-27 13:23:16] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2023-04-27 13:23:18] INFO root fetch - main [MainThread]: End processing [codeforlife-portal]: success
+[2023-04-27 13:23:18] INFO root fetch - main [MainThread]: Store serial: [17881932]
