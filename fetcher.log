@@ -15848,3 +15848,169 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 12:02:35] INFO root fetch - main [MainThread]: End processing [amlopschat]: success
 [2023-04-27 12:02:52] INFO root fetch - main [MainThread]: End processing [docarray]: success
 [2023-04-27 12:02:52] INFO root fetch - main [MainThread]: Store serial: [17881113]
+[2023-04-27 12:07:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17881113]
+[2023-04-27 12:08:01] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-04-27 12:08:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vitya
+[2023-04-27 12:08:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SpiNNUtilities
+[2023-04-27 12:08:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spectralib
+[2023-04-27 12:08:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SpiNNMachine
+[2023-04-27 12:08:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: SpiNNMan
+[2023-04-27 12:08:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: SpiNNaker-PACMAN
+[2023-04-27 12:08:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: SpiNNaker-DataSpecification
+[2023-04-27 12:08:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spalloc
+[2023-04-27 12:08:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spalloc-server
+[2023-04-27 12:08:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: SpiNNFrontEndCommon
+[2023-04-27 12:08:01] INFO root fetch - processPackages [vitya]: New version: [0.14.0] Old Version: [0.13.0]
+[2023-04-27 12:08:01] INFO root fetch - processPackages [SpiNNMachine]: New version: [3.0.0] Old Version: [2016.001]
+[2023-04-27 12:08:01] INFO root fetch - processPackages [spalloc]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-04-27 12:08:01] INFO root fetch - processPackages [SpiNNUtilities]: New version: [4.0.0a1] Old Version: [1!7.0.0a5]
+[2023-04-27 12:08:01] INFO root fetch - processPackages [SpiNNaker-DataSpecification]: New version: [3.0.0] Old Version: [2016.001]
+[2023-04-27 12:08:01] INFO root fetch - processPackages [SpiNNaker-PACMAN]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-04-27 12:08:01] INFO root fetch - processPackages [SpiNNMan]: New version: [3.0.0] Old Version: [2016.001]
+[2023-04-27 12:08:01] INFO root fetch - processPackages [SpiNNFrontEndCommon]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-04-27 12:08:01] INFO root fetch - processPackages [spectralib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 12:08:01] INFO root fetch - processPackages [spalloc-server]: New version: [1!7.0.0a5] Old Version: [1!7.0.0a4]
+[2023-04-27 12:08:02] INFO root fetch - processPackages [spectralib]: executing diffoscope
+[2023-04-27 12:08:02] INFO root fetch - processPackages [spectralib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spectralib-0.0.8.tar.gz tmp/spectralib-0.0.9.tar.gz --markdown 20230427/s/spectralib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 12:08:02] INFO root fetch - processPackages [SpiNNUtilities]: Downloading https://files.pythonhosted.org/packages/7f/13/1e227bc2b8d5be47839e35b688ca5e457f818738535f9412d1c0474ea0a2/SpiNNUtilities-1!7.0.0a5.tar.gz
+[2023-04-27 12:08:02] INFO root fetch - processPackages [vitya]: Downloading https://files.pythonhosted.org/packages/e7/89/16621b8c69c71f709a65841fe4af57e84b5496e0911d148fa88b8e0fa8cf/vitya-0.13.0.tar.gz
+[2023-04-27 12:08:02] INFO root fetch - processPackages [SpiNNMachine]: Downloading https://files.pythonhosted.org/packages/dc/19/f75a7d8aecbdc3195225873467e04cceeddee799bf55f35fee163175d675/SpiNNMachine-2016.001.zip
+[2023-04-27 12:08:02] INFO root fetch - processPackages [SpiNNFrontEndCommon]: Downloading https://files.pythonhosted.org/packages/f5/0a/d37b1995c85d05d3ab3fea1d3487a12f020a36fff44fd189d709b144bcc9/SpiNNFrontEndCommon-3.0.0.zip
+[2023-04-27 12:08:02] INFO root fetch - processPackages [SpiNNaker-PACMAN]: Downloading https://files.pythonhosted.org/packages/ef/b5/b503fa9d3865403c4e40725346fe94950399635947b30b7a6f543d1a5469/SpiNNaker_PACMAN-3.0.0.zip
+[2023-04-27 12:08:02] INFO root fetch - processPackages [spalloc]: Downloading https://files.pythonhosted.org/packages/31/c5/a5e08f8e6efe33b6536e408197bb4cc9d9b018b47884997a3c8cc3d2755b/spalloc-2.0.0.tar.gz
+[2023-04-27 12:08:02] INFO root fetch - processPackages [SpiNNaker-DataSpecification]: Downloading https://files.pythonhosted.org/packages/c6/e9/cf1cf04e1d2dcbf04b9e74e56c32326766062762317fafddece559f481cf/SpiNNaker_DataSpecification-2016.001.zip
+[2023-04-27 12:08:02] INFO root fetch - processPackages [spalloc-server]: Downloading https://files.pythonhosted.org/packages/82/49/9681fdc10123d24b4a641725674c40c85b2c8f9f665b2f7b38f8f9c9e354/spalloc_server-1!7.0.0a4.tar.gz
+[2023-04-27 12:08:02] INFO root fetch - processPackages [SpiNNMan]: Downloading https://files.pythonhosted.org/packages/d9/01/80e4aa2d6cc27e1ed7d786602debba0e16ddeb263c855e868ecb32d7a62c/SpiNNMan-2016.001.zip
+[2023-04-27 12:08:02] INFO root fetch - processPackages [spalloc]: Downloading https://files.pythonhosted.org/packages/2d/cc/c536dcce7c2c1b03753d88e705881079dffff0f172d43852e7a0f8831101/spalloc-2.0.1.tar.gz
+[2023-04-27 12:08:02] INFO root fetch - processPackages [SpiNNFrontEndCommon]: Downloading https://files.pythonhosted.org/packages/66/45/ca5f85d3df6e6d9ae6844e512ac756e24641cd7010e46a68f135c6cce05a/SpiNNFrontEndCommon-3.0.1.tar.gz
+[2023-04-27 12:08:02] INFO root fetch - processPackages [vitya]: Downloading https://files.pythonhosted.org/packages/6d/75/c2ca3875c731de835dc80417680723c0df99b2d75bbe0f0db4223658ef34/vitya-0.14.0.tar.gz
+[2023-04-27 12:08:02] INFO root fetch - processPackages [spalloc-server]: Downloading https://files.pythonhosted.org/packages/0d/ad/c677591b38cc816bff59208f58412ab3cd2451765d3c128d43ab0bab1070/spalloc_server-1!7.0.0a5.tar.gz
+[2023-04-27 12:08:02] INFO root fetch - processPackages [spalloc]: executing diffoscope
+[2023-04-27 12:08:02] INFO root fetch - processPackages [spalloc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spalloc-2.0.0.tar.gz tmp/spalloc-2.0.1.tar.gz --markdown 20230427/s/spalloc/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-04-27 12:08:02] INFO root fetch - processPackages [SpiNNaker-DataSpecification]: Downloading https://files.pythonhosted.org/packages/00/cf/8241c4d669cd91ad129145ebb12a7a2145b593ce3c1aee0c60327568c247/SpiNNaker_DataSpecification-3.0.0.zip
+[2023-04-27 12:08:02] INFO root fetch - processPackages [SpiNNMan]: Downloading https://files.pythonhosted.org/packages/fb/b1/b65deb49f73e94689da3824c6cb241a0b0a03264883404505b64d5927fd4/SpiNNMan-3.0.0.zip
+[2023-04-27 12:08:02] INFO root fetch - processPackages [vitya]: executing diffoscope
+[2023-04-27 12:08:02] INFO root fetch - processPackages [vitya]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vitya-0.13.0.tar.gz tmp/vitya-0.14.0.tar.gz --markdown 20230427/v/vitya/0.13.0-0.14.0/diff.md --exclude *.pyd
+[2023-04-27 12:08:02] INFO root fetch - processPackages [SpiNNUtilities]: Downloading https://files.pythonhosted.org/packages/ad/3a/99841349fcff38e96ccf35090b29e17c2f74ebfb37306456c4dc978fc4b9/SpiNNUtilities-4.0.0a1.tar.gz
+[2023-04-27 12:08:02] INFO root fetch - processPackages [SpiNNMachine]: Downloading https://files.pythonhosted.org/packages/2c/db/8ffd4e79c5e8b34a02af10dba648a15e35945256f6c500c27416d7486602/SpiNNMachine-3.0.0.zip
+[2023-04-27 12:08:02] INFO root fetch - processPackages [SpiNNaker-PACMAN]: Downloading https://files.pythonhosted.org/packages/e4/5b/efa91aa8cdee4fca32b79a73a79e2232f6926a4c579243ee2242b0592028/SpiNNaker_PACMAN-3.0.1.zip
+[2023-04-27 12:08:02] INFO root fetch - processPackages [SpiNNaker-DataSpecification]: executing diffoscope
+[2023-04-27 12:08:02] INFO root fetch - processPackages [SpiNNaker-DataSpecification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SpiNNaker_DataSpecification-2016.001.zip tmp/SpiNNaker_DataSpecification-3.0.0.zip --markdown 20230427/S/SpiNNaker-DataSpecification/2016.001-3.0.0/diff.md --exclude *.pyd
+[2023-04-27 12:08:02] INFO root fetch - processPackages [SpiNNUtilities]: executing diffoscope
+[2023-04-27 12:08:02] INFO root fetch - processPackages [SpiNNMan]: executing diffoscope
+[2023-04-27 12:08:02] INFO root fetch - processPackages [SpiNNUtilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SpiNNUtilities-1!7.0.0a5.tar.gz tmp/SpiNNUtilities-4.0.0a1.tar.gz --markdown 20230427/S/SpiNNUtilities/1!7.0.0a5-4.0.0a1/diff.md --exclude *.pyd
+[2023-04-27 12:08:02] INFO root fetch - processPackages [SpiNNMan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SpiNNMan-2016.001.zip tmp/SpiNNMan-3.0.0.zip --markdown 20230427/S/SpiNNMan/2016.001-3.0.0/diff.md --exclude *.pyd
+[2023-04-27 12:08:02] INFO root fetch - processPackages [SpiNNFrontEndCommon]: executing diffoscope
+[2023-04-27 12:08:02] INFO root fetch - processPackages [SpiNNFrontEndCommon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SpiNNFrontEndCommon-3.0.0.zip tmp/SpiNNFrontEndCommon-3.0.1.tar.gz --markdown 20230427/S/SpiNNFrontEndCommon/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-04-27 12:08:02] INFO root fetch - processPackages [SpiNNaker-PACMAN]: executing diffoscope
+[2023-04-27 12:08:02] INFO root fetch - processPackages [SpiNNaker-PACMAN]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SpiNNaker_PACMAN-3.0.0.zip tmp/SpiNNaker_PACMAN-3.0.1.zip --markdown 20230427/S/SpiNNaker-PACMAN/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-04-27 12:08:02] INFO root fetch - processPackages [SpiNNMachine]: executing diffoscope
+[2023-04-27 12:08:02] INFO root fetch - processPackages [SpiNNMachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SpiNNMachine-2016.001.zip tmp/SpiNNMachine-3.0.0.zip --markdown 20230427/S/SpiNNMachine/2016.001-3.0.0/diff.md --exclude *.pyd
+[2023-04-27 12:08:02] INFO root fetch - processPackages [spalloc-server]: executing diffoscope
+[2023-04-27 12:08:02] INFO root fetch - processPackages [spalloc-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spalloc_server-1!7.0.0a4.tar.gz tmp/spalloc_server-1!7.0.0a5.tar.gz --markdown 20230427/s/spalloc-server/1!7.0.0a4-1!7.0.0a5/diff.md --exclude *.pyd
+[2023-04-27 12:08:03] INFO root fetch - processPackages [spectralib]: Start processing: SpiNNakerTestBase
+[2023-04-27 12:08:03] INFO root fetch - main [MainThread]: End processing [spectralib]: success
+[2023-04-27 12:08:03] INFO root fetch - processPackages [SpiNNakerTestBase]: New version: [1!7.0.0a5] Old Version: [1!7.0.0a4]
+[2023-04-27 12:08:04] INFO root fetch - processPackages [SpiNNakerTestBase]: Downloading https://files.pythonhosted.org/packages/51/e2/d02fb05231f5bffaa39f47e5a45c20781f759a1d361f562be5489e2b247b/SpiNNakerTestBase-1!7.0.0a4.tar.gz
+[2023-04-27 12:08:04] INFO root fetch - processPackages [SpiNNakerTestBase]: Downloading https://files.pythonhosted.org/packages/77/b5/496a55377fa2526068e2de73fbc264ed7de6ec969849a0200e74720873af/SpiNNakerTestBase-1!7.0.0a5.tar.gz
+[2023-04-27 12:08:04] INFO root fetch - processPackages [SpiNNaker-DataSpecification]: Start processing: SpiNNakerGraphFrontEnd
+[2023-04-27 12:08:04] INFO root fetch - main [MainThread]: End processing [SpiNNaker-DataSpecification]: success
+[2023-04-27 12:08:04] INFO root fetch - processPackages [SpiNNakerGraphFrontEnd]: New version: [3.0.0] Old Version: [2016.001]
+[2023-04-27 12:08:04] INFO root fetch - processPackages [SpiNNakerTestBase]: executing diffoscope
+[2023-04-27 12:08:04] INFO root fetch - processPackages [SpiNNakerTestBase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SpiNNakerTestBase-1!7.0.0a4.tar.gz tmp/SpiNNakerTestBase-1!7.0.0a5.tar.gz --markdown 20230427/S/SpiNNakerTestBase/1!7.0.0a4-1!7.0.0a5/diff.md --exclude *.pyd
+[2023-04-27 12:08:04] INFO root fetch - processPackages [SpiNNMachine]: Start processing: sPyNNaker
+[2023-04-27 12:08:04] INFO root fetch - main [MainThread]: End processing [SpiNNMachine]: success
+[2023-04-27 12:08:04] INFO root fetch - processPackages [sPyNNaker]: New version: [3.0.0] Old Version: [2016.001.001]
+[2023-04-27 12:08:04] INFO root fetch - processPackages [SpiNNFrontEndCommon]: Start processing: sPyNNaker-visualisers
+[2023-04-27 12:08:04] INFO root fetch - main [MainThread]: End processing [SpiNNFrontEndCommon]: success
+[2023-04-27 12:08:04] INFO root fetch - processPackages [sPyNNaker-visualisers]: New version: [1!7.0.0a5] Old Version: [1!7.0.0a4]
+[2023-04-27 12:08:04] INFO root fetch - processPackages [SpiNNakerGraphFrontEnd]: Downloading https://files.pythonhosted.org/packages/d0/53/83b4318f37a7742352895ff678a5388bad7502d2affae084e9a05ff91481/SpiNNakerGraphFrontEnd-2016.001.zip
+[2023-04-27 12:08:04] INFO root fetch - processPackages [sPyNNaker]: Downloading https://files.pythonhosted.org/packages/b8/53/f012a6567804accdc25e7c8a71718056baa55008b2b2a4b6c86f051d1c99/sPyNNaker-2016.001.001.zip
+[2023-04-27 12:08:04] INFO root fetch - processPackages [vitya]: Start processing: pygtrans
+[2023-04-27 12:08:04] INFO root fetch - main [MainThread]: End processing [vitya]: success
+[2023-04-27 12:08:04] INFO root fetch - processPackages [pygtrans]: New version: [1.5.1] Old Version: [1.4.0]
+[2023-04-27 12:08:04] INFO root fetch - processPackages [spalloc]: Start processing: aliyun-python-sdk-cbn
+[2023-04-27 12:08:04] INFO root fetch - main [MainThread]: End processing [spalloc]: success
+[2023-04-27 12:08:04] INFO root fetch - processPackages [aliyun-python-sdk-cbn]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-27 12:08:05] INFO root fetch - processPackages [sPyNNaker-visualisers]: Downloading https://files.pythonhosted.org/packages/1a/1f/f97143b72d15c7f75193e3197c5248ff369a5d01c1b9e66d08f9812c4730/sPyNNaker_visualisers-1!7.0.0a4.tar.gz
+[2023-04-27 12:08:05] INFO root fetch - processPackages [pygtrans]: Downloading https://files.pythonhosted.org/packages/d1/9c/2ccce985a6e70e736360f7dc25165c6dae8cd5fab26988e3dfe1abf13a95/pygtrans-1.4.0.tar.gz
+[2023-04-27 12:08:05] INFO root fetch - processPackages [aliyun-python-sdk-cbn]: Downloading https://files.pythonhosted.org/packages/9b/06/a9c8bdc291552021f32489e6d948d2949a6f18bc8fee6754b8aecc9d1e2f/aliyun-python-sdk-cbn-1.0.8.tar.gz
+[2023-04-27 12:08:05] INFO root fetch - processPackages [sPyNNaker]: Downloading https://files.pythonhosted.org/packages/a9/d7/37cad4f65340cc6470a137db5de828fcaf818831099990eaacd239b55c95/sPyNNaker-3.0.0.zip
+[2023-04-27 12:08:05] INFO root fetch - processPackages [sPyNNaker-visualisers]: Downloading https://files.pythonhosted.org/packages/72/47/5b6cb5d7a3eb80edf336b8fb25b24677697b856dd607270e3016e686a079/sPyNNaker_visualisers-1!7.0.0a5.tar.gz
+[2023-04-27 12:08:05] INFO root fetch - processPackages [sPyNNaker]: executing diffoscope
+[2023-04-27 12:08:05] INFO root fetch - processPackages [sPyNNaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sPyNNaker-2016.001.001.zip tmp/sPyNNaker-3.0.0.zip --markdown 20230427/s/sPyNNaker/2016.001.001-3.0.0/diff.md --exclude *.pyd
+[2023-04-27 12:08:05] INFO root fetch - processPackages [SpiNNakerGraphFrontEnd]: Downloading https://files.pythonhosted.org/packages/1c/bb/371d8d24bde08cd2d6d3750819aa405528ce945e6d8dfaa1ed84b73496c4/SpiNNakerGraphFrontEnd-3.0.0.zip
+[2023-04-27 12:08:05] INFO root fetch - processPackages [SpiNNakerGraphFrontEnd]: executing diffoscope
+[2023-04-27 12:08:05] INFO root fetch - processPackages [SpiNNakerGraphFrontEnd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SpiNNakerGraphFrontEnd-2016.001.zip tmp/SpiNNakerGraphFrontEnd-3.0.0.zip --markdown 20230427/S/SpiNNakerGraphFrontEnd/2016.001-3.0.0/diff.md --exclude *.pyd
+[2023-04-27 12:08:05] INFO root fetch - processPackages [pygtrans]: Downloading https://files.pythonhosted.org/packages/7d/df/f4963b006bae3f5b2836c31b2f27908b102e0da104d64583c8e55124ab9c/pygtrans-1.5.1.tar.gz
+[2023-04-27 12:08:05] INFO root fetch - processPackages [sPyNNaker-visualisers]: executing diffoscope
+[2023-04-27 12:08:05] INFO root fetch - processPackages [sPyNNaker-visualisers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sPyNNaker_visualisers-1!7.0.0a4.tar.gz tmp/sPyNNaker_visualisers-1!7.0.0a5.tar.gz --markdown 20230427/s/sPyNNaker-visualisers/1!7.0.0a4-1!7.0.0a5/diff.md --exclude *.pyd
+[2023-04-27 12:08:05] INFO root fetch - processPackages [aliyun-python-sdk-cbn]: Downloading https://files.pythonhosted.org/packages/e2/b1/1e3d987ae888edcd445ba12c4d8f002e174d1ed23284cafeb15372a1b8c3/aliyun-python-sdk-cbn-1.0.9.tar.gz
+[2023-04-27 12:08:05] INFO root fetch - processPackages [pygtrans]: executing diffoscope
+[2023-04-27 12:08:05] INFO root fetch - processPackages [pygtrans]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygtrans-1.4.0.tar.gz tmp/pygtrans-1.5.1.tar.gz --markdown 20230427/p/pygtrans/1.4.0-1.5.1/diff.md --exclude *.pyd
+[2023-04-27 12:08:05] INFO root fetch - processPackages [aliyun-python-sdk-cbn]: executing diffoscope
+[2023-04-27 12:08:05] INFO root fetch - processPackages [aliyun-python-sdk-cbn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-cbn-1.0.8.tar.gz tmp/aliyun-python-sdk-cbn-1.0.9.tar.gz --markdown 20230427/a/aliyun-python-sdk-cbn/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-27 12:08:05] INFO root fetch - processPackages [SpiNNaker-PACMAN]: Start processing: yaecs
+[2023-04-27 12:08:05] INFO root fetch - main [MainThread]: End processing [SpiNNaker-PACMAN]: success
+[2023-04-27 12:08:05] INFO root fetch - processPackages [yaecs]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-04-27 12:08:05] INFO root fetch - processPackages [SpiNNUtilities]: Start processing: palmari
+[2023-04-27 12:08:05] INFO root fetch - main [MainThread]: End processing [SpiNNUtilities]: success
+[2023-04-27 12:08:05] INFO root fetch - processPackages [palmari]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-04-27 12:08:06] INFO root fetch - processPackages [palmari]: Downloading https://files.pythonhosted.org/packages/d0/a4/ab266ad6aa7b7823cb3a3be2f7465613edb31a3623b1ed41a07cb2d892bb/palmari-0.2.7.tar.gz
+[2023-04-27 12:08:06] INFO root fetch - processPackages [yaecs]: Downloading https://files.pythonhosted.org/packages/ae/ff/c471bf6fc2ad68cd59bd1c420b27f7463b4784ee3b21a419b362b3d7570c/yaecs-3.0.9.tar.gz
+[2023-04-27 12:08:06] INFO root fetch - processPackages [yaecs]: executing diffoscope
+[2023-04-27 12:08:06] INFO root fetch - processPackages [yaecs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaecs-3.0.8.tar.gz tmp/yaecs-3.0.9.tar.gz --markdown 20230427/y/yaecs/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-04-27 12:08:06] INFO root fetch - processPackages [palmari]: Downloading https://files.pythonhosted.org/packages/f3/ab/1a80b7a2250966843b254762addc5a9caac2cb1ca666dff636ade38fb181/palmari-0.2.8.tar.gz
+[2023-04-27 12:08:06] INFO root fetch - processPackages [SpiNNakerTestBase]: Start processing: sherlibs
+[2023-04-27 12:08:06] INFO root fetch - main [MainThread]: End processing [SpiNNakerTestBase]: success
+[2023-04-27 12:08:06] INFO root fetch - processPackages [sherlibs]: New version: [7.4.7] Old Version: [7.4.6]
+[2023-04-27 12:08:06] INFO root fetch - processPackages [spalloc-server]: Start processing: gate-api
+[2023-04-27 12:08:06] INFO root fetch - main [MainThread]: End processing [spalloc-server]: success
+[2023-04-27 12:08:06] INFO root fetch - processPackages [gate-api]: New version: [4.45.0] Old Version: [4.42.0]
+[2023-04-27 12:08:06] INFO root fetch - processPackages [palmari]: executing diffoscope
+[2023-04-27 12:08:06] INFO root fetch - processPackages [palmari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/palmari-0.2.7.tar.gz tmp/palmari-0.2.8.tar.gz --markdown 20230427/p/palmari/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-04-27 12:08:06] INFO root fetch - processPackages [sherlibs]: Downloading https://files.pythonhosted.org/packages/81/04/73d4c97f6650bf04298d4929faa653ad2f2abcef73acc21497b4dfb847f2/sherlibs-7.4.6.tar.gz
+[2023-04-27 12:08:06] INFO root fetch - processPackages [gate-api]: Downloading https://files.pythonhosted.org/packages/0b/f2/f949b6f8da109407ab614b64758dd126461c9ad1e2089ab7b4084bcdad09/gate-api-4.42.0.tar.gz
+[2023-04-27 12:08:06] INFO root fetch - processPackages [sherlibs]: Downloading https://files.pythonhosted.org/packages/41/2d/97064e98591b018ede36ceb2ecf7779f99f4c40ffe74614763a1782300f0/sherlibs-7.4.7.tar.gz
+[2023-04-27 12:08:07] INFO root fetch - processPackages [gate-api]: Downloading https://files.pythonhosted.org/packages/0c/c6/2d43a11ba99e1d0db97c23875d0c8295a2f0cd78bb3d4566a22b212cccc1/gate-api-4.45.0.tar.gz
+[2023-04-27 12:08:07] INFO root fetch - processPackages [sherlibs]: executing diffoscope
+[2023-04-27 12:08:07] INFO root fetch - processPackages [sherlibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sherlibs-7.4.6.tar.gz tmp/sherlibs-7.4.7.tar.gz --markdown 20230427/s/sherlibs/7.4.6-7.4.7/diff.md --exclude *.pyd
+[2023-04-27 12:08:07] INFO root fetch - processPackages [gate-api]: executing diffoscope
+[2023-04-27 12:08:07] INFO root fetch - processPackages [gate-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gate-api-4.42.0.tar.gz tmp/gate-api-4.45.0.tar.gz --markdown 20230427/g/gate-api/4.42.0-4.45.0/diff.md --exclude *.pyd
+[2023-04-27 12:08:07] INFO root fetch - processPackages [SpiNNMan]: Start processing: ew-sdk
+[2023-04-27 12:08:07] INFO root fetch - main [MainThread]: End processing [SpiNNMan]: success
+[2023-04-27 12:08:07] WARNING root fetch - processPackages [ew-sdk]: Skipping, unable to determine old version
+[2023-04-27 12:08:07] INFO root fetch - processPackages [ew-sdk]: Start processing: lovely-numpy
+[2023-04-27 12:08:07] INFO root fetch - main [MainThread]: End processing [ew-sdk] error
+[2023-04-27 12:08:07] INFO root fetch - processPackages [lovely-numpy]: New version: [0.2.9.dev1] Old Version: [0.2.9]
+[2023-04-27 12:08:07] INFO root fetch - processPackages [SpiNNakerGraphFrontEnd]: Start processing: ChatLLM
+[2023-04-27 12:08:07] INFO root fetch - main [MainThread]: End processing [SpiNNakerGraphFrontEnd]: success
+[2023-04-27 12:08:07] INFO root fetch - processPackages [ChatLLM]: New version: [2023.4.27.18.6.56] Old Version: [2023.4.27.13.20.47]
+[2023-04-27 12:08:07] INFO root fetch - processPackages [lovely-numpy]: Downloading https://files.pythonhosted.org/packages/f4/07/f5c5c5b19ccd87591022de9e21331cdd1f37128748d02cd0987ba1142952/lovely-numpy-0.2.9.tar.gz
+[2023-04-27 12:08:07] INFO root fetch - processPackages [ChatLLM]: Downloading https://files.pythonhosted.org/packages/d5/43/127e6c98a40c2c289000e7aee499e3bd8f3848b1312edf3f677306529a0f/ChatLLM-2023.4.27.18.6.56.tar.gz
+[2023-04-27 12:08:07] INFO root fetch - processPackages [lovely-numpy]: Downloading https://files.pythonhosted.org/packages/47/15/369b26024af2f5e618192cc2ddf8175e1eb273f06f23946b2f7733e8be59/lovely-numpy-0.2.9.dev1.tar.gz
+[2023-04-27 12:08:07] INFO root fetch - processPackages [ChatLLM]: executing diffoscope
+[2023-04-27 12:08:07] INFO root fetch - processPackages [ChatLLM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ChatLLM-2023.4.27.13.20.47.tar.gz tmp/ChatLLM-2023.4.27.18.6.56.tar.gz --markdown 20230427/C/ChatLLM/2023.4.27.13.20.47-2023.4.27.18.6.56/diff.md --exclude *.pyd
+[2023-04-27 12:08:07] INFO root fetch - processPackages [pygtrans]: Start processing: dataverk-airflow
+[2023-04-27 12:08:07] INFO root fetch - main [MainThread]: End processing [pygtrans]: success
+[2023-04-27 12:08:07] INFO root fetch - processPackages [sPyNNaker-visualisers]: Start processing: dialogy
+[2023-04-27 12:08:07] INFO root fetch - main [MainThread]: End processing [sPyNNaker-visualisers]: success
+[2023-04-27 12:08:07] INFO root fetch - processPackages [dataverk-airflow]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-04-27 12:08:07] INFO root fetch - processPackages [dialogy]: New version: [2.0.0] Old Version: [1.4.1]
+[2023-04-27 12:08:08] INFO root fetch - processPackages [dataverk-airflow]: executing diffoscope
+[2023-04-27 12:08:08] INFO root fetch - processPackages [dataverk-airflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataverk-airflow-0.4.8.tar.gz tmp/dataverk-airflow-0.4.9.tar.gz --markdown 20230427/d/dataverk-airflow/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-04-27 12:08:08] INFO root fetch - processPackages [dialogy]: executing diffoscope
+[2023-04-27 12:08:08] INFO root fetch - processPackages [dialogy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dialogy-1.4.1.tar.gz tmp/dialogy-2.0.0.tar.gz --markdown 20230427/d/dialogy/1.4.1-2.0.0/diff.md --exclude *.pyd
+[2023-04-27 12:08:08] INFO root fetch - main [MainThread]: End processing [palmari]: success
+[2023-04-27 12:08:08] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-cbn]: success
+[2023-04-27 12:08:08] INFO root fetch - processPackages [lovely-numpy]: executing diffoscope
+[2023-04-27 12:08:08] INFO root fetch - processPackages [lovely-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lovely-numpy-0.2.9.tar.gz tmp/lovely-numpy-0.2.9.dev1.tar.gz --markdown 20230427/l/lovely-numpy/0.2.9-0.2.9.dev1/diff.md --exclude *.pyd
+[2023-04-27 12:08:09] INFO root fetch - main [MainThread]: End processing [dataverk-airflow]: success
+[2023-04-27 12:08:09] INFO root fetch - main [MainThread]: End processing [sPyNNaker]: success
+[2023-04-27 12:08:09] INFO root fetch - main [MainThread]: End processing [yaecs]: success
+[2023-04-27 12:08:10] INFO root fetch - main [MainThread]: End processing [sherlibs]: success
+[2023-04-27 12:08:10] INFO root fetch - main [MainThread]: End processing [dialogy]: success
+[2023-04-27 12:08:10] INFO root fetch - main [MainThread]: End processing [gate-api]: success
+[2023-04-27 12:08:10] INFO root fetch - main [MainThread]: End processing [lovely-numpy]: success
+[2023-04-27 12:08:14] INFO root fetch - main [MainThread]: End processing [ChatLLM]: success
+[2023-04-27 12:08:14] INFO root fetch - main [MainThread]: Store serial: [17881194]
