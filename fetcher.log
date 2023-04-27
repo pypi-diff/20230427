@@ -8776,3 +8776,25 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 05:25:02] INFO root fetch - processPackages [cdktf-cdktf-provider-datadog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-datadog-6.0.0.tar.gz tmp/cdktf-cdktf-provider-datadog-6.0.1.tar.gz --markdown 20230427/c/cdktf-cdktf-provider-datadog/6.0.0-6.0.1/diff.md --exclude *.pyd
 [2023-04-27 05:25:13] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-datadog]: success
 [2023-04-27 05:25:13] INFO root fetch - main [MainThread]: Store serial: [17877124]
+[2023-04-27 05:30:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17877124]
+[2023-04-27 05:30:24] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-04-27 05:30:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: azure-mgmt-network
+[2023-04-27 05:30:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: loggerml
+[2023-04-27 05:30:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dinohub-seedwork-be
+[2023-04-27 05:30:24] INFO root fetch - processPackages [dinohub-seedwork-be]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-27 05:30:24] INFO root fetch - processPackages [azure-mgmt-network]: New version: [9.0.0] Old Version: [8.0.0]
+[2023-04-27 05:30:24] INFO root fetch - processPackages [loggerml]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-27 05:30:24] INFO root fetch - processPackages [dinohub-seedwork-be]: executing diffoscope
+[2023-04-27 05:30:24] INFO root fetch - processPackages [dinohub-seedwork-be]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dinohub_seedwork_be-0.1.8.tar.gz tmp/dinohub_seedwork_be-0.1.9.tar.gz --markdown 20230427/d/dinohub-seedwork-be/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-27 05:30:24] INFO root fetch - processPackages [loggerml]: Downloading https://files.pythonhosted.org/packages/ac/d5/6ee84f8c948c624417f3997e92b07b9669d5afcf4882550f30da1836d208/loggerml-0.1.2.tar.gz
+[2023-04-27 05:30:24] INFO root fetch - processPackages [azure-mgmt-network]: Downloading https://files.pythonhosted.org/packages/97/28/6cb33ab8c36044241c708815e56b398171df214336064449abe946b22569/azure-mgmt-network-8.0.0.zip
+[2023-04-27 05:30:24] INFO root fetch - processPackages [loggerml]: Downloading https://files.pythonhosted.org/packages/1e/3c/5d28290097201cb0905b49eff23da329fbdf317db7ef0daf634535596359/loggerml-0.1.3.tar.gz
+[2023-04-27 05:30:24] INFO root fetch - processPackages [loggerml]: executing diffoscope
+[2023-04-27 05:30:24] INFO root fetch - processPackages [loggerml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loggerml-0.1.2.tar.gz tmp/loggerml-0.1.3.tar.gz --markdown 20230427/l/loggerml/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-27 05:30:25] INFO root fetch - main [MainThread]: End processing [dinohub-seedwork-be]: success
+[2023-04-27 05:30:25] INFO root fetch - main [MainThread]: End processing [loggerml]: success
+[2023-04-27 05:30:26] INFO root fetch - processPackages [azure-mgmt-network]: Downloading https://files.pythonhosted.org/packages/44/e7/700fc045e69afd654874ab4b7ccb07d2df6284785eb9d28381dede0eb775/azure-mgmt-network-9.0.0.zip
+[2023-04-27 05:30:28] INFO root fetch - processPackages [azure-mgmt-network]: executing diffoscope
+[2023-04-27 05:30:28] INFO root fetch - processPackages [azure-mgmt-network]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-network-8.0.0.zip tmp/azure-mgmt-network-9.0.0.zip --markdown 20230427/a/azure-mgmt-network/8.0.0-9.0.0/diff.md --exclude *.pyd
+[2023-04-27 05:30:58] INFO root fetch - main [MainThread]: End processing [azure-mgmt-network]: success
+[2023-04-27 05:30:58] INFO root fetch - main [MainThread]: Store serial: [17877142]
