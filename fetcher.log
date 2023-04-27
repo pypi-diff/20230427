@@ -12628,3 +12628,119 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 10:12:10] INFO root fetch - main [MainThread]: End processing [pyglove]: success
 [2023-04-27 10:12:26] INFO root fetch - main [MainThread]: End processing [localcosmos-cordova-builder]: success
 [2023-04-27 10:12:26] INFO root fetch - main [MainThread]: Store serial: [17879365]
+[2023-04-27 10:17:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17879365]
+[2023-04-27 10:17:35] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-04-27 10:17:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cnswd
+[2023-04-27 10:17:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pikajson
+[2023-04-27 10:17:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qeng-admin-api
+[2023-04-27 10:17:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyunique
+[2023-04-27 10:17:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-product-fao-fishing
+[2023-04-27 10:17:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: visiongraph
+[2023-04-27 10:17:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dxsp
+[2023-04-27 10:17:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tonconsole
+[2023-04-27 10:17:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: laboneq
+[2023-04-27 10:17:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ptfit
+[2023-04-27 10:17:36] INFO root fetch - processPackages [cnswd]: New version: [5.0.1] Old Version: [5.0.0]
+[2023-04-27 10:17:36] WARNING root fetch - processPackages [tonconsole]: Skipping, unable to determine old version
+[2023-04-27 10:17:36] INFO root fetch - processPackages [tonconsole]: Start processing: fetchai-babble
+[2023-04-27 10:17:36] INFO root fetch - main [MainThread]: End processing [tonconsole] error
+[2023-04-27 10:17:36] WARNING root fetch - processPackages [odoo14-addon-product-fao-fishing]: Skipping, unable to determine old version
+[2023-04-27 10:17:36] INFO root fetch - processPackages [pikajson]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-27 10:17:36] WARNING root fetch - processPackages [ptfit]: Skipping, unable to determine old version
+[2023-04-27 10:17:36] INFO root fetch - processPackages [laboneq]: New version: [2.5.0] Old Version: [2.4.0]
+[2023-04-27 10:17:36] WARNING root fetch - processPackages [qeng-admin-api]: Skipping, unable to determine old version
+[2023-04-27 10:17:36] INFO root fetch - processPackages [pyunique]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 10:17:36] INFO root fetch - processPackages [odoo14-addon-product-fao-fishing]: Start processing: pytsv
+[2023-04-27 10:17:36] INFO root fetch - main [MainThread]: End processing [odoo14-addon-product-fao-fishing] error
+[2023-04-27 10:17:36] INFO root fetch - processPackages [ptfit]: Start processing: mpservice
+[2023-04-27 10:17:36] INFO root fetch - processPackages [visiongraph]: New version: [0.1.44.3] Old Version: [0.1.44.2]
+[2023-04-27 10:17:36] INFO root fetch - processPackages [qeng-admin-api]: Start processing: maliapicall
+[2023-04-27 10:17:36] INFO root fetch - main [MainThread]: End processing [ptfit] error
+[2023-04-27 10:17:36] INFO root fetch - processPackages [dxsp]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-04-27 10:17:36] INFO root fetch - main [MainThread]: End processing [qeng-admin-api] error
+[2023-04-27 10:17:36] INFO root fetch - processPackages [mpservice]: New version: [0.9.9.post1] Old Version: [0.9.9]
+[2023-04-27 10:17:36] INFO root fetch - processPackages [cnswd]: Downloading https://files.pythonhosted.org/packages/0a/9f/8c9826bf7e6c0e8eae8554040e7327ca0d81698352f3c04a7e514a835df5/cnswd-5.0.0.tar.gz
+[2023-04-27 10:17:36] INFO root fetch - processPackages [fetchai-babble]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-04-27 10:17:36] INFO root fetch - processPackages [pytsv]: New version: [0.1.68] Old Version: [0.1.67]
+[2023-04-27 10:17:36] WARNING root fetch - processPackages [maliapicall]: Skipping, unable to determine old version
+[2023-04-27 10:17:36] INFO root fetch - processPackages [maliapicall]: Start processing: sphere-base
+[2023-04-27 10:17:36] INFO root fetch - main [MainThread]: End processing [maliapicall] error
+[2023-04-27 10:17:36] INFO root fetch - processPackages [pikajson]: Downloading https://files.pythonhosted.org/packages/8b/63/1cdc488ff6574db520276a03d5c506b70fefeb17da893eb5440e0dfe2961/pikajson-0.1.5.tar.gz
+[2023-04-27 10:17:36] INFO root fetch - processPackages [pyunique]: Downloading https://files.pythonhosted.org/packages/84/9f/69d0dad2a18b8db003696f62483af8e6342e8425630c3bd7b3a5307264eb/pyunique-0.0.8.tar.gz
+[2023-04-27 10:17:36] INFO root fetch - processPackages [laboneq]: Downloading https://files.pythonhosted.org/packages/30/c6/2bcf454c51021e8a4bcfa943f4e083223d21c9faa2f807d14d4c5eab82f5/laboneq-2.4.0-py3-none-any.whl
+[2023-04-27 10:17:36] INFO root fetch - processPackages [visiongraph]: Downloading https://files.pythonhosted.org/packages/98/a2/d554c0d2dbe3e3d0735931afabf2921e6e4a366a46e1f499aaf1f568c99d/visiongraph-0.1.44.2-py3-none-any.whl
+[2023-04-27 10:17:36] INFO root fetch - processPackages [sphere-base]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-27 10:17:36] INFO root fetch - processPackages [fetchai-babble]: Downloading https://files.pythonhosted.org/packages/3e/cd/53ac163170b4a67146104742033b9706f8923e95cb4badcf0c017ca52b7c/fetchai_babble-0.1.1.tar.gz
+[2023-04-27 10:17:36] INFO root fetch - processPackages [pytsv]: Downloading https://files.pythonhosted.org/packages/ed/56/291988070162c6f1667e1d8a0454a7295e2617883758417a260af5f1011a/pytsv-0.1.67.tar.gz
+[2023-04-27 10:17:36] INFO root fetch - processPackages [sphere-base]: Downloading https://files.pythonhosted.org/packages/9c/6f/fcff029ec5d572acbbb18bf4b7a917612d009aa01a8705c63d8f842bf28c/sphere_base-0.1.8.tar.gz
+[2023-04-27 10:17:36] INFO root fetch - processPackages [cnswd]: Downloading https://files.pythonhosted.org/packages/7d/f6/87b194cf96331081509b8cecec1a6d92c02217686d8ae280f26b83c954c3/cnswd-5.0.1.tar.gz
+[2023-04-27 10:17:36] INFO root fetch - processPackages [sphere-base]: Downloading https://files.pythonhosted.org/packages/23/b2/d195ee1ab25a64139920b673166142e80649e630347652252756eb6482e2/sphere_base-0.1.9.tar.gz
+[2023-04-27 10:17:36] INFO root fetch - processPackages [mpservice]: executing diffoscope
+[2023-04-27 10:17:36] INFO root fetch - processPackages [mpservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpservice-0.9.9.tar.gz tmp/mpservice-0.9.9.post1.tar.gz --markdown 20230427/m/mpservice/0.9.9-0.9.9.post1/diff.md --exclude *.pyd
+[2023-04-27 10:17:36] INFO root fetch - processPackages [pikajson]: Downloading https://files.pythonhosted.org/packages/96/40/5934860ff45054f8f9d6c97ea7e9b3b174ba174417249bdfbf4a8c83cc1e/pikajson-0.1.6.tar.gz
+[2023-04-27 10:17:36] INFO root fetch - processPackages [dxsp]: executing diffoscope
+[2023-04-27 10:17:36] INFO root fetch - processPackages [dxsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxsp-1.2.8.tar.gz tmp/dxsp-1.2.9.tar.gz --markdown 20230427/d/dxsp/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-04-27 10:17:36] INFO root fetch - processPackages [visiongraph]: Downloading https://files.pythonhosted.org/packages/6f/6a/19d850f7d3c3ee35e4a600bbe7976233651248ff86bb0e579ce2e17f19ce/visiongraph-0.1.44.3-py3-none-any.whl
+[2023-04-27 10:17:36] INFO root fetch - processPackages [sphere-base]: executing diffoscope
+[2023-04-27 10:17:36] INFO root fetch - processPackages [sphere-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphere_base-0.1.8.tar.gz tmp/sphere_base-0.1.9.tar.gz --markdown 20230427/s/sphere-base/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-27 10:17:36] INFO root fetch - processPackages [cnswd]: executing diffoscope
+[2023-04-27 10:17:36] INFO root fetch - processPackages [cnswd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cnswd-5.0.0.tar.gz tmp/cnswd-5.0.1.tar.gz --markdown 20230427/c/cnswd/5.0.0-5.0.1/diff.md --exclude *.pyd
+[2023-04-27 10:17:36] INFO root fetch - processPackages [pyunique]: Downloading https://files.pythonhosted.org/packages/46/2a/65b5068ded80228276343a4003b6ede91e42d446f4053f83babdf62d8c04/pyunique-0.0.9.tar.gz
+[2023-04-27 10:17:36] INFO root fetch - processPackages [laboneq]: Downloading https://files.pythonhosted.org/packages/27/35/708857f272e70bfb982cdbf64403f8f5a2dda24d5c4885a68e3ddeff7245/laboneq-2.5.0-py3-none-any.whl
+[2023-04-27 10:17:36] INFO root fetch - processPackages [fetchai-babble]: Downloading https://files.pythonhosted.org/packages/06/7e/a3e0d76f606d6a02f11533c7691b88fc8a69c5167ae30fa7a1877886882c/fetchai_babble-0.2.0.tar.gz
+[2023-04-27 10:17:36] INFO root fetch - processPackages [pikajson]: executing diffoscope
+[2023-04-27 10:17:36] INFO root fetch - processPackages [pikajson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pikajson-0.1.5.tar.gz tmp/pikajson-0.1.6.tar.gz --markdown 20230427/p/pikajson/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-27 10:17:36] INFO root fetch - processPackages [visiongraph]: executing diffoscope
+[2023-04-27 10:17:36] INFO root fetch - processPackages [visiongraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visiongraph-0.1.44.2-py3-none-any.whl.zip tmp/visiongraph-0.1.44.3-py3-none-any.whl.zip --markdown 20230427/v/visiongraph/0.1.44.2-0.1.44.3/diff.md --exclude *.pyd
+[2023-04-27 10:17:36] INFO root fetch - processPackages [pytsv]: Downloading https://files.pythonhosted.org/packages/1d/53/090424bceb7f097b04ad80286096b9c95960f90ffa78aaabf6d465c29bc0/pytsv-0.1.68.tar.gz
+[2023-04-27 10:17:36] INFO root fetch - processPackages [pyunique]: executing diffoscope
+[2023-04-27 10:17:36] INFO root fetch - processPackages [pyunique]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyunique-0.0.8.tar.gz tmp/pyunique-0.0.9.tar.gz --markdown 20230427/p/pyunique/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 10:17:36] INFO root fetch - processPackages [laboneq]: executing diffoscope
+[2023-04-27 10:17:36] INFO root fetch - processPackages [laboneq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/laboneq-2.4.0-py3-none-any.whl.zip tmp/laboneq-2.5.0-py3-none-any.whl.zip --markdown 20230427/l/laboneq/2.4.0-2.5.0/diff.md --exclude *.pyd
+[2023-04-27 10:17:37] INFO root fetch - processPackages [fetchai-babble]: executing diffoscope
+[2023-04-27 10:17:37] INFO root fetch - processPackages [fetchai-babble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fetchai_babble-0.1.1.tar.gz tmp/fetchai_babble-0.2.0.tar.gz --markdown 20230427/f/fetchai-babble/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-04-27 10:17:37] INFO root fetch - processPackages [pytsv]: executing diffoscope
+[2023-04-27 10:17:37] INFO root fetch - processPackages [pytsv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytsv-0.1.67.tar.gz tmp/pytsv-0.1.68.tar.gz --markdown 20230427/p/pytsv/0.1.67-0.1.68/diff.md --exclude *.pyd
+[2023-04-27 10:17:38] INFO root fetch - processPackages [dxsp]: Start processing: lidar-visualizer
+[2023-04-27 10:17:38] INFO root fetch - main [MainThread]: End processing [dxsp]: success
+[2023-04-27 10:17:38] INFO root fetch - processPackages [pikajson]: Start processing: prometheus-http-sd
+[2023-04-27 10:17:38] INFO root fetch - main [MainThread]: End processing [pikajson]: success
+[2023-04-27 10:17:38] INFO root fetch - processPackages [prometheus-http-sd]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-04-27 10:17:38] WARNING root fetch - processPackages [lidar-visualizer]: Skipping, unable to determine old version
+[2023-04-27 10:17:38] INFO root fetch - processPackages [lidar-visualizer]: Start processing: torrentfile
+[2023-04-27 10:17:38] INFO root fetch - main [MainThread]: End processing [lidar-visualizer] error
+[2023-04-27 10:17:38] INFO root fetch - processPackages [prometheus-http-sd]: executing diffoscope
+[2023-04-27 10:17:38] INFO root fetch - processPackages [prometheus-http-sd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prometheus_http_sd-1.1.8.tar.gz tmp/prometheus_http_sd-1.1.9.tar.gz --markdown 20230427/p/prometheus-http-sd/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-04-27 10:17:38] INFO root fetch - processPackages [torrentfile]: New version: [0.8.8] Old Version: [0.8.7]
+[2023-04-27 10:17:38] INFO root fetch - processPackages [fetchai-babble]: Start processing: verime
+[2023-04-27 10:17:38] INFO root fetch - main [MainThread]: End processing [fetchai-babble]: success
+[2023-04-27 10:17:38] INFO root fetch - processPackages [pyunique]: Start processing: pyawskit
+[2023-04-27 10:17:38] INFO root fetch - main [MainThread]: End processing [pyunique]: success
+[2023-04-27 10:17:38] WARNING root fetch - processPackages [verime]: Skipping, unable to determine old version
+[2023-04-27 10:17:38] INFO root fetch - processPackages [verime]: Start processing: fastapi-async-langchain
+[2023-04-27 10:17:38] INFO root fetch - main [MainThread]: End processing [verime] error
+[2023-04-27 10:17:38] INFO root fetch - processPackages [pyawskit]: New version: [0.1.72] Old Version: [0.1.71]
+[2023-04-27 10:17:38] INFO root fetch - processPackages [torrentfile]: Downloading https://files.pythonhosted.org/packages/9b/06/711e96742be5456eb7febe86ae9e1dafacb6f393feec4a9910216004d807/torrentfile-0.8.7.tar.gz
+[2023-04-27 10:17:38] INFO root fetch - processPackages [fastapi-async-langchain]: New version: [0.3.3] Old Version: [0.3.1]
+[2023-04-27 10:17:39] INFO root fetch - main [MainThread]: End processing [pytsv]: success
+[2023-04-27 10:17:39] INFO root fetch - main [MainThread]: End processing [mpservice]: success
+[2023-04-27 10:17:39] INFO root fetch - processPackages [fastapi-async-langchain]: Downloading https://files.pythonhosted.org/packages/fe/b8/fd9ab2fc7044d92b435691f0c05a8c41ed96d2db5d5508d07e6505530d36/fastapi_async_langchain-0.3.1.tar.gz
+[2023-04-27 10:17:39] INFO root fetch - processPackages [pyawskit]: Downloading https://files.pythonhosted.org/packages/ea/96/af9f80bd4edb651bce9e0b89ce62e5e374a52a40b4016e4786569ae602f2/pyawskit-0.1.71.tar.gz
+[2023-04-27 10:17:39] INFO root fetch - processPackages [torrentfile]: Downloading https://files.pythonhosted.org/packages/73/b0/2a27e454a36df8acc040a63e15fa52c24add7239c1b41a401e77f1d5bc7a/torrentfile-0.8.8.tar.gz
+[2023-04-27 10:17:39] INFO root fetch - processPackages [pyawskit]: Downloading https://files.pythonhosted.org/packages/34/33/efc46050e3c7617e4e366ed41239d667118596381b401bdf490a927c1f12/pyawskit-0.1.72.tar.gz
+[2023-04-27 10:17:39] INFO root fetch - processPackages [fastapi-async-langchain]: Downloading https://files.pythonhosted.org/packages/04/d0/12d161f19094a11ecbb66cfb4217ec86c71adcce7ed80a1041fc2006d5fa/fastapi_async_langchain-0.3.3.tar.gz
+[2023-04-27 10:17:39] INFO root fetch - processPackages [pyawskit]: executing diffoscope
+[2023-04-27 10:17:39] INFO root fetch - processPackages [pyawskit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyawskit-0.1.71.tar.gz tmp/pyawskit-0.1.72.tar.gz --markdown 20230427/p/pyawskit/0.1.71-0.1.72/diff.md --exclude *.pyd
+[2023-04-27 10:17:39] INFO root fetch - processPackages [fastapi-async-langchain]: executing diffoscope
+[2023-04-27 10:17:39] INFO root fetch - processPackages [fastapi-async-langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_async_langchain-0.3.1.tar.gz tmp/fastapi_async_langchain-0.3.3.tar.gz --markdown 20230427/f/fastapi-async-langchain/0.3.1-0.3.3/diff.md --exclude *.pyd
+[2023-04-27 10:17:39] INFO root fetch - processPackages [torrentfile]: executing diffoscope
+[2023-04-27 10:17:39] INFO root fetch - processPackages [torrentfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torrentfile-0.8.7.tar.gz tmp/torrentfile-0.8.8.tar.gz --markdown 20230427/t/torrentfile/0.8.7-0.8.8/diff.md --exclude *.pyd
+[2023-04-27 10:17:39] INFO root fetch - main [MainThread]: End processing [prometheus-http-sd]: success
+[2023-04-27 10:17:40] INFO root fetch - main [MainThread]: End processing [cnswd]: success
+[2023-04-27 10:17:40] INFO root fetch - main [MainThread]: End processing [visiongraph]: success
+[2023-04-27 10:17:40] INFO root fetch - main [MainThread]: End processing [fastapi-async-langchain]: success
+[2023-04-27 10:17:40] INFO root fetch - main [MainThread]: End processing [pyawskit]: success
+[2023-04-27 10:17:41] INFO root fetch - main [MainThread]: End processing [torrentfile]: success
+[2023-04-27 10:17:41] INFO root fetch - main [MainThread]: End processing [laboneq]: success
+[2023-04-27 10:17:43] INFO root fetch - main [MainThread]: End processing [sphere-base]: success
+[2023-04-27 10:17:43] INFO root fetch - main [MainThread]: Store serial: [17879439]
