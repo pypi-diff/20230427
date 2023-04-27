@@ -16014,3 +16014,115 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 12:08:10] INFO root fetch - main [MainThread]: End processing [lovely-numpy]: success
 [2023-04-27 12:08:14] INFO root fetch - main [MainThread]: End processing [ChatLLM]: success
 [2023-04-27 12:08:14] INFO root fetch - main [MainThread]: Store serial: [17881194]
+[2023-04-27 12:13:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17881194]
+[2023-04-27 12:13:25] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-04-27 12:13:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aliyun-python-sdk-imm
+[2023-04-27 12:13:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: libertem-asi-tpx3
+[2023-04-27 12:13:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: libertem-dectris
+[2023-04-27 12:13:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alibabacloud-cbn20170912-py2
+[2023-04-27 12:13:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: isla-solver
+[2023-04-27 12:13:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: datatime-lib
+[2023-04-27 12:13:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ramodels
+[2023-04-27 12:13:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: converter-package
+[2023-04-27 12:13:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bionty
+[2023-04-27 12:13:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: alibabacloud-cbn20170912
+[2023-04-27 12:13:25] INFO root fetch - processPackages [libertem-asi-tpx3]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-27 12:13:25] WARNING root fetch - processPackages [datatime-lib]: Skipping, unable to determine old version
+[2023-04-27 12:13:25] INFO root fetch - processPackages [datatime-lib]: Start processing: uaddress
+[2023-04-27 12:13:25] INFO root fetch - main [MainThread]: End processing [datatime-lib] error
+[2023-04-27 12:13:25] INFO root fetch - processPackages [converter-package]: New version: [3.0] Old Version: [2.9]
+[2023-04-27 12:13:25] INFO root fetch - processPackages [alibabacloud-cbn20170912-py2]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-27 12:13:25] INFO root fetch - processPackages [aliyun-python-sdk-imm]: New version: [2.1.13] Old Version: [2.1.12]
+[2023-04-27 12:13:25] INFO root fetch - processPackages [bionty]: New version: [0.9.0rc1] Old Version: [0.9.0]
+[2023-04-27 12:13:25] INFO root fetch - processPackages [libertem-dectris]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-27 12:13:25] INFO root fetch - processPackages [uaddress]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-04-27 12:13:25] INFO root fetch - processPackages [alibabacloud-cbn20170912]: New version: [1.0.28] Old Version: [1.0.27]
+[2023-04-27 12:13:25] INFO root fetch - processPackages [isla-solver]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-04-27 12:13:25] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-04-27 12:13:25] INFO root fetch - processPackages [isla-solver]: executing diffoscope
+[2023-04-27 12:13:25] INFO root fetch - processPackages [isla-solver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isla-solver-1.9.8.tar.gz tmp/isla-solver-1.9.9.tar.gz --markdown 20230427/i/isla-solver/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-04-27 12:13:25] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-04-27 12:13:25] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230427/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-04-27 12:13:25] INFO root fetch - processPackages [libertem-asi-tpx3]: Downloading https://files.pythonhosted.org/packages/7f/aa/79503bd04c71b72bff274da6313ce46a9a188c97a2e577c1ad34b9fa98b4/libertem_asi_tpx3-0.2.8.tar.gz
+[2023-04-27 12:13:25] INFO root fetch - processPackages [alibabacloud-cbn20170912-py2]: Downloading https://files.pythonhosted.org/packages/4b/89/8c28c4bbaa9e9b7e8211e98f9a6b6a8e055a25c2e008adca13a1d1ce7f37/alibabacloud_cbn20170912_py2-1.0.8.tar.gz
+[2023-04-27 12:13:25] INFO root fetch - processPackages [bionty]: Downloading https://files.pythonhosted.org/packages/99/96/56b5f6e7d406917b173d9b761f4b2ff41b68d375105fe40b9b23131b295d/bionty-0.9.0.tar.gz
+[2023-04-27 12:13:25] INFO root fetch - processPackages [uaddress]: Downloading https://files.pythonhosted.org/packages/80/e1/9738ef784ef94dec22b0a46340f30ade0f54f4c305137f3365f1405e7320/uaddress-1.0.5.tar.gz
+[2023-04-27 12:13:25] INFO root fetch - processPackages [aliyun-python-sdk-imm]: Downloading https://files.pythonhosted.org/packages/57/6c/a52c593c94c5735803f3eeb3cef5389a9d21493d57d0caa5cdf46769bfc6/aliyun-python-sdk-imm-2.1.12.tar.gz
+[2023-04-27 12:13:25] INFO root fetch - processPackages [alibabacloud-cbn20170912]: Downloading https://files.pythonhosted.org/packages/3c/40/331c339ffe67ae6b8fdce010e22d2fbf8f620763b6c0add183c49f48c9aa/alibabacloud_cbn20170912-1.0.27.tar.gz
+[2023-04-27 12:13:25] INFO root fetch - processPackages [converter-package]: Downloading https://files.pythonhosted.org/packages/d5/5d/6f8259c6a0fbda5c82ceaca20f383dda155f3426a6f2d041ed1c8fcba2c0/converter_package-3.0.tar.gz
+[2023-04-27 12:13:25] INFO root fetch - processPackages [libertem-dectris]: Downloading https://files.pythonhosted.org/packages/22/b5/f4c35049f24e10bd8c562bbcfd720d4344992202f1fe5a04fa3c772165ee/libertem_dectris-0.2.8.tar.gz
+[2023-04-27 12:13:25] INFO root fetch - processPackages [converter-package]: executing diffoscope
+[2023-04-27 12:13:25] INFO root fetch - processPackages [converter-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/converter_package-2.9.tar.gz tmp/converter_package-3.0.tar.gz --markdown 20230427/c/converter-package/2.9-3.0/diff.md --exclude *.pyd
+[2023-04-27 12:13:26] INFO root fetch - processPackages [bionty]: Downloading https://files.pythonhosted.org/packages/f4/01/3a99104d9a37cf7fbdae5c733cec97f252f8eb35f5553cd253a05edf8420/bionty-0.9.0rc1.tar.gz
+[2023-04-27 12:13:26] INFO root fetch - processPackages [uaddress]: Downloading https://files.pythonhosted.org/packages/58/d2/53a7a55de725242b4dc90a6d5bf240324b1da404a98fcd7342fbe28aad96/uaddress-1.0.6.tar.gz
+[2023-04-27 12:13:26] INFO root fetch - processPackages [aliyun-python-sdk-imm]: Downloading https://files.pythonhosted.org/packages/1f/22/ba17c6798d75c04f62e590d53658f9497cc46657ae86ac5a184ac0a1ccc0/aliyun-python-sdk-imm-2.1.13.tar.gz
+[2023-04-27 12:13:26] INFO root fetch - processPackages [alibabacloud-cbn20170912]: Downloading https://files.pythonhosted.org/packages/05/11/20211a822ae935090d1eff6cfe1c8cd332b9ee96bb6926f7161f98f59b36/alibabacloud_cbn20170912-1.0.28.tar.gz
+[2023-04-27 12:13:26] INFO root fetch - processPackages [alibabacloud-cbn20170912-py2]: Downloading https://files.pythonhosted.org/packages/23/da/84a5845bd53d463e1b14af3bca2ac9eb7f901404251d6893cff34c8cbc51/alibabacloud_cbn20170912_py2-1.0.9.tar.gz
+[2023-04-27 12:13:26] INFO root fetch - processPackages [aliyun-python-sdk-imm]: executing diffoscope
+[2023-04-27 12:13:26] INFO root fetch - processPackages [aliyun-python-sdk-imm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-imm-2.1.12.tar.gz tmp/aliyun-python-sdk-imm-2.1.13.tar.gz --markdown 20230427/a/aliyun-python-sdk-imm/2.1.12-2.1.13/diff.md --exclude *.pyd
+[2023-04-27 12:13:26] INFO root fetch - processPackages [libertem-asi-tpx3]: Downloading https://files.pythonhosted.org/packages/88/4c/f2242d4ff2202dfafccbfaa66fe5c5fbce313b685a9b25ae2931da93dba8/libertem_asi_tpx3-0.2.9.tar.gz
+[2023-04-27 12:13:26] INFO root fetch - processPackages [bionty]: executing diffoscope
+[2023-04-27 12:13:26] INFO root fetch - processPackages [bionty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bionty-0.9.0.tar.gz tmp/bionty-0.9.0rc1.tar.gz --markdown 20230427/b/bionty/0.9.0-0.9.0rc1/diff.md --exclude *.pyd
+[2023-04-27 12:13:26] INFO root fetch - processPackages [uaddress]: executing diffoscope
+[2023-04-27 12:13:26] INFO root fetch - processPackages [uaddress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uaddress-1.0.5.tar.gz tmp/uaddress-1.0.6.tar.gz --markdown 20230427/u/uaddress/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-04-27 12:13:26] INFO root fetch - processPackages [alibabacloud-cbn20170912]: executing diffoscope
+[2023-04-27 12:13:26] INFO root fetch - processPackages [alibabacloud-cbn20170912]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cbn20170912-1.0.27.tar.gz tmp/alibabacloud_cbn20170912-1.0.28.tar.gz --markdown 20230427/a/alibabacloud-cbn20170912/1.0.27-1.0.28/diff.md --exclude *.pyd
+[2023-04-27 12:13:26] INFO root fetch - processPackages [libertem-asi-tpx3]: executing diffoscope
+[2023-04-27 12:13:26] INFO root fetch - processPackages [libertem-asi-tpx3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libertem_asi_tpx3-0.2.8.tar.gz tmp/libertem_asi_tpx3-0.2.9.tar.gz --markdown 20230427/l/libertem-asi-tpx3/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-27 12:13:26] INFO root fetch - processPackages [alibabacloud-cbn20170912-py2]: executing diffoscope
+[2023-04-27 12:13:26] INFO root fetch - processPackages [alibabacloud-cbn20170912-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cbn20170912_py2-1.0.8.tar.gz tmp/alibabacloud_cbn20170912_py2-1.0.9.tar.gz --markdown 20230427/a/alibabacloud-cbn20170912-py2/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-27 12:13:26] INFO root fetch - processPackages [libertem-dectris]: Downloading https://files.pythonhosted.org/packages/e5/44/c4da5736a82856d3636fdad44f20f5978b092053bd98878795064af0cc2e/libertem_dectris-0.2.9.tar.gz
+[2023-04-27 12:13:27] INFO root fetch - processPackages [converter-package]: Start processing: nonebot-adapter-onebot
+[2023-04-27 12:13:27] INFO root fetch - main [MainThread]: End processing [converter-package]: success
+[2023-04-27 12:13:27] INFO root fetch - processPackages [nonebot-adapter-onebot]: New version: [2.2.3] Old Version: [2.2.2]
+[2023-04-27 12:13:27] INFO root fetch - processPackages [libertem-dectris]: executing diffoscope
+[2023-04-27 12:13:27] INFO root fetch - processPackages [libertem-dectris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libertem_dectris-0.2.8.tar.gz tmp/libertem_dectris-0.2.9.tar.gz --markdown 20230427/l/libertem-dectris/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-27 12:13:27] INFO root fetch - processPackages [nonebot-adapter-onebot]: Downloading https://files.pythonhosted.org/packages/34/70/e273687bcf68df26efc1cc27cab1f7992a5d46477775d8c4a0e4bbcba745/nonebot_adapter_onebot-2.2.2.tar.gz
+[2023-04-27 12:13:27] INFO root fetch - processPackages [ramodels]: Start processing: sirmordred
+[2023-04-27 12:13:27] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-04-27 12:13:27] INFO root fetch - processPackages [sirmordred]: New version: [0.7.1] Old Version: [0.7.0rc1]
+[2023-04-27 12:13:27] INFO root fetch - processPackages [uaddress]: Start processing: alphaz
+[2023-04-27 12:13:27] INFO root fetch - main [MainThread]: End processing [uaddress]: success
+[2023-04-27 12:13:27] INFO root fetch - processPackages [alphaz]: New version: [0.7.6.3] Old Version: [0.7.6.2]
+[2023-04-27 12:13:27] INFO root fetch - processPackages [nonebot-adapter-onebot]: Downloading https://files.pythonhosted.org/packages/60/12/253510c7c117cad35d3c5edc50b6e85898ee7dbf7b25850f9787229e59c0/nonebot_adapter_onebot-2.2.3.tar.gz
+[2023-04-27 12:13:27] INFO root fetch - processPackages [sirmordred]: Downloading https://files.pythonhosted.org/packages/86/9c/1393403bec04048f86ebd42939b690e36203e36fa7ecd9ec1009f31089b5/sirmordred-0.7.0rc1.tar.gz
+[2023-04-27 12:13:27] INFO root fetch - processPackages [bionty]: Start processing: coalestr
+[2023-04-27 12:13:27] INFO root fetch - main [MainThread]: End processing [bionty]: success
+[2023-04-27 12:13:27] INFO root fetch - processPackages [alphaz]: Downloading https://files.pythonhosted.org/packages/56/3b/5a462a3db322260de4f3ee8b7a9bfb054c9aca99ed49e0b851e28f6e6d10/alphaz-0.7.6.3.tar.gz
+[2023-04-27 12:13:27] INFO root fetch - processPackages [coalestr]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-04-27 12:13:27] INFO root fetch - processPackages [nonebot-adapter-onebot]: executing diffoscope
+[2023-04-27 12:13:27] INFO root fetch - processPackages [nonebot-adapter-onebot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_adapter_onebot-2.2.2.tar.gz tmp/nonebot_adapter_onebot-2.2.3.tar.gz --markdown 20230427/n/nonebot-adapter-onebot/2.2.2-2.2.3/diff.md --exclude *.pyd
+[2023-04-27 12:13:28] INFO root fetch - processPackages [libertem-asi-tpx3]: Start processing: torch-geometric
+[2023-04-27 12:13:28] INFO root fetch - main [MainThread]: End processing [libertem-asi-tpx3]: success
+[2023-04-27 12:13:28] INFO root fetch - processPackages [aliyun-python-sdk-imm]: Start processing: abqpy
+[2023-04-27 12:13:28] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-imm]: success
+[2023-04-27 12:13:28] INFO root fetch - processPackages [torch-geometric]: New version: [2.3.1] Old Version: [2.3.0]
+[2023-04-27 12:13:28] INFO root fetch - processPackages [coalestr]: Downloading https://files.pythonhosted.org/packages/74/30/ef17d861b5d8116eb01d4f93069acc0a73022188c0d58000ae15361ae7e7/coalestr-0.2.7.tar.gz
+[2023-04-27 12:13:28] INFO root fetch - processPackages [torch-geometric]: Downloading https://files.pythonhosted.org/packages/43/b5/be9795db7756e6c1fa2606c8145ec637552487e72c6428ed0b231f8bcbd3/torch_geometric-2.3.0.tar.gz
+[2023-04-27 12:13:28] INFO root fetch - processPackages [abqpy]: New version: [2023.4.5] Old Version: [2023.4.4]
+[2023-04-27 12:13:28] INFO root fetch - processPackages [torch-geometric]: Downloading https://files.pythonhosted.org/packages/06/a5/9f5af849c4185da5ea55f70ef17e23f93355cd4e989d82cfc8ba2d8747af/torch_geometric-2.3.1.tar.gz
+[2023-04-27 12:13:28] INFO root fetch - processPackages [coalestr]: Downloading https://files.pythonhosted.org/packages/fc/d1/3bdf170865b8ea3deb33f6797076778721011fa44384753713dfbf407fc4/coalestr-0.2.9.tar.gz
+[2023-04-27 12:13:28] INFO root fetch - processPackages [torch-geometric]: executing diffoscope
+[2023-04-27 12:13:28] INFO root fetch - processPackages [torch-geometric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_geometric-2.3.0.tar.gz tmp/torch_geometric-2.3.1.tar.gz --markdown 20230427/t/torch-geometric/2.3.0-2.3.1/diff.md --exclude *.pyd
+[2023-04-27 12:13:28] INFO root fetch - processPackages [abqpy]: Downloading https://files.pythonhosted.org/packages/e3/2f/8ee71f14a5f6731e7e7c875ac94a5a1d2d073a200d914a129ee97fd681ea/abqpy-2023.4.4.tar.gz
+[2023-04-27 12:13:28] INFO root fetch - processPackages [sirmordred]: Downloading https://files.pythonhosted.org/packages/2d/de/0432172ddf78e4dad3d89aaadc9535c11658be839ad4544036b06726bcc3/sirmordred-0.7.1.tar.gz
+[2023-04-27 12:13:28] INFO root fetch - processPackages [coalestr]: executing diffoscope
+[2023-04-27 12:13:28] INFO root fetch - processPackages [coalestr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coalestr-0.2.7.tar.gz tmp/coalestr-0.2.9.tar.gz --markdown 20230427/c/coalestr/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-04-27 12:13:29] INFO root fetch - main [MainThread]: End processing [nonebot-adapter-onebot]: success
+[2023-04-27 12:13:29] INFO root fetch - processPackages [alphaz]: executing diffoscope
+[2023-04-27 12:13:29] INFO root fetch - processPackages [alphaz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphaz-0.7.6.2.tar.gz tmp/alphaz-0.7.6.3.tar.gz --markdown 20230427/a/alphaz/0.7.6.2-0.7.6.3/diff.md --exclude *.pyd
+[2023-04-27 12:13:29] INFO root fetch - processPackages [sirmordred]: executing diffoscope
+[2023-04-27 12:13:29] INFO root fetch - processPackages [sirmordred]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sirmordred-0.7.0rc1.tar.gz tmp/sirmordred-0.7.1.tar.gz --markdown 20230427/s/sirmordred/0.7.0rc1-0.7.1/diff.md --exclude *.pyd
+[2023-04-27 12:13:29] INFO root fetch - main [MainThread]: End processing [isla-solver]: success
+[2023-04-27 12:13:29] INFO root fetch - main [MainThread]: End processing [coalestr]: success
+[2023-04-27 12:13:30] INFO root fetch - processPackages [abqpy]: Downloading https://files.pythonhosted.org/packages/a6/42/ede87c793976f87277d0cb50b719051fc06eb4bb35306040879104b3bd2c/abqpy-2023.4.5.tar.gz
+[2023-04-27 12:13:30] INFO root fetch - processPackages [abqpy]: executing diffoscope
+[2023-04-27 12:13:30] INFO root fetch - processPackages [abqpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abqpy-2023.4.4.tar.gz tmp/abqpy-2023.4.5.tar.gz --markdown 20230427/a/abqpy/2023.4.4-2023.4.5/diff.md --exclude *.pyd
+[2023-04-27 12:13:31] INFO root fetch - main [MainThread]: End processing [alibabacloud-cbn20170912-py2]: success
+[2023-04-27 12:13:34] INFO root fetch - main [MainThread]: End processing [libertem-dectris]: success
+[2023-04-27 12:13:34] INFO root fetch - main [MainThread]: End processing [alibabacloud-cbn20170912]: success
+[2023-04-27 12:13:34] INFO root fetch - main [MainThread]: End processing [sirmordred]: success
+[2023-04-27 12:13:35] INFO root fetch - main [MainThread]: End processing [torch-geometric]: success
+[2023-04-27 12:13:36] INFO root fetch - main [MainThread]: End processing [alphaz]: success
+[2023-04-27 12:14:12] INFO root fetch - main [MainThread]: End processing [abqpy]: success
+[2023-04-27 12:14:12] INFO root fetch - main [MainThread]: Store serial: [17881253]
