@@ -11849,3 +11849,82 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 09:17:24] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2023-04-27 09:17:25] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-04-27 09:17:25] INFO root fetch - main [MainThread]: Store serial: [17878816]
+[2023-04-27 09:22:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17878816]
+[2023-04-27 09:22:35] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-27 09:22:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-base-tier-validation
+[2023-04-27 09:22:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gpt-review
+[2023-04-27 09:22:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addons-oca-server-ux
+[2023-04-27 09:22:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hyperfast-python-template
+[2023-04-27 09:22:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tpfi
+[2023-04-27 09:22:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: SiQ3D
+[2023-04-27 09:22:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: secretflow
+[2023-04-27 09:22:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pytdxmeasure
+[2023-04-27 09:22:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: datatable-faker
+[2023-04-27 09:22:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-mass-mailing-resend
+[2023-04-27 09:22:35] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: New version: [16.0.1.0.4.6] Old Version: [16.0.1.0.4.2]
+[2023-04-27 09:22:35] INFO root fetch - processPackages [gpt-review]: New version: [0.0.1rc95.post1] Old Version: [0.0.1rc93.post1]
+[2023-04-27 09:22:35] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: New version: [16.0.20230426.0] Old Version: [16.0.20230425.0]
+[2023-04-27 09:22:35] INFO root fetch - processPackages [hyperfast-python-template]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-27 09:22:35] INFO root fetch - processPackages [secretflow]: New version: [0.8.2b0] Old Version: [0.8.1b1]
+[2023-04-27 09:22:35] WARNING root fetch - processPackages [tpfi]: Skipping, unable to determine old version
+[2023-04-27 09:22:35] INFO root fetch - processPackages [datatable-faker]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-27 09:22:35] INFO root fetch - processPackages [tpfi]: Start processing: fuo-netease
+[2023-04-27 09:22:35] WARNING root fetch - processPackages [SiQ3D]: Skipping, unable to determine old version
+[2023-04-27 09:22:35] INFO root fetch - main [MainThread]: End processing [tpfi] error
+[2023-04-27 09:22:35] INFO root fetch - processPackages [SiQ3D]: Start processing: odoo-addons-oca-social
+[2023-04-27 09:22:35] INFO root fetch - processPackages [odoo-addon-mass-mailing-resend]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-04-27 09:22:35] INFO root fetch - main [MainThread]: End processing [SiQ3D] error
+[2023-04-27 09:22:35] INFO root fetch - processPackages [pytdxmeasure]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-27 09:22:35] INFO root fetch - processPackages [fuo-netease]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-04-27 09:22:35] INFO root fetch - processPackages [odoo-addons-oca-social]: New version: [16.0.20230426.0] Old Version: [16.0.20230324.1]
+[2023-04-27 09:22:35] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-04-27 09:22:35] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-review-0.0.1rc93.post1.tar.gz tmp/gpt-review-0.0.1rc95.post1.tar.gz --markdown 20230427/g/gpt-review/0.0.1rc93.post1-0.0.1rc95.post1/diff.md --exclude *.pyd
+[2023-04-27 09:22:36] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Downloading https://files.pythonhosted.org/packages/d2/d8/fd3670e9a734765bcb7928609ea464cfc27a27d4962b46383ca773d0aed0/odoo_addon_base_tier_validation-16.0.1.0.4.6-py3-none-any.whl
+[2023-04-27 09:22:36] INFO root fetch - processPackages [secretflow]: Downloading https://files.pythonhosted.org/packages/89/d8/015c2f6afd6522938e43f40ed3713b2d48d30b21e8429d920b9c8cb3eafe/secretflow-0.8.1b1-cp38-cp38-manylinux2014_x86_64.whl
+[2023-04-27 09:22:36] INFO root fetch - processPackages [datatable-faker]: Downloading https://files.pythonhosted.org/packages/af/cf/4f8a32db833eacc3953cf824b08190c17a13df11fbd485cba90bc5cae085/datatable-faker-0.1.5.tar.gz
+[2023-04-27 09:22:36] INFO root fetch - processPackages [odoo-addon-mass-mailing-resend]: Downloading https://files.pythonhosted.org/packages/74/bb/eb96b1c131ee626e990954b8167099e6b359bac3231480634547d6806f84/odoo_addon_mass_mailing_resend-16.0.1.0.0.3-py3-none-any.whl
+[2023-04-27 09:22:36] INFO root fetch - processPackages [odoo-addons-oca-social]: Downloading https://files.pythonhosted.org/packages/2f/60/c28b0bee566f4fd570988864e831222fdaf7cb71b53f61e95309c3541783/odoo_addons_oca_social-16.0.20230324.1-py3-none-any.whl
+[2023-04-27 09:22:36] INFO root fetch - processPackages [pytdxmeasure]: Downloading https://files.pythonhosted.org/packages/50/80/048ffa3d5eca03e9a7803dc854225ec5537d52e558a6046181927bc4c6a8/pytdxmeasure-0.0.7-py3-none-any.whl
+[2023-04-27 09:22:36] INFO root fetch - processPackages [fuo-netease]: Downloading https://files.pythonhosted.org/packages/09/da/dc763f3730d77c996baade06db06eb58e63bfa9cc33fe2cd6d5f0d349d29/fuo_netease-0.9.4.tar.gz
+[2023-04-27 09:22:36] INFO root fetch - processPackages [hyperfast-python-template]: Downloading https://files.pythonhosted.org/packages/7c/c4/416b7696696b2f1a1896237950dda19f3c2a89d821a0698ddb854eaf668d/hyperfast_python_template-0.3.1.tar.gz
+[2023-04-27 09:22:36] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: executing diffoscope
+[2023-04-27 09:22:36] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_tier_validation-16.0.1.0.4.2-py3-none-any.whl.zip tmp/odoo_addon_base_tier_validation-16.0.1.0.4.6-py3-none-any.whl.zip --markdown 20230427/o/odoo-addon-base-tier-validation/16.0.1.0.4.2-16.0.1.0.4.6/diff.md --exclude *.pyd
+[2023-04-27 09:22:36] INFO root fetch - processPackages [hyperfast-python-template]: executing diffoscope
+[2023-04-27 09:22:36] INFO root fetch - processPackages [hyperfast-python-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperfast_python_template-0.3.0.tar.gz tmp/hyperfast_python_template-0.3.1.tar.gz --markdown 20230427/h/hyperfast-python-template/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-27 09:22:36] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: Downloading https://files.pythonhosted.org/packages/6d/42/01d4540e8bd3b3ddb4f9ee47e7946d4fde152b601598509be413d8c71a6a/odoo_addons_oca_server_ux-16.0.20230426.0-py3-none-any.whl
+[2023-04-27 09:22:36] INFO root fetch - processPackages [odoo-addon-mass-mailing-resend]: executing diffoscope
+[2023-04-27 09:22:36] INFO root fetch - processPackages [datatable-faker]: executing diffoscope
+[2023-04-27 09:22:36] INFO root fetch - processPackages [odoo-addon-mass-mailing-resend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mass_mailing_resend-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_mass_mailing_resend-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230427/o/odoo-addon-mass-mailing-resend/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-04-27 09:22:36] INFO root fetch - processPackages [datatable-faker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datatable-faker-0.1.4.tar.gz tmp/datatable-faker-0.1.5.tar.gz --markdown 20230427/d/datatable-faker/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-27 09:22:36] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: executing diffoscope
+[2023-04-27 09:22:36] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_server_ux-16.0.20230425.0-py3-none-any.whl.zip tmp/odoo_addons_oca_server_ux-16.0.20230426.0-py3-none-any.whl.zip --markdown 20230427/o/odoo-addons-oca-server-ux/16.0.20230425.0-16.0.20230426.0/diff.md --exclude *.pyd
+[2023-04-27 09:22:36] INFO root fetch - processPackages [odoo-addons-oca-social]: Downloading https://files.pythonhosted.org/packages/5c/a1/766f817d4123bac5f3bd80046cd3bdd43f586fb6542999af04aa92e65ee4/odoo_addons_oca_social-16.0.20230426.0-py3-none-any.whl
+[2023-04-27 09:22:36] INFO root fetch - processPackages [pytdxmeasure]: Downloading https://files.pythonhosted.org/packages/1c/07/7dfa37317ff6116a1b0356b7518983d94ed8ea8843de6e06bb139cde5ff4/pytdxmeasure-0.0.8-py3-none-any.whl
+[2023-04-27 09:22:36] INFO root fetch - processPackages [fuo-netease]: Downloading https://files.pythonhosted.org/packages/ec/c7/c11592f237fd180f360c3a6cd13163b0aaaeec180d0562f0ba35b17ba4a7/fuo_netease-0.9.5.tar.gz
+[2023-04-27 09:22:36] INFO root fetch - processPackages [pytdxmeasure]: executing diffoscope
+[2023-04-27 09:22:36] INFO root fetch - processPackages [pytdxmeasure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytdxmeasure-0.0.7-py3-none-any.whl.zip tmp/pytdxmeasure-0.0.8-py3-none-any.whl.zip --markdown 20230427/p/pytdxmeasure/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-27 09:22:36] INFO root fetch - processPackages [secretflow]: Downloading https://files.pythonhosted.org/packages/40/7d/98ea1830f8a60725e4e7b03f9833dd3951eced8498e40259bf5515ff8361/secretflow-0.8.2b0-cp38-cp38-manylinux2014_x86_64.whl
+[2023-04-27 09:22:36] INFO root fetch - processPackages [fuo-netease]: executing diffoscope
+[2023-04-27 09:22:36] INFO root fetch - processPackages [fuo-netease]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fuo_netease-0.9.4.tar.gz tmp/fuo_netease-0.9.5.tar.gz --markdown 20230427/f/fuo-netease/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-04-27 09:22:36] INFO root fetch - processPackages [odoo-addons-oca-social]: executing diffoscope
+[2023-04-27 09:22:36] INFO root fetch - processPackages [odoo-addons-oca-social]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_social-16.0.20230324.1-py3-none-any.whl.zip tmp/odoo_addons_oca_social-16.0.20230426.0-py3-none-any.whl.zip --markdown 20230427/o/odoo-addons-oca-social/16.0.20230324.1-16.0.20230426.0/diff.md --exclude *.pyd
+[2023-04-27 09:22:36] INFO root fetch - processPackages [secretflow]: executing diffoscope
+[2023-04-27 09:22:36] INFO root fetch - processPackages [secretflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secretflow-0.8.1b1-cp38-cp38-manylinux2014_x86_64.whl.zip tmp/secretflow-0.8.2b0-cp38-cp38-manylinux2014_x86_64.whl.zip --markdown 20230427/s/secretflow/0.8.1b1-0.8.2b0/diff.md --exclude *.pyd
+[2023-04-27 09:22:37] INFO root fetch - processPackages [gpt-review]: Start processing: ckanext-feedback
+[2023-04-27 09:22:37] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-04-27 09:22:37] INFO root fetch - processPackages [ckanext-feedback]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-04-27 09:22:37] INFO root fetch - main [MainThread]: End processing [hyperfast-python-template]: success
+[2023-04-27 09:22:37] INFO root fetch - processPackages [ckanext-feedback]: Downloading https://files.pythonhosted.org/packages/82/f9/2ecb72ef785bcf896c5264799f64d5cadc16d7d9bf3cdf3aea8c98d6fcf7/ckanext_feedback-1.0.0.tar.gz
+[2023-04-27 09:22:37] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-server-ux]: success
+[2023-04-27 09:22:37] INFO root fetch - main [MainThread]: End processing [datatable-faker]: success
+[2023-04-27 09:22:37] INFO root fetch - main [MainThread]: End processing [odoo-addon-mass-mailing-resend]: success
+[2023-04-27 09:22:37] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-tier-validation]: success
+[2023-04-27 09:22:38] INFO root fetch - main [MainThread]: End processing [pytdxmeasure]: success
+[2023-04-27 09:22:38] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-social]: success
+[2023-04-27 09:22:38] INFO root fetch - main [MainThread]: End processing [fuo-netease]: success
+[2023-04-27 09:22:38] INFO root fetch - processPackages [ckanext-feedback]: Downloading https://files.pythonhosted.org/packages/cd/59/36b2d08def611a8aa0c2f43ac26fa2e398bed6dddad7f4fcfc57df5775aa/ckanext_feedback-1.1.0.tar.gz
+[2023-04-27 09:22:38] INFO root fetch - processPackages [ckanext-feedback]: executing diffoscope
+[2023-04-27 09:22:38] INFO root fetch - processPackages [ckanext-feedback]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext_feedback-1.0.0.tar.gz tmp/ckanext_feedback-1.1.0.tar.gz --markdown 20230427/c/ckanext-feedback/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-04-27 09:22:44] INFO root fetch - main [MainThread]: End processing [ckanext-feedback]: success
+[2023-04-27 09:22:54] INFO root fetch - main [MainThread]: End processing [secretflow]: success
+[2023-04-27 09:22:54] INFO root fetch - main [MainThread]: Store serial: [17878855]
