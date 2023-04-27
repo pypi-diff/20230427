@@ -7761,3 +7761,61 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 03:57:35] INFO root fetch - processPackages [SQLAlchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SQLAlchemy-2.0.8.tar.gz tmp/SQLAlchemy-2.0.9.tar.gz --markdown 20230427/S/SQLAlchemy/2.0.8-2.0.9/diff.md --exclude *.pyd
 [2023-04-27 03:58:43] INFO root fetch - main [MainThread]: End processing [SQLAlchemy]: success
 [2023-04-27 03:58:43] INFO root fetch - main [MainThread]: Store serial: [17876590]
+[2023-04-27 04:03:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17876590]
+[2023-04-27 04:03:54] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-27 04:03:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Pulse3D
+[2023-04-27 04:03:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tomcru
+[2023-04-27 04:03:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mappy
+[2023-04-27 04:03:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyshacl
+[2023-04-27 04:03:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: policyengine-us
+[2023-04-27 04:03:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: battlemaster
+[2023-04-27 04:03:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alignem
+[2023-04-27 04:03:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hsuanwu
+[2023-04-27 04:03:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: scalyr-agent-2
+[2023-04-27 04:03:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pypmed
+[2023-04-27 04:03:54] INFO root fetch - processPackages [battlemaster]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-27 04:03:54] INFO root fetch - processPackages [pyshacl]: New version: [0.9.9.post1] Old Version: [0.9.9]
+[2023-04-27 04:03:54] INFO root fetch - processPackages [policyengine-us]: New version: [0.302.0] Old Version: [0.301.2]
+[2023-04-27 04:03:54] INFO root fetch - processPackages [alignem]: New version: [0.5.4.11] Old Version: [0.5.4.1]
+[2023-04-27 04:03:54] INFO root fetch - processPackages [alignem]: Downloading https://files.pythonhosted.org/packages/9d/f1/da1bb5b003782dda65d643c22814ad365b9753e9c1bbe1a00a02a55217ec/alignem-0.5.4.1.tar.gz
+[2023-04-27 04:03:54] INFO root fetch - processPackages [pyshacl]: executing diffoscope
+[2023-04-27 04:03:54] INFO root fetch - processPackages [pyshacl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyshacl-0.9.9.tar.gz tmp/pyshacl-0.9.9.post1.tar.gz --markdown 20230427/p/pyshacl/0.9.9-0.9.9.post1/diff.md --exclude *.pyd
+[2023-04-27 04:03:54] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-04-27 04:03:54] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.301.2.tar.gz tmp/policyengine-us-0.302.0.tar.gz --markdown 20230427/p/policyengine-us/0.301.2-0.302.0/diff.md --exclude *.pyd
+[2023-04-27 04:03:54] WARNING root fetch - processPackages [tomcru]: Skipping, unable to determine old version
+[2023-04-27 04:03:54] INFO root fetch - main [MainThread]: End processing [tomcru] error
+[2023-04-27 04:03:54] INFO root fetch - processPackages [Pulse3D]: New version: [0.32.5] Old Version: [0.32.4]
+[2023-04-27 04:03:54] INFO root fetch - processPackages [pypmed]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-04-27 04:03:54] INFO root fetch - processPackages [mappy]: New version: [2.9] Old Version: [2.8]
+[2023-04-27 04:03:54] WARNING root fetch - processPackages [hsuanwu]: Skipping, unable to determine old version
+[2023-04-27 04:03:54] INFO root fetch - main [MainThread]: End processing [hsuanwu] error
+[2023-04-27 04:03:54] INFO root fetch - processPackages [scalyr-agent-2]: New version: [2.2.2] Old Version: [2.2.1]
+[2023-04-27 04:03:54] INFO root fetch - processPackages [battlemaster]: Downloading https://files.pythonhosted.org/packages/a5/e4/909b371affec21cdbc3fd0022e58a20ba55e600a3d5de3a26aa0b59c6e23/battlemaster-0.1.0.tar.gz
+[2023-04-27 04:03:54] INFO root fetch - processPackages [Pulse3D]: Downloading https://files.pythonhosted.org/packages/47/10/de060086b152f2df7571347dbc8f94346baaf522d4d89259fd69845bd096/Pulse3D-0.32.4.tar.gz
+[2023-04-27 04:03:54] INFO root fetch - processPackages [pypmed]: Downloading https://files.pythonhosted.org/packages/d6/79/8325c2b77461d08776de8142ccd77daf3f2738d3e08213ed5dc15c931a5e/pypmed-0.1.8.tar.gz
+[2023-04-27 04:03:54] INFO root fetch - processPackages [scalyr-agent-2]: Downloading https://files.pythonhosted.org/packages/80/df/3babb230c438eb619c2d0aa12b61c176fd6e64300a38772dc9c945251393/scalyr-agent-2-2.2.1.tar.gz
+[2023-04-27 04:03:54] INFO root fetch - processPackages [mappy]: Downloading https://files.pythonhosted.org/packages/58/41/f32c6cbdf9bd6018ab03069619a498464a31a55b9f3a967d45bac8d985cb/mappy-2.8.tar.gz
+[2023-04-27 04:03:55] WARNING root fetch - processPackages [alignem]: Skipping package: exceeds size limit 42503331>=10485760
+[2023-04-27 04:03:55] INFO root fetch - main [MainThread]: End processing [alignem] error
+[2023-04-27 04:03:55] INFO root fetch - processPackages [pypmed]: executing diffoscope
+[2023-04-27 04:03:55] INFO root fetch - processPackages [pypmed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypmed-0.1.7.tar.gz tmp/pypmed-0.1.8.tar.gz --markdown 20230427/p/pypmed/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-04-27 04:03:55] INFO root fetch - processPackages [battlemaster]: Downloading https://files.pythonhosted.org/packages/84/7e/64408f05d7655cb1546e19cf63ffbfabb6b6b1e73e0a96a4360857794062/battlemaster-0.1.1.tar.gz
+[2023-04-27 04:03:55] INFO root fetch - processPackages [Pulse3D]: Downloading https://files.pythonhosted.org/packages/5a/91/b3b9e62e67479aa74469d0a9b3a39d0ff40d981024ef545150a5203e0987/Pulse3D-0.32.5.tar.gz
+[2023-04-27 04:03:56] INFO root fetch - processPackages [battlemaster]: executing diffoscope
+[2023-04-27 04:03:56] INFO root fetch - processPackages [battlemaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/battlemaster-0.1.0.tar.gz tmp/battlemaster-0.1.1.tar.gz --markdown 20230427/b/battlemaster/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-27 04:03:56] INFO root fetch - processPackages [mappy]: Downloading https://files.pythonhosted.org/packages/bf/a1/cab71a31aa1c3828fcab98a277b3a98dcef1a2bd6be0ab416c37808996b1/mappy-2.9.tar.gz
+[2023-04-27 04:03:56] INFO root fetch - processPackages [scalyr-agent-2]: Downloading https://files.pythonhosted.org/packages/39/20/e5d29f0dca9afc2d52c19b2f6443109901e69fa218a7df6c36da15b3d15e/scalyr-agent-2-2.2.2.tar.gz
+[2023-04-27 04:03:56] INFO root fetch - main [MainThread]: End processing [pyshacl]: success
+[2023-04-27 04:03:56] INFO root fetch - processPackages [Pulse3D]: executing diffoscope
+[2023-04-27 04:03:56] INFO root fetch - processPackages [Pulse3D]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pulse3D-0.32.4.tar.gz tmp/Pulse3D-0.32.5.tar.gz --markdown 20230427/P/Pulse3D/0.32.4-0.32.5/diff.md --exclude *.pyd
+[2023-04-27 04:03:56] INFO root fetch - processPackages [mappy]: executing diffoscope
+[2023-04-27 04:03:56] INFO root fetch - processPackages [mappy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mappy-2.8.tar.gz tmp/mappy-2.9.tar.gz --markdown 20230427/m/mappy/2.8-2.9/diff.md --exclude *.pyd
+[2023-04-27 04:03:56] INFO root fetch - processPackages [scalyr-agent-2]: executing diffoscope
+[2023-04-27 04:03:56] INFO root fetch - processPackages [scalyr-agent-2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scalyr-agent-2-2.2.1.tar.gz tmp/scalyr-agent-2-2.2.2.tar.gz --markdown 20230427/s/scalyr-agent-2/2.2.1-2.2.2/diff.md --exclude *.pyd
+[2023-04-27 04:03:56] INFO root fetch - main [MainThread]: End processing [pypmed]: success
+[2023-04-27 04:03:57] INFO root fetch - main [MainThread]: End processing [battlemaster]: success
+[2023-04-27 04:03:57] INFO root fetch - main [MainThread]: End processing [Pulse3D]: success
+[2023-04-27 04:03:58] INFO root fetch - main [MainThread]: End processing [mappy]: success
+[2023-04-27 04:04:01] INFO root fetch - main [MainThread]: End processing [scalyr-agent-2]: success
+[2023-04-27 04:05:02] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-04-27 04:05:02] INFO root fetch - main [MainThread]: Store serial: [17876635]
