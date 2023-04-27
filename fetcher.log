@@ -12979,3 +12979,65 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 10:28:14] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk]: success
 [2023-04-27 10:28:47] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-04-27 10:28:47] INFO root fetch - main [MainThread]: Store serial: [17879586]
+[2023-04-27 10:33:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17879586]
+[2023-04-27 10:33:57] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-27 10:33:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cloud-asset
+[2023-04-27 10:33:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: client-GPT
+[2023-04-27 10:33:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bareasgi-graphql-next
+[2023-04-27 10:33:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: returnn
+[2023-04-27 10:33:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zendron
+[2023-04-27 10:33:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aliyun-python-sdk-dms-enterprise
+[2023-04-27 10:33:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: methodism
+[2023-04-27 10:33:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: docarray
+[2023-04-27 10:33:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: newsopen-easey
+[2023-04-27 10:33:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kojo
+[2023-04-27 10:33:57] INFO root fetch - processPackages [client-GPT]: New version: [0.1] Old Version: [0.0.1]
+[2023-04-27 10:33:57] INFO root fetch - processPackages [zendron]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-04-27 10:33:57] INFO root fetch - processPackages [cloud-asset]: New version: [0.0.4] Old Version: [0.0.2]
+[2023-04-27 10:33:57] INFO root fetch - processPackages [methodism]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-27 10:33:57] INFO root fetch - processPackages [aliyun-python-sdk-dms-enterprise]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-04-27 10:33:57] INFO root fetch - processPackages [bareasgi-graphql-next]: New version: [5.0.4] Old Version: [5.0.3]
+[2023-04-27 10:33:57] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-04-27 10:33:57] INFO root fetch - processPackages [returnn]: New version: [1.20230427.101742] Old Version: [1.20230426.235206]
+[2023-04-27 10:33:57] WARNING root fetch - processPackages [kojo]: Skipping, unable to determine old version
+[2023-04-27 10:33:57] INFO root fetch - main [MainThread]: End processing [kojo] error
+[2023-04-27 10:33:57] WARNING root fetch - processPackages [newsopen-easey]: Skipping, unable to determine old version
+[2023-04-27 10:33:57] INFO root fetch - main [MainThread]: End processing [newsopen-easey] error
+[2023-04-27 10:33:57] INFO root fetch - processPackages [client-GPT]: Downloading https://files.pythonhosted.org/packages/dc/c9/8456c2b380bbd192df8274aeb8661ff50105eca5d976db9f1e86b1d3ef1a/client_GPT-0.0.1-py3-none-any.whl
+[2023-04-27 10:33:57] INFO root fetch - processPackages [zendron]: Downloading https://files.pythonhosted.org/packages/b4/bf/73f153c715d886a1ae7931af53e17b6c23f2b34cdef9fed396e2c98a9037/zendron-1.1.2.tar.gz
+[2023-04-27 10:33:57] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-04-27 10:33:57] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230427/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-04-27 10:33:57] INFO root fetch - processPackages [methodism]: Downloading https://files.pythonhosted.org/packages/6d/a2/ee5916430dc752d18fa06ae2f4aab548d7a192b58c2bd139f7c329639b45/methodism-0.0.2.tar.gz
+[2023-04-27 10:33:57] INFO root fetch - processPackages [aliyun-python-sdk-dms-enterprise]: Downloading https://files.pythonhosted.org/packages/e9/0e/cc33345f33fd2060514b36001a119546260044795ae49fdf813af3054969/aliyun-python-sdk-dms-enterprise-1.8.1.tar.gz
+[2023-04-27 10:33:57] INFO root fetch - processPackages [bareasgi-graphql-next]: Downloading https://files.pythonhosted.org/packages/48/5e/b5d8d245a3318d4ceb00b16cef89ba3fa0b7ae4002fe70550942e9d9e55a/bareasgi-graphql-next-5.0.3.tar.gz
+[2023-04-27 10:33:57] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/84/92/8d20d8f416f591d245dba4fbcf9e3349a63bb3a2cea78b3c0e571ac78a75/returnn-1.20230426.235206.tar.gz
+[2023-04-27 10:33:57] INFO root fetch - processPackages [cloud-asset]: Downloading https://files.pythonhosted.org/packages/6e/f0/a89d1c793c341df73fab91f9e2f48b5aa79afd0f57179319a290cbcc0075/cloud_asset-0.0.4-py3-none-any.whl
+[2023-04-27 10:33:58] INFO root fetch - processPackages [cloud-asset]: executing diffoscope
+[2023-04-27 10:33:58] INFO root fetch - processPackages [cloud-asset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud_asset-0.0.2-py3-none-any.whl.zip tmp/cloud_asset-0.0.4-py3-none-any.whl.zip --markdown 20230427/c/cloud-asset/0.0.2-0.0.4/diff.md --exclude *.pyd
+[2023-04-27 10:33:58] INFO root fetch - processPackages [zendron]: Downloading https://files.pythonhosted.org/packages/a3/a0/2b09a8494e4aad8d10c26e318c5684b81316c8d81107b79a7f959f7aeaa0/zendron-1.1.3.tar.gz
+[2023-04-27 10:33:58] INFO root fetch - processPackages [zendron]: executing diffoscope
+[2023-04-27 10:33:58] INFO root fetch - processPackages [zendron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zendron-1.1.2.tar.gz tmp/zendron-1.1.3.tar.gz --markdown 20230427/z/zendron/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-04-27 10:33:58] INFO root fetch - processPackages [methodism]: Downloading https://files.pythonhosted.org/packages/26/66/2b94e985829ff1c2947843ec14de187196e14f6ad7d18966b6e9c380ad30/methodism-0.0.3.tar.gz
+[2023-04-27 10:33:58] INFO root fetch - processPackages [methodism]: executing diffoscope
+[2023-04-27 10:33:58] INFO root fetch - processPackages [methodism]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/methodism-0.0.2.tar.gz tmp/methodism-0.0.3.tar.gz --markdown 20230427/m/methodism/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-27 10:33:58] INFO root fetch - processPackages [client-GPT]: Downloading https://files.pythonhosted.org/packages/cd/98/debcce34af9a497454341d066e107b4d337b0c8e4c5b0c4e6fa28c08fec5/client_GPT-0.1.tar.gz
+[2023-04-27 10:33:58] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/42/d2/647a0a35c7c78ae3bb957f83fcd53c42f1e22474b40c8e85a0beb1e242bc/returnn-1.20230427.101742.tar.gz
+[2023-04-27 10:33:58] INFO root fetch - processPackages [client-GPT]: executing diffoscope
+[2023-04-27 10:33:58] INFO root fetch - processPackages [client-GPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/client_GPT-0.0.1-py3-none-any.whl.zip tmp/client_GPT-0.1.tar.gz --markdown 20230427/c/client-GPT/0.0.1-0.1/diff.md --exclude *.pyd
+[2023-04-27 10:33:58] INFO root fetch - processPackages [bareasgi-graphql-next]: Downloading https://files.pythonhosted.org/packages/4c/ff/d8c476351efeb4bd50ec9e60e68f67878141587e5eed0184063298c79085/bareasgi-graphql-next-5.0.4.tar.gz
+[2023-04-27 10:33:58] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-04-27 10:33:58] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230426.235206.tar.gz tmp/returnn-1.20230427.101742.tar.gz --markdown 20230427/r/returnn/1.20230426.235206-1.20230427.101742/diff.md --exclude *.pyd
+[2023-04-27 10:33:58] INFO root fetch - processPackages [aliyun-python-sdk-dms-enterprise]: Downloading https://files.pythonhosted.org/packages/c8/92/69c136282903fc0309554d335276dc109c35317870d7a85e4e7ad0799ae9/aliyun-python-sdk-dms-enterprise-1.9.0.tar.gz
+[2023-04-27 10:33:58] INFO root fetch - processPackages [bareasgi-graphql-next]: executing diffoscope
+[2023-04-27 10:33:58] INFO root fetch - processPackages [bareasgi-graphql-next]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bareasgi-graphql-next-5.0.3.tar.gz tmp/bareasgi-graphql-next-5.0.4.tar.gz --markdown 20230427/b/bareasgi-graphql-next/5.0.3-5.0.4/diff.md --exclude *.pyd
+[2023-04-27 10:33:58] INFO root fetch - processPackages [aliyun-python-sdk-dms-enterprise]: executing diffoscope
+[2023-04-27 10:33:58] INFO root fetch - processPackages [aliyun-python-sdk-dms-enterprise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-dms-enterprise-1.8.1.tar.gz tmp/aliyun-python-sdk-dms-enterprise-1.9.0.tar.gz --markdown 20230427/a/aliyun-python-sdk-dms-enterprise/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-04-27 10:33:59] INFO root fetch - main [MainThread]: End processing [client-GPT]: success
+[2023-04-27 10:33:59] INFO root fetch - main [MainThread]: End processing [zendron]: success
+[2023-04-27 10:33:59] INFO root fetch - main [MainThread]: End processing [cloud-asset]: success
+[2023-04-27 10:33:59] INFO root fetch - main [MainThread]: End processing [methodism]: success
+[2023-04-27 10:33:59] INFO root fetch - main [MainThread]: End processing [bareasgi-graphql-next]: success
+[2023-04-27 10:34:00] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-04-27 10:34:00] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-dms-enterprise]: success
+[2023-04-27 10:34:02] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-04-27 10:34:02] INFO root fetch - main [MainThread]: Store serial: [17879623]
