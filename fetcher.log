@@ -12850,3 +12850,132 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 10:22:57] INFO root fetch - main [MainThread]: End processing [robotmk]: success
 [2023-04-27 10:22:58] INFO root fetch - main [MainThread]: End processing [jcvi]: success
 [2023-04-27 10:22:58] INFO root fetch - main [MainThread]: Store serial: [17879507]
+[2023-04-27 10:28:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17879507]
+[2023-04-27 10:28:08] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-04-27 10:28:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyfoldercheck
+[2023-04-27 10:28:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pythoncolourlibraryV1
+[2023-04-27 10:28:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: maestros
+[2023-04-27 10:28:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: collective.limitfilesizepanel
+[2023-04-27 10:28:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: inhandtest
+[2023-04-27 10:28:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bw-temporalis
+[2023-04-27 10:28:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zendron
+[2023-04-27 10:28:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tonconsole
+[2023-04-27 10:28:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pytagimg
+[2023-04-27 10:28:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: docts
+[2023-04-27 10:28:09] INFO root fetch - processPackages [inhandtest]: New version: [0.0.37] Old Version: [0.0.36]
+[2023-04-27 10:28:09] INFO root fetch - processPackages [zendron]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-04-27 10:28:09] WARNING root fetch - processPackages [tonconsole]: Skipping, unable to determine old version
+[2023-04-27 10:28:09] INFO root fetch - processPackages [tonconsole]: Start processing: innerverz-package
+[2023-04-27 10:28:09] INFO root fetch - main [MainThread]: End processing [tonconsole] error
+[2023-04-27 10:28:09] INFO root fetch - processPackages [innerverz-package]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-27 10:28:09] INFO root fetch - processPackages [inhandtest]: executing diffoscope
+[2023-04-27 10:28:09] INFO root fetch - processPackages [inhandtest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inhandtest-0.0.36.tar.gz tmp/inhandtest-0.0.37.tar.gz --markdown 20230427/i/inhandtest/0.0.36-0.0.37/diff.md --exclude *.pyd
+[2023-04-27 10:28:09] INFO root fetch - processPackages [maestros]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-27 10:28:09] WARNING root fetch - processPackages [pythoncolourlibraryV1]: Skipping, unable to determine old version
+[2023-04-27 10:28:09] INFO root fetch - processPackages [pythoncolourlibraryV1]: Start processing: tastytrade-api
+[2023-04-27 10:28:09] INFO root fetch - processPackages [pytagimg]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-04-27 10:28:09] INFO root fetch - main [MainThread]: End processing [pythoncolourlibraryV1] error
+[2023-04-27 10:28:09] INFO root fetch - processPackages [collective.limitfilesizepanel]: New version: [3.0.0] Old Version: [2.1.2]
+[2023-04-27 10:28:09] INFO root fetch - processPackages [pyfoldercheck]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-27 10:28:09] WARNING root fetch - processPackages [bw-temporalis]: Skipping, unable to determine old version
+[2023-04-27 10:28:09] INFO root fetch - processPackages [docts]: New version: [0.2.1] Old Version: [0.1.0]
+[2023-04-27 10:28:09] INFO root fetch - processPackages [zendron]: executing diffoscope
+[2023-04-27 10:28:09] INFO root fetch - processPackages [bw-temporalis]: Start processing: checkov
+[2023-04-27 10:28:09] INFO root fetch - main [MainThread]: End processing [bw-temporalis] error
+[2023-04-27 10:28:09] INFO root fetch - processPackages [zendron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zendron-1.0.9.tar.gz tmp/zendron-1.1.0.tar.gz --markdown 20230427/z/zendron/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-04-27 10:28:09] INFO root fetch - processPackages [innerverz-package]: executing diffoscope
+[2023-04-27 10:28:09] INFO root fetch - processPackages [innerverz-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/innerverz_package-0.0.5.tar.gz tmp/innerverz_package-0.0.6.tar.gz --markdown 20230427/i/innerverz-package/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-27 10:28:09] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-04-27 10:28:09] INFO root fetch - processPackages [tastytrade-api]: New version: [1.0.0] Old Version: [0.9.0]
+[2023-04-27 10:28:09] INFO root fetch - processPackages [collective.limitfilesizepanel]: Downloading https://files.pythonhosted.org/packages/35/28/8e7452765a0b3fab1b059056fb2a492c57bb4f8628c5cbccfffbb7d47c83/collective.limitfilesizepanel-2.1.2.tar.gz
+[2023-04-27 10:28:09] INFO root fetch - processPackages [maestros]: Downloading https://files.pythonhosted.org/packages/cd/5b/ff0f9cbf3a80eeac5ad02cad5b293d80d9dfca3c05a5d86d711f816efb0b/maestros-0.1.0.tar.gz
+[2023-04-27 10:28:09] INFO root fetch - processPackages [pytagimg]: Downloading https://files.pythonhosted.org/packages/47/91/973556ca5f2fbd2889d589f00ce1c21c773061723e728c300059b968a773/pytagimg-0.0.1.tar.gz
+[2023-04-27 10:28:09] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-04-27 10:28:09] INFO root fetch - processPackages [docts]: Downloading https://files.pythonhosted.org/packages/fb/5e/5fca0d0c67a569e996764ca1af9a6e85fc1855ddb667a0b0f81c22ace35f/docts-0.1.0.tar.gz
+[2023-04-27 10:28:09] INFO root fetch - processPackages [pyfoldercheck]: Downloading https://files.pythonhosted.org/packages/fa/2a/416481b4be3869824ec393a7b07ff3a05c73dc9bb002b67e5311c013c5dd/pyfoldercheck-0.0.4.tar.gz
+[2023-04-27 10:28:09] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230427/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-04-27 10:28:09] INFO root fetch - processPackages [tastytrade-api]: Downloading https://files.pythonhosted.org/packages/c6/30/f83c9a93cb4edbc17790a89a92acd695376de4cea7327d75b2f81020027e/tastytrade-api-0.9.0.tar.gz
+[2023-04-27 10:28:09] INFO root fetch - processPackages [maestros]: Downloading https://files.pythonhosted.org/packages/1d/25/ed63fc5c6aa0423020a868924921969a1654312caf8a0745cc41ab25c41c/maestros-0.1.1.tar.gz
+[2023-04-27 10:28:09] INFO root fetch - processPackages [collective.limitfilesizepanel]: Downloading https://files.pythonhosted.org/packages/05/59/700a3b00bdf9a24867ee010fa49e43502c0fe5124061e1f055aa0b3f9794/collective.limitfilesizepanel-3.0.0.tar.gz
+[2023-04-27 10:28:09] INFO root fetch - processPackages [pytagimg]: Downloading https://files.pythonhosted.org/packages/1a/57/d8adb61c235cf0405f6cee29cc788e88ad3d3b2283ecf5df8bb0542cc7bb/pytagimg-0.0.3.tar.gz
+[2023-04-27 10:28:09] INFO root fetch - processPackages [docts]: Downloading https://files.pythonhosted.org/packages/2e/fa/e0d965443180adfde018d073bb79550cc17951270f4c9e88f19fea29b8c1/docts-0.2.1.tar.gz
+[2023-04-27 10:28:09] INFO root fetch - processPackages [pyfoldercheck]: Downloading https://files.pythonhosted.org/packages/4c/88/317166ef718496c3b12b9fe937be3e8df079cf19a7c4b473e1b05aea8a8a/pyfoldercheck-0.0.5.tar.gz
+[2023-04-27 10:28:09] INFO root fetch - processPackages [tastytrade-api]: Downloading https://files.pythonhosted.org/packages/ec/4b/4ebbf70b1f265a049c30ca9d39ad81203f6e9e3fa908e377392d9c074f59/tastytrade-api-1.0.0.tar.gz
+[2023-04-27 10:28:09] INFO root fetch - processPackages [maestros]: executing diffoscope
+[2023-04-27 10:28:09] INFO root fetch - processPackages [maestros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maestros-0.1.0.tar.gz tmp/maestros-0.1.1.tar.gz --markdown 20230427/m/maestros/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-27 10:28:09] INFO root fetch - processPackages [collective.limitfilesizepanel]: executing diffoscope
+[2023-04-27 10:28:09] INFO root fetch - processPackages [collective.limitfilesizepanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collective.limitfilesizepanel-2.1.2.tar.gz tmp/collective.limitfilesizepanel-3.0.0.tar.gz --markdown 20230427/c/collective.limitfilesizepanel/2.1.2-3.0.0/diff.md --exclude *.pyd
+[2023-04-27 10:28:09] INFO root fetch - processPackages [pytagimg]: executing diffoscope
+[2023-04-27 10:28:09] INFO root fetch - processPackages [pytagimg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytagimg-0.0.1.tar.gz tmp/pytagimg-0.0.3.tar.gz --markdown 20230427/p/pytagimg/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-04-27 10:28:09] INFO root fetch - processPackages [pyfoldercheck]: executing diffoscope
+[2023-04-27 10:28:09] INFO root fetch - processPackages [pyfoldercheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfoldercheck-0.0.4.tar.gz tmp/pyfoldercheck-0.0.5.tar.gz --markdown 20230427/p/pyfoldercheck/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-27 10:28:09] INFO root fetch - processPackages [docts]: executing diffoscope
+[2023-04-27 10:28:09] INFO root fetch - processPackages [docts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docts-0.1.0.tar.gz tmp/docts-0.2.1.tar.gz --markdown 20230427/d/docts/0.1.0-0.2.1/diff.md --exclude *.pyd
+[2023-04-27 10:28:09] INFO root fetch - processPackages [tastytrade-api]: executing diffoscope
+[2023-04-27 10:28:09] INFO root fetch - processPackages [tastytrade-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tastytrade-api-0.9.0.tar.gz tmp/tastytrade-api-1.0.0.tar.gz --markdown 20230427/t/tastytrade-api/0.9.0-1.0.0/diff.md --exclude *.pyd
+[2023-04-27 10:28:10] INFO root fetch - processPackages [innerverz-package]: Start processing: aws-prototyping-sdk.aws-arch
+[2023-04-27 10:28:10] INFO root fetch - main [MainThread]: End processing [innerverz-package]: success
+[2023-04-27 10:28:10] INFO root fetch - processPackages [aws-prototyping-sdk.aws-arch]: New version: [0.17.3] Old Version: [0.17.2]
+[2023-04-27 10:28:10] INFO root fetch - processPackages [aws-prototyping-sdk.aws-arch]: Downloading https://files.pythonhosted.org/packages/0e/67/511ab4b340ec47a43a02b733fe3a801c30cefe1917ce3e94201dda1e58a0/aws_prototyping_sdk.aws_arch-0.17.2.tar.gz
+[2023-04-27 10:28:10] INFO root fetch - processPackages [zendron]: Start processing: aws-prototyping-sdk
+[2023-04-27 10:28:10] INFO root fetch - main [MainThread]: End processing [zendron]: success
+[2023-04-27 10:28:10] INFO root fetch - processPackages [aws-prototyping-sdk]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-04-27 10:28:10] INFO root fetch - processPackages [aws-prototyping-sdk]: executing diffoscope
+[2023-04-27 10:28:10] INFO root fetch - processPackages [aws-prototyping-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk-0.9.3.tar.gz tmp/aws_prototyping_sdk-0.9.4.tar.gz --markdown 20230427/a/aws-prototyping-sdk/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-04-27 10:28:10] WARNING root fetch - processPackages [aws-prototyping-sdk.aws-arch]: Skipping package: exceeds size limit 19287451>=10485760
+[2023-04-27 10:28:10] INFO root fetch - processPackages [aws-prototyping-sdk.aws-arch]: Start processing: aws-prototyping-sdk.cloudscape-react-ts-website
+[2023-04-27 10:28:10] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.aws-arch] error
+[2023-04-27 10:28:10] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-04-27 10:28:11] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: executing diffoscope
+[2023-04-27 10:28:11] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.3.tar.gz tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.4.tar.gz --markdown 20230427/a/aws-prototyping-sdk.cloudscape-react-ts-website/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-04-27 10:28:11] INFO root fetch - processPackages [inhandtest]: Start processing: aws-prototyping-sdk.identity
+[2023-04-27 10:28:11] INFO root fetch - main [MainThread]: End processing [inhandtest]: success
+[2023-04-27 10:28:11] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-04-27 10:28:11] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: executing diffoscope
+[2023-04-27 10:28:11] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.identity-0.9.3.tar.gz tmp/aws_prototyping_sdk.identity-0.9.4.tar.gz --markdown 20230427/a/aws-prototyping-sdk.identity/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-04-27 10:28:11] INFO root fetch - processPackages [pytagimg]: Start processing: aws-prototyping-sdk.nx-monorepo
+[2023-04-27 10:28:11] INFO root fetch - main [MainThread]: End processing [pytagimg]: success
+[2023-04-27 10:28:11] INFO root fetch - processPackages [maestros]: Start processing: aws-prototyping-sdk.open-api-gateway
+[2023-04-27 10:28:11] INFO root fetch - main [MainThread]: End processing [maestros]: success
+[2023-04-27 10:28:11] INFO root fetch - processPackages [pyfoldercheck]: Start processing: OpenGeode-core
+[2023-04-27 10:28:11] INFO root fetch - main [MainThread]: End processing [pyfoldercheck]: success
+[2023-04-27 10:28:11] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-04-27 10:28:11] INFO root fetch - processPackages [OpenGeode-core]: New version: [9.10.4] Old Version: [14.0.8]
+[2023-04-27 10:28:11] INFO root fetch - processPackages [tastytrade-api]: Start processing: aws-prototyping-sdk.pdk-nag
+[2023-04-27 10:28:11] INFO root fetch - main [MainThread]: End processing [tastytrade-api]: success
+[2023-04-27 10:28:11] INFO root fetch - processPackages [docts]: Start processing: aws-prototyping-sdk.pipeline
+[2023-04-27 10:28:11] INFO root fetch - main [MainThread]: End processing [docts]: success
+[2023-04-27 10:28:11] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-04-27 10:28:11] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-04-27 10:28:11] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-04-27 10:28:11] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: executing diffoscope
+[2023-04-27 10:28:11] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.open_api_gateway-0.9.3.tar.gz tmp/aws_prototyping_sdk.open_api_gateway-0.9.4.tar.gz --markdown 20230427/a/aws-prototyping-sdk.open-api-gateway/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-04-27 10:28:11] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: executing diffoscope
+[2023-04-27 10:28:11] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.pdk_nag-0.9.3.tar.gz tmp/aws_prototyping_sdk.pdk_nag-0.9.4.tar.gz --markdown 20230427/a/aws-prototyping-sdk.pdk-nag/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-04-27 10:28:11] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: executing diffoscope
+[2023-04-27 10:28:11] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.nx_monorepo-0.9.3.tar.gz tmp/aws_prototyping_sdk.nx_monorepo-0.9.4.tar.gz --markdown 20230427/a/aws-prototyping-sdk.nx-monorepo/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-04-27 10:28:11] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: executing diffoscope
+[2023-04-27 10:28:11] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.pipeline-0.9.3.tar.gz tmp/aws_prototyping_sdk.pipeline-0.9.4.tar.gz --markdown 20230427/a/aws-prototyping-sdk.pipeline/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-04-27 10:28:11] INFO root fetch - processPackages [OpenGeode-core]: Downloading https://files.pythonhosted.org/packages/4f/0b/66bfe7a64e9503079dc283c6b3b03a24273a2faa1a17e14eb636109e1b3b/OpenGeode_core-14.0.8-cp39-cp39-win_amd64.whl
+[2023-04-27 10:28:11] WARNING root fetch - processPackages [OpenGeode-core]: Skipping package: exceeds size limit 17911395>=10485760
+[2023-04-27 10:28:11] INFO root fetch - processPackages [OpenGeode-core]: Start processing: aws-prototyping-sdk.static-website
+[2023-04-27 10:28:11] INFO root fetch - main [MainThread]: End processing [OpenGeode-core] error
+[2023-04-27 10:28:11] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-04-27 10:28:11] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: executing diffoscope
+[2023-04-27 10:28:11] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.static_website-0.9.3.tar.gz tmp/aws_prototyping_sdk.static_website-0.9.4.tar.gz --markdown 20230427/a/aws-prototyping-sdk.static-website/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-04-27 10:28:12] INFO root fetch - processPackages [collective.limitfilesizepanel]: Start processing: aws-prototyping-sdk.type-safe-api
+[2023-04-27 10:28:12] INFO root fetch - main [MainThread]: End processing [collective.limitfilesizepanel]: success
+[2023-04-27 10:28:12] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: New version: [0.17.3] Old Version: [0.17.2]
+[2023-04-27 10:28:12] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: executing diffoscope
+[2023-04-27 10:28:12] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.type_safe_api-0.17.2.tar.gz tmp/aws_prototyping_sdk.type_safe_api-0.17.3.tar.gz --markdown 20230427/a/aws-prototyping-sdk.type-safe-api/0.17.2-0.17.3/diff.md --exclude *.pyd
+[2023-04-27 10:28:12] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.cloudscape-react-ts-website]: success
+[2023-04-27 10:28:12] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.identity]: success
+[2023-04-27 10:28:12] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.nx-monorepo]: success
+[2023-04-27 10:28:12] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.open-api-gateway]: success
+[2023-04-27 10:28:13] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.pipeline]: success
+[2023-04-27 10:28:13] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.pdk-nag]: success
+[2023-04-27 10:28:13] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.type-safe-api]: success
+[2023-04-27 10:28:13] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.static-website]: success
+[2023-04-27 10:28:14] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk]: success
+[2023-04-27 10:28:47] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-04-27 10:28:47] INFO root fetch - main [MainThread]: Store serial: [17879586]
