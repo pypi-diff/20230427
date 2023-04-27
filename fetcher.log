@@ -10965,3 +10965,46 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 08:02:01] INFO root fetch - main [MainThread]: End processing [meent]: success
 [2023-04-27 08:02:08] INFO root fetch - main [MainThread]: End processing [pybi-next]: success
 [2023-04-27 08:02:08] INFO root fetch - main [MainThread]: Store serial: [17878319]
+[2023-04-27 08:07:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17878319]
+[2023-04-27 08:07:17] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-27 08:07:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pawnlib
+[2023-04-27 08:07:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: skynamo
+[2023-04-27 08:07:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: image-augs
+[2023-04-27 08:07:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: simple-gomoku
+[2023-04-27 08:07:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: je-editor
+[2023-04-27 08:07:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: je-editor-dev
+[2023-04-27 08:07:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyg-nightly
+[2023-04-27 08:07:17] INFO root fetch - processPackages [skynamo]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 08:07:17] INFO root fetch - processPackages [je-editor-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 08:07:17] INFO root fetch - processPackages [je-editor]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 08:07:17] INFO root fetch - processPackages [pawnlib]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-27 08:07:17] INFO root fetch - processPackages [pyg-nightly]: New version: [2.4.0.dev20230426] Old Version: [2.4.0.dev20230425]
+[2023-04-27 08:07:17] INFO root fetch - processPackages [je-editor]: executing diffoscope
+[2023-04-27 08:07:17] INFO root fetch - processPackages [je-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor-0.0.8.tar.gz tmp/je_editor-0.0.9.tar.gz --markdown 20230427/j/je-editor/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 08:07:17] INFO root fetch - processPackages [simple-gomoku]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-04-27 08:07:17] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2023-04-27 08:07:17] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg-nightly-2.4.0.dev20230425.tar.gz tmp/pyg-nightly-2.4.0.dev20230426.tar.gz --markdown 20230427/p/pyg-nightly/2.4.0.dev20230425-2.4.0.dev20230426/diff.md --exclude *.pyd
+[2023-04-27 08:07:17] INFO root fetch - processPackages [image-augs]: New version: [2.3.11] Old Version: [2.3.10]
+[2023-04-27 08:07:17] INFO root fetch - processPackages [je-editor-dev]: executing diffoscope
+[2023-04-27 08:07:17] INFO root fetch - processPackages [je-editor-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor_dev-0.0.8.tar.gz tmp/je_editor_dev-0.0.9.tar.gz --markdown 20230427/j/je-editor-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 08:07:17] INFO root fetch - processPackages [skynamo]: Downloading https://files.pythonhosted.org/packages/8e/ed/1038647be41cfc10bf2c736223325c029dc8c9ee7df50a5254e99e0bc0c9/skynamo-0.0.8.tar.gz
+[2023-04-27 08:07:17] INFO root fetch - processPackages [simple-gomoku]: Downloading https://files.pythonhosted.org/packages/45/6d/4f69bc4b45ad9f817d9446de07112539df223c532c8b29f5b770e5feb598/simple_gomoku-2.2.0-py3-none-any.whl
+[2023-04-27 08:07:17] INFO root fetch - processPackages [image-augs]: Downloading https://files.pythonhosted.org/packages/83/c0/6ab85412999328ef9d560b6cabbad84e2547acb2037b4d1f6b11c823de95/image_augs-2.3.11.tar.gz
+[2023-04-27 08:07:17] INFO root fetch - processPackages [pawnlib]: executing diffoscope
+[2023-04-27 08:07:17] INFO root fetch - processPackages [pawnlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pawnlib-0.1.8-py3-none-any.whl.zip tmp/pawnlib-0.1.9-py3-none-any.whl.zip --markdown 20230427/p/pawnlib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-27 08:07:17] INFO root fetch - processPackages [image-augs]: executing diffoscope
+[2023-04-27 08:07:17] INFO root fetch - processPackages [image-augs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/image_augs-2.3.10.tar.gz tmp/image_augs-2.3.11.tar.gz --markdown 20230427/i/image-augs/2.3.10-2.3.11/diff.md --exclude *.pyd
+[2023-04-27 08:07:17] INFO root fetch - processPackages [skynamo]: Downloading https://files.pythonhosted.org/packages/47/89/82a4915da2a2563e54376a31bcb425e09fdcdf66de02f91b777178b4e4d8/skynamo-0.0.9.tar.gz
+[2023-04-27 08:07:17] INFO root fetch - processPackages [simple-gomoku]: Downloading https://files.pythonhosted.org/packages/bd/e0/baa8ade87757bf23b5ae43c6399cc754e60e8a737a340c6082bdcf43c9bf/simple_gomoku-2.2.1-py3-none-any.whl
+[2023-04-27 08:07:17] INFO root fetch - processPackages [skynamo]: executing diffoscope
+[2023-04-27 08:07:17] INFO root fetch - processPackages [skynamo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skynamo-0.0.8.tar.gz tmp/skynamo-0.0.9.tar.gz --markdown 20230427/s/skynamo/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 08:07:17] INFO root fetch - processPackages [simple-gomoku]: executing diffoscope
+[2023-04-27 08:07:17] INFO root fetch - processPackages [simple-gomoku]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_gomoku-2.2.0-py3-none-any.whl.zip tmp/simple_gomoku-2.2.1-py3-none-any.whl.zip --markdown 20230427/s/simple-gomoku/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-04-27 08:07:18] INFO root fetch - main [MainThread]: End processing [je-editor]: success
+[2023-04-27 08:07:18] INFO root fetch - main [MainThread]: End processing [je-editor-dev]: success
+[2023-04-27 08:07:18] INFO root fetch - main [MainThread]: End processing [image-augs]: success
+[2023-04-27 08:07:18] INFO root fetch - main [MainThread]: End processing [simple-gomoku]: success
+[2023-04-27 08:07:19] INFO root fetch - main [MainThread]: End processing [pawnlib]: success
+[2023-04-27 08:07:19] INFO root fetch - main [MainThread]: End processing [skynamo]: success
+[2023-04-27 08:07:22] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2023-04-27 08:07:22] INFO root fetch - main [MainThread]: Store serial: [17878340]
