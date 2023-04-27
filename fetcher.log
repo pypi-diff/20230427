@@ -17800,3 +17800,149 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 13:39:15] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
 [2023-04-27 13:40:25] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-04-27 13:40:25] INFO root fetch - main [MainThread]: Store serial: [17882155]
+[2023-04-27 13:45:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17882155]
+[2023-04-27 13:45:34] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-04-27 13:45:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deepprofile
+[2023-04-27 13:45:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lightgrad
+[2023-04-27 13:45:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: th2-grpc-lw-data-provider
+[2023-04-27 13:45:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SQLAlchemy-Utils
+[2023-04-27 13:45:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: decay-scheme
+[2023-04-27 13:45:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gbc
+[2023-04-27 13:45:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cellshape-cloud
+[2023-04-27 13:45:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sqlalchemy-spanner
+[2023-04-27 13:45:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: th2-grpc-lw-data-provider
+[2023-04-27 13:45:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: promql-parser
+[2023-04-27 13:45:34] INFO root fetch - processPackages [cellshape-cloud]: New version: [0.1.2rc0] Old Version: [0.1.1rc0]
+[2023-04-27 13:45:34] INFO root fetch - processPackages [decay-scheme]: New version: [0.0.0a1] Old Version: [0.0.0a0]
+[2023-04-27 13:45:34] WARNING root fetch - processPackages [gbc]: Skipping, unable to determine old version
+[2023-04-27 13:45:34] INFO root fetch - processPackages [lightgrad]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-27 13:45:34] INFO root fetch - processPackages [gbc]: Start processing: smart-integration-utils
+[2023-04-27 13:45:34] INFO root fetch - main [MainThread]: End processing [gbc] error
+[2023-04-27 13:45:34] INFO root fetch - processPackages [deepprofile]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 13:45:34] INFO root fetch - processPackages [sqlalchemy-spanner]: New version: [1.6.0] Old Version: [1.5.0]
+[2023-04-27 13:45:34] INFO root fetch - processPackages [promql-parser]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-27 13:45:34] INFO root fetch - processPackages [SQLAlchemy-Utils]: New version: [0.9.1] Old Version: [0.9]
+[2023-04-27 13:45:34] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: New version: [2.1.0.dev3871883101] Old Version: [2.0.0.dev4819329209]
+[2023-04-27 13:45:34] INFO root fetch - processPackages [smart-integration-utils]: New version: [3.3.0.1] Old Version: [3.2.0.1]
+[2023-04-27 13:45:34] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: New version: [2.1.0.dev3871883101] Old Version: [2.0.0.dev4819329209]
+[2023-04-27 13:45:34] INFO root fetch - processPackages [cellshape-cloud]: Downloading https://files.pythonhosted.org/packages/e6/15/d32ed0d6428ceafa70eace39507b5646368dc249ac9e15f8056042e87225/cellshape-cloud-0.1.2rc0.tar.gz
+[2023-04-27 13:45:34] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/08/ef/0ba5d5381c865b46e78704059d8775937ea64c5bca290371a1e5a3c2e3f8/th2_grpc_lw_data_provider-2.0.0.dev4819329209.tar.gz
+[2023-04-27 13:45:34] INFO root fetch - processPackages [decay-scheme]: Downloading https://files.pythonhosted.org/packages/c7/70/c98d132807b161b01adb64fe3583a134ba59fc9832a2aded700109b9fa03/decay_scheme-0.0.0a0.tar.gz
+[2023-04-27 13:45:34] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/08/ef/0ba5d5381c865b46e78704059d8775937ea64c5bca290371a1e5a3c2e3f8/th2_grpc_lw_data_provider-2.0.0.dev4819329209.tar.gz
+[2023-04-27 13:45:34] INFO root fetch - processPackages [lightgrad]: Downloading https://files.pythonhosted.org/packages/af/bf/1b9aeb093496da5f12c8557fa8df6f59d1ef3c46ecfbdc1e33bb609d41c8/lightgrad-0.0.1.tar.gz
+[2023-04-27 13:45:35] INFO root fetch - processPackages [sqlalchemy-spanner]: Downloading https://files.pythonhosted.org/packages/6a/72/db33db7987ddf97dc9f4b1a4a6744946ca8a3dceeedf550d842c90893019/sqlalchemy-spanner-1.5.0.tar.gz
+[2023-04-27 13:45:35] INFO root fetch - processPackages [smart-integration-utils]: executing diffoscope
+[2023-04-27 13:45:35] INFO root fetch - processPackages [smart-integration-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smart-integration-utils-3.2.0.1.tar.gz tmp/smart-integration-utils-3.3.0.1.tar.gz --markdown 20230427/s/smart-integration-utils/3.2.0.1-3.3.0.1/diff.md --exclude *.pyd
+[2023-04-27 13:45:35] INFO root fetch - processPackages [SQLAlchemy-Utils]: Downloading https://files.pythonhosted.org/packages/39/f5/81e8cf47f2adb5b0936ec9e30b1614fbfac145a15203ae4c173efbe933e9/SQLAlchemy-Utils-0.9.tar.gz
+[2023-04-27 13:45:35] INFO root fetch - processPackages [cellshape-cloud]: executing diffoscope
+[2023-04-27 13:45:35] INFO root fetch - processPackages [cellshape-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellshape-cloud-0.1.1rc0.tar.gz tmp/cellshape-cloud-0.1.2rc0.tar.gz --markdown 20230427/c/cellshape-cloud/0.1.1rc0-0.1.2rc0/diff.md --exclude *.pyd
+[2023-04-27 13:45:35] INFO root fetch - processPackages [promql-parser]: Downloading https://files.pythonhosted.org/packages/aa/22/8103487d69fdb2f29ce22712c8dcea8e5dcdcd5a2cc4909c60d4fdb7a454/promql_parser-0.1.1.tar.gz
+[2023-04-27 13:45:35] INFO root fetch - processPackages [deepprofile]: executing diffoscope
+[2023-04-27 13:45:35] INFO root fetch - processPackages [deepprofile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepprofile-0.0.8.tar.gz tmp/deepprofile-0.0.9.tar.gz --markdown 20230427/d/deepprofile/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 13:45:35] INFO root fetch - processPackages [decay-scheme]: Downloading https://files.pythonhosted.org/packages/d1/31/1261a1d0b095e40b6bf366e60019f90a44b3b2ec449adecc853875ef75fe/decay_scheme-0.0.0a1.tar.gz
+[2023-04-27 13:45:35] INFO root fetch - processPackages [lightgrad]: Downloading https://files.pythonhosted.org/packages/fa/1a/55bc0696891e5584fd628442ba77f6c9973b7a18aaeada35de56d3479dcc/lightgrad-0.0.2.tar.gz
+[2023-04-27 13:45:35] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: executing diffoscope
+[2023-04-27 13:45:35] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_lw_data_provider-2.0.0.dev4819329209.tar.gz tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz --markdown 20230427/t/th2-grpc-lw-data-provider/2.0.0.dev4819329209-2.1.0.dev3871883101/diff.md --exclude *.pyd
+[2023-04-27 13:45:35] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: executing diffoscope
+[2023-04-27 13:45:35] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_lw_data_provider-2.0.0.dev4819329209.tar.gz tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz --markdown 20230427/t/th2-grpc-lw-data-provider/2.0.0.dev4819329209-2.1.0.dev3871883101/diff.md --exclude *.pyd
+[2023-04-27 13:45:35] INFO root fetch - processPackages [sqlalchemy-spanner]: Downloading https://files.pythonhosted.org/packages/84/07/541f9d02df45ce43f9631bae000a2e04a88f649837bd5f6ee52298100ec3/sqlalchemy-spanner-1.6.0.tar.gz
+[2023-04-27 13:45:35] INFO root fetch - processPackages [decay-scheme]: executing diffoscope
+[2023-04-27 13:45:35] INFO root fetch - processPackages [decay-scheme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decay_scheme-0.0.0a0.tar.gz tmp/decay_scheme-0.0.0a1.tar.gz --markdown 20230427/d/decay-scheme/0.0.0a0-0.0.0a1/diff.md --exclude *.pyd
+[2023-04-27 13:45:35] INFO root fetch - processPackages [promql-parser]: Downloading https://files.pythonhosted.org/packages/84/c4/80cd3fc288b3296b9b1cf8062028019000163bcb871914582f09a19690bc/promql_parser-0.1.2.tar.gz
+[2023-04-27 13:45:35] INFO root fetch - processPackages [lightgrad]: executing diffoscope
+[2023-04-27 13:45:35] INFO root fetch - processPackages [lightgrad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightgrad-0.0.1.tar.gz tmp/lightgrad-0.0.2.tar.gz --markdown 20230427/l/lightgrad/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-27 13:45:35] INFO root fetch - processPackages [SQLAlchemy-Utils]: Downloading https://files.pythonhosted.org/packages/45/0f/8b96a95888d437a44cc7f11adc713f459bc7d54a59b313597985ac13c2bd/SQLAlchemy-Utils-0.9.1.tar.gz
+[2023-04-27 13:45:35] INFO root fetch - processPackages [sqlalchemy-spanner]: executing diffoscope
+[2023-04-27 13:45:35] INFO root fetch - processPackages [sqlalchemy-spanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy-spanner-1.5.0.tar.gz tmp/sqlalchemy-spanner-1.6.0.tar.gz --markdown 20230427/s/sqlalchemy-spanner/1.5.0-1.6.0/diff.md --exclude *.pyd
+[2023-04-27 13:45:35] INFO root fetch - processPackages [promql-parser]: executing diffoscope
+[2023-04-27 13:45:35] INFO root fetch - processPackages [promql-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promql_parser-0.1.1.tar.gz tmp/promql_parser-0.1.2.tar.gz --markdown 20230427/p/promql-parser/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-27 13:45:35] INFO root fetch - processPackages [SQLAlchemy-Utils]: executing diffoscope
+[2023-04-27 13:45:35] INFO root fetch - processPackages [SQLAlchemy-Utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SQLAlchemy-Utils-0.9.tar.gz tmp/SQLAlchemy-Utils-0.9.1.tar.gz --markdown 20230427/S/SQLAlchemy-Utils/0.9-0.9.1/diff.md --exclude *.pyd
+[2023-04-27 13:45:36] INFO root fetch - processPackages [deepprofile]: Start processing: auterion-cli
+[2023-04-27 13:45:36] INFO root fetch - main [MainThread]: End processing [deepprofile]: success
+[2023-04-27 13:45:36] INFO root fetch - processPackages [auterion-cli]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-04-27 13:45:36] INFO root fetch - processPackages [smart-integration-utils]: Start processing: arfs
+[2023-04-27 13:45:36] INFO root fetch - main [MainThread]: End processing [smart-integration-utils]: success
+[2023-04-27 13:45:36] INFO root fetch - processPackages [arfs]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-04-27 13:45:37] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Start processing: purple-plan
+[2023-04-27 13:45:37] INFO root fetch - main [MainThread]: End processing [th2-grpc-lw-data-provider]: success
+[2023-04-27 13:45:37] INFO root fetch - processPackages [purple-plan]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-27 13:45:37] INFO root fetch - processPackages [decay-scheme]: Start processing: gbs
+[2023-04-27 13:45:37] INFO root fetch - main [MainThread]: End processing [decay-scheme]: success
+[2023-04-27 13:45:37] INFO root fetch - processPackages [auterion-cli]: Downloading https://files.pythonhosted.org/packages/88/4d/86da48f22c82c2f5ec1279aaf15b253b78f6e9f5adf0c0d2fd01e3bdfb54/auterion-cli-1.0.7.tar.gz
+[2023-04-27 13:45:37] INFO root fetch - processPackages [purple-plan]: executing diffoscope
+[2023-04-27 13:45:37] INFO root fetch - processPackages [purple-plan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/purple_plan-0.1.3-cp39-cp39-manylinux1_x86_64.whl.zip tmp/purple_plan-0.1.4-cp39-cp39-manylinux1_x86_64.whl.zip --markdown 20230427/p/purple-plan/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-27 13:45:37] INFO root fetch - processPackages [arfs]: Downloading https://files.pythonhosted.org/packages/3d/26/21fa3b7c2a09f5d1dbc9f81ff739c7f997907cc5120f980606eee8512983/arfs-1.0.6.tar.gz
+[2023-04-27 13:45:37] WARNING root fetch - processPackages [gbs]: Skipping, unable to determine old version
+[2023-04-27 13:45:37] INFO root fetch - processPackages [gbs]: Start processing: enhancedocs
+[2023-04-27 13:45:37] INFO root fetch - main [MainThread]: End processing [gbs] error
+[2023-04-27 13:45:37] INFO root fetch - processPackages [promql-parser]: Start processing: oneai
+[2023-04-27 13:45:37] INFO root fetch - main [MainThread]: End processing [promql-parser]: success
+[2023-04-27 13:45:37] INFO root fetch - processPackages [cellshape-cloud]: Start processing: up-purple
+[2023-04-27 13:45:37] INFO root fetch - main [MainThread]: End processing [cellshape-cloud]: success
+[2023-04-27 13:45:37] INFO root fetch - processPackages [auterion-cli]: executing diffoscope
+[2023-04-27 13:45:37] INFO root fetch - processPackages [auterion-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auterion-cli-1.0.6.tar.gz tmp/auterion-cli-1.0.7.tar.gz --markdown 20230427/a/auterion-cli/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-04-27 13:45:37] INFO root fetch - processPackages [up-purple]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-27 13:45:37] WARNING root fetch - processPackages [enhancedocs]: Skipping, unable to determine old version
+[2023-04-27 13:45:37] INFO root fetch - processPackages [enhancedocs]: Start processing: ZEVIT-AIH-SDK
+[2023-04-27 13:45:37] INFO root fetch - main [MainThread]: End processing [enhancedocs] error
+[2023-04-27 13:45:37] INFO root fetch - processPackages [lightgrad]: Start processing: th2-grpc-lw-data-provider
+[2023-04-27 13:45:37] INFO root fetch - main [MainThread]: End processing [lightgrad]: success
+[2023-04-27 13:45:37] INFO root fetch - processPackages [oneai]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-27 13:45:37] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: New version: [2.1.0.dev3871883101] Old Version: [2.0.0.dev4819329209]
+[2023-04-27 13:45:37] INFO root fetch - processPackages [arfs]: Downloading https://files.pythonhosted.org/packages/72/23/9d608cf5e9e56d116b8a2024304fb5a566a88b15594374ebc5092ca3af72/arfs-1.0.7.tar.gz
+[2023-04-27 13:45:37] INFO root fetch - processPackages [up-purple]: executing diffoscope
+[2023-04-27 13:45:37] INFO root fetch - processPackages [up-purple]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/up_purple-0.1.2-py3-none-any.whl.zip tmp/up_purple-0.1.3-py3-none-any.whl.zip --markdown 20230427/u/up-purple/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-27 13:45:37] INFO root fetch - processPackages [ZEVIT-AIH-SDK]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-04-27 13:45:37] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: executing diffoscope
+[2023-04-27 13:45:37] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_lw_data_provider-2.0.0.dev4819329209.tar.gz tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz --markdown 20230427/t/th2-grpc-lw-data-provider/2.0.0.dev4819329209-2.1.0.dev3871883101/diff.md --exclude *.pyd
+[2023-04-27 13:45:37] INFO root fetch - processPackages [oneai]: Downloading https://files.pythonhosted.org/packages/89/0a/916602909edf1a6e1b661edd45fea91d4c79d5b47c0e06ab35b279a9464b/oneai-0.9.8.tar.gz
+[2023-04-27 13:45:37] INFO root fetch - processPackages [arfs]: executing diffoscope
+[2023-04-27 13:45:37] INFO root fetch - processPackages [arfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arfs-1.0.6.tar.gz tmp/arfs-1.0.7.tar.gz --markdown 20230427/a/arfs/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-04-27 13:45:37] INFO root fetch - processPackages [ZEVIT-AIH-SDK]: Downloading https://files.pythonhosted.org/packages/2d/87/11b8eb218082e982186f53fa2873aa8d924d8a9c5ee728d9687cf0ba709b/ZEVIT_AIH_SDK-0.5.8.tar.gz
+[2023-04-27 13:45:37] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Start processing: autosrt
+[2023-04-27 13:45:37] INFO root fetch - main [MainThread]: End processing [th2-grpc-lw-data-provider]: success
+[2023-04-27 13:45:37] INFO root fetch - processPackages [sqlalchemy-spanner]: Start processing: lightgrad
+[2023-04-27 13:45:37] INFO root fetch - main [MainThread]: End processing [sqlalchemy-spanner]: success
+[2023-04-27 13:45:37] INFO root fetch - processPackages [lightgrad]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-27 13:45:37] INFO root fetch - processPackages [autosrt]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-04-27 13:45:37] INFO root fetch - processPackages [lightgrad]: executing diffoscope
+[2023-04-27 13:45:37] INFO root fetch - processPackages [lightgrad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightgrad-0.0.1.tar.gz tmp/lightgrad-0.0.2.tar.gz --markdown 20230427/l/lightgrad/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-27 13:45:37] INFO root fetch - processPackages [oneai]: Downloading https://files.pythonhosted.org/packages/a8/be/4f8d749fd967478a2b1fff1577b187c9e85d1892517acbe16a8cdf91e094/oneai-0.9.9.tar.gz
+[2023-04-27 13:45:37] INFO root fetch - processPackages [SQLAlchemy-Utils]: Start processing: Geode-Explicit
+[2023-04-27 13:45:37] INFO root fetch - main [MainThread]: End processing [SQLAlchemy-Utils]: success
+[2023-04-27 13:45:38] INFO root fetch - processPackages [ZEVIT-AIH-SDK]: Downloading https://files.pythonhosted.org/packages/d9/cf/5b4fcac676a81f22e69303b1eb763f9a802418640514eb7824e0a5920e6a/ZEVIT_AIH_SDK-0.5.9.tar.gz
+[2023-04-27 13:45:38] INFO root fetch - processPackages [autosrt]: Downloading https://files.pythonhosted.org/packages/3b/1e/9f4e3ee522128c197f8f09314ade3f5c0a75db34ac9429de4e7eaf07dc4d/autosrt-1.1.2.tar.gz
+[2023-04-27 13:45:38] INFO root fetch - processPackages [oneai]: executing diffoscope
+[2023-04-27 13:45:38] INFO root fetch - processPackages [oneai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oneai-0.9.8.tar.gz tmp/oneai-0.9.9.tar.gz --markdown 20230427/o/oneai/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-27 13:45:38] INFO root fetch - processPackages [Geode-Explicit]: New version: [3.0.2] Old Version: [3.0.1]
+[2023-04-27 13:45:38] INFO root fetch - processPackages [ZEVIT-AIH-SDK]: executing diffoscope
+[2023-04-27 13:45:38] INFO root fetch - processPackages [ZEVIT-AIH-SDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ZEVIT_AIH_SDK-0.5.8.tar.gz tmp/ZEVIT_AIH_SDK-0.5.9.tar.gz --markdown 20230427/Z/ZEVIT-AIH-SDK/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-04-27 13:45:38] INFO root fetch - processPackages [autosrt]: Downloading https://files.pythonhosted.org/packages/1f/1c/19f6b61a9d303167cdeb6af97182e175a6b33bd2cda23fb03af2989ab421/autosrt-1.1.3.tar.gz
+[2023-04-27 13:45:38] INFO root fetch - processPackages [Geode-Explicit]: Downloading https://files.pythonhosted.org/packages/b7/03/8d7bc5ebd6b52fde893937ff0d6ba8b30b930de1c2df2d2b5224b687ff40/Geode_Explicit-3.0.1-cp39-cp39-win_amd64.whl
+[2023-04-27 13:45:38] INFO root fetch - processPackages [autosrt]: executing diffoscope
+[2023-04-27 13:45:38] INFO root fetch - processPackages [autosrt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autosrt-1.1.2.tar.gz tmp/autosrt-1.1.3.tar.gz --markdown 20230427/a/autosrt/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-04-27 13:45:38] INFO root fetch - processPackages [up-purple]: Start processing: tensorflow-batchnorm-folding
+[2023-04-27 13:45:38] INFO root fetch - main [MainThread]: End processing [up-purple]: success
+[2023-04-27 13:45:38] INFO root fetch - processPackages [tensorflow-batchnorm-folding]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-04-27 13:45:39] INFO root fetch - processPackages [auterion-cli]: Start processing: gbx
+[2023-04-27 13:45:39] INFO root fetch - main [MainThread]: End processing [auterion-cli]: success
+[2023-04-27 13:45:39] INFO root fetch - processPackages [Geode-Explicit]: Downloading https://files.pythonhosted.org/packages/de/f2/b3350251d510458596ef79b00eb05e099d1b79343b6635478cc04fa21c67/Geode_Explicit-3.0.2-cp39-cp39-manylinux2014_x86_64.whl
+[2023-04-27 13:45:39] INFO root fetch - processPackages [tensorflow-batchnorm-folding]: Downloading https://files.pythonhosted.org/packages/6e/16/696e720ebb30f849c9a50a603ecbe450dc0a95c0209e28c7fbf0ceda37d0/tensorflow_batchnorm_folding-1.0.6.tar.gz
+[2023-04-27 13:45:39] INFO root fetch - main [MainThread]: End processing [th2-grpc-lw-data-provider]: success
+[2023-04-27 13:45:39] WARNING root fetch - processPackages [gbx]: Skipping, unable to determine old version
+[2023-04-27 13:45:39] INFO root fetch - main [MainThread]: End processing [gbx] error
+[2023-04-27 13:45:39] INFO root fetch - main [MainThread]: End processing [lightgrad]: success
+[2023-04-27 13:45:39] INFO root fetch - processPackages [Geode-Explicit]: executing diffoscope
+[2023-04-27 13:45:39] INFO root fetch - processPackages [Geode-Explicit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Explicit-3.0.1-cp39-cp39-win_amd64.whl.zip tmp/Geode_Explicit-3.0.2-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230427/G/Geode-Explicit/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2023-04-27 13:45:39] INFO root fetch - processPackages [tensorflow-batchnorm-folding]: Downloading https://files.pythonhosted.org/packages/90/71/3d6ec0fcd374cf6f9cded9f158cd9b1b2811cca2614befef1c655ad05e90/tensorflow_batchnorm_folding-1.0.7.tar.gz
+[2023-04-27 13:45:39] INFO root fetch - processPackages [tensorflow-batchnorm-folding]: executing diffoscope
+[2023-04-27 13:45:39] INFO root fetch - processPackages [tensorflow-batchnorm-folding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow_batchnorm_folding-1.0.6.tar.gz tmp/tensorflow_batchnorm_folding-1.0.7.tar.gz --markdown 20230427/t/tensorflow-batchnorm-folding/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-04-27 13:45:39] INFO root fetch - main [MainThread]: End processing [autosrt]: success
+[2023-04-27 13:45:39] INFO root fetch - main [MainThread]: End processing [ZEVIT-AIH-SDK]: success
+[2023-04-27 13:45:40] INFO root fetch - main [MainThread]: End processing [oneai]: success
+[2023-04-27 13:45:40] INFO root fetch - main [MainThread]: End processing [Geode-Explicit]: success
+[2023-04-27 13:45:40] INFO root fetch - main [MainThread]: End processing [tensorflow-batchnorm-folding]: success
+[2023-04-27 13:45:42] INFO root fetch - main [MainThread]: End processing [arfs]: success
+[2023-04-27 13:46:13] INFO root fetch - main [MainThread]: End processing [purple-plan]: success
+[2023-04-27 13:46:13] INFO root fetch - main [MainThread]: Store serial: [17882252]
