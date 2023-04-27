@@ -22252,3 +22252,76 @@ EOFError: EOF read where object expected
 [2023-04-27 17:06:09] INFO root fetch - main [MainThread]: End processing [django-rest-witchcraft]: success
 [2023-04-27 17:06:10] INFO root fetch - main [MainThread]: End processing [bemserver-ui]: success
 [2023-04-27 17:06:10] INFO root fetch - main [MainThread]: Store serial: [17884895]
+[2023-04-27 17:11:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17884895]
+[2023-04-27 17:11:21] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-27 17:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sam-publish
+[2023-04-27 17:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: panther-analysis-tool
+[2023-04-27 17:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: domolibrary
+[2023-04-27 17:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spotinst-agent-beta
+[2023-04-27 17:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dev-dependencies
+[2023-04-27 17:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nanolayer
+[2023-04-27 17:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: amazon-textract-idp-cdk-constructs
+[2023-04-27 17:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sygnet
+[2023-04-27 17:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: datasette
+[2023-04-27 17:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nonebot-plugin-pixivbot
+[2023-04-27 17:11:21] INFO root fetch - processPackages [domolibrary]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-27 17:11:21] INFO root fetch - processPackages [spotinst-agent-beta]: New version: [2.2.268] Old Version: [2.2.267]
+[2023-04-27 17:11:21] INFO root fetch - processPackages [sygnet]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 17:11:21] INFO root fetch - processPackages [nonebot-plugin-pixivbot]: New version: [1.8.3] Old Version: [1.8.2]
+[2023-04-27 17:11:21] INFO root fetch - processPackages [sygnet]: executing diffoscope
+[2023-04-27 17:11:21] INFO root fetch - processPackages [sygnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sygnet-0.0.8.tar.gz tmp/sygnet-0.0.9.tar.gz --markdown 20230427/s/sygnet/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 17:11:21] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2023-04-27 17:11:21] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-0.1.8.tar.gz tmp/domolibrary-0.1.9.tar.gz --markdown 20230427/d/domolibrary/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-27 17:11:21] INFO root fetch - processPackages [panther-analysis-tool]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-04-27 17:11:21] WARNING root fetch - processPackages [dev-dependencies]: Skipping, unable to determine old version
+[2023-04-27 17:11:21] INFO root fetch - processPackages [dev-dependencies]: Start processing: circuitpython-qmc5883l
+[2023-04-27 17:11:21] WARNING root fetch - processPackages [sam-publish]: Skipping, unable to determine old version
+[2023-04-27 17:11:21] INFO root fetch - main [MainThread]: End processing [dev-dependencies] error
+[2023-04-27 17:11:21] INFO root fetch - processPackages [nanolayer]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-04-27 17:11:21] INFO root fetch - processPackages [sam-publish]: Start processing: boston
+[2023-04-27 17:11:21] INFO root fetch - main [MainThread]: End processing [sam-publish] error
+[2023-04-27 17:11:21] INFO root fetch - processPackages [amazon-textract-idp-cdk-constructs]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 17:11:21] INFO root fetch - processPackages [nonebot-plugin-pixivbot]: executing diffoscope
+[2023-04-27 17:11:21] INFO root fetch - processPackages [nonebot-plugin-pixivbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_pixivbot-1.8.2.tar.gz tmp/nonebot_plugin_pixivbot-1.8.3.tar.gz --markdown 20230427/n/nonebot-plugin-pixivbot/1.8.2-1.8.3/diff.md --exclude *.pyd
+[2023-04-27 17:11:21] INFO root fetch - processPackages [datasette]: New version: [1.0a2] Old Version: [1.0a1]
+[2023-04-27 17:11:21] INFO root fetch - processPackages [spotinst-agent-beta]: Downloading https://files.pythonhosted.org/packages/d3/71/569e20e0c373c5e68fe6434d84e5e058dde6f00026818b2071a4256a54e1/spotinst-agent-beta-2.2.268.tar.gz
+[2023-04-27 17:11:21] INFO root fetch - processPackages [circuitpython-qmc5883l]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-27 17:11:21] WARNING root fetch - processPackages [boston]: Skipping, unable to determine old version
+[2023-04-27 17:11:21] INFO root fetch - processPackages [boston]: Start processing: openai-shell-craft
+[2023-04-27 17:11:21] INFO root fetch - main [MainThread]: End processing [boston] error
+[2023-04-27 17:11:21] INFO root fetch - processPackages [nanolayer]: Downloading https://files.pythonhosted.org/packages/f7/80/e468152babc6e88200c8550f2acb9118ee6b98559961a04f5057b14cce4a/nanolayer-0.4.8-py3-none-any.whl
+[2023-04-27 17:11:21] INFO root fetch - processPackages [amazon-textract-idp-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/39/f3/d4f702ac711deb309800f2f040e57ade042b374750e8d8439c4bcf8324f0/amazon-textract-idp-cdk-constructs-0.0.8.tar.gz
+[2023-04-27 17:11:21] INFO root fetch - processPackages [datasette]: Downloading https://files.pythonhosted.org/packages/c0/50/1805229c74197762a6bb73002a673e7906dd1b8672348f4d375797a908b2/datasette-1.0a1.tar.gz
+[2023-04-27 17:11:21] INFO root fetch - processPackages [openai-shell-craft]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-04-27 17:11:21] INFO root fetch - processPackages [spotinst-agent-beta]: executing diffoscope
+[2023-04-27 17:11:21] INFO root fetch - processPackages [spotinst-agent-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotinst-agent-beta-2.2.267.tar.gz tmp/spotinst-agent-beta-2.2.268.tar.gz --markdown 20230427/s/spotinst-agent-beta/2.2.267-2.2.268/diff.md --exclude *.pyd
+[2023-04-27 17:11:21] INFO root fetch - processPackages [circuitpython-qmc5883l]: Downloading https://files.pythonhosted.org/packages/fb/34/62d8b843f3df4363166d9ea99d5742be77232b3f93922750829284a6cc10/circuitpython-qmc5883l-0.1.2.tar.gz
+[2023-04-27 17:11:21] INFO root fetch - processPackages [panther-analysis-tool]: executing diffoscope
+[2023-04-27 17:11:21] INFO root fetch - processPackages [panther-analysis-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panther_analysis_tool-0.8.3.tar.gz tmp/panther_analysis_tool-0.9.0.tar.gz --markdown 20230427/p/panther-analysis-tool/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-04-27 17:11:21] INFO root fetch - processPackages [openai-shell-craft]: Downloading https://files.pythonhosted.org/packages/0f/b0/c31173dd3c87f7b40f6ec4de11ed75e63584269ad49d155e77515162dced/openai_shell_craft-0.5.4.tar.gz
+[2023-04-27 17:11:21] INFO root fetch - processPackages [datasette]: Downloading https://files.pythonhosted.org/packages/35/e6/236377d29b8dbd669f8702997a113aa3de35395481b9e84930f4efa4f71e/datasette-1.0a2.tar.gz
+[2023-04-27 17:11:21] INFO root fetch - processPackages [nanolayer]: Downloading https://files.pythonhosted.org/packages/70/8a/a686dbb9639ca2e1d67b4529bad6754b3a7a4935d0e3000f500f51951aa4/nanolayer-0.4.9-py3-none-any.whl
+[2023-04-27 17:11:22] INFO root fetch - processPackages [circuitpython-qmc5883l]: Downloading https://files.pythonhosted.org/packages/e5/d4/6d03f35db20282cbc0ede335c8f4dfbec5a1efdea3bf00e65d2fc6d0eee6/circuitpython-qmc5883l-0.1.3.tar.gz
+[2023-04-27 17:11:22] INFO root fetch - processPackages [openai-shell-craft]: Downloading https://files.pythonhosted.org/packages/7e/ff/a96197279e1bda525e9cba276bd1fa95de698a585407d80852db9d749dc1/openai_shell_craft-0.5.5.tar.gz
+[2023-04-27 17:11:22] INFO root fetch - processPackages [circuitpython-qmc5883l]: executing diffoscope
+[2023-04-27 17:11:22] INFO root fetch - processPackages [circuitpython-qmc5883l]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circuitpython-qmc5883l-0.1.2.tar.gz tmp/circuitpython-qmc5883l-0.1.3.tar.gz --markdown 20230427/c/circuitpython-qmc5883l/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-27 17:11:22] INFO root fetch - processPackages [datasette]: executing diffoscope
+[2023-04-27 17:11:22] INFO root fetch - processPackages [datasette]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette-1.0a1.tar.gz tmp/datasette-1.0a2.tar.gz --markdown 20230427/d/datasette/1.0a1-1.0a2/diff.md --exclude *.pyd
+[2023-04-27 17:11:22] INFO root fetch - processPackages [nanolayer]: executing diffoscope
+[2023-04-27 17:11:22] INFO root fetch - processPackages [nanolayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanolayer-0.4.8-py3-none-any.whl.zip tmp/nanolayer-0.4.9-py3-none-any.whl.zip --markdown 20230427/n/nanolayer/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-04-27 17:11:22] INFO root fetch - processPackages [openai-shell-craft]: executing diffoscope
+[2023-04-27 17:11:22] INFO root fetch - processPackages [openai-shell-craft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_shell_craft-0.5.4.tar.gz tmp/openai_shell_craft-0.5.5.tar.gz --markdown 20230427/o/openai-shell-craft/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2023-04-27 17:11:22] INFO root fetch - processPackages [amazon-textract-idp-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/1f/b7/52ee38e3959d7f8eaa3f678d4682625ee16d35d87f0ef506883c7655a6f3/amazon-textract-idp-cdk-constructs-0.0.9.tar.gz
+[2023-04-27 17:11:23] INFO root fetch - processPackages [amazon-textract-idp-cdk-constructs]: executing diffoscope
+[2023-04-27 17:11:23] INFO root fetch - processPackages [amazon-textract-idp-cdk-constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon-textract-idp-cdk-constructs-0.0.8.tar.gz tmp/amazon-textract-idp-cdk-constructs-0.0.9.tar.gz --markdown 20230427/a/amazon-textract-idp-cdk-constructs/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 17:11:23] INFO root fetch - main [MainThread]: End processing [panther-analysis-tool]: success
+[2023-04-27 17:11:23] INFO root fetch - main [MainThread]: End processing [spotinst-agent-beta]: success
+[2023-04-27 17:11:23] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2023-04-27 17:11:23] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-pixivbot]: success
+[2023-04-27 17:11:23] INFO root fetch - main [MainThread]: End processing [openai-shell-craft]: success
+[2023-04-27 17:11:23] INFO root fetch - main [MainThread]: End processing [nanolayer]: success
+[2023-04-27 17:11:24] INFO root fetch - main [MainThread]: End processing [circuitpython-qmc5883l]: success
+[2023-04-27 17:11:25] INFO root fetch - main [MainThread]: End processing [datasette]: success
+[2023-04-27 17:11:31] INFO root fetch - main [MainThread]: End processing [amazon-textract-idp-cdk-constructs]: success
+[2023-04-27 17:11:46] INFO root fetch - main [MainThread]: End processing [sygnet]: success
+[2023-04-27 17:11:46] INFO root fetch - main [MainThread]: Store serial: [17884938]
