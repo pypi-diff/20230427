@@ -12033,3 +12033,122 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 09:33:33] INFO root fetch - main [MainThread]: End processing [xsocs]: success
 [2023-04-27 09:33:49] INFO root fetch - main [MainThread]: End processing [TerraSegmentationI]: success
 [2023-04-27 09:33:49] INFO root fetch - main [MainThread]: Store serial: [17878909]
+[2023-04-27 09:38:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17878909]
+[2023-04-27 09:38:58] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-04-27 09:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: analysisbykwok
+[2023-04-27 09:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-stock-cycle-count
+[2023-04-27 09:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TerraSegmentationI
+[2023-04-27 09:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-stock-request
+[2023-04-27 09:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: OpenGeode-core
+[2023-04-27 09:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cmeel
+[2023-04-27 09:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lalsuite
+[2023-04-27 09:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: featurebyte-freeware
+[2023-04-27 09:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: p-ttauto-crawler
+[2023-04-27 09:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: navalmartin-mir-vision-utils
+[2023-04-27 09:38:59] INFO root fetch - processPackages [TerraSegmentationI]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-27 09:38:59] INFO root fetch - processPackages [odoo14-addon-stock-cycle-count]: New version: [14.0.1.4.3.dev8] Old Version: [14.0.1.4.3.dev7]
+[2023-04-27 09:38:59] INFO root fetch - processPackages [p-ttauto-crawler]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 09:38:59] INFO root fetch - processPackages [analysisbykwok]: New version: [0.0.21] Old Version: [0.0.20]
+[2023-04-27 09:38:59] INFO root fetch - processPackages [navalmartin-mir-vision-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 09:38:59] INFO root fetch - processPackages [odoo14-addon-stock-request]: New version: [14.0.1.5.3.dev1] Old Version: [14.0.1.5.2]
+[2023-04-27 09:38:59] INFO root fetch - processPackages [featurebyte-freeware]: New version: [0.2.14.dev1] Old Version: [0.2.14]
+[2023-04-27 09:38:59] INFO root fetch - processPackages [cmeel]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-27 09:38:59] INFO root fetch - processPackages [OpenGeode-core]: New version: [9.10.4] Old Version: [14.0.8]
+[2023-04-27 09:38:59] INFO root fetch - processPackages [lalsuite]: New version: [7.9] Old Version: [7.8]
+[2023-04-27 09:38:59] INFO root fetch - processPackages [p-ttauto-crawler]: executing diffoscope
+[2023-04-27 09:38:59] INFO root fetch - processPackages [p-ttauto-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p-ttauto-crawler-0.0.8.tar.gz tmp/p-ttauto-crawler-0.0.9.tar.gz --markdown 20230427/p/p-ttauto-crawler/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 09:38:59] INFO root fetch - processPackages [cmeel]: executing diffoscope
+[2023-04-27 09:38:59] INFO root fetch - processPackages [cmeel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmeel-0.8.0.tar.gz tmp/cmeel-0.9.0.tar.gz --markdown 20230427/c/cmeel/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-27 09:38:59] INFO root fetch - processPackages [odoo14-addon-stock-cycle-count]: Downloading https://files.pythonhosted.org/packages/80/06/ad8d30e9f4aee37074960f14275e6523472149c4aba673360be3819b9c4a/odoo14_addon_stock_cycle_count-14.0.1.4.3.dev7-py3-none-any.whl
+[2023-04-27 09:38:59] INFO root fetch - processPackages [lalsuite]: Downloading https://files.pythonhosted.org/packages/53/92/fc43211ca56b7c5532fc1b47c701a564c7ddcaf866c62ae45acbfdc34f23/lalsuite-7.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-27 09:38:59] INFO root fetch - processPackages [analysisbykwok]: Downloading https://files.pythonhosted.org/packages/10/65/f3bcc67689ce1610c6a3b3790d459008fb1e0f5516d1ab0cc9d430efc969/analysisbykwok-0.0.20.tar.gz
+[2023-04-27 09:38:59] INFO root fetch - processPackages [featurebyte-freeware]: Downloading https://files.pythonhosted.org/packages/b9/30/812ab306a4d9fbde531ecadb16f931219000c79357a82700b7dd2c362f09/featurebyte_freeware-0.2.14-cp39-cp39-win_amd64.whl
+[2023-04-27 09:38:59] INFO root fetch - processPackages [odoo14-addon-stock-request]: Downloading https://files.pythonhosted.org/packages/ce/e5/d400492b4829ced216d7c7a39a2a4394da916554a3c8dfb880d5c85e2995/odoo14_addon_stock_request-14.0.1.5.3.dev1-py3-none-any.whl
+[2023-04-27 09:38:59] INFO root fetch - processPackages [TerraSegmentationI]: Downloading https://files.pythonhosted.org/packages/65/9d/fe29d72ba222d41edc7cdab37534adaf3a609c0f401132d20533e96db9d2/TerraSegmentationI-0.0.3.tar.gz
+[2023-04-27 09:38:59] INFO root fetch - processPackages [navalmartin-mir-vision-utils]: executing diffoscope
+[2023-04-27 09:38:59] INFO root fetch - processPackages [navalmartin-mir-vision-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/navalmartin_mir_vision_utils-0.0.8.tar.gz tmp/navalmartin_mir_vision_utils-0.0.9.tar.gz --markdown 20230427/n/navalmartin-mir-vision-utils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 09:38:59] INFO root fetch - processPackages [OpenGeode-core]: Downloading https://files.pythonhosted.org/packages/4f/0b/66bfe7a64e9503079dc283c6b3b03a24273a2faa1a17e14eb636109e1b3b/OpenGeode_core-14.0.8-cp39-cp39-win_amd64.whl
+[2023-04-27 09:38:59] INFO root fetch - processPackages [TerraSegmentationI]: executing diffoscope
+[2023-04-27 09:38:59] INFO root fetch - processPackages [TerraSegmentationI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TerraSegmentationI-0.0.2.tar.gz tmp/TerraSegmentationI-0.0.3.tar.gz --markdown 20230427/T/TerraSegmentationI/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-27 09:38:59] WARNING root fetch - processPackages [lalsuite]: Skipping package: exceeds size limit 48394251>=10485760
+[2023-04-27 09:38:59] INFO root fetch - processPackages [lalsuite]: Start processing: decorworld-database-model
+[2023-04-27 09:38:59] INFO root fetch - main [MainThread]: End processing [lalsuite] error
+[2023-04-27 09:38:59] INFO root fetch - processPackages [odoo14-addon-stock-request]: executing diffoscope
+[2023-04-27 09:38:59] INFO root fetch - processPackages [odoo14-addon-stock-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_stock_request-14.0.1.5.2-py3-none-any.whl.zip tmp/odoo14_addon_stock_request-14.0.1.5.3.dev1-py3-none-any.whl.zip --markdown 20230427/o/odoo14-addon-stock-request/14.0.1.5.2-14.0.1.5.3.dev1/diff.md --exclude *.pyd
+[2023-04-27 09:38:59] INFO root fetch - processPackages [decorworld-database-model]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-04-27 09:38:59] INFO root fetch - processPackages [featurebyte-freeware]: executing diffoscope
+[2023-04-27 09:38:59] INFO root fetch - processPackages [featurebyte-freeware]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/featurebyte_freeware-0.2.14-cp39-cp39-win_amd64.whl.zip tmp/featurebyte_freeware-0.2.14.dev1-cp39-cp39-win_amd64.whl.zip --markdown 20230427/f/featurebyte-freeware/0.2.14-0.2.14.dev1/diff.md --exclude *.pyd
+[2023-04-27 09:38:59] INFO root fetch - processPackages [analysisbykwok]: Downloading https://files.pythonhosted.org/packages/b5/8d/a8bf707b466e559f44772ea80e20db1afbc183b7586305b8cf296a8fb469/analysisbykwok-0.0.21.tar.gz
+[2023-04-27 09:38:59] INFO root fetch - processPackages [decorworld-database-model]: Downloading https://files.pythonhosted.org/packages/8d/c3/0d5d3e11e5244a72ad0a39b61b4dd11143118f5534706d07fee784564d47/decorworld_database_model-0.6.1.tar.gz
+[2023-04-27 09:38:59] INFO root fetch - processPackages [odoo14-addon-stock-cycle-count]: Downloading https://files.pythonhosted.org/packages/e2/0d/a17d0d887612721deec82c7d5138baae413180fee10936e4ffe5c5d0605f/odoo14_addon_stock_cycle_count-14.0.1.4.3.dev8-py3-none-any.whl
+[2023-04-27 09:38:59] INFO root fetch - processPackages [analysisbykwok]: executing diffoscope
+[2023-04-27 09:38:59] INFO root fetch - processPackages [analysisbykwok]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/analysisbykwok-0.0.20.tar.gz tmp/analysisbykwok-0.0.21.tar.gz --markdown 20230427/a/analysisbykwok/0.0.20-0.0.21/diff.md --exclude *.pyd
+[2023-04-27 09:38:59] INFO root fetch - processPackages [odoo14-addon-stock-cycle-count]: executing diffoscope
+[2023-04-27 09:38:59] INFO root fetch - processPackages [odoo14-addon-stock-cycle-count]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_stock_cycle_count-14.0.1.4.3.dev7-py3-none-any.whl.zip tmp/odoo14_addon_stock_cycle_count-14.0.1.4.3.dev8-py3-none-any.whl.zip --markdown 20230427/o/odoo14-addon-stock-cycle-count/14.0.1.4.3.dev7-14.0.1.4.3.dev8/diff.md --exclude *.pyd
+[2023-04-27 09:38:59] INFO root fetch - processPackages [decorworld-database-model]: Downloading https://files.pythonhosted.org/packages/fd/dc/fd4c8f59c93270da13a5ba442d9b6765727d044f9295aec5f0718cdc5b0e/decorworld_database_model-0.6.2.tar.gz
+[2023-04-27 09:38:59] INFO root fetch - processPackages [decorworld-database-model]: executing diffoscope
+[2023-04-27 09:38:59] INFO root fetch - processPackages [decorworld-database-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decorworld_database_model-0.6.1.tar.gz tmp/decorworld_database_model-0.6.2.tar.gz --markdown 20230427/d/decorworld-database-model/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-04-27 09:38:59] WARNING root fetch - processPackages [OpenGeode-core]: Skipping package: exceeds size limit 17911395>=10485760
+[2023-04-27 09:38:59] INFO root fetch - processPackages [OpenGeode-core]: Start processing: gardener-cicd-base
+[2023-04-27 09:38:59] INFO root fetch - main [MainThread]: End processing [OpenGeode-core] error
+[2023-04-27 09:39:00] INFO root fetch - processPackages [gardener-cicd-base]: New version: [1.2040.0] Old Version: [1.2039.0]
+[2023-04-27 09:39:00] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/28/53/60f18e1c14413b84bb55bbb4233c49164cf43a6ab9dc74fba8d18f474394/gardener-cicd-base-1.2040.0.tar.gz
+[2023-04-27 09:39:00] INFO root fetch - processPackages [p-ttauto-crawler]: Start processing: gardener-cicd-cli
+[2023-04-27 09:39:00] INFO root fetch - main [MainThread]: End processing [p-ttauto-crawler]: success
+[2023-04-27 09:39:00] INFO root fetch - processPackages [gardener-cicd-cli]: New version: [1.2039.0] Old Version: [1.2038.0]
+[2023-04-27 09:39:00] INFO root fetch - processPackages [gardener-cicd-base]: executing diffoscope
+[2023-04-27 09:39:00] INFO root fetch - processPackages [gardener-cicd-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-base-1.2039.0.tar.gz tmp/gardener-cicd-base-1.2040.0.tar.gz --markdown 20230427/g/gardener-cicd-base/1.2039.0-1.2040.0/diff.md --exclude *.pyd
+[2023-04-27 09:39:00] INFO root fetch - processPackages [cmeel]: Start processing: gardener-cicd-dso
+[2023-04-27 09:39:00] INFO root fetch - main [MainThread]: End processing [cmeel]: success
+[2023-04-27 09:39:00] INFO root fetch - processPackages [gardener-cicd-dso]: New version: [1.2039.0] Old Version: [1.2038.0]
+[2023-04-27 09:39:00] INFO root fetch - processPackages [gardener-cicd-cli]: executing diffoscope
+[2023-04-27 09:39:00] INFO root fetch - processPackages [gardener-cicd-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-cli-1.2038.0.tar.gz tmp/gardener-cicd-cli-1.2039.0.tar.gz --markdown 20230427/g/gardener-cicd-cli/1.2038.0-1.2039.0/diff.md --exclude *.pyd
+[2023-04-27 09:39:00] INFO root fetch - processPackages [TerraSegmentationI]: Start processing: gardener-cicd-libs
+[2023-04-27 09:39:00] INFO root fetch - main [MainThread]: End processing [TerraSegmentationI]: success
+[2023-04-27 09:39:00] INFO root fetch - processPackages [gardener-cicd-dso]: executing diffoscope
+[2023-04-27 09:39:00] INFO root fetch - processPackages [gardener-cicd-dso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-dso-1.2038.0.tar.gz tmp/gardener-cicd-dso-1.2039.0.tar.gz --markdown 20230427/g/gardener-cicd-dso/1.2038.0-1.2039.0/diff.md --exclude *.pyd
+[2023-04-27 09:39:00] INFO root fetch - processPackages [gardener-cicd-libs]: New version: [1.2039.0] Old Version: [1.2038.0]
+[2023-04-27 09:39:00] INFO root fetch - processPackages [gardener-cicd-libs]: executing diffoscope
+[2023-04-27 09:39:00] INFO root fetch - processPackages [gardener-cicd-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-libs-1.2038.0.tar.gz tmp/gardener-cicd-libs-1.2039.0.tar.gz --markdown 20230427/g/gardener-cicd-libs/1.2038.0-1.2039.0/diff.md --exclude *.pyd
+[2023-04-27 09:39:00] INFO root fetch - processPackages [navalmartin-mir-vision-utils]: Start processing: gardener-cicd-whd
+[2023-04-27 09:39:00] INFO root fetch - main [MainThread]: End processing [navalmartin-mir-vision-utils]: success
+[2023-04-27 09:39:00] INFO root fetch - processPackages [gardener-cicd-whd]: New version: [1.2039.0] Old Version: [1.2038.0]
+[2023-04-27 09:39:01] INFO root fetch - processPackages [featurebyte-freeware]: Start processing: gardener-oci
+[2023-04-27 09:39:01] INFO root fetch - main [MainThread]: End processing [featurebyte-freeware]: success
+[2023-04-27 09:39:01] INFO root fetch - processPackages [gardener-cicd-whd]: executing diffoscope
+[2023-04-27 09:39:01] INFO root fetch - processPackages [gardener-cicd-whd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-whd-1.2038.0.tar.gz tmp/gardener-cicd-whd-1.2039.0.tar.gz --markdown 20230427/g/gardener-cicd-whd/1.2038.0-1.2039.0/diff.md --exclude *.pyd
+[2023-04-27 09:39:01] INFO root fetch - processPackages [gardener-oci]: New version: [1.999.0] Old Version: [1.998.0]
+[2023-04-27 09:39:01] INFO root fetch - processPackages [analysisbykwok]: Start processing: odoo12-addon-stock-return-request
+[2023-04-27 09:39:01] INFO root fetch - main [MainThread]: End processing [analysisbykwok]: success
+[2023-04-27 09:39:01] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/65/8d/87469d533eb661d280b5bb3eb778421053cbe6438908abdc1d79b2921522/gardener-oci-1.998.0.tar.gz
+[2023-04-27 09:39:01] INFO root fetch - processPackages [odoo12-addon-stock-return-request]: New version: [12.0.1.0.2.99.dev9] Old Version: [12.0.1.0.2.99.dev8]
+[2023-04-27 09:39:01] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/f8/de/c6930b025944729e4655e337193e76592dfc15653c0cde84790cb8650df4/gardener-oci-1.999.0.tar.gz
+[2023-04-27 09:39:01] INFO root fetch - processPackages [odoo12-addon-stock-return-request]: Downloading https://files.pythonhosted.org/packages/a0/f8/420749911a392eddb386633f25d0071f927fd5efcdc09fd12fdf39d75836/odoo12_addon_stock_return_request-12.0.1.0.2.99.dev8-py3-none-any.whl
+[2023-04-27 09:39:01] INFO root fetch - processPackages [gardener-oci]: executing diffoscope
+[2023-04-27 09:39:01] INFO root fetch - processPackages [gardener-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-oci-1.998.0.tar.gz tmp/gardener-oci-1.999.0.tar.gz --markdown 20230427/g/gardener-oci/1.998.0-1.999.0/diff.md --exclude *.pyd
+[2023-04-27 09:39:01] INFO root fetch - processPackages [decorworld-database-model]: Start processing: PyNyaaTa
+[2023-04-27 09:39:01] INFO root fetch - main [MainThread]: End processing [decorworld-database-model]: success
+[2023-04-27 09:39:01] INFO root fetch - processPackages [PyNyaaTa]: New version: [202304261143] Old Version: [202304081258]
+[2023-04-27 09:39:01] INFO root fetch - processPackages [odoo12-addon-stock-return-request]: Downloading https://files.pythonhosted.org/packages/6e/d2/f7113ddf9a3f34ebf18d0ee65a73918ddf0d8b8357678f927a6d48af1a1e/odoo12_addon_stock_return_request-12.0.1.0.2.99.dev9-py3-none-any.whl
+[2023-04-27 09:39:01] INFO root fetch - processPackages [PyNyaaTa]: executing diffoscope
+[2023-04-27 09:39:01] INFO root fetch - processPackages [PyNyaaTa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyNyaaTa-202304081258.tar.gz tmp/PyNyaaTa-202304261143.tar.gz --markdown 20230427/P/PyNyaaTa/202304081258-202304261143/diff.md --exclude *.pyd
+[2023-04-27 09:39:01] INFO root fetch - processPackages [odoo12-addon-stock-return-request]: executing diffoscope
+[2023-04-27 09:39:01] INFO root fetch - processPackages [odoo12-addon-stock-return-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_stock_return_request-12.0.1.0.2.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_stock_return_request-12.0.1.0.2.99.dev9-py3-none-any.whl.zip --markdown 20230427/o/odoo12-addon-stock-return-request/12.0.1.0.2.99.dev8-12.0.1.0.2.99.dev9/diff.md --exclude *.pyd
+[2023-04-27 09:39:02] INFO root fetch - processPackages [odoo14-addon-stock-cycle-count]: Start processing: discogs-alert
+[2023-04-27 09:39:02] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-cycle-count]: success
+[2023-04-27 09:39:02] INFO root fetch - main [MainThread]: End processing [gardener-cicd-base]: success
+[2023-04-27 09:39:02] INFO root fetch - processPackages [discogs-alert]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 09:39:02] INFO root fetch - main [MainThread]: End processing [gardener-cicd-whd]: success
+[2023-04-27 09:39:02] INFO root fetch - processPackages [discogs-alert]: Downloading https://files.pythonhosted.org/packages/6e/74/5a387ab1d84fd5d9ce6e7c2a68ec16b63b49754ed8f8d27c6fbc8432bbb4/discogs_alert-0.0.8.tar.gz
+[2023-04-27 09:39:02] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-request]: success
+[2023-04-27 09:39:02] INFO root fetch - processPackages [discogs-alert]: Downloading https://files.pythonhosted.org/packages/fe/99/5474a7fc57d24ce5cfc9876a6e07f669a5916a22ad26655889440e7ab536/discogs_alert-0.0.9.tar.gz
+[2023-04-27 09:39:02] INFO root fetch - main [MainThread]: End processing [gardener-cicd-cli]: success
+[2023-04-27 09:39:02] INFO root fetch - processPackages [discogs-alert]: executing diffoscope
+[2023-04-27 09:39:02] INFO root fetch - processPackages [discogs-alert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discogs_alert-0.0.8.tar.gz tmp/discogs_alert-0.0.9.tar.gz --markdown 20230427/d/discogs-alert/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 09:39:02] INFO root fetch - main [MainThread]: End processing [gardener-oci]: success
+[2023-04-27 09:39:03] INFO root fetch - main [MainThread]: End processing [odoo12-addon-stock-return-request]: success
+[2023-04-27 09:39:03] INFO root fetch - main [MainThread]: End processing [PyNyaaTa]: success
+[2023-04-27 09:39:03] INFO root fetch - main [MainThread]: End processing [gardener-cicd-dso]: success
+[2023-04-27 09:39:04] INFO root fetch - main [MainThread]: End processing [discogs-alert]: success
+[2023-04-27 09:39:08] INFO root fetch - main [MainThread]: End processing [gardener-cicd-libs]: success
+[2023-04-27 09:39:08] INFO root fetch - main [MainThread]: Store serial: [17879011]
