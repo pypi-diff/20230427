@@ -11928,3 +11928,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 09:22:44] INFO root fetch - main [MainThread]: End processing [ckanext-feedback]: success
 [2023-04-27 09:22:54] INFO root fetch - main [MainThread]: End processing [secretflow]: success
 [2023-04-27 09:22:54] INFO root fetch - main [MainThread]: Store serial: [17878855]
+[2023-04-27 09:28:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17878855]
+[2023-04-27 09:28:13] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-27 09:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: benchling-sdk
+[2023-04-27 09:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spectralib
+[2023-04-27 09:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alibabacloud-dms-enterprise20181101
+[2023-04-27 09:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: djangocms-dag-jetcode
+[2023-04-27 09:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dashscope
+[2023-04-27 09:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: innerverz-package
+[2023-04-27 09:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-beam
+[2023-04-27 09:28:13] INFO root fetch - processPackages [spectralib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 09:28:13] INFO root fetch - processPackages [benchling-sdk]: New version: [1.7.0a9] Old Version: [1.7.0a8]
+[2023-04-27 09:28:13] INFO root fetch - processPackages [django-beam]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-04-27 09:28:13] INFO root fetch - processPackages [djangocms-dag-jetcode]: New version: [1.1.2] Old Version: [1.0.3]
+[2023-04-27 09:28:13] INFO root fetch - processPackages [alibabacloud-dms-enterprise20181101]: New version: [1.47.0] Old Version: [1.46.0]
+[2023-04-27 09:28:14] INFO root fetch - processPackages [spectralib]: executing diffoscope
+[2023-04-27 09:28:14] INFO root fetch - processPackages [spectralib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spectralib-0.0.8.tar.gz tmp/spectralib-0.0.9.tar.gz --markdown 20230427/s/spectralib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 09:28:14] WARNING root fetch - processPackages [innerverz-package]: Skipping, unable to determine old version
+[2023-04-27 09:28:14] INFO root fetch - main [MainThread]: End processing [innerverz-package] error
+[2023-04-27 09:28:14] INFO root fetch - processPackages [django-beam]: executing diffoscope
+[2023-04-27 09:28:14] INFO root fetch - processPackages [django-beam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-beam-1.3.1.tar.gz tmp/django-beam-1.3.2.tar.gz --markdown 20230427/d/django-beam/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-04-27 09:28:14] INFO root fetch - processPackages [dashscope]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-04-27 09:28:14] INFO root fetch - processPackages [djangocms-dag-jetcode]: Downloading https://files.pythonhosted.org/packages/63/99/0df7bbd02ab7bdf612702dec095dd1f79c7c167d10c54cced1f191828d9d/djangocms_dag_jetcode-1.0.3.tar.gz
+[2023-04-27 09:28:14] INFO root fetch - processPackages [alibabacloud-dms-enterprise20181101]: Downloading https://files.pythonhosted.org/packages/ed/32/b9b7ce13a4d7278093ea3bb0df3602f0a05248a9407aab3566d666fb346d/alibabacloud_dms-enterprise20181101-1.46.0.tar.gz
+[2023-04-27 09:28:14] INFO root fetch - processPackages [dashscope]: Downloading https://files.pythonhosted.org/packages/5b/d7/98e1fcf91ee4588362cc0adb7777832856227b790d506cfa16bd2ae90a56/dashscope-1.0.3.tar.gz
+[2023-04-27 09:28:14] INFO root fetch - processPackages [benchling-sdk]: executing diffoscope
+[2023-04-27 09:28:14] INFO root fetch - processPackages [benchling-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benchling_sdk-1.7.0a8.tar.gz tmp/benchling_sdk-1.7.0a9.tar.gz --markdown 20230427/b/benchling-sdk/1.7.0a8-1.7.0a9/diff.md --exclude *.pyd
+[2023-04-27 09:28:14] INFO root fetch - processPackages [alibabacloud-dms-enterprise20181101]: Downloading https://files.pythonhosted.org/packages/5a/83/6280a8847a602c3a6a7c939f4c2aa92b7dd119a5cab38a4b171770923a45/alibabacloud_dms-enterprise20181101-1.47.0.tar.gz
+[2023-04-27 09:28:14] INFO root fetch - processPackages [djangocms-dag-jetcode]: Downloading https://files.pythonhosted.org/packages/6f/e8/158adfd8ac7ea7ecb125aa73fb7b30e3c8fb8d6546ff328567ac36c70fc6/djangocms_dag_jetcode-1.1.2.tar.gz
+[2023-04-27 09:28:14] INFO root fetch - processPackages [alibabacloud-dms-enterprise20181101]: executing diffoscope
+[2023-04-27 09:28:14] INFO root fetch - processPackages [alibabacloud-dms-enterprise20181101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dms-enterprise20181101-1.46.0.tar.gz tmp/alibabacloud_dms-enterprise20181101-1.47.0.tar.gz --markdown 20230427/a/alibabacloud-dms-enterprise20181101/1.46.0-1.47.0/diff.md --exclude *.pyd
+[2023-04-27 09:28:14] INFO root fetch - processPackages [dashscope]: Downloading https://files.pythonhosted.org/packages/02/9f/524d15c8f49f9bd1185f16ff2194afe72513e427fec93d5cde8ffb476906/dashscope-1.0.4-py3-none-any.whl
+[2023-04-27 09:28:14] INFO root fetch - processPackages [djangocms-dag-jetcode]: executing diffoscope
+[2023-04-27 09:28:14] INFO root fetch - processPackages [djangocms-dag-jetcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangocms_dag_jetcode-1.0.3.tar.gz tmp/djangocms_dag_jetcode-1.1.2.tar.gz --markdown 20230427/d/djangocms-dag-jetcode/1.0.3-1.1.2/diff.md --exclude *.pyd
+[2023-04-27 09:28:14] INFO root fetch - processPackages [dashscope]: executing diffoscope
+[2023-04-27 09:28:14] INFO root fetch - processPackages [dashscope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dashscope-1.0.3.tar.gz tmp/dashscope-1.0.4-py3-none-any.whl.zip --markdown 20230427/d/dashscope/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-04-27 09:28:15] INFO root fetch - main [MainThread]: End processing [spectralib]: success
+[2023-04-27 09:28:15] INFO root fetch - main [MainThread]: End processing [dashscope]: success
+[2023-04-27 09:28:15] INFO root fetch - main [MainThread]: End processing [django-beam]: success
+[2023-04-27 09:28:15] INFO root fetch - main [MainThread]: End processing [djangocms-dag-jetcode]: success
+[2023-04-27 09:28:15] INFO root fetch - main [MainThread]: End processing [benchling-sdk]: success
+[2023-04-27 09:28:17] INFO root fetch - main [MainThread]: End processing [alibabacloud-dms-enterprise20181101]: success
+[2023-04-27 09:28:17] INFO root fetch - main [MainThread]: Store serial: [17878882]
