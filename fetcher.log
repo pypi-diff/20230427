@@ -16778,3 +16778,110 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 12:55:13] INFO root fetch - main [MainThread]: End processing [fedml]: success
 [2023-04-27 12:55:24] INFO root fetch - main [MainThread]: End processing [openmetadata-ingestion]: success
 [2023-04-27 12:55:24] INFO root fetch - main [MainThread]: Store serial: [17881584]
+[2023-04-27 13:00:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17881584]
+[2023-04-27 13:00:33] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-04-27 13:00:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyllicagram
+[2023-04-27 13:00:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cellmap
+[2023-04-27 13:00:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: krillscan
+[2023-04-27 13:00:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: coworks
+[2023-04-27 13:00:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: efshape
+[2023-04-27 13:00:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: clife-svc
+[2023-04-27 13:00:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gulistandb
+[2023-04-27 13:00:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Geode-Conversion
+[2023-04-27 13:00:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: elhub-python-sdk
+[2023-04-27 13:00:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: apis-bibsonomy
+[2023-04-27 13:00:33] INFO root fetch - processPackages [pyllicagram]: New version: [1.8.1] Old Version: [1.8]
+[2023-04-27 13:00:33] INFO root fetch - processPackages [cellmap]: New version: [1.0.1.dev202304271055] Old Version: [1.0.1.dev202304271030]
+[2023-04-27 13:00:33] INFO root fetch - processPackages [krillscan]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-27 13:00:33] INFO root fetch - processPackages [coworks]: New version: [0.8.5] Old Version: [0.8.3]
+[2023-04-27 13:00:33] INFO root fetch - processPackages [efshape]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-27 13:00:33] INFO root fetch - processPackages [clife-svc]: New version: [1.11] Old Version: [1.1]
+[2023-04-27 13:00:33] INFO root fetch - processPackages [gulistandb]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-27 13:00:33] INFO root fetch - processPackages [Geode-Conversion]: New version: [5.0.2] Old Version: [5.0.1]
+[2023-04-27 13:00:33] INFO root fetch - processPackages [elhub-python-sdk]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-27 13:00:33] INFO root fetch - processPackages [apis-bibsonomy]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-04-27 13:00:33] INFO root fetch - processPackages [pyllicagram]: Downloading https://files.pythonhosted.org/packages/a4/d6/888f515dfb928a3ffad52c8e7834c033cd12b77580164bc7a21013d3bb56/pyllicagram-1.8.tar.gz
+[2023-04-27 13:00:33] INFO root fetch - processPackages [coworks]: Downloading https://files.pythonhosted.org/packages/09/60/dcfb23835579572866a203597595707ba9eb45ddb7290a5bfdbc1fda18a0/coworks-0.8.3-py2.py3-none-any.whl
+[2023-04-27 13:00:34] INFO root fetch - processPackages [efshape]: Downloading https://files.pythonhosted.org/packages/5e/2c/6fbbf62343686a9e86ec5a7fc79c142cd2751f9bfd17a8ce4a6f3493b230/efshape-0.1.1.tar.gz
+[2023-04-27 13:00:34] INFO root fetch - processPackages [clife-svc]: Downloading https://files.pythonhosted.org/packages/63/8c/6f6b889acc0e22e8b8e070d3c31e6c93bc2efe587c0b10303517ce422a00/clife_svc-1.1.tar.gz
+[2023-04-27 13:00:34] INFO root fetch - processPackages [Geode-Conversion]: Downloading https://files.pythonhosted.org/packages/b7/87/107fb4010da0cef7450577345c4243caa18644e7459d802ccea844f70bc6/Geode_Conversion-5.0.1-cp39-cp39-win_amd64.whl
+[2023-04-27 13:00:34] INFO root fetch - processPackages [efshape]: executing diffoscope
+[2023-04-27 13:00:34] INFO root fetch - processPackages [efshape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/efshape-0.1.0.tar.gz tmp/efshape-0.1.1.tar.gz --markdown 20230427/e/efshape/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-27 13:00:34] INFO root fetch - processPackages [elhub-python-sdk]: Downloading https://files.pythonhosted.org/packages/72/0d/d949a313095c9f121b36019f7a81196ac3d727bb960dbe8a6f7bf7870e60/elhub_python_sdk-0.1.3.tar.gz
+[2023-04-27 13:00:34] INFO root fetch - processPackages [apis-bibsonomy]: Downloading https://files.pythonhosted.org/packages/cd/99/d3bb72e2a0d9be5e0f3a32a76df2463e65f79b963113246e9b6c0bf5f2fc/apis_bibsonomy-0.4.1.tar.gz
+[2023-04-27 13:00:34] INFO root fetch - processPackages [krillscan]: executing diffoscope
+[2023-04-27 13:00:34] INFO root fetch - processPackages [krillscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krillscan-0.2.8.tar.gz tmp/krillscan-0.2.9.tar.gz --markdown 20230427/k/krillscan/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-27 13:00:34] INFO root fetch - processPackages [gulistandb]: Downloading https://files.pythonhosted.org/packages/31/95/b42bc14bdab33d64c000e1afb22f7caa7e41b6357c398317a1054ff86797/gulistandb-0.0.7.tar.gz
+[2023-04-27 13:00:34] INFO root fetch - processPackages [cellmap]: Downloading https://files.pythonhosted.org/packages/6f/fd/fef37cb292e60a1af3d3af1a23c363a09cfe88655366d1e1192cf3d01b8d/cellmap-1.0.1.dev202304271055-py3-none-any.whl
+[2023-04-27 13:00:34] INFO root fetch - processPackages [pyllicagram]: Downloading https://files.pythonhosted.org/packages/37/dc/daafa5cf96e28bac68f36f2409b4a70f770086fccc89373d3d802416dcdf/pyllicagram-1.8.1.tar.gz
+[2023-04-27 13:00:34] INFO root fetch - processPackages [gulistandb]: executing diffoscope
+[2023-04-27 13:00:34] INFO root fetch - processPackages [gulistandb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gulistandb-0.0.6.tar.gz tmp/gulistandb-0.0.7.tar.gz --markdown 20230427/g/gulistandb/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-27 13:00:34] INFO root fetch - processPackages [clife-svc]: Downloading https://files.pythonhosted.org/packages/61/f5/5f42d77789e2fc9e9d2221766c4c7ab90677f61de163a612c4eac1cc8963/clife_svc-1.11.tar.gz
+[2023-04-27 13:00:34] INFO root fetch - processPackages [coworks]: Downloading https://files.pythonhosted.org/packages/55/62/05598f8812540e463314054462409b47d32e6c3687bfd910360c335c8fd3/coworks-0.8.5-py2.py3-none-any.whl
+[2023-04-27 13:00:34] INFO root fetch - processPackages [pyllicagram]: executing diffoscope
+[2023-04-27 13:00:34] INFO root fetch - processPackages [pyllicagram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyllicagram-1.8.tar.gz tmp/pyllicagram-1.8.1.tar.gz --markdown 20230427/p/pyllicagram/1.8-1.8.1/diff.md --exclude *.pyd
+[2023-04-27 13:00:34] INFO root fetch - processPackages [coworks]: executing diffoscope
+[2023-04-27 13:00:34] INFO root fetch - processPackages [coworks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coworks-0.8.3-py2.py3-none-any.whl.zip tmp/coworks-0.8.5-py2.py3-none-any.whl.zip --markdown 20230427/c/coworks/0.8.3-0.8.5/diff.md --exclude *.pyd
+[2023-04-27 13:00:34] INFO root fetch - processPackages [apis-bibsonomy]: Downloading https://files.pythonhosted.org/packages/bd/f8/425d134ff9b8169a17433e84a53237ea211da890f306a818dde4802e5209/apis_bibsonomy-0.5.0.tar.gz
+[2023-04-27 13:00:34] INFO root fetch - processPackages [elhub-python-sdk]: Downloading https://files.pythonhosted.org/packages/e4/b0/698dccaeba6ad54898809d33fe18eb1058be5a263a9d74d15f2b64c0998b/elhub_python_sdk-0.1.4.tar.gz
+[2023-04-27 13:00:34] INFO root fetch - processPackages [Geode-Conversion]: Downloading https://files.pythonhosted.org/packages/4e/29/ca838040791a401f39491b6a439067dab1508bbf30fbef4aa5ec53a9759d/Geode_Conversion-5.0.2-cp39-cp39-manylinux2014_x86_64.whl
+[2023-04-27 13:00:34] INFO root fetch - processPackages [clife-svc]: executing diffoscope
+[2023-04-27 13:00:34] INFO root fetch - processPackages [clife-svc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clife_svc-1.1.tar.gz tmp/clife_svc-1.11.tar.gz --markdown 20230427/c/clife-svc/1.1-1.11/diff.md --exclude *.pyd
+[2023-04-27 13:00:34] INFO root fetch - processPackages [apis-bibsonomy]: executing diffoscope
+[2023-04-27 13:00:34] INFO root fetch - processPackages [apis-bibsonomy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apis_bibsonomy-0.4.1.tar.gz tmp/apis_bibsonomy-0.5.0.tar.gz --markdown 20230427/a/apis-bibsonomy/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-04-27 13:00:34] INFO root fetch - processPackages [elhub-python-sdk]: executing diffoscope
+[2023-04-27 13:00:34] INFO root fetch - processPackages [elhub-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elhub_python_sdk-0.1.3.tar.gz tmp/elhub_python_sdk-0.1.4.tar.gz --markdown 20230427/e/elhub-python-sdk/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-27 13:00:34] INFO root fetch - processPackages [Geode-Conversion]: executing diffoscope
+[2023-04-27 13:00:34] INFO root fetch - processPackages [Geode-Conversion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Conversion-5.0.1-cp39-cp39-win_amd64.whl.zip tmp/Geode_Conversion-5.0.2-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230427/G/Geode-Conversion/5.0.1-5.0.2/diff.md --exclude *.pyd
+[2023-04-27 13:00:34] INFO root fetch - processPackages [cellmap]: executing diffoscope
+[2023-04-27 13:00:34] INFO root fetch - processPackages [cellmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellmap-1.0.1.dev202304271030-py3-none-any.whl.zip tmp/cellmap-1.0.1.dev202304271055-py3-none-any.whl.zip --markdown 20230427/c/cellmap/1.0.1.dev202304271030-1.0.1.dev202304271055/diff.md --exclude *.pyd
+[2023-04-27 13:00:35] INFO root fetch - processPackages [efshape]: Start processing: bc-detect-secrets
+[2023-04-27 13:00:35] INFO root fetch - main [MainThread]: End processing [efshape]: success
+[2023-04-27 13:00:35] INFO root fetch - processPackages [bc-detect-secrets]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-04-27 13:00:35] INFO root fetch - processPackages [pyllicagram]: Start processing: Geode-Numerics
+[2023-04-27 13:00:35] INFO root fetch - main [MainThread]: End processing [pyllicagram]: success
+[2023-04-27 13:00:35] INFO root fetch - processPackages [Geode-Numerics]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-04-27 13:00:36] INFO root fetch - processPackages [gulistandb]: Start processing: utbot-executor
+[2023-04-27 13:00:36] INFO root fetch - main [MainThread]: End processing [gulistandb]: success
+[2023-04-27 13:00:36] INFO root fetch - processPackages [bc-detect-secrets]: Downloading https://files.pythonhosted.org/packages/a2/23/a92e4dd2a6d1d3532e79c77d0021ae63edce1919e2f1d537537b6422138f/bc-detect-secrets-1.4.8.tar.gz
+[2023-04-27 13:00:36] INFO root fetch - processPackages [utbot-executor]: New version: [1.6.2] Old Version: [1.6.1]
+[2023-04-27 13:00:36] INFO root fetch - processPackages [apis-bibsonomy]: Start processing: bk-clustering
+[2023-04-27 13:00:36] INFO root fetch - main [MainThread]: End processing [apis-bibsonomy]: success
+[2023-04-27 13:00:36] INFO root fetch - processPackages [utbot-executor]: executing diffoscope
+[2023-04-27 13:00:36] INFO root fetch - processPackages [utbot-executor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utbot_executor-1.6.1.tar.gz tmp/utbot_executor-1.6.2.tar.gz --markdown 20230427/u/utbot-executor/1.6.1-1.6.2/diff.md --exclude *.pyd
+[2023-04-27 13:00:36] INFO root fetch - processPackages [Geode-Numerics]: Downloading https://files.pythonhosted.org/packages/7c/c0/397dc8204e6547f5c219bd98f923e9a5c487f72c8e113d780b4b67c092d7/Geode_Numerics-3.0.0-cp39-cp39-win_amd64.whl
+[2023-04-27 13:00:36] INFO root fetch - processPackages [clife-svc]: Start processing: ckanext-dc-serve
+[2023-04-27 13:00:36] INFO root fetch - main [MainThread]: End processing [clife-svc]: success
+[2023-04-27 13:00:36] INFO root fetch - processPackages [bc-detect-secrets]: Downloading https://files.pythonhosted.org/packages/02/f2/d1d870d526c722f22a491ebad1680e02ce935097d42af758a7a0e278f3c4/bc-detect-secrets-1.4.9.tar.gz
+[2023-04-27 13:00:36] INFO root fetch - processPackages [bc-detect-secrets]: executing diffoscope
+[2023-04-27 13:00:36] INFO root fetch - processPackages [bc-detect-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bc-detect-secrets-1.4.8.tar.gz tmp/bc-detect-secrets-1.4.9.tar.gz --markdown 20230427/b/bc-detect-secrets/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-04-27 13:00:36] INFO root fetch - processPackages [ckanext-dc-serve]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-04-27 13:00:36] INFO root fetch - processPackages [bk-clustering]: New version: [0.3.1] Old Version: [0.3]
+[2023-04-27 13:00:36] INFO root fetch - processPackages [ckanext-dc-serve]: Downloading https://files.pythonhosted.org/packages/91/75/de4f8e7a0c6632f278d47cba7ffe8073874d23d49026ce5ccd66006107a9/ckanext-dc_serve-0.9.4.tar.gz
+[2023-04-27 13:00:36] INFO root fetch - processPackages [bk-clustering]: Downloading https://files.pythonhosted.org/packages/33/c6/58114a34d300d0aae15aeeff9b08506a5fd909e9aafc757c08b92510fe67/bk_clustering-0.3.tar.gz
+[2023-04-27 13:00:36] INFO root fetch - processPackages [coworks]: Start processing: OpenGeode-IO
+[2023-04-27 13:00:36] INFO root fetch - main [MainThread]: End processing [coworks]: success
+[2023-04-27 13:00:36] INFO root fetch - processPackages [OpenGeode-IO]: New version: [6.0.1] Old Version: [6.0.0]
+[2023-04-27 13:00:36] INFO root fetch - processPackages [Geode-Numerics]: Downloading https://files.pythonhosted.org/packages/e9/eb/d43f667aa9a37d7a562d85deccfee2d62b7b5ba5a580799fc305c7d14bc5/Geode_Numerics-3.0.1-cp39-cp39-manylinux2014_x86_64.whl
+[2023-04-27 13:00:36] INFO root fetch - processPackages [bk-clustering]: Downloading https://files.pythonhosted.org/packages/bc/c2/fff103041b2be74a44b0643210c24b389a382090390a63cfeaba66d38f08/bk_clustering-0.3.1.tar.gz
+[2023-04-27 13:00:36] INFO root fetch - processPackages [ckanext-dc-serve]: Downloading https://files.pythonhosted.org/packages/fd/f1/a13147acdffced969cdb04865379b686343be9353b05279ab9c0f6c8d88b/ckanext-dc_serve-0.9.5.tar.gz
+[2023-04-27 13:00:36] INFO root fetch - processPackages [bk-clustering]: executing diffoscope
+[2023-04-27 13:00:36] INFO root fetch - processPackages [bk-clustering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bk_clustering-0.3.tar.gz tmp/bk_clustering-0.3.1.tar.gz --markdown 20230427/b/bk-clustering/0.3-0.3.1/diff.md --exclude *.pyd
+[2023-04-27 13:00:36] INFO root fetch - processPackages [ckanext-dc-serve]: executing diffoscope
+[2023-04-27 13:00:36] INFO root fetch - processPackages [ckanext-dc-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext-dc_serve-0.9.4.tar.gz tmp/ckanext-dc_serve-0.9.5.tar.gz --markdown 20230427/c/ckanext-dc-serve/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-04-27 13:00:37] INFO root fetch - processPackages [OpenGeode-IO]: Downloading https://files.pythonhosted.org/packages/2a/ec/4852169db9aafe2c5ec87b383c3f9db87b25326b37b9135a60fb564f1b66/OpenGeode_IO-6.0.1-cp39-cp39-win_amd64.whl
+[2023-04-27 13:00:37] INFO root fetch - processPackages [OpenGeode-IO]: executing diffoscope
+[2023-04-27 13:00:37] INFO root fetch - processPackages [OpenGeode-IO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenGeode_IO-6.0.0-cp39-cp39-win_amd64.whl.zip tmp/OpenGeode_IO-6.0.1-cp39-cp39-win_amd64.whl.zip --markdown 20230427/O/OpenGeode-IO/6.0.0-6.0.1/diff.md --exclude *.pyd
+[2023-04-27 13:00:37] INFO root fetch - processPackages [Geode-Numerics]: executing diffoscope
+[2023-04-27 13:00:37] INFO root fetch - processPackages [Geode-Numerics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Numerics-3.0.0-cp39-cp39-win_amd64.whl.zip tmp/Geode_Numerics-3.0.1-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230427/G/Geode-Numerics/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-04-27 13:00:37] INFO root fetch - main [MainThread]: End processing [utbot-executor]: success
+[2023-04-27 13:00:37] INFO root fetch - main [MainThread]: End processing [bc-detect-secrets]: success
+[2023-04-27 13:00:38] INFO root fetch - main [MainThread]: End processing [bk-clustering]: success
+[2023-04-27 13:00:38] INFO root fetch - main [MainThread]: End processing [ckanext-dc-serve]: success
+[2023-04-27 13:00:38] INFO root fetch - main [MainThread]: End processing [Geode-Conversion]: success
+[2023-04-27 13:00:38] INFO root fetch - main [MainThread]: End processing [Geode-Numerics]: success
+[2023-04-27 13:00:39] INFO root fetch - main [MainThread]: End processing [krillscan]: success
+[2023-04-27 13:00:39] INFO root fetch - main [MainThread]: End processing [elhub-python-sdk]: success
+[2023-04-27 13:00:39] INFO root fetch - main [MainThread]: End processing [cellmap]: success
+[2023-04-27 13:00:44] INFO root fetch - main [MainThread]: End processing [OpenGeode-IO]: success
+[2023-04-27 13:00:44] INFO root fetch - main [MainThread]: Store serial: [17881640]
