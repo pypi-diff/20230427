@@ -13219,3 +13219,53 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 10:44:29] INFO root fetch - main [MainThread]: End processing [flumine]: success
 [2023-04-27 10:44:49] INFO root fetch - main [MainThread]: End processing [mlx.coverity]: success
 [2023-04-27 10:44:49] INFO root fetch - main [MainThread]: Store serial: [17879722]
+[2023-04-27 10:49:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17879722]
+[2023-04-27 10:49:58] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-27 10:49:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aanalyticsact
+[2023-04-27 10:49:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hydromt-delwaq
+[2023-04-27 10:49:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tfp-nightly
+[2023-04-27 10:49:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: netbox-celery
+[2023-04-27 10:49:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tff-nightly
+[2023-04-27 10:49:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: GBT-parser
+[2023-04-27 10:49:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: maliapicall
+[2023-04-27 10:49:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ramodels
+[2023-04-27 10:49:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qeng-admin-api
+[2023-04-27 10:49:58] INFO root fetch - processPackages [netbox-celery]: New version: [0.1.1b4] Old Version: [0.1.1b3]
+[2023-04-27 10:49:58] INFO root fetch - processPackages [aanalyticsact]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2023-04-27 10:49:58] INFO root fetch - processPackages [hydromt-delwaq]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-04-27 10:49:58] WARNING root fetch - processPackages [maliapicall]: Skipping, unable to determine old version
+[2023-04-27 10:49:58] INFO root fetch - main [MainThread]: End processing [maliapicall] error
+[2023-04-27 10:49:58] WARNING root fetch - processPackages [qeng-admin-api]: Skipping, unable to determine old version
+[2023-04-27 10:49:58] INFO root fetch - main [MainThread]: End processing [qeng-admin-api] error
+[2023-04-27 10:49:58] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230426] Old Version: [0.0.1.dev20230425]
+[2023-04-27 10:49:58] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-04-27 10:49:58] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2023-04-27 10:49:58] WARNING root fetch - processPackages [GBT-parser]: Skipping, unable to determine old version
+[2023-04-27 10:49:58] INFO root fetch - main [MainThread]: End processing [GBT-parser] error
+[2023-04-27 10:49:58] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2023-04-27 10:49:58] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-04-27 10:49:58] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230425-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230426-py2.py3-none-any.whl.zip --markdown 20230427/t/tff-nightly/0.0.1.dev20230425-0.0.1.dev20230426/diff.md --exclude *.pyd
+[2023-04-27 10:49:58] INFO root fetch - processPackages [netbox-celery]: Downloading https://files.pythonhosted.org/packages/d7/80/872daf18cd0ddcb80d62f6ad57a0ad4fb7ee4c14154522e438a46a48659d/netbox_celery-0.1.1b3.tar.gz
+[2023-04-27 10:49:58] INFO root fetch - processPackages [hydromt-delwaq]: Downloading https://files.pythonhosted.org/packages/a5/66/4d0d2f75510b2fab50a0a3a5c23eb2686daf273b65dbcc026d6d6ef2d764/hydromt_delwaq-0.2.0.tar.gz
+[2023-04-27 10:49:58] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2023-04-27 10:49:58] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20230427/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/diff.md --exclude *.pyd
+[2023-04-27 10:49:58] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2023-04-27 10:49:58] INFO root fetch - processPackages [aanalyticsact]: Downloading https://files.pythonhosted.org/packages/6d/7a/bc4458dbde2ae4eb43aa276bfe3b2ed50aa57a45b4f5470601a11ebb9bfd/aanalyticsact-0.0.0.8.tar.gz
+[2023-04-27 10:49:58] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-04-27 10:49:58] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230427/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-04-27 10:49:58] INFO root fetch - processPackages [netbox-celery]: Downloading https://files.pythonhosted.org/packages/e6/b9/1e4d9497fd228a7394813e90fd81db3ba3716337a6e69bf50c930d0c443b/netbox_celery-0.1.1b4.tar.gz
+[2023-04-27 10:49:58] INFO root fetch - processPackages [hydromt-delwaq]: Downloading https://files.pythonhosted.org/packages/9d/f9/cb7635a696dbfe77f15e185b0a0fd44c092daeca085d02bbe5f228a8c26b/hydromt_delwaq-0.2.1.tar.gz
+[2023-04-27 10:49:58] INFO root fetch - processPackages [hydromt-delwaq]: executing diffoscope
+[2023-04-27 10:49:58] INFO root fetch - processPackages [hydromt-delwaq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydromt_delwaq-0.2.0.tar.gz tmp/hydromt_delwaq-0.2.1.tar.gz --markdown 20230427/h/hydromt-delwaq/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-04-27 10:49:58] INFO root fetch - processPackages [netbox-celery]: executing diffoscope
+[2023-04-27 10:49:58] INFO root fetch - processPackages [netbox-celery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox_celery-0.1.1b3.tar.gz tmp/netbox_celery-0.1.1b4.tar.gz --markdown 20230427/n/netbox-celery/0.1.1b3-0.1.1b4/diff.md --exclude *.pyd
+[2023-04-27 10:49:58] INFO root fetch - processPackages [aanalyticsact]: Downloading https://files.pythonhosted.org/packages/c7/ad/8dfb0ce46b1218b0fd738bd90a652d6f6c828910799e03dac35b1cb9ea20/aanalyticsact-0.0.0.9.tar.gz
+[2023-04-27 10:49:58] INFO root fetch - processPackages [aanalyticsact]: executing diffoscope
+[2023-04-27 10:49:58] INFO root fetch - processPackages [aanalyticsact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aanalyticsact-0.0.0.8.tar.gz tmp/aanalyticsact-0.0.0.9.tar.gz --markdown 20230427/a/aanalyticsact/0.0.0.8-0.0.0.9/diff.md --exclude *.pyd
+[2023-04-27 10:49:59] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-04-27 10:49:59] INFO root fetch - main [MainThread]: End processing [netbox-celery]: success
+[2023-04-27 10:49:59] INFO root fetch - main [MainThread]: End processing [hydromt-delwaq]: success
+[2023-04-27 10:49:59] INFO root fetch - main [MainThread]: End processing [aanalyticsact]: success
+[2023-04-27 10:50:01] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-04-27 10:50:12] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2023-04-27 10:50:12] INFO root fetch - main [MainThread]: Store serial: [17879758]
