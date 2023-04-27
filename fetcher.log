@@ -8172,3 +8172,63 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 04:37:01] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk]: success
 [2023-04-27 04:37:04] INFO root fetch - main [MainThread]: End processing [ApiLogicServer]: success
 [2023-04-27 04:37:04] INFO root fetch - main [MainThread]: Store serial: [17876815]
+[2023-04-27 04:42:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17876815]
+[2023-04-27 04:42:13] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-27 04:42:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-to-proto
+[2023-04-27 04:42:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: normalize-japanese-address
+[2023-04-27 04:42:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rapidocr-pdf
+[2023-04-27 04:42:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ppa-dev-tools
+[2023-04-27 04:42:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pywss
+[2023-04-27 04:42:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-purchase-analytic
+[2023-04-27 04:42:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alphazerocode
+[2023-04-27 04:42:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: khala-python-utils
+[2023-04-27 04:42:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wvutils
+[2023-04-27 04:42:14] INFO root fetch - processPackages [py-to-proto]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-04-27 04:42:14] WARNING root fetch - processPackages [khala-python-utils]: Skipping, unable to determine old version
+[2023-04-27 04:42:14] INFO root fetch - main [MainThread]: End processing [khala-python-utils] error
+[2023-04-27 04:42:14] INFO root fetch - processPackages [alphazerocode]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-04-27 04:42:14] INFO root fetch - processPackages [normalize-japanese-address]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 04:42:14] INFO root fetch - processPackages [rapidocr-pdf]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-27 04:42:14] INFO root fetch - processPackages [alphazerocode]: executing diffoscope
+[2023-04-27 04:42:14] INFO root fetch - processPackages [alphazerocode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphazerocode-1.9.3-py3-none-any.whl.zip tmp/alphazerocode-1.9.4-py3-none-any.whl.zip --markdown 20230427/a/alphazerocode/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-04-27 04:42:14] INFO root fetch - processPackages [odoo-addon-purchase-analytic]: New version: [16.0.1.0.0.6] Old Version: [16.0.1.0.0.5]
+[2023-04-27 04:42:14] INFO root fetch - processPackages [pywss]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-27 04:42:14] INFO root fetch - processPackages [wvutils]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-27 04:42:14] INFO root fetch - processPackages [ppa-dev-tools]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-04-27 04:42:14] INFO root fetch - processPackages [normalize-japanese-address]: Downloading https://files.pythonhosted.org/packages/5c/40/7d8251f206cb07cc0db7b11c3a83c14e12f53aa8bb366e6e597eed635dd9/normalize_japanese_address-0.0.8.tar.gz
+[2023-04-27 04:42:14] INFO root fetch - processPackages [py-to-proto]: Downloading https://files.pythonhosted.org/packages/b6/9f/97b92cab8d9f792ccafb9c5edd3e79d38453e5d4586411acac11478a476f/py_to_proto-0.0.1-py39-none-any.whl
+[2023-04-27 04:42:14] INFO root fetch - processPackages [rapidocr-pdf]: Downloading https://files.pythonhosted.org/packages/c4/d1/f8e78626a4ece1d3530799c6236c091e6e2e65cf9e3b95adddc9995aa7cf/rapidocr_pdf-0.0.1-py3-none-any.whl
+[2023-04-27 04:42:14] INFO root fetch - processPackages [pywss]: Downloading https://files.pythonhosted.org/packages/2b/99/9555a39c94485d3d3e7978752cc3269d5cbaa5a204c995bfc33e4ed1d5fe/pywss-0.1.8.tar.gz
+[2023-04-27 04:42:14] INFO root fetch - processPackages [ppa-dev-tools]: Downloading https://files.pythonhosted.org/packages/f1/4d/0069ce94f804aea217ce660bd29fde5282f9ca0c35fc5fae361c765f54f9/ppa-dev-tools-0.3.0.tar.gz
+[2023-04-27 04:42:14] INFO root fetch - processPackages [odoo-addon-purchase-analytic]: Downloading https://files.pythonhosted.org/packages/07/33/f2f4167741d081697658745f14cde4759a2d7cb44482dda9bbb105fb8b2b/odoo_addon_purchase_analytic-16.0.1.0.0.5-py3-none-any.whl
+[2023-04-27 04:42:14] INFO root fetch - processPackages [wvutils]: Downloading https://files.pythonhosted.org/packages/c8/18/5b20747f3f48718c8490cf5cc5d887709e531b0d39d473771e9e76e3b03a/wvutils-1.0.2.tar.gz
+[2023-04-27 04:42:14] INFO root fetch - processPackages [py-to-proto]: Downloading https://files.pythonhosted.org/packages/ef/72/156159cbf9e4c6061bda952ff965e26b4f0d9fc29216fce2d4a528ef4f57/py_to_proto-0.1.0-py39-none-any.whl
+[2023-04-27 04:42:14] INFO root fetch - processPackages [py-to-proto]: executing diffoscope
+[2023-04-27 04:42:14] INFO root fetch - processPackages [py-to-proto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_to_proto-0.0.1-py39-none-any.whl.zip tmp/py_to_proto-0.1.0-py39-none-any.whl.zip --markdown 20230427/p/py-to-proto/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-04-27 04:42:14] INFO root fetch - processPackages [rapidocr-pdf]: Downloading https://files.pythonhosted.org/packages/06/81/919d63044ff0bd47e94e062b6de0799d0b4205d666b1146cdd8b8cc01ff5/rapidocr_pdf-0.0.2-py3-none-any.whl
+[2023-04-27 04:42:14] INFO root fetch - processPackages [ppa-dev-tools]: Downloading https://files.pythonhosted.org/packages/e3/00/50abe7120e7f9714205590249f774515887143cdb27ebc612036154e485a/ppa-dev-tools-0.4.0.tar.gz
+[2023-04-27 04:42:14] INFO root fetch - processPackages [odoo-addon-purchase-analytic]: Downloading https://files.pythonhosted.org/packages/4e/be/9ac66cc6937c904781e4b31b92cae4e18cb90ee0cc0f686dce32832c3ce1/odoo_addon_purchase_analytic-16.0.1.0.0.6-py3-none-any.whl
+[2023-04-27 04:42:14] INFO root fetch - processPackages [wvutils]: Downloading https://files.pythonhosted.org/packages/c6/eb/bddf2423956e7ce64ca45d5a92fe5860b34072f7f1d17a291ceeda60b307/wvutils-1.0.3.tar.gz
+[2023-04-27 04:42:14] INFO root fetch - processPackages [normalize-japanese-address]: Downloading https://files.pythonhosted.org/packages/d9/23/5d5dcd975bfffb332cfa3947e5fc819067e3213a6f5615eab5bf60000102/normalize_japanese_address-0.0.9.tar.gz
+[2023-04-27 04:42:14] INFO root fetch - processPackages [rapidocr-pdf]: executing diffoscope
+[2023-04-27 04:42:14] INFO root fetch - processPackages [rapidocr-pdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidocr_pdf-0.0.1-py3-none-any.whl.zip tmp/rapidocr_pdf-0.0.2-py3-none-any.whl.zip --markdown 20230427/r/rapidocr-pdf/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-27 04:42:14] INFO root fetch - processPackages [ppa-dev-tools]: executing diffoscope
+[2023-04-27 04:42:14] INFO root fetch - processPackages [ppa-dev-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ppa-dev-tools-0.3.0.tar.gz tmp/ppa-dev-tools-0.4.0.tar.gz --markdown 20230427/p/ppa-dev-tools/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-04-27 04:42:14] INFO root fetch - processPackages [odoo-addon-purchase-analytic]: executing diffoscope
+[2023-04-27 04:42:14] INFO root fetch - processPackages [odoo-addon-purchase-analytic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_analytic-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_purchase_analytic-16.0.1.0.0.6-py3-none-any.whl.zip --markdown 20230427/o/odoo-addon-purchase-analytic/16.0.1.0.0.5-16.0.1.0.0.6/diff.md --exclude *.pyd
+[2023-04-27 04:42:14] INFO root fetch - processPackages [wvutils]: executing diffoscope
+[2023-04-27 04:42:14] INFO root fetch - processPackages [wvutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wvutils-1.0.2.tar.gz tmp/wvutils-1.0.3.tar.gz --markdown 20230427/w/wvutils/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-27 04:42:14] INFO root fetch - processPackages [normalize-japanese-address]: executing diffoscope
+[2023-04-27 04:42:14] INFO root fetch - processPackages [normalize-japanese-address]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/normalize_japanese_address-0.0.8.tar.gz tmp/normalize_japanese_address-0.0.9.tar.gz --markdown 20230427/n/normalize-japanese-address/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 04:42:15] INFO root fetch - processPackages [pywss]: Downloading https://files.pythonhosted.org/packages/45/08/6818f333b5949b0ff72966a006454a899cb2ba4b58340dc89b00494cb323/pywss-0.1.9.tar.gz
+[2023-04-27 04:42:15] INFO root fetch - processPackages [pywss]: executing diffoscope
+[2023-04-27 04:42:15] INFO root fetch - processPackages [pywss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywss-0.1.8.tar.gz tmp/pywss-0.1.9.tar.gz --markdown 20230427/p/pywss/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-27 04:42:15] INFO root fetch - main [MainThread]: End processing [alphazerocode]: success
+[2023-04-27 04:42:15] INFO root fetch - main [MainThread]: End processing [py-to-proto]: success
+[2023-04-27 04:42:16] INFO root fetch - main [MainThread]: End processing [rapidocr-pdf]: success
+[2023-04-27 04:42:16] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-analytic]: success
+[2023-04-27 04:42:16] INFO root fetch - main [MainThread]: End processing [ppa-dev-tools]: success
+[2023-04-27 04:42:16] INFO root fetch - main [MainThread]: End processing [wvutils]: success
+[2023-04-27 04:42:16] INFO root fetch - main [MainThread]: End processing [pywss]: success
+[2023-04-27 04:42:44] INFO root fetch - main [MainThread]: End processing [normalize-japanese-address]: success
+[2023-04-27 04:42:44] INFO root fetch - main [MainThread]: Store serial: [17876846]
