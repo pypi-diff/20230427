@@ -9594,3 +9594,99 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 06:38:06] INFO root fetch - main [MainThread]: End processing [mythic-container]: success
 [2023-04-27 06:38:07] INFO root fetch - main [MainThread]: End processing [piperider]: success
 [2023-04-27 06:38:07] INFO root fetch - main [MainThread]: Store serial: [17877631]
+[2023-04-27 06:43:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17877631]
+[2023-04-27 06:43:16] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-04-27 06:43:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CommonlyTools
+[2023-04-27 06:43:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mythic-container
+[2023-04-27 06:43:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: single-consumer-queue
+[2023-04-27 06:43:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Bullpen
+[2023-04-27 06:43:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: semantra
+[2023-04-27 06:43:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo12-addon-document-page
+[2023-04-27 06:43:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-document-page
+[2023-04-27 06:43:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-document-page-approval
+[2023-04-27 06:43:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: leptonai
+[2023-04-27 06:43:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-document-page
+[2023-04-27 06:43:16] INFO root fetch - processPackages [CommonlyTools]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-04-27 06:43:16] INFO root fetch - processPackages [mythic-container]: New version: [0.2.3rc3] Old Version: [0.2.3rc2]
+[2023-04-27 06:43:16] WARNING root fetch - processPackages [Bullpen]: Skipping, unable to determine old version
+[2023-04-27 06:43:16] INFO root fetch - processPackages [Bullpen]: Start processing: odoo-addon-document-page-approval
+[2023-04-27 06:43:16] INFO root fetch - processPackages [single-consumer-queue]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-27 06:43:16] INFO root fetch - main [MainThread]: End processing [Bullpen] error
+[2023-04-27 06:43:16] INFO root fetch - processPackages [semantra]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-27 06:43:16] INFO root fetch - processPackages [odoo12-addon-document-page]: New version: [12.0.1.4.0.99.dev9] Old Version: [12.0.1.4.0.99.dev8]
+[2023-04-27 06:43:16] INFO root fetch - processPackages [odoo-addon-document-page-approval]: New version: [16.0.1.1.0.2] Old Version: [16.0.1.1.0.1]
+[2023-04-27 06:43:16] INFO root fetch - processPackages [odoo-addon-document-page-approval]: New version: [16.0.1.1.0.2] Old Version: [16.0.1.1.0.1]
+[2023-04-27 06:43:16] INFO root fetch - processPackages [odoo14-addon-document-page]: New version: [14.0.1.2.3.dev9] Old Version: [14.0.1.2.3.dev7]
+[2023-04-27 06:43:16] WARNING root fetch - processPackages [leptonai]: Skipping, unable to determine old version
+[2023-04-27 06:43:16] INFO root fetch - processPackages [leptonai]: Start processing: flet-core
+[2023-04-27 06:43:16] INFO root fetch - main [MainThread]: End processing [leptonai] error
+[2023-04-27 06:43:16] INFO root fetch - processPackages [odoo-addon-document-page]: New version: [16.0.1.1.0.8] Old Version: [16.0.1.1.0.7]
+[2023-04-27 06:43:16] INFO root fetch - processPackages [flet-core]: New version: [0.7.0.dev1359] Old Version: [0.6.0.dev1357]
+[2023-04-27 06:43:16] INFO root fetch - processPackages [CommonlyTools]: Downloading https://files.pythonhosted.org/packages/be/69/7d0fb08761828bf77ec2355d6614b35803df5b9d7373162be2877ba1b4eb/CommonlyTools-2.1.1.tar.gz
+[2023-04-27 06:43:16] INFO root fetch - processPackages [single-consumer-queue]: Downloading https://files.pythonhosted.org/packages/af/30/27ba3decbfd2ac0ca1f6369b09acf83b141b6162607f8c9ae6cbafd01287/single_consumer_queue-1.0.0.tar.gz
+[2023-04-27 06:43:16] INFO root fetch - processPackages [mythic-container]: Downloading https://files.pythonhosted.org/packages/ab/9b/46ad6ba3c65494f7bcd45f7f9948ae0afe37d1069e5334d833b49be6df15/mythic_container-0.2.3rc3.tar.gz
+[2023-04-27 06:43:16] INFO root fetch - processPackages [odoo12-addon-document-page]: Downloading https://files.pythonhosted.org/packages/02/32/a0f9f5abe41539077cccd81d1880ff837f67e1a6dcd8cc3dd0f7ab8ec812/odoo12_addon_document_page-12.0.1.4.0.99.dev8-py3-none-any.whl
+[2023-04-27 06:43:16] INFO root fetch - processPackages [semantra]: Downloading https://files.pythonhosted.org/packages/eb/cd/e555c01c68a1377087bc737058941d15061a36ff4511db6058711cf114bc/semantra-0.1.4.tar.gz
+[2023-04-27 06:43:16] INFO root fetch - processPackages [flet-core]: executing diffoscope
+[2023-04-27 06:43:16] INFO root fetch - processPackages [flet-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_core-0.6.0.dev1357.tar.gz tmp/flet_core-0.7.0.dev1359.tar.gz --markdown 20230427/f/flet-core/0.6.0.dev1357-0.7.0.dev1359/diff.md --exclude *.pyd
+[2023-04-27 06:43:16] INFO root fetch - processPackages [odoo14-addon-document-page]: Downloading https://files.pythonhosted.org/packages/81/db/faf5895c6c6244565b88ac5fdc9c33a506e8b56b17b596382e0d8a85e1ad/odoo14_addon_document_page-14.0.1.2.3.dev7-py3-none-any.whl
+[2023-04-27 06:43:16] INFO root fetch - processPackages [odoo-addon-document-page-approval]: Downloading https://files.pythonhosted.org/packages/fc/0b/b0ea796fbe5d7ac309673e9b7116267dddb0eee6b76837929ed752ff45e3/odoo_addon_document_page_approval-16.0.1.1.0.1-py3-none-any.whl
+[2023-04-27 06:43:16] INFO root fetch - processPackages [odoo-addon-document-page-approval]: Downloading https://files.pythonhosted.org/packages/fc/0b/b0ea796fbe5d7ac309673e9b7116267dddb0eee6b76837929ed752ff45e3/odoo_addon_document_page_approval-16.0.1.1.0.1-py3-none-any.whl
+[2023-04-27 06:43:16] INFO root fetch - processPackages [mythic-container]: executing diffoscope
+[2023-04-27 06:43:16] INFO root fetch - processPackages [mythic-container]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mythic_container-0.2.3rc2.tar.gz tmp/mythic_container-0.2.3rc3.tar.gz --markdown 20230427/m/mythic-container/0.2.3rc2-0.2.3rc3/diff.md --exclude *.pyd
+[2023-04-27 06:43:16] INFO root fetch - processPackages [odoo-addon-document-page]: Downloading https://files.pythonhosted.org/packages/2f/d1/e563c7492448f0a0762a3df564cc76509b4d595e9b9ee0254d8c18f310d6/odoo_addon_document_page-16.0.1.1.0.7-py3-none-any.whl
+[2023-04-27 06:43:16] INFO root fetch - processPackages [semantra]: executing diffoscope
+[2023-04-27 06:43:16] INFO root fetch - processPackages [semantra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semantra-0.1.3.tar.gz tmp/semantra-0.1.4.tar.gz --markdown 20230427/s/semantra/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-27 06:43:16] INFO root fetch - processPackages [CommonlyTools]: Downloading https://files.pythonhosted.org/packages/72/49/e5fb882da8d302d564ade66cb2dc14c217dd762561e703a78e4b04be7d79/CommonlyTools-2.1.2.tar.gz
+[2023-04-27 06:43:16] INFO root fetch - processPackages [single-consumer-queue]: Downloading https://files.pythonhosted.org/packages/d6/15/2b632c2b31705bcf07dc3af1db6274a58e56c0bb4dfee3c7b52521e0d5f6/single_consumer_queue-1.0.1.tar.gz
+[2023-04-27 06:43:16] INFO root fetch - processPackages [CommonlyTools]: executing diffoscope
+[2023-04-27 06:43:16] INFO root fetch - processPackages [CommonlyTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CommonlyTools-2.1.1.tar.gz tmp/CommonlyTools-2.1.2.tar.gz --markdown 20230427/C/CommonlyTools/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-04-27 06:43:16] INFO root fetch - processPackages [single-consumer-queue]: executing diffoscope
+[2023-04-27 06:43:16] INFO root fetch - processPackages [single-consumer-queue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/single_consumer_queue-1.0.0.tar.gz tmp/single_consumer_queue-1.0.1.tar.gz --markdown 20230427/s/single-consumer-queue/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-27 06:43:16] INFO root fetch - processPackages [odoo-addon-document-page-approval]: Downloading https://files.pythonhosted.org/packages/61/c7/fff141d729ef747b20442c35fb411371e18f558f07985bb3de6ab770f57f/odoo_addon_document_page_approval-16.0.1.1.0.2-py3-none-any.whl
+[2023-04-27 06:43:16] INFO root fetch - processPackages [odoo-addon-document-page-approval]: Downloading https://files.pythonhosted.org/packages/61/c7/fff141d729ef747b20442c35fb411371e18f558f07985bb3de6ab770f57f/odoo_addon_document_page_approval-16.0.1.1.0.2-py3-none-any.whl
+[2023-04-27 06:43:16] INFO root fetch - processPackages [odoo12-addon-document-page]: Downloading https://files.pythonhosted.org/packages/66/84/d4e81b566901a7741533ce200b9c2d435cda7138bd8f3a5ab2b1399e9e98/odoo12_addon_document_page-12.0.1.4.0.99.dev9-py3-none-any.whl
+[2023-04-27 06:43:16] INFO root fetch - processPackages [odoo14-addon-document-page]: Downloading https://files.pythonhosted.org/packages/d2/c1/2f7cd4b3b994e78a8006727b6146f6592be41922ac5fd5005241569c268b/odoo14_addon_document_page-14.0.1.2.3.dev9-py3-none-any.whl
+[2023-04-27 06:43:16] INFO root fetch - processPackages [odoo-addon-document-page-approval]: executing diffoscope
+[2023-04-27 06:43:16] INFO root fetch - processPackages [odoo-addon-document-page-approval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_document_page_approval-16.0.1.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_document_page_approval-16.0.1.1.0.2-py3-none-any.whl.zip --markdown 20230427/o/odoo-addon-document-page-approval/16.0.1.1.0.1-16.0.1.1.0.2/diff.md --exclude *.pyd
+[2023-04-27 06:43:16] INFO root fetch - processPackages [odoo-addon-document-page-approval]: executing diffoscope
+[2023-04-27 06:43:16] INFO root fetch - processPackages [odoo-addon-document-page-approval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_document_page_approval-16.0.1.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_document_page_approval-16.0.1.1.0.2-py3-none-any.whl.zip --markdown 20230427/o/odoo-addon-document-page-approval/16.0.1.1.0.1-16.0.1.1.0.2/diff.md --exclude *.pyd
+[2023-04-27 06:43:16] INFO root fetch - processPackages [odoo-addon-document-page]: Downloading https://files.pythonhosted.org/packages/58/76/9fbca08728bd9c34da76e88a217087c03890c5a1a3b12381575c6ca5a725/odoo_addon_document_page-16.0.1.1.0.8-py3-none-any.whl
+[2023-04-27 06:43:17] INFO root fetch - processPackages [odoo12-addon-document-page]: executing diffoscope
+[2023-04-27 06:43:17] INFO root fetch - processPackages [odoo12-addon-document-page]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_document_page-12.0.1.4.0.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_document_page-12.0.1.4.0.99.dev9-py3-none-any.whl.zip --markdown 20230427/o/odoo12-addon-document-page/12.0.1.4.0.99.dev8-12.0.1.4.0.99.dev9/diff.md --exclude *.pyd
+[2023-04-27 06:43:17] INFO root fetch - processPackages [odoo14-addon-document-page]: executing diffoscope
+[2023-04-27 06:43:17] INFO root fetch - processPackages [odoo14-addon-document-page]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_document_page-14.0.1.2.3.dev7-py3-none-any.whl.zip tmp/odoo14_addon_document_page-14.0.1.2.3.dev9-py3-none-any.whl.zip --markdown 20230427/o/odoo14-addon-document-page/14.0.1.2.3.dev7-14.0.1.2.3.dev9/diff.md --exclude *.pyd
+[2023-04-27 06:43:17] INFO root fetch - processPackages [odoo-addon-document-page]: executing diffoscope
+[2023-04-27 06:43:17] INFO root fetch - processPackages [odoo-addon-document-page]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_document_page-16.0.1.1.0.7-py3-none-any.whl.zip tmp/odoo_addon_document_page-16.0.1.1.0.8-py3-none-any.whl.zip --markdown 20230427/o/odoo-addon-document-page/16.0.1.1.0.7-16.0.1.1.0.8/diff.md --exclude *.pyd
+[2023-04-27 06:43:17] INFO root fetch - processPackages [single-consumer-queue]: Start processing: flet
+[2023-04-27 06:43:17] INFO root fetch - main [MainThread]: End processing [single-consumer-queue]: success
+[2023-04-27 06:43:18] INFO root fetch - processPackages [flet]: New version: [0.7.0.dev1359] Old Version: [0.6.0.dev1357]
+[2023-04-27 06:43:18] INFO root fetch - processPackages [CommonlyTools]: Start processing: odoo-addon-document-page
+[2023-04-27 06:43:18] INFO root fetch - main [MainThread]: End processing [CommonlyTools]: success
+[2023-04-27 06:43:18] INFO root fetch - processPackages [odoo-addon-document-page]: New version: [16.0.1.1.0.8] Old Version: [16.0.1.1.0.7]
+[2023-04-27 06:43:18] INFO root fetch - processPackages [flet]: executing diffoscope
+[2023-04-27 06:43:18] INFO root fetch - processPackages [flet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet-0.6.0.dev1357.tar.gz tmp/flet-0.7.0.dev1359.tar.gz --markdown 20230427/f/flet/0.6.0.dev1357-0.7.0.dev1359/diff.md --exclude *.pyd
+[2023-04-27 06:43:18] INFO root fetch - processPackages [odoo-addon-document-page]: executing diffoscope
+[2023-04-27 06:43:18] INFO root fetch - processPackages [odoo-addon-document-page]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_document_page-16.0.1.1.0.7-py3-none-any.whl.zip tmp/odoo_addon_document_page-16.0.1.1.0.8-py3-none-any.whl.zip --markdown 20230427/o/odoo-addon-document-page/16.0.1.1.0.7-16.0.1.1.0.8/diff.md --exclude *.pyd
+[2023-04-27 06:43:18] INFO root fetch - processPackages [odoo-addon-document-page-approval]: Start processing: semantra
+[2023-04-27 06:43:18] INFO root fetch - main [MainThread]: End processing [odoo-addon-document-page-approval]: success
+[2023-04-27 06:43:18] INFO root fetch - processPackages [semantra]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-27 06:43:18] INFO root fetch - processPackages [odoo-addon-document-page-approval]: Start processing: flet-pyodide
+[2023-04-27 06:43:18] INFO root fetch - main [MainThread]: End processing [odoo-addon-document-page-approval]: success
+[2023-04-27 06:43:18] INFO root fetch - processPackages [flet-pyodide]: New version: [0.7.0.dev1359] Old Version: [0.6.0.dev1357]
+[2023-04-27 06:43:19] INFO root fetch - processPackages [semantra]: Downloading https://files.pythonhosted.org/packages/40/42/c5ab5cd63a9c05371b120ce5613b0d5ea38e537e5d885fa6fa2a679b5b11/semantra-0.1.5.tar.gz
+[2023-04-27 06:43:19] INFO root fetch - processPackages [flet-pyodide]: executing diffoscope
+[2023-04-27 06:43:19] INFO root fetch - processPackages [flet-pyodide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_pyodide-0.6.0.dev1357.tar.gz tmp/flet_pyodide-0.7.0.dev1359.tar.gz --markdown 20230427/f/flet-pyodide/0.6.0.dev1357-0.7.0.dev1359/diff.md --exclude *.pyd
+[2023-04-27 06:43:19] INFO root fetch - main [MainThread]: End processing [odoo12-addon-document-page]: success
+[2023-04-27 06:43:19] INFO root fetch - main [MainThread]: End processing [odoo-addon-document-page]: success
+[2023-04-27 06:43:19] INFO root fetch - main [MainThread]: End processing [odoo14-addon-document-page]: success
+[2023-04-27 06:43:19] INFO root fetch - processPackages [semantra]: executing diffoscope
+[2023-04-27 06:43:19] INFO root fetch - processPackages [semantra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semantra-0.1.4.tar.gz tmp/semantra-0.1.5.tar.gz --markdown 20230427/s/semantra/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-27 06:43:19] INFO root fetch - main [MainThread]: End processing [mythic-container]: success
+[2023-04-27 06:43:19] INFO root fetch - main [MainThread]: End processing [odoo-addon-document-page]: success
+[2023-04-27 06:43:20] INFO root fetch - main [MainThread]: End processing [flet-pyodide]: success
+[2023-04-27 06:43:21] INFO root fetch - main [MainThread]: End processing [flet-core]: success
+[2023-04-27 06:43:21] INFO root fetch - main [MainThread]: End processing [semantra]: success
+[2023-04-27 06:43:49] INFO root fetch - main [MainThread]: End processing [semantra]: success
+[2023-04-27 06:44:07] INFO root fetch - main [MainThread]: End processing [flet]: success
+[2023-04-27 06:44:07] INFO root fetch - main [MainThread]: Store serial: [17877683]
