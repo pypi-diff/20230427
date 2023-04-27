@@ -21560,3 +21560,98 @@ EOFError: EOF read where object expected
 [2023-04-27 16:34:22] INFO root fetch - main [MainThread]: End processing [coiled]: success
 [2023-04-27 16:34:24] INFO root fetch - main [MainThread]: End processing [bemserver-api]: success
 [2023-04-27 16:34:24] INFO root fetch - main [MainThread]: Store serial: [17884466]
+[2023-04-27 16:39:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17884466]
+[2023-04-27 16:39:34] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-27 16:39:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: taskiq-aiohttp
+[2023-04-27 16:39:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: finflo
+[2023-04-27 16:39:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: biobear
+[2023-04-27 16:39:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chaostoolkit-aws
+[2023-04-27 16:39:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: RubAmin
+[2023-04-27 16:39:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: MotorDeCalidad
+[2023-04-27 16:39:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hordelib
+[2023-04-27 16:39:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-datadog-logger
+[2023-04-27 16:39:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: onnx2kerastl
+[2023-04-27 16:39:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: model-inspector
+[2023-04-27 16:39:34] INFO root fetch - processPackages [chaostoolkit-aws]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-27 16:39:34] INFO root fetch - processPackages [taskiq-aiohttp]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-27 16:39:34] INFO root fetch - processPackages [biobear]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-04-27 16:39:34] INFO root fetch - processPackages [RubAmin]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-04-27 16:39:34] INFO root fetch - processPackages [finflo]: New version: [2.0.7] Old Version: [2.0.6]
+[2023-04-27 16:39:34] INFO root fetch - processPackages [django-datadog-logger]: New version: [0.6.0] Old Version: [0.5.6]
+[2023-04-27 16:39:34] INFO root fetch - processPackages [hordelib]: New version: [0.9.5] Old Version: [0.9.2]
+[2023-04-27 16:39:34] INFO root fetch - processPackages [MotorDeCalidad]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-04-27 16:39:34] INFO root fetch - processPackages [onnx2kerastl]: New version: [0.0.83.1] Old Version: [0.0.83]
+[2023-04-27 16:39:34] INFO root fetch - processPackages [model-inspector]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-04-27 16:39:34] INFO root fetch - processPackages [taskiq-aiohttp]: Downloading https://files.pythonhosted.org/packages/a1/0e/f1398d1370c70b2da094781643e2b043ebbd755d17fce80e33d0bc6bd692/taskiq_aiohttp-0.1.0.tar.gz
+[2023-04-27 16:39:34] INFO root fetch - processPackages [model-inspector]: Downloading https://files.pythonhosted.org/packages/bd/57/80f7161c60a0d67112a91278bd84930fb0b6e4b348f666cd2cac62a5e6f5/model_inspector-0.9.2.tar.gz
+[2023-04-27 16:39:34] INFO root fetch - processPackages [finflo]: Downloading https://files.pythonhosted.org/packages/9f/25/38a744025e7ae4998c1f29ccbde76d848e1ec42a0a7e6588f6f3d6c18de1/finflo-2.0.6.tar.gz
+[2023-04-27 16:39:34] INFO root fetch - processPackages [django-datadog-logger]: Downloading https://files.pythonhosted.org/packages/0c/6c/3e8979e1496721da7f3d93ccd531996cf8b43133a6b0c8714865e0c21d56/django-datadog-logger-0.5.6.tar.gz
+[2023-04-27 16:39:34] INFO root fetch - processPackages [hordelib]: Downloading https://files.pythonhosted.org/packages/fd/a2/adcbb07401fbedfb5e142d1a138de62bf94227ad2e238ea5a5b6eb5033f4/hordelib-0.9.2.tar.gz
+[2023-04-27 16:39:34] INFO root fetch - processPackages [onnx2kerastl]: Downloading https://files.pythonhosted.org/packages/bb/26/b9b009fd49c760b16865ee6dd0d8d3355c9ee4ac74eb171c7334733dd5b3/onnx2kerastl-0.0.83.tar.gz
+[2023-04-27 16:39:34] INFO root fetch - processPackages [MotorDeCalidad]: Downloading https://files.pythonhosted.org/packages/d0/81/ddc2ac32f7d98b3665b98b4a804156419dce82d6c51d95007a15154c7421/MotorDeCalidad-1.9.8.tar.gz
+[2023-04-27 16:39:34] INFO root fetch - processPackages [chaostoolkit-aws]: executing diffoscope
+[2023-04-27 16:39:34] INFO root fetch - processPackages [chaostoolkit-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chaostoolkit-aws-0.8.0.tar.gz tmp/chaostoolkit-aws-0.9.0.tar.gz --markdown 20230427/c/chaostoolkit-aws/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-27 16:39:34] INFO root fetch - processPackages [RubAmin]: Downloading https://files.pythonhosted.org/packages/0a/55/087741ed33bb1c1090d04d691d7dc5f62c48a9103a98afa8ba3e5b835bfb/RubAmin-0.1.2.tar.gz
+[2023-04-27 16:39:34] INFO root fetch - processPackages [biobear]: Downloading https://files.pythonhosted.org/packages/19/71/00c6269b4b57c9a5427412b9709dc7deda6fa01a6aa1dbf710d7bb0dab9a/biobear-0.3.0.tar.gz
+[2023-04-27 16:39:34] INFO root fetch - processPackages [RubAmin]: executing diffoscope
+[2023-04-27 16:39:34] INFO root fetch - processPackages [RubAmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RubAmin-0.1.0.tar.gz tmp/RubAmin-0.1.2.tar.gz --markdown 20230427/R/RubAmin/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-04-27 16:39:34] INFO root fetch - processPackages [onnx2kerastl]: Downloading https://files.pythonhosted.org/packages/1a/9d/6e02e657696004ecc096c2085eddcb6ba15d76bffed201fbb8f76918c3d6/onnx2kerastl-0.0.83.1.tar.gz
+[2023-04-27 16:39:34] INFO root fetch - processPackages [taskiq-aiohttp]: Downloading https://files.pythonhosted.org/packages/e1/ca/b7d7ca0b0370b0ed144bcafabffb35431470d3c39c1daa7da3fa18189ab0/taskiq_aiohttp-0.1.1.tar.gz
+[2023-04-27 16:39:34] INFO root fetch - processPackages [django-datadog-logger]: Downloading https://files.pythonhosted.org/packages/e9/32/9b92326a83366a9f7f68778148ec349fbc97d54bb66da789dcef3c51e177/django-datadog-logger-0.6.0.tar.gz
+[2023-04-27 16:39:34] INFO root fetch - processPackages [biobear]: executing diffoscope
+[2023-04-27 16:39:34] INFO root fetch - processPackages [biobear]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biobear-0.2.0.tar.gz tmp/biobear-0.3.0.tar.gz --markdown 20230427/b/biobear/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-04-27 16:39:34] INFO root fetch - processPackages [finflo]: Downloading https://files.pythonhosted.org/packages/b2/a6/846c4b2673e8aeb792447e16e25e9f52389afe571939bac4fb091abe4c22/finflo-2.0.7.tar.gz
+[2023-04-27 16:39:34] INFO root fetch - processPackages [model-inspector]: Downloading https://files.pythonhosted.org/packages/7b/69/746c9901343f4bd56855d309118bbe442206ee8506816c1983d7cb7f7cdf/model_inspector-0.9.3.tar.gz
+[2023-04-27 16:39:34] INFO root fetch - processPackages [taskiq-aiohttp]: executing diffoscope
+[2023-04-27 16:39:34] INFO root fetch - processPackages [taskiq-aiohttp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskiq_aiohttp-0.1.0.tar.gz tmp/taskiq_aiohttp-0.1.1.tar.gz --markdown 20230427/t/taskiq-aiohttp/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-27 16:39:34] INFO root fetch - processPackages [onnx2kerastl]: executing diffoscope
+[2023-04-27 16:39:34] INFO root fetch - processPackages [onnx2kerastl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2kerastl-0.0.83.tar.gz tmp/onnx2kerastl-0.0.83.1.tar.gz --markdown 20230427/o/onnx2kerastl/0.0.83-0.0.83.1/diff.md --exclude *.pyd
+[2023-04-27 16:39:34] INFO root fetch - processPackages [django-datadog-logger]: executing diffoscope
+[2023-04-27 16:39:34] INFO root fetch - processPackages [django-datadog-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-datadog-logger-0.5.6.tar.gz tmp/django-datadog-logger-0.6.0.tar.gz --markdown 20230427/d/django-datadog-logger/0.5.6-0.6.0/diff.md --exclude *.pyd
+[2023-04-27 16:39:35] INFO root fetch - processPackages [finflo]: executing diffoscope
+[2023-04-27 16:39:35] INFO root fetch - processPackages [finflo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finflo-2.0.6.tar.gz tmp/finflo-2.0.7.tar.gz --markdown 20230427/f/finflo/2.0.6-2.0.7/diff.md --exclude *.pyd
+[2023-04-27 16:39:35] INFO root fetch - processPackages [MotorDeCalidad]: Downloading https://files.pythonhosted.org/packages/3f/36/ceedf8c8af40f8e52f69a6db0ce90933ba09e1b843e83b3d0e91e01012be/MotorDeCalidad-1.9.9.tar.gz
+[2023-04-27 16:39:35] INFO root fetch - processPackages [model-inspector]: executing diffoscope
+[2023-04-27 16:39:35] INFO root fetch - processPackages [model-inspector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_inspector-0.9.2.tar.gz tmp/model_inspector-0.9.3.tar.gz --markdown 20230427/m/model-inspector/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-04-27 16:39:35] INFO root fetch - processPackages [MotorDeCalidad]: executing diffoscope
+[2023-04-27 16:39:35] INFO root fetch - processPackages [MotorDeCalidad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MotorDeCalidad-1.9.8.tar.gz tmp/MotorDeCalidad-1.9.9.tar.gz --markdown 20230427/M/MotorDeCalidad/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-04-27 16:39:36] INFO root fetch - processPackages [chaostoolkit-aws]: Start processing: async-paho-mqtt-client
+[2023-04-27 16:39:36] INFO root fetch - main [MainThread]: End processing [chaostoolkit-aws]: success
+[2023-04-27 16:39:36] INFO root fetch - processPackages [async-paho-mqtt-client]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-04-27 16:39:36] INFO root fetch - processPackages [async-paho-mqtt-client]: executing diffoscope
+[2023-04-27 16:39:36] INFO root fetch - processPackages [async-paho-mqtt-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async-paho-mqtt-client-0.3.1.tar.gz tmp/async_paho_mqtt_client-0.3.2-py3-none-any.whl.zip --markdown 20230427/a/async-paho-mqtt-client/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-04-27 16:39:36] INFO root fetch - processPackages [RubAmin]: Start processing: woostream
+[2023-04-27 16:39:36] INFO root fetch - main [MainThread]: End processing [RubAmin]: success
+[2023-04-27 16:39:36] INFO root fetch - processPackages [woostream]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-27 16:39:36] INFO root fetch - processPackages [taskiq-aiohttp]: Start processing: aheadworks-deploy-manager
+[2023-04-27 16:39:36] INFO root fetch - main [MainThread]: End processing [taskiq-aiohttp]: success
+[2023-04-27 16:39:36] INFO root fetch - processPackages [hordelib]: Downloading https://files.pythonhosted.org/packages/9c/6a/e948a22abe1306f081d00e441c84b24d63987802f65e7372d1c5dc75061a/hordelib-0.9.5.tar.gz
+[2023-04-27 16:39:36] INFO root fetch - processPackages [aheadworks-deploy-manager]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-04-27 16:39:36] INFO root fetch - processPackages [finflo]: Start processing: async-paho-mqtt-client
+[2023-04-27 16:39:36] INFO root fetch - main [MainThread]: End processing [finflo]: success
+[2023-04-27 16:39:36] INFO root fetch - processPackages [async-paho-mqtt-client]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-04-27 16:39:36] INFO root fetch - processPackages [woostream]: Downloading https://files.pythonhosted.org/packages/23/9d/62ada400fb6d05860fb9b32b125722dd8f3aa6cd93fc849d37769680829e/woostream-0.1.2.tar.gz
+[2023-04-27 16:39:36] INFO root fetch - processPackages [hordelib]: executing diffoscope
+[2023-04-27 16:39:36] INFO root fetch - processPackages [hordelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hordelib-0.9.2.tar.gz tmp/hordelib-0.9.5.tar.gz --markdown 20230427/h/hordelib/0.9.2-0.9.5/diff.md --exclude *.pyd
+[2023-04-27 16:39:36] INFO root fetch - processPackages [async-paho-mqtt-client]: Downloading https://files.pythonhosted.org/packages/f8/90/ac6e1b93b444197617315bdb9e212f8810e59337de2ea519a09b73f8814f/async_paho_mqtt_client-0.3.3-py3-none-any.whl
+[2023-04-27 16:39:36] INFO root fetch - processPackages [woostream]: executing diffoscope
+[2023-04-27 16:39:36] INFO root fetch - processPackages [woostream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/woostream-0.1.1.tar.gz tmp/woostream-0.1.2.tar.gz --markdown 20230427/w/woostream/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-27 16:39:36] INFO root fetch - processPackages [django-datadog-logger]: Start processing: pymx2
+[2023-04-27 16:39:36] INFO root fetch - main [MainThread]: End processing [django-datadog-logger]: success
+[2023-04-27 16:39:36] WARNING root fetch - processPackages [pymx2]: Skipping, unable to determine old version
+[2023-04-27 16:39:36] INFO root fetch - main [MainThread]: End processing [pymx2] error
+[2023-04-27 16:39:36] INFO root fetch - main [MainThread]: End processing [onnx2kerastl]: success
+[2023-04-27 16:39:36] INFO root fetch - main [MainThread]: End processing [biobear]: success
+[2023-04-27 16:39:36] INFO root fetch - main [MainThread]: End processing [MotorDeCalidad]: success
+[2023-04-27 16:39:37] INFO root fetch - processPackages [async-paho-mqtt-client]: Downloading https://files.pythonhosted.org/packages/0b/ab/bb88d993dc798b6e3a609960abdb93ae3619e2abf47173e4c5d47533ee72/async_paho_mqtt_client-0.3.4-py3-none-any.whl
+[2023-04-27 16:39:37] INFO root fetch - main [MainThread]: End processing [model-inspector]: success
+[2023-04-27 16:39:37] INFO root fetch - processPackages [async-paho-mqtt-client]: executing diffoscope
+[2023-04-27 16:39:37] INFO root fetch - processPackages [async-paho-mqtt-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async_paho_mqtt_client-0.3.3-py3-none-any.whl.zip tmp/async_paho_mqtt_client-0.3.4-py3-none-any.whl.zip --markdown 20230427/a/async-paho-mqtt-client/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-04-27 16:39:37] INFO root fetch - processPackages [aheadworks-deploy-manager]: executing diffoscope
+[2023-04-27 16:39:37] INFO root fetch - processPackages [aheadworks-deploy-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aheadworks_deploy_manager-1.4.8.tar.gz tmp/aheadworks_deploy_manager-1.4.9.tar.gz --markdown 20230427/a/aheadworks-deploy-manager/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-04-27 16:39:37] INFO root fetch - main [MainThread]: End processing [async-paho-mqtt-client]: success
+[2023-04-27 16:39:38] INFO root fetch - main [MainThread]: End processing [woostream]: success
+[2023-04-27 16:39:38] INFO root fetch - main [MainThread]: End processing [async-paho-mqtt-client]: success
+[2023-04-27 16:39:38] INFO root fetch - main [MainThread]: End processing [aheadworks-deploy-manager]: success
+[2023-04-27 16:39:45] INFO root fetch - main [MainThread]: End processing [hordelib]: success
+[2023-04-27 16:39:45] INFO root fetch - main [MainThread]: Store serial: [17884553]
