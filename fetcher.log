@@ -7590,3 +7590,44 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 03:36:00] INFO root fetch - main [MainThread]: End processing [e2eAIOK]: success
 [2023-04-27 03:36:01] INFO root fetch - main [MainThread]: End processing [visionai]: success
 [2023-04-27 03:36:01] INFO root fetch - main [MainThread]: Store serial: [17876260]
+[2023-04-27 03:41:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17876260]
+[2023-04-27 03:41:09] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-27 03:41:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbdev-pandas
+[2023-04-27 03:41:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mb-pytorch
+[2023-04-27 03:41:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: meringue
+[2023-04-27 03:41:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbdev-pytorch
+[2023-04-27 03:41:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-lambda-layer-wget
+[2023-04-27 03:41:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Uname-sridhar
+[2023-04-27 03:41:10] INFO root fetch - processPackages [meringue]: New version: [0.4.0.post1] Old Version: [0.3.4]
+[2023-04-27 03:41:10] INFO root fetch - processPackages [mb-pytorch]: New version: [1.0.202304270054] Old Version: [1.0.202304270049]
+[2023-04-27 03:41:10] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-27 03:41:10] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-27 03:41:10] INFO root fetch - processPackages [cdk-lambda-layer-wget]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-04-27 03:41:10] INFO root fetch - processPackages [Uname-sridhar]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-27 03:41:10] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/e4/e4/cd3df65f7d13a8e8dfa1592e08d78574793d38384b1c92993ce920dcd0df/nbdev-pandas-0.0.98.tar.gz
+[2023-04-27 03:41:10] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/f8/45/4613a0137d296a1960d76ded45b0af15a8fd578bf48df103c50675b49136/nbdev-pytorch-0.0.98.tar.gz
+[2023-04-27 03:41:10] INFO root fetch - processPackages [mb-pytorch]: executing diffoscope
+[2023-04-27 03:41:10] INFO root fetch - processPackages [mb-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_pytorch-1.0.202304270049-py3-none-any.whl.zip tmp/mb_pytorch-1.0.202304270054-py3-none-any.whl.zip --markdown 20230427/m/mb-pytorch/1.0.202304270049-1.0.202304270054/diff.md --exclude *.pyd
+[2023-04-27 03:41:10] INFO root fetch - processPackages [meringue]: Downloading https://files.pythonhosted.org/packages/62/d4/020158db64ae54deb781093219ed0714b52ddfdc19acd67dc4756564bb5b/Meringue-0.3.4.tar.gz
+[2023-04-27 03:41:10] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/b0/37/5921f26bef4d07ebb5599f7ccb4d57ab1a847950edaa615ebcf9ef228690/nbdev-pytorch-0.0.99.tar.gz
+[2023-04-27 03:41:10] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-04-27 03:41:10] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230427/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-27 03:41:10] INFO root fetch - processPackages [cdk-lambda-layer-wget]: executing diffoscope
+[2023-04-27 03:41:10] INFO root fetch - processPackages [cdk-lambda-layer-wget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-wget-2.0.98.tar.gz tmp/cdk-lambda-layer-wget-2.0.99.tar.gz --markdown 20230427/c/cdk-lambda-layer-wget/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-04-27 03:41:10] INFO root fetch - processPackages [Uname-sridhar]: Downloading https://files.pythonhosted.org/packages/f6/0e/f96c10d18d3c741c582b94cb508678888204e0e321873e93abbe15507d54/Uname_sridhar-0.0.4.tar.gz
+[2023-04-27 03:41:10] INFO root fetch - processPackages [meringue]: Downloading https://files.pythonhosted.org/packages/97/08/97db2e3b0ebe20e3390d924ce47e4173bbef9c74cdfd893ee0e60e9a9514/meringue-0.4.0.post1.tar.gz
+[2023-04-27 03:41:10] INFO root fetch - processPackages [meringue]: executing diffoscope
+[2023-04-27 03:41:10] INFO root fetch - processPackages [meringue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Meringue-0.3.4.tar.gz tmp/meringue-0.4.0.post1.tar.gz --markdown 20230427/m/meringue/0.3.4-0.4.0.post1/diff.md --exclude *.pyd
+[2023-04-27 03:41:10] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/cf/b5/493c8e89c5cb4fcc7db248f99868f931ca6389f6e411e63c97bb22c6f1b0/nbdev-pandas-0.0.99.tar.gz
+[2023-04-27 03:41:10] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-04-27 03:41:10] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230427/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-27 03:41:10] INFO root fetch - processPackages [Uname-sridhar]: Downloading https://files.pythonhosted.org/packages/82/51/cb15d36db0a48b14b959a0af2d6195e13bcf72bd5b90c4e69f455cfb2f77/Uname_sridhar-0.0.5.tar.gz
+[2023-04-27 03:41:10] INFO root fetch - processPackages [Uname-sridhar]: executing diffoscope
+[2023-04-27 03:41:10] INFO root fetch - processPackages [Uname-sridhar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Uname_sridhar-0.0.4.tar.gz tmp/Uname_sridhar-0.0.5.tar.gz --markdown 20230427/U/Uname-sridhar/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-27 03:41:11] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-04-27 03:41:11] INFO root fetch - main [MainThread]: End processing [mb-pytorch]: success
+[2023-04-27 03:41:11] INFO root fetch - main [MainThread]: End processing [meringue]: success
+[2023-04-27 03:41:11] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-wget]: success
+[2023-04-27 03:41:11] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-04-27 03:41:12] INFO root fetch - main [MainThread]: End processing [Uname-sridhar]: success
+[2023-04-27 03:41:12] INFO root fetch - main [MainThread]: Store serial: [17876356]
