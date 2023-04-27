@@ -20490,3 +20490,115 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 15:51:30] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-04-27 15:51:51] INFO root fetch - main [MainThread]: End processing [TissUUmaps]: success
 [2023-04-27 15:51:51] INFO root fetch - main [MainThread]: Store serial: [17883833]
+[2023-04-27 15:56:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17883833]
+[2023-04-27 15:57:00] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-04-27 15:57:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xklb
+[2023-04-27 15:57:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: djangoldp
+[2023-04-27 15:57:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aanalytics2
+[2023-04-27 15:57:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: causica
+[2023-04-27 15:57:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pseudo-labeller
+[2023-04-27 15:57:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yaecs
+[2023-04-27 15:57:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: common-cols-project
+[2023-04-27 15:57:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: i2a-oauth2-api-client
+[2023-04-27 15:57:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aimmo
+[2023-04-27 15:57:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: chaostoolkit-reliably
+[2023-04-27 15:57:00] INFO root fetch - processPackages [pseudo-labeller]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-27 15:57:00] INFO root fetch - processPackages [yaecs]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-04-27 15:57:00] INFO root fetch - processPackages [chaostoolkit-reliably]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-04-27 15:57:00] INFO root fetch - processPackages [aimmo]: New version: [v0.1.1-alpha.post.dev9] Old Version: [v0.1.1-alpha.post.dev8]
+[2023-04-27 15:57:00] INFO root fetch - processPackages [causica]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-04-27 15:57:00] INFO root fetch - processPackages [i2a-oauth2-api-client]: New version: [3.0.0] Old Version: [2.0.9]
+[2023-04-27 15:57:00] INFO root fetch - processPackages [pseudo-labeller]: executing diffoscope
+[2023-04-27 15:57:00] INFO root fetch - processPackages [pseudo-labeller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pseudo_labeller-0.0.4.tar.gz tmp/pseudo_labeller-0.0.5.tar.gz --markdown 20230427/p/pseudo-labeller/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-27 15:57:00] WARNING root fetch - processPackages [common-cols-project]: Skipping, unable to determine old version
+[2023-04-27 15:57:00] INFO root fetch - processPackages [common-cols-project]: Start processing: chrononaut
+[2023-04-27 15:57:00] INFO root fetch - processPackages [aanalytics2]: New version: [0.3.3.post3] Old Version: [0.3.3.post2]
+[2023-04-27 15:57:00] INFO root fetch - main [MainThread]: End processing [common-cols-project] error
+[2023-04-27 15:57:00] INFO root fetch - processPackages [yaecs]: executing diffoscope
+[2023-04-27 15:57:00] INFO root fetch - processPackages [yaecs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaecs-3.0.8.tar.gz tmp/yaecs-3.0.9.tar.gz --markdown 20230427/y/yaecs/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-04-27 15:57:00] INFO root fetch - processPackages [xklb]: New version: [1.26.14] Old Version: [1.26.13]
+[2023-04-27 15:57:00] INFO root fetch - processPackages [djangoldp]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-04-27 15:57:00] INFO root fetch - processPackages [chaostoolkit-reliably]: executing diffoscope
+[2023-04-27 15:57:00] INFO root fetch - processPackages [chaostoolkit-reliably]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chaostoolkit-reliably-0.9.3.tar.gz tmp/chaostoolkit-reliably-0.9.4.tar.gz --markdown 20230427/c/chaostoolkit-reliably/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-04-27 15:57:00] INFO root fetch - processPackages [aimmo]: executing diffoscope
+[2023-04-27 15:57:00] INFO root fetch - processPackages [aimmo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aimmo-v0.1.1-alpha.post.dev8.tar.gz tmp/aimmo-v0.1.1-alpha.post.dev9.tar.gz --markdown 20230427/a/aimmo/v0.1.1-alpha.post.dev8-v0.1.1-alpha.post.dev9/diff.md --exclude *.pyd
+[2023-04-27 15:57:00] INFO root fetch - processPackages [chrononaut]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-04-27 15:57:00] INFO root fetch - processPackages [i2a-oauth2-api-client]: Downloading https://files.pythonhosted.org/packages/da/14/bf4c4e789d1a241a73f929164f7e7bd3c04b602902a3a6760ed3aaa8fb7c/i2a_oauth2_api_client-2.0.9.tar.gz
+[2023-04-27 15:57:00] INFO root fetch - processPackages [causica]: Downloading https://files.pythonhosted.org/packages/1f/ff/b35c00b4e4cd8fbe03c8f6cbc85141de8c8af035ec9cf0f2e8d5dea6d524/causica-0.2.0.tar.gz
+[2023-04-27 15:57:00] INFO root fetch - processPackages [aanalytics2]: Downloading https://files.pythonhosted.org/packages/c4/3e/fd2a0c4ac9b8896d34de011556f3de26508573e93091d060fec069025d9f/aanalytics2-0.3.3.post3.tar.gz
+[2023-04-27 15:57:00] INFO root fetch - processPackages [djangoldp]: Downloading https://files.pythonhosted.org/packages/07/f0/737a0166452174bc45291d9300a696d07b2cc4b827ed4a3abcaca5a84978/djangoldp-2.1.8.tar.gz
+[2023-04-27 15:57:00] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/bd/ee/f4ca06a7612aa713c3cad6c9b6be7adaa4e86fe1337f76ce6388ea4f2f07/xklb-1.26.14.tar.gz
+[2023-04-27 15:57:00] INFO root fetch - processPackages [aanalytics2]: executing diffoscope
+[2023-04-27 15:57:00] INFO root fetch - processPackages [aanalytics2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aanalytics2-0.3.3.post2.tar.gz tmp/aanalytics2-0.3.3.post3.tar.gz --markdown 20230427/a/aanalytics2/0.3.3.post2-0.3.3.post3/diff.md --exclude *.pyd
+[2023-04-27 15:57:00] INFO root fetch - processPackages [chrononaut]: Downloading https://files.pythonhosted.org/packages/b2/11/31f62bda1e4ff7135a94871bfe299663560ef9cbf1d6cd856461e5895a99/chrononaut-0.4.0.tar.gz
+[2023-04-27 15:57:01] INFO root fetch - processPackages [i2a-oauth2-api-client]: Downloading https://files.pythonhosted.org/packages/b4/eb/97fe57b79c14dca56125e9b3511cfb23c724c63dc2e9cc4aec5379fbd9ac/i2a_oauth2_api_client-3.0.0.tar.gz
+[2023-04-27 15:57:01] INFO root fetch - processPackages [causica]: Downloading https://files.pythonhosted.org/packages/da/04/185b200c4af2d624d729d128185c70526accd5175e8d2084b24a7c2d2295/causica-0.3.0.tar.gz
+[2023-04-27 15:57:01] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2023-04-27 15:57:01] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-1.26.13.tar.gz tmp/xklb-1.26.14.tar.gz --markdown 20230427/x/xklb/1.26.13-1.26.14/diff.md --exclude *.pyd
+[2023-04-27 15:57:01] INFO root fetch - processPackages [djangoldp]: Downloading https://files.pythonhosted.org/packages/d7/5a/c06e789207ed34b8c839f5b45fdc1995097c7aaead6438b5254d96073184/djangoldp-2.1.9.tar.gz
+[2023-04-27 15:57:01] INFO root fetch - processPackages [i2a-oauth2-api-client]: executing diffoscope
+[2023-04-27 15:57:01] INFO root fetch - processPackages [i2a-oauth2-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/i2a_oauth2_api_client-2.0.9.tar.gz tmp/i2a_oauth2_api_client-3.0.0.tar.gz --markdown 20230427/i/i2a-oauth2-api-client/2.0.9-3.0.0/diff.md --exclude *.pyd
+[2023-04-27 15:57:01] INFO root fetch - processPackages [chrononaut]: Downloading https://files.pythonhosted.org/packages/f7/9a/66994c3dc7c00e1c260a91428a43551a38f30ac5091c5094618857ecd663/chrononaut-0.4.1.tar.gz
+[2023-04-27 15:57:01] INFO root fetch - processPackages [djangoldp]: executing diffoscope
+[2023-04-27 15:57:01] INFO root fetch - processPackages [djangoldp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp-2.1.8.tar.gz tmp/djangoldp-2.1.9.tar.gz --markdown 20230427/d/djangoldp/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-04-27 15:57:01] INFO root fetch - processPackages [chrononaut]: executing diffoscope
+[2023-04-27 15:57:01] INFO root fetch - processPackages [chrononaut]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chrononaut-0.4.0.tar.gz tmp/chrononaut-0.4.1.tar.gz --markdown 20230427/c/chrononaut/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-04-27 15:57:01] INFO root fetch - processPackages [causica]: executing diffoscope
+[2023-04-27 15:57:01] INFO root fetch - processPackages [causica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/causica-0.2.0.tar.gz tmp/causica-0.3.0.tar.gz --markdown 20230427/c/causica/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-04-27 15:57:01] INFO root fetch - processPackages [pseudo-labeller]: Start processing: kiwigrad
+[2023-04-27 15:57:01] INFO root fetch - main [MainThread]: End processing [pseudo-labeller]: success
+[2023-04-27 15:57:01] INFO root fetch - processPackages [kiwigrad]: New version: [0.21] Old Version: [0.20]
+[2023-04-27 15:57:02] INFO root fetch - processPackages [kiwigrad]: Downloading https://files.pythonhosted.org/packages/25/10/81731415dd7458558002858a710e29fbd7c90cc543bd43151f6c6bd0f4c7/kiwigrad-0.20.tar.gz
+[2023-04-27 15:57:02] INFO root fetch - processPackages [yaecs]: Start processing: nebulyai
+[2023-04-27 15:57:02] INFO root fetch - main [MainThread]: End processing [yaecs]: success
+[2023-04-27 15:57:02] INFO root fetch - processPackages [kiwigrad]: Downloading https://files.pythonhosted.org/packages/39/c0/3fd0e218c31c015d0ca2d997262c6d4fbea6ad32aba21bceb49d80469dfb/kiwigrad-0.21.tar.gz
+[2023-04-27 15:57:02] WARNING root fetch - processPackages [nebulyai]: Skipping, unable to determine old version
+[2023-04-27 15:57:02] INFO root fetch - processPackages [nebulyai]: Start processing: pyroll-basic
+[2023-04-27 15:57:02] INFO root fetch - main [MainThread]: End processing [nebulyai] error
+[2023-04-27 15:57:02] INFO root fetch - processPackages [kiwigrad]: executing diffoscope
+[2023-04-27 15:57:02] INFO root fetch - processPackages [kiwigrad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiwigrad-0.20.tar.gz tmp/kiwigrad-0.21.tar.gz --markdown 20230427/k/kiwigrad/0.20-0.21/diff.md --exclude *.pyd
+[2023-04-27 15:57:02] INFO root fetch - processPackages [aanalytics2]: Start processing: proxiflow
+[2023-04-27 15:57:02] INFO root fetch - main [MainThread]: End processing [aanalytics2]: success
+[2023-04-27 15:57:02] INFO root fetch - processPackages [pyroll-basic]: New version: [2.0.1] Old Version: [2.0.0a1]
+[2023-04-27 15:57:02] INFO root fetch - processPackages [proxiflow]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-04-27 15:57:02] INFO root fetch - processPackages [i2a-oauth2-api-client]: Start processing: fortigate-api
+[2023-04-27 15:57:02] INFO root fetch - main [MainThread]: End processing [i2a-oauth2-api-client]: success
+[2023-04-27 15:57:02] INFO root fetch - processPackages [fortigate-api]: New version: [1.2.2] Old Version: [1.1.1]
+[2023-04-27 15:57:02] INFO root fetch - processPackages [aimmo]: Start processing: dbt-firebolt
+[2023-04-27 15:57:02] INFO root fetch - main [MainThread]: End processing [aimmo]: success
+[2023-04-27 15:57:02] INFO root fetch - processPackages [pyroll-basic]: Downloading https://files.pythonhosted.org/packages/c4/94/693904bed705de0dd8051472a52eef5ad45fd4d4595b58cdcc43be3f5893/pyroll_basic-2.0.0a1.tar.gz
+[2023-04-27 15:57:02] INFO root fetch - processPackages [proxiflow]: Downloading https://files.pythonhosted.org/packages/7d/e5/c0a390f4d27bb3315ddc000bd40e9c0bd2bda68c175e4c8fa6255e26957c/proxiflow-0.1.7.tar.gz
+[2023-04-27 15:57:02] INFO root fetch - processPackages [fortigate-api]: executing diffoscope
+[2023-04-27 15:57:02] INFO root fetch - processPackages [fortigate-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fortigate_api-1.1.1.tar.gz tmp/fortigate_api-1.2.2.tar.gz --markdown 20230427/f/fortigate-api/1.1.1-1.2.2/diff.md --exclude *.pyd
+[2023-04-27 15:57:02] INFO root fetch - processPackages [chaostoolkit-reliably]: Start processing: python-automation-framework
+[2023-04-27 15:57:02] INFO root fetch - main [MainThread]: End processing [chaostoolkit-reliably]: success
+[2023-04-27 15:57:02] INFO root fetch - processPackages [dbt-firebolt]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-04-27 15:57:02] INFO root fetch - processPackages [chrononaut]: Start processing: solarmach
+[2023-04-27 15:57:02] INFO root fetch - main [MainThread]: End processing [chrononaut]: success
+[2023-04-27 15:57:02] WARNING root fetch - processPackages [python-automation-framework]: Skipping, unable to determine old version
+[2023-04-27 15:57:02] INFO root fetch - main [MainThread]: End processing [python-automation-framework] error
+[2023-04-27 15:57:03] INFO root fetch - processPackages [pyroll-basic]: Downloading https://files.pythonhosted.org/packages/f1/00/d369adf4ef118ff29440420c71aa2d9e09cbbc5ac5bbc48c8ae38c50766b/pyroll_basic-2.0.1.tar.gz
+[2023-04-27 15:57:03] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2023-04-27 15:57:03] INFO root fetch - processPackages [dbt-firebolt]: Downloading https://files.pythonhosted.org/packages/e5/67/f35682d7315f4e03876a0d18ddb921a3f861a4a0fc59e5a6043612efb112/dbt_firebolt-1.4.2.tar.gz
+[2023-04-27 15:57:03] INFO root fetch - processPackages [solarmach]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-04-27 15:57:03] INFO root fetch - processPackages [proxiflow]: Downloading https://files.pythonhosted.org/packages/e5/eb/dd05dbfd56febd6bcf140975f741ae51ab8466876a8e669e4a562220d342/proxiflow-0.1.8.tar.gz
+[2023-04-27 15:57:03] INFO root fetch - processPackages [pyroll-basic]: executing diffoscope
+[2023-04-27 15:57:03] INFO root fetch - processPackages [pyroll-basic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyroll_basic-2.0.0a1.tar.gz tmp/pyroll_basic-2.0.1.tar.gz --markdown 20230427/p/pyroll-basic/2.0.0a1-2.0.1/diff.md --exclude *.pyd
+[2023-04-27 15:57:03] INFO root fetch - processPackages [proxiflow]: executing diffoscope
+[2023-04-27 15:57:03] INFO root fetch - processPackages [proxiflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proxiflow-0.1.7.tar.gz tmp/proxiflow-0.1.8.tar.gz --markdown 20230427/p/proxiflow/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-04-27 15:57:03] INFO root fetch - main [MainThread]: End processing [djangoldp]: success
+[2023-04-27 15:57:03] INFO root fetch - processPackages [solarmach]: Downloading https://files.pythonhosted.org/packages/f8/f1/373950f0ab717257da96731b90059d6c4791ec8561c1477820e48b45f5de/solarmach-0.1.6.tar.gz
+[2023-04-27 15:57:03] INFO root fetch - processPackages [dbt-firebolt]: Downloading https://files.pythonhosted.org/packages/44/b7/bccddaeab5988e9abb25a9eaabb3f309d45754356afe1acd1ab902f63cde/dbt_firebolt-1.4.3.tar.gz
+[2023-04-27 15:57:03] INFO root fetch - main [MainThread]: End processing [causica]: success
+[2023-04-27 15:57:03] INFO root fetch - processPackages [dbt-firebolt]: executing diffoscope
+[2023-04-27 15:57:03] INFO root fetch - processPackages [dbt-firebolt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_firebolt-1.4.2.tar.gz tmp/dbt_firebolt-1.4.3.tar.gz --markdown 20230427/d/dbt-firebolt/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-04-27 15:57:03] INFO root fetch - processPackages [solarmach]: Downloading https://files.pythonhosted.org/packages/59/7a/bcab7732863e1983217da0cdb180f7252c00abff9253f4d47ac27c174ff1/solarmach-0.1.7.tar.gz
+[2023-04-27 15:57:03] INFO root fetch - processPackages [solarmach]: executing diffoscope
+[2023-04-27 15:57:03] INFO root fetch - processPackages [solarmach]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solarmach-0.1.6.tar.gz tmp/solarmach-0.1.7.tar.gz --markdown 20230427/s/solarmach/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-04-27 15:57:03] INFO root fetch - main [MainThread]: End processing [kiwigrad]: success
+[2023-04-27 15:57:04] INFO root fetch - main [MainThread]: End processing [pyroll-basic]: success
+[2023-04-27 15:57:04] INFO root fetch - main [MainThread]: End processing [proxiflow]: success
+[2023-04-27 15:57:04] INFO root fetch - main [MainThread]: End processing [dbt-firebolt]: success
+[2023-04-27 15:57:05] INFO root fetch - main [MainThread]: End processing [solarmach]: success
+[2023-04-27 15:57:05] INFO root fetch - main [MainThread]: End processing [fortigate-api]: success
+[2023-04-27 15:57:05] INFO root fetch - main [MainThread]: Store serial: [17883905]
