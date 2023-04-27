@@ -7978,3 +7978,59 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 04:26:28] INFO root fetch - main [MainThread]: End processing [RobertCommonDriver]: success
 [2023-04-27 04:26:28] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
 [2023-04-27 04:26:28] INFO root fetch - main [MainThread]: Store serial: [17876719]
+[2023-04-27 04:31:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17876719]
+[2023-04-27 04:31:38] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-27 04:31:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: monero-usd-price
+[2023-04-27 04:31:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: KIRP
+[2023-04-27 04:31:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chalkpy
+[2023-04-27 04:31:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk8s-plus-24
+[2023-04-27 04:31:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: iam-actions
+[2023-04-27 04:31:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk8s-plus-25
+[2023-04-27 04:31:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk8s-plus-26
+[2023-04-27 04:31:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: stogui
+[2023-04-27 04:31:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: RobertCommonBasic
+[2023-04-27 04:31:38] INFO root fetch - processPackages [cdk8s-plus-24]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-04-27 04:31:38] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-04-27 04:31:38] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20230427] Old Version: [1.2.20230426]
+[2023-04-27 04:31:38] INFO root fetch - processPackages [monero-usd-price]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-04-27 04:31:38] INFO root fetch - processPackages [chalkpy]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-04-27 04:31:38] INFO root fetch - processPackages [cdk8s-plus-25]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-04-27 04:31:38] INFO root fetch - processPackages [KIRP]: New version: [1.4] Old Version: [1.2]
+[2023-04-27 04:31:38] INFO root fetch - processPackages [stogui]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-04-27 04:31:38] INFO root fetch - processPackages [RobertCommonBasic]: New version: [0.1.37] Old Version: [0.1.36]
+[2023-04-27 04:31:38] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-04-27 04:31:38] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.3.8.tar.gz tmp/cdk8s-plus-26-2.3.9.tar.gz --markdown 20230427/c/cdk8s-plus-26/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-04-27 04:31:38] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-04-27 04:31:38] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-1.9.8.tar.gz tmp/chalkpy-1.9.9.tar.gz --markdown 20230427/c/chalkpy/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-04-27 04:31:38] INFO root fetch - processPackages [cdk8s-plus-25]: executing diffoscope
+[2023-04-27 04:31:38] INFO root fetch - processPackages [cdk8s-plus-25]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-25-2.7.8.tar.gz tmp/cdk8s-plus-25-2.7.9.tar.gz --markdown 20230427/c/cdk8s-plus-25/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-04-27 04:31:38] INFO root fetch - processPackages [cdk8s-plus-24]: executing diffoscope
+[2023-04-27 04:31:38] INFO root fetch - processPackages [cdk8s-plus-24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-24-2.7.8.tar.gz tmp/cdk8s-plus-24-2.7.9.tar.gz --markdown 20230427/c/cdk8s-plus-24/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-04-27 04:31:38] INFO root fetch - processPackages [monero-usd-price]: Downloading https://files.pythonhosted.org/packages/ca/d7/e476cd4952f2b50ab63414e82c6eba59dad6c383e42c0946da3fb9e97b2d/monero_usd_price-1.0.0.tar.gz
+[2023-04-27 04:31:38] INFO root fetch - processPackages [KIRP]: Downloading https://files.pythonhosted.org/packages/9a/c9/9b53ab2b1c63c7e14082abf0bb48a8b058fb9fc01216796da29c5adeb75c/KIRP-1.2.tar.gz
+[2023-04-27 04:31:38] INFO root fetch - processPackages [stogui]: Downloading https://files.pythonhosted.org/packages/55/96/f41ee763a677af019dc7f60fc6de5207ab3e0346e93d5e4f94a7cef3d55a/stogui-0.1.7.tar.gz
+[2023-04-27 04:31:38] INFO root fetch - processPackages [RobertCommonBasic]: Downloading https://files.pythonhosted.org/packages/3e/db/13031aa0ab285fcebc166d2d86ce215abaae016d6a1dfddba6d8dac4ae5c/RobertCommonBasic-0.1.36.tar.gz
+[2023-04-27 04:31:38] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/ce/7d/c64bb84382be6fc916cf81eff4e26f6d5eae0477393c14e4ed1091f397e4/iam_actions-1.2.20230427.tar.gz
+[2023-04-27 04:31:38] INFO root fetch - processPackages [monero-usd-price]: Downloading https://files.pythonhosted.org/packages/02/5d/7b21e964edcda19e955223124769ee22c406d3b9e6b55c24683fe351340f/monero_usd_price-1.1.0.tar.gz
+[2023-04-27 04:31:38] INFO root fetch - processPackages [RobertCommonBasic]: Downloading https://files.pythonhosted.org/packages/b6/10/223304a3b384b98e5e08dce55714ec2c89ff69b6c5c0ac9a6f3efb1ff134/RobertCommonBasic-0.1.37.tar.gz
+[2023-04-27 04:31:38] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2023-04-27 04:31:38] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20230426.tar.gz tmp/iam_actions-1.2.20230427.tar.gz --markdown 20230427/i/iam-actions/1.2.20230426-1.2.20230427/diff.md --exclude *.pyd
+[2023-04-27 04:31:38] INFO root fetch - processPackages [KIRP]: Downloading https://files.pythonhosted.org/packages/eb/3b/b6a273444a601de470e52ad63d88483a77b4ef687e859425bb2772096737/KIRP-1.4-py3-none-any.whl
+[2023-04-27 04:31:39] INFO root fetch - processPackages [monero-usd-price]: executing diffoscope
+[2023-04-27 04:31:39] INFO root fetch - processPackages [monero-usd-price]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monero_usd_price-1.0.0.tar.gz tmp/monero_usd_price-1.1.0.tar.gz --markdown 20230427/m/monero-usd-price/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-04-27 04:31:39] INFO root fetch - processPackages [RobertCommonBasic]: executing diffoscope
+[2023-04-27 04:31:39] INFO root fetch - processPackages [RobertCommonBasic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RobertCommonBasic-0.1.36.tar.gz tmp/RobertCommonBasic-0.1.37.tar.gz --markdown 20230427/R/RobertCommonBasic/0.1.36-0.1.37/diff.md --exclude *.pyd
+[2023-04-27 04:31:39] INFO root fetch - processPackages [KIRP]: executing diffoscope
+[2023-04-27 04:31:39] INFO root fetch - processPackages [KIRP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KIRP-1.2.tar.gz tmp/KIRP-1.4-py3-none-any.whl.zip --markdown 20230427/K/KIRP/1.2-1.4/diff.md --exclude *.pyd
+[2023-04-27 04:31:39] INFO root fetch - processPackages [stogui]: executing diffoscope
+[2023-04-27 04:31:39] INFO root fetch - processPackages [stogui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stogui-0.1.6.tar.gz tmp/stogui-0.1.7.tar.gz --markdown 20230427/s/stogui/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-04-27 04:31:40] INFO root fetch - main [MainThread]: End processing [monero-usd-price]: success
+[2023-04-27 04:31:40] INFO root fetch - main [MainThread]: End processing [KIRP]: success
+[2023-04-27 04:31:40] INFO root fetch - main [MainThread]: End processing [RobertCommonBasic]: success
+[2023-04-27 04:31:41] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-04-27 04:31:41] INFO root fetch - main [MainThread]: End processing [stogui]: success
+[2023-04-27 04:31:41] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-24]: success
+[2023-04-27 04:31:41] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
+[2023-04-27 04:31:43] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2023-04-27 04:31:44] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-04-27 04:31:44] INFO root fetch - main [MainThread]: Store serial: [17876750]
