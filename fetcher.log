@@ -19942,3 +19942,79 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 15:24:28] INFO root fetch - main [MainThread]: End processing [citros]: success
 [2023-04-27 15:24:32] INFO root fetch - main [MainThread]: End processing [amlopschat]: success
 [2023-04-27 15:24:32] INFO root fetch - main [MainThread]: Store serial: [17883527]
+[2023-04-27 15:29:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17883527]
+[2023-04-27 15:29:42] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-27 15:29:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nyaa-timer
+[2023-04-27 15:29:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyvosklivesubtitle
+[2023-04-27 15:29:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: magnus-extensions
+[2023-04-27 15:29:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: with-timeout
+[2023-04-27 15:29:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: custardpy
+[2023-04-27 15:29:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ckanext-harvest-basket
+[2023-04-27 15:29:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: onvif-gui
+[2023-04-27 15:29:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sqlsy
+[2023-04-27 15:29:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: common-cols-project
+[2023-04-27 15:29:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: polars-streaming
+[2023-04-27 15:29:42] INFO root fetch - processPackages [polars-streaming]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-27 15:29:42] WARNING root fetch - processPackages [common-cols-project]: Skipping, unable to determine old version
+[2023-04-27 15:29:42] INFO root fetch - processPackages [common-cols-project]: Start processing: client-GPT
+[2023-04-27 15:29:42] INFO root fetch - main [MainThread]: End processing [common-cols-project] error
+[2023-04-27 15:29:42] INFO root fetch - processPackages [sqlsy]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-27 15:29:42] INFO root fetch - processPackages [client-GPT]: New version: [1.1.0] Old Version: [0.2.2]
+[2023-04-27 15:29:42] INFO root fetch - processPackages [magnus-extensions]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-27 15:29:42] WARNING root fetch - processPackages [nyaa-timer]: Skipping, unable to determine old version
+[2023-04-27 15:29:42] INFO root fetch - processPackages [custardpy]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-04-27 15:29:42] INFO root fetch - processPackages [nyaa-timer]: Start processing: astromartini
+[2023-04-27 15:29:42] INFO root fetch - main [MainThread]: End processing [nyaa-timer] error
+[2023-04-27 15:29:42] INFO root fetch - processPackages [pyvosklivesubtitle]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-27 15:29:42] WARNING root fetch - processPackages [with-timeout]: Skipping, unable to determine old version
+[2023-04-27 15:29:42] INFO root fetch - processPackages [with-timeout]: Start processing: reliably-cli
+[2023-04-27 15:29:42] INFO root fetch - processPackages [ckanext-harvest-basket]: New version: [1.3.6] Old Version: [1.3.5]
+[2023-04-27 15:29:42] INFO root fetch - processPackages [sqlsy]: executing diffoscope
+[2023-04-27 15:29:42] INFO root fetch - processPackages [sqlsy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlsy-0.0.4.tar.gz tmp/sqlsy-0.0.5.tar.gz --markdown 20230427/s/sqlsy/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-27 15:29:42] INFO root fetch - main [MainThread]: End processing [with-timeout] error
+[2023-04-27 15:29:42] INFO root fetch - processPackages [polars-streaming]: Downloading https://files.pythonhosted.org/packages/d7/77/31d63e9d4ef0a507e793b6bbfc5afcc84a9ff173cb66f796a23fb8ccc860/polars-streaming-0.1.0.tar.gz
+[2023-04-27 15:29:42] INFO root fetch - processPackages [client-GPT]: Downloading https://files.pythonhosted.org/packages/51/8e/d30fa80e0864004c9db1960fb4084a8d7c6ecd63d58aa46a9c9418b010cd/client_GPT-1.1.0.tar.gz
+[2023-04-27 15:29:42] INFO root fetch - processPackages [astromartini]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-04-27 15:29:42] INFO root fetch - processPackages [magnus-extensions]: Downloading https://files.pythonhosted.org/packages/41/63/a98d73322f674648703c7773170e3520d91492f6e8de3fd9f7af733fc5cb/magnus_extensions-0.2.8.tar.gz
+[2023-04-27 15:29:42] INFO root fetch - processPackages [reliably-cli]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-04-27 15:29:42] INFO root fetch - processPackages [onvif-gui]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-04-27 15:29:42] INFO root fetch - processPackages [pyvosklivesubtitle]: Downloading https://files.pythonhosted.org/packages/a9/30/1b16b0e4e7d6f2f77ae52d9813571df59d13017d5267815f629b093f9632/pyvosklivesubtitle-0.1.4.tar.gz
+[2023-04-27 15:29:42] INFO root fetch - processPackages [ckanext-harvest-basket]: Downloading https://files.pythonhosted.org/packages/d8/e2/b56440eaf9632a77bd887bc8977fe1b12e2dd8932f196dfd3e13da07d209/ckanext-harvest-basket-1.3.5.tar.gz
+[2023-04-27 15:29:42] INFO root fetch - processPackages [custardpy]: Downloading https://files.pythonhosted.org/packages/bb/44/6c6a813fd4cd72c544c58bb1370c6adf2ba000564d983b249350e010dc1c/custardpy-0.2.0-py3-none-any.whl
+[2023-04-27 15:29:42] INFO root fetch - processPackages [client-GPT]: executing diffoscope
+[2023-04-27 15:29:42] INFO root fetch - processPackages [client-GPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/client_GPT-0.2.2.tar.gz tmp/client_GPT-1.1.0.tar.gz --markdown 20230427/c/client-GPT/0.2.2-1.1.0/diff.md --exclude *.pyd
+[2023-04-27 15:29:42] INFO root fetch - processPackages [polars-streaming]: Downloading https://files.pythonhosted.org/packages/ed/1d/4d4b74d01c3caf933c71aa6bbae29a9679e5277b53089e0843ae72b7a7d9/polars-streaming-0.1.1.tar.gz
+[2023-04-27 15:29:42] INFO root fetch - processPackages [reliably-cli]: executing diffoscope
+[2023-04-27 15:29:42] INFO root fetch - processPackages [reliably-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reliably-cli-0.5.8.tar.gz tmp/reliably-cli-0.5.9.tar.gz --markdown 20230427/r/reliably-cli/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-04-27 15:29:42] INFO root fetch - processPackages [astromartini]: Downloading https://files.pythonhosted.org/packages/8b/4e/f13083028529c575ce25f34424bc6048e4b0fea10a6feff08d8c839b59f4/astromartini-2.0.0.tar.gz
+[2023-04-27 15:29:42] INFO root fetch - processPackages [magnus-extensions]: Downloading https://files.pythonhosted.org/packages/42/de/ab6b84cc6437381642296b3756d5e34f03f996218287d05fabd1dfeffd92/magnus_extensions-0.2.9.tar.gz
+[2023-04-27 15:29:42] INFO root fetch - processPackages [onvif-gui]: Downloading https://files.pythonhosted.org/packages/63/2c/466bcccdf984d37bcb833444220974b7a95927519d0cfc2d4086d6af317f/onvif-gui-1.0.5.tar.gz
+[2023-04-27 15:29:42] INFO root fetch - processPackages [pyvosklivesubtitle]: Downloading https://files.pythonhosted.org/packages/f3/87/70b0bc629582e4ac001b50873f1a1b27a4f915d4f071505cef7651a4b46b/pyvosklivesubtitle-0.1.5.tar.gz
+[2023-04-27 15:29:42] INFO root fetch - processPackages [polars-streaming]: executing diffoscope
+[2023-04-27 15:29:42] INFO root fetch - processPackages [polars-streaming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars-streaming-0.1.0.tar.gz tmp/polars-streaming-0.1.1.tar.gz --markdown 20230427/p/polars-streaming/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-27 15:29:42] INFO root fetch - processPackages [magnus-extensions]: executing diffoscope
+[2023-04-27 15:29:42] INFO root fetch - processPackages [magnus-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magnus_extensions-0.2.8.tar.gz tmp/magnus_extensions-0.2.9.tar.gz --markdown 20230427/m/magnus-extensions/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-27 15:29:42] INFO root fetch - processPackages [ckanext-harvest-basket]: Downloading https://files.pythonhosted.org/packages/00/20/27cea62ab80425c16a96fa602cb08d62ed5edc1a6189a793624d10af804e/ckanext-harvest-basket-1.3.6.tar.gz
+[2023-04-27 15:29:42] INFO root fetch - processPackages [custardpy]: Downloading https://files.pythonhosted.org/packages/33/25/57bc65cde796bdb08a06f0f4a9bacc4874c8a7f1c5d8a8f1f2da857318fe/custardpy-0.3.0-py3-none-any.whl
+[2023-04-27 15:29:42] INFO root fetch - processPackages [pyvosklivesubtitle]: executing diffoscope
+[2023-04-27 15:29:42] INFO root fetch - processPackages [pyvosklivesubtitle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvosklivesubtitle-0.1.4.tar.gz tmp/pyvosklivesubtitle-0.1.5.tar.gz --markdown 20230427/p/pyvosklivesubtitle/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-27 15:29:42] INFO root fetch - processPackages [onvif-gui]: executing diffoscope
+[2023-04-27 15:29:42] INFO root fetch - processPackages [onvif-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onvif-gui-1.0.4.tar.gz tmp/onvif-gui-1.0.5.tar.gz --markdown 20230427/o/onvif-gui/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-04-27 15:29:42] INFO root fetch - processPackages [astromartini]: Downloading https://files.pythonhosted.org/packages/2f/22/79e347c185a1da00eaec093ae78572fe7c7fb8722e83ad1d768ca242f0a6/astromartini-2.0.1.tar.gz
+[2023-04-27 15:29:42] INFO root fetch - processPackages [ckanext-harvest-basket]: executing diffoscope
+[2023-04-27 15:29:42] INFO root fetch - processPackages [ckanext-harvest-basket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext-harvest-basket-1.3.5.tar.gz tmp/ckanext-harvest-basket-1.3.6.tar.gz --markdown 20230427/c/ckanext-harvest-basket/1.3.5-1.3.6/diff.md --exclude *.pyd
+[2023-04-27 15:29:42] INFO root fetch - processPackages [custardpy]: executing diffoscope
+[2023-04-27 15:29:42] INFO root fetch - processPackages [custardpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/custardpy-0.2.0-py3-none-any.whl.zip tmp/custardpy-0.3.0-py3-none-any.whl.zip --markdown 20230427/c/custardpy/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-04-27 15:29:42] INFO root fetch - processPackages [astromartini]: executing diffoscope
+[2023-04-27 15:29:42] INFO root fetch - processPackages [astromartini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astromartini-2.0.0.tar.gz tmp/astromartini-2.0.1.tar.gz --markdown 20230427/a/astromartini/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-04-27 15:29:43] INFO root fetch - main [MainThread]: End processing [client-GPT]: success
+[2023-04-27 15:29:43] INFO root fetch - main [MainThread]: End processing [sqlsy]: success
+[2023-04-27 15:29:44] INFO root fetch - main [MainThread]: End processing [reliably-cli]: success
+[2023-04-27 15:29:44] INFO root fetch - main [MainThread]: End processing [polars-streaming]: success
+[2023-04-27 15:29:44] INFO root fetch - main [MainThread]: End processing [pyvosklivesubtitle]: success
+[2023-04-27 15:29:44] INFO root fetch - main [MainThread]: End processing [custardpy]: success
+[2023-04-27 15:29:44] INFO root fetch - main [MainThread]: End processing [magnus-extensions]: success
+[2023-04-27 15:29:45] INFO root fetch - main [MainThread]: End processing [ckanext-harvest-basket]: success
+[2023-04-27 15:29:45] INFO root fetch - main [MainThread]: End processing [astromartini]: success
+[2023-04-27 15:29:46] INFO root fetch - main [MainThread]: End processing [onvif-gui]: success
+[2023-04-27 15:29:46] INFO root fetch - main [MainThread]: Store serial: [17883574]
