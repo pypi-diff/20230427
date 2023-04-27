@@ -19397,3 +19397,90 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 14:56:50] INFO root fetch - main [MainThread]: End processing [alibabacloud-chatbot20220408]: success
 [2023-04-27 14:56:50] INFO root fetch - main [MainThread]: End processing [foursight]: success
 [2023-04-27 14:56:50] INFO root fetch - main [MainThread]: Store serial: [17883125]
+[2023-04-27 15:01:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17883125]
+[2023-04-27 15:02:00] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-27 15:02:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yze
+[2023-04-27 15:02:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fortigate-exporter-discovery
+[2023-04-27 15:02:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dia-aiml
+[2023-04-27 15:02:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: moneykit
+[2023-04-27 15:02:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hyperfetch
+[2023-04-27 15:02:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: woostream
+[2023-04-27 15:02:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mlflow-oidc-client
+[2023-04-27 15:02:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: folio-migration-tools
+[2023-04-27 15:02:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: worky
+[2023-04-27 15:02:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: audformat
+[2023-04-27 15:02:00] INFO root fetch - processPackages [moneykit]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-27 15:02:00] INFO root fetch - processPackages [fortigate-exporter-discovery]: New version: [0.4.0] Old Version: [0.3.3]
+[2023-04-27 15:02:00] INFO root fetch - processPackages [worky]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-27 15:02:00] INFO root fetch - processPackages [hyperfetch]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-04-27 15:02:00] INFO root fetch - processPackages [woostream]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-27 15:02:00] INFO root fetch - processPackages [audformat]: New version: [1.0.0] Old Version: [0.9.8]
+[2023-04-27 15:02:00] INFO root fetch - processPackages [yze]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-27 15:02:00] INFO root fetch - processPackages [dia-aiml]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-04-27 15:02:00] INFO root fetch - processPackages [moneykit]: executing diffoscope
+[2023-04-27 15:02:00] INFO root fetch - processPackages [moneykit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moneykit-0.0.3.tar.gz tmp/moneykit-0.0.4.tar.gz --markdown 20230427/m/moneykit/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-27 15:02:00] WARNING root fetch - processPackages [mlflow-oidc-client]: Skipping, unable to determine old version
+[2023-04-27 15:02:00] INFO root fetch - processPackages [mlflow-oidc-client]: Start processing: scargo
+[2023-04-27 15:02:00] INFO root fetch - main [MainThread]: End processing [mlflow-oidc-client] error
+[2023-04-27 15:02:00] INFO root fetch - processPackages [fortigate-exporter-discovery]: executing diffoscope
+[2023-04-27 15:02:00] INFO root fetch - processPackages [fortigate-exporter-discovery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fortigate-exporter-discovery-0.3.3.tar.gz tmp/fortigate-exporter-discovery-0.4.0.tar.gz --markdown 20230427/f/fortigate-exporter-discovery/0.3.3-0.4.0/diff.md --exclude *.pyd
+[2023-04-27 15:02:00] INFO root fetch - processPackages [folio-migration-tools]: New version: [1.8.0rc3] Old Version: [1.8.0rc2]
+[2023-04-27 15:02:00] INFO root fetch - processPackages [woostream]: Downloading https://files.pythonhosted.org/packages/cf/ee/7a4e8ad4fb30668fa7f9005af586d60f06806de59c062200e21149d33abf/woostream-0.1.0.tar.gz
+[2023-04-27 15:02:00] INFO root fetch - processPackages [scargo]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-04-27 15:02:00] INFO root fetch - processPackages [worky]: Downloading https://files.pythonhosted.org/packages/99/1d/41d5074a5c31dfa741a5c0c60268064c1817f7669890c7b7f51d80aa0b26/worky-0.1.3.tar.gz
+[2023-04-27 15:02:00] INFO root fetch - processPackages [folio-migration-tools]: Downloading https://files.pythonhosted.org/packages/9e/9f/68a4e789d68d9ca6b87cdffb3f8fb29625f2f5e1ade98bd0bfc196a16ef3/folio_migration_tools-1.8.0rc3.tar.gz
+[2023-04-27 15:02:00] INFO root fetch - processPackages [yze]: Downloading https://files.pythonhosted.org/packages/97/84/ebc716a64b46b32a73c92e115c41a9c87aff008f513317b8ef63fcb9a369/yze-0.0.1.tar.gz
+[2023-04-27 15:02:01] INFO root fetch - processPackages [dia-aiml]: Downloading https://files.pythonhosted.org/packages/62/31/530841711e0fa50083867bb2faff8d5ca05bcc5577eefc0e5f1a291c2866/dia-aiml-1.1.5.tar.gz
+[2023-04-27 15:02:01] INFO root fetch - processPackages [audformat]: Downloading https://files.pythonhosted.org/packages/17/b9/1b5c98b3620d872c7f00fc5491a7c343e6ee5f23c48462c279aa333e9f2b/audformat-0.9.8.tar.gz
+[2023-04-27 15:02:01] INFO root fetch - processPackages [hyperfetch]: Downloading https://files.pythonhosted.org/packages/e9/3f/fbd55a5494124717ce9c4a6cbe9baa65fec5e3ffb88616a6c56d7b495229/hyperfetch-1.0.6.tar.gz
+[2023-04-27 15:02:01] INFO root fetch - processPackages [hyperfetch]: executing diffoscope
+[2023-04-27 15:02:01] INFO root fetch - processPackages [hyperfetch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperfetch-1.0.5.tar.gz tmp/hyperfetch-1.0.6.tar.gz --markdown 20230427/h/hyperfetch/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-04-27 15:02:01] INFO root fetch - processPackages [worky]: executing diffoscope
+[2023-04-27 15:02:01] INFO root fetch - processPackages [worky]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/worky-0.1.2.tar.gz tmp/worky-0.1.3.tar.gz --markdown 20230427/w/worky/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-27 15:02:01] INFO root fetch - processPackages [scargo]: Downloading https://files.pythonhosted.org/packages/f6/01/0078a6d1e3ccf6edfd5db6a5f5c3b7f541d753fe0204df62eec5b3838ed8/scargo-1.3.1.tar.gz
+[2023-04-27 15:02:01] INFO root fetch - processPackages [folio-migration-tools]: executing diffoscope
+[2023-04-27 15:02:01] INFO root fetch - processPackages [folio-migration-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/folio_migration_tools-1.8.0rc2.tar.gz tmp/folio_migration_tools-1.8.0rc3.tar.gz --markdown 20230427/f/folio-migration-tools/1.8.0rc2-1.8.0rc3/diff.md --exclude *.pyd
+[2023-04-27 15:02:01] INFO root fetch - processPackages [yze]: Downloading https://files.pythonhosted.org/packages/75/96/a80a720b4216c541b7275a081f4c3d96118aad801192267f910b9635e88b/yze-0.0.2.tar.gz
+[2023-04-27 15:02:01] INFO root fetch - processPackages [woostream]: Downloading https://files.pythonhosted.org/packages/fb/35/d2a1767e269f03941c9eea34cbaaa487171fe51db4c11a001f92defd22c1/woostream-0.1.1.tar.gz
+[2023-04-27 15:02:01] INFO root fetch - processPackages [scargo]: executing diffoscope
+[2023-04-27 15:02:01] INFO root fetch - processPackages [scargo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scargo-1.3.0.tar.gz tmp/scargo-1.3.1.tar.gz --markdown 20230427/s/scargo/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-04-27 15:02:01] INFO root fetch - processPackages [audformat]: Downloading https://files.pythonhosted.org/packages/e5/99/12b007a0c381fa8f436c5a856b3b949096d9e3fb1e6006559a3f6e63f5dc/audformat-1.0.0.tar.gz
+[2023-04-27 15:02:01] INFO root fetch - processPackages [dia-aiml]: Downloading https://files.pythonhosted.org/packages/e0/ac/911bc181b0567ad3872fb4730a477639712057c0a13c0aded48af2411352/dia-aiml-1.1.6.tar.gz
+[2023-04-27 15:02:01] INFO root fetch - processPackages [yze]: executing diffoscope
+[2023-04-27 15:02:01] INFO root fetch - processPackages [yze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yze-0.0.1.tar.gz tmp/yze-0.0.2.tar.gz --markdown 20230427/y/yze/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-27 15:02:01] INFO root fetch - processPackages [woostream]: executing diffoscope
+[2023-04-27 15:02:01] INFO root fetch - processPackages [woostream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/woostream-0.1.0.tar.gz tmp/woostream-0.1.1.tar.gz --markdown 20230427/w/woostream/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-27 15:02:01] INFO root fetch - processPackages [dia-aiml]: executing diffoscope
+[2023-04-27 15:02:01] INFO root fetch - processPackages [dia-aiml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dia-aiml-1.1.5.tar.gz tmp/dia-aiml-1.1.6.tar.gz --markdown 20230427/d/dia-aiml/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-04-27 15:02:01] INFO root fetch - processPackages [audformat]: executing diffoscope
+[2023-04-27 15:02:01] INFO root fetch - processPackages [audformat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audformat-0.9.8.tar.gz tmp/audformat-1.0.0.tar.gz --markdown 20230427/a/audformat/0.9.8-1.0.0/diff.md --exclude *.pyd
+[2023-04-27 15:02:01] INFO root fetch - processPackages [moneykit]: Start processing: griffon
+[2023-04-27 15:02:01] INFO root fetch - main [MainThread]: End processing [moneykit]: success
+[2023-04-27 15:02:02] INFO root fetch - processPackages [griffon]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-27 15:02:02] INFO root fetch - processPackages [griffon]: executing diffoscope
+[2023-04-27 15:02:02] INFO root fetch - processPackages [griffon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/griffon-0.1.8.tar.gz tmp/griffon-0.1.9.tar.gz --markdown 20230427/g/griffon/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-27 15:02:02] INFO root fetch - processPackages [fortigate-exporter-discovery]: Start processing: fastapi-amis-admin
+[2023-04-27 15:02:02] INFO root fetch - main [MainThread]: End processing [fortigate-exporter-discovery]: success
+[2023-04-27 15:02:02] INFO root fetch - processPackages [fastapi-amis-admin]: New version: [0.5.6a1] Old Version: [0.5.5]
+[2023-04-27 15:02:02] INFO root fetch - processPackages [fastapi-amis-admin]: Downloading https://files.pythonhosted.org/packages/fe/98/0a0118d71c6b5f33918b17dc0f96f911fc2fe04c10bb42824aeaad151b42/fastapi_amis_admin-0.5.5.tar.gz
+[2023-04-27 15:02:02] INFO root fetch - processPackages [worky]: Start processing: hyperfetch
+[2023-04-27 15:02:02] INFO root fetch - main [MainThread]: End processing [worky]: success
+[2023-04-27 15:02:02] INFO root fetch - processPackages [hyperfetch]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-04-27 15:02:02] INFO root fetch - processPackages [hyperfetch]: Downloading https://files.pythonhosted.org/packages/a9/74/8f4fb912061e53450dcbf44b8d90c979258495884f7e9c0bac6b67595fdd/hyperfetch-1.0.7.tar.gz
+[2023-04-27 15:02:02] INFO root fetch - main [MainThread]: End processing [yze]: success
+[2023-04-27 15:02:02] INFO root fetch - processPackages [fastapi-amis-admin]: Downloading https://files.pythonhosted.org/packages/a3/dc/5d1cafd8828e61251c110bc16a796b4e34905b209fb9679c758ceb1c800b/fastapi_amis_admin-0.5.6a1.tar.gz
+[2023-04-27 15:02:02] INFO root fetch - main [MainThread]: End processing [woostream]: success
+[2023-04-27 15:02:02] INFO root fetch - main [MainThread]: End processing [hyperfetch]: success
+[2023-04-27 15:02:02] INFO root fetch - processPackages [fastapi-amis-admin]: executing diffoscope
+[2023-04-27 15:02:02] INFO root fetch - processPackages [fastapi-amis-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_amis_admin-0.5.5.tar.gz tmp/fastapi_amis_admin-0.5.6a1.tar.gz --markdown 20230427/f/fastapi-amis-admin/0.5.5-0.5.6a1/diff.md --exclude *.pyd
+[2023-04-27 15:02:03] INFO root fetch - processPackages [hyperfetch]: Downloading https://files.pythonhosted.org/packages/86/b8/52bc489a6d157e4b3816d01dca7ac6cd6264d160fa46a9d1416de657977b/hyperfetch-1.0.8.tar.gz
+[2023-04-27 15:02:03] INFO root fetch - processPackages [hyperfetch]: executing diffoscope
+[2023-04-27 15:02:03] INFO root fetch - processPackages [hyperfetch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperfetch-1.0.7.tar.gz tmp/hyperfetch-1.0.8.tar.gz --markdown 20230427/h/hyperfetch/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-04-27 15:02:03] INFO root fetch - main [MainThread]: End processing [audformat]: success
+[2023-04-27 15:02:03] INFO root fetch - main [MainThread]: End processing [dia-aiml]: success
+[2023-04-27 15:02:04] INFO root fetch - main [MainThread]: End processing [griffon]: success
+[2023-04-27 15:02:04] INFO root fetch - main [MainThread]: End processing [hyperfetch]: success
+[2023-04-27 15:02:04] INFO root fetch - main [MainThread]: End processing [fastapi-amis-admin]: success
+[2023-04-27 15:02:04] INFO root fetch - main [MainThread]: End processing [scargo]: success
+[2023-04-27 15:02:05] INFO root fetch - main [MainThread]: End processing [folio-migration-tools]: success
+[2023-04-27 15:02:05] INFO root fetch - main [MainThread]: Store serial: [17883188]
