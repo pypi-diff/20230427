@@ -8712,3 +8712,67 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 05:19:49] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-upcloud]: success
 [2023-04-27 05:19:50] INFO root fetch - main [MainThread]: End processing [types-influxdb-client]: success
 [2023-04-27 05:19:50] INFO root fetch - main [MainThread]: Store serial: [17877086]
+[2023-04-27 05:24:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17877086]
+[2023-04-27 05:24:59] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-27 05:24:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: audioviz
+[2023-04-27 05:24:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: routescan
+[2023-04-27 05:24:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zcbot-celery-sdk
+[2023-04-27 05:24:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-sale-brand
+[2023-04-27 05:24:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zcbot-predict-sdk
+[2023-04-27 05:24:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sinhala-subtitles
+[2023-04-27 05:24:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: BrandPy
+[2023-04-27 05:24:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lazyearth
+[2023-04-27 05:24:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdktf-cdktf-provider-datadog
+[2023-04-27 05:24:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: calibrating
+[2023-04-27 05:24:59] INFO root fetch - processPackages [audioviz]: New version: [0.1.3] Old Version: [0.1.0]
+[2023-04-27 05:24:59] WARNING root fetch - processPackages [routescan]: Skipping, unable to determine old version
+[2023-04-27 05:24:59] INFO root fetch - processPackages [routescan]: Start processing: quasinet
+[2023-04-27 05:24:59] INFO root fetch - main [MainThread]: End processing [routescan] error
+[2023-04-27 05:24:59] INFO root fetch - processPackages [zcbot-predict-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 05:24:59] INFO root fetch - processPackages [zcbot-celery-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 05:24:59] WARNING root fetch - processPackages [sinhala-subtitles]: Skipping, unable to determine old version
+[2023-04-27 05:24:59] INFO root fetch - processPackages [odoo14-addon-sale-brand]: New version: [14.0.1.0.2.dev2] Old Version: [14.0.1.0.2.dev1]
+[2023-04-27 05:24:59] WARNING root fetch - processPackages [BrandPy]: Skipping, unable to determine old version
+[2023-04-27 05:24:59] INFO root fetch - processPackages [sinhala-subtitles]: Start processing: edge-logger
+[2023-04-27 05:24:59] INFO root fetch - main [MainThread]: End processing [sinhala-subtitles] error
+[2023-04-27 05:24:59] INFO root fetch - processPackages [lazyearth]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-04-27 05:24:59] INFO root fetch - main [MainThread]: End processing [BrandPy] error
+[2023-04-27 05:24:59] INFO root fetch - processPackages [calibrating]: New version: [0.6.7] Old Version: [0.6.6]
+[2023-04-27 05:24:59] INFO root fetch - processPackages [quasinet]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-04-27 05:24:59] INFO root fetch - processPackages [cdktf-cdktf-provider-datadog]: New version: [6.0.1] Old Version: [6.0.0]
+[2023-04-27 05:24:59] INFO root fetch - processPackages [edge-logger]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-27 05:24:59] INFO root fetch - processPackages [quasinet]: Downloading https://files.pythonhosted.org/packages/7d/2e/7b0db3aa17fdad566c3b172c1b43dd87711b20fc3aa7d26cb2d9c7c2be37/quasinet-0.1.7.tar.gz
+[2023-04-27 05:24:59] INFO root fetch - processPackages [zcbot-celery-sdk]: executing diffoscope
+[2023-04-27 05:24:59] INFO root fetch - processPackages [zcbot-celery-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcbot-celery-sdk-0.0.8.tar.gz tmp/zcbot-celery-sdk-0.0.9.tar.gz --markdown 20230427/z/zcbot-celery-sdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 05:24:59] WARNING root fetch - processPackages [quasinet]: Skipping package: exceeds size limit 14408911>=10485760
+[2023-04-27 05:24:59] INFO root fetch - main [MainThread]: End processing [quasinet] error
+[2023-04-27 05:24:59] INFO root fetch - processPackages [lazyearth]: executing diffoscope
+[2023-04-27 05:24:59] INFO root fetch - processPackages [lazyearth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyearth-1.0.7.tar.gz tmp/lazyearth-1.0.8.tar.gz --markdown 20230427/l/lazyearth/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-04-27 05:24:59] INFO root fetch - processPackages [zcbot-predict-sdk]: executing diffoscope
+[2023-04-27 05:24:59] INFO root fetch - processPackages [zcbot-predict-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcbot-predict-sdk-0.0.8.tar.gz tmp/zcbot-predict-sdk-0.0.9.tar.gz --markdown 20230427/z/zcbot-predict-sdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 05:24:59] INFO root fetch - processPackages [odoo14-addon-sale-brand]: Downloading https://files.pythonhosted.org/packages/ef/e0/57d5608697944ee6c8ff7a1bf342bf449e802070fdaa572a5c35acb5c31e/odoo14_addon_sale_brand-14.0.1.0.2.dev1-py3-none-any.whl
+[2023-04-27 05:24:59] INFO root fetch - processPackages [cdktf-cdktf-provider-datadog]: Downloading https://files.pythonhosted.org/packages/57/66/e4a7286680abf71b5f6d8d112a56eaa60fa6dc6d70185afa43870bc014e0/cdktf-cdktf-provider-datadog-6.0.0.tar.gz
+[2023-04-27 05:24:59] INFO root fetch - processPackages [edge-logger]: Downloading https://files.pythonhosted.org/packages/f3/35/333f6ea620f676bd480aab78d5846a436184b8abb16f5849f430c8ce89e7/edge_logger-0.0.3.tar.gz
+[2023-04-27 05:24:59] INFO root fetch - processPackages [audioviz]: executing diffoscope
+[2023-04-27 05:24:59] INFO root fetch - processPackages [audioviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audioviz-0.1.0.tar.gz tmp/audioviz-0.1.3.tar.gz --markdown 20230427/a/audioviz/0.1.0-0.1.3/diff.md --exclude *.pyd
+[2023-04-27 05:24:59] INFO root fetch - processPackages [calibrating]: Downloading https://files.pythonhosted.org/packages/cf/5c/7d5fd87cdefa4c24cd6b5d68c814a73c377285078bba2273c91261c1618b/calibrating-0.6.7.tar.gz
+[2023-04-27 05:24:59] INFO root fetch - processPackages [calibrating]: executing diffoscope
+[2023-04-27 05:24:59] INFO root fetch - processPackages [calibrating]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calibrating-0.6.6.tar.gz tmp/calibrating-0.6.7.tar.gz --markdown 20230427/c/calibrating/0.6.6-0.6.7/diff.md --exclude *.pyd
+[2023-04-27 05:24:59] INFO root fetch - processPackages [edge-logger]: Downloading https://files.pythonhosted.org/packages/e4/c9/a7bb82a7c1894a24c5c41573ca2cdc6e1a1b9986310d3d792ba4622cc30d/edge_logger-0.0.4.tar.gz
+[2023-04-27 05:24:59] INFO root fetch - processPackages [edge-logger]: executing diffoscope
+[2023-04-27 05:24:59] INFO root fetch - processPackages [edge-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edge_logger-0.0.3.tar.gz tmp/edge_logger-0.0.4.tar.gz --markdown 20230427/e/edge-logger/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-27 05:24:59] INFO root fetch - processPackages [odoo14-addon-sale-brand]: Downloading https://files.pythonhosted.org/packages/dd/85/51321f61d897252eca17b6a3cdafd0d19db68187afbddae8a1efcb3350b8/odoo14_addon_sale_brand-14.0.1.0.2.dev2-py3-none-any.whl
+[2023-04-27 05:25:00] INFO root fetch - processPackages [odoo14-addon-sale-brand]: executing diffoscope
+[2023-04-27 05:25:00] INFO root fetch - processPackages [odoo14-addon-sale-brand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_brand-14.0.1.0.2.dev1-py3-none-any.whl.zip tmp/odoo14_addon_sale_brand-14.0.1.0.2.dev2-py3-none-any.whl.zip --markdown 20230427/o/odoo14-addon-sale-brand/14.0.1.0.2.dev1-14.0.1.0.2.dev2/diff.md --exclude *.pyd
+[2023-04-27 05:25:00] INFO root fetch - main [MainThread]: End processing [zcbot-celery-sdk]: success
+[2023-04-27 05:25:00] INFO root fetch - main [MainThread]: End processing [lazyearth]: success
+[2023-04-27 05:25:01] INFO root fetch - main [MainThread]: End processing [audioviz]: success
+[2023-04-27 05:25:01] INFO root fetch - main [MainThread]: End processing [edge-logger]: success
+[2023-04-27 05:25:01] INFO root fetch - main [MainThread]: End processing [zcbot-predict-sdk]: success
+[2023-04-27 05:25:01] INFO root fetch - main [MainThread]: End processing [calibrating]: success
+[2023-04-27 05:25:01] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-brand]: success
+[2023-04-27 05:25:01] INFO root fetch - processPackages [cdktf-cdktf-provider-datadog]: Downloading https://files.pythonhosted.org/packages/02/7d/171ed3eaa4942eaf18d0c458d3c89c9461dea48b96841b2402775dc560b6/cdktf-cdktf-provider-datadog-6.0.1.tar.gz
+[2023-04-27 05:25:02] INFO root fetch - processPackages [cdktf-cdktf-provider-datadog]: executing diffoscope
+[2023-04-27 05:25:02] INFO root fetch - processPackages [cdktf-cdktf-provider-datadog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-datadog-6.0.0.tar.gz tmp/cdktf-cdktf-provider-datadog-6.0.1.tar.gz --markdown 20230427/c/cdktf-cdktf-provider-datadog/6.0.0-6.0.1/diff.md --exclude *.pyd
+[2023-04-27 05:25:13] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-datadog]: success
+[2023-04-27 05:25:13] INFO root fetch - main [MainThread]: Store serial: [17877124]
