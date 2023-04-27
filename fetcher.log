@@ -19484,3 +19484,85 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 15:02:04] INFO root fetch - main [MainThread]: End processing [scargo]: success
 [2023-04-27 15:02:05] INFO root fetch - main [MainThread]: End processing [folio-migration-tools]: success
 [2023-04-27 15:02:05] INFO root fetch - main [MainThread]: Store serial: [17883188]
+[2023-04-27 15:07:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17883188]
+[2023-04-27 15:07:15] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-27 15:07:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: audb
+[2023-04-27 15:07:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: citros
+[2023-04-27 15:07:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jqkaewolf
+[2023-04-27 15:07:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spotinst-agent-beta
+[2023-04-27 15:07:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pymx2
+[2023-04-27 15:07:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wsiserver
+[2023-04-27 15:07:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sar-handler
+[2023-04-27 15:07:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Shark-sac-Korean-editor
+[2023-04-27 15:07:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: findmyorder
+[2023-04-27 15:07:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hyperfetch
+[2023-04-27 15:07:15] INFO root fetch - processPackages [spotinst-agent-beta]: New version: [2.2.266] Old Version: [2.2.265]
+[2023-04-27 15:07:15] INFO root fetch - processPackages [findmyorder]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-27 15:07:15] INFO root fetch - processPackages [citros]: New version: [23.17.1] Old Version: [23.14.9]
+[2023-04-27 15:07:15] INFO root fetch - processPackages [hyperfetch]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-04-27 15:07:15] INFO root fetch - processPackages [sar-handler]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-27 15:07:15] WARNING root fetch - processPackages [jqkaewolf]: Skipping, unable to determine old version
+[2023-04-27 15:07:15] INFO root fetch - processPackages [jqkaewolf]: Start processing: fbgemm-gpu-nightly-cpu
+[2023-04-27 15:07:15] INFO root fetch - main [MainThread]: End processing [jqkaewolf] error
+[2023-04-27 15:07:15] INFO root fetch - processPackages [citros]: executing diffoscope
+[2023-04-27 15:07:15] INFO root fetch - processPackages [citros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citros-23.14.9.tar.gz tmp/citros-23.17.1.tar.gz --markdown 20230427/c/citros/23.14.9-23.17.1/diff.md --exclude *.pyd
+[2023-04-27 15:07:15] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: New version: [2023.4.26] Old Version: [2023.4.25]
+[2023-04-27 15:07:15] WARNING root fetch - processPackages [pymx2]: Skipping, unable to determine old version
+[2023-04-27 15:07:15] WARNING root fetch - processPackages [Shark-sac-Korean-editor]: Skipping, unable to determine old version
+[2023-04-27 15:07:15] INFO root fetch - processPackages [pymx2]: Start processing: napari-boxmanager
+[2023-04-27 15:07:15] INFO root fetch - main [MainThread]: End processing [pymx2] error
+[2023-04-27 15:07:15] INFO root fetch - processPackages [Shark-sac-Korean-editor]: Start processing: docstruct
+[2023-04-27 15:07:15] INFO root fetch - main [MainThread]: End processing [Shark-sac-Korean-editor] error
+[2023-04-27 15:07:15] INFO root fetch - processPackages [hyperfetch]: executing diffoscope
+[2023-04-27 15:07:15] INFO root fetch - processPackages [wsiserver]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-27 15:07:15] INFO root fetch - processPackages [hyperfetch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperfetch-1.0.7.tar.gz tmp/hyperfetch-1.0.8.tar.gz --markdown 20230427/h/hyperfetch/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-04-27 15:07:15] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-04-27 15:07:15] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-1.0.8.tar.gz tmp/findmyorder-1.0.9.tar.gz --markdown 20230427/f/findmyorder/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-27 15:07:15] INFO root fetch - processPackages [audb]: New version: [1.5.0] Old Version: [1.4.2]
+[2023-04-27 15:07:15] INFO root fetch - processPackages [spotinst-agent-beta]: Downloading https://files.pythonhosted.org/packages/cf/3e/5099cba738d2cc74bea4720d29c8e7000fcbf6c69dace6355fcd56f4253a/spotinst-agent-beta-2.2.266.tar.gz
+[2023-04-27 15:07:15] INFO root fetch - processPackages [sar-handler]: Downloading https://files.pythonhosted.org/packages/25/ef/ea9ff5b79e62509af75332ab5ba3135dadf971eba9066dda13d38fc97817/sar_handler-0.1.5.tar.gz
+[2023-04-27 15:07:15] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: executing diffoscope
+[2023-04-27 15:07:15] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbgemm_gpu_nightly_cpu-2023.4.25-cp39-cp39-manylinux1_x86_64.whl.zip tmp/fbgemm_gpu_nightly_cpu-2023.4.26-cp39-cp39-manylinux1_x86_64.whl.zip --markdown 20230427/f/fbgemm-gpu-nightly-cpu/2023.4.25-2023.4.26/diff.md --exclude *.pyd
+[2023-04-27 15:07:15] INFO root fetch - processPackages [napari-boxmanager]: New version: [0.3.9] Old Version: [0.3.7]
+[2023-04-27 15:07:15] INFO root fetch - processPackages [docstruct]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-27 15:07:15] INFO root fetch - processPackages [audb]: Downloading https://files.pythonhosted.org/packages/31/3e/fed9cad5e5368b5ee3b20ddb37b1f2936ff9b833be2a73275bc45d0f5599/audb-1.4.2.tar.gz
+[2023-04-27 15:07:15] INFO root fetch - processPackages [spotinst-agent-beta]: executing diffoscope
+[2023-04-27 15:07:15] INFO root fetch - processPackages [wsiserver]: Downloading https://files.pythonhosted.org/packages/bc/15/0d801126fc1f0d117354791264300eade98c077b1b0545165ae8c5c35d81/wsiserver-1.0.1.tar.gz
+[2023-04-27 15:07:15] INFO root fetch - processPackages [spotinst-agent-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotinst-agent-beta-2.2.265.tar.gz tmp/spotinst-agent-beta-2.2.266.tar.gz --markdown 20230427/s/spotinst-agent-beta/2.2.265-2.2.266/diff.md --exclude *.pyd
+[2023-04-27 15:07:15] INFO root fetch - processPackages [sar-handler]: executing diffoscope
+[2023-04-27 15:07:15] INFO root fetch - processPackages [sar-handler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sar_handler-0.1.4.tar.gz tmp/sar_handler-0.1.5.tar.gz --markdown 20230427/s/sar-handler/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-27 15:07:15] INFO root fetch - processPackages [napari-boxmanager]: executing diffoscope
+[2023-04-27 15:07:15] INFO root fetch - processPackages [napari-boxmanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari_boxmanager-0.3.7.tar.gz tmp/napari_boxmanager-0.3.9.tar.gz --markdown 20230427/n/napari-boxmanager/0.3.7-0.3.9/diff.md --exclude *.pyd
+[2023-04-27 15:07:15] INFO root fetch - processPackages [docstruct]: Downloading https://files.pythonhosted.org/packages/b6/dd/ef382a3ef2f781e571fa44b24e715c99a80570ce64432ea7959058098147/docstruct-1.0.8.tar.gz
+[2023-04-27 15:07:16] INFO root fetch - processPackages [audb]: Downloading https://files.pythonhosted.org/packages/c5/c1/1b39fb57e6b2070b5b444867e0c8234e204cf0707c1faafae1e815ec556f/audb-1.5.0.tar.gz
+[2023-04-27 15:07:16] INFO root fetch - processPackages [wsiserver]: Downloading https://files.pythonhosted.org/packages/4f/0a/9d446ba7a1a02c7b0ede28eb354e97f8d6e541c362b9099d1f9a1688cc6b/wsiserver-1.0.2.tar.gz
+[2023-04-27 15:07:16] INFO root fetch - processPackages [docstruct]: Downloading https://files.pythonhosted.org/packages/67/cc/bf46d160e67c20e24bc07a7e2fa460e37f75a31caefaaab0b2d53bc678b2/docstruct-1.0.9.tar.gz
+[2023-04-27 15:07:16] INFO root fetch - processPackages [audb]: executing diffoscope
+[2023-04-27 15:07:16] INFO root fetch - processPackages [audb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audb-1.4.2.tar.gz tmp/audb-1.5.0.tar.gz --markdown 20230427/a/audb/1.4.2-1.5.0/diff.md --exclude *.pyd
+[2023-04-27 15:07:16] INFO root fetch - processPackages [wsiserver]: executing diffoscope
+[2023-04-27 15:07:16] INFO root fetch - processPackages [wsiserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wsiserver-1.0.1.tar.gz tmp/wsiserver-1.0.2.tar.gz --markdown 20230427/w/wsiserver/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-27 15:07:16] INFO root fetch - processPackages [docstruct]: executing diffoscope
+[2023-04-27 15:07:16] INFO root fetch - processPackages [docstruct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docstruct-1.0.8.tar.gz tmp/docstruct-1.0.9.tar.gz --markdown 20230427/d/docstruct/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-27 15:07:16] INFO root fetch - processPackages [findmyorder]: Start processing: aio-request
+[2023-04-27 15:07:16] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-04-27 15:07:17] INFO root fetch - processPackages [aio-request]: New version: [0.1.9a4] Old Version: [0.1.9a3]
+[2023-04-27 15:07:17] INFO root fetch - processPackages [aio-request]: Downloading https://files.pythonhosted.org/packages/4d/ae/a45d7d5c8d087556193ca748769c04843a6c622b8c0a62985f1aab23e2a4/aio-request-0.1.9a3.tar.gz
+[2023-04-27 15:07:17] INFO root fetch - processPackages [citros]: Start processing: nbdev-stdlib
+[2023-04-27 15:07:17] INFO root fetch - main [MainThread]: End processing [citros]: success
+[2023-04-27 15:07:17] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-27 15:07:17] INFO root fetch - main [MainThread]: End processing [hyperfetch]: success
+[2023-04-27 15:07:17] INFO root fetch - main [MainThread]: End processing [sar-handler]: success
+[2023-04-27 15:07:17] INFO root fetch - processPackages [aio-request]: Downloading https://files.pythonhosted.org/packages/be/ff/b7ababdcafd59771de50bd755a85d794a76b9053f9365fcfd654c812a02d/aio-request-0.1.9a4.tar.gz
+[2023-04-27 15:07:17] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-04-27 15:07:17] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230427/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-27 15:07:17] INFO root fetch - processPackages [aio-request]: executing diffoscope
+[2023-04-27 15:07:17] INFO root fetch - processPackages [aio-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aio-request-0.1.9a3.tar.gz tmp/aio-request-0.1.9a4.tar.gz --markdown 20230427/a/aio-request/0.1.9a3-0.1.9a4/diff.md --exclude *.pyd
+[2023-04-27 15:07:17] INFO root fetch - main [MainThread]: End processing [spotinst-agent-beta]: success
+[2023-04-27 15:07:18] INFO root fetch - main [MainThread]: End processing [wsiserver]: success
+[2023-04-27 15:07:18] INFO root fetch - main [MainThread]: End processing [audb]: success
+[2023-04-27 15:07:18] INFO root fetch - main [MainThread]: End processing [docstruct]: success
+[2023-04-27 15:07:18] INFO root fetch - main [MainThread]: End processing [napari-boxmanager]: success
+[2023-04-27 15:07:18] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-04-27 15:07:18] INFO root fetch - main [MainThread]: End processing [aio-request]: success
+[2023-04-27 15:08:11] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
+[2023-04-27 15:08:11] INFO root fetch - main [MainThread]: Store serial: [17883254]
