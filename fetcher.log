@@ -10184,3 +10184,140 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 07:10:53] INFO root fetch - main [MainThread]: End processing [normalize-japanese-address]: success
 [2023-04-27 07:13:09] INFO root fetch - main [MainThread]: End processing [multi-model-server]: success
 [2023-04-27 07:13:09] INFO root fetch - main [MainThread]: Store serial: [17877885]
+[2023-04-27 07:18:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17877885]
+[2023-04-27 07:18:18] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-04-27 07:18:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rapid-pe
+[2023-04-27 07:18:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hagrid
+[2023-04-27 07:18:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ezdxf
+[2023-04-27 07:18:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: robotcode-plugin
+[2023-04-27 07:18:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: robotcode-robot
+[2023-04-27 07:18:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: robotcode-language-server
+[2023-04-27 07:18:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: robotcode-debugger
+[2023-04-27 07:18:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: robotcode-core
+[2023-04-27 07:18:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: robotcode-modifiers
+[2023-04-27 07:18:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: robotcode
+[2023-04-27 07:18:19] INFO root fetch - processPackages [robotcode-robot]: New version: [0.35.0] Old Version: [0.34.1]
+[2023-04-27 07:18:19] INFO root fetch - processPackages [robotcode-plugin]: New version: [0.35.0] Old Version: [0.34.1]
+[2023-04-27 07:18:19] INFO root fetch - processPackages [robotcode-language-server]: New version: [0.35.0] Old Version: [0.34.1]
+[2023-04-27 07:18:19] INFO root fetch - processPackages [robotcode-debugger]: New version: [0.35.0] Old Version: [0.34.1]
+[2023-04-27 07:18:19] INFO root fetch - processPackages [hagrid]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-04-27 07:18:19] INFO root fetch - processPackages [robotcode-core]: New version: [0.35.0] Old Version: [0.34.1]
+[2023-04-27 07:18:19] INFO root fetch - processPackages [robotcode]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-04-27 07:18:19] INFO root fetch - processPackages [robotcode-modifiers]: New version: [0.35.0] Old Version: [0.34.1]
+[2023-04-27 07:18:19] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.1.dev20230427] Old Version: [0.1.1.dev20230426]
+[2023-04-27 07:18:19] INFO root fetch - processPackages [ezdxf]: New version: [1.1.0b0] Old Version: [1.0.4b1]
+[2023-04-27 07:18:19] INFO root fetch - processPackages [robotcode-robot]: Downloading https://files.pythonhosted.org/packages/bf/0f/6fa3ad6a539fad8eef46a92494976bf5e5ec775599238deeb3bd1e3336f4/robotcode_robot-0.34.1.tar.gz
+[2023-04-27 07:18:19] INFO root fetch - processPackages [robotcode-language-server]: Downloading https://files.pythonhosted.org/packages/af/30/ef77635fbd1028dec2f192edace8b2223f77d7a303dd42517b05b4360147/robotcode_language_server-0.34.1.tar.gz
+[2023-04-27 07:18:19] INFO root fetch - processPackages [robotcode-core]: Downloading https://files.pythonhosted.org/packages/f4/15/8b84c5fde445e54470b338c779dd81034c9aebecebd6f8e97fa3a3f0ed7f/robotcode_core-0.34.1.tar.gz
+[2023-04-27 07:18:19] INFO root fetch - processPackages [robotcode-plugin]: Downloading https://files.pythonhosted.org/packages/a0/8c/408505e939d23e1ec462d6927fa3cabfa168bc93f1c983102e9627f2ba74/robotcode_plugin-0.34.1.tar.gz
+[2023-04-27 07:18:19] INFO root fetch - processPackages [robotcode-debugger]: Downloading https://files.pythonhosted.org/packages/14/97/a80dcb2d7d5f5cd421c0a5e9136651721ef03bbc5379b6de1756f1b36d7b/robotcode_debugger-0.34.1.tar.gz
+[2023-04-27 07:18:19] INFO root fetch - processPackages [robotcode-modifiers]: Downloading https://files.pythonhosted.org/packages/4c/d3/c7ae66cdd385b90bfecf6583d3721aa7d4aaf180617292d6e6a882554240/robotcode_modifiers-0.34.1.tar.gz
+[2023-04-27 07:18:19] INFO root fetch - processPackages [robotcode]: Downloading https://files.pythonhosted.org/packages/e2/7e/d5a5aab3562b4e784a46b9a19878b348e6684bdc581650800581a7a198b8/robotcode-0.9.5.tar.gz
+[2023-04-27 07:18:19] INFO root fetch - processPackages [ezdxf]: Downloading https://files.pythonhosted.org/packages/13/f8/3542198e2144841b44ed106961428f8fe36b08db4f57e15c2c7a0253c56e/ezdxf-1.0.4b1.zip
+[2023-04-27 07:18:19] INFO root fetch - processPackages [hagrid]: Downloading https://files.pythonhosted.org/packages/76/81/c860d888b7ce636e6b53b4e70220275bc34df962729e2071c7dd57e8cece/hagrid-0.3.4.tar.gz
+[2023-04-27 07:18:19] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/97/93/0ddf5aeacc54c123fb28052ac5294eb9d187609242a55ab8667209e54d7c/rapid_pe-0.1.1.dev20230427.tar.gz
+[2023-04-27 07:18:19] INFO root fetch - processPackages [robotcode-robot]: Downloading https://files.pythonhosted.org/packages/33/ab/c87040e3a4e1ae4dbf78338feb01558b3b563fe5a8321ae6ef003a817f09/robotcode_robot-0.35.0.tar.gz
+[2023-04-27 07:18:19] INFO root fetch - processPackages [robotcode-language-server]: Downloading https://files.pythonhosted.org/packages/8b/f3/4359d64cc366ec6026c8894047d4eeba21d7d3cb812b62deb58dda10b03d/robotcode_language_server-0.35.0.tar.gz
+[2023-04-27 07:18:19] INFO root fetch - processPackages [robotcode-plugin]: Downloading https://files.pythonhosted.org/packages/b6/f9/04ffbf054c0b90aba9359adadad5b0b4fefccff302e815b655448940d773/robotcode_plugin-0.35.0.tar.gz
+[2023-04-27 07:18:19] INFO root fetch - processPackages [robotcode-robot]: executing diffoscope
+[2023-04-27 07:18:19] INFO root fetch - processPackages [robotcode-robot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotcode_robot-0.34.1.tar.gz tmp/robotcode_robot-0.35.0.tar.gz --markdown 20230427/r/robotcode-robot/0.34.1-0.35.0/diff.md --exclude *.pyd
+[2023-04-27 07:18:19] INFO root fetch - processPackages [hagrid]: executing diffoscope
+[2023-04-27 07:18:19] INFO root fetch - processPackages [robotcode-core]: Downloading https://files.pythonhosted.org/packages/3b/e2/fe7651a125a2dbe9a60f36095bc5e784a6b3de4c8f9813251d2d907b86d4/robotcode_core-0.35.0.tar.gz
+[2023-04-27 07:18:19] INFO root fetch - processPackages [hagrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hagrid-0.3.3.tar.gz tmp/hagrid-0.3.4.tar.gz --markdown 20230427/h/hagrid/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-04-27 07:18:19] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2023-04-27 07:18:19] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.1.dev20230426.tar.gz tmp/rapid_pe-0.1.1.dev20230427.tar.gz --markdown 20230427/r/rapid-pe/0.1.1.dev20230426-0.1.1.dev20230427/diff.md --exclude *.pyd
+[2023-04-27 07:18:19] INFO root fetch - processPackages [robotcode-debugger]: Downloading https://files.pythonhosted.org/packages/6c/b1/c5df280aac3e9f57fb673264f196bee975636b719014b0239a4c6db57f21/robotcode_debugger-0.35.0.tar.gz
+[2023-04-27 07:18:19] INFO root fetch - processPackages [robotcode-modifiers]: Downloading https://files.pythonhosted.org/packages/b8/77/5cab1b53de02dd7caee938ca74ce5ba659d7edf634e6e26e91fdebf6cc06/robotcode_modifiers-0.35.0.tar.gz
+[2023-04-27 07:18:19] INFO root fetch - processPackages [robotcode-plugin]: executing diffoscope
+[2023-04-27 07:18:19] INFO root fetch - processPackages [robotcode-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotcode_plugin-0.34.1.tar.gz tmp/robotcode_plugin-0.35.0.tar.gz --markdown 20230427/r/robotcode-plugin/0.34.1-0.35.0/diff.md --exclude *.pyd
+[2023-04-27 07:18:19] INFO root fetch - processPackages [robotcode-language-server]: executing diffoscope
+[2023-04-27 07:18:19] INFO root fetch - processPackages [robotcode-language-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotcode_language_server-0.34.1.tar.gz tmp/robotcode_language_server-0.35.0.tar.gz --markdown 20230427/r/robotcode-language-server/0.34.1-0.35.0/diff.md --exclude *.pyd
+[2023-04-27 07:18:19] INFO root fetch - processPackages [robotcode-core]: executing diffoscope
+[2023-04-27 07:18:19] INFO root fetch - processPackages [robotcode-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotcode_core-0.34.1.tar.gz tmp/robotcode_core-0.35.0.tar.gz --markdown 20230427/r/robotcode-core/0.34.1-0.35.0/diff.md --exclude *.pyd
+[2023-04-27 07:18:19] INFO root fetch - processPackages [robotcode-modifiers]: executing diffoscope
+[2023-04-27 07:18:19] INFO root fetch - processPackages [robotcode-modifiers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotcode_modifiers-0.34.1.tar.gz tmp/robotcode_modifiers-0.35.0.tar.gz --markdown 20230427/r/robotcode-modifiers/0.34.1-0.35.0/diff.md --exclude *.pyd
+[2023-04-27 07:18:19] INFO root fetch - processPackages [robotcode-debugger]: executing diffoscope
+[2023-04-27 07:18:19] INFO root fetch - processPackages [robotcode-debugger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotcode_debugger-0.34.1.tar.gz tmp/robotcode_debugger-0.35.0.tar.gz --markdown 20230427/r/robotcode-debugger/0.34.1-0.35.0/diff.md --exclude *.pyd
+[2023-04-27 07:18:19] INFO root fetch - processPackages [ezdxf]: Downloading https://files.pythonhosted.org/packages/72/18/ad5eb53dda16e3474caf3fba409f15495a1ed23b4700ffe8f03c5f7273b2/ezdxf-1.1.0b0.zip
+[2023-04-27 07:18:20] INFO root fetch - processPackages [robotcode]: Downloading https://files.pythonhosted.org/packages/b7/ab/96637a51c1fdfc4ddca0c75fb12ea6dca9295477c4f8a80f501ee7c3b2ec/robotcode-0.9.6.tar.gz
+[2023-04-27 07:18:20] INFO root fetch - processPackages [ezdxf]: executing diffoscope
+[2023-04-27 07:18:20] INFO root fetch - processPackages [ezdxf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezdxf-1.0.4b1.zip tmp/ezdxf-1.1.0b0.zip --markdown 20230427/e/ezdxf/1.0.4b1-1.1.0b0/diff.md --exclude *.pyd
+[2023-04-27 07:18:20] INFO root fetch - processPackages [robotcode]: executing diffoscope
+[2023-04-27 07:18:20] INFO root fetch - processPackages [robotcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotcode-0.9.5.tar.gz tmp/robotcode-0.9.6.tar.gz --markdown 20230427/r/robotcode/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-04-27 07:18:21] INFO root fetch - processPackages [robotcode-robot]: Start processing: robotcode-jsonrpc2
+[2023-04-27 07:18:21] INFO root fetch - main [MainThread]: End processing [robotcode-robot]: success
+[2023-04-27 07:18:21] INFO root fetch - processPackages [robotcode-jsonrpc2]: New version: [0.35.0] Old Version: [0.34.1]
+[2023-04-27 07:18:21] INFO root fetch - processPackages [robotcode-jsonrpc2]: Downloading https://files.pythonhosted.org/packages/47/c7/b727db36fd34a910ed088e844821dd6d07d400d90ccd6eff39145e58e32f/robotcode_jsonrpc2-0.34.1.tar.gz
+[2023-04-27 07:18:21] INFO root fetch - processPackages [robotcode-core]: Start processing: robotcode-analyze
+[2023-04-27 07:18:21] INFO root fetch - main [MainThread]: End processing [robotcode-core]: success
+[2023-04-27 07:18:21] INFO root fetch - processPackages [robotcode-plugin]: Start processing: robotcode-runner
+[2023-04-27 07:18:21] INFO root fetch - main [MainThread]: End processing [robotcode-plugin]: success
+[2023-04-27 07:18:21] INFO root fetch - processPackages [robotcode-analyze]: New version: [0.35.0] Old Version: [0.34.1]
+[2023-04-27 07:18:21] INFO root fetch - processPackages [robotcode-runner]: New version: [0.35.0] Old Version: [0.34.1]
+[2023-04-27 07:18:21] INFO root fetch - processPackages [robotcode-modifiers]: Start processing: bibomber
+[2023-04-27 07:18:21] INFO root fetch - main [MainThread]: End processing [robotcode-modifiers]: success
+[2023-04-27 07:18:21] WARNING root fetch - processPackages [bibomber]: Skipping, unable to determine old version
+[2023-04-27 07:18:21] INFO root fetch - processPackages [bibomber]: Start processing: IrisChatBot
+[2023-04-27 07:18:21] INFO root fetch - main [MainThread]: End processing [bibomber] error
+[2023-04-27 07:18:21] INFO root fetch - processPackages [robotcode-analyze]: Downloading https://files.pythonhosted.org/packages/b9/90/03d002a583062a66d1d7111b1db9fceb84dd03bc9b02410e4a9c2a052f0b/robotcode_analyze-0.34.1.tar.gz
+[2023-04-27 07:18:21] WARNING root fetch - processPackages [IrisChatBot]: Skipping, unable to determine old version
+[2023-04-27 07:18:21] INFO root fetch - processPackages [IrisChatBot]: Start processing: ChatLLM
+[2023-04-27 07:18:21] INFO root fetch - main [MainThread]: End processing [IrisChatBot] error
+[2023-04-27 07:18:21] INFO root fetch - processPackages [robotcode-runner]: Downloading https://files.pythonhosted.org/packages/9f/80/63add1663cf009e4e2471010deb6ebca01538767966d6afefe6e425845c4/robotcode_runner-0.34.1.tar.gz
+[2023-04-27 07:18:21] INFO root fetch - processPackages [robotcode-jsonrpc2]: Downloading https://files.pythonhosted.org/packages/c4/14/f81bea8cce52d9ad49d184a2bb4b5d825f96f7a71ed5c27df7da764a66e5/robotcode_jsonrpc2-0.35.0.tar.gz
+[2023-04-27 07:18:21] INFO root fetch - processPackages [ChatLLM]: New version: [2023.4.27.13.15.3] Old Version: [2023.4.27.13.0.53]
+[2023-04-27 07:18:21] INFO root fetch - processPackages [robotcode-jsonrpc2]: executing diffoscope
+[2023-04-27 07:18:21] INFO root fetch - processPackages [robotcode-jsonrpc2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotcode_jsonrpc2-0.34.1.tar.gz tmp/robotcode_jsonrpc2-0.35.0.tar.gz --markdown 20230427/r/robotcode-jsonrpc2/0.34.1-0.35.0/diff.md --exclude *.pyd
+[2023-04-27 07:18:21] INFO root fetch - processPackages [robotcode-debugger]: Start processing: jmlopez-m
+[2023-04-27 07:18:21] INFO root fetch - main [MainThread]: End processing [robotcode-debugger]: success
+[2023-04-27 07:18:21] INFO root fetch - processPackages [jmlopez-m]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-27 07:18:21] INFO root fetch - processPackages [ChatLLM]: Downloading https://files.pythonhosted.org/packages/8a/aa/4b845eb79f597d78c34ee353f7af53c788a81c3d95447674de6466b13a3c/ChatLLM-2023.4.27.13.15.3.tar.gz
+[2023-04-27 07:18:21] INFO root fetch - processPackages [robotcode-analyze]: Downloading https://files.pythonhosted.org/packages/58/ab/061ff2a96fbf1b0d4373ce566f985ef24b15e2409bd4ecdaf90e15f4fef2/robotcode_analyze-0.35.0.tar.gz
+[2023-04-27 07:18:21] INFO root fetch - processPackages [jmlopez-m]: Downloading https://files.pythonhosted.org/packages/62/7f/c351389b51393e550a2a32cde5021e5b4a8f00f08e638ec624c4bb3e434b/jmlopez-m-0.8.0.tar.gz
+[2023-04-27 07:18:21] INFO root fetch - processPackages [robotcode-runner]: Downloading https://files.pythonhosted.org/packages/5d/4c/57192c88f54bafdcd4a27fc7c28b480121ac3e206a6e75afd73a748d56e8/robotcode_runner-0.35.0.tar.gz
+[2023-04-27 07:18:21] INFO root fetch - processPackages [robotcode-analyze]: executing diffoscope
+[2023-04-27 07:18:21] INFO root fetch - processPackages [robotcode-analyze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotcode_analyze-0.34.1.tar.gz tmp/robotcode_analyze-0.35.0.tar.gz --markdown 20230427/r/robotcode-analyze/0.34.1-0.35.0/diff.md --exclude *.pyd
+[2023-04-27 07:18:21] INFO root fetch - processPackages [robotcode-runner]: executing diffoscope
+[2023-04-27 07:18:21] INFO root fetch - processPackages [robotcode-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotcode_runner-0.34.1.tar.gz tmp/robotcode_runner-0.35.0.tar.gz --markdown 20230427/r/robotcode-runner/0.34.1-0.35.0/diff.md --exclude *.pyd
+[2023-04-27 07:18:21] INFO root fetch - processPackages [robotcode-language-server]: Start processing: rapidpe-rift-pipe
+[2023-04-27 07:18:21] INFO root fetch - main [MainThread]: End processing [robotcode-language-server]: success
+[2023-04-27 07:18:21] INFO root fetch - processPackages [rapidpe-rift-pipe]: New version: [0.2.2.dev20230427] Old Version: [0.2.2.dev20230426]
+[2023-04-27 07:18:21] INFO root fetch - processPackages [hagrid]: Start processing: pystructs3
+[2023-04-27 07:18:21] INFO root fetch - main [MainThread]: End processing [hagrid]: success
+[2023-04-27 07:18:21] INFO root fetch - processPackages [pystructs3]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-27 07:18:22] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/0a/be/82233019befa5d143768f63d56ec905b2b21d9fac2811fbafa3f09065f07/rapidpe_rift_pipe-0.2.2.dev20230427.tar.gz
+[2023-04-27 07:18:22] INFO root fetch - processPackages [jmlopez-m]: Downloading https://files.pythonhosted.org/packages/0c/f9/617904cb18b49546c4ce877a2f6aaa44f356a504c80358ed319d86e29668/jmlopez-m-0.9.0.tar.gz
+[2023-04-27 07:18:22] INFO root fetch - processPackages [pystructs3]: Downloading https://files.pythonhosted.org/packages/2a/73/fa89678f74c72ae05953344f27ee2cda7ea99bcae745d1ee44ef440d16eb/pystructs3-0.0.3.tar.gz
+[2023-04-27 07:18:22] INFO root fetch - processPackages [rapid-pe]: Start processing: htools
+[2023-04-27 07:18:22] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2023-04-27 07:18:22] INFO root fetch - processPackages [htools]: New version: [7.7.0] Old Version: [7.6.0]
+[2023-04-27 07:18:22] INFO root fetch - processPackages [rapidpe-rift-pipe]: executing diffoscope
+[2023-04-27 07:18:22] INFO root fetch - processPackages [rapidpe-rift-pipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidpe_rift_pipe-0.2.2.dev20230426.tar.gz tmp/rapidpe_rift_pipe-0.2.2.dev20230427.tar.gz --markdown 20230427/r/rapidpe-rift-pipe/0.2.2.dev20230426-0.2.2.dev20230427/diff.md --exclude *.pyd
+[2023-04-27 07:18:22] INFO root fetch - processPackages [jmlopez-m]: executing diffoscope
+[2023-04-27 07:18:22] INFO root fetch - processPackages [jmlopez-m]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jmlopez-m-0.8.0.tar.gz tmp/jmlopez-m-0.9.0.tar.gz --markdown 20230427/j/jmlopez-m/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-27 07:18:22] INFO root fetch - processPackages [pystructs3]: Downloading https://files.pythonhosted.org/packages/d0/03/122f246dd88ccad8872d6a550737d911d7a75ed2501a3e8a6d0d7890c5b0/pystructs3-0.0.4.tar.gz
+[2023-04-27 07:18:22] INFO root fetch - processPackages [htools]: Downloading https://files.pythonhosted.org/packages/5b/bd/5a907bd3aa68b31f3cccb288aa97dc16cb349572e7a2cfec857ad7b85f24/htools-7.7.0.tar.gz
+[2023-04-27 07:18:22] INFO root fetch - processPackages [pystructs3]: executing diffoscope
+[2023-04-27 07:18:22] INFO root fetch - processPackages [pystructs3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystructs3-0.0.3.tar.gz tmp/pystructs3-0.0.4.tar.gz --markdown 20230427/p/pystructs3/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-27 07:18:22] INFO root fetch - processPackages [htools]: executing diffoscope
+[2023-04-27 07:18:22] INFO root fetch - processPackages [htools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htools-7.6.0.tar.gz tmp/htools-7.7.0.tar.gz --markdown 20230427/h/htools/7.6.0-7.7.0/diff.md --exclude *.pyd
+[2023-04-27 07:18:22] INFO root fetch - processPackages [ChatLLM]: executing diffoscope
+[2023-04-27 07:18:22] INFO root fetch - processPackages [ChatLLM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ChatLLM-2023.4.27.13.0.53.tar.gz tmp/ChatLLM-2023.4.27.13.15.3.tar.gz --markdown 20230427/C/ChatLLM/2023.4.27.13.0.53-2023.4.27.13.15.3/diff.md --exclude *.pyd
+[2023-04-27 07:18:23] INFO root fetch - processPackages [robotcode-jsonrpc2]: Start processing: Pratik-model
+[2023-04-27 07:18:23] INFO root fetch - main [MainThread]: End processing [robotcode-jsonrpc2]: success
+[2023-04-27 07:18:23] INFO root fetch - processPackages [Pratik-model]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-27 07:18:23] INFO root fetch - main [MainThread]: End processing [robotcode-analyze]: success
+[2023-04-27 07:18:23] INFO root fetch - processPackages [Pratik-model]: Downloading https://files.pythonhosted.org/packages/03/37/db01aa018f4fe2397118975f73273f573efd4bb29c7aad688de2fa8d238f/Pratik_model-0.1.0.tar.gz
+[2023-04-27 07:18:23] INFO root fetch - main [MainThread]: End processing [robotcode-runner]: success
+[2023-04-27 07:18:23] INFO root fetch - processPackages [Pratik-model]: Downloading https://files.pythonhosted.org/packages/cc/13/0e68ff34f0f66ed196194f2266fc7c7d77eba0ffd4fd9f9a12d4307ad202/Pratik_model-0.1.1.tar.gz
+[2023-04-27 07:18:23] INFO root fetch - main [MainThread]: End processing [rapidpe-rift-pipe]: success
+[2023-04-27 07:18:23] INFO root fetch - processPackages [Pratik-model]: executing diffoscope
+[2023-04-27 07:18:23] INFO root fetch - processPackages [Pratik-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pratik_model-0.1.0.tar.gz tmp/Pratik_model-0.1.1.tar.gz --markdown 20230427/P/Pratik-model/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-27 07:18:23] INFO root fetch - main [MainThread]: End processing [pystructs3]: success
+[2023-04-27 07:18:24] INFO root fetch - main [MainThread]: End processing [htools]: success
+[2023-04-27 07:18:24] INFO root fetch - main [MainThread]: End processing [jmlopez-m]: success
+[2023-04-27 07:18:24] INFO root fetch - main [MainThread]: End processing [Pratik-model]: success
+[2023-04-27 07:18:24] INFO root fetch - main [MainThread]: End processing [ChatLLM]: success
+[2023-04-27 07:18:25] INFO root fetch - main [MainThread]: End processing [robotcode]: success
+[2023-04-27 07:18:30] INFO root fetch - main [MainThread]: End processing [ezdxf]: success
+[2023-04-27 07:18:30] INFO root fetch - main [MainThread]: Store serial: [17877968]
