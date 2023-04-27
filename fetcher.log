@@ -9538,3 +9538,59 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 06:32:46] INFO root fetch - main [MainThread]: End processing [snowflake-connector-python-nightly]: success
 [2023-04-27 06:32:53] INFO root fetch - main [MainThread]: End processing [monailabel]: success
 [2023-04-27 06:32:53] INFO root fetch - main [MainThread]: Store serial: [17877572]
+[2023-04-27 06:37:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17877572]
+[2023-04-27 06:38:02] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-27 06:38:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mythic-container
+[2023-04-27 06:38:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nitrado
+[2023-04-27 06:38:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: single-consumer-queue
+[2023-04-27 06:38:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: piperider
+[2023-04-27 06:38:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: amdgpu-stats
+[2023-04-27 06:38:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigtest-automator
+[2023-04-27 06:38:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: TapisCL-ICICLE
+[2023-04-27 06:38:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hafez
+[2023-04-27 06:38:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: always-updates
+[2023-04-27 06:38:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ravpy
+[2023-04-27 06:38:02] WARNING root fetch - processPackages [amdgpu-stats]: Skipping, unable to determine old version
+[2023-04-27 06:38:02] INFO root fetch - main [MainThread]: End processing [amdgpu-stats] error
+[2023-04-27 06:38:02] INFO root fetch - processPackages [mythic-container]: New version: [0.2.3rc2] Old Version: [0.2.3rc1]
+[2023-04-27 06:38:02] WARNING root fetch - processPackages [single-consumer-queue]: Skipping, unable to determine old version
+[2023-04-27 06:38:02] INFO root fetch - main [MainThread]: End processing [single-consumer-queue] error
+[2023-04-27 06:38:02] INFO root fetch - processPackages [nitrado]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-27 06:38:02] INFO root fetch - processPackages [hafez]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-27 06:38:02] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-04-27 06:38:02] INFO root fetch - processPackages [piperider]: New version: [0.9.0rc1] Old Version: [0.9.0]
+[2023-04-27 06:38:02] INFO root fetch - processPackages [bigtest-automator]: New version: [0.9] Old Version: [0.8]
+[2023-04-27 06:38:02] INFO root fetch - processPackages [ravpy]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-04-27 06:38:02] INFO root fetch - processPackages [TapisCL-ICICLE]: New version: [0.0.31] Old Version: [0.0.30]
+[2023-04-27 06:38:02] INFO root fetch - processPackages [hafez]: executing diffoscope
+[2023-04-27 06:38:02] INFO root fetch - processPackages [hafez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hafez-0.1.0.tar.gz tmp/hafez-0.1.1.tar.gz --markdown 20230427/h/hafez/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-27 06:38:02] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-04-27 06:38:02] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230427/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-04-27 06:38:02] INFO root fetch - processPackages [nitrado]: executing diffoscope
+[2023-04-27 06:38:02] INFO root fetch - processPackages [nitrado]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nitrado-1.0.8.tar.gz tmp/nitrado-1.0.9.tar.gz --markdown 20230427/n/nitrado/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-27 06:38:02] INFO root fetch - processPackages [mythic-container]: Downloading https://files.pythonhosted.org/packages/15/3c/e8c7e2913315a9500428226a74786158873cc99a8bc19d85034d157877c7/mythic_container-0.2.3rc2.tar.gz
+[2023-04-27 06:38:02] INFO root fetch - processPackages [bigtest-automator]: Downloading https://files.pythonhosted.org/packages/51/15/d3a0437ae73b78453d3aa1fd789e68661abcbd026f0185fd6572a1b4d88b/bigtest_automator-0.8.tar.gz
+[2023-04-27 06:38:02] INFO root fetch - processPackages [ravpy]: Downloading https://files.pythonhosted.org/packages/79/76/65dfbc36e4751a770463e11676c1b38c3fcf419da607647e7d4a6c37b070/ravpy-0.9.2.tar.gz
+[2023-04-27 06:38:02] INFO root fetch - processPackages [TapisCL-ICICLE]: Downloading https://files.pythonhosted.org/packages/a5/c2/9b285042eb28f1719e2e446c81a8582da7ec88e817695f1f3d4c679bcb32/TapisCL-ICICLE-0.0.30.tar.gz
+[2023-04-27 06:38:02] INFO root fetch - processPackages [mythic-container]: executing diffoscope
+[2023-04-27 06:38:02] INFO root fetch - processPackages [mythic-container]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mythic_container-0.2.3rc1.tar.gz tmp/mythic_container-0.2.3rc2.tar.gz --markdown 20230427/m/mythic-container/0.2.3rc1-0.2.3rc2/diff.md --exclude *.pyd
+[2023-04-27 06:38:03] INFO root fetch - processPackages [bigtest-automator]: Downloading https://files.pythonhosted.org/packages/f6/5c/32dcb77440ce55cb1c94a9ed7d60c79f97ed86c9efdc08170f921c5916d4/bigtest_automator-0.9.tar.gz
+[2023-04-27 06:38:03] INFO root fetch - processPackages [piperider]: executing diffoscope
+[2023-04-27 06:38:03] INFO root fetch - processPackages [piperider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piperider-0.9.0.tar.gz tmp/piperider-0.9.0rc1.tar.gz --markdown 20230427/p/piperider/0.9.0-0.9.0rc1/diff.md --exclude *.pyd
+[2023-04-27 06:38:03] INFO root fetch - processPackages [ravpy]: Downloading https://files.pythonhosted.org/packages/26/c6/874c7f1a063a71010e78f03f386b19e11de5e8a45207e9400eaab699efbb/ravpy-0.9.3.tar.gz
+[2023-04-27 06:38:03] INFO root fetch - processPackages [ravpy]: executing diffoscope
+[2023-04-27 06:38:03] INFO root fetch - processPackages [ravpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ravpy-0.9.2.tar.gz tmp/ravpy-0.9.3.tar.gz --markdown 20230427/r/ravpy/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-04-27 06:38:03] INFO root fetch - processPackages [bigtest-automator]: executing diffoscope
+[2023-04-27 06:38:03] INFO root fetch - processPackages [bigtest-automator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigtest_automator-0.8.tar.gz tmp/bigtest_automator-0.9.tar.gz --markdown 20230427/b/bigtest-automator/0.8-0.9/diff.md --exclude *.pyd
+[2023-04-27 06:38:03] INFO root fetch - processPackages [TapisCL-ICICLE]: Downloading https://files.pythonhosted.org/packages/b9/c0/3558bc5b38d47235d8b9348d3e94612e935874dce3bba3d1d1a359acb2a8/TapisCL-ICICLE-0.0.31.tar.gz
+[2023-04-27 06:38:03] INFO root fetch - processPackages [TapisCL-ICICLE]: executing diffoscope
+[2023-04-27 06:38:03] INFO root fetch - processPackages [TapisCL-ICICLE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TapisCL-ICICLE-0.0.30.tar.gz tmp/TapisCL-ICICLE-0.0.31.tar.gz --markdown 20230427/T/TapisCL-ICICLE/0.0.30-0.0.31/diff.md --exclude *.pyd
+[2023-04-27 06:38:03] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-04-27 06:38:03] INFO root fetch - main [MainThread]: End processing [hafez]: success
+[2023-04-27 06:38:04] INFO root fetch - main [MainThread]: End processing [nitrado]: success
+[2023-04-27 06:38:04] INFO root fetch - main [MainThread]: End processing [ravpy]: success
+[2023-04-27 06:38:04] INFO root fetch - main [MainThread]: End processing [bigtest-automator]: success
+[2023-04-27 06:38:04] INFO root fetch - main [MainThread]: End processing [TapisCL-ICICLE]: success
+[2023-04-27 06:38:06] INFO root fetch - main [MainThread]: End processing [mythic-container]: success
+[2023-04-27 06:38:07] INFO root fetch - main [MainThread]: End processing [piperider]: success
+[2023-04-27 06:38:07] INFO root fetch - main [MainThread]: Store serial: [17877631]
