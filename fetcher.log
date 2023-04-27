@@ -13269,3 +13269,176 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 10:50:01] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
 [2023-04-27 10:50:12] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2023-04-27 10:50:12] INFO root fetch - main [MainThread]: Store serial: [17879758]
+[2023-04-27 10:55:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17879758]
+[2023-04-27 10:55:21] INFO root fetch - main [MainThread]: Found 29 changed packages
+[2023-04-27 10:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: optilibre
+[2023-04-27 10:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bridgecrew
+[2023-04-27 10:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MNN
+[2023-04-27 10:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lazy-env-configurator
+[2023-04-27 10:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: efel
+[2023-04-27 10:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sspeedup
+[2023-04-27 10:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: robotmk
+[2023-04-27 10:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-spinproject
+[2023-04-27 10:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: IntuneCD
+[2023-04-27 10:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: popbill
+[2023-04-27 10:55:21] INFO root fetch - processPackages [optilibre]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-04-27 10:55:21] INFO root fetch - processPackages [robotmk]: New version: [0.0.57] Old Version: [0.0.56]
+[2023-04-27 10:55:21] INFO root fetch - processPackages [IntuneCD]: New version: [1.4.5b1] Old Version: [1.4.4]
+[2023-04-27 10:55:21] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-04-27 10:55:21] INFO root fetch - processPackages [MNN]: New version: [2.5.0] Old Version: [2.4.3]
+[2023-04-27 10:55:21] INFO root fetch - processPackages [lazy-env-configurator]: New version: [0.3.0a0] Old Version: [0.2.0]
+[2023-04-27 10:55:21] INFO root fetch - processPackages [optilibre]: executing diffoscope
+[2023-04-27 10:55:21] INFO root fetch - processPackages [django-spinproject]: New version: [2.5.0] Old Version: [2.4.0]
+[2023-04-27 10:55:21] INFO root fetch - processPackages [sspeedup]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-27 10:55:21] INFO root fetch - processPackages [optilibre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optilibre-1.2.0.tar.gz tmp/optilibre-1.2.1.tar.gz --markdown 20230427/o/optilibre/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-04-27 10:55:21] INFO root fetch - processPackages [popbill]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-04-27 10:55:21] INFO root fetch - processPackages [robotmk]: executing diffoscope
+[2023-04-27 10:55:21] INFO root fetch - processPackages [IntuneCD]: executing diffoscope
+[2023-04-27 10:55:21] INFO root fetch - processPackages [robotmk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotmk-0.0.56.tar.gz tmp/robotmk-0.0.57.tar.gz --markdown 20230427/r/robotmk/0.0.56-0.0.57/diff.md --exclude *.pyd
+[2023-04-27 10:55:21] INFO root fetch - processPackages [IntuneCD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IntuneCD-1.4.4.tar.gz tmp/IntuneCD-1.4.5b1.tar.gz --markdown 20230427/I/IntuneCD/1.4.4-1.4.5b1/diff.md --exclude *.pyd
+[2023-04-27 10:55:21] INFO root fetch - processPackages [efel]: New version: [4.1.98] Old Version: [4.1.95]
+[2023-04-27 10:55:21] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-04-27 10:55:21] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230427/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-04-27 10:55:21] INFO root fetch - processPackages [sspeedup]: executing diffoscope
+[2023-04-27 10:55:21] INFO root fetch - processPackages [sspeedup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sspeedup-0.8.0.tar.gz tmp/sspeedup-0.9.0.tar.gz --markdown 20230427/s/sspeedup/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-27 10:55:21] INFO root fetch - processPackages [django-spinproject]: Downloading https://files.pythonhosted.org/packages/28/95/4232370468cb5f125e38f0c443cba7f40f6d78080563fc6f7fca5a6c96a3/django_spinproject-2.4.0.tar.gz
+[2023-04-27 10:55:22] INFO root fetch - processPackages [MNN]: Downloading https://files.pythonhosted.org/packages/24/c9/e092a68b516b1918eaafb50c02c66392b3353896e0b4ddba0825a25ec478/MNN-2.4.3-cp39-cp39-win_amd64.whl
+[2023-04-27 10:55:22] INFO root fetch - processPackages [popbill]: Downloading https://files.pythonhosted.org/packages/09/9c/b2fe6726132dc8e6be022215e5d8f6580729c5c16b39d4159780b5699292/popbill-1.8.0.tar.gz
+[2023-04-27 10:55:22] INFO root fetch - processPackages [lazy-env-configurator]: Downloading https://files.pythonhosted.org/packages/d8/d0/53185da290acfe756a3d0bab83edda12371faf06fcb00f8203bd50c2427a/lazy_env_configurator-0.2.0.tar.gz
+[2023-04-27 10:55:22] INFO root fetch - processPackages [efel]: Downloading https://files.pythonhosted.org/packages/bf/ce/c94010b98a0963d21a8b68645feb519c137edcd21525c62740d64bb8a883/efel-4.1.98.tar.gz
+[2023-04-27 10:55:22] WARNING root fetch - processPackages [MNN]: Skipping package: exceeds size limit 39901993>=10485760
+[2023-04-27 10:55:22] INFO root fetch - processPackages [MNN]: Start processing: obsinfo
+[2023-04-27 10:55:22] INFO root fetch - main [MainThread]: End processing [MNN] error
+[2023-04-27 10:55:22] INFO root fetch - processPackages [lazy-env-configurator]: Downloading https://files.pythonhosted.org/packages/3a/b0/4275aed7aac32f5adfea23bedf05c1e3ea8a9f45f3822381ac9df0f6e2f8/lazy_env_configurator-0.3.0a0.tar.gz
+[2023-04-27 10:55:22] INFO root fetch - processPackages [obsinfo]: New version: [0.111b1] Old Version: [0.111.1.post4]
+[2023-04-27 10:55:22] INFO root fetch - processPackages [django-spinproject]: Downloading https://files.pythonhosted.org/packages/53/ee/23e6fef0ff065e4c7eae4432716d95c385f7dc534cb66859878202c2f782/django_spinproject-2.5.0.tar.gz
+[2023-04-27 10:55:22] INFO root fetch - processPackages [obsinfo]: executing diffoscope
+[2023-04-27 10:55:22] INFO root fetch - processPackages [obsinfo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/obsinfo-0.111.1.post4.tar.gz tmp/obsinfo-0.111b1.tar.gz --markdown 20230427/o/obsinfo/0.111.1.post4-0.111b1/diff.md --exclude *.pyd
+[2023-04-27 10:55:22] INFO root fetch - processPackages [efel]: executing diffoscope
+[2023-04-27 10:55:22] INFO root fetch - processPackages [efel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/efel-4.1.95.tar.gz tmp/efel-4.1.98.tar.gz --markdown 20230427/e/efel/4.1.95-4.1.98/diff.md --exclude *.pyd
+[2023-04-27 10:55:22] INFO root fetch - processPackages [lazy-env-configurator]: executing diffoscope
+[2023-04-27 10:55:22] INFO root fetch - processPackages [lazy-env-configurator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazy_env_configurator-0.2.0.tar.gz tmp/lazy_env_configurator-0.3.0a0.tar.gz --markdown 20230427/l/lazy-env-configurator/0.2.0-0.3.0a0/diff.md --exclude *.pyd
+[2023-04-27 10:55:22] INFO root fetch - processPackages [popbill]: Downloading https://files.pythonhosted.org/packages/1c/06/402d4254be03987a19f2c7c8647c71444499ac1c9e1cc922a553ade03b8c/popbill-1.9.0.tar.gz
+[2023-04-27 10:55:22] INFO root fetch - processPackages [django-spinproject]: executing diffoscope
+[2023-04-27 10:55:22] INFO root fetch - processPackages [django-spinproject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_spinproject-2.4.0.tar.gz tmp/django_spinproject-2.5.0.tar.gz --markdown 20230427/d/django-spinproject/2.4.0-2.5.0/diff.md --exclude *.pyd
+[2023-04-27 10:55:22] INFO root fetch - processPackages [popbill]: executing diffoscope
+[2023-04-27 10:55:22] INFO root fetch - processPackages [popbill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/popbill-1.8.0.tar.gz tmp/popbill-1.9.0.tar.gz --markdown 20230427/p/popbill/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-04-27 10:55:23] INFO root fetch - processPackages [bridgecrew]: Start processing: antchain-das
+[2023-04-27 10:55:23] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-04-27 10:55:23] INFO root fetch - processPackages [antchain-das]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-04-27 10:55:23] INFO root fetch - processPackages [antchain-das]: executing diffoscope
+[2023-04-27 10:55:23] INFO root fetch - processPackages [antchain-das]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_das-1.1.5.tar.gz tmp/antchain_das-1.1.6.tar.gz --markdown 20230427/a/antchain-das/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-04-27 10:55:23] INFO root fetch - processPackages [robotmk]: Start processing: ilds
+[2023-04-27 10:55:23] INFO root fetch - main [MainThread]: End processing [robotmk]: success
+[2023-04-27 10:55:23] INFO root fetch - processPackages [ilds]: New version: [2023.4.3] Old Version: [2023.4.27]
+[2023-04-27 10:55:23] INFO root fetch - processPackages [sspeedup]: Start processing: serious-scaffold
+[2023-04-27 10:55:23] INFO root fetch - main [MainThread]: End processing [sspeedup]: success
+[2023-04-27 10:55:23] INFO root fetch - processPackages [ilds]: executing diffoscope
+[2023-04-27 10:55:23] INFO root fetch - processPackages [ilds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ilds-2023.4.27.tar.gz tmp/ilds-2023.4.3.tar.gz --markdown 20230427/i/ilds/2023.4.27-2023.4.3/diff.md --exclude *.pyd
+[2023-04-27 10:55:23] INFO root fetch - processPackages [serious-scaffold]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 10:55:23] INFO root fetch - processPackages [optilibre]: Start processing: integration-testing-environment
+[2023-04-27 10:55:23] INFO root fetch - main [MainThread]: End processing [optilibre]: success
+[2023-04-27 10:55:23] INFO root fetch - processPackages [integration-testing-environment]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 10:55:23] INFO root fetch - processPackages [integration-testing-environment]: executing diffoscope
+[2023-04-27 10:55:23] INFO root fetch - processPackages [integration-testing-environment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/integration_testing_environment-0.0.8.tar.gz tmp/integration_testing_environment-0.0.9.tar.gz --markdown 20230427/i/integration-testing-environment/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 10:55:23] INFO root fetch - processPackages [serious-scaffold]: Downloading https://files.pythonhosted.org/packages/32/3c/e6484de31530bf7bb33e95077503fb7ea842aa301478cb4c472fadef987f/serious-scaffold-0.0.8.tar.gz
+[2023-04-27 10:55:24] INFO root fetch - processPackages [popbill]: Start processing: integration-testing-environment-dev
+[2023-04-27 10:55:24] INFO root fetch - main [MainThread]: End processing [popbill]: success
+[2023-04-27 10:55:24] INFO root fetch - processPackages [integration-testing-environment-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 10:55:24] INFO root fetch - processPackages [lazy-env-configurator]: Start processing: ErCore
+[2023-04-27 10:55:24] INFO root fetch - main [MainThread]: End processing [lazy-env-configurator]: success
+[2023-04-27 10:55:24] INFO root fetch - processPackages [integration-testing-environment-dev]: executing diffoscope
+[2023-04-27 10:55:24] INFO root fetch - processPackages [integration-testing-environment-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/integration_testing_environment_dev-0.0.8.tar.gz tmp/integration_testing_environment_dev-0.0.9.tar.gz --markdown 20230427/i/integration-testing-environment-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 10:55:24] INFO root fetch - processPackages [ErCore]: New version: [1.1] Old Version: [1.0]
+[2023-04-27 10:55:24] INFO root fetch - processPackages [serious-scaffold]: Downloading https://files.pythonhosted.org/packages/28/1d/90200135e74525af4f58a5c732e1a7ff8c5603e519f5e35d6968fe6e1e76/serious-scaffold-0.0.9.tar.gz
+[2023-04-27 10:55:24] INFO root fetch - processPackages [efel]: Start processing: cc-py-commons
+[2023-04-27 10:55:24] INFO root fetch - main [MainThread]: End processing [efel]: success
+[2023-04-27 10:55:24] INFO root fetch - processPackages [IntuneCD]: Start processing: vessel-manoeuvring-models
+[2023-04-27 10:55:24] INFO root fetch - main [MainThread]: End processing [IntuneCD]: success
+[2023-04-27 10:55:24] INFO root fetch - processPackages [django-spinproject]: Start processing: pyroscope-io
+[2023-04-27 10:55:24] INFO root fetch - main [MainThread]: End processing [django-spinproject]: success
+[2023-04-27 10:55:24] INFO root fetch - processPackages [cc-py-commons]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-27 10:55:24] INFO root fetch - processPackages [serious-scaffold]: executing diffoscope
+[2023-04-27 10:55:24] INFO root fetch - processPackages [serious-scaffold]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serious-scaffold-0.0.8.tar.gz tmp/serious-scaffold-0.0.9.tar.gz --markdown 20230427/s/serious-scaffold/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 10:55:24] INFO root fetch - processPackages [vessel-manoeuvring-models]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-27 10:55:24] INFO root fetch - processPackages [pyroscope-io]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-04-27 10:55:24] INFO root fetch - processPackages [cc-py-commons]: executing diffoscope
+[2023-04-27 10:55:24] INFO root fetch - processPackages [cc-py-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cc_py_commons-0.3.8.tar.gz tmp/cc_py_commons-0.3.9.tar.gz --markdown 20230427/c/cc-py-commons/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-27 10:55:24] INFO root fetch - processPackages [ErCore]: Downloading https://files.pythonhosted.org/packages/89/85/b4081c295961efb7af3813f6b6f2460e7e9c42329fd5a6f46bdd37f1cff2/ErCore-1.1.tar.gz
+[2023-04-27 10:55:24] INFO root fetch - processPackages [vessel-manoeuvring-models]: Downloading https://files.pythonhosted.org/packages/f0/2e/fd4e917d5d109a90445d4912f5482286dc53924179c2d236b17155ac217c/vessel_manoeuvring_models-0.0.3.tar.gz
+[2023-04-27 10:55:24] INFO root fetch - processPackages [pyroscope-io]: Downloading https://files.pythonhosted.org/packages/f4/38/d584cd62cb2dfd21f05db6a44fd8bcdb5ee40478aef8b84ad6a23d6331e6/pyroscope-io-0.8.1.tar.gz
+[2023-04-27 10:55:24] INFO root fetch - processPackages [ErCore]: executing diffoscope
+[2023-04-27 10:55:24] INFO root fetch - processPackages [ErCore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ErCore-1.0.tar.gz tmp/ErCore-1.1.tar.gz --markdown 20230427/E/ErCore/1.0-1.1/diff.md --exclude *.pyd
+[2023-04-27 10:55:24] INFO root fetch - processPackages [pyroscope-io]: Downloading https://files.pythonhosted.org/packages/b0/d2/1384618dbbd3e3482ce69d9fbed5ed7954934b60e63be57c8996c08ddf6b/pyroscope-io-0.8.2.tar.gz
+[2023-04-27 10:55:25] INFO root fetch - processPackages [antchain-das]: Start processing: robotmk
+[2023-04-27 10:55:25] INFO root fetch - main [MainThread]: End processing [antchain-das]: success
+[2023-04-27 10:55:25] INFO root fetch - processPackages [robotmk]: New version: [0.0.57] Old Version: [0.0.56]
+[2023-04-27 10:55:25] INFO root fetch - processPackages [pyroscope-io]: executing diffoscope
+[2023-04-27 10:55:25] INFO root fetch - processPackages [pyroscope-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyroscope-io-0.8.1.tar.gz tmp/pyroscope-io-0.8.2.tar.gz --markdown 20230427/p/pyroscope-io/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-04-27 10:55:25] INFO root fetch - processPackages [robotmk]: executing diffoscope
+[2023-04-27 10:55:25] INFO root fetch - processPackages [robotmk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotmk-0.0.56.tar.gz tmp/robotmk-0.0.57.tar.gz --markdown 20230427/r/robotmk/0.0.56-0.0.57/diff.md --exclude *.pyd
+[2023-04-27 10:55:25] INFO root fetch - processPackages [integration-testing-environment]: Start processing: synthcity
+[2023-04-27 10:55:25] INFO root fetch - main [MainThread]: End processing [integration-testing-environment]: success
+[2023-04-27 10:55:25] INFO root fetch - processPackages [vessel-manoeuvring-models]: Downloading https://files.pythonhosted.org/packages/30/52/e720c75a342be362f1e70035b05d74b6fd3ae517f39e2ea306850ec8991c/vessel_manoeuvring_models-0.0.4.tar.gz
+[2023-04-27 10:55:25] INFO root fetch - processPackages [synthcity]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-04-27 10:55:25] INFO root fetch - processPackages [ErCore]: Start processing: collective.documentviewer
+[2023-04-27 10:55:25] INFO root fetch - main [MainThread]: End processing [ErCore]: success
+[2023-04-27 10:55:25] INFO root fetch - processPackages [integration-testing-environment-dev]: Start processing: mlx.robot2rst
+[2023-04-27 10:55:25] INFO root fetch - main [MainThread]: End processing [integration-testing-environment-dev]: success
+[2023-04-27 10:55:25] INFO root fetch - processPackages [cc-py-commons]: Start processing: dataverk-airflow
+[2023-04-27 10:55:25] INFO root fetch - main [MainThread]: End processing [cc-py-commons]: success
+[2023-04-27 10:55:25] INFO root fetch - processPackages [collective.documentviewer]: New version: [6.0.2] Old Version: [6.0.1]
+[2023-04-27 10:55:25] INFO root fetch - processPackages [dataverk-airflow]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-04-27 10:55:26] INFO root fetch - processPackages [synthcity]: Downloading https://files.pythonhosted.org/packages/1b/e3/46710c47f56d2c7692953944ddabcc9b6af10337584664c82392adbb5f17/synthcity-0.2.5-py3-none-macosx_10_14_x86_64.whl
+[2023-04-27 10:55:26] INFO root fetch - processPackages [mlx.robot2rst]: New version: [3.2.1] Old Version: [3.2.0]
+[2023-04-27 10:55:26] INFO root fetch - processPackages [dataverk-airflow]: executing diffoscope
+[2023-04-27 10:55:26] INFO root fetch - processPackages [dataverk-airflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataverk-airflow-0.4.8.tar.gz tmp/dataverk-airflow-0.4.9.tar.gz --markdown 20230427/d/dataverk-airflow/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-04-27 10:55:26] INFO root fetch - processPackages [serious-scaffold]: Start processing: tf-nightly
+[2023-04-27 10:55:26] INFO root fetch - main [MainThread]: End processing [serious-scaffold]: success
+[2023-04-27 10:55:26] INFO root fetch - processPackages [synthcity]: Downloading https://files.pythonhosted.org/packages/27/ac/ca0e4333d39432d0dbb1b96973eb45135232cd6f86fefa9af446625b2da2/synthcity-0.2.6-py3-none-macosx_10_14_x86_64.whl
+[2023-04-27 10:55:26] INFO root fetch - processPackages [collective.documentviewer]: Downloading https://files.pythonhosted.org/packages/99/98/db1d04acfd2e98880e8b8f69f48a5fde2502cf2f46549d0b9300185ecb8a/collective.documentviewer-6.0.1.tar.gz
+[2023-04-27 10:55:26] INFO root fetch - processPackages [vessel-manoeuvring-models]: executing diffoscope
+[2023-04-27 10:55:26] INFO root fetch - processPackages [vessel-manoeuvring-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vessel_manoeuvring_models-0.0.3.tar.gz tmp/vessel_manoeuvring_models-0.0.4.tar.gz --markdown 20230427/v/vessel-manoeuvring-models/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-27 10:55:26] INFO root fetch - processPackages [tf-nightly]: New version: [2.13.0.dev20230427] Old Version: [2.13.0.dev20230426]
+[2023-04-27 10:55:26] INFO root fetch - processPackages [synthcity]: executing diffoscope
+[2023-04-27 10:55:26] INFO root fetch - processPackages [synthcity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synthcity-0.2.5-py3-none-macosx_10_14_x86_64.whl.zip tmp/synthcity-0.2.6-py3-none-macosx_10_14_x86_64.whl.zip --markdown 20230427/s/synthcity/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-04-27 10:55:26] INFO root fetch - processPackages [mlx.robot2rst]: Downloading https://files.pythonhosted.org/packages/21/d7/f9402ab3612c06e577799b20f025fd9e57e55ddae4ae3f3db4afe5bec6a4/mlx.robot2rst-3.2.1.tar.gz
+[2023-04-27 10:55:26] INFO root fetch - processPackages [pyroscope-io]: Start processing: curriculum-analysis
+[2023-04-27 10:55:26] INFO root fetch - main [MainThread]: End processing [pyroscope-io]: success
+[2023-04-27 10:55:26] INFO root fetch - processPackages [mlx.robot2rst]: executing diffoscope
+[2023-04-27 10:55:26] INFO root fetch - processPackages [mlx.robot2rst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlx.robot2rst-3.2.0.tar.gz tmp/mlx.robot2rst-3.2.1.tar.gz --markdown 20230427/m/mlx.robot2rst/3.2.0-3.2.1/diff.md --exclude *.pyd
+[2023-04-27 10:55:26] INFO root fetch - processPackages [curriculum-analysis]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-04-27 10:55:26] INFO root fetch - processPackages [ilds]: Start processing: macrometa-source-collection
+[2023-04-27 10:55:26] INFO root fetch - main [MainThread]: End processing [ilds]: success
+[2023-04-27 10:55:26] INFO root fetch - processPackages [obsinfo]: Start processing: stpt2zarr
+[2023-04-27 10:55:26] INFO root fetch - main [MainThread]: End processing [obsinfo]: success
+[2023-04-27 10:55:26] INFO root fetch - processPackages [collective.documentviewer]: Downloading https://files.pythonhosted.org/packages/e8/3a/fe52c079490a659915413e9bb929526070333676032a792f2df016df934d/collective.documentviewer-6.0.2.tar.gz
+[2023-04-27 10:55:26] INFO root fetch - processPackages [macrometa-source-collection]: New version: [0.0.25] Old Version: [0.0.24]
+[2023-04-27 10:55:26] INFO root fetch - processPackages [curriculum-analysis]: Downloading https://files.pythonhosted.org/packages/79/da/5a4922e1696dc81e2ccb5b411e185a98280568cdd63644390eee9b5b1d76/curriculum_analysis-0.1.1.tar.gz
+[2023-04-27 10:55:26] INFO root fetch - processPackages [stpt2zarr]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-04-27 10:55:26] INFO root fetch - processPackages [collective.documentviewer]: executing diffoscope
+[2023-04-27 10:55:26] INFO root fetch - processPackages [collective.documentviewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collective.documentviewer-6.0.1.tar.gz tmp/collective.documentviewer-6.0.2.tar.gz --markdown 20230427/c/collective.documentviewer/6.0.1-6.0.2/diff.md --exclude *.pyd
+[2023-04-27 10:55:26] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/bc/2b/d50758469e4f50917fb82b35d9e59ad37523aa48cbe442cafa7d7f8290c4/tf_nightly-2.13.0.dev20230427-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-27 10:55:26] INFO root fetch - processPackages [macrometa-source-collection]: Downloading https://files.pythonhosted.org/packages/11/68/8656124d2e600909b2dd3c56943b68eab086fa3f737f483949789470ab6f/macrometa-source-collection-0.0.24.tar.gz
+[2023-04-27 10:55:26] INFO root fetch - processPackages [curriculum-analysis]: Downloading https://files.pythonhosted.org/packages/51/d6/fac8f1924ced3e1c0ca90c9d643bbdeed61d439c8b6fb7fcac97a0d2f58a/curriculum_analysis-0.2.0.tar.gz
+[2023-04-27 10:55:27] WARNING root fetch - processPackages [tf-nightly]: Skipping package: exceeds size limit 524027273>=10485760
+[2023-04-27 10:55:27] INFO root fetch - main [MainThread]: End processing [tf-nightly] error
+[2023-04-27 10:55:27] INFO root fetch - main [MainThread]: End processing [robotmk]: success
+[2023-04-27 10:55:27] INFO root fetch - processPackages [stpt2zarr]: Downloading https://files.pythonhosted.org/packages/d3/41/66c3a9f5b03081b492cce01e8369e4205d3ba6505f28370bbd569f4e5a41/stpt2zarr-0.1.7.tar.gz
+[2023-04-27 10:55:27] INFO root fetch - processPackages [curriculum-analysis]: executing diffoscope
+[2023-04-27 10:55:27] INFO root fetch - processPackages [curriculum-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/curriculum_analysis-0.1.1.tar.gz tmp/curriculum_analysis-0.2.0.tar.gz --markdown 20230427/c/curriculum-analysis/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-04-27 10:55:27] INFO root fetch - processPackages [macrometa-source-collection]: Downloading https://files.pythonhosted.org/packages/8f/1a/7583b32c7636bef44ac4a306660e7ff26c802a72ca12eeee6dc28536b04e/macrometa-source-collection-0.0.25.tar.gz
+[2023-04-27 10:55:27] INFO root fetch - main [MainThread]: End processing [dataverk-airflow]: success
+[2023-04-27 10:55:27] INFO root fetch - processPackages [macrometa-source-collection]: executing diffoscope
+[2023-04-27 10:55:27] INFO root fetch - processPackages [macrometa-source-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-source-collection-0.0.24.tar.gz tmp/macrometa-source-collection-0.0.25.tar.gz --markdown 20230427/m/macrometa-source-collection/0.0.24-0.0.25/diff.md --exclude *.pyd
+[2023-04-27 10:55:27] INFO root fetch - processPackages [stpt2zarr]: Downloading https://files.pythonhosted.org/packages/de/a6/c03af66063ea6988854e292bba13fe93c52019341fdd56825b04d011d386/stpt2zarr-0.1.8.tar.gz
+[2023-04-27 10:55:27] INFO root fetch - processPackages [stpt2zarr]: executing diffoscope
+[2023-04-27 10:55:27] INFO root fetch - processPackages [stpt2zarr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stpt2zarr-0.1.7.tar.gz tmp/stpt2zarr-0.1.8.tar.gz --markdown 20230427/s/stpt2zarr/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-04-27 10:55:27] INFO root fetch - main [MainThread]: End processing [mlx.robot2rst]: success
+[2023-04-27 10:55:28] INFO root fetch - main [MainThread]: End processing [curriculum-analysis]: success
+[2023-04-27 10:55:28] INFO root fetch - main [MainThread]: End processing [macrometa-source-collection]: success
+[2023-04-27 10:55:28] INFO root fetch - main [MainThread]: End processing [collective.documentviewer]: success
+[2023-04-27 10:55:28] INFO root fetch - main [MainThread]: End processing [stpt2zarr]: success
+[2023-04-27 10:55:28] INFO root fetch - main [MainThread]: End processing [synthcity]: success
+[2023-04-27 10:55:40] INFO root fetch - main [MainThread]: End processing [vessel-manoeuvring-models]: success
+[2023-04-27 10:55:40] INFO root fetch - main [MainThread]: Store serial: [17879875]
