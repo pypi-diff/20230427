@@ -8294,3 +8294,49 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 04:47:56] INFO root fetch - main [MainThread]: End processing [odoo14-addon-partner-statement]: success
 [2023-04-27 04:47:57] INFO root fetch - main [MainThread]: End processing [alibabacloud-ice20201109]: success
 [2023-04-27 04:47:57] INFO root fetch - main [MainThread]: Store serial: [17876869]
+[2023-04-27 04:53:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17876869]
+[2023-04-27 04:53:08] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-27 04:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: foursight-core
+[2023-04-27 04:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CommonlyTools
+[2023-04-27 04:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bfactory
+[2023-04-27 04:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyfed
+[2023-04-27 04:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: shelvery
+[2023-04-27 04:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyfed-macos
+[2023-04-27 04:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo12-addon-account-move-template
+[2023-04-27 04:53:08] INFO root fetch - processPackages [shelvery]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-04-27 04:53:08] INFO root fetch - processPackages [CommonlyTools]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-04-27 04:53:08] INFO root fetch - processPackages [bfactory]: New version: [0.4] Old Version: [0.0.3.5]
+[2023-04-27 04:53:08] INFO root fetch - processPackages [pyfed-macos]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 04:53:08] INFO root fetch - processPackages [pyfed]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 04:53:08] INFO root fetch - processPackages [odoo12-addon-account-move-template]: New version: [12.0.1.1.0.99.dev9] Old Version: [12.0.1.1.0.99.dev8]
+[2023-04-27 04:53:08] INFO root fetch - processPackages [foursight-core]: New version: [4.1.0.5b54] Old Version: [4.1.0.5b51]
+[2023-04-27 04:53:08] INFO root fetch - processPackages [pyfed]: executing diffoscope
+[2023-04-27 04:53:08] INFO root fetch - processPackages [pyfed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfed-0.0.8.tar.gz tmp/pyfed-0.0.9.tar.gz --markdown 20230427/p/pyfed/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 04:53:08] INFO root fetch - processPackages [pyfed-macos]: executing diffoscope
+[2023-04-27 04:53:08] INFO root fetch - processPackages [pyfed-macos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfed_macos-0.0.8.tar.gz tmp/pyfed_macos-0.0.9.tar.gz --markdown 20230427/p/pyfed-macos/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 04:53:08] INFO root fetch - processPackages [shelvery]: Downloading https://files.pythonhosted.org/packages/2e/58/72d3d560624272c3d4917acec168155fe525c08bd2bc0dc366ca01e8695c/shelvery-0.9.7.tar.gz
+[2023-04-27 04:53:08] INFO root fetch - processPackages [bfactory]: Downloading https://files.pythonhosted.org/packages/af/4c/0cac3859e6a4fa756ebe20293f5e04777e96bce758e1de7a6ccbf537fc01/bfactory-0.0.3.5.tar.gz
+[2023-04-27 04:53:08] INFO root fetch - processPackages [CommonlyTools]: Downloading https://files.pythonhosted.org/packages/b4/69/9ec98d3d6510b61348817313b247b12329c8b04e2c3dce4ba22d06777d68/CommonlyTools-2.0.9.tar.gz
+[2023-04-27 04:53:08] INFO root fetch - processPackages [CommonlyTools]: executing diffoscope
+[2023-04-27 04:53:08] INFO root fetch - processPackages [CommonlyTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CommonlyTools-2.0.8.tar.gz tmp/CommonlyTools-2.0.9.tar.gz --markdown 20230427/C/CommonlyTools/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-04-27 04:53:08] INFO root fetch - processPackages [odoo12-addon-account-move-template]: Downloading https://files.pythonhosted.org/packages/a7/d1/99062f5b5453d46b96d1aeb3806e083c7db253f329c1c7a9adfe77debfa8/odoo12_addon_account_move_template-12.0.1.1.0.99.dev8-py3-none-any.whl
+[2023-04-27 04:53:08] INFO root fetch - processPackages [foursight-core]: Downloading https://files.pythonhosted.org/packages/2b/9c/2ca96c6f0c16aae5d6e5ffd1409dd594c983cbe24a68576c3994033a8f8f/foursight_core-4.1.0.5b54.tar.gz
+[2023-04-27 04:53:08] INFO root fetch - processPackages [shelvery]: Downloading https://files.pythonhosted.org/packages/2f/46/7f57a859f9cfcab6baf8765d21cdd8a2d1e82ea51ec659e0e54b851e7f36/shelvery-0.9.8.tar.gz
+[2023-04-27 04:53:08] INFO root fetch - processPackages [bfactory]: Downloading https://files.pythonhosted.org/packages/e7/c7/5e27683634f066439cd84fcaa0cd88e39fafd4c672a4dfdb99d2c788343c/bfactory-0.4.tar.gz
+[2023-04-27 04:53:08] INFO root fetch - processPackages [bfactory]: executing diffoscope
+[2023-04-27 04:53:08] INFO root fetch - processPackages [bfactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bfactory-0.0.3.5.tar.gz tmp/bfactory-0.4.tar.gz --markdown 20230427/b/bfactory/0.0.3.5-0.4/diff.md --exclude *.pyd
+[2023-04-27 04:53:09] INFO root fetch - processPackages [odoo12-addon-account-move-template]: Downloading https://files.pythonhosted.org/packages/21/30/ffb6578444308ebba9ce240bc5f23c437ba318308dbc5f34f186dd9616dc/odoo12_addon_account_move_template-12.0.1.1.0.99.dev9-py3-none-any.whl
+[2023-04-27 04:53:09] INFO root fetch - processPackages [odoo12-addon-account-move-template]: executing diffoscope
+[2023-04-27 04:53:09] INFO root fetch - processPackages [odoo12-addon-account-move-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_account_move_template-12.0.1.1.0.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_account_move_template-12.0.1.1.0.99.dev9-py3-none-any.whl.zip --markdown 20230427/o/odoo12-addon-account-move-template/12.0.1.1.0.99.dev8-12.0.1.1.0.99.dev9/diff.md --exclude *.pyd
+[2023-04-27 04:53:09] INFO root fetch - processPackages [shelvery]: executing diffoscope
+[2023-04-27 04:53:09] INFO root fetch - processPackages [shelvery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shelvery-0.9.7.tar.gz tmp/shelvery-0.9.8.tar.gz --markdown 20230427/s/shelvery/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-04-27 04:53:09] INFO root fetch - processPackages [foursight-core]: executing diffoscope
+[2023-04-27 04:53:09] INFO root fetch - processPackages [foursight-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight_core-4.1.0.5b51.tar.gz tmp/foursight_core-4.1.0.5b54.tar.gz --markdown 20230427/f/foursight-core/4.1.0.5b51-4.1.0.5b54/diff.md --exclude *.pyd
+[2023-04-27 04:53:09] INFO root fetch - main [MainThread]: End processing [pyfed-macos]: success
+[2023-04-27 04:53:09] INFO root fetch - main [MainThread]: End processing [CommonlyTools]: success
+[2023-04-27 04:53:09] INFO root fetch - main [MainThread]: End processing [pyfed]: success
+[2023-04-27 04:53:10] INFO root fetch - main [MainThread]: End processing [bfactory]: success
+[2023-04-27 04:53:10] INFO root fetch - main [MainThread]: End processing [shelvery]: success
+[2023-04-27 04:53:10] INFO root fetch - main [MainThread]: End processing [odoo12-addon-account-move-template]: success
+[2023-04-27 04:53:25] INFO root fetch - main [MainThread]: End processing [foursight-core]: success
+[2023-04-27 04:53:25] INFO root fetch - main [MainThread]: Store serial: [17876891]
