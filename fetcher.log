@@ -10351,3 +10351,35 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 07:23:43] INFO root fetch - main [MainThread]: End processing [ChatLLM]: success
 [2023-04-27 07:23:59] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
 [2023-04-27 07:23:59] INFO root fetch - main [MainThread]: Store serial: [17877985]
+[2023-04-27 07:29:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17877985]
+[2023-04-27 07:29:08] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-27 07:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sinhala-subtitle
+[2023-04-27 07:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-genshin-cos
+[2023-04-27 07:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: katalytic-checks
+[2023-04-27 07:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: resource-monitoring-bon
+[2023-04-27 07:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: crazy-thursday
+[2023-04-27 07:29:08] INFO root fetch - processPackages [katalytic-checks]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-04-27 07:29:08] INFO root fetch - processPackages [resource-monitoring-bon]: New version: [1.0.0.4] Old Version: [1.0.0.3]
+[2023-04-27 07:29:08] INFO root fetch - processPackages [nonebot-plugin-genshin-cos]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-27 07:29:08] WARNING root fetch - processPackages [sinhala-subtitle]: Skipping, unable to determine old version
+[2023-04-27 07:29:08] INFO root fetch - main [MainThread]: End processing [sinhala-subtitle] error
+[2023-04-27 07:29:08] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.4.9.1] Old Version: [2023.4.9.0]
+[2023-04-27 07:29:09] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-04-27 07:29:09] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.4.9.0.tar.gz tmp/crazy-thursday-2023.4.9.1.tar.gz --markdown 20230427/c/crazy-thursday/2023.4.9.0-2023.4.9.1/diff.md --exclude *.pyd
+[2023-04-27 07:29:09] INFO root fetch - processPackages [katalytic-checks]: Downloading https://files.pythonhosted.org/packages/a8/0c/2b16eddd8726faf4c156f09a0fdf0b5971ebecc4b7fb4fc30c1521211520/katalytic-checks-0.0.0.tar.gz
+[2023-04-27 07:29:09] INFO root fetch - processPackages [resource-monitoring-bon]: Downloading https://files.pythonhosted.org/packages/1e/0a/24cf969d31e52ae7c4533032375a5459a3cc6ad29c37cf478044b3e9be9a/resource_monitoring_bon-1.0.0.3-py3-none-any.whl
+[2023-04-27 07:29:09] INFO root fetch - processPackages [nonebot-plugin-genshin-cos]: Downloading https://files.pythonhosted.org/packages/35/4e/3ef056c55f3a0803d6ba77a77b41d829a40e3038106475388be6d785462e/nonebot_plugin_genshin_cos-0.1.5.tar.gz
+[2023-04-27 07:29:09] INFO root fetch - processPackages [resource-monitoring-bon]: Downloading https://files.pythonhosted.org/packages/3f/75/1828bdf99ea8d918767568cb4e53a48e14cdc19600fc18247759c9d14870/resource_monitoring_bon-1.0.0.4-py3-none-any.whl
+[2023-04-27 07:29:09] INFO root fetch - processPackages [resource-monitoring-bon]: executing diffoscope
+[2023-04-27 07:29:09] INFO root fetch - processPackages [resource-monitoring-bon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resource_monitoring_bon-1.0.0.3-py3-none-any.whl.zip tmp/resource_monitoring_bon-1.0.0.4-py3-none-any.whl.zip --markdown 20230427/r/resource-monitoring-bon/1.0.0.3-1.0.0.4/diff.md --exclude *.pyd
+[2023-04-27 07:29:09] INFO root fetch - processPackages [katalytic-checks]: Downloading https://files.pythonhosted.org/packages/51/e6/42e1ebac2a8d1e6431de0cd96439c9ee29c80b4210b6d7b7e1f8e9386caa/katalytic-checks-0.0.1.tar.gz
+[2023-04-27 07:29:09] INFO root fetch - processPackages [katalytic-checks]: executing diffoscope
+[2023-04-27 07:29:09] INFO root fetch - processPackages [katalytic-checks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/katalytic-checks-0.0.0.tar.gz tmp/katalytic-checks-0.0.1.tar.gz --markdown 20230427/k/katalytic-checks/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-04-27 07:29:09] INFO root fetch - processPackages [nonebot-plugin-genshin-cos]: Downloading https://files.pythonhosted.org/packages/c1/93/e2a02e6d7ed0172858cbf646fb78ddd5a8d02e32d2163f1a85d27a61a0b4/nonebot_plugin_genshin_cos-0.1.6.tar.gz
+[2023-04-27 07:29:09] INFO root fetch - processPackages [nonebot-plugin-genshin-cos]: executing diffoscope
+[2023-04-27 07:29:09] INFO root fetch - processPackages [nonebot-plugin-genshin-cos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_genshin_cos-0.1.5.tar.gz tmp/nonebot_plugin_genshin_cos-0.1.6.tar.gz --markdown 20230427/n/nonebot-plugin-genshin-cos/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-27 07:29:10] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-04-27 07:29:10] INFO root fetch - main [MainThread]: End processing [resource-monitoring-bon]: success
+[2023-04-27 07:29:10] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-genshin-cos]: success
+[2023-04-27 07:29:10] INFO root fetch - main [MainThread]: End processing [katalytic-checks]: success
+[2023-04-27 07:29:10] INFO root fetch - main [MainThread]: Store serial: [17878008]
