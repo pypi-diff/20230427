@@ -14176,3 +14176,82 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 11:28:15] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-mpexec]: success
 [2023-04-27 11:28:16] INFO root fetch - main [MainThread]: End processing [lsst-pipe-base]: success
 [2023-04-27 11:28:16] INFO root fetch - main [MainThread]: Store serial: [17880360]
+[2023-04-27 11:33:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17880360]
+[2023-04-27 11:33:25] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-27 11:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lmctl
+[2023-04-27 11:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alibabacloud-imageprocess20200320
+[2023-04-27 11:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arcl
+[2023-04-27 11:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vdk-control-service-api
+[2023-04-27 11:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ds-planner
+[2023-04-27 11:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: papai-public
+[2023-04-27 11:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pan-os-python
+[2023-04-27 11:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spectralib
+[2023-04-27 11:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: RASST
+[2023-04-27 11:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nkululeko
+[2023-04-27 11:33:25] INFO root fetch - processPackages [lmctl]: New version: [3.5.0] Old Version: [3.4.0]
+[2023-04-27 11:33:25] INFO root fetch - processPackages [spectralib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 11:33:25] INFO root fetch - processPackages [papai-public]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-27 11:33:25] INFO root fetch - processPackages [alibabacloud-imageprocess20200320]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-04-27 11:33:25] WARNING root fetch - processPackages [RASST]: Skipping, unable to determine old version
+[2023-04-27 11:33:25] INFO root fetch - processPackages [RASST]: Start processing: art-daq
+[2023-04-27 11:33:25] INFO root fetch - main [MainThread]: End processing [RASST] error
+[2023-04-27 11:33:25] INFO root fetch - processPackages [vdk-control-service-api]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-27 11:33:25] INFO root fetch - processPackages [arcl]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-04-27 11:33:25] WARNING root fetch - processPackages [ds-planner]: Skipping, unable to determine old version
+[2023-04-27 11:33:25] INFO root fetch - processPackages [ds-planner]: Start processing: inspursmsdk
+[2023-04-27 11:33:25] INFO root fetch - main [MainThread]: End processing [ds-planner] error
+[2023-04-27 11:33:25] INFO root fetch - processPackages [pan-os-python]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-04-27 11:33:25] INFO root fetch - processPackages [nkululeko]: New version: [0.44.1] Old Version: [0.44.0]
+[2023-04-27 11:33:25] INFO root fetch - processPackages [spectralib]: executing diffoscope
+[2023-04-27 11:33:25] INFO root fetch - processPackages [spectralib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spectralib-0.0.8.tar.gz tmp/spectralib-0.0.9.tar.gz --markdown 20230427/s/spectralib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 11:33:25] INFO root fetch - processPackages [art-daq]: New version: [1.1.2] Old Version: [1.1.0]
+[2023-04-27 11:33:25] INFO root fetch - processPackages [inspursmsdk]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-04-27 11:33:25] INFO root fetch - processPackages [papai-public]: executing diffoscope
+[2023-04-27 11:33:25] INFO root fetch - processPackages [papai-public]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/papai_public-0.1.8.tar.gz tmp/papai_public-0.1.9.tar.gz --markdown 20230427/p/papai-public/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-27 11:33:25] INFO root fetch - processPackages [alibabacloud-imageprocess20200320]: Downloading https://files.pythonhosted.org/packages/8d/91/91baaf67f7f983babb9522aa22915707bba3125232d483a09b175629bc00/alibabacloud_imageprocess20200320-2.0.8.tar.gz
+[2023-04-27 11:33:25] INFO root fetch - processPackages [lmctl]: Downloading https://files.pythonhosted.org/packages/43/d0/3955ff9b1c1cbd15b5a45d7b22ad805927836bed731d56e39deb4694fcbe/lmctl-3.4.0-py3-none-any.whl
+[2023-04-27 11:33:25] INFO root fetch - processPackages [pan-os-python]: executing diffoscope
+[2023-04-27 11:33:25] INFO root fetch - processPackages [pan-os-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pan_os_python-1.8.1.tar.gz tmp/pan_os_python-1.9.0.tar.gz --markdown 20230427/p/pan-os-python/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-04-27 11:33:25] INFO root fetch - processPackages [arcl]: Downloading https://files.pythonhosted.org/packages/d6/ec/31bd88000c53ac7e4ec01d062e34b331ed0fe8c6417ad67a1462f5ac9817/arcl-1.7.8.tar.gz
+[2023-04-27 11:33:25] INFO root fetch - processPackages [vdk-control-service-api]: Downloading https://files.pythonhosted.org/packages/fd/de/f282664c2fead4598a30713f79751c4fd040ecbb0a95a3d2503abed392f6/vdk-control-service-api-1.0.8.tar.gz
+[2023-04-27 11:33:25] INFO root fetch - processPackages [art-daq]: Downloading https://files.pythonhosted.org/packages/fd/94/1c64d3b9aead4f140450d13ee1a762175404eafc6a8f68042c0a1a22ed94/art-daq-1.1.0.tar.gz
+[2023-04-27 11:33:25] INFO root fetch - processPackages [nkululeko]: Downloading https://files.pythonhosted.org/packages/d1/f6/f94b02db5a43a1bb67f959638af3a7f4dc15d23d2377dd839dd6fcc5a403/nkululeko-0.44.0.tar.gz
+[2023-04-27 11:33:25] INFO root fetch - processPackages [inspursmsdk]: Downloading https://files.pythonhosted.org/packages/11/98/894ff747f19c05c47c086636e82e4e4bc34153818bfcd09277656631f96a/inspursmsdk-2.0.6.tar.gz
+[2023-04-27 11:33:25] INFO root fetch - processPackages [inspursmsdk]: executing diffoscope
+[2023-04-27 11:33:25] INFO root fetch - processPackages [inspursmsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inspursmsdk-2.0.5.tar.gz tmp/inspursmsdk-2.0.6.tar.gz --markdown 20230427/i/inspursmsdk/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-04-27 11:33:26] INFO root fetch - processPackages [lmctl]: Downloading https://files.pythonhosted.org/packages/fa/6c/7e1afa366c8585614e5301ccde96a61225c257e2ac9e2b46239a7e5e0af4/lmctl-3.5.0-py3-none-any.whl
+[2023-04-27 11:33:26] INFO root fetch - processPackages [art-daq]: Downloading https://files.pythonhosted.org/packages/4a/f5/183ea2699f939b2279dfb4ab9bec5059c1846c5e1e7cacf1c1ee093244bd/art-daq-1.1.2.tar.gz
+[2023-04-27 11:33:26] INFO root fetch - processPackages [vdk-control-service-api]: Downloading https://files.pythonhosted.org/packages/8f/85/63c91b9b1dac940c70db5e1fe37456bacb656f06eb472511c412269be3f6/vdk-control-service-api-1.0.9.tar.gz
+[2023-04-27 11:33:26] INFO root fetch - processPackages [alibabacloud-imageprocess20200320]: Downloading https://files.pythonhosted.org/packages/0b/d5/0adde18477c4fd4932a651aacb59302c25dfc90c0b036eb40be3e990e211/alibabacloud_imageprocess20200320-2.0.9.tar.gz
+[2023-04-27 11:33:26] INFO root fetch - processPackages [nkululeko]: Downloading https://files.pythonhosted.org/packages/f6/b2/54c8680bf2effdd240504e48bb61d4cbc4e6be8bb5d59ad6431112851849/nkululeko-0.44.1.tar.gz
+[2023-04-27 11:33:26] INFO root fetch - processPackages [arcl]: Downloading https://files.pythonhosted.org/packages/91/a4/0daaa70142b3b96215b0b529cb3679b7c79b398c1c53d3429d032582621b/arcl-1.7.9.tar.gz
+[2023-04-27 11:33:26] INFO root fetch - processPackages [art-daq]: executing diffoscope
+[2023-04-27 11:33:26] INFO root fetch - processPackages [art-daq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/art-daq-1.1.0.tar.gz tmp/art-daq-1.1.2.tar.gz --markdown 20230427/a/art-daq/1.1.0-1.1.2/diff.md --exclude *.pyd
+[2023-04-27 11:33:26] INFO root fetch - processPackages [lmctl]: executing diffoscope
+[2023-04-27 11:33:26] INFO root fetch - processPackages [lmctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmctl-3.4.0-py3-none-any.whl.zip tmp/lmctl-3.5.0-py3-none-any.whl.zip --markdown 20230427/l/lmctl/3.4.0-3.5.0/diff.md --exclude *.pyd
+[2023-04-27 11:33:26] INFO root fetch - processPackages [vdk-control-service-api]: executing diffoscope
+[2023-04-27 11:33:26] INFO root fetch - processPackages [vdk-control-service-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk-control-service-api-1.0.8.tar.gz tmp/vdk-control-service-api-1.0.9.tar.gz --markdown 20230427/v/vdk-control-service-api/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-27 11:33:26] INFO root fetch - processPackages [alibabacloud-imageprocess20200320]: executing diffoscope
+[2023-04-27 11:33:26] INFO root fetch - processPackages [alibabacloud-imageprocess20200320]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_imageprocess20200320-2.0.8.tar.gz tmp/alibabacloud_imageprocess20200320-2.0.9.tar.gz --markdown 20230427/a/alibabacloud-imageprocess20200320/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-04-27 11:33:26] INFO root fetch - processPackages [nkululeko]: executing diffoscope
+[2023-04-27 11:33:26] INFO root fetch - processPackages [nkululeko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nkululeko-0.44.0.tar.gz tmp/nkululeko-0.44.1.tar.gz --markdown 20230427/n/nkululeko/0.44.0-0.44.1/diff.md --exclude *.pyd
+[2023-04-27 11:33:26] INFO root fetch - processPackages [arcl]: executing diffoscope
+[2023-04-27 11:33:26] INFO root fetch - processPackages [arcl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcl-1.7.8.tar.gz tmp/arcl-1.7.9.tar.gz --markdown 20230427/a/arcl/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-04-27 11:33:27] INFO root fetch - processPackages [papai-public]: Start processing: gptdeploy
+[2023-04-27 11:33:27] INFO root fetch - main [MainThread]: End processing [papai-public]: success
+[2023-04-27 11:33:27] INFO root fetch - processPackages [gptdeploy]: New version: [0.18.9] Old Version: [0.18.8]
+[2023-04-27 11:33:27] INFO root fetch - main [MainThread]: End processing [spectralib]: success
+[2023-04-27 11:33:27] INFO root fetch - processPackages [gptdeploy]: Downloading https://files.pythonhosted.org/packages/28/8e/b8927500bfb52743dfb8a289e3f31e688199b5a59772b782c9ff31241d67/gptdeploy-0.18.8.tar.gz
+[2023-04-27 11:33:27] INFO root fetch - main [MainThread]: End processing [pan-os-python]: success
+[2023-04-27 11:33:27] INFO root fetch - processPackages [gptdeploy]: Downloading https://files.pythonhosted.org/packages/57/8f/7ee320d3dff95f2e8982dc7f527b310660378c61a29b2f8909312b96f32e/gptdeploy-0.18.9.tar.gz
+[2023-04-27 11:33:27] INFO root fetch - main [MainThread]: End processing [arcl]: success
+[2023-04-27 11:33:28] INFO root fetch - processPackages [gptdeploy]: executing diffoscope
+[2023-04-27 11:33:28] INFO root fetch - processPackages [gptdeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptdeploy-0.18.8.tar.gz tmp/gptdeploy-0.18.9.tar.gz --markdown 20230427/g/gptdeploy/0.18.8-0.18.9/diff.md --exclude *.pyd
+[2023-04-27 11:33:28] INFO root fetch - main [MainThread]: End processing [art-daq]: success
+[2023-04-27 11:33:28] INFO root fetch - main [MainThread]: End processing [alibabacloud-imageprocess20200320]: success
+[2023-04-27 11:33:28] INFO root fetch - main [MainThread]: End processing [vdk-control-service-api]: success
+[2023-04-27 11:33:28] INFO root fetch - main [MainThread]: End processing [nkululeko]: success
+[2023-04-27 11:33:29] INFO root fetch - main [MainThread]: End processing [gptdeploy]: success
+[2023-04-27 11:33:29] INFO root fetch - main [MainThread]: End processing [inspursmsdk]: success
+[2023-04-27 11:33:29] INFO root fetch - main [MainThread]: End processing [lmctl]: success
+[2023-04-27 11:33:29] INFO root fetch - main [MainThread]: Store serial: [17880403]
