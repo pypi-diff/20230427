@@ -8994,3 +8994,75 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 05:49:37] INFO root fetch - main [MainThread]: End processing [odoo13-addon-contract]: success
 [2023-04-27 05:49:37] INFO root fetch - main [MainThread]: End processing [odoo-addon-contract]: success
 [2023-04-27 05:49:37] INFO root fetch - main [MainThread]: Store serial: [17877260]
+[2023-04-27 05:54:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17877260]
+[2023-04-27 05:54:47] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-27 05:54:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyXhUtils
+[2023-04-27 05:54:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: voxelmap
+[2023-04-27 05:54:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdktf-cdktf-provider-google-beta
+[2023-04-27 05:54:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: p-ttauto-crawler
+[2023-04-27 05:54:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sqlglot
+[2023-04-27 05:54:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dank-mids
+[2023-04-27 05:54:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PyQtGuiLib
+[2023-04-27 05:54:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gpt-review
+[2023-04-27 05:54:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addons-oca-crm
+[2023-04-27 05:54:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: crossmark-jotform-api
+[2023-04-27 05:54:47] INFO root fetch - processPackages [voxelmap]: New version: [3.7.1] Old Version: [3.7.0]
+[2023-04-27 05:54:47] INFO root fetch - processPackages [gpt-review]: New version: [0.0.1rc95.post1] Old Version: [0.0.1rc93.post1]
+[2023-04-27 05:54:47] INFO root fetch - processPackages [PyQtGuiLib]: New version: [2.8.21.0] Old Version: [2.8.20.0]
+[2023-04-27 05:54:47] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-04-27 05:54:47] INFO root fetch - processPackages [cdktf-cdktf-provider-google-beta]: New version: [7.0.3] Old Version: [7.0.2]
+[2023-04-27 05:54:47] INFO root fetch - processPackages [p-ttauto-crawler]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 05:54:47] INFO root fetch - processPackages [pyXhUtils]: New version: [1.3.5] Old Version: [1.3.4]
+[2023-04-27 05:54:47] INFO root fetch - processPackages [crossmark-jotform-api]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-27 05:54:47] INFO root fetch - processPackages [sqlglot]: New version: [9.0.6] Old Version: [9.0.5]
+[2023-04-27 05:54:47] INFO root fetch - processPackages [odoo14-addons-oca-crm]: New version: [14.0.20230426.0] Old Version: [14.0.20221213.0]
+[2023-04-27 05:54:48] INFO root fetch - processPackages [crossmark-jotform-api]: executing diffoscope
+[2023-04-27 05:54:48] INFO root fetch - processPackages [crossmark-jotform-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crossmark-jotform-api-0.1.3.tar.gz tmp/crossmark-jotform-api-0.1.4.tar.gz --markdown 20230427/c/crossmark-jotform-api/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-27 05:54:48] INFO root fetch - processPackages [sqlglot]: executing diffoscope
+[2023-04-27 05:54:48] INFO root fetch - processPackages [sqlglot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlglot-9.0.5.tar.gz tmp/sqlglot-9.0.6.tar.gz --markdown 20230427/s/sqlglot/9.0.5-9.0.6/diff.md --exclude *.pyd
+[2023-04-27 05:54:48] INFO root fetch - processPackages [pyXhUtils]: Downloading https://files.pythonhosted.org/packages/43/b4/80011fadde385e39286bffe2d2023679835a290de6004fcc45534e736bca/pyXhUtils-1.3.4.tar.gz
+[2023-04-27 05:54:48] INFO root fetch - processPackages [voxelmap]: Downloading https://files.pythonhosted.org/packages/ba/ca/a8855c0b77c60de424c47d0dd03699ac7398a3df347e06fa9f5fcb2dd9a8/voxelmap-3.7.1.tar.gz
+[2023-04-27 05:54:48] INFO root fetch - processPackages [cdktf-cdktf-provider-google-beta]: Downloading https://files.pythonhosted.org/packages/58/98/48d1de69b24a848a965f47e65ffe4dc180be3048b18c479238e1d60a32dd/cdktf-cdktf-provider-google_beta-7.0.2.tar.gz
+[2023-04-27 05:54:48] INFO root fetch - processPackages [gpt-review]: Downloading https://files.pythonhosted.org/packages/fa/7f/2a6592a02b4b8b325a19506d809e6e961bd866592e51f2ff0f9ee97e7d03/gpt-review-0.0.1rc95.post1.tar.gz
+[2023-04-27 05:54:48] INFO root fetch - processPackages [odoo14-addons-oca-crm]: Downloading https://files.pythonhosted.org/packages/3e/ee/fcbc6fca4295aac60d75178a727f7db1e1d55c5a27c671721f4c5b2ad71b/odoo14_addons_oca_crm-14.0.20221213.0-py3-none-any.whl
+[2023-04-27 05:54:48] INFO root fetch - processPackages [voxelmap]: executing diffoscope
+[2023-04-27 05:54:48] INFO root fetch - processPackages [voxelmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voxelmap-3.7.0.tar.gz tmp/voxelmap-3.7.1.tar.gz --markdown 20230427/v/voxelmap/3.7.0-3.7.1/diff.md --exclude *.pyd
+[2023-04-27 05:54:48] INFO root fetch - processPackages [p-ttauto-crawler]: executing diffoscope
+[2023-04-27 05:54:48] INFO root fetch - processPackages [p-ttauto-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p-ttauto-crawler-0.0.8.tar.gz tmp/p-ttauto-crawler-0.0.9.tar.gz --markdown 20230427/p/p-ttauto-crawler/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 05:54:48] INFO root fetch - processPackages [PyQtGuiLib]: Downloading https://files.pythonhosted.org/packages/64/a6/96cc94348c74ebc9ae90d9752237e0772504e76aa4f8ba6f810701771ca7/PyQtGuiLib-2.8.21.0.tar.gz
+[2023-04-27 05:54:48] WARNING root fetch - processPackages [cdktf-cdktf-provider-google-beta]: Skipping package: exceeds size limit 20646393>=10485760
+[2023-04-27 05:54:48] INFO root fetch - processPackages [cdktf-cdktf-provider-google-beta]: Start processing: pyllamacpp
+[2023-04-27 05:54:48] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-google-beta] error
+[2023-04-27 05:54:48] INFO root fetch - processPackages [PyQtGuiLib]: executing diffoscope
+[2023-04-27 05:54:48] INFO root fetch - processPackages [PyQtGuiLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQtGuiLib-2.8.20.0.tar.gz tmp/PyQtGuiLib-2.8.21.0.tar.gz --markdown 20230427/P/PyQtGuiLib/2.8.20.0-2.8.21.0/diff.md --exclude *.pyd
+[2023-04-27 05:54:48] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-04-27 05:54:48] INFO root fetch - processPackages [pyXhUtils]: Downloading https://files.pythonhosted.org/packages/19/bc/ba34da1af5d1da8debe7f23a58f87ad49756391ef70db54d3f64b6c07005/pyXhUtils-1.3.5.tar.gz
+[2023-04-27 05:54:48] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-review-0.0.1rc93.post1.tar.gz tmp/gpt-review-0.0.1rc95.post1.tar.gz --markdown 20230427/g/gpt-review/0.0.1rc93.post1-0.0.1rc95.post1/diff.md --exclude *.pyd
+[2023-04-27 05:54:48] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-04-27 05:54:48] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230427/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-04-27 05:54:48] INFO root fetch - processPackages [pyXhUtils]: executing diffoscope
+[2023-04-27 05:54:48] INFO root fetch - processPackages [pyXhUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyXhUtils-1.3.4.tar.gz tmp/pyXhUtils-1.3.5.tar.gz --markdown 20230427/p/pyXhUtils/1.3.4-1.3.5/diff.md --exclude *.pyd
+[2023-04-27 05:54:48] INFO root fetch - processPackages [pyllamacpp]: New version: [2.0.0] Old Version: [1.0.7]
+[2023-04-27 05:54:48] INFO root fetch - processPackages [odoo14-addons-oca-crm]: Downloading https://files.pythonhosted.org/packages/b5/46/3b5ddb3e5b30e048dbb9e617c5490f0531808c5df2aad253823020299d15/odoo14_addons_oca_crm-14.0.20230426.0-py3-none-any.whl
+[2023-04-27 05:54:48] INFO root fetch - processPackages [pyllamacpp]: Downloading https://files.pythonhosted.org/packages/fd/96/1ce74991423aa890de83294c1898f5339a28b1541f7e79f0559755724313/pyllamacpp-1.0.7.tar.gz
+[2023-04-27 05:54:48] INFO root fetch - processPackages [odoo14-addons-oca-crm]: executing diffoscope
+[2023-04-27 05:54:48] INFO root fetch - processPackages [odoo14-addons-oca-crm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_crm-14.0.20221213.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_crm-14.0.20230426.0-py3-none-any.whl.zip --markdown 20230427/o/odoo14-addons-oca-crm/14.0.20221213.0-14.0.20230426.0/diff.md --exclude *.pyd
+[2023-04-27 05:54:49] INFO root fetch - processPackages [pyllamacpp]: Downloading https://files.pythonhosted.org/packages/ef/f2/3b426f7e2e97f8fd1a96ebea2c545a79d150c16a0e80d0c6d433de7b7bdc/pyllamacpp-2.0.0-pp38-pypy38_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-27 05:54:49] INFO root fetch - processPackages [pyllamacpp]: executing diffoscope
+[2023-04-27 05:54:49] INFO root fetch - processPackages [pyllamacpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyllamacpp-1.0.7.tar.gz tmp/pyllamacpp-2.0.0-pp38-pypy38_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230427/p/pyllamacpp/1.0.7-2.0.0/diff.md --exclude *.pyd
+[2023-04-27 05:54:49] INFO root fetch - processPackages [crossmark-jotform-api]: Start processing: nitrado
+[2023-04-27 05:54:49] INFO root fetch - main [MainThread]: End processing [crossmark-jotform-api]: success
+[2023-04-27 05:54:49] INFO root fetch - processPackages [nitrado]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-27 05:54:49] INFO root fetch - processPackages [nitrado]: executing diffoscope
+[2023-04-27 05:54:49] INFO root fetch - processPackages [nitrado]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nitrado-1.0.8.tar.gz tmp/nitrado-1.0.9.tar.gz --markdown 20230427/n/nitrado/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-27 05:54:49] INFO root fetch - main [MainThread]: End processing [p-ttauto-crawler]: success
+[2023-04-27 05:54:49] INFO root fetch - main [MainThread]: End processing [voxelmap]: success
+[2023-04-27 05:54:49] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-04-27 05:54:50] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-crm]: success
+[2023-04-27 05:54:50] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-04-27 05:54:50] INFO root fetch - main [MainThread]: End processing [pyXhUtils]: success
+[2023-04-27 05:54:50] INFO root fetch - main [MainThread]: End processing [pyllamacpp]: success
+[2023-04-27 05:54:51] INFO root fetch - main [MainThread]: End processing [nitrado]: success
+[2023-04-27 05:54:52] INFO root fetch - main [MainThread]: End processing [PyQtGuiLib]: success
+[2023-04-27 05:55:09] INFO root fetch - main [MainThread]: End processing [sqlglot]: success
+[2023-04-27 05:55:09] INFO root fetch - main [MainThread]: Store serial: [17877309]
