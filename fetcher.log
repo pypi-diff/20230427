@@ -16517,3 +16517,132 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 12:39:18] ERROR root fetch - processPackages [ais-dom]: Timeout during execution of pkgdiff
 [2023-04-27 12:39:18] INFO root fetch - main [MainThread]: End processing [ais-dom] error
 [2023-04-27 12:39:18] INFO root fetch - main [MainThread]: Store serial: [17881449]
+[2023-04-27 12:44:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17881449]
+[2023-04-27 12:44:28] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-04-27 12:44:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: koai
+[2023-04-27 12:44:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: refractio
+[2023-04-27 12:44:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pddl-plus-parser
+[2023-04-27 12:44:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spotinst-agent-beta
+[2023-04-27 12:44:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: krillscan
+[2023-04-27 12:44:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lovely-jax
+[2023-04-27 12:44:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: neural-data-simulator
+[2023-04-27 12:44:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: QuasarCode
+[2023-04-27 12:44:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: perm-broker
+[2023-04-27 12:44:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rest-api-supporter
+[2023-04-27 12:44:28] WARNING root fetch - processPackages [refractio]: Skipping, unable to determine old version
+[2023-04-27 12:44:28] INFO root fetch - processPackages [spotinst-agent-beta]: New version: [2.2.263] Old Version: [2.2.262]
+[2023-04-27 12:44:28] INFO root fetch - processPackages [koai]: New version: [1.0.8.7] Old Version: [1.0.8.6]
+[2023-04-27 12:44:28] INFO root fetch - processPackages [refractio]: Start processing: tomlkit
+[2023-04-27 12:44:28] INFO root fetch - main [MainThread]: End processing [refractio] error
+[2023-04-27 12:44:28] INFO root fetch - processPackages [neural-data-simulator]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-04-27 12:44:28] INFO root fetch - processPackages [perm-broker]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-04-27 12:44:28] INFO root fetch - processPackages [pddl-plus-parser]: New version: [3.3.6] Old Version: [3.3.5]
+[2023-04-27 12:44:28] INFO root fetch - processPackages [lovely-jax]: New version: [0.1.2] Old Version: [0.1.1.dev0]
+[2023-04-27 12:44:28] INFO root fetch - processPackages [QuasarCode]: New version: [0.7.5] Old Version: [0.7.4]
+[2023-04-27 12:44:28] INFO root fetch - processPackages [rest-api-supporter]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-27 12:44:28] INFO root fetch - processPackages [krillscan]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-27 12:44:28] INFO root fetch - processPackages [tomlkit]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-04-27 12:44:28] INFO root fetch - processPackages [spotinst-agent-beta]: Downloading https://files.pythonhosted.org/packages/08/60/af2cbfa0c2f7b99e3e193255f3de3bc20f460309aeb12050932d988491f2/spotinst-agent-beta-2.2.262.tar.gz
+[2023-04-27 12:44:28] INFO root fetch - processPackages [QuasarCode]: Downloading https://files.pythonhosted.org/packages/b0/4b/f6ce9e785cfd2890f259f056e9a2d4045f5929bbc2b59208ce82705b7418/QuasarCode-0.7.4.tar.gz
+[2023-04-27 12:44:28] INFO root fetch - processPackages [neural-data-simulator]: Downloading https://files.pythonhosted.org/packages/c7/c4/3786ae153ed63ce831c480ed1f99d3d9828f3bb71c41805ab40dbda726fa/neural_data_simulator-0.1.2.tar.gz
+[2023-04-27 12:44:28] INFO root fetch - processPackages [perm-broker]: Downloading https://files.pythonhosted.org/packages/57/c5/5091eb3e676d99a9d96efd9c6629a53ba0b51d0112e17e705c55e6894b6a/perm_broker-0.1.6.tar.gz
+[2023-04-27 12:44:28] INFO root fetch - processPackages [rest-api-supporter]: Downloading https://files.pythonhosted.org/packages/87/4a/09b0044f537e99452b236a66446c597aa1b7dffaa1a8d4e1017d8d65e7ca/rest-api-supporter-0.0.5.tar.gz
+[2023-04-27 12:44:28] INFO root fetch - processPackages [tomlkit]: Downloading https://files.pythonhosted.org/packages/9a/32/1803492307e16ed41c6f2410a3c710fdfb8bd529d55cc3ada81f3adf268c/tomlkit-0.9.1.tar.gz
+[2023-04-27 12:44:28] INFO root fetch - processPackages [lovely-jax]: Downloading https://files.pythonhosted.org/packages/87/39/49180ef58184cd34ab77aabee5d4d713bdb2b9cf0856afb265c56fc3d126/lovely-jax-0.1.1.dev0.tar.gz
+[2023-04-27 12:44:28] INFO root fetch - processPackages [koai]: executing diffoscope
+[2023-04-27 12:44:28] INFO root fetch - processPackages [koai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/koai-1.0.8.6-cp38-cp38-macosx_13_0_arm64.whl.zip tmp/koai-1.0.8.7-cp38-cp38-macosx_13_0_arm64.whl.zip --markdown 20230427/k/koai/1.0.8.6-1.0.8.7/diff.md --exclude *.pyd
+[2023-04-27 12:44:28] INFO root fetch - processPackages [pddl-plus-parser]: Downloading https://files.pythonhosted.org/packages/c7/67/26c5fc211fc59787f420b090f6fb55b68ad57fb4d6cd36aaa3a26c9df4de/pddl-plus-parser-3.3.6.tar.gz
+[2023-04-27 12:44:28] INFO root fetch - processPackages [spotinst-agent-beta]: Downloading https://files.pythonhosted.org/packages/ef/d8/7c8b8c0e27e6b623e1258717839538995b11f6f0237053fb0ecbd0d3a8ad/spotinst-agent-beta-2.2.263.tar.gz
+[2023-04-27 12:44:28] INFO root fetch - processPackages [krillscan]: executing diffoscope
+[2023-04-27 12:44:28] INFO root fetch - processPackages [krillscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krillscan-0.2.8.tar.gz tmp/krillscan-0.2.9.tar.gz --markdown 20230427/k/krillscan/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-27 12:44:28] INFO root fetch - processPackages [rest-api-supporter]: Downloading https://files.pythonhosted.org/packages/77/9a/b09ce08ee11f91ecf62e3aff17f014036943dafd5a0c9b2ec1422bb50622/rest-api-supporter-0.0.6.tar.gz
+[2023-04-27 12:44:28] INFO root fetch - processPackages [perm-broker]: Downloading https://files.pythonhosted.org/packages/0c/67/8dc3334b05d840609ae1cf13441239de4ee10d909c3f0edfde22bd7accd8/perm_broker-0.1.7.tar.gz
+[2023-04-27 12:44:28] INFO root fetch - processPackages [pddl-plus-parser]: executing diffoscope
+[2023-04-27 12:44:28] INFO root fetch - processPackages [pddl-plus-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pddl-plus-parser-3.3.5.tar.gz tmp/pddl-plus-parser-3.3.6.tar.gz --markdown 20230427/p/pddl-plus-parser/3.3.5-3.3.6/diff.md --exclude *.pyd
+[2023-04-27 12:44:28] INFO root fetch - processPackages [neural-data-simulator]: Downloading https://files.pythonhosted.org/packages/08/37/2b6470d58ed229e784ae4fb5d25525266841e425072563870408bf8a5818/neural_data_simulator-0.2.0.tar.gz
+[2023-04-27 12:44:28] INFO root fetch - processPackages [spotinst-agent-beta]: executing diffoscope
+[2023-04-27 12:44:28] INFO root fetch - processPackages [spotinst-agent-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotinst-agent-beta-2.2.262.tar.gz tmp/spotinst-agent-beta-2.2.263.tar.gz --markdown 20230427/s/spotinst-agent-beta/2.2.262-2.2.263/diff.md --exclude *.pyd
+[2023-04-27 12:44:28] INFO root fetch - processPackages [rest-api-supporter]: executing diffoscope
+[2023-04-27 12:44:28] INFO root fetch - processPackages [rest-api-supporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rest-api-supporter-0.0.5.tar.gz tmp/rest-api-supporter-0.0.6.tar.gz --markdown 20230427/r/rest-api-supporter/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-27 12:44:28] INFO root fetch - processPackages [QuasarCode]: Downloading https://files.pythonhosted.org/packages/53/d9/6a014f1f8c45ccdc597aa01e0dc18ae27eafe6058a83020fa47805bd5b31/QuasarCode-0.7.5.tar.gz
+[2023-04-27 12:44:28] INFO root fetch - processPackages [perm-broker]: executing diffoscope
+[2023-04-27 12:44:28] INFO root fetch - processPackages [perm-broker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perm_broker-0.1.6.tar.gz tmp/perm_broker-0.1.7.tar.gz --markdown 20230427/p/perm-broker/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-04-27 12:44:28] INFO root fetch - processPackages [tomlkit]: Downloading https://files.pythonhosted.org/packages/3c/9b/62c6f4e28152a9473d3ecceef627deaa32bec23f9666a5ed4efa6067380f/tomlkit-0.9.2.tar.gz
+[2023-04-27 12:44:28] INFO root fetch - processPackages [neural-data-simulator]: executing diffoscope
+[2023-04-27 12:44:28] INFO root fetch - processPackages [neural-data-simulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neural_data_simulator-0.1.2.tar.gz tmp/neural_data_simulator-0.2.0.tar.gz --markdown 20230427/n/neural-data-simulator/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-04-27 12:44:28] INFO root fetch - processPackages [QuasarCode]: executing diffoscope
+[2023-04-27 12:44:28] INFO root fetch - processPackages [QuasarCode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuasarCode-0.7.4.tar.gz tmp/QuasarCode-0.7.5.tar.gz --markdown 20230427/Q/QuasarCode/0.7.4-0.7.5/diff.md --exclude *.pyd
+[2023-04-27 12:44:29] INFO root fetch - processPackages [tomlkit]: executing diffoscope
+[2023-04-27 12:44:29] INFO root fetch - processPackages [tomlkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tomlkit-0.9.1.tar.gz tmp/tomlkit-0.9.2.tar.gz --markdown 20230427/t/tomlkit/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-04-27 12:44:29] INFO root fetch - processPackages [lovely-jax]: Downloading https://files.pythonhosted.org/packages/02/6f/e1a0aa13800bb875e783c442fa6744c3a6442b3fd1aed42fc736f145152c/lovely-jax-0.1.2.tar.gz
+[2023-04-27 12:44:29] INFO root fetch - processPackages [lovely-jax]: executing diffoscope
+[2023-04-27 12:44:29] INFO root fetch - processPackages [lovely-jax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lovely-jax-0.1.1.dev0.tar.gz tmp/lovely-jax-0.1.2.tar.gz --markdown 20230427/l/lovely-jax/0.1.1.dev0-0.1.2/diff.md --exclude *.pyd
+[2023-04-27 12:44:30] INFO root fetch - processPackages [rest-api-supporter]: Start processing: questdb-connect
+[2023-04-27 12:44:30] INFO root fetch - main [MainThread]: End processing [rest-api-supporter]: success
+[2023-04-27 12:44:30] INFO root fetch - processPackages [questdb-connect]: New version: [0.0.24] Old Version: [0.0.23]
+[2023-04-27 12:44:30] INFO root fetch - processPackages [QuasarCode]: Start processing: lnschema_bionty
+[2023-04-27 12:44:30] INFO root fetch - main [MainThread]: End processing [QuasarCode]: success
+[2023-04-27 12:44:30] INFO root fetch - processPackages [lnschema_bionty]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-04-27 12:44:30] INFO root fetch - processPackages [questdb-connect]: Downloading https://files.pythonhosted.org/packages/c5/d3/419475f1c16f214d1aaf6068f5a36f0af9c6a74084461fdefa9051ba5083/questdb-connect-0.0.24.tar.gz
+[2023-04-27 12:44:30] INFO root fetch - processPackages [pddl-plus-parser]: Start processing: optiframe
+[2023-04-27 12:44:30] INFO root fetch - main [MainThread]: End processing [pddl-plus-parser]: success
+[2023-04-27 12:44:30] INFO root fetch - processPackages [spotinst-agent-beta]: Start processing: apache-airflow-providers-amazon
+[2023-04-27 12:44:30] INFO root fetch - main [MainThread]: End processing [spotinst-agent-beta]: success
+[2023-04-27 12:44:30] INFO root fetch - processPackages [lnschema_bionty]: executing diffoscope
+[2023-04-27 12:44:30] INFO root fetch - processPackages [lnschema_bionty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnschema_bionty-0.8.1.tar.gz tmp/lnschema_bionty-0.9.0.tar.gz --markdown 20230427/l/lnschema_bionty/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-04-27 12:44:30] INFO root fetch - processPackages [optiframe]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-04-27 12:44:30] INFO root fetch - processPackages [apache-airflow-providers-amazon]: New version: [8.0.0rc3] Old Version: [8.0.0rc2]
+[2023-04-27 12:44:30] INFO root fetch - processPackages [questdb-connect]: executing diffoscope
+[2023-04-27 12:44:30] INFO root fetch - processPackages [questdb-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/questdb-connect-0.0.23.tar.gz tmp/questdb-connect-0.0.24.tar.gz --markdown 20230427/q/questdb-connect/0.0.23-0.0.24/diff.md --exclude *.pyd
+[2023-04-27 12:44:30] INFO root fetch - processPackages [apache-airflow-providers-amazon]: executing diffoscope
+[2023-04-27 12:44:30] INFO root fetch - processPackages [apache-airflow-providers-amazon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-amazon-8.0.0rc2.tar.gz tmp/apache-airflow-providers-amazon-8.0.0rc3.tar.gz --markdown 20230427/a/apache-airflow-providers-amazon/8.0.0rc2-8.0.0rc3/diff.md --exclude *.pyd
+[2023-04-27 12:44:30] INFO root fetch - processPackages [neural-data-simulator]: Start processing: nldb
+[2023-04-27 12:44:30] INFO root fetch - main [MainThread]: End processing [neural-data-simulator]: success
+[2023-04-27 12:44:30] INFO root fetch - processPackages [nldb]: New version: [0.3.7] Old Version: [0.3.5]
+[2023-04-27 12:44:30] INFO root fetch - processPackages [optiframe]: Downloading https://files.pythonhosted.org/packages/c4/10/51e14dfc0bda09820e7f6bf2d4d32b6e956d7d20d95b348d1b6067ee481a/optiframe-0.3.0.tar.gz
+[2023-04-27 12:44:30] INFO root fetch - processPackages [lovely-jax]: Start processing: hotsos
+[2023-04-27 12:44:30] INFO root fetch - main [MainThread]: End processing [lovely-jax]: success
+[2023-04-27 12:44:30] INFO root fetch - processPackages [hotsos]: New version: [1.1.13.post9] Old Version: [1.1.13.post8]
+[2023-04-27 12:44:31] INFO root fetch - processPackages [nldb]: Downloading https://files.pythonhosted.org/packages/08/54/40f554e64876aa6469c76d86ffc252040e70fce4fd778904b5f15868bd11/nldb-0.3.7.tar.gz
+[2023-04-27 12:44:31] INFO root fetch - processPackages [hotsos]: executing diffoscope
+[2023-04-27 12:44:31] INFO root fetch - processPackages [hotsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotsos-1.1.13.post8.tar.gz tmp/hotsos-1.1.13.post9.tar.gz --markdown 20230427/h/hotsos/1.1.13.post8-1.1.13.post9/diff.md --exclude *.pyd
+[2023-04-27 12:44:31] INFO root fetch - processPackages [optiframe]: Downloading https://files.pythonhosted.org/packages/ae/97/714347a46e8df581764bd1a0a6dcb5882cfa9bdfd78601892437a921e95b/optiframe-0.4.0.tar.gz
+[2023-04-27 12:44:31] INFO root fetch - processPackages [optiframe]: executing diffoscope
+[2023-04-27 12:44:31] INFO root fetch - processPackages [optiframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optiframe-0.3.0.tar.gz tmp/optiframe-0.4.0.tar.gz --markdown 20230427/o/optiframe/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-04-27 12:44:31] INFO root fetch - processPackages [koai]: Start processing: krillscan
+[2023-04-27 12:44:31] INFO root fetch - main [MainThread]: End processing [koai]: success
+[2023-04-27 12:44:31] INFO root fetch - processPackages [nldb]: executing diffoscope
+[2023-04-27 12:44:31] INFO root fetch - processPackages [nldb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nldb-0.3.5.tar.gz tmp/nldb-0.3.7.tar.gz --markdown 20230427/n/nldb/0.3.5-0.3.7/diff.md --exclude *.pyd
+[2023-04-27 12:44:31] INFO root fetch - processPackages [krillscan]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-27 12:44:31] INFO root fetch - processPackages [krillscan]: executing diffoscope
+[2023-04-27 12:44:31] INFO root fetch - processPackages [krillscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krillscan-0.2.8.tar.gz tmp/krillscan-0.2.9.tar.gz --markdown 20230427/k/krillscan/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-27 12:44:31] INFO root fetch - processPackages [perm-broker]: Start processing: robotmk
+[2023-04-27 12:44:31] INFO root fetch - main [MainThread]: End processing [perm-broker]: success
+[2023-04-27 12:44:31] INFO root fetch - processPackages [robotmk]: New version: [0.0.57] Old Version: [0.0.56]
+[2023-04-27 12:44:31] INFO root fetch - processPackages [robotmk]: executing diffoscope
+[2023-04-27 12:44:31] INFO root fetch - processPackages [robotmk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotmk-0.0.56.tar.gz tmp/robotmk-0.0.57.tar.gz --markdown 20230427/r/robotmk/0.0.56-0.0.57/diff.md --exclude *.pyd
+[2023-04-27 12:44:32] INFO root fetch - processPackages [questdb-connect]: Start processing: th2-data-services-lwdp
+[2023-04-27 12:44:32] INFO root fetch - main [MainThread]: End processing [questdb-connect]: success
+[2023-04-27 12:44:32] INFO root fetch - processPackages [th2-data-services-lwdp]: New version: [2.0.2.0.dev4818834136] Old Version: [2.0.2.0.dev4794498686]
+[2023-04-27 12:44:32] INFO root fetch - processPackages [nldb]: Start processing: cognitivefactory-interactive-clustering-gui
+[2023-04-27 12:44:32] INFO root fetch - main [MainThread]: End processing [nldb]: success
+[2023-04-27 12:44:32] INFO root fetch - processPackages [cognitivefactory-interactive-clustering-gui]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-04-27 12:44:32] INFO root fetch - processPackages [th2-data-services-lwdp]: Downloading https://files.pythonhosted.org/packages/ba/4a/87da7501c1969d48b4e1c78d81eafc934a1ed7a622af08c348738fb6c7d5/th2_data_services_lwdp-2.0.2.0.dev4794498686.tar.gz
+[2023-04-27 12:44:32] INFO root fetch - main [MainThread]: End processing [optiframe]: success
+[2023-04-27 12:44:32] INFO root fetch - processPackages [cognitivefactory-interactive-clustering-gui]: Downloading https://files.pythonhosted.org/packages/a2/34/c0f354329b87af3ec7ceff6f51cc347222822051aad55801d0c575e494d5/cognitivefactory-interactive-clustering-gui-0.4.0.tar.gz
+[2023-04-27 12:44:32] INFO root fetch - main [MainThread]: End processing [lnschema_bionty]: success
+[2023-04-27 12:44:32] INFO root fetch - processPackages [th2-data-services-lwdp]: Downloading https://files.pythonhosted.org/packages/43/a0/4e1f530240dfa80723dab4b021e49e032b6ffcb2f485bb8d39ed7a16584e/th2_data_services_lwdp-2.0.2.0.dev4818834136.tar.gz
+[2023-04-27 12:44:32] INFO root fetch - main [MainThread]: End processing [robotmk]: success
+[2023-04-27 12:44:32] INFO root fetch - processPackages [th2-data-services-lwdp]: executing diffoscope
+[2023-04-27 12:44:32] INFO root fetch - processPackages [th2-data-services-lwdp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services_lwdp-2.0.2.0.dev4794498686.tar.gz tmp/th2_data_services_lwdp-2.0.2.0.dev4818834136.tar.gz --markdown 20230427/t/th2-data-services-lwdp/2.0.2.0.dev4794498686-2.0.2.0.dev4818834136/diff.md --exclude *.pyd
+[2023-04-27 12:44:33] INFO root fetch - processPackages [cognitivefactory-interactive-clustering-gui]: Downloading https://files.pythonhosted.org/packages/5e/0c/ad394a913bbdfb818e9130926f19c6fcc438b7ce563c1d1a6f25df05e2d1/cognitivefactory-interactive-clustering-gui-0.4.1.tar.gz
+[2023-04-27 12:44:33] INFO root fetch - main [MainThread]: End processing [krillscan]: success
+[2023-04-27 12:44:33] INFO root fetch - processPackages [cognitivefactory-interactive-clustering-gui]: executing diffoscope
+[2023-04-27 12:44:33] INFO root fetch - processPackages [cognitivefactory-interactive-clustering-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognitivefactory-interactive-clustering-gui-0.4.0.tar.gz tmp/cognitivefactory-interactive-clustering-gui-0.4.1.tar.gz --markdown 20230427/c/cognitivefactory-interactive-clustering-gui/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-04-27 12:44:33] INFO root fetch - main [MainThread]: End processing [krillscan]: success
+[2023-04-27 12:44:34] INFO root fetch - main [MainThread]: End processing [th2-data-services-lwdp]: success
+[2023-04-27 12:44:35] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-amazon]: success
+[2023-04-27 12:44:36] INFO root fetch - main [MainThread]: End processing [tomlkit]: success
+[2023-04-27 12:44:36] INFO root fetch - main [MainThread]: End processing [hotsos]: success
+[2023-04-27 12:44:38] INFO root fetch - main [MainThread]: End processing [cognitivefactory-interactive-clustering-gui]: success
+[2023-04-27 12:44:38] INFO root fetch - main [MainThread]: Store serial: [17881515]
