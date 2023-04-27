@@ -7672,3 +7672,47 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 03:46:22] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
 [2023-04-27 03:46:22] INFO root fetch - main [MainThread]: End processing [torch-waymo]: success
 [2023-04-27 03:46:22] INFO root fetch - main [MainThread]: Store serial: [17876405]
+[2023-04-27 03:51:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17876405]
+[2023-04-27 03:51:32] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-27 03:51:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deepdriver
+[2023-04-27 03:51:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: homeassistant-stubs
+[2023-04-27 03:51:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbdev-apl
+[2023-04-27 03:51:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alignem
+[2023-04-27 03:51:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyBKT
+[2023-04-27 03:51:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dummy-kinematics
+[2023-04-27 03:51:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ezfinpy
+[2023-04-27 03:51:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pypmed
+[2023-04-27 03:51:32] INFO root fetch - processPackages [dummy-kinematics]: New version: [0.0.7a0] Old Version: [0.0.6]
+[2023-04-27 03:51:32] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.737] Old Version: [0.0.736]
+[2023-04-27 03:51:32] WARNING root fetch - processPackages [ezfinpy]: Skipping, unable to determine old version
+[2023-04-27 03:51:32] INFO root fetch - main [MainThread]: End processing [ezfinpy] error
+[2023-04-27 03:51:32] INFO root fetch - processPackages [pypmed]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-04-27 03:51:32] INFO root fetch - processPackages [deepdriver]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-04-27 03:51:32] INFO root fetch - processPackages [alignem]: New version: [0.5.4.1] Old Version: [0.5.4]
+[2023-04-27 03:51:32] INFO root fetch - processPackages [dummy-kinematics]: executing diffoscope
+[2023-04-27 03:51:32] INFO root fetch - processPackages [dummy-kinematics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dummy_kinematics-0.0.6.tar.gz tmp/dummy_kinematics-0.0.7a0.tar.gz --markdown 20230427/d/dummy-kinematics/0.0.6-0.0.7a0/diff.md --exclude *.pyd
+[2023-04-27 03:51:32] INFO root fetch - processPackages [pyBKT]: New version: [1.4.1] Old Version: [1.4]
+[2023-04-27 03:51:32] INFO root fetch - processPackages [homeassistant-stubs]: New version: [2023.5.0b0] Old Version: [2023.4.6]
+[2023-04-27 03:51:32] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-04-27 03:51:32] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.736.tar.gz tmp/nbdev-apl-0.0.737.tar.gz --markdown 20230427/n/nbdev-apl/0.0.736-0.0.737/diff.md --exclude *.pyd
+[2023-04-27 03:51:32] INFO root fetch - processPackages [alignem]: Downloading https://files.pythonhosted.org/packages/9d/f1/da1bb5b003782dda65d643c22814ad365b9753e9c1bbe1a00a02a55217ec/alignem-0.5.4.1.tar.gz
+[2023-04-27 03:51:32] INFO root fetch - processPackages [pypmed]: Downloading https://files.pythonhosted.org/packages/6b/a2/76647bb258ca178ab25d33d4d07833df71d44cabf1a06321276c261422ff/pypmed-0.1.7.tar.gz
+[2023-04-27 03:51:32] WARNING root fetch - processPackages [alignem]: Skipping package: exceeds size limit 42503331>=10485760
+[2023-04-27 03:51:32] INFO root fetch - main [MainThread]: End processing [alignem] error
+[2023-04-27 03:51:32] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/a4/1d/3908686489d6c521b103fff51bc095ff2fe7f9cbbb241f27a82766f7df3e/homeassistant_stubs-2023.4.6.tar.gz
+[2023-04-27 03:51:32] INFO root fetch - processPackages [deepdriver]: executing diffoscope
+[2023-04-27 03:51:32] INFO root fetch - processPackages [deepdriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepdriver-0.9.4.tar.gz tmp/deepdriver-0.9.5.tar.gz --markdown 20230427/d/deepdriver/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-04-27 03:51:32] INFO root fetch - processPackages [pyBKT]: Downloading https://files.pythonhosted.org/packages/71/69/6b5e0169b2167cde787cdd1200582307994d35f012c5c499e7c09db50fc4/pyBKT-1.4.tar.gz
+[2023-04-27 03:51:32] INFO root fetch - processPackages [pypmed]: executing diffoscope
+[2023-04-27 03:51:32] INFO root fetch - processPackages [pypmed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypmed-0.1.6.tar.gz tmp/pypmed-0.1.7.tar.gz --markdown 20230427/p/pypmed/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-04-27 03:51:32] WARNING root fetch - processPackages [pyBKT]: Skipping package: exceeds size limit 32674262>=10485760
+[2023-04-27 03:51:32] INFO root fetch - main [MainThread]: End processing [pyBKT] error
+[2023-04-27 03:51:33] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/a8/ac/d21be32e857d0cf56dac4111128a595842437d6d0fc0f9cbf018080943d0/homeassistant_stubs-2023.5.0b0.tar.gz
+[2023-04-27 03:51:33] INFO root fetch - processPackages [homeassistant-stubs]: executing diffoscope
+[2023-04-27 03:51:33] INFO root fetch - processPackages [homeassistant-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homeassistant_stubs-2023.4.6.tar.gz tmp/homeassistant_stubs-2023.5.0b0.tar.gz --markdown 20230427/h/homeassistant-stubs/2023.4.6-2023.5.0b0/diff.md --exclude *.pyd
+[2023-04-27 03:51:33] INFO root fetch - main [MainThread]: End processing [dummy-kinematics]: success
+[2023-04-27 03:51:33] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-04-27 03:51:33] INFO root fetch - main [MainThread]: End processing [pypmed]: success
+[2023-04-27 03:51:34] INFO root fetch - main [MainThread]: End processing [deepdriver]: success
+[2023-04-27 03:52:24] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
+[2023-04-27 03:52:24] INFO root fetch - main [MainThread]: Store serial: [17876491]
