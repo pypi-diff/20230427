@@ -15535,3 +15535,101 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 11:46:24] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkroma]: success
 [2023-04-27 11:46:29] INFO root fetch - main [MainThread]: End processing [reportlab]: success
 [2023-04-27 11:46:29] INFO root fetch - main [MainThread]: Store serial: [17880886]
+[2023-04-27 11:51:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17880886]
+[2023-04-27 11:51:38] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-04-27 11:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deepdriver
+[2023-04-27 11:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: daftlistings
+[2023-04-27 11:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ypywidgets
+[2023-04-27 11:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qf-lib
+[2023-04-27 11:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: complex-curve-fit-gui
+[2023-04-27 11:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: isla-solver
+[2023-04-27 11:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pie-extended
+[2023-04-27 11:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sherlibs
+[2023-04-27 11:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: deepdriver
+[2023-04-27 11:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fortigate-api
+[2023-04-27 11:51:38] INFO root fetch - processPackages [ypywidgets]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-04-27 11:51:38] INFO root fetch - processPackages [complex-curve-fit-gui]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-04-27 11:51:38] INFO root fetch - processPackages [sherlibs]: New version: [7.4.5] Old Version: [7.4.4]
+[2023-04-27 11:51:38] INFO root fetch - processPackages [qf-lib]: New version: [2.2.6] Old Version: [2.2.5]
+[2023-04-27 11:51:38] INFO root fetch - processPackages [daftlistings]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-04-27 11:51:38] INFO root fetch - processPackages [isla-solver]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-04-27 11:51:38] INFO root fetch - processPackages [deepdriver]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-04-27 11:51:38] INFO root fetch - processPackages [deepdriver]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-04-27 11:51:38] INFO root fetch - processPackages [fortigate-api]: New version: [1.2.2] Old Version: [1.1.1]
+[2023-04-27 11:51:38] INFO root fetch - processPackages [isla-solver]: executing diffoscope
+[2023-04-27 11:51:38] INFO root fetch - processPackages [isla-solver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isla-solver-1.9.8.tar.gz tmp/isla-solver-1.9.9.tar.gz --markdown 20230427/i/isla-solver/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-04-27 11:51:38] INFO root fetch - processPackages [pie-extended]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-04-27 11:51:38] INFO root fetch - processPackages [complex-curve-fit-gui]: Downloading https://files.pythonhosted.org/packages/90/1b/21fbf0ef3cc0255480c9782cdeae52f0e03d47e4cba90da286f4457d21a2/complex_curve_fit_gui-1.1.5.tar.gz
+[2023-04-27 11:51:38] INFO root fetch - processPackages [ypywidgets]: Downloading https://files.pythonhosted.org/packages/51/ba/15c7658050fbc32bbf2ae0f1037b738a7234dadefc95c75792281545b561/ypywidgets-0.2.0.tar.gz
+[2023-04-27 11:51:38] INFO root fetch - processPackages [daftlistings]: Downloading https://files.pythonhosted.org/packages/9c/bc/62e4fe7dc8a60b686ee8d22105f217da63a4b936f4f0bb96f0aa8353365c/daftlistings-2.0.2.tar.gz
+[2023-04-27 11:51:38] INFO root fetch - processPackages [qf-lib]: Downloading https://files.pythonhosted.org/packages/ee/ac/a0fda3da229eed04659be9bdef27aafa71bac4be24de1cca0554e4241610/qf-lib-2.2.5.tar.gz
+[2023-04-27 11:51:38] INFO root fetch - processPackages [sherlibs]: Downloading https://files.pythonhosted.org/packages/28/72/0cebb7f3303dd745caf545594099cd8d51902e2ebfd7c12388808728beaa/sherlibs-7.4.5.tar.gz
+[2023-04-27 11:51:39] WARNING root fetch - processPackages [qf-lib]: Skipping package: exceeds size limit 11402189>=10485760
+[2023-04-27 11:51:39] INFO root fetch - processPackages [qf-lib]: Start processing: bagbag
+[2023-04-27 11:51:39] INFO root fetch - main [MainThread]: End processing [qf-lib] error
+[2023-04-27 11:51:39] INFO root fetch - processPackages [pie-extended]: Downloading https://files.pythonhosted.org/packages/de/e4/108716183a57880eee257b3ec63434c80ef2723fbce740013c89b5b1814e/pie_extended-0.0.9.tar.gz
+[2023-04-27 11:51:39] INFO root fetch - processPackages [sherlibs]: executing diffoscope
+[2023-04-27 11:51:39] INFO root fetch - processPackages [sherlibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sherlibs-7.4.4.tar.gz tmp/sherlibs-7.4.5.tar.gz --markdown 20230427/s/sherlibs/7.4.4-7.4.5/diff.md --exclude *.pyd
+[2023-04-27 11:51:39] INFO root fetch - processPackages [bagbag]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-04-27 11:51:39] INFO root fetch - processPackages [deepdriver]: executing diffoscope
+[2023-04-27 11:51:39] INFO root fetch - processPackages [deepdriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepdriver-0.9.4.tar.gz tmp/deepdriver-0.9.5.tar.gz --markdown 20230427/d/deepdriver/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-04-27 11:51:39] INFO root fetch - processPackages [deepdriver]: executing diffoscope
+[2023-04-27 11:51:39] INFO root fetch - processPackages [deepdriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepdriver-0.9.4.tar.gz tmp/deepdriver-0.9.5.tar.gz --markdown 20230427/d/deepdriver/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-04-27 11:51:39] INFO root fetch - processPackages [complex-curve-fit-gui]: Downloading https://files.pythonhosted.org/packages/3e/80/7eb8d73038ff44c4df168f092e3dd9fe9ebebdbe6635f07f2a1d2c874af6/complex_curve_fit_gui-1.1.6.tar.gz
+[2023-04-27 11:51:39] INFO root fetch - processPackages [fortigate-api]: executing diffoscope
+[2023-04-27 11:51:39] INFO root fetch - processPackages [fortigate-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fortigate_api-1.1.1.tar.gz tmp/fortigate_api-1.2.2.tar.gz --markdown 20230427/f/fortigate-api/1.1.1-1.2.2/diff.md --exclude *.pyd
+[2023-04-27 11:51:39] INFO root fetch - processPackages [ypywidgets]: Downloading https://files.pythonhosted.org/packages/96/f9/6870f52e7ef8a0d5ae7f79204af56177ffdc03eb0979f28209587b5a6e29/ypywidgets-0.3.0.tar.gz
+[2023-04-27 11:51:39] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-04-27 11:51:39] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.9.5.tar.gz tmp/bagbag-0.9.6.tar.gz --markdown 20230427/b/bagbag/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-04-27 11:51:39] INFO root fetch - processPackages [complex-curve-fit-gui]: executing diffoscope
+[2023-04-27 11:51:39] INFO root fetch - processPackages [complex-curve-fit-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/complex_curve_fit_gui-1.1.5.tar.gz tmp/complex_curve_fit_gui-1.1.6.tar.gz --markdown 20230427/c/complex-curve-fit-gui/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-04-27 11:51:39] INFO root fetch - processPackages [ypywidgets]: executing diffoscope
+[2023-04-27 11:51:39] INFO root fetch - processPackages [ypywidgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ypywidgets-0.2.0.tar.gz tmp/ypywidgets-0.3.0.tar.gz --markdown 20230427/y/ypywidgets/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-04-27 11:51:39] INFO root fetch - processPackages [daftlistings]: Downloading https://files.pythonhosted.org/packages/34/f6/abe85ff0d9b96ec94157042f093602e7715a006d0829a76f5daf8b0e1910/daftlistings-2.0.3.tar.gz
+[2023-04-27 11:51:39] INFO root fetch - processPackages [daftlistings]: executing diffoscope
+[2023-04-27 11:51:39] INFO root fetch - processPackages [daftlistings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daftlistings-2.0.2.tar.gz tmp/daftlistings-2.0.3.tar.gz --markdown 20230427/d/daftlistings/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-04-27 11:51:39] INFO root fetch - processPackages [pie-extended]: Downloading https://files.pythonhosted.org/packages/8b/2e/6507468ed64a399d0d3ae0be3b97771239505cb34d6de40aa81266232b79/pie_extended-0.1.0.tar.gz
+[2023-04-27 11:51:39] INFO root fetch - processPackages [pie-extended]: executing diffoscope
+[2023-04-27 11:51:39] INFO root fetch - processPackages [pie-extended]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pie_extended-0.0.9.tar.gz tmp/pie_extended-0.1.0.tar.gz --markdown 20230427/p/pie-extended/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-04-27 11:51:41] INFO root fetch - processPackages [ypywidgets]: Start processing: localstack-core
+[2023-04-27 11:51:41] INFO root fetch - main [MainThread]: End processing [ypywidgets]: success
+[2023-04-27 11:51:41] INFO root fetch - processPackages [localstack-core]: New version: [2.0.3.dev20230427074749] Old Version: [2.0.3.dev20230427070834]
+[2023-04-27 11:51:41] INFO root fetch - processPackages [bagbag]: Start processing: tonconsole
+[2023-04-27 11:51:41] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-04-27 11:51:41] INFO root fetch - processPackages [tonconsole]: New version: [0.0.23] Old Version: [0.0.22]
+[2023-04-27 11:51:41] INFO root fetch - processPackages [sherlibs]: Start processing: drb-driver-wms
+[2023-04-27 11:51:41] INFO root fetch - main [MainThread]: End processing [sherlibs]: success
+[2023-04-27 11:51:41] INFO root fetch - processPackages [fortigate-api]: Start processing: converter-package
+[2023-04-27 11:51:41] INFO root fetch - main [MainThread]: End processing [fortigate-api]: success
+[2023-04-27 11:51:41] INFO root fetch - processPackages [converter-package]: New version: [2.8] Old Version: [2.7]
+[2023-04-27 11:51:41] INFO root fetch - processPackages [drb-driver-wms]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-04-27 11:51:41] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/87/94/b2ddd978595331e56b560452dec02ad9bcc50bcc42458c2ec3497d775df0/localstack-core-2.0.3.dev20230427074749.tar.gz
+[2023-04-27 11:51:41] INFO root fetch - processPackages [tonconsole]: Downloading https://files.pythonhosted.org/packages/6c/c6/3a8a3942d17266ac784b84c8a8114f8c7ff9f400202f351ccd8ee65a3ee2/tonconsole-0.0.23.tar.gz
+[2023-04-27 11:51:41] INFO root fetch - processPackages [converter-package]: executing diffoscope
+[2023-04-27 11:51:41] INFO root fetch - processPackages [converter-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/converter_package-2.7.tar.gz tmp/converter_package-2.8.tar.gz --markdown 20230427/c/converter-package/2.7-2.8/diff.md --exclude *.pyd
+[2023-04-27 11:51:41] INFO root fetch - processPackages [tonconsole]: executing diffoscope
+[2023-04-27 11:51:41] INFO root fetch - processPackages [tonconsole]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tonconsole-0.0.22.tar.gz tmp/tonconsole-0.0.23.tar.gz --markdown 20230427/t/tonconsole/0.0.22-0.0.23/diff.md --exclude *.pyd
+[2023-04-27 11:51:41] INFO root fetch - processPackages [drb-driver-wms]: Downloading https://files.pythonhosted.org/packages/e4/cd/540913eb793c7e807224d445391e8962847aaa30d592e833328495361613/drb-driver-wms-1.1.0.tar.gz
+[2023-04-27 11:51:41] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-04-27 11:51:41] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.0.3.dev20230427070834.tar.gz tmp/localstack-core-2.0.3.dev20230427074749.tar.gz --markdown 20230427/l/localstack-core/2.0.3.dev20230427070834-2.0.3.dev20230427074749/diff.md --exclude *.pyd
+[2023-04-27 11:51:41] INFO root fetch - processPackages [complex-curve-fit-gui]: Start processing: ankitrazorpay
+[2023-04-27 11:51:41] INFO root fetch - main [MainThread]: End processing [complex-curve-fit-gui]: success
+[2023-04-27 11:51:41] INFO root fetch - processPackages [drb-driver-wms]: Downloading https://files.pythonhosted.org/packages/4a/f9/2d70211c583c487cbdc6ceb651f480c29d51f8e5e295d2bf73e7ebd7395f/drb-driver-wms-1.2.0.tar.gz
+[2023-04-27 11:51:42] INFO root fetch - processPackages [ankitrazorpay]: New version: [0.2] Old Version: [0.1]
+[2023-04-27 11:51:42] INFO root fetch - processPackages [drb-driver-wms]: executing diffoscope
+[2023-04-27 11:51:42] INFO root fetch - processPackages [drb-driver-wms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drb-driver-wms-1.1.0.tar.gz tmp/drb-driver-wms-1.2.0.tar.gz --markdown 20230427/d/drb-driver-wms/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-04-27 11:51:42] INFO root fetch - main [MainThread]: End processing [deepdriver]: success
+[2023-04-27 11:51:42] INFO root fetch - processPackages [ankitrazorpay]: Downloading https://files.pythonhosted.org/packages/c2/3a/ba954729081254068c37d3b7404da0d79537f24021ee8a5d4f73ce406076/ankitrazorpay-0.1.tar.gz
+[2023-04-27 11:51:42] INFO root fetch - main [MainThread]: End processing [deepdriver]: success
+[2023-04-27 11:51:42] INFO root fetch - processPackages [ankitrazorpay]: Downloading https://files.pythonhosted.org/packages/7a/8d/ce662475467f0f8cf88a7dd10f71710d08572944e656661235353d371668/ankitrazorpay-0.2.tar.gz
+[2023-04-27 11:51:42] INFO root fetch - main [MainThread]: End processing [daftlistings]: success
+[2023-04-27 11:51:42] INFO root fetch - processPackages [ankitrazorpay]: executing diffoscope
+[2023-04-27 11:51:42] INFO root fetch - processPackages [ankitrazorpay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ankitrazorpay-0.1.tar.gz tmp/ankitrazorpay-0.2.tar.gz --markdown 20230427/a/ankitrazorpay/0.1-0.2/diff.md --exclude *.pyd
+[2023-04-27 11:51:42] INFO root fetch - main [MainThread]: End processing [pie-extended]: success
+[2023-04-27 11:51:43] INFO root fetch - main [MainThread]: End processing [isla-solver]: success
+[2023-04-27 11:51:43] INFO root fetch - main [MainThread]: End processing [tonconsole]: success
+[2023-04-27 11:51:43] INFO root fetch - main [MainThread]: End processing [drb-driver-wms]: success
+[2023-04-27 11:51:43] INFO root fetch - main [MainThread]: End processing [ankitrazorpay]: success
+[2023-04-27 11:51:43] INFO root fetch - main [MainThread]: End processing [converter-package]: success
+[2023-04-27 11:51:48] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-04-27 11:51:48] INFO root fetch - main [MainThread]: Store serial: [17880945]
