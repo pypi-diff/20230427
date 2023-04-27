@@ -19847,3 +19847,98 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 15:19:12] INFO root fetch - main [MainThread]: End processing [sgp4]: success
 [2023-04-27 15:19:13] INFO root fetch - main [MainThread]: End processing [krillscan]: success
 [2023-04-27 15:19:13] INFO root fetch - main [MainThread]: Store serial: [17883471]
+[2023-04-27 15:24:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17883471]
+[2023-04-27 15:24:24] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-27 15:24:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: worky
+[2023-04-27 15:24:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: code-loader
+[2023-04-27 15:24:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: grblogtools
+[2023-04-27 15:24:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: amlopschat
+[2023-04-27 15:24:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chaostoolkit-reliably
+[2023-04-27 15:24:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mecapacktools
+[2023-04-27 15:24:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: unit-python-sdk
+[2023-04-27 15:24:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: miss-hit
+[2023-04-27 15:24:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: miss-hit-core
+[2023-04-27 15:24:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: client-GPT
+[2023-04-27 15:24:24] INFO root fetch - processPackages [amlopschat]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-04-27 15:24:24] INFO root fetch - processPackages [client-GPT]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-27 15:24:24] INFO root fetch - processPackages [worky]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-27 15:24:24] INFO root fetch - processPackages [code-loader]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-27 15:24:24] WARNING root fetch - processPackages [mecapacktools]: Skipping, unable to determine old version
+[2023-04-27 15:24:24] INFO root fetch - processPackages [mecapacktools]: Start processing: alida-arg-parser
+[2023-04-27 15:24:24] INFO root fetch - main [MainThread]: End processing [mecapacktools] error
+[2023-04-27 15:24:24] INFO root fetch - processPackages [grblogtools]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-04-27 15:24:24] INFO root fetch - processPackages [unit-python-sdk]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-04-27 15:24:24] INFO root fetch - processPackages [miss-hit-core]: New version: [0.9.38] Old Version: [0.9.37]
+[2023-04-27 15:24:24] INFO root fetch - processPackages [miss-hit]: New version: [0.9.9] Old Version: [0.9.7]
+[2023-04-27 15:24:24] INFO root fetch - processPackages [chaostoolkit-reliably]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-04-27 15:24:24] INFO root fetch - processPackages [alida-arg-parser]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 15:24:24] INFO root fetch - processPackages [worky]: Downloading https://files.pythonhosted.org/packages/2a/54/222e700d239ce13c06f5eecc7e6b27cffbde418eebe513e76803a21be809/worky-0.1.4.tar.gz
+[2023-04-27 15:24:24] INFO root fetch - processPackages [code-loader]: Downloading https://files.pythonhosted.org/packages/2b/01/67f0774553562f5ae0a08a3b821df90162bf956d036fab47342f443911f4/code-loader-0.2.8.tar.gz
+[2023-04-27 15:24:24] INFO root fetch - processPackages [unit-python-sdk]: Downloading https://files.pythonhosted.org/packages/d6/29/65a1b06a6d3e1b295cf1788aee3b354863c1759f28c940d634f1648530a8/unit-python-sdk-0.9.2.tar.gz
+[2023-04-27 15:24:24] INFO root fetch - processPackages [miss-hit]: Downloading https://files.pythonhosted.org/packages/c2/7c/cca759481b0453b6bd05ec897d727324838ed98429ed04fa429a30638ce9/miss_hit-0.9.7.tar.gz
+[2023-04-27 15:24:24] INFO root fetch - processPackages [grblogtools]: Downloading https://files.pythonhosted.org/packages/6e/0f/3fab46837353bed70a27f278941fd0a6b4216d050d6b2f554f10c748a26c/grblogtools-2.0.0.tar.gz
+[2023-04-27 15:24:24] INFO root fetch - processPackages [miss-hit-core]: Downloading https://files.pythonhosted.org/packages/ef/e0/96a61a5bdaeecbc7c132d33281f88e6459def3c86bd1b048da2bf0891fa5/miss_hit_core-0.9.37.tar.gz
+[2023-04-27 15:24:24] INFO root fetch - processPackages [client-GPT]: Downloading https://files.pythonhosted.org/packages/04/b5/35f80b56766ab50c6cd3e32bc57addd8b1935e39650724e5e82d04804d4e/client_GPT-0.2.2.tar.gz
+[2023-04-27 15:24:24] INFO root fetch - processPackages [alida-arg-parser]: Downloading https://files.pythonhosted.org/packages/1e/7f/807f8a018afb5bca0c31c9bf97ea017372abca69cdc25fbacaedb953c49e/alida-arg-parser-0.0.8.tar.gz
+[2023-04-27 15:24:24] INFO root fetch - processPackages [amlopschat]: Downloading https://files.pythonhosted.org/packages/0d/72/903969e38bd8a72f57e22117ad901c525bb2692937b6897d20d7dea3dc2b/amlopschat-1.1.7.tar.gz
+[2023-04-27 15:24:24] INFO root fetch - processPackages [client-GPT]: executing diffoscope
+[2023-04-27 15:24:24] INFO root fetch - processPackages [client-GPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/client_GPT-0.2.1.tar.gz tmp/client_GPT-0.2.2.tar.gz --markdown 20230427/c/client-GPT/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-27 15:24:25] INFO root fetch - processPackages [worky]: Downloading https://files.pythonhosted.org/packages/f2/2a/562e908c6bafc8875d3eb40b952a62476d599427940229c78f3ba7b74e1a/worky-0.1.5.tar.gz
+[2023-04-27 15:24:25] INFO root fetch - processPackages [chaostoolkit-reliably]: executing diffoscope
+[2023-04-27 15:24:25] INFO root fetch - processPackages [chaostoolkit-reliably]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chaostoolkit-reliably-0.9.3.tar.gz tmp/chaostoolkit-reliably-0.9.4.tar.gz --markdown 20230427/c/chaostoolkit-reliably/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-04-27 15:24:25] INFO root fetch - processPackages [amlopschat]: executing diffoscope
+[2023-04-27 15:24:25] INFO root fetch - processPackages [amlopschat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amlopschat-1.1.6.tar.gz tmp/amlopschat-1.1.7.tar.gz --markdown 20230427/a/amlopschat/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2023-04-27 15:24:25] INFO root fetch - processPackages [worky]: executing diffoscope
+[2023-04-27 15:24:25] INFO root fetch - processPackages [worky]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/worky-0.1.4.tar.gz tmp/worky-0.1.5.tar.gz --markdown 20230427/w/worky/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-27 15:24:25] INFO root fetch - processPackages [code-loader]: Downloading https://files.pythonhosted.org/packages/23/3d/c50351675c5df1eec25c494b3e7b9f9b516c43bd5d3db8cc4447604a8f74/code-loader-0.2.9.tar.gz
+[2023-04-27 15:24:25] INFO root fetch - processPackages [grblogtools]: Downloading https://files.pythonhosted.org/packages/d7/dd/ea7c23589df8c7c8f3dff03e6205a25c80ff9162c1bb82a5a514f7f17e4a/grblogtools-2.1.0.tar.gz
+[2023-04-27 15:24:25] INFO root fetch - processPackages [miss-hit-core]: Downloading https://files.pythonhosted.org/packages/ef/39/ae852fc738961d5113cbfc2adcc46791668d8f562d582d81307e192c7387/miss_hit_core-0.9.38.tar.gz
+[2023-04-27 15:24:25] INFO root fetch - processPackages [grblogtools]: executing diffoscope
+[2023-04-27 15:24:25] INFO root fetch - processPackages [grblogtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grblogtools-2.0.0.tar.gz tmp/grblogtools-2.1.0.tar.gz --markdown 20230427/g/grblogtools/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-04-27 15:24:25] INFO root fetch - processPackages [miss-hit-core]: executing diffoscope
+[2023-04-27 15:24:25] INFO root fetch - processPackages [miss-hit-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miss_hit_core-0.9.37.tar.gz tmp/miss_hit_core-0.9.38.tar.gz --markdown 20230427/m/miss-hit-core/0.9.37-0.9.38/diff.md --exclude *.pyd
+[2023-04-27 15:24:25] INFO root fetch - processPackages [unit-python-sdk]: Downloading https://files.pythonhosted.org/packages/59/11/edd1becb5a2350e8f84e58b77c96c0c1a77d29431195b2ac123f24f25981/unit-python-sdk-0.9.3.tar.gz
+[2023-04-27 15:24:25] INFO root fetch - processPackages [code-loader]: executing diffoscope
+[2023-04-27 15:24:25] INFO root fetch - processPackages [code-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/code-loader-0.2.8.tar.gz tmp/code-loader-0.2.9.tar.gz --markdown 20230427/c/code-loader/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-27 15:24:25] INFO root fetch - processPackages [miss-hit]: Downloading https://files.pythonhosted.org/packages/e0/76/04376a16bd6d5de2282fe2ef77b4c64abd7d57d40f97b9b3c0b03d66daf4/miss_hit-0.9.9.tar.gz
+[2023-04-27 15:24:25] INFO root fetch - processPackages [alida-arg-parser]: Downloading https://files.pythonhosted.org/packages/29/a0/f9b22f30437a6e9b1eec0cc0839d098be6ca89b2a669ce86e66226afe715/alida-arg-parser-0.0.9.tar.gz
+[2023-04-27 15:24:25] INFO root fetch - processPackages [unit-python-sdk]: executing diffoscope
+[2023-04-27 15:24:25] INFO root fetch - processPackages [unit-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unit-python-sdk-0.9.2.tar.gz tmp/unit-python-sdk-0.9.3.tar.gz --markdown 20230427/u/unit-python-sdk/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-04-27 15:24:25] INFO root fetch - processPackages [miss-hit]: executing diffoscope
+[2023-04-27 15:24:25] INFO root fetch - processPackages [miss-hit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miss_hit-0.9.7.tar.gz tmp/miss_hit-0.9.9.tar.gz --markdown 20230427/m/miss-hit/0.9.7-0.9.9/diff.md --exclude *.pyd
+[2023-04-27 15:24:25] INFO root fetch - processPackages [alida-arg-parser]: executing diffoscope
+[2023-04-27 15:24:25] INFO root fetch - processPackages [alida-arg-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alida-arg-parser-0.0.8.tar.gz tmp/alida-arg-parser-0.0.9.tar.gz --markdown 20230427/a/alida-arg-parser/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 15:24:26] INFO root fetch - processPackages [client-GPT]: Start processing: wildbook-ia
+[2023-04-27 15:24:26] INFO root fetch - main [MainThread]: End processing [client-GPT]: success
+[2023-04-27 15:24:26] INFO root fetch - processPackages [wildbook-ia]: New version: [4.0.5.dev5] Old Version: [4.0.5.dev4]
+[2023-04-27 15:24:26] INFO root fetch - processPackages [wildbook-ia]: Downloading https://files.pythonhosted.org/packages/03/22/bc1ae9c611a82828c15e65e1243137a4dd71a2462654b95a781fd8c49241/wildbook_ia-4.0.5.dev4-py3-none-any.whl
+[2023-04-27 15:24:26] WARNING root fetch - processPackages [wildbook-ia]: Skipping package: exceeds size limit 66662771>=10485760
+[2023-04-27 15:24:26] INFO root fetch - processPackages [wildbook-ia]: Start processing: balanna
+[2023-04-27 15:24:26] INFO root fetch - main [MainThread]: End processing [wildbook-ia] error
+[2023-04-27 15:24:26] INFO root fetch - processPackages [balanna]: New version: [1.0] Old Version: [0.5]
+[2023-04-27 15:24:26] INFO root fetch - processPackages [chaostoolkit-reliably]: Start processing: citros
+[2023-04-27 15:24:26] INFO root fetch - main [MainThread]: End processing [chaostoolkit-reliably]: success
+[2023-04-27 15:24:26] INFO root fetch - processPackages [citros]: New version: [23.17.3] Old Version: [23.17.1]
+[2023-04-27 15:24:26] INFO root fetch - processPackages [balanna]: Downloading https://files.pythonhosted.org/packages/92/b4/a13f8739f094e4789a7d1b9a1ddab8e27af5ca535a18223b6e9738760235/balanna-0.5.tar.gz
+[2023-04-27 15:24:26] INFO root fetch - processPackages [worky]: Start processing: nyaa-timer
+[2023-04-27 15:24:26] INFO root fetch - main [MainThread]: End processing [worky]: success
+[2023-04-27 15:24:26] INFO root fetch - processPackages [nyaa-timer]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-04-27 15:24:26] INFO root fetch - processPackages [citros]: Downloading https://files.pythonhosted.org/packages/64/71/562fbfe788e95571003735d829c3332e0310b14d1860077a2c4ccc604d3f/citros-23.17.3.tar.gz
+[2023-04-27 15:24:26] INFO root fetch - processPackages [nyaa-timer]: executing diffoscope
+[2023-04-27 15:24:26] INFO root fetch - processPackages [nyaa-timer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nyaa-timer-1.2.2.tar.gz tmp/nyaa-timer-1.2.3.tar.gz --markdown 20230427/n/nyaa-timer/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-04-27 15:24:26] INFO root fetch - processPackages [balanna]: Downloading https://files.pythonhosted.org/packages/4b/78/a7df9aa0f200bf05d9a839d4f049e1f60d8dbccb8d6efeeb64cf0d250da1/balanna-1.0.tar.gz
+[2023-04-27 15:24:27] INFO root fetch - processPackages [citros]: executing diffoscope
+[2023-04-27 15:24:27] INFO root fetch - processPackages [citros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citros-23.17.1.tar.gz tmp/citros-23.17.3.tar.gz --markdown 20230427/c/citros/23.17.1-23.17.3/diff.md --exclude *.pyd
+[2023-04-27 15:24:27] INFO root fetch - main [MainThread]: End processing [code-loader]: success
+[2023-04-27 15:24:27] INFO root fetch - main [MainThread]: End processing [miss-hit-core]: success
+[2023-04-27 15:24:27] INFO root fetch - processPackages [balanna]: executing diffoscope
+[2023-04-27 15:24:27] INFO root fetch - processPackages [balanna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/balanna-0.5.tar.gz tmp/balanna-1.0.tar.gz --markdown 20230427/b/balanna/0.5-1.0/diff.md --exclude *.pyd
+[2023-04-27 15:24:27] INFO root fetch - main [MainThread]: End processing [grblogtools]: success
+[2023-04-27 15:24:27] INFO root fetch - main [MainThread]: End processing [alida-arg-parser]: success
+[2023-04-27 15:24:27] INFO root fetch - main [MainThread]: End processing [miss-hit]: success
+[2023-04-27 15:24:27] INFO root fetch - main [MainThread]: End processing [unit-python-sdk]: success
+[2023-04-27 15:24:28] INFO root fetch - main [MainThread]: End processing [nyaa-timer]: success
+[2023-04-27 15:24:28] INFO root fetch - main [MainThread]: End processing [balanna]: success
+[2023-04-27 15:24:28] INFO root fetch - main [MainThread]: End processing [citros]: success
+[2023-04-27 15:24:32] INFO root fetch - main [MainThread]: End processing [amlopschat]: success
+[2023-04-27 15:24:32] INFO root fetch - main [MainThread]: Store serial: [17883527]
