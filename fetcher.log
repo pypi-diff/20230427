@@ -22444,3 +22444,142 @@ EOFError: EOF read where object expected
 [2023-04-27 17:17:30] INFO root fetch - main [MainThread]: End processing [openstacksdk]: success
 [2023-04-27 17:19:39] INFO root fetch - main [MainThread]: End processing [nova]: success
 [2023-04-27 17:19:39] INFO root fetch - main [MainThread]: Store serial: [17884996]
+[2023-04-27 17:24:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17884996]
+[2023-04-27 17:24:51] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-04-27 17:24:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sql-field-report
+[2023-04-27 17:24:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: visualtest-python
+[2023-04-27 17:24:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pygentrification
+[2023-04-27 17:24:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: here-search-demo
+[2023-04-27 17:24:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ansys-platform-instancemanagement
+[2023-04-27 17:24:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flask-quick-sql
+[2023-04-27 17:24:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: quizpython
+[2023-04-27 17:24:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sql-field-report
+[2023-04-27 17:24:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ecoindex-cli
+[2023-04-27 17:24:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fwdviewpy
+[2023-04-27 17:24:51] INFO root fetch - processPackages [fwdviewpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-27 17:24:51] INFO root fetch - processPackages [fwdviewpy]: executing diffoscope
+[2023-04-27 17:24:51] INFO root fetch - processPackages [fwdviewpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fwdviewpy-0.1.8.tar.gz tmp/fwdviewpy-0.1.9.tar.gz --markdown 20230427/f/fwdviewpy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-27 17:24:51] INFO root fetch - processPackages [sql-field-report]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-27 17:24:51] INFO root fetch - processPackages [sql-field-report]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-27 17:24:51] WARNING root fetch - processPackages [quizpython]: Skipping, unable to determine old version
+[2023-04-27 17:24:51] INFO root fetch - processPackages [visualtest-python]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-04-27 17:24:51] INFO root fetch - processPackages [quizpython]: Start processing: sentenai
+[2023-04-27 17:24:51] INFO root fetch - main [MainThread]: End processing [quizpython] error
+[2023-04-27 17:24:51] INFO root fetch - processPackages [pygentrification]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-27 17:24:51] WARNING root fetch - processPackages [flask-quick-sql]: Skipping, unable to determine old version
+[2023-04-27 17:24:51] INFO root fetch - processPackages [here-search-demo]: New version: [0.8.5] Old Version: [0.8.4]
+[2023-04-27 17:24:51] INFO root fetch - processPackages [flask-quick-sql]: Start processing: splight-cli
+[2023-04-27 17:24:51] INFO root fetch - main [MainThread]: End processing [flask-quick-sql] error
+[2023-04-27 17:24:51] INFO root fetch - processPackages [ecoindex-cli]: New version: [2.9.0] Old Version: [2.8.1]
+[2023-04-27 17:24:51] INFO root fetch - processPackages [ansys-platform-instancemanagement]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-04-27 17:24:51] INFO root fetch - processPackages [splight-cli]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-04-27 17:24:51] INFO root fetch - processPackages [sentenai]: New version: [1.6.4.4] Old Version: [1.6.4.3]
+[2023-04-27 17:24:51] INFO root fetch - processPackages [visualtest-python]: Downloading https://files.pythonhosted.org/packages/c4/cf/36a13ca00702185c7ddcc1302414c24e4c914eafbc51c66dd11c7a6c4b62/visualtest_python-1.2.0-py3-none-any.whl
+[2023-04-27 17:24:51] INFO root fetch - processPackages [sql-field-report]: Downloading https://files.pythonhosted.org/packages/97/15/899b949e111af4d6180204dce715020b9e158749877b259caf9e6e1aa7eb/sql_field_report-0.1.4.tar.gz
+[2023-04-27 17:24:51] INFO root fetch - processPackages [sql-field-report]: Downloading https://files.pythonhosted.org/packages/97/15/899b949e111af4d6180204dce715020b9e158749877b259caf9e6e1aa7eb/sql_field_report-0.1.4.tar.gz
+[2023-04-27 17:24:51] INFO root fetch - processPackages [ansys-platform-instancemanagement]: Downloading https://files.pythonhosted.org/packages/2c/19/d2b34401dfc3615372610f9385b44e78e8992334b24f44fbe4d2dcad5d39/ansys-platform-instancemanagement-1.1.0.tar.gz
+[2023-04-27 17:24:51] INFO root fetch - processPackages [ecoindex-cli]: Downloading https://files.pythonhosted.org/packages/53/e6/37b53c56741f30320f76d039592351be32df3c20a7fd8abf8143929c5b88/ecoindex-cli-2.8.1.tar.gz
+[2023-04-27 17:24:51] INFO root fetch - processPackages [pygentrification]: Downloading https://files.pythonhosted.org/packages/7d/01/a5e8473af61e22cab4ffd2ce2908175d2e6f75f01e8807a165204fbd9056/pygentrification-0.0.5.tar.gz
+[2023-04-27 17:24:51] INFO root fetch - processPackages [sentenai]: Downloading https://files.pythonhosted.org/packages/ae/bc/ec7d089ac9ad858057ad448de8fd6fa04a0e6e7597cc6e305b4c3c0f35e3/sentenai-1.6.4.3.tar.gz
+[2023-04-27 17:24:52] INFO root fetch - processPackages [here-search-demo]: Downloading https://files.pythonhosted.org/packages/49/0b/b3db617c3e64d2837acfe91194de74256b0780016b4054eb602071e62998/here-search-demo-0.8.5.tar.gz
+[2023-04-27 17:24:52] INFO root fetch - processPackages [ansys-platform-instancemanagement]: Downloading https://files.pythonhosted.org/packages/db/54/a820efcca9c25026be89a2e419e124a80e4a1def462c67b2a1c7b508d2fd/ansys-platform-instancemanagement-1.1.1.tar.gz
+[2023-04-27 17:24:52] INFO root fetch - processPackages [sql-field-report]: Downloading https://files.pythonhosted.org/packages/8c/32/00e2fec8d25cf93b7492a4245b58b8cf68cfd5e77e0c9c5d6c1a4cd7e6a9/sql_field_report-0.1.5.tar.gz
+[2023-04-27 17:24:52] INFO root fetch - processPackages [sql-field-report]: Downloading https://files.pythonhosted.org/packages/8c/32/00e2fec8d25cf93b7492a4245b58b8cf68cfd5e77e0c9c5d6c1a4cd7e6a9/sql_field_report-0.1.5.tar.gz
+[2023-04-27 17:24:52] INFO root fetch - processPackages [visualtest-python]: Downloading https://files.pythonhosted.org/packages/c3/cc/1a5240808447bcc457cc80d00cee1189fd759e34280869a6509d5218e4ed/visualtest_python-1.3.0-py3-none-any.whl
+[2023-04-27 17:24:52] INFO root fetch - processPackages [pygentrification]: executing diffoscope
+[2023-04-27 17:24:52] INFO root fetch - processPackages [pygentrification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygentrification-0.0.4.tar.gz tmp/pygentrification-0.0.5.tar.gz --markdown 20230427/p/pygentrification/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-27 17:24:52] INFO root fetch - processPackages [here-search-demo]: executing diffoscope
+[2023-04-27 17:24:52] INFO root fetch - processPackages [here-search-demo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/here-search-demo-0.8.4.tar.gz tmp/here-search-demo-0.8.5.tar.gz --markdown 20230427/h/here-search-demo/0.8.4-0.8.5/diff.md --exclude *.pyd
+[2023-04-27 17:24:52] INFO root fetch - processPackages [splight-cli]: executing diffoscope
+[2023-04-27 17:24:52] INFO root fetch - processPackages [splight-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splight-cli-2.3.8.tar.gz tmp/splight-cli-2.3.9.tar.gz --markdown 20230427/s/splight-cli/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-04-27 17:24:52] INFO root fetch - processPackages [ecoindex-cli]: Downloading https://files.pythonhosted.org/packages/dd/c1/734b059a570e8cf00fe1204e9556361491040ecc27366062489df5d4b646/ecoindex-cli-2.9.0.tar.gz
+[2023-04-27 17:24:52] INFO root fetch - processPackages [sql-field-report]: executing diffoscope
+[2023-04-27 17:24:52] INFO root fetch - processPackages [sql-field-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sql_field_report-0.1.4.tar.gz tmp/sql_field_report-0.1.5.tar.gz --markdown 20230427/s/sql-field-report/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-27 17:24:52] INFO root fetch - processPackages [sql-field-report]: executing diffoscope
+[2023-04-27 17:24:52] INFO root fetch - processPackages [sql-field-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sql_field_report-0.1.4.tar.gz tmp/sql_field_report-0.1.5.tar.gz --markdown 20230427/s/sql-field-report/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-27 17:24:52] INFO root fetch - processPackages [ansys-platform-instancemanagement]: executing diffoscope
+[2023-04-27 17:24:52] INFO root fetch - processPackages [ansys-platform-instancemanagement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys-platform-instancemanagement-1.1.0.tar.gz tmp/ansys-platform-instancemanagement-1.1.1.tar.gz --markdown 20230427/a/ansys-platform-instancemanagement/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-04-27 17:24:52] INFO root fetch - processPackages [sentenai]: Downloading https://files.pythonhosted.org/packages/ea/8d/0eda466ae4d76c4b19248a4f22f46918ed570c20e389ca3e00b81d07283d/sentenai-1.6.4.4.tar.gz
+[2023-04-27 17:24:52] INFO root fetch - processPackages [visualtest-python]: executing diffoscope
+[2023-04-27 17:24:52] INFO root fetch - processPackages [visualtest-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visualtest_python-1.2.0-py3-none-any.whl.zip tmp/visualtest_python-1.3.0-py3-none-any.whl.zip --markdown 20230427/v/visualtest-python/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-04-27 17:24:52] INFO root fetch - processPackages [ecoindex-cli]: executing diffoscope
+[2023-04-27 17:24:52] INFO root fetch - processPackages [ecoindex-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecoindex-cli-2.8.1.tar.gz tmp/ecoindex-cli-2.9.0.tar.gz --markdown 20230427/e/ecoindex-cli/2.8.1-2.9.0/diff.md --exclude *.pyd
+[2023-04-27 17:24:52] INFO root fetch - processPackages [sentenai]: executing diffoscope
+[2023-04-27 17:24:52] INFO root fetch - processPackages [sentenai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentenai-1.6.4.3.tar.gz tmp/sentenai-1.6.4.4.tar.gz --markdown 20230427/s/sentenai/1.6.4.3-1.6.4.4/diff.md --exclude *.pyd
+[2023-04-27 17:24:52] INFO root fetch - processPackages [fwdviewpy]: Start processing: weighted-tqdm
+[2023-04-27 17:24:52] INFO root fetch - main [MainThread]: End processing [fwdviewpy]: success
+[2023-04-27 17:24:52] INFO root fetch - processPackages [weighted-tqdm]: New version: [0.5] Old Version: [0.4]
+[2023-04-27 17:24:53] INFO root fetch - processPackages [weighted-tqdm]: Downloading https://files.pythonhosted.org/packages/4c/9a/6cfa1b0e927bc024da2a421eb9edc02b77a84dacbeaf3b92ec5bfbd1b2c1/weighted_tqdm-0.5.tar.gz
+[2023-04-27 17:24:53] INFO root fetch - processPackages [weighted-tqdm]: executing diffoscope
+[2023-04-27 17:24:53] INFO root fetch - processPackages [weighted-tqdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weighted_tqdm-0.4.tar.gz tmp/weighted_tqdm-0.5.tar.gz --markdown 20230427/w/weighted-tqdm/0.4-0.5/diff.md --exclude *.pyd
+[2023-04-27 17:24:53] INFO root fetch - processPackages [pygentrification]: Start processing: sql-field-report
+[2023-04-27 17:24:53] INFO root fetch - main [MainThread]: End processing [pygentrification]: success
+[2023-04-27 17:24:53] INFO root fetch - processPackages [sql-field-report]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-27 17:24:53] INFO root fetch - processPackages [sql-field-report]: executing diffoscope
+[2023-04-27 17:24:53] INFO root fetch - processPackages [sql-field-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sql_field_report-0.1.4.tar.gz tmp/sql_field_report-0.1.5.tar.gz --markdown 20230427/s/sql-field-report/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-27 17:24:54] INFO root fetch - processPackages [sql-field-report]: Start processing: airpt
+[2023-04-27 17:24:54] INFO root fetch - main [MainThread]: End processing [sql-field-report]: success
+[2023-04-27 17:24:54] INFO root fetch - processPackages [splight-cli]: Start processing: nova
+[2023-04-27 17:24:54] INFO root fetch - main [MainThread]: End processing [splight-cli]: success
+[2023-04-27 17:24:54] INFO root fetch - processPackages [nova]: New version: [27.0.0.0rc1] Old Version: [27.0.0]
+[2023-04-27 17:24:54] WARNING root fetch - processPackages [airpt]: Skipping, unable to determine old version
+[2023-04-27 17:24:54] INFO root fetch - processPackages [airpt]: Start processing: findmyorder
+[2023-04-27 17:24:54] INFO root fetch - main [MainThread]: End processing [airpt] error
+[2023-04-27 17:24:54] INFO root fetch - processPackages [nova]: executing diffoscope
+[2023-04-27 17:24:54] INFO root fetch - processPackages [nova]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nova-27.0.0.tar.gz tmp/nova-27.0.0.0rc1.tar.gz --markdown 20230427/n/nova/27.0.0-27.0.0.0rc1/diff.md --exclude *.pyd
+[2023-04-27 17:24:54] INFO root fetch - processPackages [visualtest-python]: Start processing: stytch
+[2023-04-27 17:24:54] INFO root fetch - main [MainThread]: End processing [visualtest-python]: success
+[2023-04-27 17:24:54] INFO root fetch - processPackages [findmyorder]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-27 17:24:54] INFO root fetch - processPackages [stytch]: New version: [6.8.0] Old Version: [6.7.1]
+[2023-04-27 17:24:54] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-04-27 17:24:54] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-1.0.8.tar.gz tmp/findmyorder-1.0.9.tar.gz --markdown 20230427/f/findmyorder/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-27 17:24:54] INFO root fetch - processPackages [sql-field-report]: Start processing: glow
+[2023-04-27 17:24:54] INFO root fetch - main [MainThread]: End processing [sql-field-report]: success
+[2023-04-27 17:24:54] INFO root fetch - processPackages [ecoindex-cli]: Start processing: redshift-user-manager
+[2023-04-27 17:24:54] INFO root fetch - main [MainThread]: End processing [ecoindex-cli]: success
+[2023-04-27 17:24:54] INFO root fetch - processPackages [stytch]: Downloading https://files.pythonhosted.org/packages/67/5a/8b6514f0c341dbc102954e673980a9056e5f80759655d29a1d59b68f701e/stytch-6.7.1.tar.gz
+[2023-04-27 17:24:54] INFO root fetch - processPackages [glow]: New version: [0.12.3] Old Version: [0.12.2]
+[2023-04-27 17:24:54] INFO root fetch - processPackages [ansys-platform-instancemanagement]: Start processing: pygt3x
+[2023-04-27 17:24:54] INFO root fetch - main [MainThread]: End processing [ansys-platform-instancemanagement]: success
+[2023-04-27 17:24:54] WARNING root fetch - processPackages [redshift-user-manager]: Skipping, unable to determine old version
+[2023-04-27 17:24:54] INFO root fetch - processPackages [redshift-user-manager]: Start processing: rum-with-telegram
+[2023-04-27 17:24:54] INFO root fetch - main [MainThread]: End processing [redshift-user-manager] error
+[2023-04-27 17:24:54] INFO root fetch - processPackages [rum-with-telegram]: New version: [0.8.4] Old Version: [0.8.3]
+[2023-04-27 17:24:54] INFO root fetch - processPackages [here-search-demo]: Start processing: exc-handler
+[2023-04-27 17:24:54] INFO root fetch - main [MainThread]: End processing [here-search-demo]: success
+[2023-04-27 17:24:54] INFO root fetch - processPackages [exc-handler]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-04-27 17:24:54] INFO root fetch - processPackages [pygt3x]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-04-27 17:24:54] INFO root fetch - processPackages [glow]: Downloading https://files.pythonhosted.org/packages/88/a2/f372dd821fc81c036fc4726c4fb78bd0340ef2c37406dc4042ae8e29a512/glow-0.12.2.tar.gz
+[2023-04-27 17:24:54] INFO root fetch - processPackages [exc-handler]: executing diffoscope
+[2023-04-27 17:24:54] INFO root fetch - processPackages [exc-handler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exc_handler-1.0.4.tar.gz tmp/exc_handler-1.0.5.tar.gz --markdown 20230427/e/exc-handler/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-04-27 17:24:54] INFO root fetch - processPackages [stytch]: Downloading https://files.pythonhosted.org/packages/ad/f1/8d3fd2d1c426949268eca77cfe9966257fd802e4dfdd4af1d1cf02ed5f88/stytch-6.8.0.tar.gz
+[2023-04-27 17:24:54] INFO root fetch - processPackages [rum-with-telegram]: Downloading https://files.pythonhosted.org/packages/dd/c6/3eac4d2442d0a6129d55072a007ccda68a9ee2fd45cf94842482c451e6f8/rum_with_telegram-0.8.4.tar.gz
+[2023-04-27 17:24:54] INFO root fetch - processPackages [pygt3x]: Downloading https://files.pythonhosted.org/packages/5b/ee/55762be0679799a41aa2b434b049b8e2076f889455bd89b7e2500c831d58/pygt3x-0.5.0.tar.gz
+[2023-04-27 17:24:54] INFO root fetch - processPackages [weighted-tqdm]: Start processing: nanga
+[2023-04-27 17:24:54] INFO root fetch - main [MainThread]: End processing [weighted-tqdm]: success
+[2023-04-27 17:24:54] INFO root fetch - main [MainThread]: End processing [sentenai]: success
+[2023-04-27 17:24:54] INFO root fetch - processPackages [stytch]: executing diffoscope
+[2023-04-27 17:24:54] INFO root fetch - processPackages [stytch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stytch-6.7.1.tar.gz tmp/stytch-6.8.0.tar.gz --markdown 20230427/s/stytch/6.7.1-6.8.0/diff.md --exclude *.pyd
+[2023-04-27 17:24:54] INFO root fetch - processPackages [rum-with-telegram]: executing diffoscope
+[2023-04-27 17:24:54] INFO root fetch - processPackages [rum-with-telegram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rum_with_telegram-0.8.3.tar.gz tmp/rum_with_telegram-0.8.4.tar.gz --markdown 20230427/r/rum-with-telegram/0.8.3-0.8.4/diff.md --exclude *.pyd
+[2023-04-27 17:24:54] INFO root fetch - processPackages [nanga]: New version: [0.1.0rc2] Old Version: [0.0.9rc2]
+[2023-04-27 17:24:54] INFO root fetch - processPackages [glow]: Downloading https://files.pythonhosted.org/packages/2e/e5/33820a9215b1da79fde5714e627551b2da517a39989c71ecaadc22330c1e/glow-0.12.3.tar.gz
+[2023-04-27 17:24:55] INFO root fetch - processPackages [glow]: executing diffoscope
+[2023-04-27 17:24:55] INFO root fetch - processPackages [glow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glow-0.12.2.tar.gz tmp/glow-0.12.3.tar.gz --markdown 20230427/g/glow/0.12.2-0.12.3/diff.md --exclude *.pyd
+[2023-04-27 17:24:55] INFO root fetch - processPackages [pygt3x]: Downloading https://files.pythonhosted.org/packages/35/80/4b1531c994f77a1ac19ae88a11c3997da5511234907890d09e7b6143ac33/pygt3x-0.5.1.tar.gz
+[2023-04-27 17:24:55] INFO root fetch - processPackages [nanga]: Downloading https://files.pythonhosted.org/packages/ee/48/e9fdf644fd993b551e1cf8ea7e5e4dc05ec76634c7d7ac3b696178f5fe89/nanga-0.0.9rc2-py3-none-any.whl
+[2023-04-27 17:24:55] INFO root fetch - processPackages [pygt3x]: executing diffoscope
+[2023-04-27 17:24:55] INFO root fetch - processPackages [pygt3x]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygt3x-0.5.0.tar.gz tmp/pygt3x-0.5.1.tar.gz --markdown 20230427/p/pygt3x/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-04-27 17:24:55] INFO root fetch - main [MainThread]: End processing [sql-field-report]: success
+[2023-04-27 17:24:55] INFO root fetch - processPackages [nanga]: Downloading https://files.pythonhosted.org/packages/7e/3a/083caef9f14228524d6f52d7d36409a001e0f45f011c81f0c1804e6d2000/nanga-0.1.0rc2-py3-none-any.whl
+[2023-04-27 17:24:55] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-04-27 17:24:55] INFO root fetch - processPackages [nanga]: executing diffoscope
+[2023-04-27 17:24:55] INFO root fetch - processPackages [nanga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanga-0.0.9rc2-py3-none-any.whl.zip tmp/nanga-0.1.0rc2-py3-none-any.whl.zip --markdown 20230427/n/nanga/0.0.9rc2-0.1.0rc2/diff.md --exclude *.pyd
+[2023-04-27 17:24:56] INFO root fetch - main [MainThread]: End processing [exc-handler]: success
+[2023-04-27 17:24:56] INFO root fetch - main [MainThread]: End processing [rum-with-telegram]: success
+[2023-04-27 17:24:56] INFO root fetch - main [MainThread]: End processing [stytch]: success
+[2023-04-27 17:24:56] INFO root fetch - main [MainThread]: End processing [pygt3x]: success
+[2023-04-27 17:24:56] INFO root fetch - main [MainThread]: End processing [glow]: success
+[2023-04-27 17:24:57] INFO root fetch - main [MainThread]: End processing [nanga]: success
+[2023-04-27 17:27:31] INFO root fetch - main [MainThread]: End processing [nova]: success
+[2023-04-27 17:27:31] INFO root fetch - main [MainThread]: Store serial: [17885069]
