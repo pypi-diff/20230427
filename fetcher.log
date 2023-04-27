@@ -13162,3 +13162,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 10:39:16] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
 [2023-04-27 10:39:17] INFO root fetch - main [MainThread]: End processing [iqrfpy]: success
 [2023-04-27 10:39:17] INFO root fetch - main [MainThread]: Store serial: [17879689]
+[2023-04-27 10:44:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17879689]
+[2023-04-27 10:44:26] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-27 10:44:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flumine
+[2023-04-27 10:44:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mlx.coverity
+[2023-04-27 10:44:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: windpyutils
+[2023-04-27 10:44:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pureml
+[2023-04-27 10:44:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xyz-util
+[2023-04-27 10:44:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: innerverz-package
+[2023-04-27 10:44:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tlgateway
+[2023-04-27 10:44:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pytlgateway
+[2023-04-27 10:44:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: newsopen-easy
+[2023-04-27 10:44:26] INFO root fetch - processPackages [windpyutils]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-04-27 10:44:26] INFO root fetch - processPackages [innerverz-package]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-27 10:44:27] INFO root fetch - processPackages [windpyutils]: executing diffoscope
+[2023-04-27 10:44:27] INFO root fetch - processPackages [windpyutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windpyutils-2.0.8.tar.gz tmp/windpyutils-2.0.9.tar.gz --markdown 20230427/w/windpyutils/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-04-27 10:44:27] INFO root fetch - processPackages [pureml]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-04-27 10:44:27] WARNING root fetch - processPackages [newsopen-easy]: Skipping, unable to determine old version
+[2023-04-27 10:44:27] INFO root fetch - main [MainThread]: End processing [newsopen-easy] error
+[2023-04-27 10:44:27] INFO root fetch - processPackages [tlgateway]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-27 10:44:27] INFO root fetch - processPackages [pytlgateway]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-27 10:44:27] INFO root fetch - processPackages [xyz-util]: New version: [0.7.8] Old Version: [0.7.7]
+[2023-04-27 10:44:27] INFO root fetch - processPackages [flumine]: New version: [2.3.6] Old Version: [2.3.5]
+[2023-04-27 10:44:27] INFO root fetch - processPackages [mlx.coverity]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-27 10:44:27] ERROR root fetch - processPackages [innerverz-package]: Unable to fetch info: No such project/version 'innerverz-package' 0.0.7
+[2023-04-27 10:44:27] INFO root fetch - main [MainThread]: End processing [innerverz-package] error
+[2023-04-27 10:44:27] INFO root fetch - processPackages [pureml]: Downloading https://files.pythonhosted.org/packages/2e/39/446b22ff987360a5aa313eacac2b65e7c8e3e23ba10fc96a99226c5d94bc/pureml-0.3.5.tar.gz
+[2023-04-27 10:44:27] INFO root fetch - processPackages [tlgateway]: Downloading https://files.pythonhosted.org/packages/35/b5/caf8984bb26f6f0882adefb2fe248f314943e74fc6f5becd2e33c58505a1/tlgateway-0.2.8.tar.gz
+[2023-04-27 10:44:27] INFO root fetch - processPackages [xyz-util]: Downloading https://files.pythonhosted.org/packages/06/5f/fd465ebca471f3ff9eb941c8d8a10111018f732d4b36c9878a6607889860/xyz_util-0.7.7-py3-none-any.whl
+[2023-04-27 10:44:27] INFO root fetch - processPackages [pytlgateway]: Downloading https://files.pythonhosted.org/packages/e3/0b/a307305c8607d605d2d5f0ff5730b4e6e0455c02ef1ba9252280a95dc55a/pytlgateway-0.2.8.tar.gz
+[2023-04-27 10:44:27] INFO root fetch - processPackages [flumine]: Downloading https://files.pythonhosted.org/packages/ac/27/27865f60760854bf78d2773a9f403a31f11e60f49afe9107dd1c48f22023/flumine-2.3.5.tar.gz
+[2023-04-27 10:44:27] INFO root fetch - processPackages [mlx.coverity]: Downloading https://files.pythonhosted.org/packages/8f/07/18a3894368a8dc2b2a62c45abf05a61c604eb7bb8198aab3ca022a42859d/mlx.coverity-1.0.0.tar.gz
+[2023-04-27 10:44:27] INFO root fetch - processPackages [pureml]: Downloading https://files.pythonhosted.org/packages/db/c8/09541da4e7f4647231ff4e214a95750b963df6e77b517fd4ee85a3aa35ea/pureml-0.3.6.tar.gz
+[2023-04-27 10:44:27] INFO root fetch - processPackages [xyz-util]: Downloading https://files.pythonhosted.org/packages/5d/0c/872a400eecaa55ee1697fd5e7eb3b7506b46370cd086e8cb4e3a1b5217de/xyz_util-0.7.8-py3-none-any.whl
+[2023-04-27 10:44:27] INFO root fetch - processPackages [tlgateway]: Downloading https://files.pythonhosted.org/packages/1b/83/52f36a3a7bf56d581a8138b72788416f2e9432ff0b53ebeecada9a66e70a/tlgateway-0.2.9.tar.gz
+[2023-04-27 10:44:27] INFO root fetch - processPackages [mlx.coverity]: Downloading https://files.pythonhosted.org/packages/b5/bf/2810d27c41bc246c7eacca6ad1a9c7432a3a2f9aab00a174a6a9c62a0f97/mlx.coverity-1.0.1.tar.gz
+[2023-04-27 10:44:27] INFO root fetch - processPackages [pureml]: executing diffoscope
+[2023-04-27 10:44:27] INFO root fetch - processPackages [pureml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pureml-0.3.5.tar.gz tmp/pureml-0.3.6.tar.gz --markdown 20230427/p/pureml/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-04-27 10:44:27] INFO root fetch - processPackages [flumine]: Downloading https://files.pythonhosted.org/packages/68/8a/0e0f0ab0e808faa3294453baa84c5d1043acecccff9160be7503701426b1/flumine-2.3.6.tar.gz
+[2023-04-27 10:44:27] INFO root fetch - processPackages [pytlgateway]: Downloading https://files.pythonhosted.org/packages/9f/e6/9b96f04a4f3ec43222c9c9fc99dfdaa689ae9fa03583b57727c461413769/pytlgateway-0.2.9.tar.gz
+[2023-04-27 10:44:27] INFO root fetch - processPackages [xyz-util]: executing diffoscope
+[2023-04-27 10:44:27] INFO root fetch - processPackages [xyz-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xyz_util-0.7.7-py3-none-any.whl.zip tmp/xyz_util-0.7.8-py3-none-any.whl.zip --markdown 20230427/x/xyz-util/0.7.7-0.7.8/diff.md --exclude *.pyd
+[2023-04-27 10:44:27] INFO root fetch - processPackages [tlgateway]: executing diffoscope
+[2023-04-27 10:44:27] INFO root fetch - processPackages [tlgateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tlgateway-0.2.8.tar.gz tmp/tlgateway-0.2.9.tar.gz --markdown 20230427/t/tlgateway/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-27 10:44:27] INFO root fetch - processPackages [mlx.coverity]: executing diffoscope
+[2023-04-27 10:44:27] INFO root fetch - processPackages [mlx.coverity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlx.coverity-1.0.0.tar.gz tmp/mlx.coverity-1.0.1.tar.gz --markdown 20230427/m/mlx.coverity/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-27 10:44:27] INFO root fetch - processPackages [pytlgateway]: executing diffoscope
+[2023-04-27 10:44:27] INFO root fetch - processPackages [pytlgateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytlgateway-0.2.8.tar.gz tmp/pytlgateway-0.2.9.tar.gz --markdown 20230427/p/pytlgateway/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-27 10:44:27] INFO root fetch - processPackages [flumine]: executing diffoscope
+[2023-04-27 10:44:27] INFO root fetch - processPackages [flumine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flumine-2.3.5.tar.gz tmp/flumine-2.3.6.tar.gz --markdown 20230427/f/flumine/2.3.5-2.3.6/diff.md --exclude *.pyd
+[2023-04-27 10:44:28] INFO root fetch - main [MainThread]: End processing [windpyutils]: success
+[2023-04-27 10:44:28] INFO root fetch - main [MainThread]: End processing [tlgateway]: success
+[2023-04-27 10:44:29] INFO root fetch - main [MainThread]: End processing [xyz-util]: success
+[2023-04-27 10:44:29] INFO root fetch - main [MainThread]: End processing [pytlgateway]: success
+[2023-04-27 10:44:29] INFO root fetch - main [MainThread]: End processing [pureml]: success
+[2023-04-27 10:44:29] INFO root fetch - main [MainThread]: End processing [flumine]: success
+[2023-04-27 10:44:49] INFO root fetch - main [MainThread]: End processing [mlx.coverity]: success
+[2023-04-27 10:44:49] INFO root fetch - main [MainThread]: Store serial: [17879722]
