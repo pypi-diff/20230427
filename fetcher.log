@@ -11305,3 +11305,81 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 08:34:05] INFO root fetch - main [MainThread]: End processing [syft]: success
 [2023-04-27 08:34:08] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
 [2023-04-27 08:34:08] INFO root fetch - main [MainThread]: Store serial: [17878517]
+[2023-04-27 08:39:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17878517]
+[2023-04-27 08:39:17] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-27 08:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyeaze
+[2023-04-27 08:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo12-addon-purchase-request
+[2023-04-27 08:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tf-nightly-macos
+[2023-04-27 08:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nashbanksync
+[2023-04-27 08:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: inhandtest
+[2023-04-27 08:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qwak-inference
+[2023-04-27 08:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: BDPotentiometer
+[2023-04-27 08:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyeaze
+[2023-04-27 08:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dialogy
+[2023-04-27 08:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: decorworld-database-model
+[2023-04-27 08:39:17] INFO root fetch - processPackages [decorworld-database-model]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-04-27 08:39:17] INFO root fetch - processPackages [nashbanksync]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-27 08:39:17] INFO root fetch - processPackages [tf-nightly-macos]: New version: [2.13.0.dev20230426] Old Version: [2.13.0.dev20230425]
+[2023-04-27 08:39:17] INFO root fetch - processPackages [tf-nightly-macos]: Downloading https://files.pythonhosted.org/packages/1e/40/d5a4a9642ff1ea962e94da94def4675f9f9a4d70c46da8138050feb0a940/tf_nightly_macos-2.13.0.dev20230425-cp39-cp39-macosx_12_0_arm64.whl
+[2023-04-27 08:39:17] INFO root fetch - processPackages [inhandtest]: New version: [0.0.37] Old Version: [0.0.36]
+[2023-04-27 08:39:17] INFO root fetch - processPackages [pyeaze]: New version: [0.8.1] Old Version: [0.8]
+[2023-04-27 08:39:17] INFO root fetch - processPackages [pyeaze]: New version: [0.8.1] Old Version: [0.8]
+[2023-04-27 08:39:17] INFO root fetch - processPackages [qwak-inference]: New version: [0.0.11rc0] Old Version: [0.0.10rc0]
+[2023-04-27 08:39:17] INFO root fetch - processPackages [decorworld-database-model]: executing diffoscope
+[2023-04-27 08:39:17] INFO root fetch - processPackages [decorworld-database-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decorworld_database_model-0.5.0.tar.gz tmp/decorworld_database_model-0.6.0.tar.gz --markdown 20230427/d/decorworld-database-model/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-04-27 08:39:17] WARNING root fetch - processPackages [BDPotentiometer]: Skipping, unable to determine old version
+[2023-04-27 08:39:17] INFO root fetch - processPackages [BDPotentiometer]: Start processing: modelpack
+[2023-04-27 08:39:17] INFO root fetch - processPackages [nashbanksync]: executing diffoscope
+[2023-04-27 08:39:17] INFO root fetch - main [MainThread]: End processing [BDPotentiometer] error
+[2023-04-27 08:39:17] INFO root fetch - processPackages [nashbanksync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nashbanksync-0.1.8.tar.gz tmp/nashbanksync-0.1.9.tar.gz --markdown 20230427/n/nashbanksync/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-27 08:39:17] INFO root fetch - processPackages [odoo12-addon-purchase-request]: New version: [12.0.5.3.1.99.dev9] Old Version: [12.0.5.3.1.99.dev8]
+[2023-04-27 08:39:17] WARNING root fetch - processPackages [tf-nightly-macos]: Skipping package: exceeds size limit 189274899>=10485760
+[2023-04-27 08:39:17] INFO root fetch - processPackages [dialogy]: New version: [2.0.0] Old Version: [1.4.1]
+[2023-04-27 08:39:17] INFO root fetch - processPackages [tf-nightly-macos]: Start processing: gpt-review
+[2023-04-27 08:39:17] INFO root fetch - main [MainThread]: End processing [tf-nightly-macos] error
+[2023-04-27 08:39:17] INFO root fetch - processPackages [gpt-review]: New version: [0.0.1rc95.post1] Old Version: [0.0.1rc93.post1]
+[2023-04-27 08:39:17] INFO root fetch - processPackages [pyeaze]: Downloading https://files.pythonhosted.org/packages/d2/07/4dd8e67e76cfd495f676b8053ad1a392f18533a6863a7d87458586d52fbe/pyeaze-0.8-py3-none-any.whl
+[2023-04-27 08:39:17] INFO root fetch - processPackages [pyeaze]: Downloading https://files.pythonhosted.org/packages/d2/07/4dd8e67e76cfd495f676b8053ad1a392f18533a6863a7d87458586d52fbe/pyeaze-0.8-py3-none-any.whl
+[2023-04-27 08:39:17] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-04-27 08:39:17] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-review-0.0.1rc93.post1.tar.gz tmp/gpt-review-0.0.1rc95.post1.tar.gz --markdown 20230427/g/gpt-review/0.0.1rc93.post1-0.0.1rc95.post1/diff.md --exclude *.pyd
+[2023-04-27 08:39:17] INFO root fetch - processPackages [modelpack]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-04-27 08:39:17] INFO root fetch - processPackages [qwak-inference]: Downloading https://files.pythonhosted.org/packages/5f/a6/ac73663609ae372844ab31272cfb88b5c6a2e88fbbe1d15a28be73d2e07a/qwak_inference-0.0.10rc0.tar.gz
+[2023-04-27 08:39:17] INFO root fetch - processPackages [odoo12-addon-purchase-request]: Downloading https://files.pythonhosted.org/packages/e8/d9/abd7242c7e6a2a6028581dd577cabb7eb48eb9682f10b368f5fe84dfd8d9/odoo12_addon_purchase_request-12.0.5.3.1.99.dev8-py3-none-any.whl
+[2023-04-27 08:39:17] INFO root fetch - processPackages [inhandtest]: Downloading https://files.pythonhosted.org/packages/1c/56/1a0e543471623bc619190437bc1dc11eb6f20e5742983a101882e95c3094/inhandtest-0.0.36.tar.gz
+[2023-04-27 08:39:17] INFO root fetch - processPackages [dialogy]: Downloading https://files.pythonhosted.org/packages/de/99/60d3722b1b1324155ff2063f64da0cb268e7d98909c607dc5d9a4d823ac2/dialogy-1.4.1.tar.gz
+[2023-04-27 08:39:17] INFO root fetch - processPackages [modelpack]: Downloading https://files.pythonhosted.org/packages/f8/e6/202bf950bf260e40fac2debffeed1633ba04bc37532a7a5e4c32ba7706cf/modelpack-2.0.4-cp39-cp39-win_amd64.whl
+[2023-04-27 08:39:17] INFO root fetch - processPackages [pyeaze]: Downloading https://files.pythonhosted.org/packages/a9/65/67e97851a1473f372c7f9fe67990710fa8285b8333fdabba827f182b68d8/pyeaze-0.8.1.tar.gz
+[2023-04-27 08:39:17] INFO root fetch - processPackages [pyeaze]: Downloading https://files.pythonhosted.org/packages/a9/65/67e97851a1473f372c7f9fe67990710fa8285b8333fdabba827f182b68d8/pyeaze-0.8.1.tar.gz
+[2023-04-27 08:39:17] INFO root fetch - processPackages [inhandtest]: Downloading https://files.pythonhosted.org/packages/fa/3f/b455930a796e04892fbe1dd21867b558ac4a0d4bbeea202f335078a84801/inhandtest-0.0.37.tar.gz
+[2023-04-27 08:39:17] INFO root fetch - processPackages [qwak-inference]: Downloading https://files.pythonhosted.org/packages/f1/84/0d70b338d1acdaa837d280a0cecc752c72b82d9607e6aca39fd20511de9d/qwak_inference-0.0.11rc0.tar.gz
+[2023-04-27 08:39:17] INFO root fetch - processPackages [odoo12-addon-purchase-request]: Downloading https://files.pythonhosted.org/packages/f5/48/6e22a348e37f58f638a45b4b54cd20f78e391f87be769fe36f28c939593f/odoo12_addon_purchase_request-12.0.5.3.1.99.dev9-py3-none-any.whl
+[2023-04-27 08:39:17] INFO root fetch - processPackages [pyeaze]: executing diffoscope
+[2023-04-27 08:39:17] INFO root fetch - processPackages [pyeaze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyeaze-0.8-py3-none-any.whl.zip tmp/pyeaze-0.8.1.tar.gz --markdown 20230427/p/pyeaze/0.8-0.8.1/diff.md --exclude *.pyd
+[2023-04-27 08:39:17] INFO root fetch - processPackages [pyeaze]: executing diffoscope
+[2023-04-27 08:39:17] INFO root fetch - processPackages [pyeaze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyeaze-0.8-py3-none-any.whl.zip tmp/pyeaze-0.8.1.tar.gz --markdown 20230427/p/pyeaze/0.8-0.8.1/diff.md --exclude *.pyd
+[2023-04-27 08:39:17] INFO root fetch - processPackages [inhandtest]: executing diffoscope
+[2023-04-27 08:39:17] INFO root fetch - processPackages [inhandtest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inhandtest-0.0.36.tar.gz tmp/inhandtest-0.0.37.tar.gz --markdown 20230427/i/inhandtest/0.0.36-0.0.37/diff.md --exclude *.pyd
+[2023-04-27 08:39:17] INFO root fetch - processPackages [dialogy]: Downloading https://files.pythonhosted.org/packages/0f/83/c3e9a2ace01581861d7162c5132cc69e17dd83c03ccc1d7656a46310988d/dialogy-2.0.0.tar.gz
+[2023-04-27 08:39:18] INFO root fetch - processPackages [qwak-inference]: executing diffoscope
+[2023-04-27 08:39:18] INFO root fetch - processPackages [qwak-inference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_inference-0.0.10rc0.tar.gz tmp/qwak_inference-0.0.11rc0.tar.gz --markdown 20230427/q/qwak-inference/0.0.10rc0-0.0.11rc0/diff.md --exclude *.pyd
+[2023-04-27 08:39:18] INFO root fetch - processPackages [odoo12-addon-purchase-request]: executing diffoscope
+[2023-04-27 08:39:18] INFO root fetch - processPackages [odoo12-addon-purchase-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_purchase_request-12.0.5.3.1.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_purchase_request-12.0.5.3.1.99.dev9-py3-none-any.whl.zip --markdown 20230427/o/odoo12-addon-purchase-request/12.0.5.3.1.99.dev8-12.0.5.3.1.99.dev9/diff.md --exclude *.pyd
+[2023-04-27 08:39:18] INFO root fetch - processPackages [dialogy]: executing diffoscope
+[2023-04-27 08:39:18] INFO root fetch - processPackages [dialogy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dialogy-1.4.1.tar.gz tmp/dialogy-2.0.0.tar.gz --markdown 20230427/d/dialogy/1.4.1-2.0.0/diff.md --exclude *.pyd
+[2023-04-27 08:39:18] WARNING root fetch - processPackages [modelpack]: Skipping package: exceeds size limit 91142227>=10485760
+[2023-04-27 08:39:18] INFO root fetch - processPackages [modelpack]: Start processing: odoo-addons-oca-purchase-workflow
+[2023-04-27 08:39:18] INFO root fetch - main [MainThread]: End processing [modelpack] error
+[2023-04-27 08:39:18] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: New version: [16.0.20230424.0] Old Version: [16.0.20230420.0]
+[2023-04-27 08:39:18] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: executing diffoscope
+[2023-04-27 08:39:18] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_purchase_workflow-16.0.20230420.0-py3-none-any.whl.zip tmp/odoo_addons_oca_purchase_workflow-16.0.20230424.0-py3-none-any.whl.zip --markdown 20230427/o/odoo-addons-oca-purchase-workflow/16.0.20230420.0-16.0.20230424.0/diff.md --exclude *.pyd
+[2023-04-27 08:39:18] INFO root fetch - main [MainThread]: End processing [decorworld-database-model]: success
+[2023-04-27 08:39:18] INFO root fetch - main [MainThread]: End processing [nashbanksync]: success
+[2023-04-27 08:39:19] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-04-27 08:39:19] INFO root fetch - main [MainThread]: End processing [pyeaze]: success
+[2023-04-27 08:39:19] INFO root fetch - main [MainThread]: End processing [pyeaze]: success
+[2023-04-27 08:39:19] INFO root fetch - main [MainThread]: End processing [qwak-inference]: success
+[2023-04-27 08:39:19] INFO root fetch - main [MainThread]: End processing [dialogy]: success
+[2023-04-27 08:39:19] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-purchase-workflow]: success
+[2023-04-27 08:39:20] INFO root fetch - main [MainThread]: End processing [odoo12-addon-purchase-request]: success
+[2023-04-27 08:39:20] INFO root fetch - main [MainThread]: End processing [inhandtest]: success
+[2023-04-27 08:39:20] INFO root fetch - main [MainThread]: Store serial: [17878562]
