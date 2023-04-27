@@ -22583,3 +22583,197 @@ EOFError: EOF read where object expected
 [2023-04-27 17:24:57] INFO root fetch - main [MainThread]: End processing [nanga]: success
 [2023-04-27 17:27:31] INFO root fetch - main [MainThread]: End processing [nova]: success
 [2023-04-27 17:27:31] INFO root fetch - main [MainThread]: Store serial: [17885069]
+[2023-04-27 17:32:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17885069]
+[2023-04-27 17:32:40] INFO root fetch - main [MainThread]: Found 33 changed packages
+[2023-04-27 17:32:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: whitson-tool-helper
+[2023-04-27 17:32:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cinder
+[2023-04-27 17:32:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: manifester
+[2023-04-27 17:32:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: carefree-drawboard
+[2023-04-27 17:32:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: napalm-ros
+[2023-04-27 17:32:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: podaac-data-subscriber
+[2023-04-27 17:32:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: testerandomlib
+[2023-04-27 17:32:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: msg2bytes
+[2023-04-27 17:32:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: boston
+[2023-04-27 17:32:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: SCAutolib
+[2023-04-27 17:32:40] INFO root fetch - processPackages [manifester]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 17:32:40] WARNING root fetch - processPackages [testerandomlib]: Skipping, unable to determine old version
+[2023-04-27 17:32:40] WARNING root fetch - processPackages [msg2bytes]: Skipping, unable to determine old version
+[2023-04-27 17:32:40] INFO root fetch - processPackages [whitson-tool-helper]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-27 17:32:40] INFO root fetch - processPackages [carefree-drawboard]: New version: [0.0.0a9] Old Version: [0.0.0a8]
+[2023-04-27 17:32:40] INFO root fetch - processPackages [testerandomlib]: Start processing: woostream
+[2023-04-27 17:32:40] INFO root fetch - processPackages [msg2bytes]: Start processing: jsonschema
+[2023-04-27 17:32:40] INFO root fetch - processPackages [boston]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-27 17:32:40] INFO root fetch - main [MainThread]: End processing [testerandomlib] error
+[2023-04-27 17:32:40] INFO root fetch - processPackages [napalm-ros]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-04-27 17:32:40] INFO root fetch - processPackages [SCAutolib]: New version: [1.1.0] Old Version: [1.0.17]
+[2023-04-27 17:32:40] INFO root fetch - main [MainThread]: End processing [msg2bytes] error
+[2023-04-27 17:32:40] INFO root fetch - processPackages [cinder]: New version: [22.0.0.0rc2] Old Version: [22.0.0.0rc1]
+[2023-04-27 17:32:40] INFO root fetch - processPackages [jsonschema]: New version: [4.9.1] Old Version: [4.9.0]
+[2023-04-27 17:32:40] INFO root fetch - processPackages [woostream]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-04-27 17:32:40] INFO root fetch - processPackages [boston]: Downloading https://files.pythonhosted.org/packages/05/34/6714cc285ec38489f8d07bbae21992efea13eb0ae60fda3dc521b80ed62f/boston-1.0.1.tar.gz
+[2023-04-27 17:32:40] INFO root fetch - processPackages [manifester]: Downloading https://files.pythonhosted.org/packages/a9/00/5540641f688959b4239bd68941ebf615c295268b89e4d5bd23b2e1b3dfc3/manifester-0.0.8.tar.gz
+[2023-04-27 17:32:40] INFO root fetch - processPackages [podaac-data-subscriber]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-04-27 17:32:40] INFO root fetch - processPackages [cinder]: Downloading https://files.pythonhosted.org/packages/66/0c/47e46ae4d464851b560502ad3a6206a2eead9535f56fa8a78a01dce805c0/cinder-22.0.0.0rc1.tar.gz
+[2023-04-27 17:32:40] INFO root fetch - processPackages [carefree-drawboard]: Downloading https://files.pythonhosted.org/packages/c9/e5/5469f4b2d99d10bd7501274fef28b0dd8cb57e99eedbfc7abb4a7fde5fbb/carefree-drawboard-0.0.0a8.tar.gz
+[2023-04-27 17:32:40] INFO root fetch - processPackages [napalm-ros]: Downloading https://files.pythonhosted.org/packages/bb/4b/5a5f4413a4377d174a840aedee2f47442e7b4b5e179db3b065f7ebb88946/napalm-ros-1.2.3.tar.gz
+[2023-04-27 17:32:40] INFO root fetch - processPackages [SCAutolib]: Downloading https://files.pythonhosted.org/packages/bd/8a/84c96fdc823e6a64a9f543b44fb8d74771f4f0b714e4fc4ba9e6f89f869d/SCAutolib-1.0.17.tar.gz
+[2023-04-27 17:32:41] INFO root fetch - processPackages [woostream]: Downloading https://files.pythonhosted.org/packages/d3/bd/febcced0399e53967fe123000578ad83170aa44a412b65f73892e513c8f0/woostream-0.1.6.tar.gz
+[2023-04-27 17:32:41] INFO root fetch - processPackages [podaac-data-subscriber]: Downloading https://files.pythonhosted.org/packages/49/eb/e873edb8163b56a50cfed9e213e05c9bcef042237b332ad24ef9f3a99fae/podaac-data-subscriber-1.9.0.tar.gz
+[2023-04-27 17:32:41] INFO root fetch - processPackages [jsonschema]: executing diffoscope
+[2023-04-27 17:32:41] INFO root fetch - processPackages [jsonschema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonschema-4.9.0.tar.gz tmp/jsonschema-4.9.1.tar.gz --markdown 20230427/j/jsonschema/4.9.0-4.9.1/diff.md --exclude *.pyd
+[2023-04-27 17:32:41] INFO root fetch - processPackages [boston]: Downloading https://files.pythonhosted.org/packages/79/ed/d097ba1f34dfaddeb0059e0c9e62473a4e2a3be819efff88cc0cae27139a/boston-1.0.2.tar.gz
+[2023-04-27 17:32:41] INFO root fetch - processPackages [manifester]: Downloading https://files.pythonhosted.org/packages/67/cf/b75644cf2204cb72818481424b8e23afbb033b545031bdf0136e057a9203/manifester-0.0.9.tar.gz
+[2023-04-27 17:32:41] INFO root fetch - processPackages [napalm-ros]: Downloading https://files.pythonhosted.org/packages/21/94/79b25807eb1a30e1dabd967f164e8c209f440ba937c1595be31d0e10b344/napalm-ros-1.2.4.tar.gz
+[2023-04-27 17:32:41] INFO root fetch - processPackages [woostream]: Downloading https://files.pythonhosted.org/packages/18/86/4ffb1af864760588c410e8f9c132170a793d3047d59d10b681fe1811b32b/woostream-0.1.7.tar.gz
+[2023-04-27 17:32:41] INFO root fetch - processPackages [carefree-drawboard]: Downloading https://files.pythonhosted.org/packages/02/30/34f93e27d02e8f8769474c3922ae12e8e4015b1eb1514f7dc7b3b1674359/carefree-drawboard-0.0.0a9.tar.gz
+[2023-04-27 17:32:41] INFO root fetch - processPackages [napalm-ros]: executing diffoscope
+[2023-04-27 17:32:41] INFO root fetch - processPackages [napalm-ros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napalm-ros-1.2.3.tar.gz tmp/napalm-ros-1.2.4.tar.gz --markdown 20230427/n/napalm-ros/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-04-27 17:32:41] INFO root fetch - processPackages [boston]: executing diffoscope
+[2023-04-27 17:32:41] INFO root fetch - processPackages [boston]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boston-1.0.1.tar.gz tmp/boston-1.0.2.tar.gz --markdown 20230427/b/boston/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-27 17:32:41] INFO root fetch - processPackages [podaac-data-subscriber]: Downloading https://files.pythonhosted.org/packages/0e/40/16bd6ad9e75bb19e0844b2f54d20a5484ab56f36e7376376e57eddbb9348/podaac-data-subscriber-1.9.1.tar.gz
+[2023-04-27 17:32:41] INFO root fetch - processPackages [carefree-drawboard]: executing diffoscope
+[2023-04-27 17:32:41] INFO root fetch - processPackages [carefree-drawboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carefree-drawboard-0.0.0a8.tar.gz tmp/carefree-drawboard-0.0.0a9.tar.gz --markdown 20230427/c/carefree-drawboard/0.0.0a8-0.0.0a9/diff.md --exclude *.pyd
+[2023-04-27 17:32:41] INFO root fetch - processPackages [manifester]: executing diffoscope
+[2023-04-27 17:32:41] INFO root fetch - processPackages [manifester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manifester-0.0.8.tar.gz tmp/manifester-0.0.9.tar.gz --markdown 20230427/m/manifester/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 17:32:41] INFO root fetch - processPackages [woostream]: executing diffoscope
+[2023-04-27 17:32:41] INFO root fetch - processPackages [woostream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/woostream-0.1.6.tar.gz tmp/woostream-0.1.7.tar.gz --markdown 20230427/w/woostream/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-04-27 17:32:41] INFO root fetch - processPackages [SCAutolib]: Downloading https://files.pythonhosted.org/packages/d3/f4/42a0ee67cdfe694ab1958f5c67783d4d2d5c18948316616a65dd36213f4a/SCAutolib-1.1.0.tar.gz
+[2023-04-27 17:32:41] INFO root fetch - processPackages [podaac-data-subscriber]: executing diffoscope
+[2023-04-27 17:32:41] INFO root fetch - processPackages [podaac-data-subscriber]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/podaac-data-subscriber-1.9.0.tar.gz tmp/podaac-data-subscriber-1.9.1.tar.gz --markdown 20230427/p/podaac-data-subscriber/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-04-27 17:32:41] INFO root fetch - processPackages [SCAutolib]: executing diffoscope
+[2023-04-27 17:32:41] INFO root fetch - processPackages [SCAutolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SCAutolib-1.0.17.tar.gz tmp/SCAutolib-1.1.0.tar.gz --markdown 20230427/S/SCAutolib/1.0.17-1.1.0/diff.md --exclude *.pyd
+[2023-04-27 17:32:42] INFO root fetch - processPackages [whitson-tool-helper]: Downloading https://files.pythonhosted.org/packages/4c/ac/72156eba4bc3fa79c833825cf96ad1f0b9a2549eac535956d8afd36602c7/whitson_tool_helper-0.0.8.tar.gz
+[2023-04-27 17:32:42] INFO root fetch - processPackages [whitson-tool-helper]: executing diffoscope
+[2023-04-27 17:32:42] INFO root fetch - processPackages [whitson-tool-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whitson_tool_helper-0.0.7.tar.gz tmp/whitson_tool_helper-0.0.8.tar.gz --markdown 20230427/w/whitson-tool-helper/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-27 17:32:42] INFO root fetch - processPackages [boston]: Start processing: aquasec-cli
+[2023-04-27 17:32:42] INFO root fetch - main [MainThread]: End processing [boston]: success
+[2023-04-27 17:32:42] INFO root fetch - processPackages [napalm-ros]: Start processing: pandasflow
+[2023-04-27 17:32:42] INFO root fetch - main [MainThread]: End processing [napalm-ros]: success
+[2023-04-27 17:32:43] INFO root fetch - processPackages [pandasflow]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-04-27 17:32:43] INFO root fetch - processPackages [aquasec-cli]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-27 17:32:43] INFO root fetch - processPackages [cinder]: Downloading https://files.pythonhosted.org/packages/cb/5e/24eeecf76c9af44f5a3ad17c19c0dd48f4bfaa368ed8b6de153ef1d1103c/cinder-22.0.0.0rc2.tar.gz
+[2023-04-27 17:32:43] INFO root fetch - processPackages [pandasflow]: Downloading https://files.pythonhosted.org/packages/41/15/d3b644026b5f821cca1642a94fb99f4be817e6f95e538d0e99ff0a809b21/pandasflow-0.4.2.tar.gz
+[2023-04-27 17:32:43] INFO root fetch - processPackages [podaac-data-subscriber]: Start processing: rum-with-telegram
+[2023-04-27 17:32:43] INFO root fetch - main [MainThread]: End processing [podaac-data-subscriber]: success
+[2023-04-27 17:32:43] INFO root fetch - processPackages [woostream]: Start processing: Aksconverter
+[2023-04-27 17:32:43] INFO root fetch - main [MainThread]: End processing [woostream]: success
+[2023-04-27 17:32:43] INFO root fetch - processPackages [manifester]: Start processing: brer-md
+[2023-04-27 17:32:43] INFO root fetch - main [MainThread]: End processing [manifester]: success
+[2023-04-27 17:32:43] INFO root fetch - processPackages [rum-with-telegram]: New version: [0.8.6] Old Version: [0.8.5]
+[2023-04-27 17:32:43] INFO root fetch - processPackages [aquasec-cli]: Downloading https://files.pythonhosted.org/packages/c2/4c/4b3d664f02f48c04e5e661d931216f2ff663761f558b35f19b0aea7da12b/aquasec-cli-0.0.5.tar.gz
+[2023-04-27 17:32:43] INFO root fetch - processPackages [cinder]: executing diffoscope
+[2023-04-27 17:32:43] INFO root fetch - processPackages [cinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cinder-22.0.0.0rc1.tar.gz tmp/cinder-22.0.0.0rc2.tar.gz --markdown 20230427/c/cinder/22.0.0.0rc1-22.0.0.0rc2/diff.md --exclude *.pyd
+[2023-04-27 17:32:43] INFO root fetch - processPackages [brer-md]: New version: [2.0.0b8] Old Version: [2.0.0b6]
+[2023-04-27 17:32:43] WARNING root fetch - processPackages [Aksconverter]: Skipping, unable to determine old version
+[2023-04-27 17:32:43] INFO root fetch - processPackages [Aksconverter]: Start processing: BNumMet
+[2023-04-27 17:32:43] INFO root fetch - main [MainThread]: End processing [Aksconverter] error
+[2023-04-27 17:32:43] INFO root fetch - processPackages [pandasflow]: Downloading https://files.pythonhosted.org/packages/dc/c0/aac2eb978a361e3ffb6bf96db9bfccd17f207df125309538de237eda5057/pandasflow-0.4.3.tar.gz
+[2023-04-27 17:32:43] INFO root fetch - processPackages [aquasec-cli]: executing diffoscope
+[2023-04-27 17:32:43] INFO root fetch - processPackages [aquasec-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aquasec-cli-0.0.4.tar.gz tmp/aquasec-cli-0.0.5.tar.gz --markdown 20230427/a/aquasec-cli/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-27 17:32:43] INFO root fetch - processPackages [BNumMet]: New version: [1.0.0.dev9] Old Version: [1.0.0.dev8]
+[2023-04-27 17:32:43] INFO root fetch - processPackages [rum-with-telegram]: Downloading https://files.pythonhosted.org/packages/ab/74/80b4caee275bfda316517f015e4c91371b4dc1fea36b94096b38d1d969ea/rum_with_telegram-0.8.5.tar.gz
+[2023-04-27 17:32:43] INFO root fetch - processPackages [whitson-tool-helper]: Start processing: ms-mint
+[2023-04-27 17:32:43] INFO root fetch - main [MainThread]: End processing [whitson-tool-helper]: success
+[2023-04-27 17:32:43] INFO root fetch - processPackages [brer-md]: Downloading https://files.pythonhosted.org/packages/e5/57/0ff9cd7f756d91057b1853dc86fd7ddf03139b1e1a3153704fe3697574fc/brer-md-2.0.0b6.tar.gz
+[2023-04-27 17:32:43] INFO root fetch - processPackages [pandasflow]: executing diffoscope
+[2023-04-27 17:32:43] INFO root fetch - processPackages [pandasflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandasflow-0.4.2.tar.gz tmp/pandasflow-0.4.3.tar.gz --markdown 20230427/p/pandasflow/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-04-27 17:32:43] INFO root fetch - processPackages [ms-mint]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-04-27 17:32:43] INFO root fetch - processPackages [BNumMet]: Downloading https://files.pythonhosted.org/packages/34/cb/bc48ba3a1e63c2aff9297011f50bb0d8adadb5f2fe7b02a5edddc5886172/BNumMet-1.0.0.dev8.tar.gz
+[2023-04-27 17:32:43] INFO root fetch - processPackages [rum-with-telegram]: Downloading https://files.pythonhosted.org/packages/c3/c8/b30f502186dcc44d4770700692ff23543c68bda10490a2f401ee15fcc6d9/rum_with_telegram-0.8.6.tar.gz
+[2023-04-27 17:32:43] INFO root fetch - processPackages [ms-mint]: Downloading https://files.pythonhosted.org/packages/a1/bf/6eb999c3c7934c5362005aee8c5560302a6c484b30abc268b72ac6079268/ms-mint-0.2.2.tar.gz
+[2023-04-27 17:32:43] INFO root fetch - processPackages [rum-with-telegram]: executing diffoscope
+[2023-04-27 17:32:43] INFO root fetch - processPackages [rum-with-telegram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rum_with_telegram-0.8.5.tar.gz tmp/rum_with_telegram-0.8.6.tar.gz --markdown 20230427/r/rum-with-telegram/0.8.5-0.8.6/diff.md --exclude *.pyd
+[2023-04-27 17:32:43] INFO root fetch - processPackages [brer-md]: Downloading https://files.pythonhosted.org/packages/ec/8c/dbbcbc3a8d4df7c363cd36d30f2f716e66a5dd54984fb25fae71c56d74de/brer-md-2.0.0b8.tar.gz
+[2023-04-27 17:32:44] INFO root fetch - processPackages [BNumMet]: Downloading https://files.pythonhosted.org/packages/13/2e/02543d2dccc34fbedb993cdd019da45ea3b8f9f769414ccbd910d07cebd3/BNumMet-1.0.0.dev9.tar.gz
+[2023-04-27 17:32:44] INFO root fetch - processPackages [brer-md]: executing diffoscope
+[2023-04-27 17:32:44] INFO root fetch - processPackages [brer-md]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brer-md-2.0.0b6.tar.gz tmp/brer-md-2.0.0b8.tar.gz --markdown 20230427/b/brer-md/2.0.0b6-2.0.0b8/diff.md --exclude *.pyd
+[2023-04-27 17:32:44] INFO root fetch - processPackages [BNumMet]: executing diffoscope
+[2023-04-27 17:32:44] INFO root fetch - processPackages [BNumMet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BNumMet-1.0.0.dev8.tar.gz tmp/BNumMet-1.0.0.dev9.tar.gz --markdown 20230427/B/BNumMet/1.0.0.dev8-1.0.0.dev9/diff.md --exclude *.pyd
+[2023-04-27 17:32:44] INFO root fetch - processPackages [SCAutolib]: Start processing: odoo14-addon-account-financial-report
+[2023-04-27 17:32:44] INFO root fetch - main [MainThread]: End processing [SCAutolib]: success
+[2023-04-27 17:32:44] INFO root fetch - processPackages [odoo14-addon-account-financial-report]: New version: [14.0.3.7.4] Old Version: [14.0.3.7.3.dev1]
+[2023-04-27 17:32:44] INFO root fetch - processPackages [ms-mint]: Downloading https://files.pythonhosted.org/packages/c7/cc/dd22f785e42a09ca772a6676ee276911aa3a986a26d5ec2c2c25f875412e/ms-mint-0.2.3.tar.gz
+[2023-04-27 17:32:44] INFO root fetch - processPackages [ms-mint]: executing diffoscope
+[2023-04-27 17:32:44] INFO root fetch - processPackages [ms-mint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms-mint-0.2.2.tar.gz tmp/ms-mint-0.2.3.tar.gz --markdown 20230427/m/ms-mint/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-04-27 17:32:44] INFO root fetch - processPackages [odoo14-addon-account-financial-report]: Downloading https://files.pythonhosted.org/packages/eb/b5/dfe8dc3c88f6a39174e29fdd7b51cfe3a762bc5d8000adcb69e560026f31/odoo14_addon_account_financial_report-14.0.3.7.3.dev1-py3-none-any.whl
+[2023-04-27 17:32:44] INFO root fetch - processPackages [odoo14-addon-account-financial-report]: Downloading https://files.pythonhosted.org/packages/9f/63/d9ca7c7a1b3672cea099ab3d4193150dcb8caee2a92d222bcaab5dd107eb/odoo14_addon_account_financial_report-14.0.3.7.4-py3-none-any.whl
+[2023-04-27 17:32:44] INFO root fetch - processPackages [aquasec-cli]: Start processing: django-dreiattest
+[2023-04-27 17:32:44] INFO root fetch - main [MainThread]: End processing [aquasec-cli]: success
+[2023-04-27 17:32:44] INFO root fetch - processPackages [odoo14-addon-account-financial-report]: executing diffoscope
+[2023-04-27 17:32:44] INFO root fetch - processPackages [odoo14-addon-account-financial-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_financial_report-14.0.3.7.3.dev1-py3-none-any.whl.zip tmp/odoo14_addon_account_financial_report-14.0.3.7.4-py3-none-any.whl.zip --markdown 20230427/o/odoo14-addon-account-financial-report/14.0.3.7.3.dev1-14.0.3.7.4/diff.md --exclude *.pyd
+[2023-04-27 17:32:45] INFO root fetch - processPackages [rum-with-telegram]: Start processing: customdataclass
+[2023-04-27 17:32:45] INFO root fetch - main [MainThread]: End processing [rum-with-telegram]: success
+[2023-04-27 17:32:45] INFO root fetch - processPackages [django-dreiattest]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 17:32:45] WARNING root fetch - processPackages [customdataclass]: Skipping, unable to determine old version
+[2023-04-27 17:32:45] INFO root fetch - processPackages [customdataclass]: Start processing: woostream
+[2023-04-27 17:32:45] INFO root fetch - main [MainThread]: End processing [customdataclass] error
+[2023-04-27 17:32:45] INFO root fetch - processPackages [django-dreiattest]: Downloading https://files.pythonhosted.org/packages/23/53/fcefc2a9323221e2e585a00ff66017c21f2f05df963ec080040178489ae9/django-dreiattest-0.0.8.tar.gz
+[2023-04-27 17:32:45] INFO root fetch - processPackages [pandasflow]: Start processing: apache-airflow
+[2023-04-27 17:32:45] INFO root fetch - main [MainThread]: End processing [pandasflow]: success
+[2023-04-27 17:32:45] INFO root fetch - processPackages [woostream]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-04-27 17:32:45] INFO root fetch - processPackages [apache-airflow]: New version: [2.6.0rc2] Old Version: [2.6.0rc1]
+[2023-04-27 17:32:45] INFO root fetch - processPackages [apache-airflow]: Downloading https://files.pythonhosted.org/packages/9d/5c/c8bcc0b89b4c498cc34b9b3c76ef22d4b545ddcdad6bc5467ced253be78f/apache-airflow-2.6.0rc1.tar.gz
+[2023-04-27 17:32:45] INFO root fetch - processPackages [woostream]: executing diffoscope
+[2023-04-27 17:32:45] INFO root fetch - processPackages [woostream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/woostream-0.1.6.tar.gz tmp/woostream-0.1.7.tar.gz --markdown 20230427/w/woostream/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-04-27 17:32:45] WARNING root fetch - processPackages [apache-airflow]: Skipping package: exceeds size limit 11468079>=10485760
+[2023-04-27 17:32:45] INFO root fetch - processPackages [apache-airflow]: Start processing: airpt
+[2023-04-27 17:32:45] INFO root fetch - main [MainThread]: End processing [apache-airflow] error
+[2023-04-27 17:32:45] INFO root fetch - processPackages [BNumMet]: Start processing: boston
+[2023-04-27 17:32:45] INFO root fetch - main [MainThread]: End processing [BNumMet]: success
+[2023-04-27 17:32:45] INFO root fetch - processPackages [boston]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-27 17:32:45] INFO root fetch - processPackages [boston]: executing diffoscope
+[2023-04-27 17:32:45] INFO root fetch - processPackages [boston]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boston-1.0.1.tar.gz tmp/boston-1.0.2.tar.gz --markdown 20230427/b/boston/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-27 17:32:45] WARNING root fetch - processPackages [airpt]: Skipping, unable to determine old version
+[2023-04-27 17:32:45] INFO root fetch - processPackages [airpt]: Start processing: allianceauth-app-utils
+[2023-04-27 17:32:45] INFO root fetch - main [MainThread]: End processing [airpt] error
+[2023-04-27 17:32:45] INFO root fetch - processPackages [allianceauth-app-utils]: New version: [1.9.0] Old Version: [1.8.2]
+[2023-04-27 17:32:45] INFO root fetch - processPackages [django-dreiattest]: Downloading https://files.pythonhosted.org/packages/8d/b4/56fd9750d8dd88d8ad980bd51bc7a12458362a80134e5e5a50d8cc2895eb/django-dreiattest-0.0.9.tar.gz
+[2023-04-27 17:32:46] INFO root fetch - processPackages [allianceauth-app-utils]: Downloading https://files.pythonhosted.org/packages/a4/95/6f15fdd2a1ea8723fbae9a86bda1967260423816d37309340dc628cc9a67/allianceauth-app-utils-1.8.2.tar.gz
+[2023-04-27 17:32:46] INFO root fetch - processPackages [django-dreiattest]: executing diffoscope
+[2023-04-27 17:32:46] INFO root fetch - processPackages [django-dreiattest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-dreiattest-0.0.8.tar.gz tmp/django-dreiattest-0.0.9.tar.gz --markdown 20230427/d/django-dreiattest/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 17:32:46] INFO root fetch - processPackages [carefree-drawboard]: Start processing: dbt-duckdb
+[2023-04-27 17:32:46] INFO root fetch - main [MainThread]: End processing [carefree-drawboard]: success
+[2023-04-27 17:32:46] INFO root fetch - processPackages [allianceauth-app-utils]: Downloading https://files.pythonhosted.org/packages/9d/c3/49b9e2f8427a0b9baf76e4b591d291d8971b1a353f5f660bbcd7f0813452/allianceauth-app-utils-1.9.0.tar.gz
+[2023-04-27 17:32:46] INFO root fetch - processPackages [jsonschema]: Start processing: ecoindex-cli
+[2023-04-27 17:32:46] INFO root fetch - main [MainThread]: End processing [jsonschema]: success
+[2023-04-27 17:32:46] INFO root fetch - processPackages [ecoindex-cli]: New version: [2.9.0] Old Version: [2.8.1]
+[2023-04-27 17:32:46] INFO root fetch - processPackages [allianceauth-app-utils]: executing diffoscope
+[2023-04-27 17:32:46] INFO root fetch - processPackages [allianceauth-app-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/allianceauth-app-utils-1.8.2.tar.gz tmp/allianceauth-app-utils-1.9.0.tar.gz --markdown 20230427/a/allianceauth-app-utils/1.8.2-1.9.0/diff.md --exclude *.pyd
+[2023-04-27 17:32:46] INFO root fetch - processPackages [woostream]: Start processing: coiled
+[2023-04-27 17:32:46] INFO root fetch - main [MainThread]: End processing [woostream]: success
+[2023-04-27 17:32:46] INFO root fetch - processPackages [coiled]: New version: [0.5.9.post0.dev8] Old Version: [0.5.9.post0.dev7]
+[2023-04-27 17:32:46] INFO root fetch - processPackages [dbt-duckdb]: New version: [1.5.0rc1] Old Version: [1.4.2]
+[2023-04-27 17:32:46] INFO root fetch - processPackages [ecoindex-cli]: executing diffoscope
+[2023-04-27 17:32:46] INFO root fetch - processPackages [ecoindex-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecoindex-cli-2.8.1.tar.gz tmp/ecoindex-cli-2.9.0.tar.gz --markdown 20230427/e/ecoindex-cli/2.8.1-2.9.0/diff.md --exclude *.pyd
+[2023-04-27 17:32:46] INFO root fetch - processPackages [dbt-duckdb]: executing diffoscope
+[2023-04-27 17:32:46] INFO root fetch - processPackages [dbt-duckdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-duckdb-1.4.2.tar.gz tmp/dbt-duckdb-1.5.0rc1.tar.gz --markdown 20230427/d/dbt-duckdb/1.4.2-1.5.0rc1/diff.md --exclude *.pyd
+[2023-04-27 17:32:46] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-04-27 17:32:46] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.5.9.post0.dev7.tar.gz tmp/coiled-0.5.9.post0.dev8.tar.gz --markdown 20230427/c/coiled/0.5.9.post0.dev7-0.5.9.post0.dev8/diff.md --exclude *.pyd
+[2023-04-27 17:32:46] INFO root fetch - processPackages [boston]: Start processing: camouflage-decryptor
+[2023-04-27 17:32:46] INFO root fetch - main [MainThread]: End processing [boston]: success
+[2023-04-27 17:32:47] INFO root fetch - processPackages [camouflage-decryptor]: New version: [0.1.1] Old Version: [0.0.1]
+[2023-04-27 17:32:47] INFO root fetch - processPackages [camouflage-decryptor]: executing diffoscope
+[2023-04-27 17:32:47] INFO root fetch - processPackages [camouflage-decryptor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camouflage_decryptor-0.0.1.tar.gz tmp/camouflage_decryptor-0.1.1.tar.gz --markdown 20230427/c/camouflage-decryptor/0.0.1-0.1.1/diff.md --exclude *.pyd
+[2023-04-27 17:32:47] INFO root fetch - processPackages [odoo14-addon-account-financial-report]: Start processing: pasta-eln
+[2023-04-27 17:32:47] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-financial-report]: success
+[2023-04-27 17:32:47] INFO root fetch - processPackages [ms-mint]: Start processing: pygmtools
+[2023-04-27 17:32:47] INFO root fetch - main [MainThread]: End processing [ms-mint]: success
+[2023-04-27 17:32:47] INFO root fetch - processPackages [pasta-eln]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-04-27 17:32:47] INFO root fetch - processPackages [pygmtools]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-04-27 17:32:47] INFO root fetch - main [MainThread]: End processing [django-dreiattest]: success
+[2023-04-27 17:32:47] INFO root fetch - processPackages [pygmtools]: Downloading https://files.pythonhosted.org/packages/64/50/a4dcf8fff042e5c0bfbc96537051952ab86fedf1b76d732a541d8b323f2d/pygmtools-0.3.6.tar.gz
+[2023-04-27 17:32:47] INFO root fetch - processPackages [pasta-eln]: executing diffoscope
+[2023-04-27 17:32:47] INFO root fetch - processPackages [pasta-eln]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pasta_eln-2.3.8-py3-none-any.whl.zip tmp/pasta_eln-2.3.9-py3-none-any.whl.zip --markdown 20230427/p/pasta-eln/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-04-27 17:32:48] INFO root fetch - processPackages [pygmtools]: Downloading https://files.pythonhosted.org/packages/cf/d8/f83efbc6cd62931cd3db195b75564745c2468977abd3211c26d91e110020/pygmtools-0.3.7.tar.gz
+[2023-04-27 17:32:48] INFO root fetch - main [MainThread]: End processing [allianceauth-app-utils]: success
+[2023-04-27 17:32:48] INFO root fetch - main [MainThread]: End processing [ecoindex-cli]: success
+[2023-04-27 17:32:48] INFO root fetch - processPackages [pygmtools]: executing diffoscope
+[2023-04-27 17:32:48] INFO root fetch - processPackages [pygmtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygmtools-0.3.6.tar.gz tmp/pygmtools-0.3.7.tar.gz --markdown 20230427/p/pygmtools/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-04-27 17:32:48] INFO root fetch - main [MainThread]: End processing [dbt-duckdb]: success
+[2023-04-27 17:32:48] INFO root fetch - main [MainThread]: End processing [camouflage-decryptor]: success
+[2023-04-27 17:32:49] INFO root fetch - main [MainThread]: End processing [pasta-eln]: success
+[2023-04-27 17:32:49] INFO root fetch - main [MainThread]: End processing [brer-md]: success
+[2023-04-27 17:32:50] INFO root fetch - main [MainThread]: End processing [pygmtools]: success
+[2023-04-27 17:32:50] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-04-27 17:34:19] INFO root fetch - main [MainThread]: End processing [cinder]: success
+[2023-04-27 17:34:19] INFO root fetch - main [MainThread]: Store serial: [17885186]
