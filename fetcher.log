@@ -10321,3 +10321,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 07:18:25] INFO root fetch - main [MainThread]: End processing [robotcode]: success
 [2023-04-27 07:18:30] INFO root fetch - main [MainThread]: End processing [ezdxf]: success
 [2023-04-27 07:18:30] INFO root fetch - main [MainThread]: Store serial: [17877968]
+[2023-04-27 07:23:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17877968]
+[2023-04-27 07:23:39] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-27 07:23:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bw-graph-tools
+[2023-04-27 07:23:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nisdc
+[2023-04-27 07:23:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ChatLLM
+[2023-04-27 07:23:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: resource-monitoring-bon
+[2023-04-27 07:23:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: findmyorder
+[2023-04-27 07:23:39] INFO root fetch - processPackages [bw-graph-tools]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-27 07:23:39] INFO root fetch - processPackages [resource-monitoring-bon]: New version: [1.0.0.2] Old Version: [1.0.0.1]
+[2023-04-27 07:23:39] INFO root fetch - processPackages [ChatLLM]: New version: [2023.4.27.13.20.47] Old Version: [2023.4.27.13.15.3]
+[2023-04-27 07:23:39] WARNING root fetch - processPackages [nisdc]: Skipping, unable to determine old version
+[2023-04-27 07:23:39] INFO root fetch - main [MainThread]: End processing [nisdc] error
+[2023-04-27 07:23:39] INFO root fetch - processPackages [findmyorder]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-04-27 07:23:39] INFO root fetch - processPackages [resource-monitoring-bon]: executing diffoscope
+[2023-04-27 07:23:39] INFO root fetch - processPackages [resource-monitoring-bon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resource_monitoring_bon-1.0.0.1-py3-none-any.whl.zip tmp/resource_monitoring_bon-1.0.0.2-py3-none-any.whl.zip --markdown 20230427/r/resource-monitoring-bon/1.0.0.1-1.0.0.2/diff.md --exclude *.pyd
+[2023-04-27 07:23:39] INFO root fetch - processPackages [bw-graph-tools]: Downloading https://files.pythonhosted.org/packages/e1/14/c79cb236c8cdd0aeabc76990869b65ed25387b8d2f6ce5ba511fa27a5d93/bw_graph_tools-0.1.0.tar.gz
+[2023-04-27 07:23:39] INFO root fetch - processPackages [ChatLLM]: Downloading https://files.pythonhosted.org/packages/69/5c/fd183b337aaf90f3d138448d8f36a658c9fa3733b79f7a3fa2316fda06d0/ChatLLM-2023.4.27.13.20.47.tar.gz
+[2023-04-27 07:23:39] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/25/0f/20b4760390d2cc43858c66abc6873b3f93b5249795d7553b542dcf59790a/findmyorder-1.0.5.tar.gz
+[2023-04-27 07:23:39] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-04-27 07:23:39] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-1.0.4.tar.gz tmp/findmyorder-1.0.5.tar.gz --markdown 20230427/f/findmyorder/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-04-27 07:23:39] INFO root fetch - processPackages [bw-graph-tools]: Downloading https://files.pythonhosted.org/packages/32/f8/cfb044c82ecf0abe50fb8203a590038df7cf283b4fe4053886173df9f5ce/bw_graph_tools-0.1.1.tar.gz
+[2023-04-27 07:23:40] INFO root fetch - processPackages [bw-graph-tools]: executing diffoscope
+[2023-04-27 07:23:40] INFO root fetch - processPackages [bw-graph-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bw_graph_tools-0.1.0.tar.gz tmp/bw_graph_tools-0.1.1.tar.gz --markdown 20230427/b/bw-graph-tools/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-27 07:23:40] INFO root fetch - main [MainThread]: End processing [resource-monitoring-bon]: success
+[2023-04-27 07:23:41] INFO root fetch - main [MainThread]: End processing [bw-graph-tools]: success
+[2023-04-27 07:23:41] INFO root fetch - processPackages [ChatLLM]: executing diffoscope
+[2023-04-27 07:23:41] INFO root fetch - processPackages [ChatLLM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ChatLLM-2023.4.27.13.15.3.tar.gz tmp/ChatLLM-2023.4.27.13.20.47.tar.gz --markdown 20230427/C/ChatLLM/2023.4.27.13.15.3-2023.4.27.13.20.47/diff.md --exclude *.pyd
+[2023-04-27 07:23:43] INFO root fetch - main [MainThread]: End processing [ChatLLM]: success
+[2023-04-27 07:23:59] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-04-27 07:23:59] INFO root fetch - main [MainThread]: Store serial: [17877985]
