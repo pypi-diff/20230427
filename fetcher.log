@@ -18581,3 +18581,107 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 14:18:03] INFO root fetch - main [MainThread]: End processing [state-space-generator]: success
 [2023-04-27 14:18:36] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-04-27 14:18:36] INFO root fetch - main [MainThread]: Store serial: [17882662]
+[2023-04-27 14:23:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17882662]
+[2023-04-27 14:23:46] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-04-27 14:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coiled
+[2023-04-27 14:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytorch-symbolic
+[2023-04-27 14:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spotinst-agent-beta
+[2023-04-27 14:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: methodism
+[2023-04-27 14:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: easy-patents
+[2023-04-27 14:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: appthreat-depscan
+[2023-04-27 14:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pingsafecli
+[2023-04-27 14:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: whisper-ctranslate2
+[2023-04-27 14:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kaiju-files
+[2023-04-27 14:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ocf-datapipes
+[2023-04-27 14:23:46] INFO root fetch - processPackages [spotinst-agent-beta]: New version: [2.2.265] Old Version: [2.2.264]
+[2023-04-27 14:23:46] INFO root fetch - processPackages [pingsafecli]: New version: [2.3.200] Old Version: [2.3.199]
+[2023-04-27 14:23:46] INFO root fetch - processPackages [whisper-ctranslate2]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-04-27 14:23:46] INFO root fetch - processPackages [methodism]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-27 14:23:46] INFO root fetch - processPackages [easy-patents]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-27 14:23:46] INFO root fetch - processPackages [pytorch-symbolic]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-04-27 14:23:46] INFO root fetch - processPackages [whisper-ctranslate2]: executing diffoscope
+[2023-04-27 14:23:46] INFO root fetch - processPackages [whisper-ctranslate2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whisper-ctranslate2-0.1.9.tar.gz tmp/whisper-ctranslate2-0.2.0.tar.gz --markdown 20230427/w/whisper-ctranslate2/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-04-27 14:23:46] INFO root fetch - processPackages [kaiju-files]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-04-27 14:23:46] INFO root fetch - processPackages [ocf-datapipes]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-04-27 14:23:46] INFO root fetch - processPackages [appthreat-depscan]: New version: [4.1.0] Old Version: [4.0.3]
+[2023-04-27 14:23:46] INFO root fetch - processPackages [methodism]: executing diffoscope
+[2023-04-27 14:23:46] INFO root fetch - processPackages [coiled]: New version: [0.5.9.post0.dev8] Old Version: [0.5.9.post0.dev7]
+[2023-04-27 14:23:46] INFO root fetch - processPackages [methodism]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/methodism-0.0.2.tar.gz tmp/methodism-0.0.3.tar.gz --markdown 20230427/m/methodism/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-27 14:23:46] INFO root fetch - processPackages [pingsafecli]: Downloading https://files.pythonhosted.org/packages/d9/5d/a50fd73a7a001ea68918df007fbfa8a34af4c8444f72e6ba1a57410fe603/pingsafecli-2.3.199-py3-none-any.whl
+[2023-04-27 14:23:46] INFO root fetch - processPackages [spotinst-agent-beta]: Downloading https://files.pythonhosted.org/packages/08/02/fd14b5a3c98c578dae61835ec23799ee2c6f104c8f143f2e519e3a0656b6/spotinst-agent-beta-2.2.265.tar.gz
+[2023-04-27 14:23:46] INFO root fetch - processPackages [spotinst-agent-beta]: executing diffoscope
+[2023-04-27 14:23:46] INFO root fetch - processPackages [spotinst-agent-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotinst-agent-beta-2.2.264.tar.gz tmp/spotinst-agent-beta-2.2.265.tar.gz --markdown 20230427/s/spotinst-agent-beta/2.2.264-2.2.265/diff.md --exclude *.pyd
+[2023-04-27 14:23:46] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-04-27 14:23:46] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.5.9.post0.dev7.tar.gz tmp/coiled-0.5.9.post0.dev8.tar.gz --markdown 20230427/c/coiled/0.5.9.post0.dev7-0.5.9.post0.dev8/diff.md --exclude *.pyd
+[2023-04-27 14:23:46] INFO root fetch - processPackages [kaiju-files]: Downloading https://files.pythonhosted.org/packages/f7/c9/fb29dc4c8e9a4fdc5b5900611cc6707c7a0ee9aceac2a8e8e3fa29f92942/kaiju_files-2.0.1-py3-none-any.whl
+[2023-04-27 14:23:46] INFO root fetch - processPackages [pytorch-symbolic]: Downloading https://files.pythonhosted.org/packages/bd/e2/92cb7097613d35498357c177e4684001fe7ffce5e2552182b0973d067e03/pytorch-symbolic-1.0.6.tar.gz
+[2023-04-27 14:23:46] INFO root fetch - processPackages [appthreat-depscan]: Downloading https://files.pythonhosted.org/packages/97/f9/225512fadbd5406631bbc16aebd6b23478c35dfc71807e03155d22b90858/appthreat-depscan-4.0.3.tar.gz
+[2023-04-27 14:23:46] INFO root fetch - processPackages [ocf-datapipes]: Downloading https://files.pythonhosted.org/packages/a5/4f/6a285e7b9d9685d86c1ec5c435500687d7f2ce1fd46690ed8b614428180e/ocf_datapipes-1.2.8.tar.gz
+[2023-04-27 14:23:46] INFO root fetch - processPackages [pingsafecli]: Downloading https://files.pythonhosted.org/packages/72/4f/26e7ef4444992a1ffa140a715d8ebcbe5de6342209f8c2aaeca4ecdeb20f/pingsafecli-2.3.200-py3-none-any.whl
+[2023-04-27 14:23:46] INFO root fetch - processPackages [easy-patents]: executing diffoscope
+[2023-04-27 14:23:46] INFO root fetch - processPackages [easy-patents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_patents-1.0.8.tar.gz tmp/easy_patents-1.0.9.tar.gz --markdown 20230427/e/easy-patents/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-27 14:23:46] INFO root fetch - processPackages [kaiju-files]: Downloading https://files.pythonhosted.org/packages/79/ec/bceafbee451cd92c560e9e2358cd64c1c5729c551e99e394809eb7003eae/kaiju_files-2.0.2-py3-none-any.whl
+[2023-04-27 14:23:46] INFO root fetch - processPackages [pytorch-symbolic]: Downloading https://files.pythonhosted.org/packages/cb/b8/199bc6b67cf1e5f39a0e3a991e2f1bcd2991fe52c3a4bebd61ccaa4998aa/pytorch-symbolic-1.0.7.tar.gz
+[2023-04-27 14:23:46] INFO root fetch - processPackages [appthreat-depscan]: Downloading https://files.pythonhosted.org/packages/12/43/a83dbd0e570cafebdb27fdeb729e823230f1c6118a5d66b0ed23a588a09f/appthreat-depscan-4.1.0.tar.gz
+[2023-04-27 14:23:46] INFO root fetch - processPackages [ocf-datapipes]: Downloading https://files.pythonhosted.org/packages/5d/e0/2adf28d0e27bcb08200c48623b22c837073925a5635322cdfeb6d4a57358/ocf_datapipes-1.2.9.tar.gz
+[2023-04-27 14:23:46] INFO root fetch - processPackages [kaiju-files]: executing diffoscope
+[2023-04-27 14:23:46] INFO root fetch - processPackages [kaiju-files]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaiju_files-2.0.1-py3-none-any.whl.zip tmp/kaiju_files-2.0.2-py3-none-any.whl.zip --markdown 20230427/k/kaiju-files/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-04-27 14:23:46] INFO root fetch - processPackages [pytorch-symbolic]: executing diffoscope
+[2023-04-27 14:23:46] INFO root fetch - processPackages [pytorch-symbolic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch-symbolic-1.0.6.tar.gz tmp/pytorch-symbolic-1.0.7.tar.gz --markdown 20230427/p/pytorch-symbolic/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-04-27 14:23:46] INFO root fetch - processPackages [appthreat-depscan]: executing diffoscope
+[2023-04-27 14:23:46] INFO root fetch - processPackages [appthreat-depscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appthreat-depscan-4.0.3.tar.gz tmp/appthreat-depscan-4.1.0.tar.gz --markdown 20230427/a/appthreat-depscan/4.0.3-4.1.0/diff.md --exclude *.pyd
+[2023-04-27 14:23:46] INFO root fetch - processPackages [ocf-datapipes]: executing diffoscope
+[2023-04-27 14:23:46] INFO root fetch - processPackages [ocf-datapipes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocf_datapipes-1.2.8.tar.gz tmp/ocf_datapipes-1.2.9.tar.gz --markdown 20230427/o/ocf-datapipes/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-04-27 14:23:47] INFO root fetch - processPackages [whisper-ctranslate2]: Start processing: cladeomatic
+[2023-04-27 14:23:47] INFO root fetch - main [MainThread]: End processing [whisper-ctranslate2]: success
+[2023-04-27 14:23:47] INFO root fetch - processPackages [cladeomatic]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-27 14:23:47] INFO root fetch - processPackages [spotinst-agent-beta]: Start processing: bw-temporalis
+[2023-04-27 14:23:47] INFO root fetch - main [MainThread]: End processing [spotinst-agent-beta]: success
+[2023-04-27 14:23:47] WARNING root fetch - processPackages [bw-temporalis]: Skipping, unable to determine old version
+[2023-04-27 14:23:47] INFO root fetch - processPackages [bw-temporalis]: Start processing: enhancedocs
+[2023-04-27 14:23:47] INFO root fetch - main [MainThread]: End processing [bw-temporalis] error
+[2023-04-27 14:23:47] INFO root fetch - processPackages [methodism]: Start processing: sortinghat-openinfra
+[2023-04-27 14:23:47] INFO root fetch - main [MainThread]: End processing [methodism]: success
+[2023-04-27 14:23:47] INFO root fetch - processPackages [enhancedocs]: New version: [0.5.0a2] Old Version: [0.5.0a1]
+[2023-04-27 14:23:47] INFO root fetch - processPackages [sortinghat-openinfra]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-27 14:23:47] INFO root fetch - processPackages [enhancedocs]: executing diffoscope
+[2023-04-27 14:23:47] INFO root fetch - processPackages [enhancedocs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enhancedocs-0.5.0a1.tar.gz tmp/enhancedocs-0.5.0a2.tar.gz --markdown 20230427/e/enhancedocs/0.5.0a1-0.5.0a2/diff.md --exclude *.pyd
+[2023-04-27 14:23:48] INFO root fetch - processPackages [pingsafecli]: executing diffoscope
+[2023-04-27 14:23:48] INFO root fetch - processPackages [pingsafecli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pingsafecli-2.3.199-py3-none-any.whl.zip tmp/pingsafecli-2.3.200-py3-none-any.whl.zip --markdown 20230427/p/pingsafecli/2.3.199-2.3.200/diff.md --exclude *.pyd
+[2023-04-27 14:23:48] INFO root fetch - processPackages [cladeomatic]: Downloading https://files.pythonhosted.org/packages/45/61/d09ef2a304fcede26e30c1385c2a2f7238259da3b85793ff16aad1c54ef2/cladeomatic-0.1.1.tar.gz
+[2023-04-27 14:23:48] INFO root fetch - processPackages [sortinghat-openinfra]: Downloading https://files.pythonhosted.org/packages/57/9c/19d29aa18faf21b76e20a17498cb78001ca73428ef8f20c99900d65fb305/sortinghat_openinfra-0.1.0.tar.gz
+[2023-04-27 14:23:48] INFO root fetch - processPackages [cladeomatic]: executing diffoscope
+[2023-04-27 14:23:48] INFO root fetch - processPackages [cladeomatic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cladeomatic-0.1.0.tar.gz tmp/cladeomatic-0.1.1.tar.gz --markdown 20230427/c/cladeomatic/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-27 14:23:48] INFO root fetch - processPackages [kaiju-files]: Start processing: pingsafecli
+[2023-04-27 14:23:48] INFO root fetch - main [MainThread]: End processing [kaiju-files]: success
+[2023-04-27 14:23:48] INFO root fetch - processPackages [pingsafecli]: New version: [2.3.202] Old Version: [2.3.201]
+[2023-04-27 14:23:48] INFO root fetch - processPackages [pingsafecli]: Downloading https://files.pythonhosted.org/packages/e7/90/02d3b09d94edba94454f6655651ef0552984b1a8901dcaa78b107be872a5/pingsafecli-2.3.201-py3-none-any.whl
+[2023-04-27 14:23:48] INFO root fetch - processPackages [sortinghat-openinfra]: Downloading https://files.pythonhosted.org/packages/af/dd/3e15ebea3fd6caa4c3018b8e1fd74719b928fea0c919a8c4b57706baaed5/sortinghat_openinfra-0.1.1.tar.gz
+[2023-04-27 14:23:48] INFO root fetch - processPackages [pytorch-symbolic]: Start processing: methodism
+[2023-04-27 14:23:48] INFO root fetch - main [MainThread]: End processing [pytorch-symbolic]: success
+[2023-04-27 14:23:48] INFO root fetch - processPackages [methodism]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-27 14:23:48] INFO root fetch - processPackages [sortinghat-openinfra]: executing diffoscope
+[2023-04-27 14:23:48] INFO root fetch - processPackages [sortinghat-openinfra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sortinghat_openinfra-0.1.0.tar.gz tmp/sortinghat_openinfra-0.1.1.tar.gz --markdown 20230427/s/sortinghat-openinfra/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-27 14:23:48] INFO root fetch - processPackages [methodism]: Downloading https://files.pythonhosted.org/packages/b7/03/1a9f434da56345cdc588009ecfd19a269f77b6249e0f9b1af5360f98e420/methodism-0.0.4.tar.gz
+[2023-04-27 14:23:48] INFO root fetch - processPackages [easy-patents]: Start processing: cellshape
+[2023-04-27 14:23:48] INFO root fetch - main [MainThread]: End processing [easy-patents]: success
+[2023-04-27 14:23:48] INFO root fetch - processPackages [cellshape]: New version: [0.0.9rc0] Old Version: [0.0.9]
+[2023-04-27 14:23:49] INFO root fetch - processPackages [cellshape]: executing diffoscope
+[2023-04-27 14:23:49] INFO root fetch - processPackages [cellshape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellshape-0.0.9.tar.gz tmp/cellshape-0.0.9rc0.tar.gz --markdown 20230427/c/cellshape/0.0.9-0.0.9rc0/diff.md --exclude *.pyd
+[2023-04-27 14:23:49] INFO root fetch - processPackages [methodism]: Downloading https://files.pythonhosted.org/packages/4d/e5/c685b05c0d7933b9a8504ef63c64bd331701fd6556986646af79c6e2bbf5/methodism-0.0.5.tar.gz
+[2023-04-27 14:23:49] INFO root fetch - main [MainThread]: End processing [enhancedocs]: success
+[2023-04-27 14:23:49] INFO root fetch - processPackages [methodism]: executing diffoscope
+[2023-04-27 14:23:49] INFO root fetch - processPackages [methodism]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/methodism-0.0.4.tar.gz tmp/methodism-0.0.5.tar.gz --markdown 20230427/m/methodism/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-27 14:23:49] INFO root fetch - main [MainThread]: End processing [ocf-datapipes]: success
+[2023-04-27 14:23:49] INFO root fetch - main [MainThread]: End processing [pingsafecli]: success
+[2023-04-27 14:23:49] INFO root fetch - main [MainThread]: End processing [cladeomatic]: success
+[2023-04-27 14:23:49] INFO root fetch - processPackages [pingsafecli]: Downloading https://files.pythonhosted.org/packages/7b/16/953109e99136bc109a6ef26e14a3639337085814d1d06e9b45222b4ce8d2/pingsafecli-2.3.202-py3-none-any.whl
+[2023-04-27 14:23:50] INFO root fetch - main [MainThread]: End processing [cellshape]: success
+[2023-04-27 14:23:50] INFO root fetch - main [MainThread]: End processing [sortinghat-openinfra]: success
+[2023-04-27 14:23:50] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-04-27 14:23:50] INFO root fetch - main [MainThread]: End processing [methodism]: success
+[2023-04-27 14:23:51] INFO root fetch - processPackages [pingsafecli]: executing diffoscope
+[2023-04-27 14:23:51] INFO root fetch - processPackages [pingsafecli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pingsafecli-2.3.201-py3-none-any.whl.zip tmp/pingsafecli-2.3.202-py3-none-any.whl.zip --markdown 20230427/p/pingsafecli/2.3.201-2.3.202/diff.md --exclude *.pyd
+[2023-04-27 14:23:51] INFO root fetch - main [MainThread]: End processing [appthreat-depscan]: success
+[2023-04-27 14:23:52] INFO root fetch - main [MainThread]: End processing [pingsafecli]: success
+[2023-04-27 14:23:52] INFO root fetch - main [MainThread]: Store serial: [17882712]
