@@ -10784,3 +10784,61 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 07:45:53] INFO root fetch - main [MainThread]: End processing [pil-utils]: success
 [2023-04-27 07:45:54] INFO root fetch - main [MainThread]: End processing [antchain-das]: success
 [2023-04-27 07:45:54] INFO root fetch - main [MainThread]: Store serial: [17878188]
+[2023-04-27 07:50:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17878188]
+[2023-04-27 07:51:04] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-27 07:51:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-common-task-system
+[2023-04-27 07:51:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: assignment-manager
+[2023-04-27 07:51:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: plantuml-markdown
+[2023-04-27 07:51:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sinhala-subtitle
+[2023-04-27 07:51:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wildbook-ia
+[2023-04-27 07:51:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lmk-python
+[2023-04-27 07:51:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: periflow-cli
+[2023-04-27 07:51:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: proxycurl-py
+[2023-04-27 07:51:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rockingester
+[2023-04-27 07:51:04] INFO root fetch - processPackages [assignment-manager]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-27 07:51:04] INFO root fetch - processPackages [lmk-python]: New version: [0.0.7] Old Version: [0.0.5]
+[2023-04-27 07:51:04] WARNING root fetch - processPackages [sinhala-subtitle]: Skipping, unable to determine old version
+[2023-04-27 07:51:04] INFO root fetch - processPackages [wildbook-ia]: New version: [4.0.5.dev5] Old Version: [4.0.5.dev4]
+[2023-04-27 07:51:04] INFO root fetch - main [MainThread]: End processing [sinhala-subtitle] error
+[2023-04-27 07:51:04] INFO root fetch - processPackages [rockingester]: New version: [2.0.0] Old Version: [1.1.1]
+[2023-04-27 07:51:04] INFO root fetch - processPackages [django-common-task-system]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-04-27 07:51:04] INFO root fetch - processPackages [periflow-cli]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-27 07:51:04] INFO root fetch - processPackages [plantuml-markdown]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-04-27 07:51:04] INFO root fetch - processPackages [proxycurl-py]: New version: [0.0.19] Old Version: [0.0.18]
+[2023-04-27 07:51:04] INFO root fetch - processPackages [assignment-manager]: Downloading https://files.pythonhosted.org/packages/70/ac/ae0c652e9aae59f8869e9ce7e20c72eae27879a8d97ca8f638baa292e7ee/assignment-manager-0.1.4.tar.gz
+[2023-04-27 07:51:04] INFO root fetch - processPackages [django-common-task-system]: Downloading https://files.pythonhosted.org/packages/ae/5c/7ffec16d6aa58a357ee955a42363c83bb73327016c3ca410dd3a68164a61/django-common-task-system-1.2.3.tar.gz
+[2023-04-27 07:51:04] INFO root fetch - processPackages [rockingester]: Downloading https://files.pythonhosted.org/packages/9d/cd/98c27a0be4fedc9ae502a73ce1ef85a75d9bf7c17abea47408c4a81f36a2/rockingester-2.0.0.tar.gz
+[2023-04-27 07:51:04] INFO root fetch - processPackages [periflow-cli]: Downloading https://files.pythonhosted.org/packages/79/1c/b3b2f9a6b6d9f22e255d49aee10bb9f84e47c16e581383be7e3c5bc43736/periflow-cli-0.1.8.tar.gz
+[2023-04-27 07:51:04] INFO root fetch - processPackages [lmk-python]: Downloading https://files.pythonhosted.org/packages/4c/de/7f339938fa8bfe39c098b6a79ec4c646dd7399e3f4c0e992957bcbf1b73a/lmk_python-0.0.5.tar.gz
+[2023-04-27 07:51:04] INFO root fetch - processPackages [assignment-manager]: executing diffoscope
+[2023-04-27 07:51:04] INFO root fetch - processPackages [assignment-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assignment-manager-0.1.3.tar.gz tmp/assignment-manager-0.1.4.tar.gz --markdown 20230427/a/assignment-manager/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-27 07:51:04] INFO root fetch - processPackages [proxycurl-py]: Downloading https://files.pythonhosted.org/packages/04/e9/db3f260b3919bbb3ba5129b80a7bb66aff8ff8f7eeb87a367bbae00cddc1/proxycurl-py-0.0.18.tar.gz
+[2023-04-27 07:51:04] INFO root fetch - processPackages [wildbook-ia]: Downloading https://files.pythonhosted.org/packages/03/22/bc1ae9c611a82828c15e65e1243137a4dd71a2462654b95a781fd8c49241/wildbook_ia-4.0.5.dev4-py3-none-any.whl
+[2023-04-27 07:51:04] INFO root fetch - processPackages [plantuml-markdown]: Downloading https://files.pythonhosted.org/packages/79/d6/251fa40097fdae157590fa663e8999a367c5537799ec401a0a58e2f6b17b/plantuml_markdown-3.9.0-py3-none-any.whl
+[2023-04-27 07:51:04] INFO root fetch - processPackages [rockingester]: executing diffoscope
+[2023-04-27 07:51:04] INFO root fetch - processPackages [rockingester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rockingester-1.1.1.tar.gz tmp/rockingester-2.0.0.tar.gz --markdown 20230427/r/rockingester/1.1.1-2.0.0/diff.md --exclude *.pyd
+[2023-04-27 07:51:04] WARNING root fetch - processPackages [wildbook-ia]: Skipping package: exceeds size limit 66662771>=10485760
+[2023-04-27 07:51:04] INFO root fetch - main [MainThread]: End processing [wildbook-ia] error
+[2023-04-27 07:51:04] INFO root fetch - processPackages [django-common-task-system]: Downloading https://files.pythonhosted.org/packages/ac/c3/a71d0ac7028f69006c8dfea089531371fb038051d6cc245e49d6a004cfcc/django-common-task-system-1.2.4.tar.gz
+[2023-04-27 07:51:05] INFO root fetch - processPackages [django-common-task-system]: executing diffoscope
+[2023-04-27 07:51:05] INFO root fetch - processPackages [django-common-task-system]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-common-task-system-1.2.3.tar.gz tmp/django-common-task-system-1.2.4.tar.gz --markdown 20230427/d/django-common-task-system/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-04-27 07:51:05] INFO root fetch - processPackages [plantuml-markdown]: Downloading https://files.pythonhosted.org/packages/7e/fb/e84a5ab5c66a38a04018f550d14dc3d1a9a618b8ddda090d952d9087caac/plantuml_markdown-3.9.1-py3-none-any.whl
+[2023-04-27 07:51:05] INFO root fetch - processPackages [plantuml-markdown]: executing diffoscope
+[2023-04-27 07:51:05] INFO root fetch - processPackages [plantuml-markdown]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plantuml_markdown-3.9.0-py3-none-any.whl.zip tmp/plantuml_markdown-3.9.1-py3-none-any.whl.zip --markdown 20230427/p/plantuml-markdown/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-04-27 07:51:05] INFO root fetch - processPackages [proxycurl-py]: Downloading https://files.pythonhosted.org/packages/ca/3d/74b4734259aa2cc84645297d4437823c75aaca5c3bafd5855dc3d2ec101d/proxycurl-py-0.0.19.tar.gz
+[2023-04-27 07:51:05] INFO root fetch - processPackages [periflow-cli]: Downloading https://files.pythonhosted.org/packages/cf/6f/39b88d3dc51307e8d2ca1d332977dfe697affffc6cad48b113d29331588d/periflow-cli-0.1.9.tar.gz
+[2023-04-27 07:51:05] INFO root fetch - processPackages [proxycurl-py]: executing diffoscope
+[2023-04-27 07:51:05] INFO root fetch - processPackages [proxycurl-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proxycurl-py-0.0.18.tar.gz tmp/proxycurl-py-0.0.19.tar.gz --markdown 20230427/p/proxycurl-py/0.0.18-0.0.19/diff.md --exclude *.pyd
+[2023-04-27 07:51:05] INFO root fetch - processPackages [lmk-python]: Downloading https://files.pythonhosted.org/packages/79/f5/6c5b0c299f35bbd490c42556a75eb77f81f1607c7baae2f96476dab3ffd3/lmk_python-0.0.7.tar.gz
+[2023-04-27 07:51:05] INFO root fetch - processPackages [lmk-python]: executing diffoscope
+[2023-04-27 07:51:05] INFO root fetch - processPackages [lmk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmk_python-0.0.5.tar.gz tmp/lmk_python-0.0.7.tar.gz --markdown 20230427/l/lmk-python/0.0.5-0.0.7/diff.md --exclude *.pyd
+[2023-04-27 07:51:05] INFO root fetch - processPackages [periflow-cli]: executing diffoscope
+[2023-04-27 07:51:05] INFO root fetch - processPackages [periflow-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/periflow-cli-0.1.8.tar.gz tmp/periflow-cli-0.1.9.tar.gz --markdown 20230427/p/periflow-cli/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-27 07:51:06] INFO root fetch - main [MainThread]: End processing [assignment-manager]: success
+[2023-04-27 07:51:06] INFO root fetch - main [MainThread]: End processing [plantuml-markdown]: success
+[2023-04-27 07:51:06] INFO root fetch - main [MainThread]: End processing [proxycurl-py]: success
+[2023-04-27 07:51:07] INFO root fetch - main [MainThread]: End processing [periflow-cli]: success
+[2023-04-27 07:51:07] INFO root fetch - main [MainThread]: End processing [django-common-task-system]: success
+[2023-04-27 07:51:08] INFO root fetch - main [MainThread]: End processing [rockingester]: success
+[2023-04-27 07:51:16] INFO root fetch - main [MainThread]: End processing [lmk-python]: success
+[2023-04-27 07:51:16] INFO root fetch - main [MainThread]: Store serial: [17878219]
