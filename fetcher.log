@@ -18384,3 +18384,80 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 14:07:24] INFO root fetch - main [MainThread]: End processing [helios-opentelemetry-sdk]: success
 [2023-04-27 14:07:29] INFO root fetch - main [MainThread]: End processing [encord-active-components]: success
 [2023-04-27 14:07:29] INFO root fetch - main [MainThread]: Store serial: [17882524]
+[2023-04-27 14:12:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17882524]
+[2023-04-27 14:12:40] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-27 14:12:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kk-plugins
+[2023-04-27 14:12:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rum-with-telegram
+[2023-04-27 14:12:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flet-multi-page
+[2023-04-27 14:12:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rssfixer
+[2023-04-27 14:12:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyomicron
+[2023-04-27 14:12:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jmcomic
+[2023-04-27 14:12:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dask-felleskomponenter
+[2023-04-27 14:12:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: essentia-tensorflow
+[2023-04-27 14:12:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: java-test-genie
+[2023-04-27 14:12:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: suricata-language-server
+[2023-04-27 14:12:40] INFO root fetch - processPackages [kk-plugins]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-27 14:12:40] INFO root fetch - processPackages [flet-multi-page]: New version: [1.1] Old Version: [1.0]
+[2023-04-27 14:12:40] INFO root fetch - processPackages [rssfixer]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-27 14:12:40] INFO root fetch - processPackages [jmcomic]: New version: [1.8.0] Old Version: [1.7.0]
+[2023-04-27 14:12:40] INFO root fetch - processPackages [dask-felleskomponenter]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-27 14:12:40] INFO root fetch - processPackages [rum-with-telegram]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-04-27 14:12:40] INFO root fetch - processPackages [pyomicron]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-04-27 14:12:40] INFO root fetch - processPackages [essentia-tensorflow]: New version: [2.1b6.dev871] Old Version: [2.1b6.dev858]
+[2023-04-27 14:12:40] INFO root fetch - processPackages [suricata-language-server]: New version: [0.9.0] Old Version: [0.5.1]
+[2023-04-27 14:12:40] WARNING root fetch - processPackages [java-test-genie]: Skipping, unable to determine old version
+[2023-04-27 14:12:40] INFO root fetch - processPackages [java-test-genie]: Start processing: tfrecords
+[2023-04-27 14:12:40] INFO root fetch - main [MainThread]: End processing [java-test-genie] error
+[2023-04-27 14:12:40] INFO root fetch - processPackages [kk-plugins]: executing diffoscope
+[2023-04-27 14:12:40] INFO root fetch - processPackages [kk-plugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kk-plugins-0.0.3.tar.gz tmp/kk-plugins-0.0.4.tar.gz --markdown 20230427/k/kk-plugins/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-27 14:12:40] ERROR root fetch - processPackages [flet-multi-page]: Unable to fetch info: No such project/version 'flet-multi-page' 1.0
+[2023-04-27 14:12:40] INFO root fetch - processPackages [flet-multi-page]: Start processing: nyaa-timer
+[2023-04-27 14:12:40] INFO root fetch - main [MainThread]: End processing [flet-multi-page] error
+[2023-04-27 14:12:40] INFO root fetch - processPackages [rssfixer]: executing diffoscope
+[2023-04-27 14:12:40] INFO root fetch - processPackages [rssfixer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rssfixer-0.1.2.tar.gz tmp/rssfixer-0.1.3.tar.gz --markdown 20230427/r/rssfixer/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-27 14:12:40] INFO root fetch - processPackages [tfrecords]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-04-27 14:12:40] INFO root fetch - processPackages [jmcomic]: executing diffoscope
+[2023-04-27 14:12:40] INFO root fetch - processPackages [jmcomic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jmcomic-1.7.0.tar.gz tmp/jmcomic-1.8.0.tar.gz --markdown 20230427/j/jmcomic/1.7.0-1.8.0/diff.md --exclude *.pyd
+[2023-04-27 14:12:40] WARNING root fetch - processPackages [nyaa-timer]: Skipping, unable to determine old version
+[2023-04-27 14:12:40] INFO root fetch - processPackages [nyaa-timer]: Start processing: gb
+[2023-04-27 14:12:40] INFO root fetch - main [MainThread]: End processing [nyaa-timer] error
+[2023-04-27 14:12:40] INFO root fetch - processPackages [suricata-language-server]: Downloading https://files.pythonhosted.org/packages/c1/f3/c07f076a354ec780e2eb31d0fc2c8c890a1bf117a26991fc0d0a52c4eac7/suricata-language-server-0.5.1.tar.gz
+[2023-04-27 14:12:40] INFO root fetch - processPackages [pyomicron]: Downloading https://files.pythonhosted.org/packages/40/73/529b0526364efa648852d64d579703f2fb08369a608dc2e10f055e76b812/pyomicron-2.0.4.tar.gz
+[2023-04-27 14:12:40] INFO root fetch - processPackages [dask-felleskomponenter]: Downloading https://files.pythonhosted.org/packages/1f/52/a0b0bc82f146f4c5863ba6264e020c9a489f2b99ef6e30e7c6a0191b87e3/dask-felleskomponenter-0.0.5.tar.gz
+[2023-04-27 14:12:40] INFO root fetch - processPackages [gb]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-27 14:12:40] INFO root fetch - processPackages [rum-with-telegram]: Downloading https://files.pythonhosted.org/packages/17/5a/a0cfb2e0c3696e50fb5deddfae4c71f2d69e11a782203a26d15522e7d8b5/rum_with_telegram-0.8.3.tar.gz
+[2023-04-27 14:12:40] INFO root fetch - processPackages [essentia-tensorflow]: Downloading https://files.pythonhosted.org/packages/ea/bc/5b406f3ecb94bd87f3ea2c8f73c1a99b451b271b7a3c38b56d04cade83f1/essentia_tensorflow-2.1b6.dev858-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-27 14:12:40] INFO root fetch - processPackages [gb]: executing diffoscope
+[2023-04-27 14:12:40] INFO root fetch - processPackages [gb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gb-0.1.2.tar.gz tmp/gb-0.1.3.tar.gz --markdown 20230427/g/gb/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-27 14:12:40] INFO root fetch - processPackages [tfrecords]: Downloading https://files.pythonhosted.org/packages/c0/fe/1c2675ec6d17b23c97d7da31e5b6c169f0c0a1d3c73f06e3fdb9f4f931c9/tfrecords-0.2.5-cp39-cp39-win_amd64.whl
+[2023-04-27 14:12:40] INFO root fetch - processPackages [pyomicron]: Downloading https://files.pythonhosted.org/packages/a4/ca/9a1a4f22196a4d02c8e2dca4e7d376839ba5b7add3a504e67044fe30f55b/pyomicron-2.0.5.tar.gz
+[2023-04-27 14:12:40] INFO root fetch - processPackages [dask-felleskomponenter]: Downloading https://files.pythonhosted.org/packages/76/3e/58d187bb43a722e36606e676c77cf1f13b2cc55c7246c936c717227c1194/dask-felleskomponenter-0.0.6.tar.gz
+[2023-04-27 14:12:40] INFO root fetch - processPackages [suricata-language-server]: Downloading https://files.pythonhosted.org/packages/1a/17/b2871cc0c16d075ae8572504bd876975f6e1eb0cf20c6ee77d0636ea1d3b/suricata-language-server-0.9.0.tar.gz
+[2023-04-27 14:12:41] INFO root fetch - processPackages [rum-with-telegram]: executing diffoscope
+[2023-04-27 14:12:41] INFO root fetch - processPackages [rum-with-telegram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rum_with_telegram-0.8.2.tar.gz tmp/rum_with_telegram-0.8.3.tar.gz --markdown 20230427/r/rum-with-telegram/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-04-27 14:12:41] INFO root fetch - processPackages [dask-felleskomponenter]: executing diffoscope
+[2023-04-27 14:12:41] INFO root fetch - processPackages [dask-felleskomponenter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-felleskomponenter-0.0.5.tar.gz tmp/dask-felleskomponenter-0.0.6.tar.gz --markdown 20230427/d/dask-felleskomponenter/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-27 14:12:41] INFO root fetch - processPackages [pyomicron]: executing diffoscope
+[2023-04-27 14:12:41] INFO root fetch - processPackages [pyomicron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyomicron-2.0.4.tar.gz tmp/pyomicron-2.0.5.tar.gz --markdown 20230427/p/pyomicron/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-04-27 14:12:41] INFO root fetch - processPackages [suricata-language-server]: executing diffoscope
+[2023-04-27 14:12:41] INFO root fetch - processPackages [suricata-language-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/suricata-language-server-0.5.1.tar.gz tmp/suricata-language-server-0.9.0.tar.gz --markdown 20230427/s/suricata-language-server/0.5.1-0.9.0/diff.md --exclude *.pyd
+[2023-04-27 14:12:41] WARNING root fetch - processPackages [essentia-tensorflow]: Skipping package: exceeds size limit 291401236>=10485760
+[2023-04-27 14:12:41] INFO root fetch - processPackages [essentia-tensorflow]: Start processing: spotinst-agent-beta
+[2023-04-27 14:12:41] INFO root fetch - main [MainThread]: End processing [essentia-tensorflow] error
+[2023-04-27 14:12:41] INFO root fetch - processPackages [spotinst-agent-beta]: New version: [2.2.264] Old Version: [2.2.263]
+[2023-04-27 14:12:41] INFO root fetch - processPackages [spotinst-agent-beta]: executing diffoscope
+[2023-04-27 14:12:41] INFO root fetch - processPackages [spotinst-agent-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotinst-agent-beta-2.2.263.tar.gz tmp/spotinst-agent-beta-2.2.264.tar.gz --markdown 20230427/s/spotinst-agent-beta/2.2.263-2.2.264/diff.md --exclude *.pyd
+[2023-04-27 14:12:41] INFO root fetch - main [MainThread]: End processing [kk-plugins]: success
+[2023-04-27 14:12:41] INFO root fetch - processPackages [tfrecords]: Downloading https://files.pythonhosted.org/packages/c3/ff/e569aa9a5dd5fb616fe8e718c5a537efa535b12b4c1bc6fc77afba0b9a49/tfrecords-0.2.6-cp39-cp39-manylinux2014_x86_64.whl
+[2023-04-27 14:12:41] INFO root fetch - main [MainThread]: End processing [rssfixer]: success
+[2023-04-27 14:12:42] INFO root fetch - main [MainThread]: End processing [jmcomic]: success
+[2023-04-27 14:12:42] INFO root fetch - main [MainThread]: End processing [gb]: success
+[2023-04-27 14:12:42] INFO root fetch - main [MainThread]: End processing [rum-with-telegram]: success
+[2023-04-27 14:12:42] INFO root fetch - main [MainThread]: End processing [dask-felleskomponenter]: success
+[2023-04-27 14:12:42] INFO root fetch - main [MainThread]: End processing [spotinst-agent-beta]: success
+[2023-04-27 14:12:42] INFO root fetch - main [MainThread]: End processing [pyomicron]: success
+[2023-04-27 14:12:42] INFO root fetch - processPackages [tfrecords]: executing diffoscope
+[2023-04-27 14:12:42] INFO root fetch - processPackages [tfrecords]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfrecords-0.2.5-cp39-cp39-win_amd64.whl.zip tmp/tfrecords-0.2.6-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230427/t/tfrecords/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-04-27 14:12:43] INFO root fetch - main [MainThread]: End processing [suricata-language-server]: success
+[2023-04-27 14:12:44] INFO root fetch - main [MainThread]: End processing [tfrecords]: success
+[2023-04-27 14:12:44] INFO root fetch - main [MainThread]: Store serial: [17882586]
