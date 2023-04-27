@@ -10842,3 +10842,65 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 07:51:08] INFO root fetch - main [MainThread]: End processing [rockingester]: success
 [2023-04-27 07:51:16] INFO root fetch - main [MainThread]: End processing [lmk-python]: success
 [2023-04-27 07:51:16] INFO root fetch - main [MainThread]: Store serial: [17878219]
+[2023-04-27 07:56:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17878219]
+[2023-04-27 07:56:26] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-27 07:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trollmoves
+[2023-04-27 07:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scratch-implemented
+[2023-04-27 07:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hagrid
+[2023-04-27 07:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: insights-core
+[2023-04-27 07:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hugchat
+[2023-04-27 07:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gulistandb
+[2023-04-27 07:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mmgpt
+[2023-04-27 07:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fortigate-api
+[2023-04-27 07:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: deepview-validator
+[2023-04-27 07:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pglast
+[2023-04-27 07:56:26] INFO root fetch - processPackages [trollmoves]: New version: [7.0.0] Old Version: [0.9.0]
+[2023-04-27 07:56:26] INFO root fetch - processPackages [gulistandb]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-27 07:56:26] WARNING root fetch - processPackages [hugchat]: Skipping, unable to determine old version
+[2023-04-27 07:56:26] INFO root fetch - processPackages [hugchat]: Start processing: state-space-generator
+[2023-04-27 07:56:26] INFO root fetch - main [MainThread]: End processing [hugchat] error
+[2023-04-27 07:56:26] WARNING root fetch - processPackages [scratch-implemented]: Skipping, unable to determine old version
+[2023-04-27 07:56:26] INFO root fetch - processPackages [fortigate-api]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-04-27 07:56:26] WARNING root fetch - processPackages [mmgpt]: Skipping, unable to determine old version
+[2023-04-27 07:56:26] INFO root fetch - main [MainThread]: End processing [scratch-implemented] error
+[2023-04-27 07:56:26] INFO root fetch - main [MainThread]: End processing [mmgpt] error
+[2023-04-27 07:56:26] INFO root fetch - processPackages [deepview-validator]: New version: [3.0.4] Old Version: [3.0.3]
+[2023-04-27 07:56:26] INFO root fetch - processPackages [insights-core]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-04-27 07:56:26] INFO root fetch - processPackages [hagrid]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-04-27 07:56:26] INFO root fetch - processPackages [state-space-generator]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-27 07:56:26] INFO root fetch - processPackages [pglast]: New version: [5.1] Old Version: [5.0.dev1]
+[2023-04-27 07:56:26] INFO root fetch - processPackages [trollmoves]: Downloading https://files.pythonhosted.org/packages/ab/9c/f603418f488e67765bf8f94f00ef3639d2e12b1540d0a3bf2261d14a9b47/trollmoves-0.9.0.tar.gz
+[2023-04-27 07:56:26] INFO root fetch - processPackages [gulistandb]: Downloading https://files.pythonhosted.org/packages/4b/4a/41aa6467cb821219b068605e8ecc738b680aa170f72aa170fc90956cd6a4/gulistandb-0.0.6.tar.gz
+[2023-04-27 07:56:26] INFO root fetch - processPackages [deepview-validator]: Downloading https://files.pythonhosted.org/packages/a1/1a/c1f77e7bac060928c30314cb80afe570526934a9b00134b01184da9c806f/deepview_validator-3.0.3-py3-none-any.whl
+[2023-04-27 07:56:26] INFO root fetch - processPackages [hagrid]: Downloading https://files.pythonhosted.org/packages/53/33/5f696e0dbafd7a53633eeb5591274a4c2bc2f5cd17b15b73595d4eee4aa2/hagrid-0.3.5.tar.gz
+[2023-04-27 07:56:26] INFO root fetch - processPackages [pglast]: Downloading https://files.pythonhosted.org/packages/ad/b9/992ebaebdb49fbabb9c7272a56668ab21a68fc76a078222b64f609b0e6ad/pglast-5.0.dev1.tar.gz
+[2023-04-27 07:56:26] INFO root fetch - processPackages [state-space-generator]: Downloading https://files.pythonhosted.org/packages/b4/03/a54b2bb2decbf3ac16251bace0959e192bcd392b2db0b0bd42e4ab0133d6/state_space_generator-0.1.1.tar.gz
+[2023-04-27 07:56:26] INFO root fetch - processPackages [fortigate-api]: Downloading https://files.pythonhosted.org/packages/d3/f4/c3243e7c196d8138bf82054841d933881f8607059b62c6d503959d02fcff/fortigate_api-1.2.2.tar.gz
+[2023-04-27 07:56:26] INFO root fetch - processPackages [gulistandb]: executing diffoscope
+[2023-04-27 07:56:26] INFO root fetch - processPackages [gulistandb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gulistandb-0.0.5.tar.gz tmp/gulistandb-0.0.6.tar.gz --markdown 20230427/g/gulistandb/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-27 07:56:26] INFO root fetch - processPackages [hagrid]: executing diffoscope
+[2023-04-27 07:56:26] INFO root fetch - processPackages [hagrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hagrid-0.3.4.tar.gz tmp/hagrid-0.3.5.tar.gz --markdown 20230427/h/hagrid/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-04-27 07:56:26] INFO root fetch - processPackages [fortigate-api]: executing diffoscope
+[2023-04-27 07:56:26] INFO root fetch - processPackages [insights-core]: executing diffoscope
+[2023-04-27 07:56:26] INFO root fetch - processPackages [fortigate-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fortigate_api-1.2.1.tar.gz tmp/fortigate_api-1.2.2.tar.gz --markdown 20230427/f/fortigate-api/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-04-27 07:56:26] INFO root fetch - processPackages [insights-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/insights-core-3.1.8.tar.gz tmp/insights-core-3.1.9.tar.gz --markdown 20230427/i/insights-core/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-04-27 07:56:26] INFO root fetch - processPackages [state-space-generator]: executing diffoscope
+[2023-04-27 07:56:26] INFO root fetch - processPackages [state-space-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/state_space_generator-0.1.0.tar.gz tmp/state_space_generator-0.1.1.tar.gz --markdown 20230427/s/state-space-generator/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-27 07:56:26] INFO root fetch - processPackages [deepview-validator]: Downloading https://files.pythonhosted.org/packages/f0/37/14c41614d5cd2e81f5b2a3e1212d064209614062cbe210584a1f8983c7e1/deepview_validator-3.0.4-py3-none-any.whl
+[2023-04-27 07:56:26] INFO root fetch - processPackages [deepview-validator]: executing diffoscope
+[2023-04-27 07:56:26] INFO root fetch - processPackages [deepview-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepview_validator-3.0.3-py3-none-any.whl.zip tmp/deepview_validator-3.0.4-py3-none-any.whl.zip --markdown 20230427/d/deepview-validator/3.0.3-3.0.4/diff.md --exclude *.pyd
+[2023-04-27 07:56:27] INFO root fetch - processPackages [trollmoves]: Downloading https://files.pythonhosted.org/packages/41/44/28bd931994b519d6e6dd857b4aac7dad503c0069a151f821ecfd33c90b4c/trollmoves-7.0.0.tar.gz
+[2023-04-27 07:56:27] INFO root fetch - processPackages [trollmoves]: executing diffoscope
+[2023-04-27 07:56:27] INFO root fetch - processPackages [trollmoves]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trollmoves-0.9.0.tar.gz tmp/trollmoves-7.0.0.tar.gz --markdown 20230427/t/trollmoves/0.9.0-7.0.0/diff.md --exclude *.pyd
+[2023-04-27 07:56:27] INFO root fetch - processPackages [pglast]: Downloading https://files.pythonhosted.org/packages/7e/4c/b3b6d66d1eddcd04adb39f4a0cede4c6c943f4036e970bcacea960325583/pglast-5.1.tar.gz
+[2023-04-27 07:56:27] INFO root fetch - processPackages [pglast]: executing diffoscope
+[2023-04-27 07:56:27] INFO root fetch - processPackages [pglast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pglast-5.0.dev1.tar.gz tmp/pglast-5.1.tar.gz --markdown 20230427/p/pglast/5.0.dev1-5.1/diff.md --exclude *.pyd
+[2023-04-27 07:56:28] INFO root fetch - main [MainThread]: End processing [gulistandb]: success
+[2023-04-27 07:56:28] INFO root fetch - main [MainThread]: End processing [hagrid]: success
+[2023-04-27 07:56:28] INFO root fetch - main [MainThread]: End processing [fortigate-api]: success
+[2023-04-27 07:56:28] INFO root fetch - main [MainThread]: End processing [deepview-validator]: success
+[2023-04-27 07:56:28] INFO root fetch - main [MainThread]: End processing [trollmoves]: success
+[2023-04-27 07:56:33] INFO root fetch - main [MainThread]: End processing [state-space-generator]: success
+[2023-04-27 07:56:40] INFO root fetch - main [MainThread]: End processing [pglast]: success
+[2023-04-27 07:56:48] INFO root fetch - main [MainThread]: End processing [insights-core]: success
+[2023-04-27 07:56:48] INFO root fetch - main [MainThread]: Store serial: [17878265]
