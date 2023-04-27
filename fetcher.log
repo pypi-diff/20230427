@@ -13903,3 +13903,135 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 11:17:11] INFO root fetch - main [MainThread]: End processing [scikit-activeml]: success
 [2023-04-27 11:17:39] INFO root fetch - main [MainThread]: End processing [django-dsfr]: success
 [2023-04-27 11:17:39] INFO root fetch - main [MainThread]: Store serial: [17880194]
+[2023-04-27 11:22:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17880194]
+[2023-04-27 11:22:49] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-04-27 11:22:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: krillscan
+[2023-04-27 11:22:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: GBT-parser
+[2023-04-27 11:22:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: docarray
+[2023-04-27 11:22:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: testit-api-client
+[2023-04-27 11:22:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: inventronet
+[2023-04-27 11:22:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: counter-kit
+[2023-04-27 11:22:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: oauth20-api
+[2023-04-27 11:22:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spanishconjugator
+[2023-04-27 11:22:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tf-nightly-cpu-aws
+[2023-04-27 11:22:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pandasai
+[2023-04-27 11:22:49] INFO root fetch - processPackages [krillscan]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-27 11:22:49] INFO root fetch - processPackages [testit-api-client]: New version: [3.1.0] Old Version: [3.0.1]
+[2023-04-27 11:22:49] WARNING root fetch - processPackages [counter-kit]: Skipping, unable to determine old version
+[2023-04-27 11:22:49] INFO root fetch - processPackages [counter-kit]: Start processing: graal
+[2023-04-27 11:22:49] INFO root fetch - main [MainThread]: End processing [counter-kit] error
+[2023-04-27 11:22:49] INFO root fetch - processPackages [inventronet]: New version: [0.0.6a0] Old Version: [0.0.5a0]
+[2023-04-27 11:22:49] WARNING root fetch - processPackages [GBT-parser]: Skipping, unable to determine old version
+[2023-04-27 11:22:49] WARNING root fetch - processPackages [oauth20-api]: Skipping, unable to determine old version
+[2023-04-27 11:22:49] INFO root fetch - processPackages [GBT-parser]: Start processing: spanishconjugator
+[2023-04-27 11:22:49] INFO root fetch - main [MainThread]: End processing [GBT-parser] error
+[2023-04-27 11:22:49] INFO root fetch - processPackages [oauth20-api]: Start processing: JsonPreprocessor
+[2023-04-27 11:22:49] INFO root fetch - main [MainThread]: End processing [oauth20-api] error
+[2023-04-27 11:22:49] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-04-27 11:22:49] INFO root fetch - processPackages [pandasai]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-27 11:22:49] INFO root fetch - processPackages [tf-nightly-cpu-aws]: New version: [2.13.0.dev20230426] Old Version: [2.13.0.dev20230412]
+[2023-04-27 11:22:49] INFO root fetch - processPackages [graal]: New version: [0.4.7] Old Version: [0.4.6]
+[2023-04-27 11:22:49] INFO root fetch - processPackages [JsonPreprocessor]: New version: [0.2.0] Old Version: [0.1.5]
+[2023-04-27 11:22:49] INFO root fetch - processPackages [tf-nightly-cpu-aws]: Downloading https://files.pythonhosted.org/packages/cf/dc/4d56b1d7b3a86f42318bcf81b74f62c4a1812e3893f451dc1aa5c3529acf/tf_nightly_cpu_aws-2.13.0.dev20230412-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2023-04-27 11:22:49] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-04-27 11:22:49] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230427/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-04-27 11:22:49] WARNING root fetch - processPackages [tf-nightly-cpu-aws]: Skipping package: exceeds size limit 246866697>=10485760
+[2023-04-27 11:22:49] INFO root fetch - processPackages [tf-nightly-cpu-aws]: Start processing: aliyun-python-sdk-cc5g
+[2023-04-27 11:22:49] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu-aws] error
+[2023-04-27 11:22:49] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-04-27 11:22:49] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-04-27 11:22:49] INFO root fetch - processPackages [aliyun-python-sdk-cc5g]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-04-27 11:22:49] INFO root fetch - processPackages [JsonPreprocessor]: Downloading https://files.pythonhosted.org/packages/d2/11/fe69a2288e0a15aa86fc912ce7ec6b7a1994c63edb84e7154ee91e0c4aaa/JsonPreprocessor-0.1.5.tar.gz
+[2023-04-27 11:22:49] INFO root fetch - processPackages [pandasai]: Downloading https://files.pythonhosted.org/packages/15/80/c1701771ebf5b92e674ab325a1917854eff0b8b21e06fe982234290f2ba8/pandasai-0.0.2.tar.gz
+[2023-04-27 11:22:49] INFO root fetch - processPackages [testit-api-client]: Downloading https://files.pythonhosted.org/packages/05/3f/694f9a8a31e74fe82ff955920548505852bb7b18b5abd2b6eff8f6c59809/testit-api-client-3.0.1.tar.gz
+[2023-04-27 11:22:49] INFO root fetch - processPackages [inventronet]: Downloading https://files.pythonhosted.org/packages/fc/56/6680c73d0cd6720681c5b046d3a2518b1ee051104ec23eddcd137b685e6b/inventronet-0.0.5a0.tar.gz
+[2023-04-27 11:22:49] INFO root fetch - processPackages [graal]: Downloading https://files.pythonhosted.org/packages/b0/5d/cb88958b44efcc1730765b798f2bd07257081899eddaa91e7d23d9faddca/graal-0.4.7.tar.gz
+[2023-04-27 11:22:49] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-04-27 11:22:49] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230427/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-04-27 11:22:49] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-04-27 11:22:49] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230427/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-04-27 11:22:49] INFO root fetch - processPackages [graal]: executing diffoscope
+[2023-04-27 11:22:49] INFO root fetch - processPackages [graal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graal-0.4.6.tar.gz tmp/graal-0.4.7.tar.gz --markdown 20230427/g/graal/0.4.6-0.4.7/diff.md --exclude *.pyd
+[2023-04-27 11:22:50] INFO root fetch - processPackages [aliyun-python-sdk-cc5g]: Downloading https://files.pythonhosted.org/packages/91/9f/36fa029c17b57eb79bfbbd7500b2c2193a145cec352ea324531f01464625/aliyun-python-sdk-cc5g-1.0.5.tar.gz
+[2023-04-27 11:22:50] INFO root fetch - processPackages [krillscan]: executing diffoscope
+[2023-04-27 11:22:50] INFO root fetch - processPackages [krillscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krillscan-0.2.8.tar.gz tmp/krillscan-0.2.9.tar.gz --markdown 20230427/k/krillscan/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-27 11:22:50] INFO root fetch - processPackages [testit-api-client]: Downloading https://files.pythonhosted.org/packages/06/ac/aa0b1384b80717e0f6a6ce3fc6c2d64b83db4e4360050796279adf9b67dd/testit-api-client-3.1.0.tar.gz
+[2023-04-27 11:22:50] INFO root fetch - processPackages [pandasai]: Downloading https://files.pythonhosted.org/packages/be/0e/98aee7bfaf5472413c8a353404f650478190b966e744eed9153c4e8bf4e5/pandasai-0.0.3.tar.gz
+[2023-04-27 11:22:50] INFO root fetch - processPackages [pandasai]: executing diffoscope
+[2023-04-27 11:22:50] INFO root fetch - processPackages [pandasai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandasai-0.0.2.tar.gz tmp/pandasai-0.0.3.tar.gz --markdown 20230427/p/pandasai/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-27 11:22:50] INFO root fetch - processPackages [testit-api-client]: executing diffoscope
+[2023-04-27 11:22:50] INFO root fetch - processPackages [testit-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testit-api-client-3.0.1.tar.gz tmp/testit-api-client-3.1.0.tar.gz --markdown 20230427/t/testit-api-client/3.0.1-3.1.0/diff.md --exclude *.pyd
+[2023-04-27 11:22:50] INFO root fetch - processPackages [inventronet]: Downloading https://files.pythonhosted.org/packages/07/b5/1bccc16275f705667ac2a6df5b0620640de6709068e773b0fc730f206678/inventronet-0.0.6a0.tar.gz
+[2023-04-27 11:22:50] INFO root fetch - processPackages [JsonPreprocessor]: executing diffoscope
+[2023-04-27 11:22:50] INFO root fetch - processPackages [JsonPreprocessor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JsonPreprocessor-0.1.5.tar.gz tmp/JsonPreprocessor-0.2.0.tar.gz --markdown 20230427/J/JsonPreprocessor/0.1.5-0.2.0/diff.md --exclude *.pyd
+[2023-04-27 11:22:50] INFO root fetch - processPackages [inventronet]: executing diffoscope
+[2023-04-27 11:22:50] INFO root fetch - processPackages [inventronet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inventronet-0.0.5a0.tar.gz tmp/inventronet-0.0.6a0.tar.gz --markdown 20230427/i/inventronet/0.0.5a0-0.0.6a0/diff.md --exclude *.pyd
+[2023-04-27 11:22:50] INFO root fetch - processPackages [aliyun-python-sdk-cc5g]: Downloading https://files.pythonhosted.org/packages/07/50/28dee9961b23128e1eaa34fbe1201af5fc96679ae52f25d6294b912ccd16/aliyun-python-sdk-cc5g-1.0.6.tar.gz
+[2023-04-27 11:22:50] INFO root fetch - processPackages [aliyun-python-sdk-cc5g]: executing diffoscope
+[2023-04-27 11:22:50] INFO root fetch - processPackages [aliyun-python-sdk-cc5g]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-cc5g-1.0.5.tar.gz tmp/aliyun-python-sdk-cc5g-1.0.6.tar.gz --markdown 20230427/a/aliyun-python-sdk-cc5g/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-04-27 11:22:51] INFO root fetch - processPackages [spanishconjugator]: Start processing: inspursmsdk
+[2023-04-27 11:22:51] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-04-27 11:22:51] INFO root fetch - processPackages [inspursmsdk]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-04-27 11:22:51] INFO root fetch - processPackages [pandasai]: Start processing: decorworld-database-model
+[2023-04-27 11:22:51] INFO root fetch - main [MainThread]: End processing [pandasai]: success
+[2023-04-27 11:22:51] INFO root fetch - processPackages [graal]: Start processing: extr
+[2023-04-27 11:22:51] INFO root fetch - main [MainThread]: End processing [graal]: success
+[2023-04-27 11:22:51] INFO root fetch - processPackages [decorworld-database-model]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-04-27 11:22:51] INFO root fetch - processPackages [extr]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 11:22:51] INFO root fetch - processPackages [spanishconjugator]: Start processing: ucloud-sdk-python3
+[2023-04-27 11:22:51] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-04-27 11:22:51] INFO root fetch - processPackages [inspursmsdk]: Downloading https://files.pythonhosted.org/packages/32/06/1e01980ec854b94fdc07662b8c0b124fa8fae08616fc665c613a923d1bde/inspursmsdk-2.0.5.tar.gz
+[2023-04-27 11:22:51] INFO root fetch - processPackages [extr]: executing diffoscope
+[2023-04-27 11:22:51] INFO root fetch - processPackages [extr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extr-0.0.8.tar.gz tmp/extr-0.0.9.tar.gz --markdown 20230427/e/extr/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 11:22:51] INFO root fetch - processPackages [inspursmsdk]: executing diffoscope
+[2023-04-27 11:22:51] INFO root fetch - processPackages [inspursmsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inspursmsdk-2.0.4.tar.gz tmp/inspursmsdk-2.0.5.tar.gz --markdown 20230427/i/inspursmsdk/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-04-27 11:22:51] INFO root fetch - processPackages [ucloud-sdk-python3]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-04-27 11:22:52] INFO root fetch - processPackages [docarray]: Start processing: business-common
+[2023-04-27 11:22:52] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-04-27 11:22:52] INFO root fetch - processPackages [decorworld-database-model]: Downloading https://files.pythonhosted.org/packages/60/77/e3f9790b979307b4746c210792c019ade8fa0c58b9c5dbbd2981d375b137/decorworld_database_model-0.6.3.tar.gz
+[2023-04-27 11:22:52] INFO root fetch - processPackages [inventronet]: Start processing: lsst-ctrl-bps-htcondor
+[2023-04-27 11:22:52] INFO root fetch - main [MainThread]: End processing [inventronet]: success
+[2023-04-27 11:22:52] WARNING root fetch - processPackages [business-common]: Skipping, unable to determine old version
+[2023-04-27 11:22:52] INFO root fetch - processPackages [business-common]: Start processing: loopgpt
+[2023-04-27 11:22:52] INFO root fetch - main [MainThread]: End processing [business-common] error
+[2023-04-27 11:22:52] INFO root fetch - processPackages [ucloud-sdk-python3]: Downloading https://files.pythonhosted.org/packages/b9/ad/8d3ba7b74be635980377f25b6df78942d28c0c11684ba86aa7adca44ff22/ucloud-sdk-python3-0.9.3.tar.gz
+[2023-04-27 11:22:52] INFO root fetch - processPackages [decorworld-database-model]: executing diffoscope
+[2023-04-27 11:22:52] INFO root fetch - processPackages [decorworld-database-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decorworld_database_model-0.6.2.tar.gz tmp/decorworld_database_model-0.6.3.tar.gz --markdown 20230427/d/decorworld-database-model/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-04-27 11:22:52] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-04-27 11:22:52] INFO root fetch - processPackages [loopgpt]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 11:22:52] INFO root fetch - processPackages [aliyun-python-sdk-cc5g]: Start processing: usls
+[2023-04-27 11:22:52] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-cc5g]: success
+[2023-04-27 11:22:52] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: Downloading https://files.pythonhosted.org/packages/9c/29/1a3392502c8a25f2eb2fabe112e03edaf4de2d8396df282510856200f6a7/lsst-ctrl-bps-htcondor-26.0.0a20230400.tar.gz
+[2023-04-27 11:22:52] INFO root fetch - processPackages [loopgpt]: Downloading https://files.pythonhosted.org/packages/59/31/86e1b1affbcc28ea5ff1a26175cfafdfc5bb99f08bb4ef37510e826dbdb0/loopgpt-0.0.8.tar.gz
+[2023-04-27 11:22:52] INFO root fetch - processPackages [usls]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-04-27 11:22:52] INFO root fetch - processPackages [JsonPreprocessor]: Start processing: dvc-task
+[2023-04-27 11:22:52] INFO root fetch - main [MainThread]: End processing [JsonPreprocessor]: success
+[2023-04-27 11:22:52] INFO root fetch - processPackages [ucloud-sdk-python3]: Downloading https://files.pythonhosted.org/packages/ce/46/23811142fdf629c84759319dd47a810e863e87ba1562172242caa1df2ba7/ucloud-sdk-python3-0.9.4.tar.gz
+[2023-04-27 11:22:52] INFO root fetch - processPackages [dvc-task]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-04-27 11:22:52] INFO root fetch - processPackages [usls]: Downloading https://files.pythonhosted.org/packages/e8/0b/a85e66fc7046ff5a85628ec8310b70c83c07e289371ba35bfa5c4c29b637/usls-0.0.9-py3-none-any.whl
+[2023-04-27 11:22:52] INFO root fetch - processPackages [ucloud-sdk-python3]: executing diffoscope
+[2023-04-27 11:22:52] INFO root fetch - processPackages [ucloud-sdk-python3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ucloud-sdk-python3-0.9.3.tar.gz tmp/ucloud-sdk-python3-0.9.4.tar.gz --markdown 20230427/u/ucloud-sdk-python3/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-04-27 11:22:52] INFO root fetch - processPackages [dvc-task]: Downloading https://files.pythonhosted.org/packages/4a/2e/679849e67fc86bd495f9a9c4230b3d08b4f8fd7691139d279169d42497e4/dvc-task-0.2.0.tar.gz
+[2023-04-27 11:22:52] INFO root fetch - processPackages [loopgpt]: Downloading https://files.pythonhosted.org/packages/61/66/99c47e13b5d18407fb1bacf705dd1818fa0146ee32a0490722c87e8a822f/loopgpt-0.0.9.tar.gz
+[2023-04-27 11:22:52] INFO root fetch - processPackages [loopgpt]: executing diffoscope
+[2023-04-27 11:22:52] INFO root fetch - processPackages [loopgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loopgpt-0.0.8.tar.gz tmp/loopgpt-0.0.9.tar.gz --markdown 20230427/l/loopgpt/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 11:22:52] INFO root fetch - processPackages [dvc-task]: Downloading https://files.pythonhosted.org/packages/cd/b2/1c292c5edeb252585143e84d82ba26b8d9b1090f170ab5101b0099cdea7d/dvc-task-0.2.1.tar.gz
+[2023-04-27 11:22:52] INFO root fetch - processPackages [usls]: Downloading https://files.pythonhosted.org/packages/12/42/d34197c087979f4ad1c2049fed46a1d61162740f7500923d3616de38b213/usls-0.1.0-py3-none-any.whl
+[2023-04-27 11:22:53] INFO root fetch - processPackages [dvc-task]: executing diffoscope
+[2023-04-27 11:22:53] INFO root fetch - processPackages [dvc-task]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvc-task-0.2.0.tar.gz tmp/dvc-task-0.2.1.tar.gz --markdown 20230427/d/dvc-task/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-04-27 11:22:53] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: Downloading https://files.pythonhosted.org/packages/3c/cc/c973405023d7f2d0de5436529223459d8600f71b8be3454b9262b1ac019c/lsst-ctrl-bps-htcondor-26.0.0a20230500.tar.gz
+[2023-04-27 11:22:53] INFO root fetch - main [MainThread]: End processing [extr]: success
+[2023-04-27 11:22:53] INFO root fetch - processPackages [usls]: executing diffoscope
+[2023-04-27 11:22:53] INFO root fetch - processPackages [usls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usls-0.0.9-py3-none-any.whl.zip tmp/usls-0.1.0-py3-none-any.whl.zip --markdown 20230427/u/usls/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-04-27 11:22:53] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: executing diffoscope
+[2023-04-27 11:22:53] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-ctrl-bps-htcondor-26.0.0a20230400.tar.gz tmp/lsst-ctrl-bps-htcondor-26.0.0a20230500.tar.gz --markdown 20230427/l/lsst-ctrl-bps-htcondor/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-04-27 11:22:53] INFO root fetch - main [MainThread]: End processing [decorworld-database-model]: success
+[2023-04-27 11:22:54] INFO root fetch - main [MainThread]: End processing [loopgpt]: success
+[2023-04-27 11:22:54] INFO root fetch - main [MainThread]: End processing [dvc-task]: success
+[2023-04-27 11:22:54] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-bps-htcondor]: success
+[2023-04-27 11:22:54] INFO root fetch - main [MainThread]: End processing [usls]: success
+[2023-04-27 11:22:54] INFO root fetch - main [MainThread]: End processing [inspursmsdk]: success
+[2023-04-27 11:22:55] INFO root fetch - main [MainThread]: End processing [krillscan]: success
+[2023-04-27 11:22:55] INFO root fetch - main [MainThread]: End processing [testit-api-client]: success
+[2023-04-27 11:22:57] INFO root fetch - main [MainThread]: End processing [ucloud-sdk-python3]: success
+[2023-04-27 11:22:57] INFO root fetch - main [MainThread]: Store serial: [17880268]
