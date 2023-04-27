@@ -13041,3 +13041,124 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 10:34:00] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-dms-enterprise]: success
 [2023-04-27 10:34:02] INFO root fetch - main [MainThread]: End processing [returnn]: success
 [2023-04-27 10:34:02] INFO root fetch - main [MainThread]: Store serial: [17879623]
+[2023-04-27 10:39:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17879623]
+[2023-04-27 10:39:11] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-04-27 10:39:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lazy-testdata
+[2023-04-27 10:39:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aioxmlrpc
+[2023-04-27 10:39:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: robotmk
+[2023-04-27 10:39:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: prometheus-http-sd
+[2023-04-27 10:39:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: optilibre
+[2023-04-27 10:39:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: drf-nested-browsable
+[2023-04-27 10:39:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: giscemultitools
+[2023-04-27 10:39:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pymultigit
+[2023-04-27 10:39:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: badi-users
+[2023-04-27 10:39:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: quickBayes
+[2023-04-27 10:39:11] INFO root fetch - processPackages [lazy-testdata]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-04-27 10:39:11] INFO root fetch - processPackages [aioxmlrpc]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-04-27 10:39:11] INFO root fetch - processPackages [robotmk]: New version: [0.0.57] Old Version: [0.0.56]
+[2023-04-27 10:39:11] INFO root fetch - processPackages [pymultigit]: New version: [0.0.82] Old Version: [0.0.81]
+[2023-04-27 10:39:11] INFO root fetch - processPackages [quickBayes]: New version: [1.0.0b6] Old Version: [1.0.0b5]
+[2023-04-27 10:39:11] INFO root fetch - processPackages [drf-nested-browsable]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-27 10:39:11] INFO root fetch - processPackages [giscemultitools]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-27 10:39:11] INFO root fetch - processPackages [prometheus-http-sd]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-04-27 10:39:11] INFO root fetch - processPackages [optilibre]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-04-27 10:39:11] INFO root fetch - processPackages [badi-users]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-04-27 10:39:11] INFO root fetch - processPackages [robotmk]: executing diffoscope
+[2023-04-27 10:39:11] INFO root fetch - processPackages [robotmk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotmk-0.0.56.tar.gz tmp/robotmk-0.0.57.tar.gz --markdown 20230427/r/robotmk/0.0.56-0.0.57/diff.md --exclude *.pyd
+[2023-04-27 10:39:11] INFO root fetch - processPackages [pymultigit]: Downloading https://files.pythonhosted.org/packages/71/c9/fcf6bf110dbf54756975c34b5c4a10ea8f7f5a2e59e51c6a69f40975f405/pymultigit-0.0.81.tar.gz
+[2023-04-27 10:39:11] INFO root fetch - processPackages [prometheus-http-sd]: Downloading https://files.pythonhosted.org/packages/ac/8a/1171e2ccece7d6f164a940e0ee477dce996c490700dbe0faa3ba89bd7b19/prometheus_http_sd-1.2.0.tar.gz
+[2023-04-27 10:39:11] INFO root fetch - processPackages [aioxmlrpc]: Downloading https://files.pythonhosted.org/packages/51/8a/84809c237369f071ab0151564f5e003a37327078a257b02ef9ae90c7233c/aioxmlrpc-0.6.4.tar.gz
+[2023-04-27 10:39:11] INFO root fetch - processPackages [quickBayes]: Downloading https://files.pythonhosted.org/packages/fe/6a/a5a8f73abc601b8a94d70cb00c164d903f8364e12a9fa13c555ffea9645c/quickBayes-1.0.0b5-cp38-cp38-win_amd64.whl
+[2023-04-27 10:39:11] INFO root fetch - processPackages [giscemultitools]: Downloading https://files.pythonhosted.org/packages/85/11/1d2bfc0fef6836abf3c6a9494c009e92b4c96c96e8ef35873696c2eb5fe3/giscemultitools-1.0.1.tar.gz
+[2023-04-27 10:39:11] INFO root fetch - processPackages [drf-nested-browsable]: Downloading https://files.pythonhosted.org/packages/89/16/9add9d6012713060556e6b36babfcb01cf73782d27a81b32059aa7d50e3b/drf_nested_browsable-0.2.2.tar.gz
+[2023-04-27 10:39:11] INFO root fetch - processPackages [badi-users]: Downloading https://files.pythonhosted.org/packages/27/a5/378a0b89ac9aac03f4ce45ca0c15047616f632721f35f709068852e48708/badi_users-0.9.7.tar.gz
+[2023-04-27 10:39:11] INFO root fetch - processPackages [optilibre]: Downloading https://files.pythonhosted.org/packages/0c/49/380108436db4b26a379fa34997e6568be01872ac824cab95216729895f5b/optilibre-1.2.1.tar.gz
+[2023-04-27 10:39:11] INFO root fetch - processPackages [giscemultitools]: executing diffoscope
+[2023-04-27 10:39:11] INFO root fetch - processPackages [giscemultitools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/giscemultitools-1.0.0.tar.gz tmp/giscemultitools-1.0.1.tar.gz --markdown 20230427/g/giscemultitools/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-27 10:39:11] INFO root fetch - processPackages [drf-nested-browsable]: executing diffoscope
+[2023-04-27 10:39:11] INFO root fetch - processPackages [drf-nested-browsable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf_nested_browsable-0.2.1.tar.gz tmp/drf_nested_browsable-0.2.2.tar.gz --markdown 20230427/d/drf-nested-browsable/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-27 10:39:11] INFO root fetch - processPackages [optilibre]: executing diffoscope
+[2023-04-27 10:39:11] INFO root fetch - processPackages [optilibre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optilibre-1.2.0.tar.gz tmp/optilibre-1.2.1.tar.gz --markdown 20230427/o/optilibre/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-04-27 10:39:11] INFO root fetch - processPackages [pymultigit]: Downloading https://files.pythonhosted.org/packages/de/18/5ba5d2870529c6fae7778ef74c85e18fba6b8303ce9e44bba51b868fb664/pymultigit-0.0.82.tar.gz
+[2023-04-27 10:39:11] INFO root fetch - processPackages [prometheus-http-sd]: Downloading https://files.pythonhosted.org/packages/e8/93/7d71b785134bf27821b2500b3d0d0221d8b6e6dd43938f56df98f4ab6672/prometheus_http_sd-1.2.1.tar.gz
+[2023-04-27 10:39:11] INFO root fetch - processPackages [pymultigit]: executing diffoscope
+[2023-04-27 10:39:11] INFO root fetch - processPackages [pymultigit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymultigit-0.0.81.tar.gz tmp/pymultigit-0.0.82.tar.gz --markdown 20230427/p/pymultigit/0.0.81-0.0.82/diff.md --exclude *.pyd
+[2023-04-27 10:39:11] INFO root fetch - processPackages [prometheus-http-sd]: executing diffoscope
+[2023-04-27 10:39:11] INFO root fetch - processPackages [prometheus-http-sd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prometheus_http_sd-1.2.0.tar.gz tmp/prometheus_http_sd-1.2.1.tar.gz --markdown 20230427/p/prometheus-http-sd/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-04-27 10:39:12] INFO root fetch - processPackages [badi-users]: Downloading https://files.pythonhosted.org/packages/30/db/a2556f6579ab239d0e5a6eb873abab84c867dc1bfec76e06c6263599cd2d/badi_users-0.9.8.tar.gz
+[2023-04-27 10:39:12] INFO root fetch - processPackages [aioxmlrpc]: Downloading https://files.pythonhosted.org/packages/02/3e/d5f899ac509fdacba957107e7599c0436940aa47a8c810156c44d9e1282b/aioxmlrpc-0.6.5.tar.gz
+[2023-04-27 10:39:12] INFO root fetch - processPackages [quickBayes]: Downloading https://files.pythonhosted.org/packages/ad/b5/21a514c95658a576ed92918cad69a6bffb8d05adf84722ea9575c3177576/quickBayes-1.0.0b6-cp38-cp38-win_amd64.whl
+[2023-04-27 10:39:12] INFO root fetch - processPackages [aioxmlrpc]: executing diffoscope
+[2023-04-27 10:39:12] INFO root fetch - processPackages [aioxmlrpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioxmlrpc-0.6.4.tar.gz tmp/aioxmlrpc-0.6.5.tar.gz --markdown 20230427/a/aioxmlrpc/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-04-27 10:39:12] INFO root fetch - processPackages [badi-users]: executing diffoscope
+[2023-04-27 10:39:12] INFO root fetch - processPackages [badi-users]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/badi_users-0.9.7.tar.gz tmp/badi_users-0.9.8.tar.gz --markdown 20230427/b/badi-users/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-04-27 10:39:12] INFO root fetch - processPackages [lazy-testdata]: executing diffoscope
+[2023-04-27 10:39:12] INFO root fetch - processPackages [lazy-testdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazy_testdata-1.1.8.tar.gz tmp/lazy_testdata-1.1.9.tar.gz --markdown 20230427/l/lazy-testdata/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-04-27 10:39:12] INFO root fetch - processPackages [quickBayes]: executing diffoscope
+[2023-04-27 10:39:12] INFO root fetch - processPackages [quickBayes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickBayes-1.0.0b5-cp38-cp38-win_amd64.whl.zip tmp/quickBayes-1.0.0b6-cp38-cp38-win_amd64.whl.zip --markdown 20230427/q/quickBayes/1.0.0b5-1.0.0b6/diff.md --exclude *.pyd
+[2023-04-27 10:39:13] INFO root fetch - processPackages [robotmk]: Start processing: client-GPT
+[2023-04-27 10:39:13] INFO root fetch - main [MainThread]: End processing [robotmk]: success
+[2023-04-27 10:39:13] INFO root fetch - processPackages [client-GPT]: New version: [0.2] Old Version: [0.1]
+[2023-04-27 10:39:13] INFO root fetch - processPackages [client-GPT]: Downloading https://files.pythonhosted.org/packages/59/b7/8ebff977cc4a9e239f41867af25f4e280995e0f9647964db8ffe91dd9a30/client_GPT-0.2.tar.gz
+[2023-04-27 10:39:13] INFO root fetch - processPackages [drf-nested-browsable]: Start processing: ztrack
+[2023-04-27 10:39:13] INFO root fetch - main [MainThread]: End processing [drf-nested-browsable]: success
+[2023-04-27 10:39:13] INFO root fetch - processPackages [client-GPT]: executing diffoscope
+[2023-04-27 10:39:13] INFO root fetch - processPackages [client-GPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/client_GPT-0.1.tar.gz tmp/client_GPT-0.2.tar.gz --markdown 20230427/c/client-GPT/0.1-0.2/diff.md --exclude *.pyd
+[2023-04-27 10:39:13] INFO root fetch - processPackages [aioxmlrpc]: Start processing: gymxq
+[2023-04-27 10:39:13] INFO root fetch - main [MainThread]: End processing [aioxmlrpc]: success
+[2023-04-27 10:39:13] INFO root fetch - processPackages [giscemultitools]: Start processing: tf-estimator-nightly
+[2023-04-27 10:39:13] INFO root fetch - main [MainThread]: End processing [giscemultitools]: success
+[2023-04-27 10:39:13] INFO root fetch - processPackages [tf-estimator-nightly]: New version: [2.9.0.dev2022033108] Old Version: [2.9.0.dev2022033008]
+[2023-04-27 10:39:13] INFO root fetch - processPackages [optilibre]: Start processing: hscan
+[2023-04-27 10:39:13] INFO root fetch - main [MainThread]: End processing [optilibre]: success
+[2023-04-27 10:39:13] INFO root fetch - processPackages [ztrack]: New version: [1.0.0] Old Version: [0.4.1]
+[2023-04-27 10:39:13] INFO root fetch - processPackages [pymultigit]: Start processing: iqrfpy
+[2023-04-27 10:39:13] INFO root fetch - main [MainThread]: End processing [pymultigit]: success
+[2023-04-27 10:39:13] WARNING root fetch - processPackages [gymxq]: Skipping, unable to determine old version
+[2023-04-27 10:39:13] INFO root fetch - processPackages [gymxq]: Start processing: findmyorder
+[2023-04-27 10:39:13] INFO root fetch - main [MainThread]: End processing [gymxq] error
+[2023-04-27 10:39:13] INFO root fetch - processPackages [prometheus-http-sd]: Start processing: taktile-auth
+[2023-04-27 10:39:13] INFO root fetch - main [MainThread]: End processing [prometheus-http-sd]: success
+[2023-04-27 10:39:13] INFO root fetch - processPackages [iqrfpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-27 10:39:13] INFO root fetch - processPackages [findmyorder]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-27 10:39:13] INFO root fetch - processPackages [iqrfpy]: Downloading https://files.pythonhosted.org/packages/b7/5f/e812275617185f777c7fce9c456eb51a907a7befdc183c6889e181172873/iqrfpy-0.1.8.tar.gz
+[2023-04-27 10:39:13] INFO root fetch - processPackages [tf-estimator-nightly]: executing diffoscope
+[2023-04-27 10:39:13] INFO root fetch - processPackages [tf-estimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip --markdown 20230427/t/tf-estimator-nightly/2.9.0.dev2022033008-2.9.0.dev2022033108/diff.md --exclude *.pyd
+[2023-04-27 10:39:13] INFO root fetch - processPackages [hscan]: New version: [2.4.2] Old Version: [2.4.1]
+[2023-04-27 10:39:13] INFO root fetch - processPackages [lazy-testdata]: Start processing: dataverk-airflow
+[2023-04-27 10:39:13] INFO root fetch - main [MainThread]: End processing [lazy-testdata]: success
+[2023-04-27 10:39:13] INFO root fetch - processPackages [taktile-auth]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 10:39:13] INFO root fetch - processPackages [dataverk-airflow]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-04-27 10:39:13] INFO root fetch - processPackages [ztrack]: Downloading https://files.pythonhosted.org/packages/89/6d/0792f32715512d0cf84778503cac785502fed601e03c93247ef420fb6722/ztrack-0.4.1.tar.gz
+[2023-04-27 10:39:13] INFO root fetch - processPackages [iqrfpy]: Downloading https://files.pythonhosted.org/packages/61/4d/d6db2b0216d6f8be72314ce157fb65dd7999d0129899beaf32ce8889d1db/iqrfpy-0.1.9.tar.gz
+[2023-04-27 10:39:13] INFO root fetch - main [MainThread]: End processing [quickBayes]: success
+[2023-04-27 10:39:13] INFO root fetch - processPackages [dataverk-airflow]: Downloading https://files.pythonhosted.org/packages/27/8b/197ea8ef8d9eabe327900ffcd5f83b66f298e911b94c51cf34ae869b9610/dataverk-airflow-0.4.8.tar.gz
+[2023-04-27 10:39:13] INFO root fetch - processPackages [iqrfpy]: executing diffoscope
+[2023-04-27 10:39:13] INFO root fetch - processPackages [iqrfpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iqrfpy-0.1.8.tar.gz tmp/iqrfpy-0.1.9.tar.gz --markdown 20230427/i/iqrfpy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-27 10:39:14] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/06/d5/9e967f03522d5a0717b26e89323f49bb952c0b356dc21b5562d937f7397e/findmyorder-1.0.9.tar.gz
+[2023-04-27 10:39:14] INFO root fetch - processPackages [hscan]: Downloading https://files.pythonhosted.org/packages/f7/1a/534c195d9e78c374935f3247848f29036513f812e1bdbca7c4751b0ef931/hscan-2.4.1.tar.gz
+[2023-04-27 10:39:14] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-04-27 10:39:14] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-1.0.8.tar.gz tmp/findmyorder-1.0.9.tar.gz --markdown 20230427/f/findmyorder/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-27 10:39:14] INFO root fetch - processPackages [taktile-auth]: Downloading https://files.pythonhosted.org/packages/78/c7/800b4beea76c590ebcdd1aab9afb19f296e7cdab4526fda6486f8c5ec53e/taktile-auth-0.0.8.tar.gz
+[2023-04-27 10:39:14] INFO root fetch - processPackages [dataverk-airflow]: Downloading https://files.pythonhosted.org/packages/02/f1/4fd602d8340ead972f659cd7bfc6d321c3c022196a8b8ed91d4e54b26bbc/dataverk-airflow-0.4.9.tar.gz
+[2023-04-27 10:39:14] INFO root fetch - processPackages [ztrack]: Downloading https://files.pythonhosted.org/packages/16/d7/3a2de1a792a2358e232ced16dd75900c5e8742396fc3fe33397723a294de/ztrack-1.0.0.tar.gz
+[2023-04-27 10:39:14] INFO root fetch - processPackages [dataverk-airflow]: executing diffoscope
+[2023-04-27 10:39:14] INFO root fetch - processPackages [dataverk-airflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataverk-airflow-0.4.8.tar.gz tmp/dataverk-airflow-0.4.9.tar.gz --markdown 20230427/d/dataverk-airflow/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-04-27 10:39:14] INFO root fetch - processPackages [hscan]: Downloading https://files.pythonhosted.org/packages/b1/99/2b4480d76c481de66b3f62d3e67273f6829f9a414874b3b12c2d4e2d98d0/hscan-2.4.2.tar.gz
+[2023-04-27 10:39:14] INFO root fetch - processPackages [ztrack]: executing diffoscope
+[2023-04-27 10:39:14] INFO root fetch - processPackages [ztrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ztrack-0.4.1.tar.gz tmp/ztrack-1.0.0.tar.gz --markdown 20230427/z/ztrack/0.4.1-1.0.0/diff.md --exclude *.pyd
+[2023-04-27 10:39:14] INFO root fetch - processPackages [taktile-auth]: Downloading https://files.pythonhosted.org/packages/fc/81/f433d9604f88f2411f1198281d506bcbd0caf1e00cd3b0e8d55c1ee399d3/taktile-auth-0.0.9.tar.gz
+[2023-04-27 10:39:14] INFO root fetch - processPackages [hscan]: executing diffoscope
+[2023-04-27 10:39:14] INFO root fetch - processPackages [hscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hscan-2.4.1.tar.gz tmp/hscan-2.4.2.tar.gz --markdown 20230427/h/hscan/2.4.1-2.4.2/diff.md --exclude *.pyd
+[2023-04-27 10:39:14] INFO root fetch - processPackages [taktile-auth]: executing diffoscope
+[2023-04-27 10:39:14] INFO root fetch - processPackages [taktile-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taktile-auth-0.0.8.tar.gz tmp/taktile-auth-0.0.9.tar.gz --markdown 20230427/t/taktile-auth/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 10:39:15] INFO root fetch - main [MainThread]: End processing [client-GPT]: success
+[2023-04-27 10:39:15] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-04-27 10:39:15] INFO root fetch - main [MainThread]: End processing [dataverk-airflow]: success
+[2023-04-27 10:39:15] INFO root fetch - main [MainThread]: End processing [badi-users]: success
+[2023-04-27 10:39:15] INFO root fetch - main [MainThread]: End processing [ztrack]: success
+[2023-04-27 10:39:16] INFO root fetch - main [MainThread]: End processing [hscan]: success
+[2023-04-27 10:39:16] INFO root fetch - main [MainThread]: End processing [taktile-auth]: success
+[2023-04-27 10:39:16] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
+[2023-04-27 10:39:17] INFO root fetch - main [MainThread]: End processing [iqrfpy]: success
+[2023-04-27 10:39:17] INFO root fetch - main [MainThread]: Store serial: [17879689]
