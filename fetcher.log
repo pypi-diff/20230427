@@ -14035,3 +14035,144 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 11:22:55] INFO root fetch - main [MainThread]: End processing [testit-api-client]: success
 [2023-04-27 11:22:57] INFO root fetch - main [MainThread]: End processing [ucloud-sdk-python3]: success
 [2023-04-27 11:22:57] INFO root fetch - main [MainThread]: Store serial: [17880268]
+[2023-04-27 11:28:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17880268]
+[2023-04-27 11:28:07] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-04-27 11:28:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: extr-ds
+[2023-04-27 11:28:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: astro-metadata-translator
+[2023-04-27 11:28:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cloud-asset
+[2023-04-27 11:28:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: struphy
+[2023-04-27 11:28:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: findmyorder
+[2023-04-27 11:28:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lsst-utils
+[2023-04-27 11:28:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lsst-ctrl-bps-panda
+[2023-04-27 11:28:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lsst-ctrl-bps-parsl
+[2023-04-27 11:28:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lsst-resources
+[2023-04-27 11:28:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lsst-daf-relation
+[2023-04-27 11:28:08] INFO root fetch - processPackages [cloud-asset]: New version: [0.0.4.2] Old Version: [0.0.4.1]
+[2023-04-27 11:28:08] WARNING root fetch - processPackages [struphy]: Skipping, unable to determine old version
+[2023-04-27 11:28:08] INFO root fetch - processPackages [struphy]: Start processing: octodns-gcore
+[2023-04-27 11:28:08] INFO root fetch - main [MainThread]: End processing [struphy] error
+[2023-04-27 11:28:08] INFO root fetch - processPackages [extr-ds]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 11:28:08] INFO root fetch - processPackages [astro-metadata-translator]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-04-27 11:28:08] INFO root fetch - processPackages [findmyorder]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-27 11:28:08] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-04-27 11:28:08] INFO root fetch - processPackages [lsst-daf-relation]: New version: [1.0.0a20230500] Old Version: [1.0.0a20230400]
+[2023-04-27 11:28:08] INFO root fetch - processPackages [lsst-utils]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-04-27 11:28:08] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-04-27 11:28:08] INFO root fetch - processPackages [lsst-resources]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-04-27 11:28:08] INFO root fetch - processPackages [octodns-gcore]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-27 11:28:08] INFO root fetch - processPackages [cloud-asset]: Downloading https://files.pythonhosted.org/packages/e5/c8/4608aaed88936897b7bb218d3b80d047cb368ede59875958d8c9fcf1f527/cloud_asset-0.0.4.1-py3-none-any.whl
+[2023-04-27 11:28:08] INFO root fetch - processPackages [astro-metadata-translator]: Downloading https://files.pythonhosted.org/packages/88/0f/ddf4d690ba71629b94ef331c1dcf381615f5fa0220cfb725331d64d70fe9/astro-metadata-translator-26.0.0a20230400.tar.gz
+[2023-04-27 11:28:08] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-04-27 11:28:08] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-1.0.8.tar.gz tmp/findmyorder-1.0.9.tar.gz --markdown 20230427/f/findmyorder/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-27 11:28:08] INFO root fetch - processPackages [lsst-daf-relation]: Downloading https://files.pythonhosted.org/packages/cf/ba/39bf44ae9e7557239b4e75ccc2395eff1e08c3015340be39cd798f07fb37/lsst-daf-relation-1.0.0a20230400.tar.gz
+[2023-04-27 11:28:08] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: Downloading https://files.pythonhosted.org/packages/a0/22/0b893c9cd95d92d19da99d597013f1dd89c378a4a37bd4122e57406ac7c5/lsst-ctrl-bps-panda-26.0.0a20230400.tar.gz
+[2023-04-27 11:28:08] INFO root fetch - processPackages [lsst-utils]: Downloading https://files.pythonhosted.org/packages/95/d2/5d16674a9fbd9d5c6dd08502fdaf2392373a5ee644f82312b6433f0688b3/lsst-utils-26.0.0a20230400.tar.gz
+[2023-04-27 11:28:08] INFO root fetch - processPackages [octodns-gcore]: Downloading https://files.pythonhosted.org/packages/8e/e1/94a18d880e0be693f58a4d3efccff5bea17c099a16c77d3096e1896144c9/octodns-gcore-0.0.3.tar.gz
+[2023-04-27 11:28:08] INFO root fetch - processPackages [lsst-resources]: Downloading https://files.pythonhosted.org/packages/52/45/0dcc92ba8f25516fe59b89e0b4b6425fc82775a8f89d22382ac6ff4365d5/lsst-resources-26.0.0a20230400.tar.gz
+[2023-04-27 11:28:08] INFO root fetch - processPackages [extr-ds]: executing diffoscope
+[2023-04-27 11:28:08] INFO root fetch - processPackages [extr-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extr-ds-0.0.8.tar.gz tmp/extr-ds-0.0.9.tar.gz --markdown 20230427/e/extr-ds/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 11:28:08] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: Downloading https://files.pythonhosted.org/packages/35/8c/c122879a959643f033a579ff1b13d2b33ec6c21551ffa1629264c6d3561a/lsst-ctrl-bps-parsl-26.0.0a20230400.tar.gz
+[2023-04-27 11:28:08] INFO root fetch - processPackages [cloud-asset]: Downloading https://files.pythonhosted.org/packages/3f/8a/931b554ded1b8597b7bad636f0e6c421103775eb908a72fe6dadb4816f6a/cloud_asset-0.0.4.2-py3-none-any.whl
+[2023-04-27 11:28:08] INFO root fetch - processPackages [astro-metadata-translator]: Downloading https://files.pythonhosted.org/packages/f6/a2/6962018c4d5dc18839328422a99767c526540467659fab3d4282192e3763/astro-metadata-translator-26.0.0a20230500.tar.gz
+[2023-04-27 11:28:08] INFO root fetch - processPackages [cloud-asset]: executing diffoscope
+[2023-04-27 11:28:08] INFO root fetch - processPackages [cloud-asset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud_asset-0.0.4.1-py3-none-any.whl.zip tmp/cloud_asset-0.0.4.2-py3-none-any.whl.zip --markdown 20230427/c/cloud-asset/0.0.4.1-0.0.4.2/diff.md --exclude *.pyd
+[2023-04-27 11:28:08] INFO root fetch - processPackages [octodns-gcore]: Downloading https://files.pythonhosted.org/packages/b0/3b/727e5c65f308be85daaa92c1a407c5303f2fcc21132d38ab8befc372cf81/octodns-gcore-0.0.4.tar.gz
+[2023-04-27 11:28:08] INFO root fetch - processPackages [lsst-daf-relation]: Downloading https://files.pythonhosted.org/packages/5e/5f/8e71741c69e90c32fd13e64e116dae04c056109846e98b96beed49ce1d01/lsst-daf-relation-1.0.0a20230500.tar.gz
+[2023-04-27 11:28:08] INFO root fetch - processPackages [lsst-utils]: Downloading https://files.pythonhosted.org/packages/72/74/81575ebd50afb9ebc10787897207947703ae9d32205910da14de85cdef05/lsst-utils-26.0.0a20230500.tar.gz
+[2023-04-27 11:28:08] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: Downloading https://files.pythonhosted.org/packages/68/73/220eb613172bcce921a4d51c76efc50a37bcd1469c86a7fdd5726300f75b/lsst-ctrl-bps-panda-26.0.0a20230500.tar.gz
+[2023-04-27 11:28:08] INFO root fetch - processPackages [lsst-resources]: Downloading https://files.pythonhosted.org/packages/a1/31/225778e738d8196a59aa0442a433f627643f68797e49472ba8e7b8594e59/lsst-resources-26.0.0a20230500.tar.gz
+[2023-04-27 11:28:08] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: Downloading https://files.pythonhosted.org/packages/73/d7/e06e478c242de09a2c5605a32a3c6bc7f4a1e1aca5c81495250b2cc49b28/lsst-ctrl-bps-parsl-26.0.0a20230500.tar.gz
+[2023-04-27 11:28:08] INFO root fetch - processPackages [astro-metadata-translator]: executing diffoscope
+[2023-04-27 11:28:08] INFO root fetch - processPackages [astro-metadata-translator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro-metadata-translator-26.0.0a20230400.tar.gz tmp/astro-metadata-translator-26.0.0a20230500.tar.gz --markdown 20230427/a/astro-metadata-translator/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-04-27 11:28:08] INFO root fetch - processPackages [octodns-gcore]: executing diffoscope
+[2023-04-27 11:28:08] INFO root fetch - processPackages [octodns-gcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/octodns-gcore-0.0.3.tar.gz tmp/octodns-gcore-0.0.4.tar.gz --markdown 20230427/o/octodns-gcore/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-27 11:28:08] INFO root fetch - processPackages [lsst-daf-relation]: executing diffoscope
+[2023-04-27 11:28:08] INFO root fetch - processPackages [lsst-daf-relation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-daf-relation-1.0.0a20230400.tar.gz tmp/lsst-daf-relation-1.0.0a20230500.tar.gz --markdown 20230427/l/lsst-daf-relation/1.0.0a20230400-1.0.0a20230500/diff.md --exclude *.pyd
+[2023-04-27 11:28:08] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: executing diffoscope
+[2023-04-27 11:28:08] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-ctrl-bps-panda-26.0.0a20230400.tar.gz tmp/lsst-ctrl-bps-panda-26.0.0a20230500.tar.gz --markdown 20230427/l/lsst-ctrl-bps-panda/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-04-27 11:28:08] INFO root fetch - processPackages [lsst-utils]: executing diffoscope
+[2023-04-27 11:28:08] INFO root fetch - processPackages [lsst-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-utils-26.0.0a20230400.tar.gz tmp/lsst-utils-26.0.0a20230500.tar.gz --markdown 20230427/l/lsst-utils/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-04-27 11:28:08] INFO root fetch - processPackages [lsst-resources]: executing diffoscope
+[2023-04-27 11:28:08] INFO root fetch - processPackages [lsst-resources]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-resources-26.0.0a20230400.tar.gz tmp/lsst-resources-26.0.0a20230500.tar.gz --markdown 20230427/l/lsst-resources/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-04-27 11:28:08] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: executing diffoscope
+[2023-04-27 11:28:08] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-ctrl-bps-parsl-26.0.0a20230400.tar.gz tmp/lsst-ctrl-bps-parsl-26.0.0a20230500.tar.gz --markdown 20230427/l/lsst-ctrl-bps-parsl/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-04-27 11:28:09] INFO root fetch - processPackages [findmyorder]: Start processing: aliyun-python-sdk-imageprocess
+[2023-04-27 11:28:09] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-04-27 11:28:09] INFO root fetch - processPackages [aliyun-python-sdk-imageprocess]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-04-27 11:28:10] INFO root fetch - processPackages [aliyun-python-sdk-imageprocess]: Downloading https://files.pythonhosted.org/packages/88/40/18217c4efc977a2cc99fed2e5fb0198f62d90eb0497ba57f2ba095228670/aliyun-python-sdk-imageprocess-2.0.4.tar.gz
+[2023-04-27 11:28:10] INFO root fetch - processPackages [extr-ds]: Start processing: lsst-ctrl-bps
+[2023-04-27 11:28:10] INFO root fetch - main [MainThread]: End processing [extr-ds]: success
+[2023-04-27 11:28:10] INFO root fetch - processPackages [lsst-ctrl-bps]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-04-27 11:28:10] INFO root fetch - processPackages [cloud-asset]: Start processing: client-GPT
+[2023-04-27 11:28:10] INFO root fetch - main [MainThread]: End processing [cloud-asset]: success
+[2023-04-27 11:28:10] INFO root fetch - processPackages [aliyun-python-sdk-imageprocess]: Downloading https://files.pythonhosted.org/packages/a8/45/3abe5921bacbb5e88ae1573d899d951b02b1d396aea745d537a73beb0285/aliyun-python-sdk-imageprocess-2.0.5.tar.gz
+[2023-04-27 11:28:10] INFO root fetch - processPackages [lsst-ctrl-bps]: Downloading https://files.pythonhosted.org/packages/3f/25/dd5788122d831e91f7a5b6df98e8e2d65df587d64b2a7e8e703b9f85d293/lsst-ctrl-bps-26.0.0a20230400.tar.gz
+[2023-04-27 11:28:10] INFO root fetch - processPackages [client-GPT]: New version: [0.2.1] Old Version: [0.2]
+[2023-04-27 11:28:10] INFO root fetch - processPackages [aliyun-python-sdk-imageprocess]: executing diffoscope
+[2023-04-27 11:28:10] INFO root fetch - processPackages [aliyun-python-sdk-imageprocess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-imageprocess-2.0.4.tar.gz tmp/aliyun-python-sdk-imageprocess-2.0.5.tar.gz --markdown 20230427/a/aliyun-python-sdk-imageprocess/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-04-27 11:28:10] INFO root fetch - processPackages [client-GPT]: Downloading https://files.pythonhosted.org/packages/6c/9c/8d6ba8f3954d0c5c055fe9dd3e6839980b6d907dbcf68153d6d987f369ed/client_GPT-0.2.1.tar.gz
+[2023-04-27 11:28:10] INFO root fetch - processPackages [lsst-utils]: Start processing: Flask-HTTPAuth
+[2023-04-27 11:28:10] INFO root fetch - main [MainThread]: End processing [lsst-utils]: success
+[2023-04-27 11:28:10] INFO root fetch - processPackages [octodns-gcore]: Start processing: certora-cli-alpha-master
+[2023-04-27 11:28:10] INFO root fetch - main [MainThread]: End processing [octodns-gcore]: success
+[2023-04-27 11:28:10] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230426.9.59.382734] Old Version: [20230426.9.15.161978]
+[2023-04-27 11:28:10] INFO root fetch - processPackages [lsst-ctrl-bps]: Downloading https://files.pythonhosted.org/packages/74/ca/f9dbc4fb6958267f1ee9ce347a76bcb3d1dcb671ceaf427711055ab6c67c/lsst-ctrl-bps-26.0.0a20230500.tar.gz
+[2023-04-27 11:28:10] INFO root fetch - processPackages [Flask-HTTPAuth]: New version: [4.8.0] Old Version: [4.7.0]
+[2023-04-27 11:28:10] INFO root fetch - processPackages [client-GPT]: executing diffoscope
+[2023-04-27 11:28:10] INFO root fetch - processPackages [client-GPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/client_GPT-0.2.tar.gz tmp/client_GPT-0.2.1.tar.gz --markdown 20230427/c/client-GPT/0.2-0.2.1/diff.md --exclude *.pyd
+[2023-04-27 11:28:10] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/bf/e2/da624c894cad0e39d4e48e672f51a62b1259422e9f99f5d62c16090536ca/certora-cli-alpha-master-20230426.9.15.161978.tar.gz
+[2023-04-27 11:28:10] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 38041423>=10485760
+[2023-04-27 11:28:10] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: tonconsole
+[2023-04-27 11:28:10] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-04-27 11:28:10] INFO root fetch - processPackages [lsst-resources]: Start processing: evolved5g
+[2023-04-27 11:28:10] INFO root fetch - main [MainThread]: End processing [lsst-resources]: success
+[2023-04-27 11:28:10] INFO root fetch - processPackages [tonconsole]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-27 11:28:11] INFO root fetch - processPackages [Flask-HTTPAuth]: Downloading https://files.pythonhosted.org/packages/de/28/1681359136718332e97e763c0eec2e9da03e801f9349216f2cf1fb0a6ab4/Flask-HTTPAuth-4.7.0.tar.gz
+[2023-04-27 11:28:11] INFO root fetch - processPackages [lsst-ctrl-bps]: executing diffoscope
+[2023-04-27 11:28:11] INFO root fetch - processPackages [lsst-ctrl-bps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-ctrl-bps-26.0.0a20230400.tar.gz tmp/lsst-ctrl-bps-26.0.0a20230500.tar.gz --markdown 20230427/l/lsst-ctrl-bps/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-04-27 11:28:11] INFO root fetch - processPackages [evolved5g]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-04-27 11:28:11] INFO root fetch - processPackages [tonconsole]: Downloading https://files.pythonhosted.org/packages/8b/b8/5eee15b0c061c3af0997cd37f49f9c618d1ee35df20809a5474fcf8fc429/tonconsole-0.0.1.tar.gz
+[2023-04-27 11:28:11] INFO root fetch - processPackages [Flask-HTTPAuth]: Downloading https://files.pythonhosted.org/packages/22/21/0160aa217c4df74e44a04919213f9c8af7e68551c10267b055f1e09d421c/Flask-HTTPAuth-4.8.0.tar.gz
+[2023-04-27 11:28:11] INFO root fetch - processPackages [evolved5g]: Downloading https://files.pythonhosted.org/packages/b3/db/9541f22a0a7386327967bf4e872632f99a4661084d049d216270c0306cd9/evolved5g-1.0.4.tar.gz
+[2023-04-27 11:28:11] INFO root fetch - processPackages [Flask-HTTPAuth]: executing diffoscope
+[2023-04-27 11:28:11] INFO root fetch - processPackages [Flask-HTTPAuth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Flask-HTTPAuth-4.7.0.tar.gz tmp/Flask-HTTPAuth-4.8.0.tar.gz --markdown 20230427/F/Flask-HTTPAuth/4.7.0-4.8.0/diff.md --exclude *.pyd
+[2023-04-27 11:28:11] INFO root fetch - processPackages [evolved5g]: executing diffoscope
+[2023-04-27 11:28:11] INFO root fetch - processPackages [evolved5g]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evolved5g-1.0.3.tar.gz tmp/evolved5g-1.0.4.tar.gz --markdown 20230427/e/evolved5g/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-04-27 11:28:11] INFO root fetch - processPackages [tonconsole]: Downloading https://files.pythonhosted.org/packages/ee/33/592df32502091da7cc7cc8a65b3ef36c04ef6e9cd6ed5d5eb4a7cb14bc9c/tonconsole-0.0.2.tar.gz
+[2023-04-27 11:28:11] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: Start processing: lsst-pipe-base
+[2023-04-27 11:28:11] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-bps-parsl]: success
+[2023-04-27 11:28:11] INFO root fetch - processPackages [tonconsole]: executing diffoscope
+[2023-04-27 11:28:11] INFO root fetch - processPackages [tonconsole]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tonconsole-0.0.1.tar.gz tmp/tonconsole-0.0.2.tar.gz --markdown 20230427/t/tonconsole/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-27 11:28:11] INFO root fetch - processPackages [lsst-pipe-base]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-04-27 11:28:11] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: Start processing: serious-scaffold
+[2023-04-27 11:28:11] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-bps-panda]: success
+[2023-04-27 11:28:11] INFO root fetch - processPackages [serious-scaffold]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 11:28:11] INFO root fetch - processPackages [serious-scaffold]: executing diffoscope
+[2023-04-27 11:28:11] INFO root fetch - processPackages [serious-scaffold]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serious-scaffold-0.0.8.tar.gz tmp/serious-scaffold-0.0.9.tar.gz --markdown 20230427/s/serious-scaffold/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 11:28:11] INFO root fetch - processPackages [lsst-pipe-base]: Downloading https://files.pythonhosted.org/packages/4a/2a/d7e53c7284052c1d3edb447a5c44734c2eb2276c39ac6857f02d9a0e77d3/lsst-pipe-base-26.0.0a20230400.tar.gz
+[2023-04-27 11:28:12] INFO root fetch - processPackages [aliyun-python-sdk-imageprocess]: Start processing: hotsos
+[2023-04-27 11:28:12] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-imageprocess]: success
+[2023-04-27 11:28:12] INFO root fetch - processPackages [client-GPT]: Start processing: lsst-ctrl-mpexec
+[2023-04-27 11:28:12] INFO root fetch - main [MainThread]: End processing [client-GPT]: success
+[2023-04-27 11:28:12] INFO root fetch - main [MainThread]: End processing [astro-metadata-translator]: success
+[2023-04-27 11:28:12] INFO root fetch - processPackages [hotsos]: New version: [1.1.13.post9] Old Version: [1.1.13.post8]
+[2023-04-27 11:28:12] INFO root fetch - processPackages [lsst-pipe-base]: Downloading https://files.pythonhosted.org/packages/43/b8/e01f76a3da14b328fd43a97c36653216b676c2f3b0fd8c71e30d4ff1132e/lsst-pipe-base-26.0.0a20230500.tar.gz
+[2023-04-27 11:28:12] INFO root fetch - processPackages [hotsos]: executing diffoscope
+[2023-04-27 11:28:12] INFO root fetch - processPackages [hotsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotsos-1.1.13.post8.tar.gz tmp/hotsos-1.1.13.post9.tar.gz --markdown 20230427/h/hotsos/1.1.13.post8-1.1.13.post9/diff.md --exclude *.pyd
+[2023-04-27 11:28:12] INFO root fetch - processPackages [lsst-ctrl-mpexec]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-04-27 11:28:12] INFO root fetch - processPackages [lsst-pipe-base]: executing diffoscope
+[2023-04-27 11:28:12] INFO root fetch - processPackages [lsst-pipe-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-pipe-base-26.0.0a20230400.tar.gz tmp/lsst-pipe-base-26.0.0a20230500.tar.gz --markdown 20230427/l/lsst-pipe-base/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-04-27 11:28:12] INFO root fetch - processPackages [lsst-ctrl-mpexec]: Downloading https://files.pythonhosted.org/packages/7d/95/1fd49d0ac8149861738d465629d14648e00335b6f27b60edea825d22869f/lsst-ctrl-mpexec-26.0.0a20230400.tar.gz
+[2023-04-27 11:28:12] INFO root fetch - main [MainThread]: End processing [lsst-daf-relation]: success
+[2023-04-27 11:28:12] INFO root fetch - processPackages [lsst-ctrl-mpexec]: Downloading https://files.pythonhosted.org/packages/61/b7/81e5f821fadf907a5b8aba51baef7441e1a4b2d1899448ea4c15512f8b33/lsst-ctrl-mpexec-26.0.0a20230500.tar.gz
+[2023-04-27 11:28:13] INFO root fetch - processPackages [lsst-ctrl-mpexec]: executing diffoscope
+[2023-04-27 11:28:13] INFO root fetch - processPackages [lsst-ctrl-mpexec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-ctrl-mpexec-26.0.0a20230400.tar.gz tmp/lsst-ctrl-mpexec-26.0.0a20230500.tar.gz --markdown 20230427/l/lsst-ctrl-mpexec/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-04-27 11:28:13] INFO root fetch - main [MainThread]: End processing [Flask-HTTPAuth]: success
+[2023-04-27 11:28:13] INFO root fetch - main [MainThread]: End processing [tonconsole]: success
+[2023-04-27 11:28:13] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-bps]: success
+[2023-04-27 11:28:13] INFO root fetch - main [MainThread]: End processing [serious-scaffold]: success
+[2023-04-27 11:28:13] INFO root fetch - main [MainThread]: End processing [evolved5g]: success
+[2023-04-27 11:28:14] INFO root fetch - main [MainThread]: End processing [hotsos]: success
+[2023-04-27 11:28:15] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-mpexec]: success
+[2023-04-27 11:28:16] INFO root fetch - main [MainThread]: End processing [lsst-pipe-base]: success
+[2023-04-27 11:28:16] INFO root fetch - main [MainThread]: Store serial: [17880360]
