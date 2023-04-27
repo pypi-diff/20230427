@@ -13818,3 +13818,88 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 11:11:53] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-04-27 11:11:56] INFO root fetch - main [MainThread]: End processing [pose2sim]: success
 [2023-04-27 11:11:56] INFO root fetch - main [MainThread]: Store serial: [17880136]
+[2023-04-27 11:17:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17880136]
+[2023-04-27 11:17:05] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-27 11:17:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bvhio
+[2023-04-27 11:17:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cloud-asset
+[2023-04-27 11:17:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scikit-activeml
+[2023-04-27 11:17:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: varvamp
+[2023-04-27 11:17:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tbp-nightly
+[2023-04-27 11:17:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: casanova
+[2023-04-27 11:17:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bvhio
+[2023-04-27 11:17:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: inspursmsdk
+[2023-04-27 11:17:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-dsfr
+[2023-04-27 11:17:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: extr
+[2023-04-27 11:17:05] INFO root fetch - processPackages [cloud-asset]: New version: [0.0.4] Old Version: [0.0.2]
+[2023-04-27 11:17:05] INFO root fetch - processPackages [inspursmsdk]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-04-27 11:17:05] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2023-04-27 11:17:05] INFO root fetch - processPackages [extr]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 11:17:05] INFO root fetch - processPackages [scikit-activeml]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-04-27 11:17:05] INFO root fetch - processPackages [cloud-asset]: executing diffoscope
+[2023-04-27 11:17:05] INFO root fetch - processPackages [cloud-asset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud_asset-0.0.2-py3-none-any.whl.zip tmp/cloud_asset-0.0.4-py3-none-any.whl.zip --markdown 20230427/c/cloud-asset/0.0.2-0.0.4/diff.md --exclude *.pyd
+[2023-04-27 11:17:05] INFO root fetch - processPackages [inspursmsdk]: executing diffoscope
+[2023-04-27 11:17:05] INFO root fetch - processPackages [inspursmsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inspursmsdk-2.0.3.tar.gz tmp/inspursmsdk-2.0.4.tar.gz --markdown 20230427/i/inspursmsdk/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-04-27 11:17:05] INFO root fetch - processPackages [bvhio]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-04-27 11:17:05] INFO root fetch - processPackages [bvhio]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-04-27 11:17:05] INFO root fetch - processPackages [varvamp]: New version: [0.8.1] Old Version: [0.8]
+[2023-04-27 11:17:05] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2023-04-27 11:17:05] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20230427/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/diff.md --exclude *.pyd
+[2023-04-27 11:17:05] INFO root fetch - processPackages [django-dsfr]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-04-27 11:17:05] INFO root fetch - processPackages [casanova]: New version: [1.9.0] Old Version: [1.8.0a2]
+[2023-04-27 11:17:05] INFO root fetch - processPackages [extr]: executing diffoscope
+[2023-04-27 11:17:05] INFO root fetch - processPackages [extr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extr-0.0.8.tar.gz tmp/extr-0.0.9.tar.gz --markdown 20230427/e/extr/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 11:17:05] INFO root fetch - processPackages [bvhio]: Downloading https://files.pythonhosted.org/packages/07/89/7c668945cb9d6a7bd945d79ee9807f92d6e94f5be68f6b770b55e889afb4/bvhio-1.3.1.tar.gz
+[2023-04-27 11:17:05] INFO root fetch - processPackages [bvhio]: Downloading https://files.pythonhosted.org/packages/07/89/7c668945cb9d6a7bd945d79ee9807f92d6e94f5be68f6b770b55e889afb4/bvhio-1.3.1.tar.gz
+[2023-04-27 11:17:06] INFO root fetch - processPackages [django-dsfr]: Downloading https://files.pythonhosted.org/packages/63/c7/586107535cab9fd4b6db68cf6f8975e72948cb428ccaf25e97e8f73cc163/django_dsfr-0.9.4.tar.gz
+[2023-04-27 11:17:06] INFO root fetch - processPackages [scikit-activeml]: Downloading https://files.pythonhosted.org/packages/ea/2f/eb683eeeaa5a02a02c043a5607cb455af8c1f474c0f15e6dc7d44bb1339b/scikit-activeml-0.4.0.tar.gz
+[2023-04-27 11:17:06] INFO root fetch - processPackages [casanova]: Downloading https://files.pythonhosted.org/packages/7e/5f/e68464a254c011a4a22861be0db3b63c50a70a55b62605a92564c60bdc02/casanova-1.9.0.tar.gz
+[2023-04-27 11:17:06] INFO root fetch - processPackages [casanova]: executing diffoscope
+[2023-04-27 11:17:06] INFO root fetch - processPackages [casanova]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/casanova-1.8.0a2.tar.gz tmp/casanova-1.9.0.tar.gz --markdown 20230427/c/casanova/1.8.0a2-1.9.0/diff.md --exclude *.pyd
+[2023-04-27 11:17:06] INFO root fetch - processPackages [varvamp]: Downloading https://files.pythonhosted.org/packages/0e/26/ee65c104ef98db565d54294d8cf7c951009c77210ce018aeecfd140752f3/varvamp-0.8.1.tar.gz
+[2023-04-27 11:17:06] INFO root fetch - processPackages [bvhio]: Downloading https://files.pythonhosted.org/packages/24/b7/e63796a061858664990be71d7323988c90437451d8fd49cc6373ba9f3eea/bvhio-1.3.2.tar.gz
+[2023-04-27 11:17:06] INFO root fetch - processPackages [bvhio]: Downloading https://files.pythonhosted.org/packages/24/b7/e63796a061858664990be71d7323988c90437451d8fd49cc6373ba9f3eea/bvhio-1.3.2.tar.gz
+[2023-04-27 11:17:06] INFO root fetch - processPackages [scikit-activeml]: Downloading https://files.pythonhosted.org/packages/49/34/ded2ec48583fe3b72235cb7a3d6b00fe715b615f66154bf3e9a6a5813b5e/scikit-activeml-0.4.1.tar.gz
+[2023-04-27 11:17:06] INFO root fetch - processPackages [varvamp]: executing diffoscope
+[2023-04-27 11:17:06] INFO root fetch - processPackages [varvamp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/varvamp-0.8.tar.gz tmp/varvamp-0.8.1.tar.gz --markdown 20230427/v/varvamp/0.8-0.8.1/diff.md --exclude *.pyd
+[2023-04-27 11:17:06] INFO root fetch - processPackages [bvhio]: executing diffoscope
+[2023-04-27 11:17:06] INFO root fetch - processPackages [bvhio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bvhio-1.3.1.tar.gz tmp/bvhio-1.3.2.tar.gz --markdown 20230427/b/bvhio/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-04-27 11:17:06] INFO root fetch - processPackages [bvhio]: executing diffoscope
+[2023-04-27 11:17:06] INFO root fetch - processPackages [bvhio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bvhio-1.3.1.tar.gz tmp/bvhio-1.3.2.tar.gz --markdown 20230427/b/bvhio/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-04-27 11:17:06] INFO root fetch - processPackages [scikit-activeml]: executing diffoscope
+[2023-04-27 11:17:06] INFO root fetch - processPackages [scikit-activeml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scikit-activeml-0.4.0.tar.gz tmp/scikit-activeml-0.4.1.tar.gz --markdown 20230427/s/scikit-activeml/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-04-27 11:17:07] INFO root fetch - processPackages [extr]: Start processing: shark-Korean-editor
+[2023-04-27 11:17:07] INFO root fetch - main [MainThread]: End processing [extr]: success
+[2023-04-27 11:17:07] INFO root fetch - processPackages [cloud-asset]: Start processing: miniball
+[2023-04-27 11:17:07] INFO root fetch - main [MainThread]: End processing [cloud-asset]: success
+[2023-04-27 11:17:07] WARNING root fetch - processPackages [shark-Korean-editor]: Skipping, unable to determine old version
+[2023-04-27 11:17:07] INFO root fetch - processPackages [shark-Korean-editor]: Start processing: extr-ds
+[2023-04-27 11:17:07] INFO root fetch - main [MainThread]: End processing [shark-Korean-editor] error
+[2023-04-27 11:17:07] INFO root fetch - processPackages [extr-ds]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 11:17:07] INFO root fetch - processPackages [miniball]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-04-27 11:17:07] INFO root fetch - processPackages [extr-ds]: executing diffoscope
+[2023-04-27 11:17:07] INFO root fetch - processPackages [extr-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extr-ds-0.0.8.tar.gz tmp/extr-ds-0.0.9.tar.gz --markdown 20230427/e/extr-ds/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 11:17:07] INFO root fetch - processPackages [casanova]: Start processing: pysats
+[2023-04-27 11:17:07] INFO root fetch - main [MainThread]: End processing [casanova]: success
+[2023-04-27 11:17:07] INFO root fetch - processPackages [miniball]: Downloading https://files.pythonhosted.org/packages/79/8c/db84d6a78c1f9e06e5cc0d482b20a8ae644184416b669be9437121183487/miniball-1.1.0.tar.gz
+[2023-04-27 11:17:07] INFO root fetch - processPackages [pysats]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-27 11:17:08] INFO root fetch - processPackages [miniball]: Downloading https://files.pythonhosted.org/packages/46/44/779ef60d32098c73ac73b4881a54ce244141ca38d485f422d7f7efb476c8/miniball-1.2.0.tar.gz
+[2023-04-27 11:17:08] INFO root fetch - processPackages [pysats]: Downloading https://files.pythonhosted.org/packages/8c/1c/754e6f87da2b359b89bd81815d6fbf79d8fff7eda07580be6caab511f7c6/pysats-0.2.1.tar.gz
+[2023-04-27 11:17:08] INFO root fetch - processPackages [django-dsfr]: Downloading https://files.pythonhosted.org/packages/fa/5a/9c7689c5c408e13f03eb9cfdf4d2b2c0cb0de90a9e05ddc7652293c32521/django_dsfr-0.9.5.tar.gz
+[2023-04-27 11:17:08] INFO root fetch - processPackages [miniball]: executing diffoscope
+[2023-04-27 11:17:08] INFO root fetch - processPackages [miniball]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miniball-1.1.0.tar.gz tmp/miniball-1.2.0.tar.gz --markdown 20230427/m/miniball/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-04-27 11:17:08] INFO root fetch - main [MainThread]: End processing [varvamp]: success
+[2023-04-27 11:17:08] INFO root fetch - processPackages [pysats]: Downloading https://files.pythonhosted.org/packages/2c/93/f77a3a38d11fce84382a7baaf762babc154d3de5ddfcb8f28c1f660cf97c/pysats-0.2.2.tar.gz
+[2023-04-27 11:17:08] INFO root fetch - processPackages [pysats]: executing diffoscope
+[2023-04-27 11:17:08] INFO root fetch - processPackages [pysats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysats-0.2.1.tar.gz tmp/pysats-0.2.2.tar.gz --markdown 20230427/p/pysats/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-27 11:17:08] INFO root fetch - main [MainThread]: End processing [bvhio]: success
+[2023-04-27 11:17:08] INFO root fetch - main [MainThread]: End processing [bvhio]: success
+[2023-04-27 11:17:08] INFO root fetch - main [MainThread]: End processing [extr-ds]: success
+[2023-04-27 11:17:09] INFO root fetch - main [MainThread]: End processing [inspursmsdk]: success
+[2023-04-27 11:17:09] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2023-04-27 11:17:09] INFO root fetch - main [MainThread]: End processing [miniball]: success
+[2023-04-27 11:17:09] INFO root fetch - main [MainThread]: End processing [pysats]: success
+[2023-04-27 11:17:10] INFO root fetch - processPackages [django-dsfr]: executing diffoscope
+[2023-04-27 11:17:10] INFO root fetch - processPackages [django-dsfr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_dsfr-0.9.4.tar.gz tmp/django_dsfr-0.9.5.tar.gz --markdown 20230427/d/django-dsfr/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-04-27 11:17:11] INFO root fetch - main [MainThread]: End processing [scikit-activeml]: success
+[2023-04-27 11:17:39] INFO root fetch - main [MainThread]: End processing [django-dsfr]: success
+[2023-04-27 11:17:39] INFO root fetch - main [MainThread]: Store serial: [17880194]
