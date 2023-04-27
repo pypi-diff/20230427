@@ -18807,3 +18807,112 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 14:29:11] INFO root fetch - main [MainThread]: End processing [phonenumbers]: success
 [2023-04-27 14:29:39] INFO root fetch - main [MainThread]: End processing [purple-plan]: success
 [2023-04-27 14:29:39] INFO root fetch - main [MainThread]: Store serial: [17882773]
+[2023-04-27 14:34:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17882773]
+[2023-04-27 14:34:58] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-04-27 14:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl-friesian-spark3
+[2023-04-27 14:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: libcnmc
+[2023-04-27 14:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-chronos-spark3
+[2023-04-27 14:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigdl-spark3
+[2023-04-27 14:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: elementary-data
+[2023-04-27 14:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mcqq-tool
+[2023-04-27 14:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alibabacloud-waf-openapi20211001-py2
+[2023-04-27 14:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dql-alpha
+[2023-04-27 14:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: alibabacloud-waf-openapi20211001
+[2023-04-27 14:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: move-dl
+[2023-04-27 14:34:58] INFO root fetch - processPackages [bigdl-friesian-spark3]: New version: [2.4.0b20230427] Old Version: [2.4.0b20230425]
+[2023-04-27 14:34:58] INFO root fetch - processPackages [move-dl]: New version: [1.4.8] Old Version: [1.4.7]
+[2023-04-27 14:34:58] INFO root fetch - processPackages [bigdl-friesian-spark3]: executing diffoscope
+[2023-04-27 14:34:58] INFO root fetch - processPackages [bigdl-friesian-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark3-2.4.0b20230425-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark3-2.4.0b20230427-py3-none-manylinux1_x86_64.whl.zip --markdown 20230427/b/bigdl-friesian-spark3/2.4.0b20230425-2.4.0b20230427/diff.md --exclude *.pyd
+[2023-04-27 14:34:58] INFO root fetch - processPackages [alibabacloud-waf-openapi20211001-py2]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-04-27 14:34:58] INFO root fetch - processPackages [mcqq-tool]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-27 14:34:58] INFO root fetch - processPackages [move-dl]: executing diffoscope
+[2023-04-27 14:34:58] INFO root fetch - processPackages [dql-alpha]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-27 14:34:58] INFO root fetch - processPackages [move-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/move-dl-1.4.7.tar.gz tmp/move-dl-1.4.8.tar.gz --markdown 20230427/m/move-dl/1.4.7-1.4.8/diff.md --exclude *.pyd
+[2023-04-27 14:34:58] INFO root fetch - processPackages [alibabacloud-waf-openapi20211001]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-04-27 14:34:58] INFO root fetch - processPackages [elementary-data]: New version: [0.7.8] Old Version: [0.7.7]
+[2023-04-27 14:34:58] INFO root fetch - processPackages [bigdl-spark3]: New version: [2.4.0b20230427] Old Version: [2.4.0b20230425]
+[2023-04-27 14:34:58] INFO root fetch - processPackages [libcnmc]: New version: [23.9.1] Old Version: [23.9.0]
+[2023-04-27 14:34:58] INFO root fetch - processPackages [bigdl-chronos-spark3]: New version: [2.4.0b20230427] Old Version: [2.4.0b20230425]
+[2023-04-27 14:34:58] INFO root fetch - processPackages [dql-alpha]: executing diffoscope
+[2023-04-27 14:34:58] INFO root fetch - processPackages [dql-alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dql-alpha-0.8.0.tar.gz tmp/dql-alpha-0.9.0.tar.gz --markdown 20230427/d/dql-alpha/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-27 14:34:58] INFO root fetch - processPackages [elementary-data]: Downloading https://files.pythonhosted.org/packages/8d/b5/5445c18dc95c1fa47eb9efa07fa70db327f908e8193d10aea94874c7b1bb/elementary-data-0.7.7.tar.gz
+[2023-04-27 14:34:58] INFO root fetch - processPackages [alibabacloud-waf-openapi20211001-py2]: Downloading https://files.pythonhosted.org/packages/ac/2c/4aa5c7a865adc802a51c85f459436af6fb73a0a127e572d3eac673bcdffc/alibabacloud_waf-openapi20211001_py2-2.0.1.tar.gz
+[2023-04-27 14:34:58] INFO root fetch - processPackages [mcqq-tool]: Downloading https://files.pythonhosted.org/packages/b7/7d/92f6fe104449dea56321753193c82aa70efd45d7fcf3e3c313f3f57dad84/mcqq-tool-0.0.5.tar.gz
+[2023-04-27 14:34:58] INFO root fetch - processPackages [libcnmc]: Downloading https://files.pythonhosted.org/packages/91/88/c28ff84568ef323398498b71d609a92ca287ddcdf8a851536ab656221bc4/libcnmc-23.9.0.tar.gz
+[2023-04-27 14:34:58] INFO root fetch - processPackages [bigdl-spark3]: Downloading https://files.pythonhosted.org/packages/88/e9/978af46866e35f16d499c0cacef197fedfbdf440de77f7c132634cd70871/bigdl_spark3-2.4.0b20230425-py3-none-manylinux1_x86_64.whl
+[2023-04-27 14:34:58] INFO root fetch - processPackages [alibabacloud-waf-openapi20211001]: Downloading https://files.pythonhosted.org/packages/8b/ec/55d3d06884470fb517656e1504653e261162b8583b3349ec0c966d07f2fe/alibabacloud_waf-openapi20211001-2.0.1.tar.gz
+[2023-04-27 14:34:58] INFO root fetch - processPackages [bigdl-chronos-spark3]: Downloading https://files.pythonhosted.org/packages/35/89/8f6946d3d23d6423fe2fa613af8e27c34f6e1e45f6540e35045d4d5755a4/bigdl_chronos_spark3-2.4.0b20230425-py3-none-manylinux1_x86_64.whl
+[2023-04-27 14:34:59] INFO root fetch - processPackages [mcqq-tool]: Downloading https://files.pythonhosted.org/packages/91/56/124008c10c208d5d79bbb08a375b6b04b39e11edec7b8f5d7ef7c0576145/mcqq-tool-0.0.6.tar.gz
+[2023-04-27 14:34:59] INFO root fetch - processPackages [alibabacloud-waf-openapi20211001-py2]: Downloading https://files.pythonhosted.org/packages/8e/c5/77b21fbef447ef86ed1b06b098fbe92ddaa95e5da51c97295ab0109bac0f/alibabacloud_waf-openapi20211001_py2-2.0.2.tar.gz
+[2023-04-27 14:34:59] INFO root fetch - processPackages [elementary-data]: Downloading https://files.pythonhosted.org/packages/23/c9/8ad372c650c1632ddf4c068f45dbaa1c9c0843d057feb9977996f24162c8/elementary-data-0.7.8.tar.gz
+[2023-04-27 14:34:59] INFO root fetch - processPackages [bigdl-spark3]: Downloading https://files.pythonhosted.org/packages/96/47/64f6977cca6dd119f704e76f2c8557e77d07485f0ff24b6a4587d82525ba/bigdl_spark3-2.4.0b20230427-py3-none-manylinux1_x86_64.whl
+[2023-04-27 14:34:59] INFO root fetch - processPackages [alibabacloud-waf-openapi20211001]: Downloading https://files.pythonhosted.org/packages/33/82/929bc5750fffff9366f472ace1858586f2183751372add57b2fade351911/alibabacloud_waf-openapi20211001-2.0.2.tar.gz
+[2023-04-27 14:34:59] INFO root fetch - processPackages [bigdl-chronos-spark3]: Downloading https://files.pythonhosted.org/packages/95/21/45993c5958756262cf222877072f5a2367cc66e7a9b36a8757cafb76a2ed/bigdl_chronos_spark3-2.4.0b20230427-py3-none-manylinux1_x86_64.whl
+[2023-04-27 14:34:59] INFO root fetch - processPackages [libcnmc]: Downloading https://files.pythonhosted.org/packages/fc/9f/639d42b63484a91cf9f1c60f9bb709f1ed853240f45c2e02047054beffa6/libcnmc-23.9.1.tar.gz
+[2023-04-27 14:34:59] INFO root fetch - processPackages [mcqq-tool]: executing diffoscope
+[2023-04-27 14:34:59] INFO root fetch - processPackages [mcqq-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcqq-tool-0.0.5.tar.gz tmp/mcqq-tool-0.0.6.tar.gz --markdown 20230427/m/mcqq-tool/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-27 14:34:59] INFO root fetch - processPackages [alibabacloud-waf-openapi20211001-py2]: executing diffoscope
+[2023-04-27 14:34:59] INFO root fetch - processPackages [alibabacloud-waf-openapi20211001-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_waf-openapi20211001_py2-2.0.1.tar.gz tmp/alibabacloud_waf-openapi20211001_py2-2.0.2.tar.gz --markdown 20230427/a/alibabacloud-waf-openapi20211001-py2/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-04-27 14:34:59] INFO root fetch - processPackages [bigdl-spark3]: executing diffoscope
+[2023-04-27 14:34:59] INFO root fetch - processPackages [bigdl-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark3-2.4.0b20230425-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark3-2.4.0b20230427-py3-none-manylinux1_x86_64.whl.zip --markdown 20230427/b/bigdl-spark3/2.4.0b20230425-2.4.0b20230427/diff.md --exclude *.pyd
+[2023-04-27 14:34:59] INFO root fetch - processPackages [elementary-data]: executing diffoscope
+[2023-04-27 14:34:59] INFO root fetch - processPackages [elementary-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elementary-data-0.7.7.tar.gz tmp/elementary-data-0.7.8.tar.gz --markdown 20230427/e/elementary-data/0.7.7-0.7.8/diff.md --exclude *.pyd
+[2023-04-27 14:34:59] INFO root fetch - processPackages [alibabacloud-waf-openapi20211001]: executing diffoscope
+[2023-04-27 14:34:59] INFO root fetch - processPackages [alibabacloud-waf-openapi20211001]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_waf-openapi20211001-2.0.1.tar.gz tmp/alibabacloud_waf-openapi20211001-2.0.2.tar.gz --markdown 20230427/a/alibabacloud-waf-openapi20211001/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-04-27 14:34:59] INFO root fetch - processPackages [bigdl-chronos-spark3]: executing diffoscope
+[2023-04-27 14:34:59] INFO root fetch - processPackages [bigdl-chronos-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark3-2.4.0b20230425-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark3-2.4.0b20230427-py3-none-manylinux1_x86_64.whl.zip --markdown 20230427/b/bigdl-chronos-spark3/2.4.0b20230425-2.4.0b20230427/diff.md --exclude *.pyd
+[2023-04-27 14:34:59] INFO root fetch - processPackages [libcnmc]: executing diffoscope
+[2023-04-27 14:34:59] INFO root fetch - processPackages [libcnmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcnmc-23.9.0.tar.gz tmp/libcnmc-23.9.1.tar.gz --markdown 20230427/l/libcnmc/23.9.0-23.9.1/diff.md --exclude *.pyd
+[2023-04-27 14:35:00] INFO root fetch - processPackages [bigdl-friesian-spark3]: Start processing: aws-analytics-reference-architecture
+[2023-04-27 14:35:00] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark3]: success
+[2023-04-27 14:35:00] INFO root fetch - processPackages [aws-analytics-reference-architecture]: New version: [2.9.9] Old Version: [2.9.8]
+[2023-04-27 14:35:00] INFO root fetch - processPackages [aws-analytics-reference-architecture]: Downloading https://files.pythonhosted.org/packages/ae/2b/5f638a1ef1f2c98e5cabf7d36e8ec3c32166be2db0c031a731483adef20f/aws_analytics_reference_architecture-2.9.8.tar.gz
+[2023-04-27 14:35:00] INFO root fetch - processPackages [dql-alpha]: Start processing: worky
+[2023-04-27 14:35:00] INFO root fetch - main [MainThread]: End processing [dql-alpha]: success
+[2023-04-27 14:35:00] INFO root fetch - processPackages [worky]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-27 14:35:00] WARNING root fetch - processPackages [aws-analytics-reference-architecture]: Skipping package: exceeds size limit 118649369>=10485760
+[2023-04-27 14:35:00] INFO root fetch - processPackages [aws-analytics-reference-architecture]: Start processing: l1periodogram
+[2023-04-27 14:35:00] INFO root fetch - main [MainThread]: End processing [aws-analytics-reference-architecture] error
+[2023-04-27 14:35:00] INFO root fetch - processPackages [mcqq-tool]: Start processing: nyaa-timer
+[2023-04-27 14:35:00] INFO root fetch - main [MainThread]: End processing [mcqq-tool]: success
+[2023-04-27 14:35:00] WARNING root fetch - processPackages [l1periodogram]: Skipping, unable to determine old version
+[2023-04-27 14:35:00] INFO root fetch - processPackages [l1periodogram]: Start processing: penn
+[2023-04-27 14:35:00] INFO root fetch - main [MainThread]: End processing [l1periodogram] error
+[2023-04-27 14:35:00] INFO root fetch - processPackages [worky]: Downloading https://files.pythonhosted.org/packages/ac/92/56454e44cb1f2bc3754fb5702d62e3518525b18584c283c372bf26bd2293/worky-0.1.0.tar.gz
+[2023-04-27 14:35:00] WARNING root fetch - processPackages [nyaa-timer]: Skipping, unable to determine old version
+[2023-04-27 14:35:00] INFO root fetch - processPackages [nyaa-timer]: Start processing: streamlit-session-memo
+[2023-04-27 14:35:00] INFO root fetch - main [MainThread]: End processing [nyaa-timer] error
+[2023-04-27 14:35:00] INFO root fetch - processPackages [streamlit-session-memo]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-04-27 14:35:00] INFO root fetch - processPackages [bigdl-spark3]: Start processing: cellshape
+[2023-04-27 14:35:00] INFO root fetch - processPackages [move-dl]: Start processing: dialogy
+[2023-04-27 14:35:00] INFO root fetch - main [MainThread]: End processing [bigdl-spark3]: success
+[2023-04-27 14:35:00] INFO root fetch - main [MainThread]: End processing [move-dl]: success
+[2023-04-27 14:35:00] INFO root fetch - processPackages [cellshape]: New version: [0.0.9rc0] Old Version: [0.0.9]
+[2023-04-27 14:35:00] INFO root fetch - main [MainThread]: End processing [alibabacloud-waf-openapi20211001-py2]: success
+[2023-04-27 14:35:00] INFO root fetch - processPackages [penn]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-27 14:35:00] INFO root fetch - processPackages [dialogy]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-04-27 14:35:01] INFO root fetch - processPackages [cellshape]: executing diffoscope
+[2023-04-27 14:35:01] INFO root fetch - processPackages [cellshape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellshape-0.0.9.tar.gz tmp/cellshape-0.0.9rc0.tar.gz --markdown 20230427/c/cellshape/0.0.9-0.0.9rc0/diff.md --exclude *.pyd
+[2023-04-27 14:35:01] INFO root fetch - processPackages [worky]: Downloading https://files.pythonhosted.org/packages/10/4a/c91c28c0c7dd439925f66c2f79530a3c0edc0fc073c1c34984a257414cd8/worky-0.1.1.tar.gz
+[2023-04-27 14:35:01] INFO root fetch - main [MainThread]: End processing [alibabacloud-waf-openapi20211001]: success
+[2023-04-27 14:35:01] INFO root fetch - processPackages [worky]: executing diffoscope
+[2023-04-27 14:35:01] INFO root fetch - processPackages [worky]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/worky-0.1.0.tar.gz tmp/worky-0.1.1.tar.gz --markdown 20230427/w/worky/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-27 14:35:01] INFO root fetch - processPackages [streamlit-session-memo]: Downloading https://files.pythonhosted.org/packages/cc/60/0cda8806a9cd40ed80ec1263af7e3e2ead5419b7909ba47431b3a6342257/streamlit_session_memo-0.3.0.tar.gz
+[2023-04-27 14:35:01] INFO root fetch - processPackages [penn]: Downloading https://files.pythonhosted.org/packages/75/06/8118ab3fc972cd94751d2ece71e89c9eb86afc710da850c102b2ecb79b23/penn-0.0.6.tar.gz
+[2023-04-27 14:35:01] INFO root fetch - processPackages [streamlit-session-memo]: executing diffoscope
+[2023-04-27 14:35:01] INFO root fetch - processPackages [streamlit-session-memo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_session_memo-0.2.1.tar.gz tmp/streamlit_session_memo-0.3.0.tar.gz --markdown 20230427/s/streamlit-session-memo/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-04-27 14:35:01] INFO root fetch - processPackages [dialogy]: Downloading https://files.pythonhosted.org/packages/47/8f/eece64055a47296c74fe35da40ec78ca6439d108b43bfacb80b5aaa30aad/dialogy-2.0.1.tar.gz
+[2023-04-27 14:35:01] INFO root fetch - processPackages [dialogy]: executing diffoscope
+[2023-04-27 14:35:01] INFO root fetch - processPackages [dialogy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dialogy-2.0.0.tar.gz tmp/dialogy-2.0.1.tar.gz --markdown 20230427/d/dialogy/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-04-27 14:35:01] INFO root fetch - processPackages [penn]: Downloading https://files.pythonhosted.org/packages/bb/48/b6f6425caed930bc26b22bc44cf837aebd9879fe08a8480b6d5eba2d76e9/penn-0.0.7.tar.gz
+[2023-04-27 14:35:01] INFO root fetch - processPackages [penn]: executing diffoscope
+[2023-04-27 14:35:01] INFO root fetch - processPackages [penn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/penn-0.0.6.tar.gz tmp/penn-0.0.7.tar.gz --markdown 20230427/p/penn/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-27 14:35:02] INFO root fetch - main [MainThread]: End processing [cellshape]: success
+[2023-04-27 14:35:02] INFO root fetch - main [MainThread]: End processing [streamlit-session-memo]: success
+[2023-04-27 14:35:02] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark3]: success
+[2023-04-27 14:35:02] INFO root fetch - main [MainThread]: End processing [worky]: success
+[2023-04-27 14:35:02] INFO root fetch - main [MainThread]: End processing [dialogy]: success
+[2023-04-27 14:35:02] INFO root fetch - main [MainThread]: End processing [penn]: success
+[2023-04-27 14:35:03] INFO root fetch - main [MainThread]: End processing [elementary-data]: success
+[2023-04-27 14:35:04] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
+[2023-04-27 14:35:04] INFO root fetch - main [MainThread]: Store serial: [17882834]
