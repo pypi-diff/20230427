@@ -8491,3 +8491,93 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 05:03:54] INFO root fetch - main [MainThread]: End processing [dinohub-seedwork-be]: success
 [2023-04-27 05:03:55] INFO root fetch - main [MainThread]: End processing [pyfed-macos]: success
 [2023-04-27 05:03:55] INFO root fetch - main [MainThread]: Store serial: [17876983]
+[2023-04-27 05:09:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17876983]
+[2023-04-27 05:09:05] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-27 05:09:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shot-scraper
+[2023-04-27 05:09:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dcicutils
+[2023-04-27 05:09:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: minium
+[2023-04-27 05:09:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: arkdata
+[2023-04-27 05:09:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: RStockvn
+[2023-04-27 05:09:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: base-system
+[2023-04-27 05:09:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-account-invoice-tree-currency
+[2023-04-27 05:09:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dinohub-seedwork-be
+[2023-04-27 05:09:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-account-invoice-merge
+[2023-04-27 05:09:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addons-oca-account-invoicing
+[2023-04-27 05:09:05] INFO root fetch - processPackages [arkdata]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-27 05:09:05] INFO root fetch - processPackages [dcicutils]: New version: [7.3.0.1b38] Old Version: [7.3.0.1b37]
+[2023-04-27 05:09:05] INFO root fetch - processPackages [odoo-addon-account-invoice-merge]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2023-04-27 05:09:05] INFO root fetch - processPackages [dinohub-seedwork-be]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-27 05:09:05] INFO root fetch - processPackages [dcicutils]: executing diffoscope
+[2023-04-27 05:09:05] INFO root fetch - processPackages [dcicutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicutils-7.3.0.1b37.tar.gz tmp/dcicutils-7.3.0.1b38.tar.gz --markdown 20230427/d/dcicutils/7.3.0.1b37-7.3.0.1b38/diff.md --exclude *.pyd
+[2023-04-27 05:09:05] INFO root fetch - processPackages [arkdata]: executing diffoscope
+[2023-04-27 05:09:05] INFO root fetch - processPackages [arkdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkdata-1.0.8.tar.gz tmp/arkdata-1.0.9.tar.gz --markdown 20230427/a/arkdata/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-27 05:09:05] INFO root fetch - processPackages [minium]: New version: [1.4.0] Old Version: [1.3.dev2]
+[2023-04-27 05:09:05] INFO root fetch - processPackages [RStockvn]: New version: [2.1.8] Old Version: [2.1.6]
+[2023-04-27 05:09:05] INFO root fetch - processPackages [shot-scraper]: New version: [1.2] Old Version: [1.1.1]
+[2023-04-27 05:09:05] INFO root fetch - processPackages [base-system]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-04-27 05:09:05] INFO root fetch - processPackages [odoo14-addon-account-invoice-tree-currency]: New version: [14.0.1.0.1.dev7] Old Version: [14.0.1.0.1.dev5]
+[2023-04-27 05:09:05] INFO root fetch - processPackages [odoo-addon-account-invoice-merge]: executing diffoscope
+[2023-04-27 05:09:05] INFO root fetch - processPackages [odoo-addon-account-invoice-merge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_invoice_merge-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_account_invoice_merge-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230427/o/odoo-addon-account-invoice-merge/16.0.1.0.0.8-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-04-27 05:09:05] INFO root fetch - processPackages [odoo-addons-oca-account-invoicing]: New version: [16.0.20230421.0] Old Version: [16.0.20230419.0]
+[2023-04-27 05:09:05] INFO root fetch - processPackages [dinohub-seedwork-be]: executing diffoscope
+[2023-04-27 05:09:05] INFO root fetch - processPackages [dinohub-seedwork-be]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dinohub_seedwork_be-0.1.8.tar.gz tmp/dinohub_seedwork_be-0.1.9.tar.gz --markdown 20230427/d/dinohub-seedwork-be/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-27 05:09:05] INFO root fetch - processPackages [minium]: Downloading https://files.pythonhosted.org/packages/36/f7/91c00fd536d8b34fb87e3614c9b5722d8c823724e4bd248c9207e2e0ca5b/minium-1.3.dev2.tar.gz
+[2023-04-27 05:09:05] INFO root fetch - processPackages [RStockvn]: Downloading https://files.pythonhosted.org/packages/bb/60/140c2daae8ed25f48728169b799ae18d6c17689f3c878b390424e228ee91/RStockvn-2.1.6.tar.gz
+[2023-04-27 05:09:05] INFO root fetch - processPackages [odoo14-addon-account-invoice-tree-currency]: Downloading https://files.pythonhosted.org/packages/24/51/3666a151392c87cd0e4d67b621c9c279af042de7e8bd09c5777dd9aadf6c/odoo14_addon_account_invoice_tree_currency-14.0.1.0.1.dev5-py3-none-any.whl
+[2023-04-27 05:09:05] INFO root fetch - processPackages [shot-scraper]: Downloading https://files.pythonhosted.org/packages/50/7b/639b8726b43206fb43807a4f3430b7bb25ac36c93c26bb08ec9ee23116f8/shot-scraper-1.1.1.tar.gz
+[2023-04-27 05:09:05] INFO root fetch - processPackages [base-system]: Downloading https://files.pythonhosted.org/packages/65/ae/f196c458f5de5abdf8f6aab8424c76fcdc8ecb6d682380450ffbfc12dfd4/base_system-0.1.0.tar.gz
+[2023-04-27 05:09:05] INFO root fetch - processPackages [odoo-addons-oca-account-invoicing]: Downloading https://files.pythonhosted.org/packages/7d/1c/52dddf20ff531d3ee9edbd31a2face26df7d1506161854dad67edf652e9c/odoo_addons_oca_account_invoicing-16.0.20230419.0-py3-none-any.whl
+[2023-04-27 05:09:06] INFO root fetch - processPackages [RStockvn]: Downloading https://files.pythonhosted.org/packages/cd/ef/9f51a663745521b6dcf4fbf5eb03185bcd79f9fa84ffd342fd084f0a42b2/RStockvn-2.1.8.tar.gz
+[2023-04-27 05:09:06] INFO root fetch - processPackages [odoo14-addon-account-invoice-tree-currency]: Downloading https://files.pythonhosted.org/packages/35/64/a41cec080c6b5ab3048e4e71a4d487636edd1e1cff04e912866396b5835d/odoo14_addon_account_invoice_tree_currency-14.0.1.0.1.dev7-py3-none-any.whl
+[2023-04-27 05:09:06] INFO root fetch - processPackages [shot-scraper]: Downloading https://files.pythonhosted.org/packages/f7/e2/0b861f9933a823106f3893b52aa3cead24ecc85b53ee682ced254cf1bea4/shot-scraper-1.2.tar.gz
+[2023-04-27 05:09:06] INFO root fetch - processPackages [base-system]: Downloading https://files.pythonhosted.org/packages/da/27/6f9f73c639a22b976918221837ff78952aa80f793f2c513ded870b48b06d/base_system-0.1.2.tar.gz
+[2023-04-27 05:09:06] INFO root fetch - processPackages [odoo-addons-oca-account-invoicing]: Downloading https://files.pythonhosted.org/packages/4c/4c/fdc97fccdd5fc67a1d9771e47c2a95fdf26c6a9c0d0f94b74ef80cc43748/odoo_addons_oca_account_invoicing-16.0.20230421.0-py3-none-any.whl
+[2023-04-27 05:09:06] INFO root fetch - processPackages [RStockvn]: executing diffoscope
+[2023-04-27 05:09:06] INFO root fetch - processPackages [RStockvn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RStockvn-2.1.6.tar.gz tmp/RStockvn-2.1.8.tar.gz --markdown 20230427/R/RStockvn/2.1.6-2.1.8/diff.md --exclude *.pyd
+[2023-04-27 05:09:06] INFO root fetch - processPackages [odoo14-addon-account-invoice-tree-currency]: executing diffoscope
+[2023-04-27 05:09:06] INFO root fetch - processPackages [odoo14-addon-account-invoice-tree-currency]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_invoice_tree_currency-14.0.1.0.1.dev5-py3-none-any.whl.zip tmp/odoo14_addon_account_invoice_tree_currency-14.0.1.0.1.dev7-py3-none-any.whl.zip --markdown 20230427/o/odoo14-addon-account-invoice-tree-currency/14.0.1.0.1.dev5-14.0.1.0.1.dev7/diff.md --exclude *.pyd
+[2023-04-27 05:09:06] INFO root fetch - processPackages [shot-scraper]: executing diffoscope
+[2023-04-27 05:09:06] INFO root fetch - processPackages [shot-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shot-scraper-1.1.1.tar.gz tmp/shot-scraper-1.2.tar.gz --markdown 20230427/s/shot-scraper/1.1.1-1.2/diff.md --exclude *.pyd
+[2023-04-27 05:09:06] INFO root fetch - processPackages [base-system]: executing diffoscope
+[2023-04-27 05:09:06] INFO root fetch - processPackages [base-system]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/base_system-0.1.0.tar.gz tmp/base_system-0.1.2.tar.gz --markdown 20230427/b/base-system/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-04-27 05:09:06] INFO root fetch - processPackages [odoo-addons-oca-account-invoicing]: executing diffoscope
+[2023-04-27 05:09:06] INFO root fetch - processPackages [odoo-addons-oca-account-invoicing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_account_invoicing-16.0.20230419.0-py3-none-any.whl.zip tmp/odoo_addons_oca_account_invoicing-16.0.20230421.0-py3-none-any.whl.zip --markdown 20230427/o/odoo-addons-oca-account-invoicing/16.0.20230419.0-16.0.20230421.0/diff.md --exclude *.pyd
+[2023-04-27 05:09:07] INFO root fetch - processPackages [minium]: Downloading https://files.pythonhosted.org/packages/0e/fd/3be08b858034d7d6a3cdb7149921a556972396c2d430fb0f0655038c45f2/minium-1.4.0.tar.gz
+[2023-04-27 05:09:07] INFO root fetch - processPackages [dcicutils]: Start processing: yogger
+[2023-04-27 05:09:07] INFO root fetch - main [MainThread]: End processing [dcicutils]: success
+[2023-04-27 05:09:07] INFO root fetch - processPackages [yogger]: New version: [0.0.6a0] Old Version: [0.0.6]
+[2023-04-27 05:09:07] INFO root fetch - processPackages [arkdata]: Start processing: yogger
+[2023-04-27 05:09:07] INFO root fetch - main [MainThread]: End processing [arkdata]: success
+[2023-04-27 05:09:07] INFO root fetch - processPackages [odoo-addon-account-invoice-merge]: Start processing: foursight-core
+[2023-04-27 05:09:07] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-invoice-merge]: success
+[2023-04-27 05:09:07] INFO root fetch - processPackages [yogger]: New version: [0.0.6a0] Old Version: [0.0.6]
+[2023-04-27 05:09:07] INFO root fetch - processPackages [foursight-core]: New version: [4.1.0.5b54] Old Version: [4.1.0.5b51]
+[2023-04-27 05:09:07] INFO root fetch - processPackages [dinohub-seedwork-be]: Start processing: CommonlyTools
+[2023-04-27 05:09:07] INFO root fetch - main [MainThread]: End processing [dinohub-seedwork-be]: success
+[2023-04-27 05:09:07] INFO root fetch - main [MainThread]: End processing [RStockvn]: success
+[2023-04-27 05:09:07] INFO root fetch - processPackages [CommonlyTools]: New version: [2.1.0] Old Version: [2.0.9]
+[2023-04-27 05:09:07] INFO root fetch - processPackages [yogger]: Downloading https://files.pythonhosted.org/packages/a2/02/aa8c1d85fb1089aeb7368a46a061b9fc2e459afaaa8fd548073f6bc3a91f/yogger-0.0.6.tar.gz
+[2023-04-27 05:09:07] INFO root fetch - processPackages [yogger]: Downloading https://files.pythonhosted.org/packages/a2/02/aa8c1d85fb1089aeb7368a46a061b9fc2e459afaaa8fd548073f6bc3a91f/yogger-0.0.6.tar.gz
+[2023-04-27 05:09:07] INFO root fetch - processPackages [foursight-core]: executing diffoscope
+[2023-04-27 05:09:07] INFO root fetch - processPackages [foursight-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight_core-4.1.0.5b51.tar.gz tmp/foursight_core-4.1.0.5b54.tar.gz --markdown 20230427/f/foursight-core/4.1.0.5b51-4.1.0.5b54/diff.md --exclude *.pyd
+[2023-04-27 05:09:07] INFO root fetch - processPackages [minium]: executing diffoscope
+[2023-04-27 05:09:07] INFO root fetch - processPackages [minium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minium-1.3.dev2.tar.gz tmp/minium-1.4.0.tar.gz --markdown 20230427/m/minium/1.3.dev2-1.4.0/diff.md --exclude *.pyd
+[2023-04-27 05:09:07] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-invoice-tree-currency]: success
+[2023-04-27 05:09:07] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-account-invoicing]: success
+[2023-04-27 05:09:08] INFO root fetch - processPackages [yogger]: Downloading https://files.pythonhosted.org/packages/28/36/a9d8d271fd539fd7757fabcba092e50061e8f087310c214cd7353955f4fe/yogger-0.0.6a0.tar.gz
+[2023-04-27 05:09:08] INFO root fetch - processPackages [yogger]: Downloading https://files.pythonhosted.org/packages/28/36/a9d8d271fd539fd7757fabcba092e50061e8f087310c214cd7353955f4fe/yogger-0.0.6a0.tar.gz
+[2023-04-27 05:09:08] INFO root fetch - main [MainThread]: End processing [shot-scraper]: success
+[2023-04-27 05:09:08] INFO root fetch - processPackages [CommonlyTools]: Downloading https://files.pythonhosted.org/packages/00/c6/c611021acc5bc4e8351373fa4ee9e4d9aef46a150062d01e891f87c9c18b/CommonlyTools-2.1.0.tar.gz
+[2023-04-27 05:09:08] INFO root fetch - main [MainThread]: End processing [base-system]: success
+[2023-04-27 05:09:08] INFO root fetch - processPackages [yogger]: executing diffoscope
+[2023-04-27 05:09:08] INFO root fetch - processPackages [yogger]: executing diffoscope
+[2023-04-27 05:09:08] INFO root fetch - processPackages [yogger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yogger-0.0.6.tar.gz tmp/yogger-0.0.6a0.tar.gz --markdown 20230427/y/yogger/0.0.6-0.0.6a0/diff.md --exclude *.pyd
+[2023-04-27 05:09:08] INFO root fetch - processPackages [yogger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yogger-0.0.6.tar.gz tmp/yogger-0.0.6a0.tar.gz --markdown 20230427/y/yogger/0.0.6-0.0.6a0/diff.md --exclude *.pyd
+[2023-04-27 05:09:08] INFO root fetch - processPackages [CommonlyTools]: executing diffoscope
+[2023-04-27 05:09:08] INFO root fetch - processPackages [CommonlyTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CommonlyTools-2.0.9.tar.gz tmp/CommonlyTools-2.1.0.tar.gz --markdown 20230427/C/CommonlyTools/2.0.9-2.1.0/diff.md --exclude *.pyd
+[2023-04-27 05:09:09] INFO root fetch - main [MainThread]: End processing [yogger]: success
+[2023-04-27 05:09:09] INFO root fetch - main [MainThread]: End processing [yogger]: success
+[2023-04-27 05:09:09] INFO root fetch - main [MainThread]: End processing [CommonlyTools]: success
+[2023-04-27 05:09:18] INFO root fetch - main [MainThread]: End processing [minium]: success
+[2023-04-27 05:09:23] INFO root fetch - main [MainThread]: End processing [foursight-core]: success
+[2023-04-27 05:09:23] INFO root fetch - main [MainThread]: Store serial: [17877027]
