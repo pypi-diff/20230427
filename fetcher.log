@@ -20746,3 +20746,124 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 16:02:22] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
 [2023-04-27 16:02:25] INFO root fetch - main [MainThread]: End processing [yangsuite]: success
 [2023-04-27 16:02:25] INFO root fetch - main [MainThread]: Store serial: [17883993]
+[2023-04-27 16:07:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17883993]
+[2023-04-27 16:07:35] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-04-27 16:07:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: with-timeout
+[2023-04-27 16:07:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pixelfuse
+[2023-04-27 16:07:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flamingo-histology
+[2023-04-27 16:07:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rdfizer
+[2023-04-27 16:07:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: i2a-oauth2-api-client
+[2023-04-27 16:07:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rdfizer
+[2023-04-27 16:07:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cryptoadvance.specter
+[2023-04-27 16:07:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rdfizer
+[2023-04-27 16:07:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: common-cols-project
+[2023-04-27 16:07:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: driftpy
+[2023-04-27 16:07:35] INFO root fetch - processPackages [i2a-oauth2-api-client]: New version: [3.0.1] Old Version: [2.0.9]
+[2023-04-27 16:07:35] WARNING root fetch - processPackages [common-cols-project]: Skipping, unable to determine old version
+[2023-04-27 16:07:35] INFO root fetch - processPackages [common-cols-project]: Start processing: tensorneko-util
+[2023-04-27 16:07:35] INFO root fetch - main [MainThread]: End processing [common-cols-project] error
+[2023-04-27 16:07:35] INFO root fetch - processPackages [cryptoadvance.specter]: New version: [2.0.2rc1] Old Version: [2.0.1rc4]
+[2023-04-27 16:07:35] INFO root fetch - processPackages [rdfizer]: New version: [4.7.dev1682603926] Old Version: [4.7.dev1682603874]
+[2023-04-27 16:07:35] INFO root fetch - processPackages [rdfizer]: New version: [4.7.dev1682603926] Old Version: [4.7.dev1682603874]
+[2023-04-27 16:07:35] INFO root fetch - processPackages [flamingo-histology]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-27 16:07:35] INFO root fetch - processPackages [with-timeout]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-27 16:07:35] INFO root fetch - processPackages [pixelfuse]: New version: [2.0.0] Old Version: [1.1.1]
+[2023-04-27 16:07:35] INFO root fetch - processPackages [driftpy]: New version: [0.6.8] Old Version: [0.6.7]
+[2023-04-27 16:07:35] INFO root fetch - processPackages [rdfizer]: executing diffoscope
+[2023-04-27 16:07:35] INFO root fetch - processPackages [rdfizer]: executing diffoscope
+[2023-04-27 16:07:35] INFO root fetch - processPackages [rdfizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdfizer-4.7.dev1682603874.tar.gz tmp/rdfizer-4.7.dev1682603926.tar.gz --markdown 20230427/r/rdfizer/4.7.dev1682603874-4.7.dev1682603926/diff.md --exclude *.pyd
+[2023-04-27 16:07:35] INFO root fetch - processPackages [rdfizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdfizer-4.7.dev1682603874.tar.gz tmp/rdfizer-4.7.dev1682603926.tar.gz --markdown 20230427/r/rdfizer/4.7.dev1682603874-4.7.dev1682603926/diff.md --exclude *.pyd
+[2023-04-27 16:07:35] INFO root fetch - processPackages [tensorneko-util]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-27 16:07:35] INFO root fetch - processPackages [i2a-oauth2-api-client]: Downloading https://files.pythonhosted.org/packages/19/93/270299278a8df7c0db02885990cfd2931d52468b28a736116d44c85db0f6/i2a_oauth2_api_client-3.0.1.tar.gz
+[2023-04-27 16:07:35] INFO root fetch - processPackages [cryptoadvance.specter]: Downloading https://files.pythonhosted.org/packages/15/3e/5af8d8f64ec015e7b139291d7f1fce61f48c8b7467e12016f6ebe8144411/cryptoadvance.specter-2.0.1rc4.tar.gz
+[2023-04-27 16:07:35] INFO root fetch - processPackages [rdfizer]: New version: [4.7.dev1682603926] Old Version: [4.7.dev1682603874]
+[2023-04-27 16:07:35] INFO root fetch - processPackages [with-timeout]: Downloading https://files.pythonhosted.org/packages/2f/4f/0f2440475bb0b8805c62a0ddf721ebdfbfe012f73e735593bae070a814e0/with_timeout-0.0.2.tar.gz
+[2023-04-27 16:07:35] INFO root fetch - processPackages [flamingo-histology]: Downloading https://files.pythonhosted.org/packages/3c/8c/f7e4e523c13c128f8176db4a754502bf57e1c6ba61b3a38b6c39e1f5a5f9/flamingo_histology-0.1.1.tar.gz
+[2023-04-27 16:07:35] INFO root fetch - processPackages [driftpy]: Downloading https://files.pythonhosted.org/packages/91/fd/e7ddcd1f85c34c30da3999f72d972c5ed49090f1eb71ce726b2049c36fbb/driftpy-0.6.7.tar.gz
+[2023-04-27 16:07:35] INFO root fetch - processPackages [rdfizer]: executing diffoscope
+[2023-04-27 16:07:35] INFO root fetch - processPackages [rdfizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdfizer-4.7.dev1682603874.tar.gz tmp/rdfizer-4.7.dev1682603926.tar.gz --markdown 20230427/r/rdfizer/4.7.dev1682603874-4.7.dev1682603926/diff.md --exclude *.pyd
+[2023-04-27 16:07:35] INFO root fetch - processPackages [tensorneko-util]: Downloading https://files.pythonhosted.org/packages/23/e4/2cf1eacd74eb5881674dcbce2431addf08fdf979c8c97c0d501115278377/tensorneko_util-0.2.8.tar.gz
+[2023-04-27 16:07:35] INFO root fetch - processPackages [i2a-oauth2-api-client]: executing diffoscope
+[2023-04-27 16:07:35] INFO root fetch - processPackages [i2a-oauth2-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/i2a_oauth2_api_client-2.0.9.tar.gz tmp/i2a_oauth2_api_client-3.0.1.tar.gz --markdown 20230427/i/i2a-oauth2-api-client/2.0.9-3.0.1/diff.md --exclude *.pyd
+[2023-04-27 16:07:35] WARNING root fetch - processPackages [cryptoadvance.specter]: Skipping package: exceeds size limit 13661083>=10485760
+[2023-04-27 16:07:35] INFO root fetch - processPackages [cryptoadvance.specter]: Start processing: tensorneko
+[2023-04-27 16:07:35] INFO root fetch - main [MainThread]: End processing [cryptoadvance.specter] error
+[2023-04-27 16:07:35] INFO root fetch - processPackages [pixelfuse]: Downloading https://files.pythonhosted.org/packages/db/c2/71fcb93b6ec0b9ea05cd5da12de96608abdeccffdf995dcabbd491dc4c6e/pixelfuse-2.0.0.tar.gz
+[2023-04-27 16:07:35] INFO root fetch - processPackages [tensorneko]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-27 16:07:36] INFO root fetch - processPackages [with-timeout]: Downloading https://files.pythonhosted.org/packages/2c/02/593ca2bcc1dc80ea9226273ecef8d81a90c1e78c09e1fc1fd01ce881c5ca/with_timeout-0.0.3.tar.gz
+[2023-04-27 16:07:36] INFO root fetch - processPackages [flamingo-histology]: Downloading https://files.pythonhosted.org/packages/7d/8f/92ebe33faff2e853e4964f6d89df95d27416a52eca29beef1f2f0710f99b/flamingo_histology-0.1.2.tar.gz
+[2023-04-27 16:07:36] INFO root fetch - processPackages [pixelfuse]: executing diffoscope
+[2023-04-27 16:07:36] INFO root fetch - processPackages [pixelfuse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pixelfuse-1.1.1.tar.gz tmp/pixelfuse-2.0.0.tar.gz --markdown 20230427/p/pixelfuse/1.1.1-2.0.0/diff.md --exclude *.pyd
+[2023-04-27 16:07:36] INFO root fetch - processPackages [tensorneko-util]: Downloading https://files.pythonhosted.org/packages/bd/38/c60ce4bf1731af72ec5f787e3a7e3d49a46ec313ff199a507bc09948a318/tensorneko_util-0.2.9.tar.gz
+[2023-04-27 16:07:36] INFO root fetch - processPackages [tensorneko]: Downloading https://files.pythonhosted.org/packages/48/4c/50ac4d6efe66a486300dfd85916701a00ca9961f8b398a59d56d545ecf16/tensorneko-0.2.8.tar.gz
+[2023-04-27 16:07:36] INFO root fetch - processPackages [with-timeout]: executing diffoscope
+[2023-04-27 16:07:36] INFO root fetch - processPackages [with-timeout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/with_timeout-0.0.2.tar.gz tmp/with_timeout-0.0.3.tar.gz --markdown 20230427/w/with-timeout/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-27 16:07:36] INFO root fetch - processPackages [driftpy]: Downloading https://files.pythonhosted.org/packages/5d/a0/f2dac9ef0af06f2c18253ef08cace46b6505503dd6a41c48de1f42b0ad99/driftpy-0.6.8.tar.gz
+[2023-04-27 16:07:36] INFO root fetch - processPackages [flamingo-histology]: executing diffoscope
+[2023-04-27 16:07:36] INFO root fetch - processPackages [flamingo-histology]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flamingo_histology-0.1.1.tar.gz tmp/flamingo_histology-0.1.2.tar.gz --markdown 20230427/f/flamingo-histology/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-27 16:07:36] INFO root fetch - processPackages [tensorneko-util]: executing diffoscope
+[2023-04-27 16:07:36] INFO root fetch - processPackages [tensorneko-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorneko_util-0.2.8.tar.gz tmp/tensorneko_util-0.2.9.tar.gz --markdown 20230427/t/tensorneko-util/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-27 16:07:36] INFO root fetch - processPackages [driftpy]: executing diffoscope
+[2023-04-27 16:07:36] INFO root fetch - processPackages [driftpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/driftpy-0.6.7.tar.gz tmp/driftpy-0.6.8.tar.gz --markdown 20230427/d/driftpy/0.6.7-0.6.8/diff.md --exclude *.pyd
+[2023-04-27 16:07:36] INFO root fetch - processPackages [tensorneko]: Downloading https://files.pythonhosted.org/packages/cc/7e/3e75bbb469b822594d059431dd281962d3c3f09a45d35003efa569723cef/tensorneko-0.2.9.tar.gz
+[2023-04-27 16:07:36] INFO root fetch - processPackages [tensorneko]: executing diffoscope
+[2023-04-27 16:07:36] INFO root fetch - processPackages [tensorneko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorneko-0.2.8.tar.gz tmp/tensorneko-0.2.9.tar.gz --markdown 20230427/t/tensorneko/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-27 16:07:36] INFO root fetch - processPackages [rdfizer]: Start processing: catnapmodule
+[2023-04-27 16:07:36] INFO root fetch - main [MainThread]: End processing [rdfizer]: success
+[2023-04-27 16:07:37] WARNING root fetch - processPackages [catnapmodule]: Skipping, unable to determine old version
+[2023-04-27 16:07:37] INFO root fetch - processPackages [catnapmodule]: Start processing: tiledb
+[2023-04-27 16:07:37] INFO root fetch - main [MainThread]: End processing [catnapmodule] error
+[2023-04-27 16:07:37] INFO root fetch - processPackages [rdfizer]: Start processing: citros
+[2023-04-27 16:07:37] INFO root fetch - main [MainThread]: End processing [rdfizer]: success
+[2023-04-27 16:07:37] INFO root fetch - processPackages [citros]: New version: [23.17.4] Old Version: [23.17.3]
+[2023-04-27 16:07:37] INFO root fetch - processPackages [tiledb]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-04-27 16:07:37] INFO root fetch - processPackages [i2a-oauth2-api-client]: Start processing: ngstrefftz
+[2023-04-27 16:07:37] INFO root fetch - main [MainThread]: End processing [i2a-oauth2-api-client]: success
+[2023-04-27 16:07:37] INFO root fetch - processPackages [citros]: Downloading https://files.pythonhosted.org/packages/37/63/b8846193a6a565853bc125c0c83f2f36e63f54212a84c64227365a9eca98/citros-23.17.4.tar.gz
+[2023-04-27 16:07:37] INFO root fetch - processPackages [tiledb]: Downloading https://files.pythonhosted.org/packages/a6/bb/0b224f95554a746b8b636f3022ddc5a851deefae6fd90452b6ab95bd9de1/tiledb-0.9.4.tar.gz
+[2023-04-27 16:07:37] INFO root fetch - processPackages [pixelfuse]: Start processing: with-timeout
+[2023-04-27 16:07:37] INFO root fetch - main [MainThread]: End processing [pixelfuse]: success
+[2023-04-27 16:07:37] INFO root fetch - processPackages [ngstrefftz]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-04-27 16:07:37] INFO root fetch - processPackages [with-timeout]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-27 16:07:37] INFO root fetch - processPackages [citros]: executing diffoscope
+[2023-04-27 16:07:37] INFO root fetch - processPackages [citros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citros-23.17.3.tar.gz tmp/citros-23.17.4.tar.gz --markdown 20230427/c/citros/23.17.3-23.17.4/diff.md --exclude *.pyd
+[2023-04-27 16:07:37] INFO root fetch - processPackages [with-timeout]: Start processing: imshowTk
+[2023-04-27 16:07:37] INFO root fetch - main [MainThread]: End processing [with-timeout]: success
+[2023-04-27 16:07:37] INFO root fetch - processPackages [with-timeout]: executing diffoscope
+[2023-04-27 16:07:37] INFO root fetch - processPackages [with-timeout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/with_timeout-0.0.2.tar.gz tmp/with_timeout-0.0.3.tar.gz --markdown 20230427/w/with-timeout/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-27 16:07:37] INFO root fetch - processPackages [ngstrefftz]: Downloading https://files.pythonhosted.org/packages/e3/29/d34fb110b1cee019914dd74c3939dc5c0a38949c9b878b587e97e227069c/ngstrefftz-0.2.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-27 16:07:37] WARNING root fetch - processPackages [imshowTk]: Skipping, unable to determine old version
+[2023-04-27 16:07:37] INFO root fetch - processPackages [imshowTk]: Start processing: svix
+[2023-04-27 16:07:37] INFO root fetch - main [MainThread]: End processing [imshowTk] error
+[2023-04-27 16:07:37] INFO root fetch - processPackages [tiledb]: Downloading https://files.pythonhosted.org/packages/f8/e1/999448b6ef9ee22f6171c37306b83f59ccf699de7fee4ed271b7e06a796c/tiledb-0.9.5.tar.gz
+[2023-04-27 16:07:37] INFO root fetch - processPackages [svix]: New version: [0.84.0] Old Version: [0.83.1]
+[2023-04-27 16:07:37] INFO root fetch - processPackages [flamingo-histology]: Start processing: MLandPattern
+[2023-04-27 16:07:37] INFO root fetch - main [MainThread]: End processing [flamingo-histology]: success
+[2023-04-27 16:07:37] INFO root fetch - processPackages [svix]: executing diffoscope
+[2023-04-27 16:07:37] INFO root fetch - processPackages [svix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/svix-0.83.1.tar.gz tmp/svix-0.84.0.tar.gz --markdown 20230427/s/svix/0.83.1-0.84.0/diff.md --exclude *.pyd
+[2023-04-27 16:07:37] INFO root fetch - processPackages [MLandPattern]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-04-27 16:07:38] INFO root fetch - processPackages [tiledb]: executing diffoscope
+[2023-04-27 16:07:38] INFO root fetch - processPackages [tiledb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiledb-0.9.4.tar.gz tmp/tiledb-0.9.5.tar.gz --markdown 20230427/t/tiledb/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-04-27 16:07:38] INFO root fetch - processPackages [MLandPattern]: Downloading https://files.pythonhosted.org/packages/41/38/8f959bd53b8d88f7fbcef63127aeec80a377a689be5ad8d7ac44f3b23ab9/MLandPattern-0.1.7-py3-none-any.whl
+[2023-04-27 16:07:38] INFO root fetch - processPackages [ngstrefftz]: Downloading https://files.pythonhosted.org/packages/85/3a/33b4f9a7c2701704493917d17c514cc5e3c5c11caa56dd7f098602c2a29a/ngstrefftz-0.2.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-27 16:07:38] INFO root fetch - processPackages [ngstrefftz]: executing diffoscope
+[2023-04-27 16:07:38] INFO root fetch - processPackages [ngstrefftz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngstrefftz-0.2.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/ngstrefftz-0.2.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230427/n/ngstrefftz/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-04-27 16:07:38] INFO root fetch - processPackages [MLandPattern]: Downloading https://files.pythonhosted.org/packages/12/52/19669f19ae6651c64e704042882b0bc54fe88e6e0fffd75f9c6ba1518b18/MLandPattern-0.1.8.tar.gz
+[2023-04-27 16:07:38] INFO root fetch - processPackages [MLandPattern]: executing diffoscope
+[2023-04-27 16:07:38] INFO root fetch - processPackages [MLandPattern]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MLandPattern-0.1.7-py3-none-any.whl.zip tmp/MLandPattern-0.1.8.tar.gz --markdown 20230427/M/MLandPattern/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-04-27 16:07:38] INFO root fetch - processPackages [rdfizer]: Start processing: textual
+[2023-04-27 16:07:38] INFO root fetch - main [MainThread]: End processing [rdfizer]: success
+[2023-04-27 16:07:39] INFO root fetch - main [MainThread]: End processing [with-timeout]: success
+[2023-04-27 16:07:39] INFO root fetch - processPackages [textual]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-27 16:07:39] INFO root fetch - main [MainThread]: End processing [citros]: success
+[2023-04-27 16:07:39] INFO root fetch - processPackages [textual]: executing diffoscope
+[2023-04-27 16:07:39] INFO root fetch - processPackages [textual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textual-0.9.0.tar.gz tmp/textual-0.9.1.tar.gz --markdown 20230427/t/textual/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-27 16:07:39] INFO root fetch - main [MainThread]: End processing [tensorneko]: success
+[2023-04-27 16:07:39] INFO root fetch - main [MainThread]: End processing [MLandPattern]: success
+[2023-04-27 16:07:40] INFO root fetch - main [MainThread]: End processing [driftpy]: success
+[2023-04-27 16:07:40] INFO root fetch - main [MainThread]: End processing [textual]: success
+[2023-04-27 16:07:42] INFO root fetch - main [MainThread]: End processing [tiledb]: success
+[2023-04-27 16:07:42] INFO root fetch - main [MainThread]: End processing [svix]: success
+[2023-04-27 16:07:46] INFO root fetch - main [MainThread]: End processing [tensorneko-util]: success
+[2023-04-27 16:07:50] INFO root fetch - main [MainThread]: End processing [ngstrefftz]: success
+[2023-04-27 16:07:50] INFO root fetch - main [MainThread]: Store serial: [17884083]
