@@ -22161,3 +22161,94 @@ EOFError: EOF read where object expected
 [2023-04-27 17:00:55] INFO root fetch - main [MainThread]: End processing [fast-oad-core]: success
 [2023-04-27 17:00:55] INFO root fetch - main [MainThread]: End processing [django-datadog-logger]: success
 [2023-04-27 17:00:55] INFO root fetch - main [MainThread]: Store serial: [17884855]
+[2023-04-27 17:06:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17884855]
+[2023-04-27 17:06:05] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-27 17:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fwdviewpy
+[2023-04-27 17:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scikit-surgeryarucotracker
+[2023-04-27 17:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyttb
+[2023-04-27 17:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bemserver-ui
+[2023-04-27 17:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sportydatagen
+[2023-04-27 17:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odd-cli
+[2023-04-27 17:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ais-dom-frontend
+[2023-04-27 17:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: doxysphinx
+[2023-04-27 17:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xdat
+[2023-04-27 17:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ethoscopy
+[2023-04-27 17:06:05] INFO root fetch - processPackages [xdat]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-04-27 17:06:05] INFO root fetch - processPackages [pyttb]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-04-27 17:06:05] INFO root fetch - processPackages [fwdviewpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-27 17:06:05] INFO root fetch - processPackages [scikit-surgeryarucotracker]: New version: [1.0.3] Old Version: [1.0.2a1]
+[2023-04-27 17:06:05] INFO root fetch - processPackages [bemserver-ui]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-04-27 17:06:05] INFO root fetch - processPackages [sportydatagen]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-27 17:06:05] INFO root fetch - processPackages [xdat]: executing diffoscope
+[2023-04-27 17:06:05] INFO root fetch - processPackages [xdat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xdat-0.1.98.tar.gz tmp/xdat-0.1.99.tar.gz --markdown 20230427/x/xdat/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-04-27 17:06:05] INFO root fetch - processPackages [doxysphinx]: New version: [3.3.1] Old Version: [3.3.0]
+[2023-04-27 17:06:05] INFO root fetch - processPackages [ethoscopy]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-04-27 17:06:05] INFO root fetch - processPackages [odd-cli]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-27 17:06:05] INFO root fetch - processPackages [ais-dom-frontend]: New version: [20230426.0] Old Version: [20230405.0]
+[2023-04-27 17:06:05] INFO root fetch - processPackages [scikit-surgeryarucotracker]: Downloading https://files.pythonhosted.org/packages/fa/09/fc6195cb66d97be589a7c6943192d62c30b9698e1788b1eaf3589eaf234e/scikit-surgeryarucotracker-1.0.2a1.tar.gz
+[2023-04-27 17:06:05] INFO root fetch - processPackages [bemserver-ui]: Downloading https://files.pythonhosted.org/packages/ef/f8/8fb65300cfa511216dc654ee2dfecf53bc64e414c5f5966ceeeee695d423/bemserver-ui-0.5.0.tar.gz
+[2023-04-27 17:06:05] INFO root fetch - processPackages [sportydatagen]: Downloading https://files.pythonhosted.org/packages/e4/05/f6fbc1633c9da6d46be1e95a3fb5682ebaf69fb1e0c3caf22e8c5282e731/sportydatagen-0.1.0.tar.gz
+[2023-04-27 17:06:05] INFO root fetch - processPackages [fwdviewpy]: Downloading https://files.pythonhosted.org/packages/3e/73/2afa6fcbbdcbdb8f06826b7788d93771111bc330d73133654c81a5d742de/fwdviewpy-0.1.8.tar.gz
+[2023-04-27 17:06:05] INFO root fetch - processPackages [pyttb]: Downloading https://files.pythonhosted.org/packages/b2/83/8c55be9ad4b5e73310b6417ced5287a938c588a80b177707fa3fbe869f86/pyttb-1.6.0.tar.gz
+[2023-04-27 17:06:05] INFO root fetch - processPackages [ais-dom-frontend]: Downloading https://files.pythonhosted.org/packages/07/47/06edf0ab204230acf7d251a33e1845d209fb95a1aab7aa704148b78fb21a/ais_dom_frontend-20230405.0-py3-none-any.whl
+[2023-04-27 17:06:05] INFO root fetch - processPackages [doxysphinx]: Downloading https://files.pythonhosted.org/packages/9e/cc/662a586105223a1445f5fd407279554718500bd65a29136070143862ad1b/doxysphinx-3.3.0.tar.gz
+[2023-04-27 17:06:05] INFO root fetch - processPackages [odd-cli]: Downloading https://files.pythonhosted.org/packages/da/28/d59ec31015858eae56e776c482a6d087078806f2a41e3857b6903cecac2a/odd_cli-0.1.8.tar.gz
+[2023-04-27 17:06:05] INFO root fetch - processPackages [ethoscopy]: Downloading https://files.pythonhosted.org/packages/8d/ec/d288e809a8195ca8ebeae40e90cb22dfb979d62ac9fd0e5867fa8520ecfa/ethoscopy-1.2.8.tar.gz
+[2023-04-27 17:06:05] WARNING root fetch - processPackages [ais-dom-frontend]: Skipping package: exceeds size limit 46755646>=10485760
+[2023-04-27 17:06:05] INFO root fetch - processPackages [ais-dom-frontend]: Start processing: fwdviewpy
+[2023-04-27 17:06:05] INFO root fetch - main [MainThread]: End processing [ais-dom-frontend] error
+[2023-04-27 17:06:05] INFO root fetch - processPackages [fwdviewpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-27 17:06:05] WARNING root fetch - processPackages [ethoscopy]: Skipping package: exceeds size limit 13474154>=10485760
+[2023-04-27 17:06:05] INFO root fetch - processPackages [ethoscopy]: Start processing: quickBayes
+[2023-04-27 17:06:05] INFO root fetch - main [MainThread]: End processing [ethoscopy] error
+[2023-04-27 17:06:05] INFO root fetch - processPackages [quickBayes]: New version: [1.0.0b6] Old Version: [1.0.0b5]
+[2023-04-27 17:06:05] INFO root fetch - processPackages [fwdviewpy]: Downloading https://files.pythonhosted.org/packages/8a/ad/935ce0b4a6ffdf166ff13e80c7efb896639069807f34b5d234fca7adbeaa/fwdviewpy-0.1.9.tar.gz
+[2023-04-27 17:06:05] INFO root fetch - processPackages [fwdviewpy]: Downloading https://files.pythonhosted.org/packages/8a/ad/935ce0b4a6ffdf166ff13e80c7efb896639069807f34b5d234fca7adbeaa/fwdviewpy-0.1.9.tar.gz
+[2023-04-27 17:06:05] INFO root fetch - processPackages [sportydatagen]: Downloading https://files.pythonhosted.org/packages/10/52/f7d44f889eedf4751c22c1a7421ecf9c3871210d9eedc268600756717fe2/sportydatagen-0.2.0.tar.gz
+[2023-04-27 17:06:05] INFO root fetch - processPackages [doxysphinx]: Downloading https://files.pythonhosted.org/packages/64/ec/d590df382887aefe2b7e7f08c2d56c589dbb14d023e0e7206ba358f0de9c/doxysphinx-3.3.1.tar.gz
+[2023-04-27 17:06:06] INFO root fetch - processPackages [quickBayes]: executing diffoscope
+[2023-04-27 17:06:06] INFO root fetch - processPackages [quickBayes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickBayes-1.0.0b5-cp38-cp38-win_amd64.whl.zip tmp/quickBayes-1.0.0b6-cp38-cp38-win_amd64.whl.zip --markdown 20230427/q/quickBayes/1.0.0b5-1.0.0b6/diff.md --exclude *.pyd
+[2023-04-27 17:06:06] INFO root fetch - processPackages [bemserver-ui]: Downloading https://files.pythonhosted.org/packages/6c/86/b169a0cf8930989d34fa7f2b22a0f00847b2c0500b69289a0bf464ac6922/bemserver-ui-0.5.1.tar.gz
+[2023-04-27 17:06:06] INFO root fetch - processPackages [scikit-surgeryarucotracker]: Downloading https://files.pythonhosted.org/packages/e5/a1/97450d6db5109fde3d94958c081786946a1568a8d5aeeb61d930074b3053/scikit-surgeryarucotracker-1.0.3.tar.gz
+[2023-04-27 17:06:06] INFO root fetch - processPackages [pyttb]: Downloading https://files.pythonhosted.org/packages/0d/d5/fe490f7c8eb17b106f50090cf40580a1612a79a1c3e2eb682e983d278cd1/pyttb-1.6.1.tar.gz
+[2023-04-27 17:06:06] INFO root fetch - processPackages [fwdviewpy]: executing diffoscope
+[2023-04-27 17:06:06] INFO root fetch - processPackages [fwdviewpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fwdviewpy-0.1.8.tar.gz tmp/fwdviewpy-0.1.9.tar.gz --markdown 20230427/f/fwdviewpy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-27 17:06:06] INFO root fetch - processPackages [sportydatagen]: executing diffoscope
+[2023-04-27 17:06:06] INFO root fetch - processPackages [sportydatagen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sportydatagen-0.1.0.tar.gz tmp/sportydatagen-0.2.0.tar.gz --markdown 20230427/s/sportydatagen/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-04-27 17:06:06] INFO root fetch - processPackages [fwdviewpy]: executing diffoscope
+[2023-04-27 17:06:06] INFO root fetch - processPackages [fwdviewpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fwdviewpy-0.1.8.tar.gz tmp/fwdviewpy-0.1.9.tar.gz --markdown 20230427/f/fwdviewpy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-27 17:06:06] INFO root fetch - processPackages [odd-cli]: Downloading https://files.pythonhosted.org/packages/f9/f5/14c61e8cbd460872feffaa66736fc22bb7b7ec0e7dd265674cd0d657ccc4/odd_cli-0.1.9.tar.gz
+[2023-04-27 17:06:06] INFO root fetch - processPackages [doxysphinx]: executing diffoscope
+[2023-04-27 17:06:06] INFO root fetch - processPackages [doxysphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doxysphinx-3.3.0.tar.gz tmp/doxysphinx-3.3.1.tar.gz --markdown 20230427/d/doxysphinx/3.3.0-3.3.1/diff.md --exclude *.pyd
+[2023-04-27 17:06:06] INFO root fetch - processPackages [scikit-surgeryarucotracker]: executing diffoscope
+[2023-04-27 17:06:06] INFO root fetch - processPackages [scikit-surgeryarucotracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scikit-surgeryarucotracker-1.0.2a1.tar.gz tmp/scikit-surgeryarucotracker-1.0.3.tar.gz --markdown 20230427/s/scikit-surgeryarucotracker/1.0.2a1-1.0.3/diff.md --exclude *.pyd
+[2023-04-27 17:06:06] INFO root fetch - processPackages [bemserver-ui]: executing diffoscope
+[2023-04-27 17:06:06] INFO root fetch - processPackages [bemserver-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bemserver-ui-0.5.0.tar.gz tmp/bemserver-ui-0.5.1.tar.gz --markdown 20230427/b/bemserver-ui/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-04-27 17:06:06] INFO root fetch - processPackages [pyttb]: executing diffoscope
+[2023-04-27 17:06:06] INFO root fetch - processPackages [pyttb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyttb-1.6.0.tar.gz tmp/pyttb-1.6.1.tar.gz --markdown 20230427/p/pyttb/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2023-04-27 17:06:06] INFO root fetch - processPackages [odd-cli]: executing diffoscope
+[2023-04-27 17:06:06] INFO root fetch - processPackages [odd-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odd_cli-0.1.8.tar.gz tmp/odd_cli-0.1.9.tar.gz --markdown 20230427/o/odd-cli/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-27 17:06:07] INFO root fetch - processPackages [fwdviewpy]: Start processing: finbourne-identity-sdk
+[2023-04-27 17:06:07] INFO root fetch - main [MainThread]: End processing [fwdviewpy]: success
+[2023-04-27 17:06:07] INFO root fetch - processPackages [finbourne-identity-sdk]: New version: [0.0.840] Old Version: [0.0.2421]
+[2023-04-27 17:06:07] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/03/20/aba9c888ff1d0b7a39e1ba177e7a06454a895b6b47b418c2856b2720d9df/finbourne-identity-sdk-0.0.2421.tar.gz
+[2023-04-27 17:06:07] INFO root fetch - processPackages [quickBayes]: Start processing: django-rest-witchcraft
+[2023-04-27 17:06:07] INFO root fetch - main [MainThread]: End processing [quickBayes]: success
+[2023-04-27 17:06:07] INFO root fetch - main [MainThread]: End processing [sportydatagen]: success
+[2023-04-27 17:06:07] INFO root fetch - main [MainThread]: End processing [fwdviewpy]: success
+[2023-04-27 17:06:07] INFO root fetch - processPackages [finbourne-identity-sdk]: executing diffoscope
+[2023-04-27 17:06:07] INFO root fetch - processPackages [finbourne-identity-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-identity-sdk-0.0.2421.tar.gz tmp/finbourne-identity-sdk-0.0.840.tar.gz --markdown 20230427/f/finbourne-identity-sdk/0.0.2421-0.0.840/diff.md --exclude *.pyd
+[2023-04-27 17:06:07] INFO root fetch - processPackages [django-rest-witchcraft]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-04-27 17:06:07] INFO root fetch - main [MainThread]: End processing [scikit-surgeryarucotracker]: success
+[2023-04-27 17:06:08] INFO root fetch - processPackages [django-rest-witchcraft]: Downloading https://files.pythonhosted.org/packages/f4/e2/19af4a7b20d8920f26957cecf0362e0efc646415583f118431ef3ade849b/django-rest-witchcraft-0.8.3.tar.gz
+[2023-04-27 17:06:08] INFO root fetch - main [MainThread]: End processing [odd-cli]: success
+[2023-04-27 17:06:08] INFO root fetch - main [MainThread]: End processing [doxysphinx]: success
+[2023-04-27 17:06:08] INFO root fetch - main [MainThread]: End processing [pyttb]: success
+[2023-04-27 17:06:08] INFO root fetch - processPackages [django-rest-witchcraft]: Downloading https://files.pythonhosted.org/packages/37/eb/f614f5265b9ea503d102de0f92f254126ba110734645063a6d6c5e1ef4e6/django-rest-witchcraft-0.9.0.tar.gz
+[2023-04-27 17:06:08] INFO root fetch - processPackages [django-rest-witchcraft]: executing diffoscope
+[2023-04-27 17:06:08] INFO root fetch - processPackages [django-rest-witchcraft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-rest-witchcraft-0.8.3.tar.gz tmp/django-rest-witchcraft-0.9.0.tar.gz --markdown 20230427/d/django-rest-witchcraft/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-04-27 17:06:08] INFO root fetch - main [MainThread]: End processing [xdat]: success
+[2023-04-27 17:06:09] INFO root fetch - main [MainThread]: End processing [finbourne-identity-sdk]: success
+[2023-04-27 17:06:09] INFO root fetch - main [MainThread]: End processing [django-rest-witchcraft]: success
+[2023-04-27 17:06:10] INFO root fetch - main [MainThread]: End processing [bemserver-ui]: success
+[2023-04-27 17:06:10] INFO root fetch - main [MainThread]: Store serial: [17884895]
