@@ -9690,3 +9690,56 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 06:43:49] INFO root fetch - main [MainThread]: End processing [semantra]: success
 [2023-04-27 06:44:07] INFO root fetch - main [MainThread]: End processing [flet]: success
 [2023-04-27 06:44:07] INFO root fetch - main [MainThread]: Store serial: [17877683]
+[2023-04-27 06:49:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17877683]
+[2023-04-27 06:49:17] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-27 06:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: imohash
+[2023-04-27 06:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CommonlyTools
+[2023-04-27 06:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: htools
+[2023-04-27 06:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tinydb-sqlite
+[2023-04-27 06:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: macrometa-target-postgres
+[2023-04-27 06:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: single-consumer-queue
+[2023-04-27 06:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: transition-neural-parser
+[2023-04-27 06:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mlforecast
+[2023-04-27 06:49:17] INFO root fetch - processPackages [CommonlyTools]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-04-27 06:49:17] INFO root fetch - processPackages [macrometa-target-postgres]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 06:49:17] INFO root fetch - processPackages [single-consumer-queue]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-27 06:49:17] INFO root fetch - processPackages [imohash]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-04-27 06:49:17] INFO root fetch - processPackages [CommonlyTools]: executing diffoscope
+[2023-04-27 06:49:17] INFO root fetch - processPackages [CommonlyTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CommonlyTools-2.1.1.tar.gz tmp/CommonlyTools-2.1.2.tar.gz --markdown 20230427/C/CommonlyTools/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-04-27 06:49:17] INFO root fetch - processPackages [tinydb-sqlite]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-27 06:49:17] INFO root fetch - processPackages [macrometa-target-postgres]: executing diffoscope
+[2023-04-27 06:49:17] INFO root fetch - processPackages [macrometa-target-postgres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-postgres-0.0.8.tar.gz tmp/macrometa-target-postgres-0.0.9.tar.gz --markdown 20230427/m/macrometa-target-postgres/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 06:49:17] INFO root fetch - processPackages [single-consumer-queue]: executing diffoscope
+[2023-04-27 06:49:17] INFO root fetch - processPackages [single-consumer-queue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/single_consumer_queue-1.0.0.tar.gz tmp/single_consumer_queue-1.0.1.tar.gz --markdown 20230427/s/single-consumer-queue/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-27 06:49:17] INFO root fetch - processPackages [mlforecast]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-04-27 06:49:17] INFO root fetch - processPackages [transition-neural-parser]: New version: [0.5.3.1] Old Version: [0.5.2.dev0]
+[2023-04-27 06:49:17] INFO root fetch - processPackages [htools]: New version: [7.6.0] Old Version: [7.5.0]
+[2023-04-27 06:49:17] INFO root fetch - processPackages [imohash]: Downloading https://files.pythonhosted.org/packages/72/5d/27347eaeedb44f5a5d965a096dd6177109550cc0e5918c3164e4b2bf754c/imohash-1.0.4-py2.py3-none-any.whl
+[2023-04-27 06:49:17] INFO root fetch - processPackages [tinydb-sqlite]: Downloading https://files.pythonhosted.org/packages/a2/c3/b9bf68660153ee2bb8d4d67ea98cdd185829d8bec0e6bcffa0aeddd269e8/tinydb_sqlite-0.1.1.tar.gz
+[2023-04-27 06:49:17] INFO root fetch - processPackages [mlforecast]: Downloading https://files.pythonhosted.org/packages/c6/2b/ad68e2c051bc392a238a38aa17da82a8cdf0288b97c818a6dcd41f9e9a26/mlforecast-0.7.0.tar.gz
+[2023-04-27 06:49:17] INFO root fetch - processPackages [transition-neural-parser]: Downloading https://files.pythonhosted.org/packages/93/e9/b6afda8c1c9c5f9305b689364773aae6d3b805b01cfd1d147e753f29e2fb/transition_neural_parser-0.5.2.dev0.tar.gz
+[2023-04-27 06:49:17] INFO root fetch - processPackages [htools]: Downloading https://files.pythonhosted.org/packages/4c/82/b1f351b137b7c2df460619f58d3b5004f167c0300a41f37f335799663a07/htools-7.5.0.tar.gz
+[2023-04-27 06:49:17] INFO root fetch - processPackages [imohash]: Downloading https://files.pythonhosted.org/packages/d7/80/af5d2efe9f0aff9f577115f933201f4bc4579abc9e175ae8c05cf9aef968/imohash-1.0.5.tar.gz
+[2023-04-27 06:49:17] INFO root fetch - processPackages [imohash]: executing diffoscope
+[2023-04-27 06:49:17] INFO root fetch - processPackages [imohash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imohash-1.0.4-py2.py3-none-any.whl.zip tmp/imohash-1.0.5.tar.gz --markdown 20230427/i/imohash/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-04-27 06:49:17] INFO root fetch - processPackages [tinydb-sqlite]: Downloading https://files.pythonhosted.org/packages/5d/14/68be45214f538723996573a4fac7de6bb2407030e11a2077947104eaf0f7/tinydb_sqlite-0.1.2.tar.gz
+[2023-04-27 06:49:18] INFO root fetch - processPackages [htools]: Downloading https://files.pythonhosted.org/packages/d3/8c/38fb8f11dd456100d89d5ac8a13e0fb4ab415884bcdb58512ce6608e80db/htools-7.6.0.tar.gz
+[2023-04-27 06:49:18] INFO root fetch - processPackages [mlforecast]: Downloading https://files.pythonhosted.org/packages/ca/78/0d5d2bd0dad3eb258b67b9593a87ea7eda4e781dffa4a1d4dc00844a44b4/mlforecast-0.7.1.tar.gz
+[2023-04-27 06:49:18] INFO root fetch - processPackages [transition-neural-parser]: Downloading https://files.pythonhosted.org/packages/2e/29/54d7d39eb5565252f68c6644b3537c788a9eb2e41807b392a9f936f8ffe8/transition_neural_parser-0.5.3.1.tar.gz
+[2023-04-27 06:49:18] INFO root fetch - processPackages [tinydb-sqlite]: executing diffoscope
+[2023-04-27 06:49:18] INFO root fetch - processPackages [tinydb-sqlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinydb_sqlite-0.1.1.tar.gz tmp/tinydb_sqlite-0.1.2.tar.gz --markdown 20230427/t/tinydb-sqlite/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-27 06:49:18] INFO root fetch - processPackages [mlforecast]: executing diffoscope
+[2023-04-27 06:49:18] INFO root fetch - processPackages [mlforecast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlforecast-0.7.0.tar.gz tmp/mlforecast-0.7.1.tar.gz --markdown 20230427/m/mlforecast/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-04-27 06:49:18] INFO root fetch - processPackages [htools]: executing diffoscope
+[2023-04-27 06:49:18] INFO root fetch - processPackages [htools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htools-7.5.0.tar.gz tmp/htools-7.6.0.tar.gz --markdown 20230427/h/htools/7.5.0-7.6.0/diff.md --exclude *.pyd
+[2023-04-27 06:49:18] INFO root fetch - processPackages [transition-neural-parser]: executing diffoscope
+[2023-04-27 06:49:18] INFO root fetch - processPackages [transition-neural-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transition_neural_parser-0.5.2.dev0.tar.gz tmp/transition_neural_parser-0.5.3.1.tar.gz --markdown 20230427/t/transition-neural-parser/0.5.2.dev0-0.5.3.1/diff.md --exclude *.pyd
+[2023-04-27 06:49:18] INFO root fetch - main [MainThread]: End processing [single-consumer-queue]: success
+[2023-04-27 06:49:18] INFO root fetch - main [MainThread]: End processing [CommonlyTools]: success
+[2023-04-27 06:49:18] INFO root fetch - main [MainThread]: End processing [macrometa-target-postgres]: success
+[2023-04-27 06:49:19] INFO root fetch - main [MainThread]: End processing [imohash]: success
+[2023-04-27 06:49:19] INFO root fetch - main [MainThread]: End processing [tinydb-sqlite]: success
+[2023-04-27 06:49:19] INFO root fetch - main [MainThread]: End processing [htools]: success
+[2023-04-27 06:49:19] INFO root fetch - main [MainThread]: End processing [mlforecast]: success
+[2023-04-27 06:49:20] INFO root fetch - main [MainThread]: End processing [transition-neural-parser]: success
+[2023-04-27 06:49:20] INFO root fetch - main [MainThread]: Store serial: [17877710]
