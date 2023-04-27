@@ -7895,3 +7895,44 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 04:15:28] INFO root fetch - main [MainThread]: End processing [modal-client]: success
 [2023-04-27 04:15:28] INFO root fetch - main [MainThread]: End processing [aligo]: success
 [2023-04-27 04:15:28] INFO root fetch - main [MainThread]: Store serial: [17876681]
+[2023-04-27 04:20:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17876681]
+[2023-04-27 04:20:37] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-27 04:20:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sgtpyutils
+[2023-04-27 04:20:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: meerkat-ml
+[2023-04-27 04:20:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: latch
+[2023-04-27 04:20:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: neural-amp-modeler
+[2023-04-27 04:20:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: otx
+[2023-04-27 04:20:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: m-caching
+[2023-04-27 04:20:37] INFO root fetch - processPackages [otx]: New version: [1.2.1rc1] Old Version: [1.2.0rc2]
+[2023-04-27 04:20:37] INFO root fetch - processPackages [neural-amp-modeler]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-04-27 04:20:37] INFO root fetch - processPackages [m-caching]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-27 04:20:37] INFO root fetch - processPackages [sgtpyutils]: New version: [1.9.144] Old Version: [1.7.94]
+[2023-04-27 04:20:37] INFO root fetch - processPackages [meerkat-ml]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-04-27 04:20:37] INFO root fetch - processPackages [latch]: New version: [2.9.6] Old Version: [2.9.5]
+[2023-04-27 04:20:37] INFO root fetch - processPackages [m-caching]: executing diffoscope
+[2023-04-27 04:20:37] INFO root fetch - processPackages [m-caching]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m-caching-0.1.8.tar.gz tmp/m-caching-0.1.9.tar.gz --markdown 20230427/m/m-caching/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-27 04:20:37] INFO root fetch - processPackages [sgtpyutils]: Downloading https://files.pythonhosted.org/packages/51/ca/a41982e0e29e52d38873d740db8ea6599ffaebe07175f1cd0db14d089731/sgtpyutils-1.7.94.tar.gz
+[2023-04-27 04:20:37] INFO root fetch - processPackages [otx]: Downloading https://files.pythonhosted.org/packages/1f/d0/3af023882bb4aafec74fc141ffa7f5c68d8be8b7f48ad220212099390876/otx-1.2.0rc2.tar.gz
+[2023-04-27 04:20:37] INFO root fetch - processPackages [meerkat-ml]: Downloading https://files.pythonhosted.org/packages/fd/f4/294748f5496e17dc30f6ad18f720ebfacab589c26d5da45c8a358ab70473/meerkat-ml-0.4.8.tar.gz
+[2023-04-27 04:20:37] INFO root fetch - processPackages [neural-amp-modeler]: Downloading https://files.pythonhosted.org/packages/25/b4/6e80833a4f9b6441513f3413ab5397366cdbe55fa072fa9165b0050b4637/neural-amp-modeler-0.5.1.tar.gz
+[2023-04-27 04:20:37] INFO root fetch - processPackages [latch]: executing diffoscope
+[2023-04-27 04:20:37] INFO root fetch - processPackages [latch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latch-2.9.5.tar.gz tmp/latch-2.9.6.tar.gz --markdown 20230427/l/latch/2.9.5-2.9.6/diff.md --exclude *.pyd
+[2023-04-27 04:20:37] INFO root fetch - processPackages [neural-amp-modeler]: Downloading https://files.pythonhosted.org/packages/f4/46/88f2d1205d2af670f1c69580519c5dcee8c93c0a60e66dfae8f4d223ece6/neural-amp-modeler-0.5.2.tar.gz
+[2023-04-27 04:20:37] INFO root fetch - processPackages [meerkat-ml]: Downloading https://files.pythonhosted.org/packages/4a/c8/03b4e33206c80db1eadd12a8da2cb373ac9c7108facc6812dcfd83dcb630/meerkat-ml-0.4.9.tar.gz
+[2023-04-27 04:20:37] INFO root fetch - processPackages [otx]: Downloading https://files.pythonhosted.org/packages/34/40/2293f309c34bd4e0d341b49659a620af7c5f98ac9069bb77a4459d2f00db/otx-1.2.1rc1.tar.gz
+[2023-04-27 04:20:38] INFO root fetch - processPackages [sgtpyutils]: Downloading https://files.pythonhosted.org/packages/0b/65/7dfa2edc9366d64a487a0f371dcadda0c8abff1c84e8807aaa25c079bbb1/sgtpyutils-1.9.144.tar.gz
+[2023-04-27 04:20:38] INFO root fetch - processPackages [neural-amp-modeler]: executing diffoscope
+[2023-04-27 04:20:38] INFO root fetch - processPackages [neural-amp-modeler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neural-amp-modeler-0.5.1.tar.gz tmp/neural-amp-modeler-0.5.2.tar.gz --markdown 20230427/n/neural-amp-modeler/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-04-27 04:20:38] INFO root fetch - processPackages [meerkat-ml]: executing diffoscope
+[2023-04-27 04:20:38] INFO root fetch - processPackages [meerkat-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meerkat-ml-0.4.8.tar.gz tmp/meerkat-ml-0.4.9.tar.gz --markdown 20230427/m/meerkat-ml/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-04-27 04:20:38] INFO root fetch - processPackages [sgtpyutils]: executing diffoscope
+[2023-04-27 04:20:38] INFO root fetch - processPackages [sgtpyutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sgtpyutils-1.7.94.tar.gz tmp/sgtpyutils-1.9.144.tar.gz --markdown 20230427/s/sgtpyutils/1.7.94-1.9.144/diff.md --exclude *.pyd
+[2023-04-27 04:20:38] INFO root fetch - main [MainThread]: End processing [m-caching]: success
+[2023-04-27 04:20:39] INFO root fetch - main [MainThread]: End processing [latch]: success
+[2023-04-27 04:20:39] INFO root fetch - processPackages [otx]: executing diffoscope
+[2023-04-27 04:20:39] INFO root fetch - processPackages [otx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otx-1.2.0rc2.tar.gz tmp/otx-1.2.1rc1.tar.gz --markdown 20230427/o/otx/1.2.0rc2-1.2.1rc1/diff.md --exclude *.pyd
+[2023-04-27 04:20:39] INFO root fetch - main [MainThread]: End processing [sgtpyutils]: success
+[2023-04-27 04:20:39] INFO root fetch - main [MainThread]: End processing [neural-amp-modeler]: success
+[2023-04-27 04:21:13] INFO root fetch - main [MainThread]: End processing [meerkat-ml]: success
+[2023-04-27 04:21:16] INFO root fetch - main [MainThread]: End processing [otx]: success
+[2023-04-27 04:21:16] INFO root fetch - main [MainThread]: Store serial: [17876699]
