@@ -16421,3 +16421,99 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 12:31:05] INFO root fetch - main [MainThread]: End processing [sinergym]: success
 [2023-04-27 12:31:05] INFO root fetch - main [MainThread]: End processing [evidently]: success
 [2023-04-27 12:31:05] INFO root fetch - main [MainThread]: Store serial: [17881401]
+[2023-04-27 12:36:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17881401]
+[2023-04-27 12:36:16] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-27 12:36:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cellmap
+[2023-04-27 12:36:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pydmt
+[2023-04-27 12:36:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: awsibox
+[2023-04-27 12:36:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: insta-tweet
+[2023-04-27 12:36:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ais-dom
+[2023-04-27 12:36:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pymultigit
+[2023-04-27 12:36:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mlrun
+[2023-04-27 12:36:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mlrun
+[2023-04-27 12:36:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: baichat-py
+[2023-04-27 12:36:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: clear-skies-aws
+[2023-04-27 12:36:16] INFO root fetch - processPackages [baichat-py]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-04-27 12:36:16] INFO root fetch - processPackages [insta-tweet]: New version: [2.1.3] Old Version: [2.1.1]
+[2023-04-27 12:36:16] INFO root fetch - processPackages [cellmap]: New version: [1.0.1.dev202304271030] Old Version: [1.0.1.dev202304270902]
+[2023-04-27 12:36:16] INFO root fetch - processPackages [clear-skies-aws]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-04-27 12:36:16] INFO root fetch - processPackages [awsibox]: New version: [0.8.0] Old Version: [0.7.8]
+[2023-04-27 12:36:16] INFO root fetch - processPackages [pymultigit]: New version: [0.0.83] Old Version: [0.0.82]
+[2023-04-27 12:36:16] INFO root fetch - processPackages [mlrun]: New version: [1.4.0rc2] Old Version: [1.4.0rc1]
+[2023-04-27 12:36:16] INFO root fetch - processPackages [mlrun]: New version: [1.4.0rc2] Old Version: [1.4.0rc1]
+[2023-04-27 12:36:16] INFO root fetch - processPackages [pydmt]: New version: [0.1.81] Old Version: [0.1.80]
+[2023-04-27 12:36:16] INFO root fetch - processPackages [ais-dom]: New version: [2023.4.6] Old Version: [2023.4.0b0]
+[2023-04-27 12:36:16] INFO root fetch - processPackages [awsibox]: Downloading https://files.pythonhosted.org/packages/6c/c8/27d55531cfd5b35edaa486072627e066eae4b894a2bf19f6564ec1a69850/awsibox-0.7.8.tar.gz
+[2023-04-27 12:36:16] INFO root fetch - processPackages [baichat-py]: Downloading https://files.pythonhosted.org/packages/d6/84/c37088ae549c0db80ef049844e3f0e1920f22db94954c0594c68479250c7/baichat_py-0.2.1.tar.gz
+[2023-04-27 12:36:16] INFO root fetch - processPackages [cellmap]: Downloading https://files.pythonhosted.org/packages/61/9f/c4170fad91ef732508672ae012c90de8e589427e7071dd7f5fd856e4c50a/cellmap-1.0.1.dev202304270902-py3-none-any.whl
+[2023-04-27 12:36:16] INFO root fetch - processPackages [clear-skies-aws]: Downloading https://files.pythonhosted.org/packages/ad/4d/96d6dda277105d28c035420132efd97f22c58efd24eaed919cd26aa62d88/clear-skies-aws-1.2.3.tar.gz
+[2023-04-27 12:36:16] INFO root fetch - processPackages [mlrun]: Downloading https://files.pythonhosted.org/packages/23/7d/4c1353c3a8ebabe529ae40757447c6612aeed08fddca315e5e68f43ddbba/mlrun-1.4.0rc2-py3-none-any.whl
+[2023-04-27 12:36:16] INFO root fetch - processPackages [mlrun]: Downloading https://files.pythonhosted.org/packages/23/7d/4c1353c3a8ebabe529ae40757447c6612aeed08fddca315e5e68f43ddbba/mlrun-1.4.0rc2-py3-none-any.whl
+[2023-04-27 12:36:16] INFO root fetch - processPackages [pymultigit]: Downloading https://files.pythonhosted.org/packages/b9/5b/a236e40dc961e6b1e0de56b0d8074efca814f97dbbc7f000e18e5eab4c8c/pymultigit-0.0.83.tar.gz
+[2023-04-27 12:36:16] INFO root fetch - processPackages [pydmt]: Downloading https://files.pythonhosted.org/packages/0d/da/c3274b7b111549504d66591fb0bdf33945152037c160b833e6a1418e1cdf/pydmt-0.1.80.tar.gz
+[2023-04-27 12:36:16] INFO root fetch - processPackages [baichat-py]: executing diffoscope
+[2023-04-27 12:36:16] INFO root fetch - processPackages [baichat-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baichat_py-0.2.0.tar.gz tmp/baichat_py-0.2.1.tar.gz --markdown 20230427/b/baichat-py/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-04-27 12:36:16] INFO root fetch - processPackages [insta-tweet]: Downloading https://files.pythonhosted.org/packages/d9/eb/a2de3ccddf248dcdd344f4ee97c07f614d90de3080af19cede82e8ecdeb1/insta-tweet-2.1.3.tar.gz
+[2023-04-27 12:36:16] INFO root fetch - processPackages [ais-dom]: Downloading https://files.pythonhosted.org/packages/d0/c3/25ef2fef958875225d090110d66f5c1ffa4f1127e3dc164f142e020bd25f/ais-dom-2023.4.0b0.tar.gz
+[2023-04-27 12:36:16] INFO root fetch - processPackages [pymultigit]: executing diffoscope
+[2023-04-27 12:36:16] INFO root fetch - processPackages [pymultigit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymultigit-0.0.82.tar.gz tmp/pymultigit-0.0.83.tar.gz --markdown 20230427/p/pymultigit/0.0.82-0.0.83/diff.md --exclude *.pyd
+[2023-04-27 12:36:17] INFO root fetch - processPackages [insta-tweet]: executing diffoscope
+[2023-04-27 12:36:17] INFO root fetch - processPackages [insta-tweet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/insta-tweet-2.1.1.tar.gz tmp/insta-tweet-2.1.3.tar.gz --markdown 20230427/i/insta-tweet/2.1.1-2.1.3/diff.md --exclude *.pyd
+[2023-04-27 12:36:17] INFO root fetch - processPackages [pydmt]: Downloading https://files.pythonhosted.org/packages/12/e4/1c09f57d57fd2cab876ddf3f5d8ecbdab577d09f1a181a2d5012d5d0975f/pydmt-0.1.81.tar.gz
+[2023-04-27 12:36:17] INFO root fetch - processPackages [clear-skies-aws]: Downloading https://files.pythonhosted.org/packages/58/46/2f89c19eeec35e8e5391c266a37f25c0cb626fb60299a098656d1f223c7c/clear-skies-aws-1.2.4.tar.gz
+[2023-04-27 12:36:17] INFO root fetch - processPackages [awsibox]: Downloading https://files.pythonhosted.org/packages/ce/a2/c6a7fff50c06275e53abcbff75b4493915223ee454de6cb79d8748cd0504/awsibox-0.8.0.tar.gz
+[2023-04-27 12:36:17] INFO root fetch - processPackages [clear-skies-aws]: executing diffoscope
+[2023-04-27 12:36:17] INFO root fetch - processPackages [clear-skies-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clear-skies-aws-1.2.3.tar.gz tmp/clear-skies-aws-1.2.4.tar.gz --markdown 20230427/c/clear-skies-aws/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-04-27 12:36:17] INFO root fetch - processPackages [mlrun]: executing diffoscope
+[2023-04-27 12:36:17] INFO root fetch - processPackages [mlrun]: executing diffoscope
+[2023-04-27 12:36:17] INFO root fetch - processPackages [mlrun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlrun-1.4.0rc1-py3-none-any.whl.zip tmp/mlrun-1.4.0rc2-py3-none-any.whl.zip --markdown 20230427/m/mlrun/1.4.0rc1-1.4.0rc2/diff.md --exclude *.pyd
+[2023-04-27 12:36:17] INFO root fetch - processPackages [mlrun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlrun-1.4.0rc1-py3-none-any.whl.zip tmp/mlrun-1.4.0rc2-py3-none-any.whl.zip --markdown 20230427/m/mlrun/1.4.0rc1-1.4.0rc2/diff.md --exclude *.pyd
+[2023-04-27 12:36:17] INFO root fetch - processPackages [pydmt]: executing diffoscope
+[2023-04-27 12:36:17] INFO root fetch - processPackages [pydmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydmt-0.1.80.tar.gz tmp/pydmt-0.1.81.tar.gz --markdown 20230427/p/pydmt/0.1.80-0.1.81/diff.md --exclude *.pyd
+[2023-04-27 12:36:17] INFO root fetch - processPackages [cellmap]: Downloading https://files.pythonhosted.org/packages/68/3e/7a9a9fd9996cd1beb859cb75f301fe5a2522d461f6940494cf328ddd12a9/cellmap-1.0.1.dev202304271030-py3-none-any.whl
+[2023-04-27 12:36:17] INFO root fetch - processPackages [awsibox]: executing diffoscope
+[2023-04-27 12:36:17] INFO root fetch - processPackages [awsibox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awsibox-0.7.8.tar.gz tmp/awsibox-0.8.0.tar.gz --markdown 20230427/a/awsibox/0.7.8-0.8.0/diff.md --exclude *.pyd
+[2023-04-27 12:36:18] INFO root fetch - processPackages [cellmap]: executing diffoscope
+[2023-04-27 12:36:18] INFO root fetch - processPackages [cellmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellmap-1.0.1.dev202304270902-py3-none-any.whl.zip tmp/cellmap-1.0.1.dev202304271030-py3-none-any.whl.zip --markdown 20230427/c/cellmap/1.0.1.dev202304270902-1.0.1.dev202304271030/diff.md --exclude *.pyd
+[2023-04-27 12:36:18] INFO root fetch - processPackages [baichat-py]: Start processing: krillscan
+[2023-04-27 12:36:18] INFO root fetch - main [MainThread]: End processing [baichat-py]: success
+[2023-04-27 12:36:18] INFO root fetch - processPackages [krillscan]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-27 12:36:18] INFO root fetch - processPackages [pymultigit]: Start processing: downtime
+[2023-04-27 12:36:18] INFO root fetch - main [MainThread]: End processing [pymultigit]: success
+[2023-04-27 12:36:18] INFO root fetch - processPackages [krillscan]: executing diffoscope
+[2023-04-27 12:36:18] INFO root fetch - processPackages [krillscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krillscan-0.2.8.tar.gz tmp/krillscan-0.2.9.tar.gz --markdown 20230427/k/krillscan/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-27 12:36:18] WARNING root fetch - processPackages [downtime]: Skipping, unable to determine old version
+[2023-04-27 12:36:18] INFO root fetch - processPackages [downtime]: Start processing: analysisbykwok
+[2023-04-27 12:36:18] INFO root fetch - main [MainThread]: End processing [downtime] error
+[2023-04-27 12:36:18] INFO root fetch - processPackages [ais-dom]: Downloading https://files.pythonhosted.org/packages/58/59/520f0d8f4a5f6782395782f53defa2470ff2cb3260cde0260d1dc2ad4b34/ais-dom-2023.4.6.tar.gz
+[2023-04-27 12:36:18] INFO root fetch - processPackages [analysisbykwok]: New version: [0.0.23] Old Version: [0.0.22]
+[2023-04-27 12:36:18] INFO root fetch - processPackages [insta-tweet]: Start processing: lognflow
+[2023-04-27 12:36:18] INFO root fetch - main [MainThread]: End processing [insta-tweet]: success
+[2023-04-27 12:36:18] INFO root fetch - processPackages [ais-dom]: executing diffoscope
+[2023-04-27 12:36:18] INFO root fetch - processPackages [ais-dom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ais-dom-2023.4.0b0.tar.gz tmp/ais-dom-2023.4.6.tar.gz --markdown 20230427/a/ais-dom/2023.4.0b0-2023.4.6/diff.md --exclude *.pyd
+[2023-04-27 12:36:18] INFO root fetch - processPackages [analysisbykwok]: Downloading https://files.pythonhosted.org/packages/ad/a8/9e29f10b93422af0301ed3c90a1941e04dad977671522faff5353fe2a6f2/analysisbykwok-0.0.23.tar.gz
+[2023-04-27 12:36:18] INFO root fetch - processPackages [lognflow]: New version: [0.6.6] Old Version: [0.6.5]
+[2023-04-27 12:36:18] INFO root fetch - processPackages [analysisbykwok]: executing diffoscope
+[2023-04-27 12:36:18] INFO root fetch - processPackages [analysisbykwok]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/analysisbykwok-0.0.22.tar.gz tmp/analysisbykwok-0.0.23.tar.gz --markdown 20230427/a/analysisbykwok/0.0.22-0.0.23/diff.md --exclude *.pyd
+[2023-04-27 12:36:18] INFO root fetch - processPackages [lognflow]: Downloading https://files.pythonhosted.org/packages/c2/83/68f040b68ae685d2c777a51e3d7ea8be16869564f0b191239104ed3e3924/lognflow-0.6.6.tar.gz
+[2023-04-27 12:36:19] INFO root fetch - processPackages [lognflow]: executing diffoscope
+[2023-04-27 12:36:19] INFO root fetch - processPackages [lognflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lognflow-0.6.5.tar.gz tmp/lognflow-0.6.6.tar.gz --markdown 20230427/l/lognflow/0.6.5-0.6.6/diff.md --exclude *.pyd
+[2023-04-27 12:36:19] INFO root fetch - processPackages [clear-skies-aws]: Start processing: lovely-tensors
+[2023-04-27 12:36:19] INFO root fetch - main [MainThread]: End processing [clear-skies-aws]: success
+[2023-04-27 12:36:19] INFO root fetch - processPackages [lovely-tensors]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-27 12:36:19] INFO root fetch - main [MainThread]: End processing [pydmt]: success
+[2023-04-27 12:36:19] INFO root fetch - processPackages [lovely-tensors]: Downloading https://files.pythonhosted.org/packages/b7/08/5f2e3ea1025c9d6589369e9afa9e38a469d95b63dab4068af7df38618285/lovely-tensors-0.1.8.tar.gz
+[2023-04-27 12:36:20] INFO root fetch - main [MainThread]: End processing [analysisbykwok]: success
+[2023-04-27 12:36:20] INFO root fetch - main [MainThread]: End processing [krillscan]: success
+[2023-04-27 12:36:20] INFO root fetch - main [MainThread]: End processing [cellmap]: success
+[2023-04-27 12:36:20] INFO root fetch - main [MainThread]: End processing [lognflow]: success
+[2023-04-27 12:36:21] INFO root fetch - processPackages [lovely-tensors]: Downloading https://files.pythonhosted.org/packages/7d/8a/e388f81ec2a0de3375c9483a0c6be00f8ba9458b4a6efe095686e57dc703/lovely-tensors-0.1.9.tar.gz
+[2023-04-27 12:36:22] INFO root fetch - main [MainThread]: End processing [mlrun]: success
+[2023-04-27 12:36:22] INFO root fetch - main [MainThread]: End processing [mlrun]: success
+[2023-04-27 12:36:22] INFO root fetch - processPackages [lovely-tensors]: executing diffoscope
+[2023-04-27 12:36:22] INFO root fetch - processPackages [lovely-tensors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lovely-tensors-0.1.8.tar.gz tmp/lovely-tensors-0.1.9.tar.gz --markdown 20230427/l/lovely-tensors/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-27 12:36:24] INFO root fetch - main [MainThread]: End processing [awsibox]: success
+[2023-04-27 12:36:24] INFO root fetch - main [MainThread]: End processing [lovely-tensors]: success
+[2023-04-27 12:39:18] ERROR root fetch - processPackages [ais-dom]: Timeout during execution of pkgdiff
+[2023-04-27 12:39:18] INFO root fetch - main [MainThread]: End processing [ais-dom] error
+[2023-04-27 12:39:18] INFO root fetch - main [MainThread]: Store serial: [17881449]
