@@ -8581,3 +8581,90 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 05:09:18] INFO root fetch - main [MainThread]: End processing [minium]: success
 [2023-04-27 05:09:23] INFO root fetch - main [MainThread]: End processing [foursight-core]: success
 [2023-04-27 05:09:23] INFO root fetch - main [MainThread]: Store serial: [17877027]
+[2023-04-27 05:14:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17877027]
+[2023-04-27 05:14:32] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-27 05:14:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: foursight-cgap
+[2023-04-27 05:14:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: m-utilities
+[2023-04-27 05:14:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: foursight
+[2023-04-27 05:14:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alibabacloud-adcp20220101-py2
+[2023-04-27 05:14:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alibabacloud-adcp20220101
+[2023-04-27 05:14:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lazyearth
+[2023-04-27 05:14:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gpt-review
+[2023-04-27 05:14:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nycu-tdx-py
+[2023-04-27 05:14:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mango-pycore
+[2023-04-27 05:14:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: utype
+[2023-04-27 05:14:32] INFO root fetch - processPackages [foursight]: New version: [3.4.0.5b54] Old Version: [3.4.0.5b53]
+[2023-04-27 05:14:32] INFO root fetch - processPackages [lazyearth]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-04-27 05:14:32] INFO root fetch - processPackages [nycu-tdx-py]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-27 05:14:32] INFO root fetch - processPackages [lazyearth]: executing diffoscope
+[2023-04-27 05:14:32] INFO root fetch - processPackages [lazyearth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyearth-1.0.7.tar.gz tmp/lazyearth-1.0.8.tar.gz --markdown 20230427/l/lazyearth/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-04-27 05:14:32] INFO root fetch - processPackages [m-utilities]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-04-27 05:14:32] INFO root fetch - processPackages [foursight]: executing diffoscope
+[2023-04-27 05:14:32] INFO root fetch - processPackages [foursight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight-3.4.0.5b53.tar.gz tmp/foursight-3.4.0.5b54.tar.gz --markdown 20230427/f/foursight/3.4.0.5b53-3.4.0.5b54/diff.md --exclude *.pyd
+[2023-04-27 05:14:32] INFO root fetch - processPackages [alibabacloud-adcp20220101-py2]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-27 05:14:32] INFO root fetch - processPackages [mango-pycore]: New version: [0.1.4a0] Old Version: [0.1.4]
+[2023-04-27 05:14:32] INFO root fetch - processPackages [gpt-review]: New version: [0.0.1rc85.post1] Old Version: [0.0.1rc82.post1]
+[2023-04-27 05:14:32] INFO root fetch - processPackages [utype]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-27 05:14:32] INFO root fetch - processPackages [alibabacloud-adcp20220101]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-27 05:14:32] INFO root fetch - processPackages [nycu-tdx-py]: executing diffoscope
+[2023-04-27 05:14:32] INFO root fetch - processPackages [nycu-tdx-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nycu_tdx_py-0.1.8.tar.gz tmp/nycu_tdx_py-0.1.9.tar.gz --markdown 20230427/n/nycu-tdx-py/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-27 05:14:32] INFO root fetch - processPackages [foursight-cgap]: New version: [3.4.0.5b55] Old Version: [3.4.0.5b54]
+[2023-04-27 05:14:33] INFO root fetch - processPackages [mango-pycore]: Downloading https://files.pythonhosted.org/packages/85/33/60663d4b059ee789de5f68bd85b22b771a365e46cc1fec8f33c498346294/mango_pycore-0.1.4.tar.gz
+[2023-04-27 05:14:33] INFO root fetch - processPackages [alibabacloud-adcp20220101-py2]: Downloading https://files.pythonhosted.org/packages/13/3f/4240c93301da021fc74d38c854f0bcd1dce9190402235e7a047c82113040/alibabacloud_adcp20220101_py2-1.0.8.tar.gz
+[2023-04-27 05:14:33] INFO root fetch - processPackages [m-utilities]: Downloading https://files.pythonhosted.org/packages/aa/47/7a284118e5675874a80be7f53bcd82ab8dfadf71f966f8fc61be37ccdd88/m-utilities-1.0.4.tar.gz
+[2023-04-27 05:14:33] INFO root fetch - processPackages [gpt-review]: Downloading https://files.pythonhosted.org/packages/de/31/999b1106797121630fa7c965906aadc6960d338edb762d30f926eec0c3cf/gpt-review-0.0.1rc85.post1.tar.gz
+[2023-04-27 05:14:33] INFO root fetch - processPackages [utype]: Downloading https://files.pythonhosted.org/packages/2b/c6/aadbc4c0c003903e240781ff4a70276cc9a543aa86669049da2b47015fe1/utype-0.3.0.tar.gz
+[2023-04-27 05:14:33] INFO root fetch - processPackages [alibabacloud-adcp20220101]: Downloading https://files.pythonhosted.org/packages/8f/c8/f5c22630f386956e161e12b3ad0f78e0020a99f5bcb2acd303e66c8a7c69/alibabacloud_adcp20220101-1.0.8.tar.gz
+[2023-04-27 05:14:33] INFO root fetch - processPackages [foursight-cgap]: Downloading https://files.pythonhosted.org/packages/c6/4b/009c5c0cbb18c18fbc05e7649ceceba87297c57f09616121a2373764f0a7/foursight_cgap-3.4.0.5b55.tar.gz
+[2023-04-27 05:14:33] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-04-27 05:14:33] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-review-0.0.1rc82.post1.tar.gz tmp/gpt-review-0.0.1rc85.post1.tar.gz --markdown 20230427/g/gpt-review/0.0.1rc82.post1-0.0.1rc85.post1/diff.md --exclude *.pyd
+[2023-04-27 05:14:33] INFO root fetch - processPackages [alibabacloud-adcp20220101-py2]: Downloading https://files.pythonhosted.org/packages/ae/e5/619462215a3c970eb39abe26ec09f8adb76bbcd8592a429b0087d3b086a3/alibabacloud_adcp20220101_py2-1.0.9.tar.gz
+[2023-04-27 05:14:33] INFO root fetch - processPackages [foursight-cgap]: executing diffoscope
+[2023-04-27 05:14:33] INFO root fetch - processPackages [foursight-cgap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight_cgap-3.4.0.5b54.tar.gz tmp/foursight_cgap-3.4.0.5b55.tar.gz --markdown 20230427/f/foursight-cgap/3.4.0.5b54-3.4.0.5b55/diff.md --exclude *.pyd
+[2023-04-27 05:14:33] INFO root fetch - processPackages [m-utilities]: Downloading https://files.pythonhosted.org/packages/1c/cc/b06b36c5d32a8369d705d0b8c051be77973a72d0044ade9d1ac94fa8787e/m-utilities-1.0.5.tar.gz
+[2023-04-27 05:14:33] INFO root fetch - processPackages [alibabacloud-adcp20220101]: Downloading https://files.pythonhosted.org/packages/f2/51/280ed019d65606c603eea1657742822d32a9c98f4ed15ac1411f571fd0ce/alibabacloud_adcp20220101-1.0.9.tar.gz
+[2023-04-27 05:14:33] INFO root fetch - processPackages [utype]: Downloading https://files.pythonhosted.org/packages/45/a6/de0b20354f113478e2cd5daa4723ab93be674d5f3e31d833ab834fe13551/utype-0.3.1.tar.gz
+[2023-04-27 05:14:33] INFO root fetch - processPackages [mango-pycore]: Downloading https://files.pythonhosted.org/packages/21/00/82df0570560fcbeb91a37fb33c1d5b057aaecce5076c18161eb796efd2d1/mango_pycore-0.1.4a0.tar.gz
+[2023-04-27 05:14:33] INFO root fetch - processPackages [alibabacloud-adcp20220101-py2]: executing diffoscope
+[2023-04-27 05:14:33] INFO root fetch - processPackages [alibabacloud-adcp20220101-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_adcp20220101_py2-1.0.8.tar.gz tmp/alibabacloud_adcp20220101_py2-1.0.9.tar.gz --markdown 20230427/a/alibabacloud-adcp20220101-py2/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-27 05:14:33] INFO root fetch - processPackages [m-utilities]: executing diffoscope
+[2023-04-27 05:14:33] INFO root fetch - processPackages [m-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m-utilities-1.0.4.tar.gz tmp/m-utilities-1.0.5.tar.gz --markdown 20230427/m/m-utilities/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-04-27 05:14:33] INFO root fetch - processPackages [alibabacloud-adcp20220101]: executing diffoscope
+[2023-04-27 05:14:33] INFO root fetch - processPackages [alibabacloud-adcp20220101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_adcp20220101-1.0.8.tar.gz tmp/alibabacloud_adcp20220101-1.0.9.tar.gz --markdown 20230427/a/alibabacloud-adcp20220101/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-27 05:14:33] INFO root fetch - processPackages [utype]: executing diffoscope
+[2023-04-27 05:14:33] INFO root fetch - processPackages [utype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utype-0.3.0.tar.gz tmp/utype-0.3.1.tar.gz --markdown 20230427/u/utype/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-27 05:14:33] INFO root fetch - processPackages [mango-pycore]: executing diffoscope
+[2023-04-27 05:14:33] INFO root fetch - processPackages [mango-pycore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mango_pycore-0.1.4.tar.gz tmp/mango_pycore-0.1.4a0.tar.gz --markdown 20230427/m/mango-pycore/0.1.4-0.1.4a0/diff.md --exclude *.pyd
+[2023-04-27 05:14:34] INFO root fetch - processPackages [lazyearth]: Start processing: GANDLF
+[2023-04-27 05:14:34] INFO root fetch - main [MainThread]: End processing [lazyearth]: success
+[2023-04-27 05:14:34] INFO root fetch - processPackages [nycu-tdx-py]: Start processing: mango-pycore
+[2023-04-27 05:14:34] INFO root fetch - main [MainThread]: End processing [nycu-tdx-py]: success
+[2023-04-27 05:14:34] INFO root fetch - processPackages [GANDLF]: New version: [0.0.16.dev20230426] Old Version: [0.0.16.dev20230425]
+[2023-04-27 05:14:34] INFO root fetch - processPackages [mango-pycore]: New version: [0.1.4a0] Old Version: [0.1.4]
+[2023-04-27 05:14:34] INFO root fetch - processPackages [GANDLF]: executing diffoscope
+[2023-04-27 05:14:34] INFO root fetch - processPackages [GANDLF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GANDLF-0.0.16.dev20230425.tar.gz tmp/GANDLF-0.0.16.dev20230426.tar.gz --markdown 20230427/G/GANDLF/0.0.16.dev20230425-0.0.16.dev20230426/diff.md --exclude *.pyd
+[2023-04-27 05:14:34] INFO root fetch - processPackages [mango-pycore]: executing diffoscope
+[2023-04-27 05:14:34] INFO root fetch - processPackages [mango-pycore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mango_pycore-0.1.4.tar.gz tmp/mango_pycore-0.1.4a0.tar.gz --markdown 20230427/m/mango-pycore/0.1.4-0.1.4a0/diff.md --exclude *.pyd
+[2023-04-27 05:14:34] INFO root fetch - processPackages [foursight]: Start processing: nycu-tdx-py
+[2023-04-27 05:14:34] INFO root fetch - main [MainThread]: End processing [foursight]: success
+[2023-04-27 05:14:34] INFO root fetch - processPackages [nycu-tdx-py]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-27 05:14:34] INFO root fetch - processPackages [nycu-tdx-py]: executing diffoscope
+[2023-04-27 05:14:34] INFO root fetch - processPackages [nycu-tdx-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nycu_tdx_py-0.1.8.tar.gz tmp/nycu_tdx_py-0.1.9.tar.gz --markdown 20230427/n/nycu-tdx-py/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-27 05:14:34] INFO root fetch - processPackages [gpt-review]: Start processing: odoo-addon-agreement
+[2023-04-27 05:14:34] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-04-27 05:14:34] INFO root fetch - processPackages [odoo-addon-agreement]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2023-04-27 05:14:35] INFO root fetch - main [MainThread]: End processing [m-utilities]: success
+[2023-04-27 05:14:35] INFO root fetch - processPackages [odoo-addon-agreement]: Downloading https://files.pythonhosted.org/packages/cb/37/b63a15c268d7a662c5563ce32b9665633eb248ac4c7f646b95d097bd2efd/odoo_addon_agreement-16.0.1.0.0.3-py3-none-any.whl
+[2023-04-27 05:14:35] INFO root fetch - main [MainThread]: End processing [mango-pycore]: success
+[2023-04-27 05:14:35] INFO root fetch - main [MainThread]: End processing [alibabacloud-adcp20220101]: success
+[2023-04-27 05:14:35] INFO root fetch - processPackages [odoo-addon-agreement]: Downloading https://files.pythonhosted.org/packages/a6/eb/28518850a6b025dc429a696ae0ee51c4299b7a27f86bd416257c9b36b817/odoo_addon_agreement-16.0.1.0.0.4-py3-none-any.whl
+[2023-04-27 05:14:35] INFO root fetch - main [MainThread]: End processing [alibabacloud-adcp20220101-py2]: success
+[2023-04-27 05:14:35] INFO root fetch - processPackages [odoo-addon-agreement]: executing diffoscope
+[2023-04-27 05:14:35] INFO root fetch - processPackages [odoo-addon-agreement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_agreement-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_agreement-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230427/o/odoo-addon-agreement/16.0.1.0.0.3-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-04-27 05:14:35] INFO root fetch - main [MainThread]: End processing [mango-pycore]: success
+[2023-04-27 05:14:35] INFO root fetch - main [MainThread]: End processing [foursight-cgap]: success
+[2023-04-27 05:14:35] INFO root fetch - main [MainThread]: End processing [nycu-tdx-py]: success
+[2023-04-27 05:14:36] INFO root fetch - main [MainThread]: End processing [utype]: success
+[2023-04-27 05:14:36] INFO root fetch - main [MainThread]: End processing [GANDLF]: success
+[2023-04-27 05:14:36] INFO root fetch - main [MainThread]: End processing [odoo-addon-agreement]: success
+[2023-04-27 05:14:36] INFO root fetch - main [MainThread]: Store serial: [17877065]
