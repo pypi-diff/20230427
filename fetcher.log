@@ -13442,3 +13442,128 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 10:55:28] INFO root fetch - main [MainThread]: End processing [synthcity]: success
 [2023-04-27 10:55:40] INFO root fetch - main [MainThread]: End processing [vessel-manoeuvring-models]: success
 [2023-04-27 10:55:40] INFO root fetch - main [MainThread]: Store serial: [17879875]
+[2023-04-27 11:00:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17879875]
+[2023-04-27 11:00:57] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-04-27 11:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: inspursmsdk
+[2023-04-27 11:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: assisted-service-client
+[2023-04-27 11:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-cas-nge
+[2023-04-27 11:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pubtools-ami
+[2023-04-27 11:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: terraform-local
+[2023-04-27 11:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eeg-blinks
+[2023-04-27 11:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: oreoRS
+[2023-04-27 11:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: papai-public
+[2023-04-27 11:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: robotmk
+[2023-04-27 11:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: attini-cdk-lib
+[2023-04-27 11:00:57] INFO root fetch - processPackages [inspursmsdk]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-04-27 11:00:57] INFO root fetch - processPackages [attini-cdk-lib]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-04-27 11:00:57] INFO root fetch - processPackages [eeg-blinks]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-27 11:00:57] INFO root fetch - processPackages [django-cas-nge]: New version: [4.3.3] Old Version: [4.3.2]
+[2023-04-27 11:00:57] INFO root fetch - processPackages [robotmk]: New version: [0.0.57] Old Version: [0.0.56]
+[2023-04-27 11:00:57] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2023-04-27 11:00:57] WARNING root fetch - processPackages [oreoRS]: Skipping, unable to determine old version
+[2023-04-27 11:00:57] INFO root fetch - processPackages [oreoRS]: Start processing: inmanta-module-graph
+[2023-04-27 11:00:57] INFO root fetch - main [MainThread]: End processing [oreoRS] error
+[2023-04-27 11:00:57] INFO root fetch - processPackages [inmanta-module-graph]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-04-27 11:00:57] INFO root fetch - processPackages [terraform-local]: New version: [0.8] Old Version: [0.7]
+[2023-04-27 11:00:57] INFO root fetch - processPackages [pubtools-ami]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-04-27 11:00:57] INFO root fetch - processPackages [papai-public]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-27 11:00:57] INFO root fetch - processPackages [robotmk]: executing diffoscope
+[2023-04-27 11:00:57] INFO root fetch - processPackages [robotmk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotmk-0.0.56.tar.gz tmp/robotmk-0.0.57.tar.gz --markdown 20230427/r/robotmk/0.0.56-0.0.57/diff.md --exclude *.pyd
+[2023-04-27 11:00:57] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2023-04-27 11:00:57] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20230427/a/assisted-service-client/2.9.0.post8-2.9.0.post9/diff.md --exclude *.pyd
+[2023-04-27 11:00:57] INFO root fetch - processPackages [attini-cdk-lib]: Downloading https://files.pythonhosted.org/packages/70/b7/956df917944f2724324b8fcc7974730b686e90318521f36d5b3e27508de6/attini-cdk-lib-1.4.0.tar.gz
+[2023-04-27 11:00:57] INFO root fetch - processPackages [inspursmsdk]: Downloading https://files.pythonhosted.org/packages/84/ad/ec3c0c10d67f10f3afeabd3461d3e28b17b1f5969190e985915e935b8b84/inspursmsdk-2.0.3.tar.gz
+[2023-04-27 11:00:57] INFO root fetch - processPackages [django-cas-nge]: Downloading https://files.pythonhosted.org/packages/51/66/3922850b5727f92692dc77bcd5e6d735ebbe52a0ae7dccebad945a88ca2c/django-cas-nge-4.3.2.tar.gz
+[2023-04-27 11:00:57] INFO root fetch - processPackages [eeg-blinks]: Downloading https://files.pythonhosted.org/packages/12/a5/7b75aa784c92fd036c2cbbc30da11112f8196cd7dd6f33adae6b70ed69e6/eeg_blinks-0.0.2.tar.gz
+[2023-04-27 11:00:57] INFO root fetch - processPackages [papai-public]: Downloading https://files.pythonhosted.org/packages/5a/84/48e53822ea14a6fe4e40bcf3a8a9bdecdaee70d147423810f6cc5a2d7c40/papai_public-0.1.8.tar.gz
+[2023-04-27 11:00:57] INFO root fetch - processPackages [terraform-local]: Downloading https://files.pythonhosted.org/packages/8a/d6/6c91f2cf0d11b5b2c17fa68c067abf5536ef205d1a12a9e763b29a641d95/terraform-local-0.7.tar.gz
+[2023-04-27 11:00:57] INFO root fetch - processPackages [inmanta-module-graph]: Downloading https://files.pythonhosted.org/packages/90/48/2910908ce3352efc434821fd200e26321ca51a26726ebbdf49ebe9362645/inmanta_module_graph-0.8.8-py3-none-any.whl
+[2023-04-27 11:00:57] INFO root fetch - processPackages [pubtools-ami]: Downloading https://files.pythonhosted.org/packages/26/68/ae6cae7c76d1f3a0663796db522f6a6cf3eb74c1a989ea8a3aaa4df02b74/pubtools-ami-2.1.0.tar.gz
+[2023-04-27 11:00:57] INFO root fetch - processPackages [django-cas-nge]: Downloading https://files.pythonhosted.org/packages/e9/1e/a393a92568250a7990463e69ba59e3555d316dc673dd146ef1d3e09184cb/django-cas-nge-4.3.3.tar.gz
+[2023-04-27 11:00:57] INFO root fetch - processPackages [django-cas-nge]: executing diffoscope
+[2023-04-27 11:00:57] INFO root fetch - processPackages [django-cas-nge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-cas-nge-4.3.2.tar.gz tmp/django-cas-nge-4.3.3.tar.gz --markdown 20230427/d/django-cas-nge/4.3.2-4.3.3/diff.md --exclude *.pyd
+[2023-04-27 11:00:57] INFO root fetch - processPackages [terraform-local]: Downloading https://files.pythonhosted.org/packages/fa/bc/63a01fb109c29d5fab39a0db4dfd5622d97a2e11a07fd2da327617361df2/terraform-local-0.8.tar.gz
+[2023-04-27 11:00:57] INFO root fetch - processPackages [eeg-blinks]: Downloading https://files.pythonhosted.org/packages/cb/8f/1dd94bb530578089cfcc0a059133a6fa5323979c1e71c04cdc144c638718/eeg_blinks-0.0.3.tar.gz
+[2023-04-27 11:00:57] INFO root fetch - processPackages [inspursmsdk]: Downloading https://files.pythonhosted.org/packages/5a/4b/0fbb78a6d0f8c5ed2356e42f05c2f0d615057988f6c7fef5b1458ae8c8b7/inspursmsdk-2.0.4.tar.gz
+[2023-04-27 11:00:57] INFO root fetch - processPackages [attini-cdk-lib]: Downloading https://files.pythonhosted.org/packages/89/f9/e423739d1a5d4349d25540f8fdc2af1ae9b3eb27e4a33ea2c92efde307df/attini-cdk-lib-1.4.1.tar.gz
+[2023-04-27 11:00:57] INFO root fetch - processPackages [papai-public]: Downloading https://files.pythonhosted.org/packages/4e/f7/c9bb913e36d52ab5d8eee37298bcd3a1084168ccf9ed2eafbebc9439ba08/papai_public-0.1.9.tar.gz
+[2023-04-27 11:00:57] INFO root fetch - processPackages [attini-cdk-lib]: executing diffoscope
+[2023-04-27 11:00:57] INFO root fetch - processPackages [attini-cdk-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/attini-cdk-lib-1.4.0.tar.gz tmp/attini-cdk-lib-1.4.1.tar.gz --markdown 20230427/a/attini-cdk-lib/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-04-27 11:00:57] INFO root fetch - processPackages [terraform-local]: executing diffoscope
+[2023-04-27 11:00:57] INFO root fetch - processPackages [terraform-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terraform-local-0.7.tar.gz tmp/terraform-local-0.8.tar.gz --markdown 20230427/t/terraform-local/0.7-0.8/diff.md --exclude *.pyd
+[2023-04-27 11:00:57] INFO root fetch - processPackages [inmanta-module-graph]: Downloading https://files.pythonhosted.org/packages/49/20/79a6846577669055ea20cb626c91379b3f5a07155c6f0f327ec86b00b00a/inmanta_module_graph-0.8.9-py3-none-any.whl
+[2023-04-27 11:00:57] INFO root fetch - processPackages [eeg-blinks]: executing diffoscope
+[2023-04-27 11:00:57] INFO root fetch - processPackages [eeg-blinks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eeg_blinks-0.0.2.tar.gz tmp/eeg_blinks-0.0.3.tar.gz --markdown 20230427/e/eeg-blinks/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-27 11:00:57] INFO root fetch - processPackages [inspursmsdk]: executing diffoscope
+[2023-04-27 11:00:57] INFO root fetch - processPackages [inspursmsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inspursmsdk-2.0.3.tar.gz tmp/inspursmsdk-2.0.4.tar.gz --markdown 20230427/i/inspursmsdk/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-04-27 11:00:57] INFO root fetch - processPackages [pubtools-ami]: Downloading https://files.pythonhosted.org/packages/87/a0/81b70112b4dc3740e1816078ceaba1c9dc23995c9fce767071a90456d70b/pubtools-ami-2.2.0.tar.gz
+[2023-04-27 11:00:57] INFO root fetch - processPackages [papai-public]: executing diffoscope
+[2023-04-27 11:00:57] INFO root fetch - processPackages [papai-public]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/papai_public-0.1.8.tar.gz tmp/papai_public-0.1.9.tar.gz --markdown 20230427/p/papai-public/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-27 11:00:58] INFO root fetch - processPackages [inmanta-module-graph]: executing diffoscope
+[2023-04-27 11:00:58] INFO root fetch - processPackages [inmanta-module-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inmanta_module_graph-0.8.8-py3-none-any.whl.zip tmp/inmanta_module_graph-0.8.9-py3-none-any.whl.zip --markdown 20230427/i/inmanta-module-graph/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-04-27 11:00:58] INFO root fetch - processPackages [pubtools-ami]: executing diffoscope
+[2023-04-27 11:00:58] INFO root fetch - processPackages [pubtools-ami]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pubtools-ami-2.1.0.tar.gz tmp/pubtools-ami-2.2.0.tar.gz --markdown 20230427/p/pubtools-ami/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-04-27 11:00:59] INFO root fetch - processPackages [terraform-local]: Start processing: starknet-devnet
+[2023-04-27 11:00:59] INFO root fetch - main [MainThread]: End processing [terraform-local]: success
+[2023-04-27 11:00:59] INFO root fetch - processPackages [django-cas-nge]: Start processing: djangorestframework-ext
+[2023-04-27 11:00:59] INFO root fetch - main [MainThread]: End processing [django-cas-nge]: success
+[2023-04-27 11:00:59] INFO root fetch - processPackages [djangorestframework-ext]: New version: [0.9] Old Version: [0.8]
+[2023-04-27 11:00:59] INFO root fetch - processPackages [papai-public]: Start processing: kidash
+[2023-04-27 11:00:59] INFO root fetch - main [MainThread]: End processing [papai-public]: success
+[2023-04-27 11:00:59] INFO root fetch - processPackages [starknet-devnet]: New version: [0.5.1] Old Version: [0.5.0a2]
+[2023-04-27 11:00:59] INFO root fetch - processPackages [inmanta-module-graph]: Start processing: gs-peer-connection
+[2023-04-27 11:00:59] INFO root fetch - main [MainThread]: End processing [inmanta-module-graph]: success
+[2023-04-27 11:00:59] INFO root fetch - processPackages [attini-cdk-lib]: Start processing: code-eval-score
+[2023-04-27 11:00:59] INFO root fetch - main [MainThread]: End processing [attini-cdk-lib]: success
+[2023-04-27 11:00:59] INFO root fetch - processPackages [kidash]: New version: [0.5.5] Old Version: [0.5.4rc1]
+[2023-04-27 11:00:59] INFO root fetch - processPackages [robotmk]: Start processing: extr
+[2023-04-27 11:00:59] INFO root fetch - main [MainThread]: End processing [robotmk]: success
+[2023-04-27 11:00:59] INFO root fetch - processPackages [djangorestframework-ext]: Downloading https://files.pythonhosted.org/packages/d6/be/76ec8844c998542b4bdda0eaf61bc3babcd7c9909cfabfb92ad236e7d7fe/djangorestframework-ext-0.8.tar.gz
+[2023-04-27 11:00:59] INFO root fetch - processPackages [eeg-blinks]: Start processing: deepdriver
+[2023-04-27 11:00:59] INFO root fetch - main [MainThread]: End processing [eeg-blinks]: success
+[2023-04-27 11:00:59] INFO root fetch - processPackages [code-eval-score]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-27 11:00:59] INFO root fetch - processPackages [deepdriver]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-04-27 11:00:59] INFO root fetch - processPackages [gs-peer-connection]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 11:00:59] INFO root fetch - processPackages [starknet-devnet]: Downloading https://files.pythonhosted.org/packages/ce/ed/6def4b157cf722d5b9a888a2323157fab3c17d4fff90557b30e63c90b9e0/starknet_devnet-0.5.0a2.tar.gz
+[2023-04-27 11:00:59] INFO root fetch - processPackages [extr]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 11:00:59] INFO root fetch - processPackages [kidash]: Downloading https://files.pythonhosted.org/packages/b8/25/9058c2943cadf89d60b9af13311152d0c4418f2e97042d226b5d19e1e418/kidash-0.5.4rc1.tar.gz
+[2023-04-27 11:00:59] INFO root fetch - processPackages [deepdriver]: executing diffoscope
+[2023-04-27 11:00:59] INFO root fetch - processPackages [deepdriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepdriver-0.9.4.tar.gz tmp/deepdriver-0.9.5.tar.gz --markdown 20230427/d/deepdriver/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-04-27 11:00:59] INFO root fetch - processPackages [extr]: executing diffoscope
+[2023-04-27 11:00:59] INFO root fetch - processPackages [extr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extr-0.0.8.tar.gz tmp/extr-0.0.9.tar.gz --markdown 20230427/e/extr/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 11:00:59] INFO root fetch - processPackages [code-eval-score]: Downloading https://files.pythonhosted.org/packages/8b/2e/00515a7163e8adfe09e9dda30114fbc1aef83f56ef4c7cc07b7c45600849/code_eval_score-0.1.0.tar.gz
+[2023-04-27 11:00:59] INFO root fetch - processPackages [gs-peer-connection]: Downloading https://files.pythonhosted.org/packages/2b/f2/2fad48c1e8beffe0dcfbe560081f9686682cf52ef15bd8c1ca2f4ef6b33a/gs-peer-connection-0.0.8.tar.gz
+[2023-04-27 11:00:59] INFO root fetch - processPackages [djangorestframework-ext]: Downloading https://files.pythonhosted.org/packages/68/7f/a0089289d4ec8908e1a1eb790688de9d770b056bc9785f48187b30f6178b/djangorestframework-ext-0.9.tar.gz
+[2023-04-27 11:00:59] INFO root fetch - processPackages [starknet-devnet]: Downloading https://files.pythonhosted.org/packages/d7/ce/fc2bb40c0cd8b974876edcb26dba65b9b177e892033e6043e6018af6d2b4/starknet_devnet-0.5.1.tar.gz
+[2023-04-27 11:00:59] INFO root fetch - processPackages [pubtools-ami]: Start processing: sar-handler
+[2023-04-27 11:00:59] INFO root fetch - main [MainThread]: End processing [pubtools-ami]: success
+[2023-04-27 11:00:59] INFO root fetch - processPackages [kidash]: Downloading https://files.pythonhosted.org/packages/df/39/1d6b0194b838acd8e8741094f99691faca5c2b51af2311229f563d82522f/kidash-0.5.5.tar.gz
+[2023-04-27 11:00:59] INFO root fetch - processPackages [code-eval-score]: Downloading https://files.pythonhosted.org/packages/cd/2e/8d6524fdfcad45f9976c5677c4dc44e6a6e3dd390df53086923e5c7958df/code_eval_score-0.2.0.tar.gz
+[2023-04-27 11:01:00] INFO root fetch - processPackages [djangorestframework-ext]: executing diffoscope
+[2023-04-27 11:01:00] INFO root fetch - processPackages [djangorestframework-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangorestframework-ext-0.8.tar.gz tmp/djangorestframework-ext-0.9.tar.gz --markdown 20230427/d/djangorestframework-ext/0.8-0.9/diff.md --exclude *.pyd
+[2023-04-27 11:01:00] WARNING root fetch - processPackages [sar-handler]: Skipping, unable to determine old version
+[2023-04-27 11:01:00] INFO root fetch - processPackages [sar-handler]: Start processing: recon-lw
+[2023-04-27 11:01:00] INFO root fetch - main [MainThread]: End processing [sar-handler] error
+[2023-04-27 11:01:00] INFO root fetch - processPackages [starknet-devnet]: executing diffoscope
+[2023-04-27 11:01:00] INFO root fetch - processPackages [starknet-devnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starknet_devnet-0.5.0a2.tar.gz tmp/starknet_devnet-0.5.1.tar.gz --markdown 20230427/s/starknet-devnet/0.5.0a2-0.5.1/diff.md --exclude *.pyd
+[2023-04-27 11:01:00] INFO root fetch - processPackages [recon-lw]: New version: [2.0.0.dev4816988331] Old Version: [2.0.0.dev4808598137]
+[2023-04-27 11:01:00] INFO root fetch - processPackages [kidash]: executing diffoscope
+[2023-04-27 11:01:00] INFO root fetch - processPackages [kidash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kidash-0.5.4rc1.tar.gz tmp/kidash-0.5.5.tar.gz --markdown 20230427/k/kidash/0.5.4rc1-0.5.5/diff.md --exclude *.pyd
+[2023-04-27 11:01:00] INFO root fetch - processPackages [code-eval-score]: executing diffoscope
+[2023-04-27 11:01:00] INFO root fetch - processPackages [code-eval-score]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/code_eval_score-0.1.0.tar.gz tmp/code_eval_score-0.2.0.tar.gz --markdown 20230427/c/code-eval-score/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-04-27 11:01:00] INFO root fetch - processPackages [gs-peer-connection]: Downloading https://files.pythonhosted.org/packages/e9/3a/a4f33a77bfb1c126891781631ab489faaa57e9730c21f81fa0ce8178474e/gs-peer-connection-0.0.9.tar.gz
+[2023-04-27 11:01:00] INFO root fetch - processPackages [recon-lw]: executing diffoscope
+[2023-04-27 11:01:00] INFO root fetch - processPackages [recon-lw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recon_lw-2.0.0.dev4808598137.tar.gz tmp/recon_lw-2.0.0.dev4816988331.tar.gz --markdown 20230427/r/recon-lw/2.0.0.dev4808598137-2.0.0.dev4816988331/diff.md --exclude *.pyd
+[2023-04-27 11:01:00] INFO root fetch - processPackages [gs-peer-connection]: executing diffoscope
+[2023-04-27 11:01:00] INFO root fetch - processPackages [gs-peer-connection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs-peer-connection-0.0.8.tar.gz tmp/gs-peer-connection-0.0.9.tar.gz --markdown 20230427/g/gs-peer-connection/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 11:01:00] INFO root fetch - main [MainThread]: End processing [extr]: success
+[2023-04-27 11:01:01] INFO root fetch - main [MainThread]: End processing [code-eval-score]: success
+[2023-04-27 11:01:01] INFO root fetch - main [MainThread]: End processing [recon-lw]: success
+[2023-04-27 11:01:01] INFO root fetch - main [MainThread]: End processing [kidash]: success
+[2023-04-27 11:01:01] INFO root fetch - main [MainThread]: End processing [djangorestframework-ext]: success
+[2023-04-27 11:01:01] INFO root fetch - main [MainThread]: End processing [gs-peer-connection]: success
+[2023-04-27 11:01:01] INFO root fetch - main [MainThread]: End processing [starknet-devnet]: success
+[2023-04-27 11:01:01] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2023-04-27 11:01:01] INFO root fetch - main [MainThread]: End processing [deepdriver]: success
+[2023-04-27 11:01:03] INFO root fetch - main [MainThread]: End processing [inspursmsdk]: success
+[2023-04-27 11:01:03] INFO root fetch - main [MainThread]: Store serial: [17879953]
