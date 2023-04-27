@@ -7527,3 +7527,66 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 03:30:47] INFO root fetch - main [MainThread]: End processing [cdk-wordpress]: success
 [2023-04-27 03:30:47] INFO root fetch - main [MainThread]: End processing [metal-sdk]: success
 [2023-04-27 03:30:47] INFO root fetch - main [MainThread]: Store serial: [17875997]
+[2023-04-27 03:35:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17875997]
+[2023-04-27 03:35:57] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-27 03:35:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: har2jicase
+[2023-04-27 03:35:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: e2eAIOK
+[2023-04-27 03:35:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: e2eAIOK-sda
+[2023-04-27 03:35:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: e2eAIOK-denas
+[2023-04-27 03:35:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ezfinpy
+[2023-04-27 03:35:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: e2eAIOK-ModelAdapter
+[2023-04-27 03:35:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nbdev-stdlib
+[2023-04-27 03:35:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vector2dggs
+[2023-04-27 03:35:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: visionai
+[2023-04-27 03:35:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nbdev-numpy
+[2023-04-27 03:35:57] INFO root fetch - processPackages [har2jicase]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-27 03:35:57] INFO root fetch - processPackages [e2eAIOK]: New version: [1.0.1b2023042701] Old Version: [1.0.1b2023042500]
+[2023-04-27 03:35:57] INFO root fetch - processPackages [visionai]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-04-27 03:35:57] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-27 03:35:57] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-27 03:35:57] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-04-27 03:35:57] INFO root fetch - processPackages [e2eAIOK-denas]: New version: [1.0.1b2023042701] Old Version: [1.0.1b2023042500]
+[2023-04-27 03:35:57] INFO root fetch - processPackages [e2eAIOK-sda]: New version: [1.0.1b2023042701] Old Version: [1.0.1b2023042500]
+[2023-04-27 03:35:57] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/e8/48/ed43dbfa0bd5ca86a6a3f6ae0500b0cffb413b2c3f118e82da24ef3488f1/nbdev-stdlib-0.0.98.tar.gz
+[2023-04-27 03:35:57] WARNING root fetch - processPackages [ezfinpy]: Skipping, unable to determine old version
+[2023-04-27 03:35:57] INFO root fetch - main [MainThread]: End processing [ezfinpy] error
+[2023-04-27 03:35:57] INFO root fetch - processPackages [e2eAIOK-ModelAdapter]: New version: [1.0.1b2023042701] Old Version: [1.0.1b2023042500]
+[2023-04-27 03:35:57] INFO root fetch - processPackages [vector2dggs]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-27 03:35:57] INFO root fetch - processPackages [visionai]: executing diffoscope
+[2023-04-27 03:35:57] INFO root fetch - processPackages [visionai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visionai-0.3.2.tar.gz tmp/visionai-0.3.3.tar.gz --markdown 20230427/v/visionai/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-04-27 03:35:58] INFO root fetch - processPackages [har2jicase]: Downloading https://files.pythonhosted.org/packages/63/f2/ad4dda8337ef4935fd6a3bc0b491333972cf17756ce7fad8f93b2206e5a9/har2jicase-0.1.8.tar.gz
+[2023-04-27 03:35:58] INFO root fetch - processPackages [vector2dggs]: Downloading https://files.pythonhosted.org/packages/0f/92/3b032937ccb4ca0ff6f7f99a0bec8cface6b8b715a856f90ce53616d3d98/vector2dggs-0.1.0.tar.gz
+[2023-04-27 03:35:58] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/9b/0f/42944508859f820e43bf894814c5e9dbc7920a0caceef1828a31a9e5b599/nbdev-stdlib-0.0.99.tar.gz
+[2023-04-27 03:35:58] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-04-27 03:35:58] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-04-27 03:35:58] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230427/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-27 03:35:58] INFO root fetch - processPackages [har2jicase]: Downloading https://files.pythonhosted.org/packages/2f/05/4306245755546818df795f69228b6406f7b25f97575660094fde47a16a86/har2jicase-0.1.9.tar.gz
+[2023-04-27 03:35:58] INFO root fetch - processPackages [e2eAIOK-sda]: Downloading https://files.pythonhosted.org/packages/8f/b4/f39ad824ff7987a73be58813a0c6ee85fef3ffa6b1a4f6cdee0c51bfd987/e2eAIOK_sda-1.0.1b2023042701-py3-none-any.whl
+[2023-04-27 03:35:58] INFO root fetch - processPackages [e2eAIOK-denas]: Downloading https://files.pythonhosted.org/packages/7a/f9/afc062e66019009a0d24069e59b171886f48f08d843786ae0f071f888707/e2eAIOK_denas-1.0.1b2023042701-py3-none-any.whl
+[2023-04-27 03:35:58] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-04-27 03:35:58] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230427/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-27 03:35:58] INFO root fetch - processPackages [vector2dggs]: Downloading https://files.pythonhosted.org/packages/b5/65/2defe28ff46599cfad2d5c2292e14fc22e71604c05c030c3f140cd155d58/vector2dggs-0.2.0.tar.gz
+[2023-04-27 03:35:58] INFO root fetch - processPackages [e2eAIOK-ModelAdapter]: Downloading https://files.pythonhosted.org/packages/fe/37/95c703ff3297da9c726b69a2f7aa74fe2213986a26ecd1e5ae17bd6cbe6a/e2eAIOK-ModelAdapter-1.0.1b2023042701.tar.gz
+[2023-04-27 03:35:58] INFO root fetch - processPackages [har2jicase]: executing diffoscope
+[2023-04-27 03:35:58] INFO root fetch - processPackages [har2jicase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/har2jicase-0.1.8.tar.gz tmp/har2jicase-0.1.9.tar.gz --markdown 20230427/h/har2jicase/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-27 03:35:58] INFO root fetch - processPackages [e2eAIOK]: Downloading https://files.pythonhosted.org/packages/cc/60/bd3574fab52280cf13c0639da588c3fe21a4d460877959749e83646e9d7b/e2eAIOK-1.0.1b2023042701.tar.gz
+[2023-04-27 03:35:58] INFO root fetch - processPackages [e2eAIOK-sda]: executing diffoscope
+[2023-04-27 03:35:58] INFO root fetch - processPackages [e2eAIOK-sda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e2eAIOK_sda-1.0.1b2023042500-py3-none-any.whl.zip tmp/e2eAIOK_sda-1.0.1b2023042701-py3-none-any.whl.zip --markdown 20230427/e/e2eAIOK-sda/1.0.1b2023042500-1.0.1b2023042701/diff.md --exclude *.pyd
+[2023-04-27 03:35:58] INFO root fetch - processPackages [e2eAIOK-denas]: executing diffoscope
+[2023-04-27 03:35:58] INFO root fetch - processPackages [e2eAIOK-denas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e2eAIOK_denas-1.0.1b2023042500-py3-none-any.whl.zip tmp/e2eAIOK_denas-1.0.1b2023042701-py3-none-any.whl.zip --markdown 20230427/e/e2eAIOK-denas/1.0.1b2023042500-1.0.1b2023042701/diff.md --exclude *.pyd
+[2023-04-27 03:35:58] INFO root fetch - processPackages [vector2dggs]: executing diffoscope
+[2023-04-27 03:35:58] INFO root fetch - processPackages [vector2dggs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vector2dggs-0.1.0.tar.gz tmp/vector2dggs-0.2.0.tar.gz --markdown 20230427/v/vector2dggs/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-04-27 03:35:58] INFO root fetch - processPackages [e2eAIOK-ModelAdapter]: executing diffoscope
+[2023-04-27 03:35:58] INFO root fetch - processPackages [e2eAIOK-ModelAdapter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e2eAIOK-ModelAdapter-1.0.1b2023042500.tar.gz tmp/e2eAIOK-ModelAdapter-1.0.1b2023042701.tar.gz --markdown 20230427/e/e2eAIOK-ModelAdapter/1.0.1b2023042500-1.0.1b2023042701/diff.md --exclude *.pyd
+[2023-04-27 03:35:58] INFO root fetch - processPackages [e2eAIOK]: executing diffoscope
+[2023-04-27 03:35:58] INFO root fetch - processPackages [e2eAIOK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e2eAIOK-1.0.1b2023042500.tar.gz tmp/e2eAIOK-1.0.1b2023042701.tar.gz --markdown 20230427/e/e2eAIOK/1.0.1b2023042500-1.0.1b2023042701/diff.md --exclude *.pyd
+[2023-04-27 03:35:59] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-04-27 03:35:59] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-04-27 03:35:59] INFO root fetch - main [MainThread]: End processing [har2jicase]: success
+[2023-04-27 03:35:59] INFO root fetch - main [MainThread]: End processing [vector2dggs]: success
+[2023-04-27 03:36:00] INFO root fetch - main [MainThread]: End processing [e2eAIOK-sda]: success
+[2023-04-27 03:36:00] INFO root fetch - main [MainThread]: End processing [e2eAIOK-ModelAdapter]: success
+[2023-04-27 03:36:00] INFO root fetch - main [MainThread]: End processing [e2eAIOK-denas]: success
+[2023-04-27 03:36:00] INFO root fetch - main [MainThread]: End processing [e2eAIOK]: success
+[2023-04-27 03:36:01] INFO root fetch - main [MainThread]: End processing [visionai]: success
+[2023-04-27 03:36:01] INFO root fetch - main [MainThread]: Store serial: [17876260]
