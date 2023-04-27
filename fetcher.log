@@ -3280,3 +3280,48 @@
 [2023-04-27 02:01:07] INFO root fetch - processPackages [koai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/koai-1.0.8.6-cp38-cp38-macosx_13_0_arm64.whl.zip tmp/koai-1.0.8.7-cp38-cp38-macosx_13_0_arm64.whl.zip --markdown 20230427/k/koai/1.0.8.6-1.0.8.7/diff.md --exclude *.pyd
 [2023-04-27 02:01:08] INFO root fetch - main [MainThread]: End processing [koai]: success
 [2023-04-27 02:01:08] INFO root fetch - main [MainThread]: Store serial: [17873741]
+[2023-04-27 02:06:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17873741]
+[2023-04-27 02:06:17] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-27 02:06:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mb-pytorch
+[2023-04-27 02:06:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: moto
+[2023-04-27 02:06:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lancedb
+[2023-04-27 02:06:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tap-krow
+[2023-04-27 02:06:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torchdatasets-nightly
+[2023-04-27 02:06:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mct-nightly
+[2023-04-27 02:06:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gtfs-kit
+[2023-04-27 02:06:17] INFO root fetch - processPackages [lancedb]: New version: [0.1.1] Old Version: [0.1]
+[2023-04-27 02:06:17] INFO root fetch - processPackages [tap-krow]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-04-27 02:06:17] INFO root fetch - processPackages [mb-pytorch]: New version: [1.0.202304270000] Old Version: [1.0.202304262346]
+[2023-04-27 02:06:17] INFO root fetch - processPackages [torchdatasets-nightly]: New version: [1682467392] Old Version: [1682380984]
+[2023-04-27 02:06:17] INFO root fetch - processPackages [mct-nightly]: New version: [1.8.0.9042023.post411] Old Version: [1.8.0.9032023.post431]
+[2023-04-27 02:06:17] INFO root fetch - processPackages [gtfs-kit]: New version: [5.2.5] Old Version: [5.2.3]
+[2023-04-27 02:06:17] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-04-27 02:06:17] INFO root fetch - processPackages [tap-krow]: Downloading https://files.pythonhosted.org/packages/0e/b2/6566331b3cc84c39623d8eb264b25c290da89dc21e1897ec4c7fa6ab8397/tap_krow-0.7.0.tar.gz
+[2023-04-27 02:06:17] INFO root fetch - processPackages [lancedb]: Downloading https://files.pythonhosted.org/packages/05/7d/653e3329839ed795bbf35faac3d2c00fbd0d71915f17b76827654239a946/lancedb-0.1.tar.gz
+[2023-04-27 02:06:17] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2023-04-27 02:06:17] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-1.8.0.9032023.post431.tar.gz tmp/mct-nightly-1.8.0.9042023.post411.tar.gz --markdown 20230427/m/mct-nightly/1.8.0.9032023.post431-1.8.0.9042023.post411/diff.md --exclude *.pyd
+[2023-04-27 02:06:17] INFO root fetch - processPackages [torchdatasets-nightly]: executing diffoscope
+[2023-04-27 02:06:17] INFO root fetch - processPackages [torchdatasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchdatasets-nightly-1682380984.tar.gz tmp/torchdatasets-nightly-1682467392.tar.gz --markdown 20230427/t/torchdatasets-nightly/1682380984-1682467392/diff.md --exclude *.pyd
+[2023-04-27 02:06:17] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-04-27 02:06:17] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230427/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-04-27 02:06:17] INFO root fetch - processPackages [gtfs-kit]: Downloading https://files.pythonhosted.org/packages/a8/31/9d703da99e6d10d2eb93fb389fcbb4496d54291302ec2960b901a9ac79ce/gtfs_kit-5.2.3.tar.gz
+[2023-04-27 02:06:17] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/6d/f2/34c2a893820e81aa4c2b93ff9ce7f6d30dafdc29f7056d0c95305b5849fd/mb_pytorch-1.0.202304270000-py3-none-any.whl
+[2023-04-27 02:06:17] INFO root fetch - processPackages [mb-pytorch]: executing diffoscope
+[2023-04-27 02:06:17] INFO root fetch - processPackages [mb-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_pytorch-1.0.202304262346-py3-none-any.whl.zip tmp/mb_pytorch-1.0.202304270000-py3-none-any.whl.zip --markdown 20230427/m/mb-pytorch/1.0.202304262346-1.0.202304270000/diff.md --exclude *.pyd
+[2023-04-27 02:06:17] INFO root fetch - processPackages [tap-krow]: Downloading https://files.pythonhosted.org/packages/60/d3/8593fd6a8342d43dbeffd66a3989ce0bdd83c685ea7d9618defcc2b9e289/tap_krow-0.8.0.tar.gz
+[2023-04-27 02:06:17] INFO root fetch - processPackages [lancedb]: Downloading https://files.pythonhosted.org/packages/bb/c9/e1eb2c88fda973e5fa7ca22eaded6e61d3d93570b741ce5023131b985f2e/lancedb-0.1.1.tar.gz
+[2023-04-27 02:06:17] INFO root fetch - processPackages [lancedb]: executing diffoscope
+[2023-04-27 02:06:17] INFO root fetch - processPackages [lancedb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lancedb-0.1.tar.gz tmp/lancedb-0.1.1.tar.gz --markdown 20230427/l/lancedb/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-04-27 02:06:17] INFO root fetch - processPackages [tap-krow]: executing diffoscope
+[2023-04-27 02:06:17] INFO root fetch - processPackages [tap-krow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap_krow-0.7.0.tar.gz tmp/tap_krow-0.8.0.tar.gz --markdown 20230427/t/tap-krow/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-04-27 02:06:17] INFO root fetch - processPackages [gtfs-kit]: Downloading https://files.pythonhosted.org/packages/5a/03/2e8c42f07278d0b52b3adf29f3841cc72b4717d17b992e4c605648f90820/gtfs_kit-5.2.5.tar.gz
+[2023-04-27 02:06:17] INFO root fetch - processPackages [gtfs-kit]: executing diffoscope
+[2023-04-27 02:06:17] INFO root fetch - processPackages [gtfs-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gtfs_kit-5.2.3.tar.gz tmp/gtfs_kit-5.2.5.tar.gz --markdown 20230427/g/gtfs-kit/5.2.3-5.2.5/diff.md --exclude *.pyd
+[2023-04-27 02:06:18] INFO root fetch - main [MainThread]: End processing [torchdatasets-nightly]: success
+[2023-04-27 02:06:18] INFO root fetch - main [MainThread]: End processing [mb-pytorch]: success
+[2023-04-27 02:06:18] INFO root fetch - main [MainThread]: End processing [lancedb]: success
+[2023-04-27 02:06:19] INFO root fetch - main [MainThread]: End processing [tap-krow]: success
+[2023-04-27 02:06:19] INFO root fetch - main [MainThread]: End processing [gtfs-kit]: success
+[2023-04-27 02:06:22] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2023-04-27 02:06:49] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-04-27 02:06:49] INFO root fetch - main [MainThread]: Store serial: [17873764]
