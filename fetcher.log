@@ -11424,3 +11424,66 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 08:44:33] INFO root fetch - main [MainThread]: End processing [pytroll-collectors]: success
 [2023-04-27 08:44:33] INFO root fetch - main [MainThread]: End processing [xj-user]: success
 [2023-04-27 08:44:33] INFO root fetch - main [MainThread]: Store serial: [17878595]
+[2023-04-27 08:49:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17878595]
+[2023-04-27 08:49:42] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-27 08:49:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: anutils
+[2023-04-27 08:49:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: superset-iris
+[2023-04-27 08:49:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bridgecrew
+[2023-04-27 08:49:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: anutils
+[2023-04-27 08:49:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: networklab
+[2023-04-27 08:49:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: netsim-tools
+[2023-04-27 08:49:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo12-addon-rma
+[2023-04-27 08:49:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-rma
+[2023-04-27 08:49:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-rma
+[2023-04-27 08:49:42] INFO root fetch - processPackages [odoo-addon-rma]: New version: [15.0.1.1.3] Old Version: [15.0.1.1.2.7]
+[2023-04-27 08:49:42] INFO root fetch - processPackages [anutils]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-04-27 08:49:42] INFO root fetch - processPackages [anutils]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-04-27 08:49:42] INFO root fetch - processPackages [superset-iris]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-27 08:49:42] INFO root fetch - processPackages [odoo14-addon-rma]: New version: [14.0.3.2.7.dev1] Old Version: [14.0.3.2.6.dev6]
+[2023-04-27 08:49:42] INFO root fetch - processPackages [odoo12-addon-rma]: New version: [12.0.2.6.0.99.dev9] Old Version: [12.0.2.6.0.99.dev8]
+[2023-04-27 08:49:42] INFO root fetch - processPackages [networklab]: New version: [1.5.2.dev1] Old Version: [1.5.2]
+[2023-04-27 08:49:42] INFO root fetch - processPackages [odoo-addon-rma]: executing diffoscope
+[2023-04-27 08:49:42] INFO root fetch - processPackages [odoo-addon-rma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_rma-15.0.1.1.2.7-py3-none-any.whl.zip tmp/odoo_addon_rma-15.0.1.1.3-py3-none-any.whl.zip --markdown 20230427/o/odoo-addon-rma/15.0.1.1.2.7-15.0.1.1.3/diff.md --exclude *.pyd
+[2023-04-27 08:49:42] INFO root fetch - processPackages [netsim-tools]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-04-27 08:49:42] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-04-27 08:49:42] INFO root fetch - processPackages [anutils]: Downloading https://files.pythonhosted.org/packages/bd/ff/1164c7be6fb9b82277fd93e02f99399ab9bd67bf7b61b1ba09a0c4a71928/anutils-0.4.0.tar.gz
+[2023-04-27 08:49:42] INFO root fetch - processPackages [anutils]: Downloading https://files.pythonhosted.org/packages/bd/ff/1164c7be6fb9b82277fd93e02f99399ab9bd67bf7b61b1ba09a0c4a71928/anutils-0.4.0.tar.gz
+[2023-04-27 08:49:42] INFO root fetch - processPackages [networklab]: Downloading https://files.pythonhosted.org/packages/ac/60/c7ebc8d212ba8730ffbc20c3c8bd2c3f9b79743b7fcf2edc39077e06a466/networklab-1.5.2.tar.gz
+[2023-04-27 08:49:42] INFO root fetch - processPackages [odoo12-addon-rma]: Downloading https://files.pythonhosted.org/packages/fa/e8/85f798f4ad4c605d500e23bcbd84d35e21e0886b828f0f2d73b2718b0286/odoo12_addon_rma-12.0.2.6.0.99.dev8-py3-none-any.whl
+[2023-04-27 08:49:42] INFO root fetch - processPackages [superset-iris]: Downloading https://files.pythonhosted.org/packages/5f/4f/7c230c0ba1c8b5307bfd69c076b3eb380356684e640083835937a35e058f/superset-iris-0.1.0.tar.gz
+[2023-04-27 08:49:42] INFO root fetch - processPackages [netsim-tools]: Downloading https://files.pythonhosted.org/packages/e7/eb/3846d3436c23352eab30f517926740483624339ddf391cf0b75bcce031f5/netsim-tools-1.5.1.tar.gz
+[2023-04-27 08:49:42] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/c1/70/3267f94d196f9213b2b44a429d64b71cb1f9f3d812687dd74ff8a983a588/bridgecrew-2.3.98.tar.gz
+[2023-04-27 08:49:42] INFO root fetch - processPackages [odoo14-addon-rma]: Downloading https://files.pythonhosted.org/packages/a4/39/f1067644c1dbcbffe0163ae7d7fab316ba67c9f4d0d586e0712e7cd64741/odoo14_addon_rma-14.0.3.2.7.dev1-py3-none-any.whl
+[2023-04-27 08:49:42] INFO root fetch - processPackages [anutils]: Downloading https://files.pythonhosted.org/packages/c0/5d/7a11a2eaf26f3d005bb5b10408abd2aa318e0ba1ec364f273efead9d950d/anutils-0.4.1.tar.gz
+[2023-04-27 08:49:42] INFO root fetch - processPackages [anutils]: Downloading https://files.pythonhosted.org/packages/c0/5d/7a11a2eaf26f3d005bb5b10408abd2aa318e0ba1ec364f273efead9d950d/anutils-0.4.1.tar.gz
+[2023-04-27 08:49:42] INFO root fetch - processPackages [odoo14-addon-rma]: executing diffoscope
+[2023-04-27 08:49:42] INFO root fetch - processPackages [odoo14-addon-rma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_rma-14.0.3.2.6.dev6-py3-none-any.whl.zip tmp/odoo14_addon_rma-14.0.3.2.7.dev1-py3-none-any.whl.zip --markdown 20230427/o/odoo14-addon-rma/14.0.3.2.6.dev6-14.0.3.2.7.dev1/diff.md --exclude *.pyd
+[2023-04-27 08:49:42] INFO root fetch - processPackages [superset-iris]: Downloading https://files.pythonhosted.org/packages/a0/96/a3e4647a671cf3e9c8356e801733a39b9617d0f9564db75da143a991d6a4/superset-iris-0.2.0.tar.gz
+[2023-04-27 08:49:42] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/9e/6b/ea9cdf20d73a8621ab1f56b3ee95c8fe6b3e23cb8cd7a0f75ec041c3f16f/bridgecrew-2.3.99.tar.gz
+[2023-04-27 08:49:42] INFO root fetch - processPackages [networklab]: Downloading https://files.pythonhosted.org/packages/23/02/b1b740b08a73b5be3dd951319d719150b625fdee0dde00890ce8f5e83836/networklab-1.5.2.dev1.tar.gz
+[2023-04-27 08:49:43] INFO root fetch - processPackages [odoo12-addon-rma]: Downloading https://files.pythonhosted.org/packages/ff/6b/807cd5cc8b55054db429d0cca4c01ba905e18261081cd6df7b9cfc2c8981/odoo12_addon_rma-12.0.2.6.0.99.dev9-py3-none-any.whl
+[2023-04-27 08:49:43] INFO root fetch - processPackages [anutils]: executing diffoscope
+[2023-04-27 08:49:43] INFO root fetch - processPackages [anutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anutils-0.4.0.tar.gz tmp/anutils-0.4.1.tar.gz --markdown 20230427/a/anutils/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-04-27 08:49:43] INFO root fetch - processPackages [anutils]: executing diffoscope
+[2023-04-27 08:49:43] INFO root fetch - processPackages [anutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anutils-0.4.0.tar.gz tmp/anutils-0.4.1.tar.gz --markdown 20230427/a/anutils/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-04-27 08:49:43] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-04-27 08:49:43] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230427/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-04-27 08:49:43] INFO root fetch - processPackages [superset-iris]: executing diffoscope
+[2023-04-27 08:49:43] INFO root fetch - processPackages [superset-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superset-iris-0.1.0.tar.gz tmp/superset-iris-0.2.0.tar.gz --markdown 20230427/s/superset-iris/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-04-27 08:49:43] INFO root fetch - processPackages [networklab]: executing diffoscope
+[2023-04-27 08:49:43] INFO root fetch - processPackages [networklab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/networklab-1.5.2.tar.gz tmp/networklab-1.5.2.dev1.tar.gz --markdown 20230427/n/networklab/1.5.2-1.5.2.dev1/diff.md --exclude *.pyd
+[2023-04-27 08:49:43] INFO root fetch - processPackages [odoo12-addon-rma]: executing diffoscope
+[2023-04-27 08:49:43] INFO root fetch - processPackages [odoo12-addon-rma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_rma-12.0.2.6.0.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_rma-12.0.2.6.0.99.dev9-py3-none-any.whl.zip --markdown 20230427/o/odoo12-addon-rma/12.0.2.6.0.99.dev8-12.0.2.6.0.99.dev9/diff.md --exclude *.pyd
+[2023-04-27 08:49:43] INFO root fetch - processPackages [netsim-tools]: Downloading https://files.pythonhosted.org/packages/00/57/351c93a1fd09a0a23ebe5f06fc85282350128107f42b1abc4145d6705d8b/netsim-tools-1.5.2.tar.gz
+[2023-04-27 08:49:43] INFO root fetch - processPackages [netsim-tools]: executing diffoscope
+[2023-04-27 08:49:43] INFO root fetch - processPackages [netsim-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netsim-tools-1.5.1.tar.gz tmp/netsim-tools-1.5.2.tar.gz --markdown 20230427/n/netsim-tools/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-04-27 08:49:44] INFO root fetch - main [MainThread]: End processing [odoo-addon-rma]: success
+[2023-04-27 08:49:44] INFO root fetch - main [MainThread]: End processing [anutils]: success
+[2023-04-27 08:49:44] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-04-27 08:49:44] INFO root fetch - main [MainThread]: End processing [superset-iris]: success
+[2023-04-27 08:49:44] INFO root fetch - main [MainThread]: End processing [odoo14-addon-rma]: success
+[2023-04-27 08:49:44] INFO root fetch - main [MainThread]: End processing [anutils]: success
+[2023-04-27 08:49:44] INFO root fetch - main [MainThread]: End processing [netsim-tools]: success
+[2023-04-27 08:49:45] INFO root fetch - main [MainThread]: End processing [odoo12-addon-rma]: success
+[2023-04-27 08:49:49] INFO root fetch - main [MainThread]: End processing [networklab]: success
+[2023-04-27 08:49:49] INFO root fetch - main [MainThread]: Store serial: [17878617]
