@@ -21161,3 +21161,178 @@ EOFError: EOF read where object expected
 [2023-04-27 16:18:24] INFO root fetch - main [MainThread]: End processing [opendal]: success
 [2023-04-27 16:18:31] INFO root fetch - main [MainThread]: End processing [rdmo]: success
 [2023-04-27 16:18:31] INFO root fetch - main [MainThread]: Store serial: [17884228]
+[2023-04-27 16:23:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17884228]
+[2023-04-27 16:23:40] INFO root fetch - main [MainThread]: Found 29 changed packages
+[2023-04-27 16:23:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: smart-manage-app-client
+[2023-04-27 16:23:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: catnapmodule
+[2023-04-27 16:23:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: anilibria.py
+[2023-04-27 16:23:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kpops
+[2023-04-27 16:23:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fabrictestbed
+[2023-04-27 16:23:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: geovisio_cli
+[2023-04-27 16:23:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Pydule
+[2023-04-27 16:23:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: saxonche-stubs
+[2023-04-27 16:23:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: phlearn
+[2023-04-27 16:23:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: text2graphapi
+[2023-04-27 16:23:41] WARNING root fetch - processPackages [catnapmodule]: Skipping, unable to determine old version
+[2023-04-27 16:23:41] INFO root fetch - processPackages [catnapmodule]: Start processing: juts
+[2023-04-27 16:23:41] INFO root fetch - main [MainThread]: End processing [catnapmodule] error
+[2023-04-27 16:23:41] INFO root fetch - processPackages [fabrictestbed]: New version: [1.4.5rc1] Old Version: [1.4.5rc0]
+[2023-04-27 16:23:41] INFO root fetch - processPackages [anilibria.py]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-27 16:23:41] INFO root fetch - processPackages [phlearn]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-04-27 16:23:41] INFO root fetch - processPackages [smart-manage-app-client]: New version: [0.2.0b0] Old Version: [0.1.0b0]
+[2023-04-27 16:23:41] INFO root fetch - processPackages [kpops]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-04-27 16:23:41] INFO root fetch - processPackages [saxonche-stubs]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-04-27 16:23:41] INFO root fetch - processPackages [Pydule]: New version: [3.2.7] Old Version: [3.2.6]
+[2023-04-27 16:23:41] INFO root fetch - processPackages [geovisio_cli]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-27 16:23:41] WARNING root fetch - processPackages [juts]: Skipping, unable to determine old version
+[2023-04-27 16:23:41] INFO root fetch - processPackages [juts]: Start processing: spacs
+[2023-04-27 16:23:41] INFO root fetch - main [MainThread]: End processing [juts] error
+[2023-04-27 16:23:41] INFO root fetch - processPackages [fabrictestbed]: Downloading https://files.pythonhosted.org/packages/4e/35/9447dc7d0adf45f92a2214a070d89cd827c5e7d35b14c94f87210ba3f8d6/fabrictestbed-1.4.5rc1.tar.gz
+[2023-04-27 16:23:41] INFO root fetch - processPackages [spacs]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-27 16:23:41] INFO root fetch - processPackages [anilibria.py]: Downloading https://files.pythonhosted.org/packages/a0/96/022517277dd04ec1d7f431388a2e5308469e49776137109d95f058d316eb/anilibria.py-1.0.1.tar.gz
+[2023-04-27 16:23:41] INFO root fetch - processPackages [smart-manage-app-client]: Downloading https://files.pythonhosted.org/packages/90/37/86b7749112a73c3a4a803842ca2dca46b832923d4ad3db9600ba7e8f955d/smart-manage-app-client-0.1.0b0.tar.gz
+[2023-04-27 16:23:41] INFO root fetch - processPackages [phlearn]: Downloading https://files.pythonhosted.org/packages/48/37/21c9bc32af596e9f6830dc9260e23dc055f0cbcb8f7bc719715c324fb0ae/phlearn-1.0.0.tar.gz
+[2023-04-27 16:23:41] INFO root fetch - processPackages [text2graphapi]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-27 16:23:41] INFO root fetch - processPackages [saxonche-stubs]: Downloading https://files.pythonhosted.org/packages/bf/47/dc578278fd129496fb5ecd1320901ab2d3511abb5b30ba068037d7fbd279/saxonche_stubs-0.3.0.tar.gz
+[2023-04-27 16:23:41] INFO root fetch - processPackages [Pydule]: Downloading https://files.pythonhosted.org/packages/5d/2c/4cdb788aa627e8642012a9bdc323439461c56823906a54e3657cbaf46d10/Pydule-3.2.6.tar.gz
+[2023-04-27 16:23:41] INFO root fetch - processPackages [geovisio_cli]: Downloading https://files.pythonhosted.org/packages/4e/c2/b187560092286daf81585f5083e1a6de925801372805c31464c78db06032/geovisio_cli-0.0.4.tar.gz
+[2023-04-27 16:23:41] INFO root fetch - processPackages [kpops]: Downloading https://files.pythonhosted.org/packages/25/02/7b658de51f119a16a37508f06d7a0b5164e5269c71c9b0d68a90b87f004f/kpops-1.1.1.tar.gz
+[2023-04-27 16:23:41] INFO root fetch - processPackages [fabrictestbed]: executing diffoscope
+[2023-04-27 16:23:41] INFO root fetch - processPackages [fabrictestbed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabrictestbed-1.4.5rc0.tar.gz tmp/fabrictestbed-1.4.5rc1.tar.gz --markdown 20230427/f/fabrictestbed/1.4.5rc0-1.4.5rc1/diff.md --exclude *.pyd
+[2023-04-27 16:23:41] INFO root fetch - processPackages [saxonche-stubs]: Downloading https://files.pythonhosted.org/packages/c9/f6/fc78c8e593679f19c248750974857d40bdf6c0ff2bc2b3bf2ff825fd61a6/saxonche_stubs-0.4.0.tar.gz
+[2023-04-27 16:23:41] INFO root fetch - processPackages [Pydule]: Downloading https://files.pythonhosted.org/packages/51/f5/a782c250954743e7739eb6317201edf2158dd9a8343c3b7f5627e93ea612/Pydule-3.2.7.tar.gz
+[2023-04-27 16:23:41] INFO root fetch - processPackages [spacs]: Downloading https://files.pythonhosted.org/packages/e9/70/51434d7b625dacdbf992d3f5da194404d0a0de94cb92a99dc7fffa773558/spacs-0.0.4.tar.gz
+[2023-04-27 16:23:41] INFO root fetch - processPackages [anilibria.py]: Downloading https://files.pythonhosted.org/packages/35/d6/b988dec8a25817a7e74f03f22524e443e62e2758201d943fd798ff0f542a/anilibria.py-1.0.2.tar.gz
+[2023-04-27 16:23:41] INFO root fetch - processPackages [smart-manage-app-client]: Downloading https://files.pythonhosted.org/packages/1b/38/a6e72c7e24342ff47e4077ec500cad38cd866788d8373433a1e44374c254/smart-manage-app-client-0.2.0b0.tar.gz
+[2023-04-27 16:23:41] INFO root fetch - processPackages [text2graphapi]: Downloading https://files.pythonhosted.org/packages/65/da/18f399207a5751efd45e9eb1fb7458d2d63b025774e1ed6be6cf8c8fcb31/text2graphapi-0.1.5.tar.gz
+[2023-04-27 16:23:41] INFO root fetch - processPackages [kpops]: Downloading https://files.pythonhosted.org/packages/b5/6e/e151e7ccc149c9a2195defbb59f8ce8494fd0f169a1d18bff36a2a233095/kpops-1.1.2.tar.gz
+[2023-04-27 16:23:41] INFO root fetch - processPackages [phlearn]: Downloading https://files.pythonhosted.org/packages/09/cb/67f4ff43f394828782edd05e51407b2bac4ed02a9d24ceca1220bd1b2860/phlearn-1.1.0.tar.gz
+[2023-04-27 16:23:41] INFO root fetch - processPackages [saxonche-stubs]: executing diffoscope
+[2023-04-27 16:23:41] INFO root fetch - processPackages [saxonche-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saxonche_stubs-0.3.0.tar.gz tmp/saxonche_stubs-0.4.0.tar.gz --markdown 20230427/s/saxonche-stubs/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-04-27 16:23:41] INFO root fetch - processPackages [spacs]: executing diffoscope
+[2023-04-27 16:23:41] INFO root fetch - processPackages [spacs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spacs-0.0.3.tar.gz tmp/spacs-0.0.4.tar.gz --markdown 20230427/s/spacs/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-27 16:23:41] INFO root fetch - processPackages [Pydule]: executing diffoscope
+[2023-04-27 16:23:41] INFO root fetch - processPackages [geovisio_cli]: Downloading https://files.pythonhosted.org/packages/58/c1/2b186b76a24bea442af1b6b819cc7b8a7e21795ff8f9ba7cb568c16635e6/geovisio_cli-0.0.5.tar.gz
+[2023-04-27 16:23:41] INFO root fetch - processPackages [Pydule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pydule-3.2.6.tar.gz tmp/Pydule-3.2.7.tar.gz --markdown 20230427/P/Pydule/3.2.6-3.2.7/diff.md --exclude *.pyd
+[2023-04-27 16:23:41] INFO root fetch - processPackages [smart-manage-app-client]: executing diffoscope
+[2023-04-27 16:23:41] INFO root fetch - processPackages [smart-manage-app-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smart-manage-app-client-0.1.0b0.tar.gz tmp/smart-manage-app-client-0.2.0b0.tar.gz --markdown 20230427/s/smart-manage-app-client/0.1.0b0-0.2.0b0/diff.md --exclude *.pyd
+[2023-04-27 16:23:41] INFO root fetch - processPackages [anilibria.py]: executing diffoscope
+[2023-04-27 16:23:41] INFO root fetch - processPackages [anilibria.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anilibria.py-1.0.1.tar.gz tmp/anilibria.py-1.0.2.tar.gz --markdown 20230427/a/anilibria.py/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-27 16:23:41] INFO root fetch - processPackages [text2graphapi]: executing diffoscope
+[2023-04-27 16:23:41] INFO root fetch - processPackages [text2graphapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text2graphapi-0.1.4.tar.gz tmp/text2graphapi-0.1.5.tar.gz --markdown 20230427/t/text2graphapi/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-27 16:23:41] INFO root fetch - processPackages [kpops]: executing diffoscope
+[2023-04-27 16:23:41] INFO root fetch - processPackages [kpops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kpops-1.1.1.tar.gz tmp/kpops-1.1.2.tar.gz --markdown 20230427/k/kpops/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-04-27 16:23:41] INFO root fetch - processPackages [phlearn]: executing diffoscope
+[2023-04-27 16:23:41] INFO root fetch - processPackages [phlearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phlearn-1.0.0.tar.gz tmp/phlearn-1.1.0.tar.gz --markdown 20230427/p/phlearn/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-04-27 16:23:42] INFO root fetch - processPackages [geovisio_cli]: executing diffoscope
+[2023-04-27 16:23:42] INFO root fetch - processPackages [geovisio_cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geovisio_cli-0.0.4.tar.gz tmp/geovisio_cli-0.0.5.tar.gz --markdown 20230427/g/geovisio_cli/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-27 16:23:43] INFO root fetch - processPackages [fabrictestbed]: Start processing: cellshape
+[2023-04-27 16:23:43] INFO root fetch - main [MainThread]: End processing [fabrictestbed]: success
+[2023-04-27 16:23:43] INFO root fetch - processPackages [cellshape]: New version: [0.0.9rc0] Old Version: [0.0.9]
+[2023-04-27 16:23:43] INFO root fetch - processPackages [saxonche-stubs]: Start processing: curriculum-analysis
+[2023-04-27 16:23:43] INFO root fetch - main [MainThread]: End processing [saxonche-stubs]: success
+[2023-04-27 16:23:43] INFO root fetch - processPackages [curriculum-analysis]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-04-27 16:23:43] INFO root fetch - processPackages [cellshape]: executing diffoscope
+[2023-04-27 16:23:43] INFO root fetch - processPackages [cellshape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellshape-0.0.9.tar.gz tmp/cellshape-0.0.9rc0.tar.gz --markdown 20230427/c/cellshape/0.0.9-0.0.9rc0/diff.md --exclude *.pyd
+[2023-04-27 16:23:43] INFO root fetch - processPackages [curriculum-analysis]: Downloading https://files.pythonhosted.org/packages/69/92/252fe43c3f070d3de56913db5568101b05bbdc01dbc602011db6b927057d/curriculum_analysis-0.2.1.tar.gz
+[2023-04-27 16:23:43] INFO root fetch - processPackages [Pydule]: Start processing: Bigsansar
+[2023-04-27 16:23:43] INFO root fetch - main [MainThread]: End processing [Pydule]: success
+[2023-04-27 16:23:43] INFO root fetch - processPackages [Bigsansar]: New version: [1.0.0] Old Version: [0.9.9]
+[2023-04-27 16:23:43] INFO root fetch - processPackages [curriculum-analysis]: executing diffoscope
+[2023-04-27 16:23:43] INFO root fetch - processPackages [curriculum-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/curriculum_analysis-0.2.0.tar.gz tmp/curriculum_analysis-0.2.1.tar.gz --markdown 20230427/c/curriculum-analysis/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-04-27 16:23:43] INFO root fetch - processPackages [spacs]: Start processing: jet-bridge-base
+[2023-04-27 16:23:43] INFO root fetch - main [MainThread]: End processing [spacs]: success
+[2023-04-27 16:23:43] INFO root fetch - processPackages [smart-manage-app-client]: Start processing: faust-streaming
+[2023-04-27 16:23:43] INFO root fetch - main [MainThread]: End processing [smart-manage-app-client]: success
+[2023-04-27 16:23:43] INFO root fetch - processPackages [Bigsansar]: executing diffoscope
+[2023-04-27 16:23:43] INFO root fetch - processPackages [Bigsansar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Bigsansar-0.9.9.tar.gz tmp/Bigsansar-1.0.0.tar.gz --markdown 20230427/B/Bigsansar/0.9.9-1.0.0/diff.md --exclude *.pyd
+[2023-04-27 16:23:43] INFO root fetch - processPackages [jet-bridge-base]: New version: [1.7.9] Old Version: [1.7.5]
+[2023-04-27 16:23:43] INFO root fetch - processPackages [faust-streaming]: New version: [0.9.5] Old Version: [0.9.4rc1]
+[2023-04-27 16:23:43] INFO root fetch - processPackages [anilibria.py]: Start processing: jet-bridge
+[2023-04-27 16:23:43] INFO root fetch - main [MainThread]: End processing [anilibria.py]: success
+[2023-04-27 16:23:43] INFO root fetch - processPackages [jet-bridge-base]: Downloading https://files.pythonhosted.org/packages/6a/6f/050b6c68483efe4b9313afaba0dfc180a77b6e249f84cbcc1bbe01627b57/jet-bridge-base-1.7.5.tar.gz
+[2023-04-27 16:23:43] INFO root fetch - processPackages [jet-bridge]: New version: [1.7.9] Old Version: [1.7.5]
+[2023-04-27 16:23:43] INFO root fetch - processPackages [faust-streaming]: Downloading https://files.pythonhosted.org/packages/a0/33/87ed4f61ff89274870fdd491beb84fb1b03999b49e3c918f8d467ab7979d/faust-streaming-0.9.4rc1.tar.gz
+[2023-04-27 16:23:44] INFO root fetch - processPackages [text2graphapi]: Start processing: camerahub
+[2023-04-27 16:23:44] INFO root fetch - main [MainThread]: End processing [text2graphapi]: success
+[2023-04-27 16:23:44] INFO root fetch - processPackages [camerahub]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-04-27 16:23:44] INFO root fetch - processPackages [jet-bridge]: Downloading https://files.pythonhosted.org/packages/77/ec/984e729b116b97310eaf4ce632a9b6b30e461b346e2c7f78d38fb48abf7c/jet-bridge-1.7.5.tar.gz
+[2023-04-27 16:23:44] INFO root fetch - processPackages [phlearn]: Start processing: digitalguide-reader
+[2023-04-27 16:23:44] INFO root fetch - main [MainThread]: End processing [phlearn]: success
+[2023-04-27 16:23:44] INFO root fetch - processPackages [geovisio_cli]: Start processing: jet-django
+[2023-04-27 16:23:44] INFO root fetch - main [MainThread]: End processing [geovisio_cli]: success
+[2023-04-27 16:23:44] INFO root fetch - processPackages [camerahub]: executing diffoscope
+[2023-04-27 16:23:44] INFO root fetch - processPackages [camerahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camerahub-0.9.7.tar.gz tmp/camerahub-0.9.8.tar.gz --markdown 20230427/c/camerahub/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-04-27 16:23:44] INFO root fetch - processPackages [jet-bridge-base]: Downloading https://files.pythonhosted.org/packages/95/e2/605beb8cd0fb1a160ddc0bd28151cc8d3510e8df5db0f63089d6b59777ef/jet-bridge-base-1.7.9.tar.gz
+[2023-04-27 16:23:44] INFO root fetch - processPackages [kpops]: Start processing: cellshape-cluster
+[2023-04-27 16:23:44] INFO root fetch - main [MainThread]: End processing [kpops]: success
+[2023-04-27 16:23:44] INFO root fetch - processPackages [digitalguide-reader]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 16:23:44] INFO root fetch - processPackages [cellshape-cluster]: New version: [0.0.9rc0] Old Version: [0.0.9]
+[2023-04-27 16:23:44] INFO root fetch - processPackages [faust-streaming]: Downloading https://files.pythonhosted.org/packages/e2/50/6ce6477b286e2fcfedcc8a989de446d2a8380d471d05fc69b962b7817252/faust-streaming-0.9.5.tar.gz
+[2023-04-27 16:23:44] INFO root fetch - processPackages [jet-django]: New version: [1.7.9] Old Version: [1.7.5]
+[2023-04-27 16:23:44] INFO root fetch - processPackages [cellshape-cluster]: executing diffoscope
+[2023-04-27 16:23:44] INFO root fetch - processPackages [cellshape-cluster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellshape-cluster-0.0.9.tar.gz tmp/cellshape-cluster-0.0.9rc0.tar.gz --markdown 20230427/c/cellshape-cluster/0.0.9-0.0.9rc0/diff.md --exclude *.pyd
+[2023-04-27 16:23:44] INFO root fetch - processPackages [jet-bridge-base]: executing diffoscope
+[2023-04-27 16:23:44] INFO root fetch - processPackages [jet-bridge-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jet-bridge-base-1.7.5.tar.gz tmp/jet-bridge-base-1.7.9.tar.gz --markdown 20230427/j/jet-bridge-base/1.7.5-1.7.9/diff.md --exclude *.pyd
+[2023-04-27 16:23:44] INFO root fetch - processPackages [digitalguide-reader]: Downloading https://files.pythonhosted.org/packages/cc/5a/0f9a1bf13e406f8b0b0f84bdee6aaaf746d291551003b201aecb528a3e7b/digitalguide_reader-0.0.8.tar.gz
+[2023-04-27 16:23:44] INFO root fetch - processPackages [jet-bridge]: Downloading https://files.pythonhosted.org/packages/5b/4b/714381e9d087c652b9bb8f031fe2214d3ccd553cfbdeb98ff62bdbc8735d/jet-bridge-1.7.9.tar.gz
+[2023-04-27 16:23:44] INFO root fetch - processPackages [faust-streaming]: executing diffoscope
+[2023-04-27 16:23:44] INFO root fetch - processPackages [faust-streaming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faust-streaming-0.9.4rc1.tar.gz tmp/faust-streaming-0.9.5.tar.gz --markdown 20230427/f/faust-streaming/0.9.4rc1-0.9.5/diff.md --exclude *.pyd
+[2023-04-27 16:23:44] INFO root fetch - processPackages [jet-django]: Downloading https://files.pythonhosted.org/packages/00/b5/509ab1f4ae5bcb5ffc1b2403b51288e330bc9a9a3517eb810fd16fd76f6f/jet-django-1.7.5.tar.gz
+[2023-04-27 16:23:44] INFO root fetch - processPackages [jet-bridge]: executing diffoscope
+[2023-04-27 16:23:44] INFO root fetch - processPackages [jet-bridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jet-bridge-1.7.5.tar.gz tmp/jet-bridge-1.7.9.tar.gz --markdown 20230427/j/jet-bridge/1.7.5-1.7.9/diff.md --exclude *.pyd
+[2023-04-27 16:23:44] INFO root fetch - processPackages [digitalguide-reader]: Downloading https://files.pythonhosted.org/packages/72/ef/82a1a1f3752e2a5201841fc0cba3c60b693839bff8bf7268643f8fb5388b/digitalguide_reader-0.0.9.tar.gz
+[2023-04-27 16:23:44] INFO root fetch - processPackages [cellshape]: Start processing: h5-info-pkg-inra-phenome
+[2023-04-27 16:23:44] INFO root fetch - main [MainThread]: End processing [cellshape]: success
+[2023-04-27 16:23:44] INFO root fetch - processPackages [jet-django]: Downloading https://files.pythonhosted.org/packages/62/88/814c0029b2e35f343f1f1e3ed6a963523255a4cb150364247feeb6cf892c/jet-django-1.7.9.tar.gz
+[2023-04-27 16:23:44] INFO root fetch - processPackages [digitalguide-reader]: executing diffoscope
+[2023-04-27 16:23:44] INFO root fetch - processPackages [digitalguide-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalguide_reader-0.0.8.tar.gz tmp/digitalguide_reader-0.0.9.tar.gz --markdown 20230427/d/digitalguide-reader/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 16:23:44] INFO root fetch - processPackages [h5-info-pkg-inra-phenome]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-04-27 16:23:44] INFO root fetch - processPackages [jet-django]: executing diffoscope
+[2023-04-27 16:23:44] INFO root fetch - processPackages [jet-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jet-django-1.7.5.tar.gz tmp/jet-django-1.7.9.tar.gz --markdown 20230427/j/jet-django/1.7.5-1.7.9/diff.md --exclude *.pyd
+[2023-04-27 16:23:45] INFO root fetch - processPackages [curriculum-analysis]: Start processing: spanishconjugator
+[2023-04-27 16:23:45] INFO root fetch - main [MainThread]: End processing [curriculum-analysis]: success
+[2023-04-27 16:23:45] INFO root fetch - processPackages [h5-info-pkg-inra-phenome]: Downloading https://files.pythonhosted.org/packages/0c/32/39e39cac7e9cf8fa07e7ca4b4fce3632fc400428e70f9ed3dc568a216e8b/h5-info-pkg-inra-phenome-1.3.1.tar.gz
+[2023-04-27 16:23:45] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-04-27 16:23:45] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-04-27 16:23:45] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230427/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-04-27 16:23:45] INFO root fetch - processPackages [h5-info-pkg-inra-phenome]: Downloading https://files.pythonhosted.org/packages/d3/2b/6ebfed241a33f5da5cb0857ec18cd707ee12103c1e415ca63382ead90ba3/h5-info-pkg-inra-phenome-1.3.2.tar.gz
+[2023-04-27 16:23:45] INFO root fetch - processPackages [h5-info-pkg-inra-phenome]: executing diffoscope
+[2023-04-27 16:23:45] INFO root fetch - processPackages [h5-info-pkg-inra-phenome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h5-info-pkg-inra-phenome-1.3.1.tar.gz tmp/h5-info-pkg-inra-phenome-1.3.2.tar.gz --markdown 20230427/h/h5-info-pkg-inra-phenome/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-04-27 16:23:45] INFO root fetch - processPackages [cellshape-cluster]: Start processing: supervisely
+[2023-04-27 16:23:45] INFO root fetch - main [MainThread]: End processing [cellshape-cluster]: success
+[2023-04-27 16:23:45] INFO root fetch - processPackages [supervisely]: New version: [6.9.2] Old Version: [6.9.1]
+[2023-04-27 16:23:45] INFO root fetch - processPackages [supervisely]: executing diffoscope
+[2023-04-27 16:23:45] INFO root fetch - processPackages [supervisely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supervisely-6.9.1.tar.gz tmp/supervisely-6.9.2.tar.gz --markdown 20230427/s/supervisely/6.9.1-6.9.2/diff.md --exclude *.pyd
+[2023-04-27 16:23:46] INFO root fetch - processPackages [jet-bridge]: Start processing: QuNet
+[2023-04-27 16:23:46] INFO root fetch - main [MainThread]: End processing [jet-bridge]: success
+[2023-04-27 16:23:46] INFO root fetch - processPackages [QuNet]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 16:23:46] INFO root fetch - processPackages [Bigsansar]: Start processing: spanishconjugator
+[2023-04-27 16:23:46] INFO root fetch - main [MainThread]: End processing [Bigsansar]: success
+[2023-04-27 16:23:46] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-04-27 16:23:46] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.8-py3-none-any.whl.zip tmp/QuNet-0.0.9-py3-none-any.whl.zip --markdown 20230427/Q/QuNet/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 16:23:46] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-04-27 16:23:46] INFO root fetch - processPackages [digitalguide-reader]: Start processing: citros
+[2023-04-27 16:23:46] INFO root fetch - main [MainThread]: End processing [digitalguide-reader]: success
+[2023-04-27 16:23:46] INFO root fetch - processPackages [citros]: New version: [23.17.6] Old Version: [23.17.5]
+[2023-04-27 16:23:46] INFO root fetch - processPackages [jet-django]: Start processing: cellshape
+[2023-04-27 16:23:46] INFO root fetch - main [MainThread]: End processing [jet-django]: success
+[2023-04-27 16:23:46] INFO root fetch - processPackages [cellshape]: New version: [0.0.9rc0] Old Version: [0.0.9]
+[2023-04-27 16:23:46] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-04-27 16:23:46] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230427/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-04-27 16:23:46] INFO root fetch - processPackages [cellshape]: executing diffoscope
+[2023-04-27 16:23:46] INFO root fetch - processPackages [cellshape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellshape-0.0.9.tar.gz tmp/cellshape-0.0.9rc0.tar.gz --markdown 20230427/c/cellshape/0.0.9-0.0.9rc0/diff.md --exclude *.pyd
+[2023-04-27 16:23:46] INFO root fetch - processPackages [citros]: Downloading https://files.pythonhosted.org/packages/83/06/ec814e9f2737dd65ac2fc7e3ad29c4818455287bb1ae181e34f89e942c22/citros-23.17.6.tar.gz
+[2023-04-27 16:23:46] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-04-27 16:23:46] INFO root fetch - processPackages [citros]: executing diffoscope
+[2023-04-27 16:23:46] INFO root fetch - processPackages [citros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citros-23.17.5.tar.gz tmp/citros-23.17.6.tar.gz --markdown 20230427/c/citros/23.17.5-23.17.6/diff.md --exclude *.pyd
+[2023-04-27 16:23:47] INFO root fetch - main [MainThread]: End processing [h5-info-pkg-inra-phenome]: success
+[2023-04-27 16:23:47] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-04-27 16:23:48] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-04-27 16:23:48] INFO root fetch - main [MainThread]: End processing [cellshape]: success
+[2023-04-27 16:23:48] INFO root fetch - main [MainThread]: End processing [citros]: success
+[2023-04-27 16:23:48] INFO root fetch - main [MainThread]: End processing [camerahub]: success
+[2023-04-27 16:23:51] INFO root fetch - main [MainThread]: End processing [supervisely]: success
+[2023-04-27 16:23:51] INFO root fetch - main [MainThread]: End processing [faust-streaming]: success
+[2023-04-27 16:23:51] INFO root fetch - main [MainThread]: End processing [jet-bridge-base]: success
+[2023-04-27 16:23:51] INFO root fetch - main [MainThread]: Store serial: [17884326]
