@@ -7936,3 +7936,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 04:21:13] INFO root fetch - main [MainThread]: End processing [meerkat-ml]: success
 [2023-04-27 04:21:16] INFO root fetch - main [MainThread]: End processing [otx]: success
 [2023-04-27 04:21:16] INFO root fetch - main [MainThread]: Store serial: [17876699]
+[2023-04-27 04:26:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17876699]
+[2023-04-27 04:26:25] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-27 04:26:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: herald-of-completion
+[2023-04-27 04:26:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: acnawebcli
+[2023-04-27 04:26:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: docstring-auditor
+[2023-04-27 04:26:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: domain-admin
+[2023-04-27 04:26:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: RobertCommonDriver
+[2023-04-27 04:26:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: asaas-sdk
+[2023-04-27 04:26:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: monero-usd-price
+[2023-04-27 04:26:25] WARNING root fetch - processPackages [acnawebcli]: Skipping, unable to determine old version
+[2023-04-27 04:26:25] INFO root fetch - main [MainThread]: End processing [acnawebcli] error
+[2023-04-27 04:26:25] INFO root fetch - processPackages [docstring-auditor]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-04-27 04:26:25] INFO root fetch - processPackages [asaas-sdk]: New version: [3.1.0] Old Version: [1.0.4]
+[2023-04-27 04:26:26] INFO root fetch - processPackages [domain-admin]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-04-27 04:26:26] INFO root fetch - processPackages [herald-of-completion]: New version: [0.2.1] Old Version: [0.1.0]
+[2023-04-27 04:26:26] WARNING root fetch - processPackages [monero-usd-price]: Skipping, unable to determine old version
+[2023-04-27 04:26:26] INFO root fetch - main [MainThread]: End processing [monero-usd-price] error
+[2023-04-27 04:26:26] INFO root fetch - processPackages [docstring-auditor]: Downloading https://files.pythonhosted.org/packages/29/77/ce31f9b8d6c9ad827ee83e173a51b8fcce5c8e6951eba1291f5302fa28dc/docstring_auditor-0.1.7.tar.gz
+[2023-04-27 04:26:26] INFO root fetch - processPackages [RobertCommonDriver]: New version: [0.1.39] Old Version: [0.1.38]
+[2023-04-27 04:26:26] INFO root fetch - processPackages [asaas-sdk]: Downloading https://files.pythonhosted.org/packages/86/8e/9f29fb6ec038ca0943dbd57e11e144653db4e2d7698466ac386ae17a1e62/asaas-sdk-3.1.0.tar.gz
+[2023-04-27 04:26:26] INFO root fetch - processPackages [docstring-auditor]: executing diffoscope
+[2023-04-27 04:26:26] INFO root fetch - processPackages [docstring-auditor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docstring_auditor-0.1.6.tar.gz tmp/docstring_auditor-0.1.7.tar.gz --markdown 20230427/d/docstring-auditor/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-04-27 04:26:26] INFO root fetch - processPackages [herald-of-completion]: Downloading https://files.pythonhosted.org/packages/c6/13/78892c3e8d303c5f29b74c80a8fe2f42e66b38dc0f7b56a2978665bdcc96/herald-of-completion-0.1.0.tar.gz
+[2023-04-27 04:26:26] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/12/fd/408b2019569509ef3185c0e2a8aac6581beff09247221f0099b89eb5a53e/domain-admin-1.2.8.tar.gz
+[2023-04-27 04:26:26] INFO root fetch - processPackages [asaas-sdk]: executing diffoscope
+[2023-04-27 04:26:26] INFO root fetch - processPackages [asaas-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asaas-sdk-1.0.4.tar.gz tmp/asaas-sdk-3.1.0.tar.gz --markdown 20230427/a/asaas-sdk/1.0.4-3.1.0/diff.md --exclude *.pyd
+[2023-04-27 04:26:26] INFO root fetch - processPackages [RobertCommonDriver]: Downloading https://files.pythonhosted.org/packages/16/bf/12f6915d1346bd4ae1257613651c79c0e4b739ef5947cd50b910444672ce/RobertCommonDriver-0.1.38.tar.gz
+[2023-04-27 04:26:26] INFO root fetch - processPackages [herald-of-completion]: Downloading https://files.pythonhosted.org/packages/c5/ba/681b9ff597201a9d9dad5c11ce634f577739690021dffeb595572215e4d8/herald-of-completion-0.2.1.tar.gz
+[2023-04-27 04:26:26] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/25/50/bda7d4fb755638b0e212e1f3e7f778a08590ed8127424a05cc3432d28958/domain-admin-1.2.9.tar.gz
+[2023-04-27 04:26:26] INFO root fetch - processPackages [herald-of-completion]: executing diffoscope
+[2023-04-27 04:26:26] INFO root fetch - processPackages [herald-of-completion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/herald-of-completion-0.1.0.tar.gz tmp/herald-of-completion-0.2.1.tar.gz --markdown 20230427/h/herald-of-completion/0.1.0-0.2.1/diff.md --exclude *.pyd
+[2023-04-27 04:26:26] INFO root fetch - processPackages [RobertCommonDriver]: Downloading https://files.pythonhosted.org/packages/59/56/071254dfb5eb47d704bb0a67f50304044fef21b455fe1f5cecf44f1b027f/RobertCommonDriver-0.1.39.tar.gz
+[2023-04-27 04:26:26] INFO root fetch - processPackages [domain-admin]: executing diffoscope
+[2023-04-27 04:26:26] INFO root fetch - processPackages [domain-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domain-admin-1.2.8.tar.gz tmp/domain-admin-1.2.9.tar.gz --markdown 20230427/d/domain-admin/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-04-27 04:26:26] INFO root fetch - processPackages [RobertCommonDriver]: executing diffoscope
+[2023-04-27 04:26:26] INFO root fetch - processPackages [RobertCommonDriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RobertCommonDriver-0.1.38.tar.gz tmp/RobertCommonDriver-0.1.39.tar.gz --markdown 20230427/R/RobertCommonDriver/0.1.38-0.1.39/diff.md --exclude *.pyd
+[2023-04-27 04:26:27] INFO root fetch - main [MainThread]: End processing [docstring-auditor]: success
+[2023-04-27 04:26:27] INFO root fetch - main [MainThread]: End processing [asaas-sdk]: success
+[2023-04-27 04:26:27] INFO root fetch - main [MainThread]: End processing [herald-of-completion]: success
+[2023-04-27 04:26:28] INFO root fetch - main [MainThread]: End processing [RobertCommonDriver]: success
+[2023-04-27 04:26:28] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
+[2023-04-27 04:26:28] INFO root fetch - main [MainThread]: Store serial: [17876719]
