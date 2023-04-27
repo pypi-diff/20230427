@@ -20404,3 +20404,89 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 15:46:01] INFO root fetch - main [MainThread]: End processing [Werkzeug]: success
 [2023-04-27 15:46:09] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
 [2023-04-27 15:46:09] INFO root fetch - main [MainThread]: Store serial: [17883768]
+[2023-04-27 15:51:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17883768]
+[2023-04-27 15:51:19] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-27 15:51:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: filter-vcf
+[2023-04-27 15:51:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyboxen
+[2023-04-27 15:51:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TissUUmaps
+[2023-04-27 15:51:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aicost
+[2023-04-27 15:51:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cg
+[2023-04-27 15:51:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cellshape
+[2023-04-27 15:51:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sfkit
+[2023-04-27 15:51:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xoa-driver
+[2023-04-27 15:51:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ngstrefftz-src
+[2023-04-27 15:51:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: trifinger-rl-datasets
+[2023-04-27 15:51:19] INFO root fetch - processPackages [filter-vcf]: New version: [0.1.5] Old Version: [0.1.3]
+[2023-04-27 15:51:19] INFO root fetch - processPackages [TissUUmaps]: New version: [3.1rc3] Old Version: [3.1rc2]
+[2023-04-27 15:51:19] INFO root fetch - processPackages [cg]: New version: [29.4.8] Old Version: [29.4.7]
+[2023-04-27 15:51:19] INFO root fetch - processPackages [cellshape]: New version: [0.0.9rc0] Old Version: [0.0.9]
+[2023-04-27 15:51:19] INFO root fetch - processPackages [xoa-driver]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-04-27 15:51:19] WARNING root fetch - processPackages [aicost]: Skipping, unable to determine old version
+[2023-04-27 15:51:19] INFO root fetch - processPackages [aicost]: Start processing: punt
+[2023-04-27 15:51:19] INFO root fetch - main [MainThread]: End processing [aicost] error
+[2023-04-27 15:51:19] INFO root fetch - processPackages [pyboxen]: New version: [1.2.0] Old Version: [1.1.2]
+[2023-04-27 15:51:19] INFO root fetch - processPackages [cellshape]: executing diffoscope
+[2023-04-27 15:51:19] INFO root fetch - processPackages [TissUUmaps]: executing diffoscope
+[2023-04-27 15:51:19] INFO root fetch - processPackages [cellshape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellshape-0.0.9.tar.gz tmp/cellshape-0.0.9rc0.tar.gz --markdown 20230427/c/cellshape/0.0.9-0.0.9rc0/diff.md --exclude *.pyd
+[2023-04-27 15:51:19] INFO root fetch - processPackages [TissUUmaps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TissUUmaps-3.1rc2.tar.gz tmp/TissUUmaps-3.1rc3.tar.gz --markdown 20230427/T/TissUUmaps/3.1rc2-3.1rc3/diff.md --exclude *.pyd
+[2023-04-27 15:51:19] INFO root fetch - processPackages [filter-vcf]: executing diffoscope
+[2023-04-27 15:51:19] INFO root fetch - processPackages [trifinger-rl-datasets]: New version: [1.0.0] Old Version: [0.9.2]
+[2023-04-27 15:51:19] INFO root fetch - processPackages [filter-vcf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/filter-vcf-0.1.3.tar.gz tmp/filter-vcf-0.1.5.tar.gz --markdown 20230427/f/filter-vcf/0.1.3-0.1.5/diff.md --exclude *.pyd
+[2023-04-27 15:51:19] INFO root fetch - processPackages [ngstrefftz-src]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-04-27 15:51:19] INFO root fetch - processPackages [sfkit]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-27 15:51:19] INFO root fetch - processPackages [punt]: New version: [v1.9.2] Old Version: [v1.9.1]
+[2023-04-27 15:51:19] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/08/9d/c6cabc01abc69eef07fc7d575e95fd0071a69287ee17121fa9acf7f2601f/cg-29.4.8.tar.gz
+[2023-04-27 15:51:19] INFO root fetch - processPackages [xoa-driver]: Downloading https://files.pythonhosted.org/packages/67/8e/d696daea0119f040c69cfae8aa4819964e9af6d92ba698f537cc700707ab/xoa-driver-1.3.1.tar.gz
+[2023-04-27 15:51:19] INFO root fetch - processPackages [trifinger-rl-datasets]: Downloading https://files.pythonhosted.org/packages/43/c1/fc4b723885e4dfbd2c4aa700bb813b3bc18ebaff7dd8c32f2e4d15e4afd7/trifinger_rl_datasets-0.9.2.tar.gz
+[2023-04-27 15:51:19] INFO root fetch - processPackages [ngstrefftz-src]: Downloading https://files.pythonhosted.org/packages/e0/f2/3bd7781e4b78f06bee7b5bcae191b54977b7a6dd04afdb8c8c1a0d098d0e/ngstrefftz-src-0.2.2.tar.gz
+[2023-04-27 15:51:19] INFO root fetch - processPackages [pyboxen]: Downloading https://files.pythonhosted.org/packages/59/fc/e6952f4fbe514e2087d661d4867d8c6f7ab7912a525bcee13c250c36b29d/pyboxen-1.1.2.tar.gz
+[2023-04-27 15:51:19] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-04-27 15:51:19] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-29.4.7.tar.gz tmp/cg-29.4.8.tar.gz --markdown 20230427/c/cg/29.4.7-29.4.8/diff.md --exclude *.pyd
+[2023-04-27 15:51:19] INFO root fetch - processPackages [xoa-driver]: executing diffoscope
+[2023-04-27 15:51:19] INFO root fetch - processPackages [xoa-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xoa-driver-1.3.0.tar.gz tmp/xoa-driver-1.3.1.tar.gz --markdown 20230427/x/xoa-driver/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-04-27 15:51:19] INFO root fetch - processPackages [punt]: Downloading https://files.pythonhosted.org/packages/47/de/b368e027d0c6b36c4142ba0f357735c7aa26218ad94b64eb9ba0e93cc691/punt-v1.9.1.tar.gz
+[2023-04-27 15:51:20] INFO root fetch - processPackages [sfkit]: executing diffoscope
+[2023-04-27 15:51:20] INFO root fetch - processPackages [sfkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sfkit-0.0.98-py3-none-any.whl.zip tmp/sfkit-0.0.99-py3-none-any.whl.zip --markdown 20230427/s/sfkit/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-27 15:51:20] INFO root fetch - processPackages [pyboxen]: Downloading https://files.pythonhosted.org/packages/b5/b1/b3d5e0a55c8677977049f12612a4a10bc54b78b2bc5a8d86941ddb0f530a/pyboxen-1.2.0.tar.gz
+[2023-04-27 15:51:20] INFO root fetch - processPackages [ngstrefftz-src]: Downloading https://files.pythonhosted.org/packages/5f/6a/ce3c74f459b40a9301e33b660188156850d59d0141898edf914aab191a10/ngstrefftz-src-0.2.3.tar.gz
+[2023-04-27 15:51:20] INFO root fetch - processPackages [pyboxen]: executing diffoscope
+[2023-04-27 15:51:20] INFO root fetch - processPackages [pyboxen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyboxen-1.1.2.tar.gz tmp/pyboxen-1.2.0.tar.gz --markdown 20230427/p/pyboxen/1.1.2-1.2.0/diff.md --exclude *.pyd
+[2023-04-27 15:51:20] INFO root fetch - processPackages [ngstrefftz-src]: executing diffoscope
+[2023-04-27 15:51:20] INFO root fetch - processPackages [ngstrefftz-src]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngstrefftz-src-0.2.2.tar.gz tmp/ngstrefftz-src-0.2.3.tar.gz --markdown 20230427/n/ngstrefftz-src/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-04-27 15:51:20] INFO root fetch - processPackages [trifinger-rl-datasets]: Downloading https://files.pythonhosted.org/packages/89/9a/3231a2686acfb8395427d8616e6cf200d68e3f985d7280676bcc0928602c/trifinger_rl_datasets-1.0.0.tar.gz
+[2023-04-27 15:51:20] INFO root fetch - processPackages [punt]: Downloading https://files.pythonhosted.org/packages/57/41/134133730b2353ed40cf4390eff499b13b4ee772c1befd1602d93a90ba31/punt-v1.9.2.tar.gz
+[2023-04-27 15:51:20] INFO root fetch - processPackages [trifinger-rl-datasets]: executing diffoscope
+[2023-04-27 15:51:20] INFO root fetch - processPackages [trifinger-rl-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trifinger_rl_datasets-0.9.2.tar.gz tmp/trifinger_rl_datasets-1.0.0.tar.gz --markdown 20230427/t/trifinger-rl-datasets/0.9.2-1.0.0/diff.md --exclude *.pyd
+[2023-04-27 15:51:20] INFO root fetch - processPackages [punt]: executing diffoscope
+[2023-04-27 15:51:20] INFO root fetch - processPackages [punt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/punt-v1.9.1.tar.gz tmp/punt-v1.9.2.tar.gz --markdown 20230427/p/punt/v1.9.1-v1.9.2/diff.md --exclude *.pyd
+[2023-04-27 15:51:21] INFO root fetch - processPackages [cellshape]: Start processing: pyscal2
+[2023-04-27 15:51:21] INFO root fetch - main [MainThread]: End processing [cellshape]: success
+[2023-04-27 15:51:21] WARNING root fetch - processPackages [pyscal2]: Skipping, unable to determine old version
+[2023-04-27 15:51:21] INFO root fetch - processPackages [pyscal2]: Start processing: pseudo-labeller
+[2023-04-27 15:51:21] INFO root fetch - main [MainThread]: End processing [pyscal2] error
+[2023-04-27 15:51:21] INFO root fetch - processPackages [pseudo-labeller]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-27 15:51:21] INFO root fetch - processPackages [pseudo-labeller]: Downloading https://files.pythonhosted.org/packages/17/74/4440d465951a25aed2c3c3aae24770ddb458cedd2d9518bc6be025f3bc6e/pseudo_labeller-0.0.4.tar.gz
+[2023-04-27 15:51:21] INFO root fetch - processPackages [sfkit]: Start processing: qwak-core
+[2023-04-27 15:51:21] INFO root fetch - main [MainThread]: End processing [sfkit]: success
+[2023-04-27 15:51:21] INFO root fetch - processPackages [pyboxen]: Start processing: nebuly
+[2023-04-27 15:51:21] INFO root fetch - main [MainThread]: End processing [pyboxen]: success
+[2023-04-27 15:51:21] INFO root fetch - processPackages [qwak-core]: New version: [0.0.36] Old Version: [0.0.35]
+[2023-04-27 15:51:21] WARNING root fetch - processPackages [nebuly]: Skipping, unable to determine old version
+[2023-04-27 15:51:21] INFO root fetch - main [MainThread]: End processing [nebuly] error
+[2023-04-27 15:51:21] INFO root fetch - processPackages [pseudo-labeller]: Downloading https://files.pythonhosted.org/packages/a4/64/893c51d2bd7eaff619bde429738dfd9ab0982f802380ac28002b041a3d9b/pseudo_labeller-0.0.5.tar.gz
+[2023-04-27 15:51:21] INFO root fetch - main [MainThread]: End processing [punt]: success
+[2023-04-27 15:51:22] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/d0/4b/6726bf034b7ab5c3c367dba2b99595addbfc21e3958111ffdf298c45ba75/qwak_core-0.0.35.tar.gz
+[2023-04-27 15:51:22] INFO root fetch - processPackages [pseudo-labeller]: executing diffoscope
+[2023-04-27 15:51:22] INFO root fetch - processPackages [pseudo-labeller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pseudo_labeller-0.0.4.tar.gz tmp/pseudo_labeller-0.0.5.tar.gz --markdown 20230427/p/pseudo-labeller/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-27 15:51:22] INFO root fetch - main [MainThread]: End processing [filter-vcf]: success
+[2023-04-27 15:51:22] INFO root fetch - main [MainThread]: End processing [trifinger-rl-datasets]: success
+[2023-04-27 15:51:22] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/b1/4a/b3044daac305c69ca68773d03464339c54f7e40a8b9d31e883f83f9ee617/qwak_core-0.0.36.tar.gz
+[2023-04-27 15:51:22] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-04-27 15:51:22] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.35.tar.gz tmp/qwak_core-0.0.36.tar.gz --markdown 20230427/q/qwak-core/0.0.35-0.0.36/diff.md --exclude *.pyd
+[2023-04-27 15:51:23] INFO root fetch - main [MainThread]: End processing [pseudo-labeller]: success
+[2023-04-27 15:51:23] INFO root fetch - main [MainThread]: End processing [xoa-driver]: success
+[2023-04-27 15:51:23] INFO root fetch - main [MainThread]: End processing [ngstrefftz-src]: success
+[2023-04-27 15:51:28] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-04-27 15:51:30] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-04-27 15:51:51] INFO root fetch - main [MainThread]: End processing [TissUUmaps]: success
+[2023-04-27 15:51:51] INFO root fetch - main [MainThread]: Store serial: [17883833]
