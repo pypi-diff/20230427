@@ -19083,3 +19083,113 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 14:40:22] INFO root fetch - main [MainThread]: End processing [xoa-driver]: success
 [2023-04-27 14:40:53] INFO root fetch - main [MainThread]: End processing [scitools-iris]: success
 [2023-04-27 14:40:53] INFO root fetch - main [MainThread]: Store serial: [17882924]
+[2023-04-27 14:45:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17882924]
+[2023-04-27 14:46:03] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-04-27 14:46:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bridgecrew
+[2023-04-27 14:46:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: str-analysis
+[2023-04-27 14:46:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: juts
+[2023-04-27 14:46:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nyaa-timer
+[2023-04-27 14:46:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: worky
+[2023-04-27 14:46:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: arcane-mct
+[2023-04-27 14:46:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: moneykit
+[2023-04-27 14:46:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-models-logging
+[2023-04-27 14:46:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: foursight-core
+[2023-04-27 14:46:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: proteus-preprocessing
+[2023-04-27 14:46:03] INFO root fetch - processPackages [moneykit]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-27 14:46:03] INFO root fetch - processPackages [nyaa-timer]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-27 14:46:03] INFO root fetch - processPackages [worky]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-27 14:46:03] INFO root fetch - processPackages [foursight-core]: New version: [4.1.0.5b55] Old Version: [4.1.0.5b54]
+[2023-04-27 14:46:03] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-04-27 14:46:03] WARNING root fetch - processPackages [juts]: Skipping, unable to determine old version
+[2023-04-27 14:46:03] INFO root fetch - processPackages [juts]: Start processing: flet-multi-page
+[2023-04-27 14:46:03] INFO root fetch - main [MainThread]: End processing [juts] error
+[2023-04-27 14:46:03] INFO root fetch - processPackages [django-models-logging]: New version: [2.3] Old Version: [2.2a0]
+[2023-04-27 14:46:03] INFO root fetch - processPackages [arcane-mct]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-04-27 14:46:03] INFO root fetch - processPackages [proteus-preprocessing]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-27 14:46:03] INFO root fetch - processPackages [str-analysis]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-04-27 14:46:03] INFO root fetch - processPackages [moneykit]: executing diffoscope
+[2023-04-27 14:46:03] INFO root fetch - processPackages [moneykit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moneykit-0.0.3.tar.gz tmp/moneykit-0.0.4.tar.gz --markdown 20230427/m/moneykit/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-27 14:46:03] WARNING root fetch - processPackages [flet-multi-page]: Skipping, unable to determine old version
+[2023-04-27 14:46:03] INFO root fetch - processPackages [flet-multi-page]: Start processing: cybrid-api-organization-python
+[2023-04-27 14:46:03] INFO root fetch - main [MainThread]: End processing [flet-multi-page] error
+[2023-04-27 14:46:03] ERROR root fetch - processPackages [nyaa-timer]: Unable to fetch info: No such project/version 'nyaa-timer' 1.0.1
+[2023-04-27 14:46:03] INFO root fetch - processPackages [nyaa-timer]: Start processing: cybrid-api-bank-python
+[2023-04-27 14:46:03] INFO root fetch - main [MainThread]: End processing [nyaa-timer] error
+[2023-04-27 14:46:03] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-04-27 14:46:03] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230427/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-04-27 14:46:04] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-27 14:46:04] INFO root fetch - processPackages [worky]: Downloading https://files.pythonhosted.org/packages/af/42/f47eef90dd9984969c1274321e5f5e59a8450b6236d2f421cf9918730d82/worky-0.1.2.tar.gz
+[2023-04-27 14:46:04] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-27 14:46:04] INFO root fetch - processPackages [arcane-mct]: Downloading https://files.pythonhosted.org/packages/20/7f/05f102ac918387e2a9bd276ef3c2460d2cfe3a8ce7efaf8ac020ebd3ab14/arcane-mct-1.2.1.tar.gz
+[2023-04-27 14:46:04] INFO root fetch - processPackages [proteus-preprocessing]: Downloading https://files.pythonhosted.org/packages/3d/44/a18e7000970bfc3315ccf59cf37b5371c79a44c3b5bf020759912cefbafc/proteus_preprocessing-0.2.8.tar.gz
+[2023-04-27 14:46:04] INFO root fetch - processPackages [django-models-logging]: Downloading https://files.pythonhosted.org/packages/a0/7a/2d636748515e397f0728f9d947b31c2aaa083eb400dcc006f845045b48b6/django-models-logging-2.2a0.tar.gz
+[2023-04-27 14:46:04] INFO root fetch - processPackages [str-analysis]: Downloading https://files.pythonhosted.org/packages/1a/51/797366d79e10788dea9a869ec3cc8b9a9dfdd2975976bdc2432180e5d463/str_analysis-0.9.7.tar.gz
+[2023-04-27 14:46:04] INFO root fetch - processPackages [foursight-core]: Downloading https://files.pythonhosted.org/packages/3f/16/af427a8988258407635d6030dca39b996fb15f8d2a01d7131b7e7a90b2f4/foursight_core-4.1.0.5b55.tar.gz
+[2023-04-27 14:46:04] INFO root fetch - processPackages [worky]: executing diffoscope
+[2023-04-27 14:46:04] INFO root fetch - processPackages [worky]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/worky-0.1.1.tar.gz tmp/worky-0.1.2.tar.gz --markdown 20230427/w/worky/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-27 14:46:04] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2023-04-27 14:46:04] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.9.8.tar.gz tmp/cybrid-api-organization-python-0.9.9.tar.gz --markdown 20230427/c/cybrid-api-organization-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-27 14:46:04] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2023-04-27 14:46:04] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.9.8.tar.gz tmp/cybrid-api-bank-python-0.9.9.tar.gz --markdown 20230427/c/cybrid-api-bank-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-27 14:46:04] INFO root fetch - processPackages [foursight-core]: executing diffoscope
+[2023-04-27 14:46:04] INFO root fetch - processPackages [foursight-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight_core-4.1.0.5b54.tar.gz tmp/foursight_core-4.1.0.5b55.tar.gz --markdown 20230427/f/foursight-core/4.1.0.5b54-4.1.0.5b55/diff.md --exclude *.pyd
+[2023-04-27 14:46:04] INFO root fetch - processPackages [arcane-mct]: Downloading https://files.pythonhosted.org/packages/a4/f4/e1d793c590d1f089c31c49035a93f438bc229c8ce5ef8d86ddaad68a99f1/arcane_mct-1.2.2.tar.gz
+[2023-04-27 14:46:04] INFO root fetch - processPackages [proteus-preprocessing]: Downloading https://files.pythonhosted.org/packages/a3/28/e3e5ad42ae97c9149ac0897d878ef171ce5791af87cbfeebc9af0f9b62e1/proteus_preprocessing-0.2.9.tar.gz
+[2023-04-27 14:46:04] INFO root fetch - processPackages [django-models-logging]: Downloading https://files.pythonhosted.org/packages/ba/09/b01d9c36766a18427c461ff1b263d0bfa42ea6564c16484b2e2dd3fcf50d/django-models-logging-2.3.tar.gz
+[2023-04-27 14:46:04] INFO root fetch - processPackages [str-analysis]: Downloading https://files.pythonhosted.org/packages/24/19/de9b9d7804cb114d3b275cb0734ca3d430bad15ff84906e7aa2def4ff5e2/str_analysis-0.9.8.tar.gz
+[2023-04-27 14:46:04] INFO root fetch - processPackages [arcane-mct]: executing diffoscope
+[2023-04-27 14:46:04] INFO root fetch - processPackages [arcane-mct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcane-mct-1.2.1.tar.gz tmp/arcane_mct-1.2.2.tar.gz --markdown 20230427/a/arcane-mct/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-04-27 14:46:04] INFO root fetch - processPackages [str-analysis]: executing diffoscope
+[2023-04-27 14:46:04] INFO root fetch - processPackages [str-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/str_analysis-0.9.7.tar.gz tmp/str_analysis-0.9.8.tar.gz --markdown 20230427/s/str-analysis/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-04-27 14:46:04] INFO root fetch - processPackages [django-models-logging]: executing diffoscope
+[2023-04-27 14:46:04] INFO root fetch - processPackages [django-models-logging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-models-logging-2.2a0.tar.gz tmp/django-models-logging-2.3.tar.gz --markdown 20230427/d/django-models-logging/2.2a0-2.3/diff.md --exclude *.pyd
+[2023-04-27 14:46:04] INFO root fetch - processPackages [proteus-preprocessing]: executing diffoscope
+[2023-04-27 14:46:04] INFO root fetch - processPackages [proteus-preprocessing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proteus_preprocessing-0.2.8.tar.gz tmp/proteus_preprocessing-0.2.9.tar.gz --markdown 20230427/p/proteus-preprocessing/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-27 14:46:05] INFO root fetch - processPackages [moneykit]: Start processing: django-models-logging
+[2023-04-27 14:46:05] INFO root fetch - main [MainThread]: End processing [moneykit]: success
+[2023-04-27 14:46:05] INFO root fetch - processPackages [django-models-logging]: New version: [2.3] Old Version: [2.2a0]
+[2023-04-27 14:46:05] INFO root fetch - processPackages [django-models-logging]: executing diffoscope
+[2023-04-27 14:46:05] INFO root fetch - processPackages [django-models-logging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-models-logging-2.2a0.tar.gz tmp/django-models-logging-2.3.tar.gz --markdown 20230427/d/django-models-logging/2.2a0-2.3/diff.md --exclude *.pyd
+[2023-04-27 14:46:05] INFO root fetch - processPackages [bridgecrew]: Start processing: phone-gen
+[2023-04-27 14:46:05] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-04-27 14:46:05] INFO root fetch - processPackages [phone-gen]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-04-27 14:46:05] INFO root fetch - processPackages [phone-gen]: Downloading https://files.pythonhosted.org/packages/95/6f/f4c6dea1373b32b3c7fa2ad8c3ee68a7a1df7396714e4e40547f2c28c46d/phone_gen-2.2.8-py3-none-any.whl
+[2023-04-27 14:46:05] INFO root fetch - processPackages [worky]: Start processing: cybrid-api-id-python
+[2023-04-27 14:46:05] INFO root fetch - main [MainThread]: End processing [worky]: success
+[2023-04-27 14:46:05] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-27 14:46:05] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2023-04-27 14:46:05] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.9.8.tar.gz tmp/cybrid-api-id-python-0.9.9.tar.gz --markdown 20230427/c/cybrid-api-id-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-27 14:46:05] INFO root fetch - processPackages [arcane-mct]: Start processing: xoa-utils
+[2023-04-27 14:46:05] INFO root fetch - main [MainThread]: End processing [arcane-mct]: success
+[2023-04-27 14:46:06] INFO root fetch - processPackages [xoa-utils]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-04-27 14:46:06] INFO root fetch - processPackages [phone-gen]: Downloading https://files.pythonhosted.org/packages/e8/77/1a24070833e5da90d251e411bf4fa032ed93c7e3a445f1414cd5258416d2/phone_gen-2.2.9-py3-none-any.whl
+[2023-04-27 14:46:06] INFO root fetch - processPackages [phone-gen]: executing diffoscope
+[2023-04-27 14:46:06] INFO root fetch - processPackages [phone-gen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phone_gen-2.2.8-py3-none-any.whl.zip tmp/phone_gen-2.2.9-py3-none-any.whl.zip --markdown 20230427/p/phone-gen/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-04-27 14:46:06] INFO root fetch - processPackages [proteus-preprocessing]: Start processing: dlplan
+[2023-04-27 14:46:06] INFO root fetch - main [MainThread]: End processing [proteus-preprocessing]: success
+[2023-04-27 14:46:06] INFO root fetch - processPackages [dlplan]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-04-27 14:46:06] INFO root fetch - processPackages [xoa-utils]: Downloading https://files.pythonhosted.org/packages/00/6a/79317947fdfe0eb6dd88f2f00daac08722c1ee99fa00f7ef72048d5158ec/xoa-utils-1.1.1.tar.gz
+[2023-04-27 14:46:06] INFO root fetch - processPackages [xoa-utils]: Downloading https://files.pythonhosted.org/packages/4d/af/e7d50dc53c8c5e40f4de5f51f7be6d15019c7f8cd08518d4ef152a951762/xoa-utils-1.2.0.tar.gz
+[2023-04-27 14:46:06] INFO root fetch - processPackages [dlplan]: Downloading https://files.pythonhosted.org/packages/22/df/4bdf968cf0cd9907357392ea7dbfef35c67d72f0767122a6fbbd10efb091/dlplan-0.2.1.tar.gz
+[2023-04-27 14:46:06] INFO root fetch - processPackages [dlplan]: executing diffoscope
+[2023-04-27 14:46:06] INFO root fetch - processPackages [dlplan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlplan-0.2.0.tar.gz tmp/dlplan-0.2.1.tar.gz --markdown 20230427/d/dlplan/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-04-27 14:46:06] INFO root fetch - processPackages [xoa-utils]: executing diffoscope
+[2023-04-27 14:46:06] INFO root fetch - processPackages [xoa-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xoa-utils-1.1.1.tar.gz tmp/xoa-utils-1.2.0.tar.gz --markdown 20230427/x/xoa-utils/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-04-27 14:46:06] INFO root fetch - processPackages [cybrid-api-organization-python]: Start processing: rpa-cooperativa
+[2023-04-27 14:46:06] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2023-04-27 14:46:06] INFO root fetch - main [MainThread]: End processing [django-models-logging]: success
+[2023-04-27 14:46:06] INFO root fetch - processPackages [rpa-cooperativa]: New version: [1.0.46] Old Version: [1.0.45]
+[2023-04-27 14:46:06] INFO root fetch - main [MainThread]: End processing [django-models-logging]: success
+[2023-04-27 14:46:07] INFO root fetch - processPackages [rpa-cooperativa]: Downloading https://files.pythonhosted.org/packages/72/b1/95b0ef911c34f005ca08f060e998f475d002733d9651d0ddf6f4c15d0011/rpa_cooperativa-1.0.45.tar.gz
+[2023-04-27 14:46:07] INFO root fetch - processPackages [rpa-cooperativa]: Downloading https://files.pythonhosted.org/packages/53/f3/41b0c14f562aee20c05329fd76a1865825d3ea6bee7cc973318094ac948d/rpa_cooperativa-1.0.46.tar.gz
+[2023-04-27 14:46:07] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2023-04-27 14:46:07] INFO root fetch - processPackages [rpa-cooperativa]: executing diffoscope
+[2023-04-27 14:46:07] INFO root fetch - processPackages [rpa-cooperativa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpa_cooperativa-1.0.45.tar.gz tmp/rpa_cooperativa-1.0.46.tar.gz --markdown 20230427/r/rpa-cooperativa/1.0.45-1.0.46/diff.md --exclude *.pyd
+[2023-04-27 14:46:07] INFO root fetch - main [MainThread]: End processing [str-analysis]: success
+[2023-04-27 14:46:07] INFO root fetch - main [MainThread]: End processing [phone-gen]: success
+[2023-04-27 14:46:07] INFO root fetch - main [MainThread]: End processing [xoa-utils]: success
+[2023-04-27 14:46:08] INFO root fetch - main [MainThread]: End processing [foursight-core]: success
+[2023-04-27 14:46:08] INFO root fetch - main [MainThread]: End processing [rpa-cooperativa]: success
+[2023-04-27 14:46:09] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2023-04-27 14:46:11] INFO root fetch - main [MainThread]: End processing [dlplan]: success
+[2023-04-27 14:46:11] INFO root fetch - main [MainThread]: Store serial: [17882996]
