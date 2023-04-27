@@ -11752,3 +11752,100 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 09:10:53] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-04-27 09:11:48] INFO root fetch - main [MainThread]: End processing [pylyzer]: success
 [2023-04-27 09:11:48] INFO root fetch - main [MainThread]: Store serial: [17878763]
+[2023-04-27 09:17:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17878763]
+[2023-04-27 09:17:11] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-04-27 09:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pymef
+[2023-04-27 09:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-switchbot-ble
+[2023-04-27 09:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spectralib
+[2023-04-27 09:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-hub-nightly
+[2023-04-27 09:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-04-27 09:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: streamlit-nightly
+[2023-04-27 09:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: st-common-data
+[2023-04-27 09:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-jsonifier
+[2023-04-27 09:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hyperfast-python-template
+[2023-04-27 09:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: zendron
+[2023-04-27 09:17:11] INFO root fetch - processPackages [spectralib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 09:17:11] WARNING root fetch - processPackages [python-switchbot-ble]: Skipping, unable to determine old version
+[2023-04-27 09:17:11] INFO root fetch - processPackages [python-switchbot-ble]: Start processing: mutwo.csound
+[2023-04-27 09:17:11] INFO root fetch - main [MainThread]: End processing [python-switchbot-ble] error
+[2023-04-27 09:17:12] INFO root fetch - processPackages [odoo14-addon-jsonifier]: New version: [14.0.1.1.1.dev1] Old Version: [14.0.1.1.0]
+[2023-04-27 09:17:12] INFO root fetch - processPackages [pymef]: New version: [1.3.5] Old Version: [1.3.4]
+[2023-04-27 09:17:12] INFO root fetch - processPackages [mutwo.csound]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-04-27 09:17:12] INFO root fetch - processPackages [zendron]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-27 09:17:12] INFO root fetch - processPackages [st-common-data]: New version: [0.2.6.2] Old Version: [0.2.6.1]
+[2023-04-27 09:17:12] INFO root fetch - processPackages [hyperfast-python-template]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-04-27 09:17:12] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.9.3.dev20220601] Old Version: [1.9.3.dev20220531]
+[2023-04-27 09:17:12] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-04-27 09:17:12] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2023-04-27 09:17:12] INFO root fetch - processPackages [zendron]: executing diffoscope
+[2023-04-27 09:17:12] INFO root fetch - processPackages [zendron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zendron-1.0.8.tar.gz tmp/zendron-1.0.9.tar.gz --markdown 20230427/z/zendron/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-27 09:17:12] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2023-04-27 09:17:12] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz --markdown 20230427/s/streamlit-nightly/1.9.3.dev20220531-1.9.3.dev20220601/diff.md --exclude *.pyd
+[2023-04-27 09:17:12] INFO root fetch - processPackages [mutwo.csound]: Downloading https://files.pythonhosted.org/packages/79/e6/934dfb451b604e7a21d9d542ef7c14993c98db05660c48755ce4ca640fd2/mutwo.csound-0.6.1.tar.gz
+[2023-04-27 09:17:12] INFO root fetch - processPackages [pymef]: Downloading https://files.pythonhosted.org/packages/ca/54/29e5a3b87b3040f007f959d9be32bacc2c0fd871b07d33ef8f73eebfae70/pymef-1.3.4.tar.gz
+[2023-04-27 09:17:12] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-04-27 09:17:12] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230427/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-04-27 09:17:12] INFO root fetch - processPackages [hyperfast-python-template]: Downloading https://files.pythonhosted.org/packages/1c/6e/fe3aa18bd38461d6b0b828b18c510feb6b4d141c59d4cb1afce25183652f/hyperfast_python_template-0.3.0.tar.gz
+[2023-04-27 09:17:12] INFO root fetch - processPackages [st-common-data]: Downloading https://files.pythonhosted.org/packages/b3/e6/48020175705cfda63acf79feb0dafa02dee99041f8c4458099c97b34c820/st_common_data-0.2.6.1.tar.gz
+[2023-04-27 09:17:12] INFO root fetch - processPackages [odoo14-addon-jsonifier]: Downloading https://files.pythonhosted.org/packages/9d/72/37e990e28490b5d6a3c85f323ca47c99d3523803b9cc1cbda51eba24389e/odoo14_addon_jsonifier-14.0.1.1.1.dev1-py3-none-any.whl
+[2023-04-27 09:17:12] INFO root fetch - processPackages [hyperfast-python-template]: executing diffoscope
+[2023-04-27 09:17:12] INFO root fetch - processPackages [hyperfast-python-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperfast_python_template-0.2.9.tar.gz tmp/hyperfast_python_template-0.3.0.tar.gz --markdown 20230427/h/hyperfast-python-template/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-04-27 09:17:12] INFO root fetch - processPackages [spectralib]: Downloading https://files.pythonhosted.org/packages/87/c9/0974eddac8d93df12e61a6584559e86593aa7e4375c5e8288bf56e7013f3/spectralib-0.0.9.tar.gz
+[2023-04-27 09:17:12] INFO root fetch - processPackages [odoo14-addon-jsonifier]: executing diffoscope
+[2023-04-27 09:17:12] INFO root fetch - processPackages [odoo14-addon-jsonifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_jsonifier-14.0.1.1.0-py3-none-any.whl.zip tmp/odoo14_addon_jsonifier-14.0.1.1.1.dev1-py3-none-any.whl.zip --markdown 20230427/o/odoo14-addon-jsonifier/14.0.1.1.0-14.0.1.1.1.dev1/diff.md --exclude *.pyd
+[2023-04-27 09:17:12] INFO root fetch - processPackages [st-common-data]: Downloading https://files.pythonhosted.org/packages/b2/06/6e578209536461eb40ce8903f1667c3e722d7f781dd775381cefce52baa3/st_common_data-0.2.6.2.tar.gz
+[2023-04-27 09:17:12] INFO root fetch - processPackages [spectralib]: executing diffoscope
+[2023-04-27 09:17:12] INFO root fetch - processPackages [spectralib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spectralib-0.0.8.tar.gz tmp/spectralib-0.0.9.tar.gz --markdown 20230427/s/spectralib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 09:17:12] INFO root fetch - processPackages [st-common-data]: executing diffoscope
+[2023-04-27 09:17:12] INFO root fetch - processPackages [mutwo.csound]: Downloading https://files.pythonhosted.org/packages/70/17/73bd96c211462c4b45a5ab531449ac9cb38afbca683a636c558c0cacac41/mutwo.csound-0.7.0.tar.gz
+[2023-04-27 09:17:12] INFO root fetch - processPackages [st-common-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_common_data-0.2.6.1.tar.gz tmp/st_common_data-0.2.6.2.tar.gz --markdown 20230427/s/st-common-data/0.2.6.1-0.2.6.2/diff.md --exclude *.pyd
+[2023-04-27 09:17:12] INFO root fetch - processPackages [pymef]: Downloading https://files.pythonhosted.org/packages/ed/79/ce41c269052a4f9d28a46c20397898c067e81e78ed77686b05642832f4c6/pymef-1.3.5.tar.gz
+[2023-04-27 09:17:12] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2023-04-27 09:17:12] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20230427/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/diff.md --exclude *.pyd
+[2023-04-27 09:17:12] INFO root fetch - processPackages [mutwo.csound]: executing diffoscope
+[2023-04-27 09:17:12] INFO root fetch - processPackages [mutwo.csound]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mutwo.csound-0.6.1.tar.gz tmp/mutwo.csound-0.7.0.tar.gz --markdown 20230427/m/mutwo.csound/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-04-27 09:17:12] INFO root fetch - processPackages [pymef]: executing diffoscope
+[2023-04-27 09:17:12] INFO root fetch - processPackages [pymef]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymef-1.3.4.tar.gz tmp/pymef-1.3.5.tar.gz --markdown 20230427/p/pymef/1.3.4-1.3.5/diff.md --exclude *.pyd
+[2023-04-27 09:17:13] INFO root fetch - processPackages [hyperfast-python-template]: Start processing: sunyata
+[2023-04-27 09:17:13] INFO root fetch - main [MainThread]: End processing [hyperfast-python-template]: success
+[2023-04-27 09:17:13] INFO root fetch - processPackages [sunyata]: New version: [0.0.39] Old Version: [0.0.38]
+[2023-04-27 09:17:13] INFO root fetch - processPackages [sunyata]: Downloading https://files.pythonhosted.org/packages/92/5e/42d0a284e8266c0c896513a40ca85f88dccd151f4df2a27d9b192e10e4d8/sunyata-0.0.38.tar.gz
+[2023-04-27 09:17:13] INFO root fetch - processPackages [odoo14-addon-jsonifier]: Start processing: brucelee
+[2023-04-27 09:17:13] INFO root fetch - main [MainThread]: End processing [odoo14-addon-jsonifier]: success
+[2023-04-27 09:17:13] INFO root fetch - processPackages [brucelee]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-27 09:17:13] INFO root fetch - processPackages [mutwo.csound]: Start processing: ccdt
+[2023-04-27 09:17:13] INFO root fetch - main [MainThread]: End processing [mutwo.csound]: success
+[2023-04-27 09:17:14] INFO root fetch - processPackages [ccdt]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-04-27 09:17:14] INFO root fetch - processPackages [st-common-data]: Start processing: cg
+[2023-04-27 09:17:14] INFO root fetch - main [MainThread]: End processing [st-common-data]: success
+[2023-04-27 09:17:14] INFO root fetch - processPackages [cg]: New version: [29.4.7] Old Version: [29.4.6]
+[2023-04-27 09:17:14] INFO root fetch - processPackages [brucelee]: Downloading https://files.pythonhosted.org/packages/fe/07/f895876f786fee3e2b90717742a916fd672771e0bdcc9c66d886cfd5dec3/brucelee-1.0.1.tar.gz
+[2023-04-27 09:17:14] INFO root fetch - processPackages [sunyata]: Downloading https://files.pythonhosted.org/packages/c7/a8/e1e7de9e62c035527046b08a224e69ea4d8fdbf2d592da8fb1373843cdb7/sunyata-0.0.39.tar.gz
+[2023-04-27 09:17:14] INFO root fetch - processPackages [sunyata]: executing diffoscope
+[2023-04-27 09:17:14] INFO root fetch - processPackages [sunyata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunyata-0.0.38.tar.gz tmp/sunyata-0.0.39.tar.gz --markdown 20230427/s/sunyata/0.0.38-0.0.39/diff.md --exclude *.pyd
+[2023-04-27 09:17:14] INFO root fetch - processPackages [zendron]: Start processing: qwak-sdk
+[2023-04-27 09:17:14] INFO root fetch - main [MainThread]: End processing [zendron]: success
+[2023-04-27 09:17:14] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2023-04-27 09:17:14] INFO root fetch - processPackages [qwak-sdk]: New version: [0.2.29rc0] Old Version: [0.2.28rc0]
+[2023-04-27 09:17:14] INFO root fetch - main [MainThread]: End processing [pymef]: success
+[2023-04-27 09:17:14] INFO root fetch - main [MainThread]: End processing [spectralib]: success
+[2023-04-27 09:17:14] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/15/00/c85c4f36388dd8aca2c55ce30015771a84207c6712a50039cc3e3e0df762/cg-29.4.7.tar.gz
+[2023-04-27 09:17:14] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-04-27 09:17:14] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-29.4.6.tar.gz tmp/cg-29.4.7.tar.gz --markdown 20230427/c/cg/29.4.6-29.4.7/diff.md --exclude *.pyd
+[2023-04-27 09:17:14] INFO root fetch - processPackages [ccdt]: Downloading https://files.pythonhosted.org/packages/8a/d8/067896d998f46baf539c49899794903f9dd118c1e9ae716d2e06f8e55a32/ccdt-2.0.3.tar.gz
+[2023-04-27 09:17:14] INFO root fetch - processPackages [brucelee]: Downloading https://files.pythonhosted.org/packages/cd/f7/80f131917d0d894033db0c78ada44f3d7dcadc402528e9f3d70ee5c3f027/brucelee-1.0.2.tar.gz
+[2023-04-27 09:17:14] INFO root fetch - processPackages [ccdt]: executing diffoscope
+[2023-04-27 09:17:14] INFO root fetch - processPackages [ccdt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccdt-2.0.2.tar.gz tmp/ccdt-2.0.3.tar.gz --markdown 20230427/c/ccdt/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-04-27 09:17:14] INFO root fetch - processPackages [brucelee]: executing diffoscope
+[2023-04-27 09:17:14] INFO root fetch - processPackages [brucelee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brucelee-1.0.1.tar.gz tmp/brucelee-1.0.2.tar.gz --markdown 20230427/b/brucelee/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-27 09:17:14] INFO root fetch - processPackages [qwak-sdk]: Downloading https://files.pythonhosted.org/packages/75/2e/dba4e45a6f2c6d9511990521d9253fdaecbee2c0fc7a67c573bfbec4b412/qwak_sdk-0.2.29rc0.tar.gz
+[2023-04-27 09:17:14] INFO root fetch - processPackages [qwak-sdk]: executing diffoscope
+[2023-04-27 09:17:14] INFO root fetch - processPackages [qwak-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_sdk-0.2.28rc0.tar.gz tmp/qwak_sdk-0.2.29rc0.tar.gz --markdown 20230427/q/qwak-sdk/0.2.28rc0-0.2.29rc0/diff.md --exclude *.pyd
+[2023-04-27 09:17:15] INFO root fetch - main [MainThread]: End processing [sunyata]: success
+[2023-04-27 09:17:15] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-04-27 09:17:15] INFO root fetch - main [MainThread]: End processing [ccdt]: success
+[2023-04-27 09:17:15] INFO root fetch - main [MainThread]: End processing [brucelee]: success
+[2023-04-27 09:17:17] INFO root fetch - main [MainThread]: End processing [qwak-sdk]: success
+[2023-04-27 09:17:24] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2023-04-27 09:17:25] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-04-27 09:17:25] INFO root fetch - main [MainThread]: Store serial: [17878816]
