@@ -18685,3 +18685,125 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 14:23:51] INFO root fetch - main [MainThread]: End processing [appthreat-depscan]: success
 [2023-04-27 14:23:52] INFO root fetch - main [MainThread]: End processing [pingsafecli]: success
 [2023-04-27 14:23:52] INFO root fetch - main [MainThread]: Store serial: [17882712]
+[2023-04-27 14:28:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17882712]
+[2023-04-27 14:29:01] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-04-27 14:29:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yubikey-manager
+[2023-04-27 14:29:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: uphill
+[2023-04-27 14:29:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: phonenumberslite
+[2023-04-27 14:29:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sar-handler
+[2023-04-27 14:29:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: phonenumbers
+[2023-04-27 14:29:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pingsafecli
+[2023-04-27 14:29:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nrobo
+[2023-04-27 14:29:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: foundry-dev-tools
+[2023-04-27 14:29:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: metadynminer
+[2023-04-27 14:29:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pingsafecli
+[2023-04-27 14:29:01] INFO root fetch - processPackages [sar-handler]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-27 14:29:01] INFO root fetch - processPackages [phonenumberslite]: New version: [8.9.9] Old Version: [8.9.8]
+[2023-04-27 14:29:01] INFO root fetch - processPackages [pingsafecli]: New version: [2.3.202] Old Version: [2.3.201]
+[2023-04-27 14:29:01] INFO root fetch - processPackages [pingsafecli]: New version: [2.3.202] Old Version: [2.3.201]
+[2023-04-27 14:29:01] INFO root fetch - processPackages [yubikey-manager]: New version: [5.1.1] Old Version: [5.1.0]
+[2023-04-27 14:29:01] INFO root fetch - processPackages [sar-handler]: executing diffoscope
+[2023-04-27 14:29:01] INFO root fetch - processPackages [sar-handler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sar_handler-0.1.3.tar.gz tmp/sar_handler-0.1.4.tar.gz --markdown 20230427/s/sar-handler/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-27 14:29:01] INFO root fetch - processPackages [pingsafecli]: executing diffoscope
+[2023-04-27 14:29:01] INFO root fetch - processPackages [pingsafecli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pingsafecli-2.3.201-py3-none-any.whl.zip tmp/pingsafecli-2.3.202-py3-none-any.whl.zip --markdown 20230427/p/pingsafecli/2.3.201-2.3.202/diff.md --exclude *.pyd
+[2023-04-27 14:29:01] WARNING root fetch - processPackages [uphill]: Skipping, unable to determine old version
+[2023-04-27 14:29:01] INFO root fetch - processPackages [uphill]: Start processing: sequana
+[2023-04-27 14:29:01] INFO root fetch - main [MainThread]: End processing [uphill] error
+[2023-04-27 14:29:01] INFO root fetch - processPackages [foundry-dev-tools]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-27 14:29:01] WARNING root fetch - processPackages [metadynminer]: Skipping, unable to determine old version
+[2023-04-27 14:29:01] INFO root fetch - processPackages [nrobo]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-04-27 14:29:01] INFO root fetch - processPackages [metadynminer]: Start processing: meme-generator
+[2023-04-27 14:29:01] INFO root fetch - main [MainThread]: End processing [metadynminer] error
+[2023-04-27 14:29:01] INFO root fetch - processPackages [phonenumbers]: New version: [8.9.9] Old Version: [8.9.8]
+[2023-04-27 14:29:01] INFO root fetch - processPackages [pingsafecli]: executing diffoscope
+[2023-04-27 14:29:01] INFO root fetch - processPackages [pingsafecli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pingsafecli-2.3.201-py3-none-any.whl.zip tmp/pingsafecli-2.3.202-py3-none-any.whl.zip --markdown 20230427/p/pingsafecli/2.3.201-2.3.202/diff.md --exclude *.pyd
+[2023-04-27 14:29:02] INFO root fetch - processPackages [phonenumberslite]: Downloading https://files.pythonhosted.org/packages/2a/34/673df63018e24dd0e697c0c1d47fbaab6775c15d1798ed9e0b834b78ac65/phonenumberslite-8.9.8.tar.gz
+[2023-04-27 14:29:02] INFO root fetch - processPackages [sequana]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-04-27 14:29:02] INFO root fetch - processPackages [meme-generator]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 14:29:02] INFO root fetch - processPackages [yubikey-manager]: Downloading https://files.pythonhosted.org/packages/e9/2a/b2c6217d94aea5024614be2e6b13ce426596c8cb26c67206085f0f000ec2/yubikey_manager-5.1.0.tar.gz
+[2023-04-27 14:29:02] INFO root fetch - processPackages [foundry-dev-tools]: Downloading https://files.pythonhosted.org/packages/c9/8e/e6156dcfc9977a6a6cbe1d6420f7e2bd29f8d7c4a6f29c5f04ce644e4795/foundry-dev-tools-1.0.8.tar.gz
+[2023-04-27 14:29:02] INFO root fetch - processPackages [phonenumbers]: Downloading https://files.pythonhosted.org/packages/61/7b/90d90d52bf1a407405c8b13f5701c40d4ed9574fa05f456f232296b5390d/phonenumbers-8.9.8.tar.gz
+[2023-04-27 14:29:02] INFO root fetch - processPackages [nrobo]: Downloading https://files.pythonhosted.org/packages/85/01/55b435abcb1fac7d6b65be649216d8d0e940f6f90b40034379b3be7119cc/nrobo-2.0.8.tar.gz
+[2023-04-27 14:29:02] INFO root fetch - processPackages [sequana]: Downloading https://files.pythonhosted.org/packages/ff/75/e1ef2e3648a089e98fe75ca07d35e6ef884b3b591a0600ebfe29e7bff534/sequana-0.9.7.tar.gz
+[2023-04-27 14:29:02] INFO root fetch - processPackages [meme-generator]: Downloading https://files.pythonhosted.org/packages/a9/d7/0e3a810f2bc5c3297da0dd0b704e0135ad64087f37a1e767b3b1e0a85809/meme_generator-0.0.8.tar.gz
+[2023-04-27 14:29:02] INFO root fetch - processPackages [phonenumberslite]: Downloading https://files.pythonhosted.org/packages/1b/d2/a02b729fceb0f6e61adf61ac7dc258345c724815ff446e3d8204cae3e838/phonenumberslite-8.9.9.tar.gz
+[2023-04-27 14:29:02] INFO root fetch - processPackages [yubikey-manager]: Downloading https://files.pythonhosted.org/packages/8e/70/d4c632df03f0c1f45ce26981a356fd10fe3ae49fccc1856769448efe396a/yubikey_manager-5.1.1.tar.gz
+[2023-04-27 14:29:02] WARNING root fetch - processPackages [sequana]: Skipping package: exceeds size limit 21031689>=10485760
+[2023-04-27 14:29:02] INFO root fetch - processPackages [sequana]: Start processing: primawera
+[2023-04-27 14:29:02] INFO root fetch - main [MainThread]: End processing [sequana] error
+[2023-04-27 14:29:02] INFO root fetch - processPackages [yubikey-manager]: executing diffoscope
+[2023-04-27 14:29:02] INFO root fetch - processPackages [yubikey-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yubikey_manager-5.1.0.tar.gz tmp/yubikey_manager-5.1.1.tar.gz --markdown 20230427/y/yubikey-manager/5.1.0-5.1.1/diff.md --exclude *.pyd
+[2023-04-27 14:29:02] INFO root fetch - processPackages [primawera]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-04-27 14:29:02] INFO root fetch - processPackages [foundry-dev-tools]: Downloading https://files.pythonhosted.org/packages/ea/12/386e1fae0abdb75baae2b8441b6470178841a7c54318b5bb4f1697149dd1/foundry-dev-tools-1.0.9.tar.gz
+[2023-04-27 14:29:02] WARNING root fetch - processPackages [nrobo]: Skipping package: exceeds size limit 56550856>=10485760
+[2023-04-27 14:29:02] INFO root fetch - processPackages [nrobo]: Start processing: bigdl-dllib-spark3
+[2023-04-27 14:29:02] INFO root fetch - main [MainThread]: End processing [nrobo] error
+[2023-04-27 14:29:02] INFO root fetch - processPackages [phonenumberslite]: executing diffoscope
+[2023-04-27 14:29:02] INFO root fetch - processPackages [phonenumberslite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phonenumberslite-8.9.8.tar.gz tmp/phonenumberslite-8.9.9.tar.gz --markdown 20230427/p/phonenumberslite/8.9.8-8.9.9/diff.md --exclude *.pyd
+[2023-04-27 14:29:02] INFO root fetch - processPackages [meme-generator]: Downloading https://files.pythonhosted.org/packages/90/df/38bd05ba859b098fb21ed20a255e4ebe63b6e8e39962cd492827b796c48f/meme_generator-0.0.9.tar.gz
+[2023-04-27 14:29:02] INFO root fetch - processPackages [primawera]: Downloading https://files.pythonhosted.org/packages/62/34/eaf0df26d354c3dfa804e41013d187bb2c45d62f264aaf3b6db89da4d3e8/primawera-0.4.0-py3-none-any.whl
+[2023-04-27 14:29:02] INFO root fetch - processPackages [foundry-dev-tools]: executing diffoscope
+[2023-04-27 14:29:02] INFO root fetch - processPackages [foundry-dev-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foundry-dev-tools-1.0.8.tar.gz tmp/foundry-dev-tools-1.0.9.tar.gz --markdown 20230427/f/foundry-dev-tools/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-27 14:29:02] INFO root fetch - processPackages [bigdl-dllib-spark3]: New version: [2.4.0b20230427] Old Version: [2.4.0b20230425]
+[2023-04-27 14:29:02] INFO root fetch - processPackages [phonenumbers]: Downloading https://files.pythonhosted.org/packages/bc/2a/0ad24a36f6763be01df1b427f23a38456a351fdf205b0c19041499a9f82c/phonenumbers-8.9.9.tar.gz
+[2023-04-27 14:29:02] INFO root fetch - processPackages [meme-generator]: executing diffoscope
+[2023-04-27 14:29:02] INFO root fetch - processPackages [meme-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meme_generator-0.0.8.tar.gz tmp/meme_generator-0.0.9.tar.gz --markdown 20230427/m/meme-generator/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 14:29:03] INFO root fetch - processPackages [bigdl-dllib-spark3]: Downloading https://files.pythonhosted.org/packages/48/30/2f581c994bf34f2775441b3b926c9e65fd0358b81bd24ecc753311eb2e2f/bigdl-dllib-spark3-2.4.0b20230425.tar.gz
+[2023-04-27 14:29:03] INFO root fetch - processPackages [primawera]: Downloading https://files.pythonhosted.org/packages/bf/78/3fe8d6574955e06990f9eea096f5b7ff8cd7999481e0463a192de570edf3/primawera-0.4.1-py3-none-any.whl
+[2023-04-27 14:29:03] INFO root fetch - processPackages [sar-handler]: Start processing: one-api-tool
+[2023-04-27 14:29:03] INFO root fetch - main [MainThread]: End processing [sar-handler]: success
+[2023-04-27 14:29:03] WARNING root fetch - processPackages [bigdl-dllib-spark3]: Skipping package: exceeds size limit 61251884>=10485760
+[2023-04-27 14:29:03] INFO root fetch - processPackages [bigdl-dllib-spark3]: Start processing: methodism
+[2023-04-27 14:29:03] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark3] error
+[2023-04-27 14:29:03] INFO root fetch - processPackages [one-api-tool]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-04-27 14:29:03] INFO root fetch - processPackages [methodism]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-27 14:29:03] INFO root fetch - processPackages [primawera]: executing diffoscope
+[2023-04-27 14:29:03] INFO root fetch - processPackages [primawera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/primawera-0.4.0-py3-none-any.whl.zip tmp/primawera-0.4.1-py3-none-any.whl.zip --markdown 20230427/p/primawera/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-04-27 14:29:03] INFO root fetch - processPackages [methodism]: executing diffoscope
+[2023-04-27 14:29:03] INFO root fetch - processPackages [methodism]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/methodism-0.0.4.tar.gz tmp/methodism-0.0.5.tar.gz --markdown 20230427/m/methodism/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-27 14:29:03] INFO root fetch - processPackages [one-api-tool]: Downloading https://files.pythonhosted.org/packages/26/80/4375225e695e7d98d207b87056bb3d74dfabb95d4dd40270d27c8e8a47a0/one-api-tool-0.2.3.tar.gz
+[2023-04-27 14:29:03] INFO root fetch - processPackages [one-api-tool]: executing diffoscope
+[2023-04-27 14:29:03] INFO root fetch - processPackages [one-api-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/one-api-tool-0.2.2.tar.gz tmp/one-api-tool-0.2.3.tar.gz --markdown 20230427/o/one-api-tool/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-04-27 14:29:03] INFO root fetch - processPackages [pingsafecli]: Start processing: types-tensorflow
+[2023-04-27 14:29:03] INFO root fetch - main [MainThread]: End processing [pingsafecli]: success
+[2023-04-27 14:29:03] INFO root fetch - processPackages [types-tensorflow]: New version: [2.12.0.1] Old Version: [2.12.0.0]
+[2023-04-27 14:29:03] INFO root fetch - processPackages [phonenumbers]: executing diffoscope
+[2023-04-27 14:29:03] INFO root fetch - processPackages [phonenumbers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phonenumbers-8.9.8.tar.gz tmp/phonenumbers-8.9.9.tar.gz --markdown 20230427/p/phonenumbers/8.9.8-8.9.9/diff.md --exclude *.pyd
+[2023-04-27 14:29:03] INFO root fetch - processPackages [types-tensorflow]: executing diffoscope
+[2023-04-27 14:29:03] INFO root fetch - processPackages [types-tensorflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-tensorflow-2.12.0.0.tar.gz tmp/types-tensorflow-2.12.0.1.tar.gz --markdown 20230427/t/types-tensorflow/2.12.0.0-2.12.0.1/diff.md --exclude *.pyd
+[2023-04-27 14:29:04] INFO root fetch - processPackages [methodism]: Start processing: sohuprompt
+[2023-04-27 14:29:04] INFO root fetch - main [MainThread]: End processing [methodism]: success
+[2023-04-27 14:29:04] INFO root fetch - processPackages [sohuprompt]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-04-27 14:29:04] INFO root fetch - processPackages [primawera]: Start processing: purple-plan
+[2023-04-27 14:29:04] INFO root fetch - main [MainThread]: End processing [primawera]: success
+[2023-04-27 14:29:04] INFO root fetch - processPackages [purple-plan]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-27 14:29:04] INFO root fetch - processPackages [foundry-dev-tools]: Start processing: bigdl-orca-spark3
+[2023-04-27 14:29:04] INFO root fetch - main [MainThread]: End processing [foundry-dev-tools]: success
+[2023-04-27 14:29:04] INFO root fetch - processPackages [sohuprompt]: Downloading https://files.pythonhosted.org/packages/f3/bc/9f0dcf87b780585deec6955820b766ef4bc8a4e0510218d04c0920d5a0f0/sohuprompt-1.0.5.tar.gz
+[2023-04-27 14:29:04] INFO root fetch - processPackages [bigdl-orca-spark3]: New version: [2.4.0b20230425] Old Version: [2.4.0b20230424]
+[2023-04-27 14:29:04] INFO root fetch - processPackages [one-api-tool]: Start processing: bigdl-friesian-spark3
+[2023-04-27 14:29:04] INFO root fetch - main [MainThread]: End processing [one-api-tool]: success
+[2023-04-27 14:29:04] INFO root fetch - processPackages [purple-plan]: Downloading https://files.pythonhosted.org/packages/d9/14/0d0c27f122164ce221115d0b0d0f5455ac711e394784d8f3eccfbc6d6981/purple_plan-0.1.5-cp39-cp39-manylinux1_x86_64.whl
+[2023-04-27 14:29:04] INFO root fetch - processPackages [bigdl-orca-spark3]: Downloading https://files.pythonhosted.org/packages/9b/b3/14e0acf9ddb51f6445b67f3981ef3de06a6ed2c4f50bb8333f32b1791010/bigdl_orca_spark3-2.4.0b20230424-py3-none-manylinux1_x86_64.whl
+[2023-04-27 14:29:05] INFO root fetch - processPackages [sohuprompt]: Downloading https://files.pythonhosted.org/packages/ef/bf/fdc6bacc0eddfb1c0b29640b4620ae07e634c725190e2230337a874469a9/sohuprompt-1.0.6.tar.gz
+[2023-04-27 14:29:05] WARNING root fetch - processPackages [bigdl-orca-spark3]: Skipping package: exceeds size limit 20207456>=10485760
+[2023-04-27 14:29:05] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark3] error
+[2023-04-27 14:29:05] INFO root fetch - processPackages [purple-plan]: executing diffoscope
+[2023-04-27 14:29:05] INFO root fetch - processPackages [purple-plan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/purple_plan-0.1.4-cp39-cp39-manylinux1_x86_64.whl.zip tmp/purple_plan-0.1.5-cp39-cp39-manylinux1_x86_64.whl.zip --markdown 20230427/p/purple-plan/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-27 14:29:05] INFO root fetch - processPackages [bigdl-friesian-spark3]: New version: [2.4.0b20230427] Old Version: [2.4.0b20230425]
+[2023-04-27 14:29:05] INFO root fetch - main [MainThread]: End processing [meme-generator]: success
+[2023-04-27 14:29:05] INFO root fetch - processPackages [sohuprompt]: executing diffoscope
+[2023-04-27 14:29:05] INFO root fetch - processPackages [sohuprompt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sohuprompt-1.0.5.tar.gz tmp/sohuprompt-1.0.6.tar.gz --markdown 20230427/s/sohuprompt/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-04-27 14:29:05] INFO root fetch - processPackages [bigdl-friesian-spark3]: Downloading https://files.pythonhosted.org/packages/eb/b9/1ecd8003a684e887cb28cdbfc5554939fc7dcf7bc0ab2e6cd685785d9f74/bigdl_friesian_spark3-2.4.0b20230425-py3-none-manylinux1_x86_64.whl
+[2023-04-27 14:29:05] INFO root fetch - processPackages [bigdl-friesian-spark3]: Downloading https://files.pythonhosted.org/packages/ea/4c/4d788ddbc6dc2dbb233ed6cffa7ea08dcf8a8c65c502ae5ebb8f1cb21774/bigdl_friesian_spark3-2.4.0b20230427-py3-none-manylinux1_x86_64.whl
+[2023-04-27 14:29:05] INFO root fetch - processPackages [bigdl-friesian-spark3]: executing diffoscope
+[2023-04-27 14:29:05] INFO root fetch - processPackages [bigdl-friesian-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark3-2.4.0b20230425-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark3-2.4.0b20230427-py3-none-manylinux1_x86_64.whl.zip --markdown 20230427/b/bigdl-friesian-spark3/2.4.0b20230425-2.4.0b20230427/diff.md --exclude *.pyd
+[2023-04-27 14:29:06] INFO root fetch - main [MainThread]: End processing [pingsafecli]: success
+[2023-04-27 14:29:06] INFO root fetch - main [MainThread]: End processing [sohuprompt]: success
+[2023-04-27 14:29:07] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark3]: success
+[2023-04-27 14:29:07] INFO root fetch - main [MainThread]: End processing [yubikey-manager]: success
+[2023-04-27 14:29:07] INFO root fetch - main [MainThread]: End processing [types-tensorflow]: success
+[2023-04-27 14:29:11] INFO root fetch - main [MainThread]: End processing [phonenumberslite]: success
+[2023-04-27 14:29:11] INFO root fetch - main [MainThread]: End processing [phonenumbers]: success
+[2023-04-27 14:29:39] INFO root fetch - main [MainThread]: End processing [purple-plan]: success
+[2023-04-27 14:29:39] INFO root fetch - main [MainThread]: Store serial: [17882773]
