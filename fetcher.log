@@ -5610,3 +5610,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 03:07:26] INFO root fetch - main [MainThread]: End processing [flowtask]: success
 [2023-04-27 03:08:04] INFO root fetch - main [MainThread]: End processing [alacorder]: success
 [2023-04-27 03:08:04] INFO root fetch - main [MainThread]: Store serial: [17875117]
+[2023-04-27 03:13:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17875117]
+[2023-04-27 03:13:14] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-27 03:13:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deepdriver
+[2023-04-27 03:13:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: np-session
+[2023-04-27 03:13:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tomcru
+[2023-04-27 03:13:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tresto
+[2023-04-27 03:13:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pepperize.cdk-organizations
+[2023-04-27 03:13:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rds-cep
+[2023-04-27 03:13:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: labelbox
+[2023-04-27 03:13:14] INFO root fetch - processPackages [np-session]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-04-27 03:13:14] INFO root fetch - processPackages [tresto]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-27 03:13:14] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-04-27 03:13:14] WARNING root fetch - processPackages [tomcru]: Skipping, unable to determine old version
+[2023-04-27 03:13:14] INFO root fetch - main [MainThread]: End processing [tomcru] error
+[2023-04-27 03:13:14] INFO root fetch - processPackages [deepdriver]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-04-27 03:13:14] WARNING root fetch - processPackages [rds-cep]: Skipping, unable to determine old version
+[2023-04-27 03:13:14] INFO root fetch - main [MainThread]: End processing [rds-cep] error
+[2023-04-27 03:13:14] INFO root fetch - processPackages [labelbox]: New version: [3.9.0] Old Version: [3.8.0]
+[2023-04-27 03:13:14] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-04-27 03:13:14] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230427/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-04-27 03:13:14] INFO root fetch - processPackages [tresto]: Downloading https://files.pythonhosted.org/packages/99/ad/a531eb53a730a9e1bd468f54a0aad4f399a281012d23969c1146849bfcf5/tresto-0.1.0.tar.gz
+[2023-04-27 03:13:14] INFO root fetch - processPackages [labelbox]: Downloading https://files.pythonhosted.org/packages/4f/01/710a4f4bfac8fc8da01f002de2248e4b76909089815bf3b2b3c402de1c76/labelbox-3.8.0.tar.gz
+[2023-04-27 03:13:14] INFO root fetch - processPackages [np-session]: Downloading https://files.pythonhosted.org/packages/e8/61/5ce6650467faaa7ed068091b9858a4f77983dfeebd6f792bddebba92bd05/np-session-0.5.4.tar.gz
+[2023-04-27 03:13:14] INFO root fetch - processPackages [deepdriver]: executing diffoscope
+[2023-04-27 03:13:14] INFO root fetch - processPackages [deepdriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepdriver-0.9.4.tar.gz tmp/deepdriver-0.9.5.tar.gz --markdown 20230427/d/deepdriver/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-04-27 03:13:14] INFO root fetch - processPackages [tresto]: Downloading https://files.pythonhosted.org/packages/13/65/1a9089ff5e562fbd885a8f27512565a2981986af3018b3bdd830809c77b5/tresto-0.1.1.tar.gz
+[2023-04-27 03:13:14] INFO root fetch - processPackages [np-session]: executing diffoscope
+[2023-04-27 03:13:14] INFO root fetch - processPackages [np-session]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np-session-0.5.3.tar.gz tmp/np-session-0.5.4.tar.gz --markdown 20230427/n/np-session/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-04-27 03:13:14] INFO root fetch - processPackages [tresto]: executing diffoscope
+[2023-04-27 03:13:14] INFO root fetch - processPackages [tresto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tresto-0.1.0.tar.gz tmp/tresto-0.1.1.tar.gz --markdown 20230427/t/tresto/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-27 03:13:14] INFO root fetch - processPackages [labelbox]: Downloading https://files.pythonhosted.org/packages/34/ac/a025e6faa353ab980d4d223ad2a8a291e28da42b4d4ba436f857ca850029/labelbox-3.9.0.tar.gz
+[2023-04-27 03:13:14] INFO root fetch - processPackages [labelbox]: executing diffoscope
+[2023-04-27 03:13:14] INFO root fetch - processPackages [labelbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labelbox-3.8.0.tar.gz tmp/labelbox-3.9.0.tar.gz --markdown 20230427/l/labelbox/3.8.0-3.9.0/diff.md --exclude *.pyd
+[2023-04-27 03:13:15] INFO root fetch - main [MainThread]: End processing [tresto]: success
+[2023-04-27 03:13:15] INFO root fetch - main [MainThread]: End processing [np-session]: success
+[2023-04-27 03:13:16] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-04-27 03:13:16] INFO root fetch - main [MainThread]: End processing [labelbox]: success
+[2023-04-27 03:13:35] INFO root fetch - main [MainThread]: End processing [deepdriver]: success
+[2023-04-27 03:13:35] INFO root fetch - main [MainThread]: Store serial: [17875141]
