@@ -9743,3 +9743,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 06:49:19] INFO root fetch - main [MainThread]: End processing [mlforecast]: success
 [2023-04-27 06:49:20] INFO root fetch - main [MainThread]: End processing [transition-neural-parser]: success
 [2023-04-27 06:49:20] INFO root fetch - main [MainThread]: Store serial: [17877710]
+[2023-04-27 06:54:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17877710]
+[2023-04-27 06:54:29] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-04-27 06:54:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cyberdrop-dl
+[2023-04-27 06:54:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jquants-api-client
+[2023-04-27 06:54:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: countess
+[2023-04-27 06:54:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: single-consumer-queue
+[2023-04-27 06:54:29] INFO root fetch - processPackages [jquants-api-client]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-04-27 06:54:29] INFO root fetch - processPackages [single-consumer-queue]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-04-27 06:54:29] INFO root fetch - processPackages [countess]: New version: [0.0.25] Old Version: [0.0.24]
+[2023-04-27 06:54:29] INFO root fetch - processPackages [cyberdrop-dl]: New version: [4.1.15] Old Version: [4.1.14]
+[2023-04-27 06:54:29] INFO root fetch - processPackages [single-consumer-queue]: Downloading https://files.pythonhosted.org/packages/d8/b4/3bb8bf108b7ca9ac7a9fc4668bfa701b97de70c774eb4257010a90ef04d2/single_consumer_queue-1.1.0.tar.gz
+[2023-04-27 06:54:29] INFO root fetch - processPackages [jquants-api-client]: Downloading https://files.pythonhosted.org/packages/c1/a1/75a6a335c8e866b365cf9739e8620911cb6a71c188be74ff77bf45e7c72f/jquants_api_client-1.1.1.tar.gz
+[2023-04-27 06:54:29] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/c3/89/bc2be59bf7c3336fbff4b7c20a7bf240eca370f602bf0c0e1ef72a89c65b/cyberdrop-dl-4.1.14.tar.gz
+[2023-04-27 06:54:29] INFO root fetch - processPackages [countess]: Downloading https://files.pythonhosted.org/packages/43/ce/65c0804e63b877918a6c138ba9ec3cd8203677d7ed3e0c6d91fd833633ed/countess-0.0.25.tar.gz
+[2023-04-27 06:54:29] INFO root fetch - processPackages [countess]: executing diffoscope
+[2023-04-27 06:54:29] INFO root fetch - processPackages [countess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/countess-0.0.24.tar.gz tmp/countess-0.0.25.tar.gz --markdown 20230427/c/countess/0.0.24-0.0.25/diff.md --exclude *.pyd
+[2023-04-27 06:54:29] INFO root fetch - processPackages [single-consumer-queue]: Downloading https://files.pythonhosted.org/packages/6c/ae/559a915142f8b682d3fd459989d66e6b8218e1fdbef07691d3f4aa52a9d1/single_consumer_queue-1.1.1.tar.gz
+[2023-04-27 06:54:29] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/7f/32/9c0c63f9cccad4c39b9dfabbf21d7ca83c74aae105c4d4a40b7059b0f1a2/cyberdrop-dl-4.1.15.tar.gz
+[2023-04-27 06:54:29] INFO root fetch - processPackages [jquants-api-client]: Downloading https://files.pythonhosted.org/packages/bf/01/715c7c0f0110c6da00d621d94ed1d15eed9f4998534c9e94ab4133e02798/jquants_api_client-1.1.2.tar.gz
+[2023-04-27 06:54:29] INFO root fetch - processPackages [single-consumer-queue]: executing diffoscope
+[2023-04-27 06:54:29] INFO root fetch - processPackages [single-consumer-queue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/single_consumer_queue-1.1.0.tar.gz tmp/single_consumer_queue-1.1.1.tar.gz --markdown 20230427/s/single-consumer-queue/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-04-27 06:54:29] INFO root fetch - processPackages [cyberdrop-dl]: executing diffoscope
+[2023-04-27 06:54:29] INFO root fetch - processPackages [cyberdrop-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberdrop-dl-4.1.14.tar.gz tmp/cyberdrop-dl-4.1.15.tar.gz --markdown 20230427/c/cyberdrop-dl/4.1.14-4.1.15/diff.md --exclude *.pyd
+[2023-04-27 06:54:29] INFO root fetch - processPackages [jquants-api-client]: executing diffoscope
+[2023-04-27 06:54:29] INFO root fetch - processPackages [jquants-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jquants_api_client-1.1.1.tar.gz tmp/jquants_api_client-1.1.2.tar.gz --markdown 20230427/j/jquants-api-client/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-04-27 06:54:30] INFO root fetch - main [MainThread]: End processing [single-consumer-queue]: success
+[2023-04-27 06:54:30] INFO root fetch - main [MainThread]: End processing [countess]: success
+[2023-04-27 06:54:31] INFO root fetch - main [MainThread]: End processing [jquants-api-client]: success
+[2023-04-27 06:54:31] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
+[2023-04-27 06:54:31] INFO root fetch - main [MainThread]: Store serial: [17877722]
