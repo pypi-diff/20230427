@@ -7631,3 +7631,44 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 03:41:11] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
 [2023-04-27 03:41:12] INFO root fetch - main [MainThread]: End processing [Uname-sridhar]: success
 [2023-04-27 03:41:12] INFO root fetch - main [MainThread]: Store serial: [17876356]
+[2023-04-27 03:46:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17876356]
+[2023-04-27 03:46:20] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-27 03:46:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbdev-scipy
+[2023-04-27 03:46:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torch-waymo
+[2023-04-27 03:46:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbdev-sphinx
+[2023-04-27 03:46:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: proactive
+[2023-04-27 03:46:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: proactive-jupyter-kernel
+[2023-04-27 03:46:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nbdev-django
+[2023-04-27 03:46:20] INFO root fetch - processPackages [proactive-jupyter-kernel]: New version: [13.1.1.2212191832.dev0] Old Version: [13.1.1.2212191149.dev0]
+[2023-04-27 03:46:20] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-27 03:46:20] INFO root fetch - processPackages [proactive]: New version: [8.4.11] Old Version: [8.4.10]
+[2023-04-27 03:46:20] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-27 03:46:20] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-27 03:46:20] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/2b/95/9e261b8f3e5f931da5a2f9ddc475954265376d1d468b6f3877f38ad482c3/nbdev-django-0.0.98.tar.gz
+[2023-04-27 03:46:20] INFO root fetch - processPackages [torch-waymo]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-27 03:46:20] INFO root fetch - processPackages [proactive]: Downloading https://files.pythonhosted.org/packages/36/67/8f2441cbc911f3a57a2168b0e419b0751450a04c18791e6ba642af1085d8/proactive-8.4.10.zip
+[2023-04-27 03:46:20] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/50/26/1673892b3686c404af92c390906ab3bac81806c424381e82dedac6477190/nbdev-sphinx-0.0.98.tar.gz
+[2023-04-27 03:46:20] INFO root fetch - processPackages [proactive-jupyter-kernel]: executing diffoscope
+[2023-04-27 03:46:20] INFO root fetch - processPackages [proactive-jupyter-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip --markdown 20230427/p/proactive-jupyter-kernel/13.1.1.2212191149.dev0-13.1.1.2212191832.dev0/diff.md --exclude *.pyd
+[2023-04-27 03:46:20] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/94/a7/9596b1506d5fc0b0ceb265f8bbd5e0919fc146eb6df0916b4e546e9f074f/nbdev-scipy-0.0.98.tar.gz
+[2023-04-27 03:46:20] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/f2/7a/5214014e1426324d1fea2f984c9b5480e467e5eddefe61721e8f4d1c025e/nbdev-django-0.0.99.tar.gz
+[2023-04-27 03:46:20] INFO root fetch - processPackages [torch-waymo]: Downloading https://files.pythonhosted.org/packages/73/b9/4f9a9627df12d7db16bbf54e00bda81893ed29fe49993fb578f4a3da886c/torch_waymo-0.1.1.tar.gz
+[2023-04-27 03:46:21] WARNING root fetch - processPackages [proactive]: Skipping package: exceeds size limit 18979361>=10485760
+[2023-04-27 03:46:21] INFO root fetch - main [MainThread]: End processing [proactive] error
+[2023-04-27 03:46:21] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/55/5e/ba946430b849ba8f51f4047dad2bb2417fbc794da9bb8301308347bb6207/nbdev-sphinx-0.0.99.tar.gz
+[2023-04-27 03:46:21] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-04-27 03:46:21] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230427/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-27 03:46:21] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/d4/25/482f9160692bdd2d374401b19f8b4700ae91c179761991cee076e37aae0d/nbdev-scipy-0.0.99.tar.gz
+[2023-04-27 03:46:21] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-04-27 03:46:21] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230427/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-27 03:46:21] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-04-27 03:46:21] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230427/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-27 03:46:21] INFO root fetch - processPackages [torch-waymo]: Downloading https://files.pythonhosted.org/packages/a9/71/bacc6624c273f17fba7228cd0b9e171b7c625804f2ed294eb7de228b4ba4/torch_waymo-0.1.2.tar.gz
+[2023-04-27 03:46:21] INFO root fetch - processPackages [torch-waymo]: executing diffoscope
+[2023-04-27 03:46:21] INFO root fetch - processPackages [torch-waymo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_waymo-0.1.1.tar.gz tmp/torch_waymo-0.1.2.tar.gz --markdown 20230427/t/torch-waymo/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-27 03:46:22] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel]: success
+[2023-04-27 03:46:22] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-04-27 03:46:22] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-04-27 03:46:22] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-04-27 03:46:22] INFO root fetch - main [MainThread]: End processing [torch-waymo]: success
+[2023-04-27 03:46:22] INFO root fetch - main [MainThread]: Store serial: [17876405]
