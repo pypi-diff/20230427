@@ -17064,3 +17064,129 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 13:11:26] INFO root fetch - main [MainThread]: End processing [mealpy]: success
 [2023-04-27 13:11:36] INFO root fetch - main [MainThread]: End processing [fabrique-nodes-core]: success
 [2023-04-27 13:11:36] INFO root fetch - main [MainThread]: Store serial: [17881741]
+[2023-04-27 13:16:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17881741]
+[2023-04-27 13:16:46] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-04-27 13:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: je-editor
+[2023-04-27 13:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: je-editor-dev
+[2023-04-27 13:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: custard
+[2023-04-27 13:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pollstats
+[2023-04-27 13:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: paketmutfak
+[2023-04-27 13:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chesstab
+[2023-04-27 13:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: robotoff
+[2023-04-27 13:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyprocessors-generative_augmenter
+[2023-04-27 13:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Geode-Background
+[2023-04-27 13:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyPhases
+[2023-04-27 13:16:46] INFO root fetch - processPackages [je-editor]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 13:16:46] INFO root fetch - processPackages [Geode-Background]: New version: [7.1.1] Old Version: [7.1.0]
+[2023-04-27 13:16:46] INFO root fetch - processPackages [pollstats]: New version: [0.3] Old Version: [0.2]
+[2023-04-27 13:16:46] INFO root fetch - processPackages [je-editor-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 13:16:46] INFO root fetch - processPackages [pyPhases]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-04-27 13:16:46] INFO root fetch - processPackages [chesstab]: New version: [7.0.2] Old Version: [7.0.1]
+[2023-04-27 13:16:46] INFO root fetch - processPackages [pyprocessors-generative_augmenter]: New version: [0.5.9] Old Version: [0.5.0]
+[2023-04-27 13:16:46] INFO root fetch - processPackages [custard]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-04-27 13:16:46] INFO root fetch - processPackages [paketmutfak]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-04-27 13:16:46] INFO root fetch - processPackages [robotoff]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-04-27 13:16:46] INFO root fetch - processPackages [pyPhases]: executing diffoscope
+[2023-04-27 13:16:46] INFO root fetch - processPackages [pyPhases]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyPhases-1.1.8.tar.gz tmp/pyPhases-1.1.9.tar.gz --markdown 20230427/p/pyPhases/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-04-27 13:16:46] INFO root fetch - processPackages [robotoff]: executing diffoscope
+[2023-04-27 13:16:46] INFO root fetch - processPackages [robotoff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotoff-1.8.0.tar.gz tmp/robotoff-1.9.0.tar.gz --markdown 20230427/r/robotoff/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-04-27 13:16:46] INFO root fetch - processPackages [Geode-Background]: Downloading https://files.pythonhosted.org/packages/db/d6/ecc3a08db5497b00bd88e534c68061fee3d2cc0381c54136dc05d81de9cf/Geode_Background-7.1.0-cp39-cp39-win_amd64.whl
+[2023-04-27 13:16:46] INFO root fetch - processPackages [pyprocessors-generative_augmenter]: Downloading https://files.pythonhosted.org/packages/8b/60/9b6f41d1a91b06b28820cac0d3370f1ca064adce9695052f5d4dda8c84be/pyprocessors-generative_augmenter-0.5.0.tar.gz
+[2023-04-27 13:16:46] INFO root fetch - processPackages [paketmutfak]: Downloading https://files.pythonhosted.org/packages/3c/54/6b8e1f2bcd64b51f198fb4d576dff4ede65f19ce0eee4e038611f1377b37/paketmutfak-1.1.8.tar.gz
+[2023-04-27 13:16:46] INFO root fetch - processPackages [pollstats]: Downloading https://files.pythonhosted.org/packages/bc/6f/ea39361a2939f977898b13853bbcf3de2c3cf2cd84125e9c6399f5307a29/pollstats-0.3.tar.gz
+[2023-04-27 13:16:46] INFO root fetch - processPackages [chesstab]: Downloading https://files.pythonhosted.org/packages/1a/94/dc514c5deafeab62ef31c7fef4fd90dcf840d3966aadc710a0f7dc550613/chesstab-7.0.2.tar.gz
+[2023-04-27 13:16:46] INFO root fetch - processPackages [je-editor]: executing diffoscope
+[2023-04-27 13:16:46] INFO root fetch - processPackages [je-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor-0.0.8.tar.gz tmp/je_editor-0.0.9.tar.gz --markdown 20230427/j/je-editor/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 13:16:46] INFO root fetch - processPackages [je-editor-dev]: executing diffoscope
+[2023-04-27 13:16:46] INFO root fetch - processPackages [je-editor-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor_dev-0.0.8.tar.gz tmp/je_editor_dev-0.0.9.tar.gz --markdown 20230427/j/je-editor-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 13:16:46] INFO root fetch - processPackages [custard]: Downloading https://files.pythonhosted.org/packages/4b/06/3efdce23d4cd2f5e1c344548b23c29ed034d3bd91171b3c4656b25740881/custard-1.1.2.tar.gz
+[2023-04-27 13:16:46] INFO root fetch - processPackages [chesstab]: executing diffoscope
+[2023-04-27 13:16:46] INFO root fetch - processPackages [chesstab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chesstab-7.0.1.tar.gz tmp/chesstab-7.0.2.tar.gz --markdown 20230427/c/chesstab/7.0.1-7.0.2/diff.md --exclude *.pyd
+[2023-04-27 13:16:46] INFO root fetch - processPackages [pyprocessors-generative_augmenter]: Downloading https://files.pythonhosted.org/packages/67/94/498fbf091c284ca05e11f61b9eb4f2c17620954132dedceb96018eb9edd2/pyprocessors-generative_augmenter-0.5.9.tar.gz
+[2023-04-27 13:16:46] INFO root fetch - processPackages [pyprocessors-generative_augmenter]: executing diffoscope
+[2023-04-27 13:16:46] INFO root fetch - processPackages [pyprocessors-generative_augmenter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyprocessors-generative_augmenter-0.5.0.tar.gz tmp/pyprocessors-generative_augmenter-0.5.9.tar.gz --markdown 20230427/p/pyprocessors-generative_augmenter/0.5.0-0.5.9/diff.md --exclude *.pyd
+[2023-04-27 13:16:46] INFO root fetch - processPackages [paketmutfak]: Downloading https://files.pythonhosted.org/packages/b5/5d/4f1e341bd37a1410d14789bfe426e84aabdd7d7deba0f310c37444f8e0cb/paketmutfak-1.1.9.tar.gz
+[2023-04-27 13:16:46] INFO root fetch - processPackages [custard]: executing diffoscope
+[2023-04-27 13:16:46] INFO root fetch - processPackages [custard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/custard-1.1.1.tar.gz tmp/custard-1.1.2.tar.gz --markdown 20230427/c/custard/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-04-27 13:16:46] INFO root fetch - processPackages [paketmutfak]: executing diffoscope
+[2023-04-27 13:16:46] INFO root fetch - processPackages [paketmutfak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paketmutfak-1.1.8.tar.gz tmp/paketmutfak-1.1.9.tar.gz --markdown 20230427/p/paketmutfak/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-04-27 13:16:46] INFO root fetch - processPackages [Geode-Background]: Downloading https://files.pythonhosted.org/packages/59/ff/b0bb18a4b12479e5b9a992a759e4a342a881ef3e8d30c753d40181a458b6/Geode_Background-7.1.1-cp39-cp39-win_amd64.whl
+[2023-04-27 13:16:47] INFO root fetch - processPackages [pollstats]: executing diffoscope
+[2023-04-27 13:16:47] INFO root fetch - processPackages [pollstats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pollstats-0.2.tar.gz tmp/pollstats-0.3.tar.gz --markdown 20230427/p/pollstats/0.2-0.3/diff.md --exclude *.pyd
+[2023-04-27 13:16:47] INFO root fetch - processPackages [Geode-Background]: executing diffoscope
+[2023-04-27 13:16:47] INFO root fetch - processPackages [Geode-Background]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Background-7.1.0-cp39-cp39-win_amd64.whl.zip tmp/Geode_Background-7.1.1-cp39-cp39-win_amd64.whl.zip --markdown 20230427/G/Geode-Background/7.1.0-7.1.1/diff.md --exclude *.pyd
+[2023-04-27 13:16:48] INFO root fetch - processPackages [je-editor]: Start processing: simpledi
+[2023-04-27 13:16:48] INFO root fetch - main [MainThread]: End processing [je-editor]: success
+[2023-04-27 13:16:48] INFO root fetch - processPackages [simpledi]: New version: [0.4.1] Old Version: [0.3]
+[2023-04-27 13:16:48] INFO root fetch - processPackages [simpledi]: Downloading https://files.pythonhosted.org/packages/a3/0d/8774c54997a0834b5882a7cae872991e8296e05d09c4d625c0d46b4684a0/simpledi-0.3.tar.gz
+[2023-04-27 13:16:48] INFO root fetch - processPackages [pyprocessors-generative_augmenter]: Start processing: QuasarCode
+[2023-04-27 13:16:48] INFO root fetch - main [MainThread]: End processing [pyprocessors-generative_augmenter]: success
+[2023-04-27 13:16:48] INFO root fetch - processPackages [QuasarCode]: New version: [0.7.6] Old Version: [0.7.5]
+[2023-04-27 13:16:48] INFO root fetch - processPackages [pyPhases]: Start processing: OpenGeode-GeosciencesIO
+[2023-04-27 13:16:48] INFO root fetch - main [MainThread]: End processing [pyPhases]: success
+[2023-04-27 13:16:48] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: New version: [4.1.1] Old Version: [4.1.0]
+[2023-04-27 13:16:48] INFO root fetch - processPackages [simpledi]: Downloading https://files.pythonhosted.org/packages/18/ff/406a2f0959c62f3f4266b1c97a39ee32c649ae60640b997d34947c933cd9/simpledi-0.4.1.tar.gz
+[2023-04-27 13:16:48] INFO root fetch - processPackages [QuasarCode]: Downloading https://files.pythonhosted.org/packages/52/9e/94b963f86b0d30929a34fc8590126c6e41b47b4dfb702efa157961e536a4/QuasarCode-0.7.6.tar.gz
+[2023-04-27 13:16:48] INFO root fetch - processPackages [robotoff]: Start processing: anitya
+[2023-04-27 13:16:48] INFO root fetch - main [MainThread]: End processing [robotoff]: success
+[2023-04-27 13:16:48] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: Downloading https://files.pythonhosted.org/packages/f6/5e/5c79a9cb21922d7c3f77cba1da00a4fb70b9ff18e993307c97a9c40df260/OpenGeode_GeosciencesIO-4.1.0-cp39-cp39-win_amd64.whl
+[2023-04-27 13:16:48] INFO root fetch - processPackages [anitya]: New version: [1.8.0] Old Version: [1.7.0]
+[2023-04-27 13:16:48] INFO root fetch - processPackages [paketmutfak]: Start processing: minet
+[2023-04-27 13:16:48] INFO root fetch - main [MainThread]: End processing [paketmutfak]: success
+[2023-04-27 13:16:48] INFO root fetch - processPackages [simpledi]: executing diffoscope
+[2023-04-27 13:16:48] INFO root fetch - processPackages [simpledi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simpledi-0.3.tar.gz tmp/simpledi-0.4.1.tar.gz --markdown 20230427/s/simpledi/0.3-0.4.1/diff.md --exclude *.pyd
+[2023-04-27 13:16:48] INFO root fetch - processPackages [minet]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-04-27 13:16:48] INFO root fetch - processPackages [QuasarCode]: executing diffoscope
+[2023-04-27 13:16:48] INFO root fetch - processPackages [QuasarCode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuasarCode-0.7.5.tar.gz tmp/QuasarCode-0.7.6.tar.gz --markdown 20230427/Q/QuasarCode/0.7.5-0.7.6/diff.md --exclude *.pyd
+[2023-04-27 13:16:48] INFO root fetch - processPackages [je-editor-dev]: Start processing: Geode-Simplex
+[2023-04-27 13:16:48] INFO root fetch - main [MainThread]: End processing [je-editor-dev]: success
+[2023-04-27 13:16:49] INFO root fetch - processPackages [anitya]: Downloading https://files.pythonhosted.org/packages/07/73/a68c7c70127dfa75c31d6a84d8ad3b7f3d1132850f273c65e17c8b19c82c/anitya-1.7.0.tar.gz
+[2023-04-27 13:16:49] INFO root fetch - processPackages [Geode-Simplex]: New version: [6.0.3] Old Version: [6.0.2]
+[2023-04-27 13:16:49] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: Downloading https://files.pythonhosted.org/packages/95/82/aac46f1172971f4f8c68dc0b12830926786d142d63e158ada049456aea95/OpenGeode_GeosciencesIO-4.1.1-cp39-cp39-win_amd64.whl
+[2023-04-27 13:16:49] INFO root fetch - processPackages [minet]: executing diffoscope
+[2023-04-27 13:16:49] INFO root fetch - processPackages [minet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minet-1.0.0a8.tar.gz tmp/minet-1.0.0a9.tar.gz --markdown 20230427/m/minet/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-04-27 13:16:49] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: executing diffoscope
+[2023-04-27 13:16:49] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenGeode_GeosciencesIO-4.1.0-cp39-cp39-win_amd64.whl.zip tmp/OpenGeode_GeosciencesIO-4.1.1-cp39-cp39-win_amd64.whl.zip --markdown 20230427/O/OpenGeode-GeosciencesIO/4.1.0-4.1.1/diff.md --exclude *.pyd
+[2023-04-27 13:16:49] INFO root fetch - processPackages [Geode-Simplex]: Downloading https://files.pythonhosted.org/packages/5b/72/c8c15c682c5777d9f87080ad4625a8e198c3930999cc1bdcd89def2d621a/Geode_Simplex-6.0.2-cp39-cp39-win_amd64.whl
+[2023-04-27 13:16:49] INFO root fetch - processPackages [custard]: Start processing: pydmt
+[2023-04-27 13:16:49] INFO root fetch - main [MainThread]: End processing [custard]: success
+[2023-04-27 13:16:49] INFO root fetch - processPackages [pydmt]: New version: [0.1.83] Old Version: [0.1.82]
+[2023-04-27 13:16:49] INFO root fetch - processPackages [pydmt]: Downloading https://files.pythonhosted.org/packages/d6/fe/dbc7ef553089aca02d8cff648e643a262815ebb6434dd0a3b97ec5663322/pydmt-0.1.82.tar.gz
+[2023-04-27 13:16:50] INFO root fetch - processPackages [Geode-Simplex]: Downloading https://files.pythonhosted.org/packages/2f/1b/7cef949100bf5f4f661011222944274fdc6b535a076e74770a131a117120/Geode_Simplex-6.0.3-cp39-cp39-manylinux2014_x86_64.whl
+[2023-04-27 13:16:50] INFO root fetch - processPackages [pydmt]: Downloading https://files.pythonhosted.org/packages/6b/25/48bd6e8aa3562151f0441776be9e0cb6ea012927a4732bca47de0f1387f3/pydmt-0.1.83.tar.gz
+[2023-04-27 13:16:50] INFO root fetch - processPackages [simpledi]: Start processing: cellshape-cloud
+[2023-04-27 13:16:50] INFO root fetch - main [MainThread]: End processing [simpledi]: success
+[2023-04-27 13:16:50] INFO root fetch - processPackages [cellshape-cloud]: New version: [0.1.1rc0] Old Version: [0.1.1]
+[2023-04-27 13:16:50] INFO root fetch - processPackages [pydmt]: executing diffoscope
+[2023-04-27 13:16:50] INFO root fetch - processPackages [pydmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydmt-0.1.82.tar.gz tmp/pydmt-0.1.83.tar.gz --markdown 20230427/p/pydmt/0.1.82-0.1.83/diff.md --exclude *.pyd
+[2023-04-27 13:16:50] INFO root fetch - processPackages [cellshape-cloud]: Downloading https://files.pythonhosted.org/packages/62/21/a4e1ca408aecbf6720bc810213852c5340a3b4692403e6bb0ce138efe51e/cellshape-cloud-0.1.1.tar.gz
+[2023-04-27 13:16:50] INFO root fetch - processPackages [cellshape-cloud]: executing diffoscope
+[2023-04-27 13:16:50] INFO root fetch - processPackages [cellshape-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellshape-cloud-0.1.1.tar.gz tmp/cellshape-cloud-0.1.1rc0.tar.gz --markdown 20230427/c/cellshape-cloud/0.1.1-0.1.1rc0/diff.md --exclude *.pyd
+[2023-04-27 13:16:50] INFO root fetch - processPackages [anitya]: Downloading https://files.pythonhosted.org/packages/76/1d/276db6245105f42bcc4b768de0cb382fc275f28b4efc3e935041c60e2b60/anitya-1.8.0.tar.gz
+[2023-04-27 13:16:50] INFO root fetch - processPackages [QuasarCode]: Start processing: deeplake
+[2023-04-27 13:16:50] INFO root fetch - main [MainThread]: End processing [QuasarCode]: success
+[2023-04-27 13:16:51] INFO root fetch - processPackages [deeplake]: New version: [3.3.1] Old Version: [3.3.0]
+[2023-04-27 13:16:51] INFO root fetch - processPackages [Geode-Simplex]: executing diffoscope
+[2023-04-27 13:16:51] INFO root fetch - processPackages [Geode-Simplex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Simplex-6.0.2-cp39-cp39-win_amd64.whl.zip tmp/Geode_Simplex-6.0.3-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230427/G/Geode-Simplex/6.0.2-6.0.3/diff.md --exclude *.pyd
+[2023-04-27 13:16:51] INFO root fetch - processPackages [deeplake]: Downloading https://files.pythonhosted.org/packages/ce/91/ce8847e9c91a41d4492f713e1d77003c8b6f4fd5cee0383e0033faa965a6/deeplake-3.3.0.tar.gz
+[2023-04-27 13:16:51] INFO root fetch - processPackages [deeplake]: Downloading https://files.pythonhosted.org/packages/6e/e0/51086acbe30ca8e45f7ab3cee71fdb27af9e0543630e121416f013e30788/deeplake-3.3.1.tar.gz
+[2023-04-27 13:16:51] INFO root fetch - processPackages [deeplake]: executing diffoscope
+[2023-04-27 13:16:51] INFO root fetch - processPackages [deeplake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deeplake-3.3.0.tar.gz tmp/deeplake-3.3.1.tar.gz --markdown 20230427/d/deeplake/3.3.0-3.3.1/diff.md --exclude *.pyd
+[2023-04-27 13:16:52] INFO root fetch - processPackages [minet]: Start processing: client-order-fix
+[2023-04-27 13:16:52] INFO root fetch - main [MainThread]: End processing [minet]: success
+[2023-04-27 13:16:52] INFO root fetch - processPackages [client-order-fix]: New version: [0.2] Old Version: [0.1]
+[2023-04-27 13:16:52] INFO root fetch - main [MainThread]: End processing [pollstats]: success
+[2023-04-27 13:16:52] INFO root fetch - processPackages [client-order-fix]: executing diffoscope
+[2023-04-27 13:16:52] INFO root fetch - processPackages [client-order-fix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/client_order_fix-0.1.tar.gz tmp/client_order_fix-0.2.tar.gz --markdown 20230427/c/client-order-fix/0.1-0.2/diff.md --exclude *.pyd
+[2023-04-27 13:16:52] INFO root fetch - processPackages [anitya]: executing diffoscope
+[2023-04-27 13:16:52] INFO root fetch - processPackages [anitya]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anitya-1.7.0.tar.gz tmp/anitya-1.8.0.tar.gz --markdown 20230427/a/anitya/1.7.0-1.8.0/diff.md --exclude *.pyd
+[2023-04-27 13:16:52] INFO root fetch - main [MainThread]: End processing [cellshape-cloud]: success
+[2023-04-27 13:16:52] INFO root fetch - main [MainThread]: End processing [pydmt]: success
+[2023-04-27 13:16:53] INFO root fetch - main [MainThread]: End processing [OpenGeode-GeosciencesIO]: success
+[2023-04-27 13:16:53] INFO root fetch - main [MainThread]: End processing [chesstab]: success
+[2023-04-27 13:16:53] INFO root fetch - main [MainThread]: End processing [client-order-fix]: success
+[2023-04-27 13:16:55] INFO root fetch - main [MainThread]: End processing [Geode-Simplex]: success
+[2023-04-27 13:16:57] INFO root fetch - main [MainThread]: End processing [deeplake]: success
+[2023-04-27 13:17:17] INFO root fetch - main [MainThread]: End processing [Geode-Background]: success
+[2023-04-27 13:17:43] INFO root fetch - main [MainThread]: End processing [anitya]: success
+[2023-04-27 13:17:43] INFO root fetch - main [MainThread]: Store serial: [17881813]
