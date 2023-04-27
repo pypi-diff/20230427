@@ -21905,3 +21905,89 @@ EOFError: EOF read where object expected
 [2023-04-27 16:50:19] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
 [2023-04-27 16:50:21] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-04-27 16:50:21] INFO root fetch - main [MainThread]: Store serial: [17884744]
+[2023-04-27 16:55:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17884744]
+[2023-04-27 16:55:31] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-27 16:55:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: locura-iotlab-bridge
+[2023-04-27 16:55:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: clidat
+[2023-04-27 16:55:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: principal-feature-analysis
+[2023-04-27 16:55:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: boringavatars
+[2023-04-27 16:55:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: coretex
+[2023-04-27 16:55:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fabrictestbed
+[2023-04-27 16:55:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: biotranslator
+[2023-04-27 16:55:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: woostream
+[2023-04-27 16:55:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: oceano-algos
+[2023-04-27 16:55:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: maltego-trx
+[2023-04-27 16:55:32] INFO root fetch - processPackages [woostream]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-27 16:55:32] INFO root fetch - processPackages [oceano-algos]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-27 16:55:32] INFO root fetch - processPackages [fabrictestbed]: New version: [1.4.5rc2] Old Version: [1.4.5rc1]
+[2023-04-27 16:55:32] INFO root fetch - processPackages [locura-iotlab-bridge]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-27 16:55:32] INFO root fetch - processPackages [boringavatars]: New version: [1.0.0] Old Version: [0.3.2]
+[2023-04-27 16:55:32] INFO root fetch - processPackages [oceano-algos]: executing diffoscope
+[2023-04-27 16:55:32] INFO root fetch - processPackages [principal-feature-analysis]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-27 16:55:32] INFO root fetch - processPackages [oceano-algos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oceano_algos-0.0.98.tar.gz tmp/oceano_algos-0.0.99.tar.gz --markdown 20230427/o/oceano-algos/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-27 16:55:32] INFO root fetch - processPackages [clidat]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-27 16:55:32] INFO root fetch - processPackages [coretex]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 16:55:32] INFO root fetch - processPackages [biotranslator]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-27 16:55:32] INFO root fetch - processPackages [maltego-trx]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-04-27 16:55:32] INFO root fetch - processPackages [woostream]: Downloading https://files.pythonhosted.org/packages/11/86/f6c0324c366d226f2e7a906e4791a813e6e2c0180d9541d3a8de95d940d0/woostream-0.1.4.tar.gz
+[2023-04-27 16:55:32] INFO root fetch - processPackages [locura-iotlab-bridge]: Downloading https://files.pythonhosted.org/packages/b4/5d/9407a3df9e2f7def865460cf8d3ee3ebf473d858add4bd32c71713ddee73/locura_iotlab_bridge-0.1.4.tar.gz
+[2023-04-27 16:55:32] INFO root fetch - processPackages [fabrictestbed]: Downloading https://files.pythonhosted.org/packages/4d/e4/edeab837ed79f1fd6c2f232ee3ce571cf4146e7d7f3f4fb2fb1a44e2cb60/fabrictestbed-1.4.5rc2.tar.gz
+[2023-04-27 16:55:32] INFO root fetch - processPackages [principal-feature-analysis]: Downloading https://files.pythonhosted.org/packages/e6/d5/d77c38dbbd4bfa4815697994306e34b78e6a19f2d937961be54cfc31094f/principal-feature-analysis-1.0.8.tar.gz
+[2023-04-27 16:55:32] INFO root fetch - processPackages [coretex]: Downloading https://files.pythonhosted.org/packages/21/1d/980c6d21dbe2d503de34a1993b1e0e9c69167b0ab6e7aae2d6ebf057e8ed/coretex-0.0.8.tar.gz
+[2023-04-27 16:55:32] INFO root fetch - processPackages [boringavatars]: Downloading https://files.pythonhosted.org/packages/37/ac/6ed5faef74347b3228bce8c3aa1f75fc6e8556c6aedf4adf2bd955bb195e/boringavatars-0.3.2.tar.gz
+[2023-04-27 16:55:32] INFO root fetch - processPackages [woostream]: executing diffoscope
+[2023-04-27 16:55:32] INFO root fetch - processPackages [woostream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/woostream-0.1.3.tar.gz tmp/woostream-0.1.4.tar.gz --markdown 20230427/w/woostream/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-27 16:55:32] INFO root fetch - processPackages [maltego-trx]: Downloading https://files.pythonhosted.org/packages/ab/3f/22472b514c03955f8087d336fea00ccb4ccd9a5f3db981892df484e275ba/maltego-trx-1.6.0.tar.gz
+[2023-04-27 16:55:32] INFO root fetch - processPackages [biotranslator]: Downloading https://files.pythonhosted.org/packages/05/1b/6497c1d9f7e0a66f7830904912c9b2a87bdeea6fb77523790918e646ac72/biotranslator-0.1.1.tar.gz
+[2023-04-27 16:55:32] INFO root fetch - processPackages [fabrictestbed]: executing diffoscope
+[2023-04-27 16:55:32] INFO root fetch - processPackages [fabrictestbed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabrictestbed-1.4.5rc1.tar.gz tmp/fabrictestbed-1.4.5rc2.tar.gz --markdown 20230427/f/fabrictestbed/1.4.5rc1-1.4.5rc2/diff.md --exclude *.pyd
+[2023-04-27 16:55:32] INFO root fetch - processPackages [locura-iotlab-bridge]: Downloading https://files.pythonhosted.org/packages/5d/4c/c6ab2bc493bfdcd720b62ae0d204076d434ba2435901d1565ee408118979/locura_iotlab_bridge-0.1.5.tar.gz
+[2023-04-27 16:55:32] INFO root fetch - processPackages [clidat]: Downloading https://files.pythonhosted.org/packages/36/86/3b934d40ab0af5545eb7d037941fec14bb453646099251bf3c5aa10391c0/clidat-0.1.1.tar.gz
+[2023-04-27 16:55:32] INFO root fetch - processPackages [locura-iotlab-bridge]: executing diffoscope
+[2023-04-27 16:55:32] INFO root fetch - processPackages [locura-iotlab-bridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/locura_iotlab_bridge-0.1.4.tar.gz tmp/locura_iotlab_bridge-0.1.5.tar.gz --markdown 20230427/l/locura-iotlab-bridge/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-27 16:55:32] INFO root fetch - processPackages [maltego-trx]: Downloading https://files.pythonhosted.org/packages/f0/ee/effefbb72964d59a1784c01e385b517f1435e6a68310c5dfa9b51c2062e2/maltego-trx-1.6.1.tar.gz
+[2023-04-27 16:55:32] INFO root fetch - processPackages [principal-feature-analysis]: Downloading https://files.pythonhosted.org/packages/16/b6/7aae9a7a6914773c05bc97b80d69e3d28526b99117377fb65670568a2fc3/principal-feature-analysis-1.0.9.tar.gz
+[2023-04-27 16:55:32] INFO root fetch - processPackages [boringavatars]: Downloading https://files.pythonhosted.org/packages/72/4c/3608db74b28ae0d978f76e39442be37f6f86cd62e4bc9f6e18425b1e0375/boringavatars-1.0.0.tar.gz
+[2023-04-27 16:55:32] INFO root fetch - processPackages [biotranslator]: Downloading https://files.pythonhosted.org/packages/d8/29/edba8bc5db2b5d90e733496643bd3c25594cc09e04322aa43901e2efb6c1/biotranslator-0.1.2.tar.gz
+[2023-04-27 16:55:32] INFO root fetch - processPackages [maltego-trx]: executing diffoscope
+[2023-04-27 16:55:32] INFO root fetch - processPackages [maltego-trx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maltego-trx-1.6.0.tar.gz tmp/maltego-trx-1.6.1.tar.gz --markdown 20230427/m/maltego-trx/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2023-04-27 16:55:32] INFO root fetch - processPackages [clidat]: Downloading https://files.pythonhosted.org/packages/9d/4c/48bbfdd8ba59821dca1cfec6b9ed4c86cee51407ccda9f455bcff660dd07/clidat-0.1.2.tar.gz
+[2023-04-27 16:55:32] INFO root fetch - processPackages [principal-feature-analysis]: executing diffoscope
+[2023-04-27 16:55:32] INFO root fetch - processPackages [principal-feature-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/principal-feature-analysis-1.0.8.tar.gz tmp/principal-feature-analysis-1.0.9.tar.gz --markdown 20230427/p/principal-feature-analysis/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-27 16:55:32] INFO root fetch - processPackages [coretex]: Downloading https://files.pythonhosted.org/packages/93/86/1cf39d4988d7419e88a27e0ad1b3c4872a93a11dfc4bccd1a80ad2c687c7/coretex-0.0.9.tar.gz
+[2023-04-27 16:55:32] INFO root fetch - processPackages [biotranslator]: executing diffoscope
+[2023-04-27 16:55:32] INFO root fetch - processPackages [biotranslator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biotranslator-0.1.1.tar.gz tmp/biotranslator-0.1.2.tar.gz --markdown 20230427/b/biotranslator/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-27 16:55:32] INFO root fetch - processPackages [boringavatars]: executing diffoscope
+[2023-04-27 16:55:32] INFO root fetch - processPackages [boringavatars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boringavatars-0.3.2.tar.gz tmp/boringavatars-1.0.0.tar.gz --markdown 20230427/b/boringavatars/0.3.2-1.0.0/diff.md --exclude *.pyd
+[2023-04-27 16:55:32] INFO root fetch - processPackages [clidat]: executing diffoscope
+[2023-04-27 16:55:32] INFO root fetch - processPackages [clidat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clidat-0.1.1.tar.gz tmp/clidat-0.1.2.tar.gz --markdown 20230427/c/clidat/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-27 16:55:33] INFO root fetch - processPackages [coretex]: executing diffoscope
+[2023-04-27 16:55:33] INFO root fetch - processPackages [coretex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coretex-0.0.8.tar.gz tmp/coretex-0.0.9.tar.gz --markdown 20230427/c/coretex/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 16:55:33] INFO root fetch - processPackages [woostream]: Start processing: tkinterweb
+[2023-04-27 16:55:33] INFO root fetch - main [MainThread]: End processing [woostream]: success
+[2023-04-27 16:55:33] INFO root fetch - processPackages [oceano-algos]: Start processing: domolibrary
+[2023-04-27 16:55:33] INFO root fetch - main [MainThread]: End processing [oceano-algos]: success
+[2023-04-27 16:55:33] INFO root fetch - processPackages [domolibrary]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-27 16:55:33] INFO root fetch - processPackages [tkinterweb]: New version: [3.9.7] Old Version: [3.9.6]
+[2023-04-27 16:55:33] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2023-04-27 16:55:33] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-0.1.8.tar.gz tmp/domolibrary-0.1.9.tar.gz --markdown 20230427/d/domolibrary/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-27 16:55:33] INFO root fetch - processPackages [fabrictestbed]: Start processing: android-env
+[2023-04-27 16:55:33] INFO root fetch - main [MainThread]: End processing [fabrictestbed]: success
+[2023-04-27 16:55:34] INFO root fetch - processPackages [android-env]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-04-27 16:55:34] INFO root fetch - main [MainThread]: End processing [locura-iotlab-bridge]: success
+[2023-04-27 16:55:34] INFO root fetch - processPackages [tkinterweb]: executing diffoscope
+[2023-04-27 16:55:34] INFO root fetch - processPackages [tkinterweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tkinterweb-3.9.6.tar.gz tmp/tkinterweb-3.9.7.tar.gz --markdown 20230427/t/tkinterweb/3.9.6-3.9.7/diff.md --exclude *.pyd
+[2023-04-27 16:55:34] INFO root fetch - main [MainThread]: End processing [maltego-trx]: success
+[2023-04-27 16:55:34] INFO root fetch - processPackages [android-env]: Downloading https://files.pythonhosted.org/packages/85/a8/edcac9256e1a7cc3b4ff11ecd9fc2a9665b5bf7b7a774335843c0c52e480/android_env-1.1.0.tar.gz
+[2023-04-27 16:55:34] INFO root fetch - main [MainThread]: End processing [clidat]: success
+[2023-04-27 16:55:34] INFO root fetch - processPackages [android-env]: Downloading https://files.pythonhosted.org/packages/1d/c9/0fe0eb12d3cd3ebd0e306616acfbb5fd47d509ea6d2345369424c6fef1d8/android-env-1.2.0.tar.gz
+[2023-04-27 16:55:34] INFO root fetch - main [MainThread]: End processing [principal-feature-analysis]: success
+[2023-04-27 16:55:34] INFO root fetch - processPackages [android-env]: executing diffoscope
+[2023-04-27 16:55:34] INFO root fetch - processPackages [android-env]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/android_env-1.1.0.tar.gz tmp/android-env-1.2.0.tar.gz --markdown 20230427/a/android-env/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-04-27 16:55:34] INFO root fetch - main [MainThread]: End processing [boringavatars]: success
+[2023-04-27 16:55:34] INFO root fetch - main [MainThread]: End processing [coretex]: success
+[2023-04-27 16:55:35] INFO root fetch - main [MainThread]: End processing [biotranslator]: success
+[2023-04-27 16:55:35] INFO root fetch - main [MainThread]: End processing [tkinterweb]: success
+[2023-04-27 16:55:36] INFO root fetch - main [MainThread]: End processing [android-env]: success
+[2023-04-27 16:55:37] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2023-04-27 16:55:37] INFO root fetch - main [MainThread]: Store serial: [17884783]
