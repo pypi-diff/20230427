@@ -11008,3 +11008,68 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 08:07:19] INFO root fetch - main [MainThread]: End processing [skynamo]: success
 [2023-04-27 08:07:22] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
 [2023-04-27 08:07:22] INFO root fetch - main [MainThread]: Store serial: [17878340]
+[2023-04-27 08:12:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17878340]
+[2023-04-27 08:12:31] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-27 08:12:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: binance-candle
+[2023-04-27 08:12:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: proxycurl-py
+[2023-04-27 08:12:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-beam
+[2023-04-27 08:12:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: QuNet
+[2023-04-27 08:12:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mango-pycore
+[2023-04-27 08:12:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vinset
+[2023-04-27 08:12:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: inverted-index-search
+[2023-04-27 08:12:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mango-pycore
+[2023-04-27 08:12:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: inventronet
+[2023-04-27 08:12:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hugchat
+[2023-04-27 08:12:31] INFO root fetch - processPackages [proxycurl-py]: New version: [0.0.20] Old Version: [0.0.19]
+[2023-04-27 08:12:31] INFO root fetch - processPackages [django-beam]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-04-27 08:12:31] INFO root fetch - processPackages [mango-pycore]: New version: [0.1.6a0] Old Version: [0.1.6]
+[2023-04-27 08:12:31] ERROR root fetch - processPackages [hugchat]: Unable to get metadata: No such project 'hugchat'
+[2023-04-27 08:12:31] INFO root fetch - main [MainThread]: End processing [hugchat] error
+[2023-04-27 08:12:31] INFO root fetch - processPackages [inverted-index-search]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-04-27 08:12:31] INFO root fetch - processPackages [inventronet]: New version: [0.0.4a0] Old Version: [0.0.3a0]
+[2023-04-27 08:12:31] INFO root fetch - processPackages [vinset]: New version: [4.0.1] Old Version: [4.0.0]
+[2023-04-27 08:12:31] INFO root fetch - processPackages [QuNet]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 08:12:31] INFO root fetch - processPackages [mango-pycore]: New version: [0.1.6a0] Old Version: [0.1.6]
+[2023-04-27 08:12:31] INFO root fetch - processPackages [binance-candle]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-04-27 08:12:31] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-04-27 08:12:31] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.8-py3-none-any.whl.zip tmp/QuNet-0.0.9-py3-none-any.whl.zip --markdown 20230427/Q/QuNet/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 08:12:31] INFO root fetch - processPackages [mango-pycore]: Downloading https://files.pythonhosted.org/packages/0f/8a/14cc10b05e5eee2abe3cec2770673c95627e89f1a9bad530bc4f1cbe3f3b/mango_pycore-0.1.6.tar.gz
+[2023-04-27 08:12:31] INFO root fetch - processPackages [mango-pycore]: Downloading https://files.pythonhosted.org/packages/0f/8a/14cc10b05e5eee2abe3cec2770673c95627e89f1a9bad530bc4f1cbe3f3b/mango_pycore-0.1.6.tar.gz
+[2023-04-27 08:12:31] INFO root fetch - processPackages [proxycurl-py]: Downloading https://files.pythonhosted.org/packages/35/c7/86c928b9bf7e8ba039a187c7f827eda50440fdb0d9ffc3bde332affb36ab/proxycurl-py-0.0.20.tar.gz
+[2023-04-27 08:12:31] INFO root fetch - processPackages [django-beam]: Downloading https://files.pythonhosted.org/packages/63/94/6aeec6072e4b12354db72149f6e34967ca8e9961e379f5a8b0aa49c99a23/django-beam-1.3.1.tar.gz
+[2023-04-27 08:12:31] INFO root fetch - processPackages [inverted-index-search]: Downloading https://files.pythonhosted.org/packages/f6/8f/a4d6edff1d4577f8525530831d437c831f3c6c776f3da716e000259163a0/inverted_index_search-1.3.3.tar.gz
+[2023-04-27 08:12:31] INFO root fetch - processPackages [inventronet]: Downloading https://files.pythonhosted.org/packages/9a/f8/f119c5219a71ae6366a614e132fc03db79de25d54653bff407600dd754c2/inventronet-0.0.4a0.tar.gz
+[2023-04-27 08:12:31] INFO root fetch - processPackages [vinset]: Downloading https://files.pythonhosted.org/packages/d0/4f/c1a72f5c3d08d1df7b87403fdfa97463397f8b727c73a6d36ba29f6be25c/vinset-4.0.0.tar.gz
+[2023-04-27 08:12:31] INFO root fetch - processPackages [proxycurl-py]: executing diffoscope
+[2023-04-27 08:12:31] INFO root fetch - processPackages [proxycurl-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proxycurl-py-0.0.19.tar.gz tmp/proxycurl-py-0.0.20.tar.gz --markdown 20230427/p/proxycurl-py/0.0.19-0.0.20/diff.md --exclude *.pyd
+[2023-04-27 08:12:31] INFO root fetch - processPackages [binance-candle]: Downloading https://files.pythonhosted.org/packages/1f/b4/f47b54e26b560bb35b2fc70df474a7aa9929e844662e9f86f93cddde259e/binance_candle-1.0.6.tar.gz
+[2023-04-27 08:12:31] INFO root fetch - processPackages [inventronet]: executing diffoscope
+[2023-04-27 08:12:31] INFO root fetch - processPackages [inventronet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inventronet-0.0.3a0.tar.gz tmp/inventronet-0.0.4a0.tar.gz --markdown 20230427/i/inventronet/0.0.3a0-0.0.4a0/diff.md --exclude *.pyd
+[2023-04-27 08:12:31] INFO root fetch - processPackages [mango-pycore]: Downloading https://files.pythonhosted.org/packages/14/9b/e45e63072f11b5d4a9bf3935c17d9d2f6e66022b3d1140e9dd3a4372dee0/mango_pycore-0.1.6a0.tar.gz
+[2023-04-27 08:12:31] INFO root fetch - processPackages [mango-pycore]: Downloading https://files.pythonhosted.org/packages/14/9b/e45e63072f11b5d4a9bf3935c17d9d2f6e66022b3d1140e9dd3a4372dee0/mango_pycore-0.1.6a0.tar.gz
+[2023-04-27 08:12:31] INFO root fetch - processPackages [django-beam]: Downloading https://files.pythonhosted.org/packages/73/e2/e31921f19bf19ed8680ae07c085f956d6c7e9744e46e1d6559b6a6570c70/django-beam-1.3.2.tar.gz
+[2023-04-27 08:12:31] INFO root fetch - processPackages [inverted-index-search]: Downloading https://files.pythonhosted.org/packages/c8/f2/602d07d1141f31bcc347a0dcc00c051e2bced2c65730314382054ec2cacd/inverted_index_search-1.3.4.tar.gz
+[2023-04-27 08:12:31] INFO root fetch - processPackages [vinset]: Downloading https://files.pythonhosted.org/packages/db/45/007d5ce20c9e7c2722416d3799d5c017e97693d39d9171d9a12db7c21924/vinset-4.0.1.tar.gz
+[2023-04-27 08:12:31] INFO root fetch - processPackages [django-beam]: executing diffoscope
+[2023-04-27 08:12:31] INFO root fetch - processPackages [django-beam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-beam-1.3.1.tar.gz tmp/django-beam-1.3.2.tar.gz --markdown 20230427/d/django-beam/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-04-27 08:12:31] INFO root fetch - processPackages [binance-candle]: Downloading https://files.pythonhosted.org/packages/af/91/9dbb71a9130feaf4f560521ae043596f69ba8f11541a22dd242f910a70a3/binance_candle-1.0.7.tar.gz
+[2023-04-27 08:12:31] INFO root fetch - processPackages [mango-pycore]: executing diffoscope
+[2023-04-27 08:12:31] INFO root fetch - processPackages [mango-pycore]: executing diffoscope
+[2023-04-27 08:12:31] INFO root fetch - processPackages [mango-pycore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mango_pycore-0.1.6.tar.gz tmp/mango_pycore-0.1.6a0.tar.gz --markdown 20230427/m/mango-pycore/0.1.6-0.1.6a0/diff.md --exclude *.pyd
+[2023-04-27 08:12:31] INFO root fetch - processPackages [mango-pycore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mango_pycore-0.1.6.tar.gz tmp/mango_pycore-0.1.6a0.tar.gz --markdown 20230427/m/mango-pycore/0.1.6-0.1.6a0/diff.md --exclude *.pyd
+[2023-04-27 08:12:31] INFO root fetch - processPackages [binance-candle]: executing diffoscope
+[2023-04-27 08:12:31] INFO root fetch - processPackages [binance-candle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/binance_candle-1.0.6.tar.gz tmp/binance_candle-1.0.7.tar.gz --markdown 20230427/b/binance-candle/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-04-27 08:12:31] INFO root fetch - processPackages [inverted-index-search]: executing diffoscope
+[2023-04-27 08:12:31] INFO root fetch - processPackages [inverted-index-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inverted_index_search-1.3.3.tar.gz tmp/inverted_index_search-1.3.4.tar.gz --markdown 20230427/i/inverted-index-search/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-04-27 08:12:31] INFO root fetch - processPackages [vinset]: executing diffoscope
+[2023-04-27 08:12:31] INFO root fetch - processPackages [vinset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vinset-4.0.0.tar.gz tmp/vinset-4.0.1.tar.gz --markdown 20230427/v/vinset/4.0.0-4.0.1/diff.md --exclude *.pyd
+[2023-04-27 08:12:33] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-04-27 08:12:33] INFO root fetch - main [MainThread]: End processing [proxycurl-py]: success
+[2023-04-27 08:12:33] INFO root fetch - main [MainThread]: End processing [mango-pycore]: success
+[2023-04-27 08:12:33] INFO root fetch - main [MainThread]: End processing [inverted-index-search]: success
+[2023-04-27 08:12:33] INFO root fetch - main [MainThread]: End processing [mango-pycore]: success
+[2023-04-27 08:12:33] INFO root fetch - main [MainThread]: End processing [inventronet]: success
+[2023-04-27 08:12:33] INFO root fetch - main [MainThread]: End processing [vinset]: success
+[2023-04-27 08:12:33] INFO root fetch - main [MainThread]: End processing [django-beam]: success
+[2023-04-27 08:12:35] INFO root fetch - main [MainThread]: End processing [binance-candle]: success
+[2023-04-27 08:12:35] INFO root fetch - main [MainThread]: Store serial: [17878380]
