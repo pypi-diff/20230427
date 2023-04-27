@@ -16646,3 +16646,66 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 12:44:36] INFO root fetch - main [MainThread]: End processing [hotsos]: success
 [2023-04-27 12:44:38] INFO root fetch - main [MainThread]: End processing [cognitivefactory-interactive-clustering-gui]: success
 [2023-04-27 12:44:38] INFO root fetch - main [MainThread]: Store serial: [17881515]
+[2023-04-27 12:49:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17881515]
+[2023-04-27 12:49:48] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-27 12:49:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ysphotutilpy
+[2023-04-27 12:49:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: extr
+[2023-04-27 12:49:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ysphotutilpy
+[2023-04-27 12:49:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ysphotutilpy
+[2023-04-27 12:49:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: extr-ds
+[2023-04-27 12:49:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: krillscan
+[2023-04-27 12:49:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: deepprofile
+[2023-04-27 12:49:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nbox
+[2023-04-27 12:49:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ChatLLM
+[2023-04-27 12:49:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cog
+[2023-04-27 12:49:48] INFO root fetch - processPackages [ysphotutilpy]: New version: [0.2.dev0] Old Version: [0.1.1.dev0]
+[2023-04-27 12:49:48] INFO root fetch - processPackages [ysphotutilpy]: New version: [0.2.dev0] Old Version: [0.1.1.dev0]
+[2023-04-27 12:49:48] INFO root fetch - processPackages [ysphotutilpy]: New version: [0.2.dev0] Old Version: [0.1.1.dev0]
+[2023-04-27 12:49:48] INFO root fetch - processPackages [krillscan]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-27 12:49:48] INFO root fetch - processPackages [deepprofile]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 12:49:48] INFO root fetch - processPackages [extr-ds]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 12:49:48] INFO root fetch - processPackages [extr]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 12:49:48] INFO root fetch - processPackages [ChatLLM]: New version: [2023.4.27.18.6.56] Old Version: [2023.4.27.18.29.10]
+[2023-04-27 12:49:48] INFO root fetch - processPackages [krillscan]: executing diffoscope
+[2023-04-27 12:49:48] INFO root fetch - processPackages [krillscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krillscan-0.2.8.tar.gz tmp/krillscan-0.2.9.tar.gz --markdown 20230427/k/krillscan/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-27 12:49:48] INFO root fetch - processPackages [extr-ds]: executing diffoscope
+[2023-04-27 12:49:48] INFO root fetch - processPackages [extr-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extr-ds-0.0.8.tar.gz tmp/extr-ds-0.0.9.tar.gz --markdown 20230427/e/extr-ds/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 12:49:48] INFO root fetch - processPackages [ysphotutilpy]: Downloading https://files.pythonhosted.org/packages/83/92/aa82889923285820cbdec26e8041665a4655ad6bf82c9580f7c57cd1abc0/ysphotutilpy-0.1.1.dev0.tar.gz
+[2023-04-27 12:49:48] INFO root fetch - processPackages [nbox]: New version: [0.9.9rc0] Old Version: [0.9.9]
+[2023-04-27 12:49:48] INFO root fetch - processPackages [ysphotutilpy]: Downloading https://files.pythonhosted.org/packages/83/92/aa82889923285820cbdec26e8041665a4655ad6bf82c9580f7c57cd1abc0/ysphotutilpy-0.1.1.dev0.tar.gz
+[2023-04-27 12:49:48] INFO root fetch - processPackages [ysphotutilpy]: Downloading https://files.pythonhosted.org/packages/83/92/aa82889923285820cbdec26e8041665a4655ad6bf82c9580f7c57cd1abc0/ysphotutilpy-0.1.1.dev0.tar.gz
+[2023-04-27 12:49:48] INFO root fetch - processPackages [cog]: New version: [0.7.0b9] Old Version: [0.7.0b8]
+[2023-04-27 12:49:48] INFO root fetch - processPackages [extr]: executing diffoscope
+[2023-04-27 12:49:48] INFO root fetch - processPackages [extr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extr-0.0.8.tar.gz tmp/extr-0.0.9.tar.gz --markdown 20230427/e/extr/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 12:49:48] INFO root fetch - processPackages [ChatLLM]: executing diffoscope
+[2023-04-27 12:49:48] INFO root fetch - processPackages [ChatLLM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ChatLLM-2023.4.27.18.29.10.tar.gz tmp/ChatLLM-2023.4.27.18.6.56.tar.gz --markdown 20230427/C/ChatLLM/2023.4.27.18.29.10-2023.4.27.18.6.56/diff.md --exclude *.pyd
+[2023-04-27 12:49:48] INFO root fetch - processPackages [deepprofile]: Downloading https://files.pythonhosted.org/packages/bb/05/89b9edaefc7df89ab29a1ef4edf459e579d88130f1e014877c64240c3a1a/deepprofile-0.0.8.tar.gz
+[2023-04-27 12:49:48] INFO root fetch - processPackages [cog]: executing diffoscope
+[2023-04-27 12:49:48] INFO root fetch - processPackages [cog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cog-0.7.0b8-py3-none-any.whl.zip tmp/cog-0.7.0b9-py3-none-any.whl.zip --markdown 20230427/c/cog/0.7.0b8-0.7.0b9/diff.md --exclude *.pyd
+[2023-04-27 12:49:48] INFO root fetch - processPackages [nbox]: Downloading https://files.pythonhosted.org/packages/3d/74/98cb97a2dc0cd9f45292cd8ded3d3da9318b1bede8a34420822679c48c34/nbox-0.9.9.tar.gz
+[2023-04-27 12:49:48] INFO root fetch - processPackages [ysphotutilpy]: Downloading https://files.pythonhosted.org/packages/6a/1d/3c6eb827028e59551d787545531a303f43f1fac9b419a0c7eb57b7bb74e0/ysphotutilpy-0.2.dev0-py3.10.egg
+[2023-04-27 12:49:48] INFO root fetch - processPackages [ysphotutilpy]: Downloading https://files.pythonhosted.org/packages/6a/1d/3c6eb827028e59551d787545531a303f43f1fac9b419a0c7eb57b7bb74e0/ysphotutilpy-0.2.dev0-py3.10.egg
+[2023-04-27 12:49:48] INFO root fetch - processPackages [ysphotutilpy]: Downloading https://files.pythonhosted.org/packages/6a/1d/3c6eb827028e59551d787545531a303f43f1fac9b419a0c7eb57b7bb74e0/ysphotutilpy-0.2.dev0-py3.10.egg
+[2023-04-27 12:49:48] INFO root fetch - processPackages [deepprofile]: Downloading https://files.pythonhosted.org/packages/3e/34/5479b458cc8fe52626cb3b2e58b31f52acc6e8bfd3efba4c6287124bac58/deepprofile-0.0.9.tar.gz
+[2023-04-27 12:49:48] INFO root fetch - processPackages [ysphotutilpy]: executing diffoscope
+[2023-04-27 12:49:48] INFO root fetch - processPackages [ysphotutilpy]: executing diffoscope
+[2023-04-27 12:49:48] INFO root fetch - processPackages [ysphotutilpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ysphotutilpy-0.1.1.dev0.tar.gz tmp/ysphotutilpy-0.2.dev0-py3.10.egg --markdown 20230427/y/ysphotutilpy/0.1.1.dev0-0.2.dev0/diff.md --exclude *.pyd
+[2023-04-27 12:49:48] INFO root fetch - processPackages [ysphotutilpy]: executing diffoscope
+[2023-04-27 12:49:48] INFO root fetch - processPackages [ysphotutilpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ysphotutilpy-0.1.1.dev0.tar.gz tmp/ysphotutilpy-0.2.dev0-py3.10.egg --markdown 20230427/y/ysphotutilpy/0.1.1.dev0-0.2.dev0/diff.md --exclude *.pyd
+[2023-04-27 12:49:48] INFO root fetch - processPackages [ysphotutilpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ysphotutilpy-0.1.1.dev0.tar.gz tmp/ysphotutilpy-0.2.dev0-py3.10.egg --markdown 20230427/y/ysphotutilpy/0.1.1.dev0-0.2.dev0/diff.md --exclude *.pyd
+[2023-04-27 12:49:48] INFO root fetch - processPackages [deepprofile]: executing diffoscope
+[2023-04-27 12:49:48] INFO root fetch - processPackages [deepprofile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepprofile-0.0.8.tar.gz tmp/deepprofile-0.0.9.tar.gz --markdown 20230427/d/deepprofile/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 12:49:48] INFO root fetch - processPackages [nbox]: Downloading https://files.pythonhosted.org/packages/e9/5a/a1cec5678c7bcca81531e8e340b7ace580efc6d998e285970e6d0a94f7cd/nbox-0.9.9rc0.tar.gz
+[2023-04-27 12:49:49] INFO root fetch - processPackages [nbox]: executing diffoscope
+[2023-04-27 12:49:49] INFO root fetch - processPackages [nbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbox-0.9.9.tar.gz tmp/nbox-0.9.9rc0.tar.gz --markdown 20230427/n/nbox/0.9.9-0.9.9rc0/diff.md --exclude *.pyd
+[2023-04-27 12:49:49] INFO root fetch - main [MainThread]: End processing [extr-ds]: success
+[2023-04-27 12:49:50] INFO root fetch - main [MainThread]: End processing [extr]: success
+[2023-04-27 12:49:50] INFO root fetch - main [MainThread]: End processing [ysphotutilpy]: success
+[2023-04-27 12:49:50] INFO root fetch - main [MainThread]: End processing [cog]: success
+[2023-04-27 12:49:50] INFO root fetch - main [MainThread]: End processing [krillscan]: success
+[2023-04-27 12:49:50] INFO root fetch - main [MainThread]: End processing [ysphotutilpy]: success
+[2023-04-27 12:49:50] INFO root fetch - main [MainThread]: End processing [deepprofile]: success
+[2023-04-27 12:49:51] INFO root fetch - main [MainThread]: End processing [ysphotutilpy]: success
+[2023-04-27 12:49:52] INFO root fetch - main [MainThread]: End processing [nbox]: success
+[2023-04-27 12:49:52] INFO root fetch - main [MainThread]: End processing [ChatLLM]: success
+[2023-04-27 12:49:52] INFO root fetch - main [MainThread]: Store serial: [17881542]
