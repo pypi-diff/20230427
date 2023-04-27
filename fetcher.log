@@ -9177,3 +9177,20 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 06:10:43] INFO root fetch - main [MainThread]: End processing [odoo14-addon-website-sale-filter-product-brand]: success
 [2023-04-27 06:10:49] INFO root fetch - main [MainThread]: End processing [truera]: success
 [2023-04-27 06:10:49] INFO root fetch - main [MainThread]: Store serial: [17877398]
+[2023-04-27 06:15:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17877398]
+[2023-04-27 06:15:59] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-04-27 06:15:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: QTNOME-P-Y-R-O-B-O-T
+[2023-04-27 06:15:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: QTNOME-P-Y-R-O-B-O-T
+[2023-04-27 06:15:59] INFO root fetch - processPackages [QTNOME-P-Y-R-O-B-O-T]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-04-27 06:15:59] INFO root fetch - processPackages [QTNOME-P-Y-R-O-B-O-T]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-04-27 06:15:59] INFO root fetch - processPackages [QTNOME-P-Y-R-O-B-O-T]: Downloading https://files.pythonhosted.org/packages/6b/48/bfb63f26eef4a79f426f26f7bb55b275af5295855b27583b9eeae8f75932/QTNOME_P-Y-R-O-B-O-T-1.0.4.tar.gz
+[2023-04-27 06:15:59] INFO root fetch - processPackages [QTNOME-P-Y-R-O-B-O-T]: Downloading https://files.pythonhosted.org/packages/6b/48/bfb63f26eef4a79f426f26f7bb55b275af5295855b27583b9eeae8f75932/QTNOME_P-Y-R-O-B-O-T-1.0.4.tar.gz
+[2023-04-27 06:15:59] INFO root fetch - processPackages [QTNOME-P-Y-R-O-B-O-T]: Downloading https://files.pythonhosted.org/packages/25/6f/71715550a486de16a119bd2ddb982251d33136e8767a525e00b864d2579c/QTNOME_P-Y-R-O-B-O-T-1.0.5.tar.gz
+[2023-04-27 06:15:59] INFO root fetch - processPackages [QTNOME-P-Y-R-O-B-O-T]: Downloading https://files.pythonhosted.org/packages/25/6f/71715550a486de16a119bd2ddb982251d33136e8767a525e00b864d2579c/QTNOME_P-Y-R-O-B-O-T-1.0.5.tar.gz
+[2023-04-27 06:15:59] INFO root fetch - processPackages [QTNOME-P-Y-R-O-B-O-T]: executing diffoscope
+[2023-04-27 06:15:59] INFO root fetch - processPackages [QTNOME-P-Y-R-O-B-O-T]: executing diffoscope
+[2023-04-27 06:15:59] INFO root fetch - processPackages [QTNOME-P-Y-R-O-B-O-T]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QTNOME_P-Y-R-O-B-O-T-1.0.4.tar.gz tmp/QTNOME_P-Y-R-O-B-O-T-1.0.5.tar.gz --markdown 20230427/Q/QTNOME-P-Y-R-O-B-O-T/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-04-27 06:15:59] INFO root fetch - processPackages [QTNOME-P-Y-R-O-B-O-T]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QTNOME_P-Y-R-O-B-O-T-1.0.4.tar.gz tmp/QTNOME_P-Y-R-O-B-O-T-1.0.5.tar.gz --markdown 20230427/Q/QTNOME-P-Y-R-O-B-O-T/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-04-27 06:16:00] INFO root fetch - main [MainThread]: End processing [QTNOME-P-Y-R-O-B-O-T]: success
+[2023-04-27 06:16:00] INFO root fetch - main [MainThread]: End processing [QTNOME-P-Y-R-O-B-O-T]: success
+[2023-04-27 06:16:00] INFO root fetch - main [MainThread]: Store serial: [17877408]
