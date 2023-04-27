@@ -16276,3 +16276,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 12:20:26] INFO root fetch - main [MainThread]: End processing [abqpy]: success
 [2023-04-27 12:20:26] INFO root fetch - main [MainThread]: End processing [abqpy]: success
 [2023-04-27 12:20:26] INFO root fetch - main [MainThread]: Store serial: [17881331]
+[2023-04-27 12:25:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17881331]
+[2023-04-27 12:25:36] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-27 12:25:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cads-sdk
+[2023-04-27 12:25:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tubular
+[2023-04-27 12:25:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: outsystems-pipeline
+[2023-04-27 12:25:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: docarray
+[2023-04-27 12:25:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dbbot-sql
+[2023-04-27 12:25:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fedml
+[2023-04-27 12:25:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: micropython-umqtt.robust2
+[2023-04-27 12:25:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: grimoirelab
+[2023-04-27 12:25:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: musicplayercontrolpackage
+[2023-04-27 12:25:36] INFO root fetch - processPackages [cads-sdk]: New version: [0.0.5] Old Version: [0.0.14rc0]
+[2023-04-27 12:25:36] INFO root fetch - processPackages [fedml]: New version: [0.8.4a1] Old Version: [0.8.3a9]
+[2023-04-27 12:25:36] INFO root fetch - processPackages [tubular]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-04-27 12:25:36] WARNING root fetch - processPackages [musicplayercontrolpackage]: Skipping, unable to determine old version
+[2023-04-27 12:25:36] INFO root fetch - processPackages [dbbot-sql]: New version: [0.2] Old Version: [0.1]
+[2023-04-27 12:25:36] INFO root fetch - processPackages [micropython-umqtt.robust2]: New version: [2.2.0] Old Version: [2.1.3]
+[2023-04-27 12:25:36] INFO root fetch - main [MainThread]: End processing [musicplayercontrolpackage] error
+[2023-04-27 12:25:36] INFO root fetch - processPackages [grimoirelab]: New version: [0.9.1] Old Version: [0.9.0rc1]
+[2023-04-27 12:25:36] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-04-27 12:25:36] INFO root fetch - processPackages [outsystems-pipeline]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-04-27 12:25:36] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-04-27 12:25:36] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230427/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-04-27 12:25:36] INFO root fetch - processPackages [fedml]: Downloading https://files.pythonhosted.org/packages/0f/e8/2d9508069e4b6e388c3b4fe360966e50f4fb6caa00ef8ddbe10aa3830177/fedml-0.8.3a9.tar.gz
+[2023-04-27 12:25:36] INFO root fetch - processPackages [micropython-umqtt.robust2]: Downloading https://files.pythonhosted.org/packages/cc/63/e60608a0d92b3a4b4da75643bce9ec0907b78a72ea1c9688d19765f0d89b/micropython-umqtt.robust2-2.2.0.tar.gz
+[2023-04-27 12:25:36] INFO root fetch - processPackages [dbbot-sql]: Downloading https://files.pythonhosted.org/packages/0f/6d/78bf62c00dc00e2149b51f8059aa32c215c8274c16a82a9b9ebeb201cf5e/dbbot-sql-0.1.tar.gz
+[2023-04-27 12:25:36] INFO root fetch - processPackages [tubular]: Downloading https://files.pythonhosted.org/packages/34/9f/df8caa0743b09cae4ca5de33fdb3f917580a8199d5e37ca708ad7cb1e64e/tubular-0.3.4.tar.gz
+[2023-04-27 12:25:36] INFO root fetch - processPackages [grimoirelab]: Downloading https://files.pythonhosted.org/packages/47/4e/3e7702ecacec1750c844d5220a175fd021f6de7bd966e3ce3a37095f2465/grimoirelab-0.9.0rc1.tar.gz
+[2023-04-27 12:25:36] INFO root fetch - processPackages [micropython-umqtt.robust2]: executing diffoscope
+[2023-04-27 12:25:36] INFO root fetch - processPackages [micropython-umqtt.robust2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython-umqtt.robust2-2.1.3.tar.gz tmp/micropython-umqtt.robust2-2.2.0.tar.gz --markdown 20230427/m/micropython-umqtt.robust2/2.1.3-2.2.0/diff.md --exclude *.pyd
+[2023-04-27 12:25:36] INFO root fetch - processPackages [outsystems-pipeline]: Downloading https://files.pythonhosted.org/packages/d7/29/8bdd831dc0c59e18a989ee28b705da9fbfbc5dc65ea79f08cb231debeef8/outsystems-pipeline-0.5.0.tar.gz
+[2023-04-27 12:25:36] INFO root fetch - processPackages [cads-sdk]: executing diffoscope
+[2023-04-27 12:25:36] INFO root fetch - processPackages [cads-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cads_sdk-0.0.14rc0-py3-none-any.whl.zip tmp/cads_sdk-0.0.5-py3-none-any.whl.zip --markdown 20230427/c/cads-sdk/0.0.14rc0-0.0.5/diff.md --exclude *.pyd
+[2023-04-27 12:25:36] INFO root fetch - processPackages [dbbot-sql]: Downloading https://files.pythonhosted.org/packages/c3/a1/2024c75760c9e64544862c244fe0cb836c80cb8528332381f834b46d4f39/dbbot-sql-0.2.tar.gz
+[2023-04-27 12:25:36] INFO root fetch - processPackages [fedml]: Downloading https://files.pythonhosted.org/packages/c7/d8/69b3f5940e715a7de84ad9b210fdca22c7d8a8de95f7ab943df479e4709e/fedml-0.8.4a1.tar.gz
+[2023-04-27 12:25:36] INFO root fetch - processPackages [grimoirelab]: Downloading https://files.pythonhosted.org/packages/2b/e7/c4b4906f6cac9f1702d4049b7d069a0d4fc72649eeab1e78fab7a8115567/grimoirelab-0.9.1.tar.gz
+[2023-04-27 12:25:36] INFO root fetch - processPackages [dbbot-sql]: executing diffoscope
+[2023-04-27 12:25:36] INFO root fetch - processPackages [dbbot-sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbbot-sql-0.1.tar.gz tmp/dbbot-sql-0.2.tar.gz --markdown 20230427/d/dbbot-sql/0.1-0.2/diff.md --exclude *.pyd
+[2023-04-27 12:25:37] INFO root fetch - processPackages [outsystems-pipeline]: Downloading https://files.pythonhosted.org/packages/22/fd/9104d337293214e4eacd8843d76e004a3ae7bfc481354bcf6e371543e426/outsystems-pipeline-0.6.0.tar.gz
+[2023-04-27 12:25:37] INFO root fetch - processPackages [tubular]: Downloading https://files.pythonhosted.org/packages/8c/d0/bf7401dfe667dee61ca7e951fae3b20faaf84e43bba766a218f7075e038c/tubular-0.3.5.tar.gz
+[2023-04-27 12:25:37] INFO root fetch - processPackages [grimoirelab]: executing diffoscope
+[2023-04-27 12:25:37] INFO root fetch - processPackages [grimoirelab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grimoirelab-0.9.0rc1.tar.gz tmp/grimoirelab-0.9.1.tar.gz --markdown 20230427/g/grimoirelab/0.9.0rc1-0.9.1/diff.md --exclude *.pyd
+[2023-04-27 12:25:37] INFO root fetch - processPackages [tubular]: executing diffoscope
+[2023-04-27 12:25:37] INFO root fetch - processPackages [tubular]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tubular-0.3.4.tar.gz tmp/tubular-0.3.5.tar.gz --markdown 20230427/t/tubular/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-04-27 12:25:37] INFO root fetch - processPackages [outsystems-pipeline]: executing diffoscope
+[2023-04-27 12:25:37] INFO root fetch - processPackages [outsystems-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/outsystems-pipeline-0.5.0.tar.gz tmp/outsystems-pipeline-0.6.0.tar.gz --markdown 20230427/o/outsystems-pipeline/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-04-27 12:25:37] INFO root fetch - processPackages [fedml]: executing diffoscope
+[2023-04-27 12:25:37] INFO root fetch - processPackages [fedml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedml-0.8.3a9.tar.gz tmp/fedml-0.8.4a1.tar.gz --markdown 20230427/f/fedml/0.8.3a9-0.8.4a1/diff.md --exclude *.pyd
+[2023-04-27 12:25:38] INFO root fetch - main [MainThread]: End processing [micropython-umqtt.robust2]: success
+[2023-04-27 12:25:38] INFO root fetch - main [MainThread]: End processing [grimoirelab]: success
+[2023-04-27 12:25:38] INFO root fetch - main [MainThread]: End processing [cads-sdk]: success
+[2023-04-27 12:25:38] INFO root fetch - main [MainThread]: End processing [outsystems-pipeline]: success
+[2023-04-27 12:25:39] INFO root fetch - main [MainThread]: End processing [dbbot-sql]: success
+[2023-04-27 12:25:39] INFO root fetch - main [MainThread]: End processing [tubular]: success
+[2023-04-27 12:25:41] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-04-27 12:25:50] INFO root fetch - main [MainThread]: End processing [fedml]: success
+[2023-04-27 12:25:50] INFO root fetch - main [MainThread]: Store serial: [17881358]
