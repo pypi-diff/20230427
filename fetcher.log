@@ -7819,3 +7819,49 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 04:04:01] INFO root fetch - main [MainThread]: End processing [scalyr-agent-2]: success
 [2023-04-27 04:05:02] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-04-27 04:05:02] INFO root fetch - main [MainThread]: Store serial: [17876635]
+[2023-04-27 04:10:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17876635]
+[2023-04-27 04:10:13] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-27 04:10:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: html2notion
+[2023-04-27 04:10:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torch-waymo
+[2023-04-27 04:10:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cjen
+[2023-04-27 04:10:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-switchbot-ble
+[2023-04-27 04:10:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flarespy
+[2023-04-27 04:10:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-suanpan
+[2023-04-27 04:10:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: suanpan-core
+[2023-04-27 04:10:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Cope
+[2023-04-27 04:10:13] INFO root fetch - processPackages [torch-waymo]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-27 04:10:13] INFO root fetch - processPackages [Cope]: New version: [1.3.0] Old Version: [1.2.1]
+[2023-04-27 04:10:13] INFO root fetch - processPackages [suanpan-core]: New version: [0.19.0] Old Version: [0.18.9]
+[2023-04-27 04:10:13] INFO root fetch - processPackages [python-suanpan]: New version: [0.19.0] Old Version: [0.18.9]
+[2023-04-27 04:10:13] INFO root fetch - processPackages [cjen]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-27 04:10:13] INFO root fetch - processPackages [html2notion]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-27 04:10:13] WARNING root fetch - processPackages [python-switchbot-ble]: Skipping, unable to determine old version
+[2023-04-27 04:10:13] INFO root fetch - main [MainThread]: End processing [python-switchbot-ble] error
+[2023-04-27 04:10:13] INFO root fetch - processPackages [flarespy]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-04-27 04:10:13] INFO root fetch - processPackages [torch-waymo]: executing diffoscope
+[2023-04-27 04:10:13] INFO root fetch - processPackages [torch-waymo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_waymo-0.1.1.tar.gz tmp/torch_waymo-0.1.2.tar.gz --markdown 20230427/t/torch-waymo/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-27 04:10:13] INFO root fetch - processPackages [suanpan-core]: executing diffoscope
+[2023-04-27 04:10:13] INFO root fetch - processPackages [suanpan-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/suanpan-core-0.18.9.tar.gz tmp/suanpan-core-0.19.0.tar.gz --markdown 20230427/s/suanpan-core/0.18.9-0.19.0/diff.md --exclude *.pyd
+[2023-04-27 04:10:13] INFO root fetch - processPackages [python-suanpan]: executing diffoscope
+[2023-04-27 04:10:13] INFO root fetch - processPackages [python-suanpan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-suanpan-0.18.9.tar.gz tmp/python-suanpan-0.19.0.tar.gz --markdown 20230427/p/python-suanpan/0.18.9-0.19.0/diff.md --exclude *.pyd
+[2023-04-27 04:10:13] INFO root fetch - processPackages [Cope]: executing diffoscope
+[2023-04-27 04:10:13] INFO root fetch - processPackages [Cope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Cope-1.2.1.tar.gz tmp/Cope-1.3.0.tar.gz --markdown 20230427/C/Cope/1.2.1-1.3.0/diff.md --exclude *.pyd
+[2023-04-27 04:10:13] INFO root fetch - processPackages [cjen]: Downloading https://files.pythonhosted.org/packages/c4/c3/85099160a102f6612d9781eaebd817bc7e4fb3b5856c78af6823c4b85714/cjen-1.0.8.tar.gz
+[2023-04-27 04:10:13] INFO root fetch - processPackages [html2notion]: Downloading https://files.pythonhosted.org/packages/c1/65/71a67ab2ea7c65dacded847fc6e55fbd58afd800221a08e9ee36239a9e9f/html2notion-0.1.4.tar.gz
+[2023-04-27 04:10:13] INFO root fetch - processPackages [flarespy]: Downloading https://files.pythonhosted.org/packages/c8/7e/3f154203fb0f1369802551bb5c886d19787ba3740cac776f1ab46ff30696/flarespy-0.9.8.tar.gz
+[2023-04-27 04:10:13] INFO root fetch - processPackages [flarespy]: executing diffoscope
+[2023-04-27 04:10:13] INFO root fetch - processPackages [flarespy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flarespy-0.9.7.tar.gz tmp/flarespy-0.9.8.tar.gz --markdown 20230427/f/flarespy/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-04-27 04:10:13] INFO root fetch - processPackages [cjen]: Downloading https://files.pythonhosted.org/packages/a1/00/887993a7565ab66c0ef3223dfbc2ab2b85b96933e0e89867e421db51797b/cjen-1.0.9.tar.gz
+[2023-04-27 04:10:13] INFO root fetch - processPackages [html2notion]: Downloading https://files.pythonhosted.org/packages/d3/b1/ea7002e1d52b9a43d500cc9dec76b0b48a331d8a2c80fd316cf6df94a921/html2notion-0.1.5.tar.gz
+[2023-04-27 04:10:13] INFO root fetch - processPackages [cjen]: executing diffoscope
+[2023-04-27 04:10:13] INFO root fetch - processPackages [cjen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjen-1.0.8.tar.gz tmp/cjen-1.0.9.tar.gz --markdown 20230427/c/cjen/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-27 04:10:13] INFO root fetch - processPackages [html2notion]: executing diffoscope
+[2023-04-27 04:10:13] INFO root fetch - processPackages [html2notion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/html2notion-0.1.4.tar.gz tmp/html2notion-0.1.5.tar.gz --markdown 20230427/h/html2notion/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-27 04:10:14] INFO root fetch - main [MainThread]: End processing [torch-waymo]: success
+[2023-04-27 04:10:15] INFO root fetch - main [MainThread]: End processing [cjen]: success
+[2023-04-27 04:10:15] INFO root fetch - main [MainThread]: End processing [html2notion]: success
+[2023-04-27 04:10:15] INFO root fetch - main [MainThread]: End processing [Cope]: success
+[2023-04-27 04:10:16] INFO root fetch - main [MainThread]: End processing [flarespy]: success
+[2023-04-27 04:10:16] INFO root fetch - main [MainThread]: End processing [suanpan-core]: success
+[2023-04-27 04:10:17] INFO root fetch - main [MainThread]: End processing [python-suanpan]: success
+[2023-04-27 04:10:17] INFO root fetch - main [MainThread]: Store serial: [17876663]
