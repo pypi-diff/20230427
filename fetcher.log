@@ -8405,3 +8405,89 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 04:58:37] INFO root fetch - main [MainThread]: End processing [foursight]: success
 [2023-04-27 04:58:43] INFO root fetch - main [MainThread]: End processing [purefusion]: success
 [2023-04-27 04:58:43] INFO root fetch - main [MainThread]: Store serial: [17876922]
+[2023-04-27 05:03:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17876922]
+[2023-04-27 05:03:52] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-04-27 05:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: diffusionkit
+[2023-04-27 05:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: diffusionkit
+[2023-04-27 05:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: loggerml
+[2023-04-27 05:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py-to-proto
+[2023-04-27 05:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: duckdb
+[2023-04-27 05:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyfed-macos
+[2023-04-27 05:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: puncover-riscv
+[2023-04-27 05:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyfed
+[2023-04-27 05:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: enhancementkit
+[2023-04-27 05:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: enhancementkit
+[2023-04-27 05:03:52] INFO root fetch - processPackages [diffusionkit]: New version: [0.19] Old Version: [0.18]
+[2023-04-27 05:03:52] INFO root fetch - processPackages [diffusionkit]: New version: [0.19] Old Version: [0.18]
+[2023-04-27 05:03:52] WARNING root fetch - processPackages [loggerml]: Skipping, unable to determine old version
+[2023-04-27 05:03:52] INFO root fetch - processPackages [loggerml]: Start processing: cloudkit-worker
+[2023-04-27 05:03:52] INFO root fetch - main [MainThread]: End processing [loggerml] error
+[2023-04-27 05:03:52] INFO root fetch - processPackages [enhancementkit]: New version: [0.2] Old Version: [0.1]
+[2023-04-27 05:03:52] INFO root fetch - processPackages [pyfed-macos]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 05:03:52] WARNING root fetch - processPackages [puncover-riscv]: Skipping, unable to determine old version
+[2023-04-27 05:03:52] INFO root fetch - processPackages [py-to-proto]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-27 05:03:52] INFO root fetch - processPackages [puncover-riscv]: Start processing: cloudworker
+[2023-04-27 05:03:52] INFO root fetch - main [MainThread]: End processing [puncover-riscv] error
+[2023-04-27 05:03:52] INFO root fetch - processPackages [enhancementkit]: New version: [0.2] Old Version: [0.1]
+[2023-04-27 05:03:52] INFO root fetch - processPackages [pyfed]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 05:03:52] WARNING root fetch - processPackages [cloudkit-worker]: Skipping, unable to determine old version
+[2023-04-27 05:03:52] INFO root fetch - processPackages [cloudkit-worker]: Start processing: dinohub-seedwork-be
+[2023-04-27 05:03:52] INFO root fetch - main [MainThread]: End processing [cloudkit-worker] error
+[2023-04-27 05:03:52] INFO root fetch - processPackages [pyfed-macos]: executing diffoscope
+[2023-04-27 05:03:52] INFO root fetch - processPackages [pyfed-macos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfed_macos-0.0.8.tar.gz tmp/pyfed_macos-0.0.9.tar.gz --markdown 20230427/p/pyfed-macos/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 05:03:52] INFO root fetch - processPackages [pyfed]: executing diffoscope
+[2023-04-27 05:03:52] INFO root fetch - processPackages [pyfed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfed-0.0.8.tar.gz tmp/pyfed-0.0.9.tar.gz --markdown 20230427/p/pyfed/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 05:03:52] ERROR root fetch - processPackages [cloudworker]: Unable to get metadata: No such project 'cloudworker'
+[2023-04-27 05:03:52] INFO root fetch - processPackages [cloudworker]: Start processing: CommonlyTools
+[2023-04-27 05:03:52] INFO root fetch - main [MainThread]: End processing [cloudworker] error
+[2023-04-27 05:03:52] INFO root fetch - processPackages [diffusionkit]: Downloading https://files.pythonhosted.org/packages/16/d1/23e888d744a28deb31d42b2506a87270b15c065aebee8fc8dbc607bce5ec/diffusionkit-0.18-py3.10.egg
+[2023-04-27 05:03:52] INFO root fetch - processPackages [enhancementkit]: Downloading https://files.pythonhosted.org/packages/8e/e8/6ceff90375467b260010ced0da9fe625a99a033a6e6b22f016f56659b9a8/enhancementkit-0.1-py3.10.egg
+[2023-04-27 05:03:52] INFO root fetch - processPackages [diffusionkit]: Downloading https://files.pythonhosted.org/packages/16/d1/23e888d744a28deb31d42b2506a87270b15c065aebee8fc8dbc607bce5ec/diffusionkit-0.18-py3.10.egg
+[2023-04-27 05:03:52] INFO root fetch - processPackages [dinohub-seedwork-be]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-27 05:03:52] INFO root fetch - processPackages [CommonlyTools]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-04-27 05:03:52] INFO root fetch - processPackages [enhancementkit]: Downloading https://files.pythonhosted.org/packages/8e/e8/6ceff90375467b260010ced0da9fe625a99a033a6e6b22f016f56659b9a8/enhancementkit-0.1-py3.10.egg
+[2023-04-27 05:03:52] INFO root fetch - processPackages [py-to-proto]: Downloading https://files.pythonhosted.org/packages/c1/24/16db5f60735cb5e1bd04cd03f32369e19d9cd52ef235448193c22fa9aa95/py_to_proto-0.1.1-py39-none-any.whl
+[2023-04-27 05:03:52] INFO root fetch - processPackages [duckdb]: New version: [0.7.2.dev2675] Old Version: [0.7.2.dev2552]
+[2023-04-27 05:03:52] INFO root fetch - processPackages [py-to-proto]: executing diffoscope
+[2023-04-27 05:03:52] INFO root fetch - processPackages [py-to-proto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_to_proto-0.1.0-py39-none-any.whl.zip tmp/py_to_proto-0.1.1-py39-none-any.whl.zip --markdown 20230427/p/py-to-proto/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-27 05:03:52] INFO root fetch - processPackages [dinohub-seedwork-be]: Downloading https://files.pythonhosted.org/packages/4c/46/d1887f78ab55b1b70017664e8a938e6744c93233a84d21e028aea8a6a379/dinohub_seedwork_be-0.1.8.tar.gz
+[2023-04-27 05:03:52] INFO root fetch - processPackages [CommonlyTools]: executing diffoscope
+[2023-04-27 05:03:52] INFO root fetch - processPackages [CommonlyTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CommonlyTools-2.0.8.tar.gz tmp/CommonlyTools-2.0.9.tar.gz --markdown 20230427/C/CommonlyTools/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-04-27 05:03:52] INFO root fetch - processPackages [diffusionkit]: Downloading https://files.pythonhosted.org/packages/8d/33/c24cd358574e02965531b54c8beb3a6980daaa2cceb2eb68c7a93bd95940/diffusionkit-0.19.tar.gz
+[2023-04-27 05:03:52] INFO root fetch - processPackages [diffusionkit]: Downloading https://files.pythonhosted.org/packages/8d/33/c24cd358574e02965531b54c8beb3a6980daaa2cceb2eb68c7a93bd95940/diffusionkit-0.19.tar.gz
+[2023-04-27 05:03:52] INFO root fetch - processPackages [enhancementkit]: Downloading https://files.pythonhosted.org/packages/63/fb/adcf55e09189c60b46eb24722bfc9f162dcacb03f86172e8fab58fb7faa9/enhancementkit-0.2.tar.gz
+[2023-04-27 05:03:52] INFO root fetch - processPackages [enhancementkit]: Downloading https://files.pythonhosted.org/packages/63/fb/adcf55e09189c60b46eb24722bfc9f162dcacb03f86172e8fab58fb7faa9/enhancementkit-0.2.tar.gz
+[2023-04-27 05:03:52] INFO root fetch - processPackages [enhancementkit]: executing diffoscope
+[2023-04-27 05:03:52] INFO root fetch - processPackages [enhancementkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enhancementkit-0.1-py3.10.egg tmp/enhancementkit-0.2.tar.gz --markdown 20230427/e/enhancementkit/0.1-0.2/diff.md --exclude *.pyd
+[2023-04-27 05:03:52] INFO root fetch - processPackages [enhancementkit]: executing diffoscope
+[2023-04-27 05:03:52] INFO root fetch - processPackages [enhancementkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enhancementkit-0.1-py3.10.egg tmp/enhancementkit-0.2.tar.gz --markdown 20230427/e/enhancementkit/0.1-0.2/diff.md --exclude *.pyd
+[2023-04-27 05:03:52] INFO root fetch - processPackages [diffusionkit]: executing diffoscope
+[2023-04-27 05:03:52] INFO root fetch - processPackages [diffusionkit]: executing diffoscope
+[2023-04-27 05:03:52] INFO root fetch - processPackages [diffusionkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diffusionkit-0.18-py3.10.egg tmp/diffusionkit-0.19.tar.gz --markdown 20230427/d/diffusionkit/0.18-0.19/diff.md --exclude *.pyd
+[2023-04-27 05:03:52] INFO root fetch - processPackages [diffusionkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diffusionkit-0.18-py3.10.egg tmp/diffusionkit-0.19.tar.gz --markdown 20230427/d/diffusionkit/0.18-0.19/diff.md --exclude *.pyd
+[2023-04-27 05:03:52] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/73/4d/ef09e5f2a4a166a75c5692847c0900cc437921230108b2bd393d392b346d/duckdb-0.7.2.dev2675-cp37-cp37m-macosx_10_9_x86_64.whl
+[2023-04-27 05:03:52] WARNING root fetch - processPackages [duckdb]: Skipping package: exceeds size limit 14419130>=10485760
+[2023-04-27 05:03:52] INFO root fetch - processPackages [duckdb]: Start processing: pyfed
+[2023-04-27 05:03:52] INFO root fetch - main [MainThread]: End processing [duckdb] error
+[2023-04-27 05:03:53] INFO root fetch - processPackages [dinohub-seedwork-be]: Downloading https://files.pythonhosted.org/packages/c7/f0/83f951a0ce5587c272db2365405ce0774dee3aaa3ce05609cb806a402d92/dinohub_seedwork_be-0.1.9.tar.gz
+[2023-04-27 05:03:53] INFO root fetch - processPackages [pyfed]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 05:03:53] INFO root fetch - processPackages [pyfed]: executing diffoscope
+[2023-04-27 05:03:53] INFO root fetch - processPackages [pyfed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfed-0.0.8.tar.gz tmp/pyfed-0.0.9.tar.gz --markdown 20230427/p/pyfed/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 05:03:53] INFO root fetch - processPackages [dinohub-seedwork-be]: executing diffoscope
+[2023-04-27 05:03:53] INFO root fetch - processPackages [dinohub-seedwork-be]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dinohub_seedwork_be-0.1.8.tar.gz tmp/dinohub_seedwork_be-0.1.9.tar.gz --markdown 20230427/d/dinohub-seedwork-be/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-27 05:03:53] INFO root fetch - processPackages [pyfed-macos]: Start processing: pyfed-macos
+[2023-04-27 05:03:53] INFO root fetch - main [MainThread]: End processing [pyfed-macos]: success
+[2023-04-27 05:03:53] INFO root fetch - processPackages [pyfed-macos]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 05:03:53] INFO root fetch - processPackages [pyfed-macos]: executing diffoscope
+[2023-04-27 05:03:53] INFO root fetch - processPackages [pyfed-macos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfed_macos-0.0.8.tar.gz tmp/pyfed_macos-0.0.9.tar.gz --markdown 20230427/p/pyfed-macos/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 05:03:53] INFO root fetch - main [MainThread]: End processing [pyfed]: success
+[2023-04-27 05:03:54] INFO root fetch - main [MainThread]: End processing [py-to-proto]: success
+[2023-04-27 05:03:54] INFO root fetch - main [MainThread]: End processing [enhancementkit]: success
+[2023-04-27 05:03:54] INFO root fetch - main [MainThread]: End processing [CommonlyTools]: success
+[2023-04-27 05:03:54] INFO root fetch - main [MainThread]: End processing [enhancementkit]: success
+[2023-04-27 05:03:54] INFO root fetch - main [MainThread]: End processing [diffusionkit]: success
+[2023-04-27 05:03:54] INFO root fetch - main [MainThread]: End processing [diffusionkit]: success
+[2023-04-27 05:03:54] INFO root fetch - main [MainThread]: End processing [pyfed]: success
+[2023-04-27 05:03:54] INFO root fetch - main [MainThread]: End processing [dinohub-seedwork-be]: success
+[2023-04-27 05:03:55] INFO root fetch - main [MainThread]: End processing [pyfed-macos]: success
+[2023-04-27 05:03:55] INFO root fetch - main [MainThread]: Store serial: [17876983]
