@@ -11073,3 +11073,37 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 08:12:33] INFO root fetch - main [MainThread]: End processing [django-beam]: success
 [2023-04-27 08:12:35] INFO root fetch - main [MainThread]: End processing [binance-candle]: success
 [2023-04-27 08:12:35] INFO root fetch - main [MainThread]: Store serial: [17878380]
+[2023-04-27 08:17:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17878380]
+[2023-04-27 08:17:44] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-27 08:17:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pawnlib
+[2023-04-27 08:17:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: juneyaodag
+[2023-04-27 08:17:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lmcloud
+[2023-04-27 08:17:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo12-addon-pos-cashback-warning
+[2023-04-27 08:17:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: teamscale-cli
+[2023-04-27 08:17:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rich-simple-term-menu
+[2023-04-27 08:17:44] INFO root fetch - processPackages [lmcloud]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-04-27 08:17:44] INFO root fetch - processPackages [pawnlib]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-27 08:17:44] WARNING root fetch - processPackages [juneyaodag]: Skipping, unable to determine old version
+[2023-04-27 08:17:44] INFO root fetch - main [MainThread]: End processing [juneyaodag] error
+[2023-04-27 08:17:44] INFO root fetch - processPackages [odoo12-addon-pos-cashback-warning]: New version: [12.0.1.0.2.99.dev2] Old Version: [12.0.1.0.2]
+[2023-04-27 08:17:44] INFO root fetch - processPackages [teamscale-cli]: New version: [8.8.0] Old Version: [8.7.5]
+[2023-04-27 08:17:44] WARNING root fetch - processPackages [rich-simple-term-menu]: Skipping, unable to determine old version
+[2023-04-27 08:17:44] INFO root fetch - main [MainThread]: End processing [rich-simple-term-menu] error
+[2023-04-27 08:17:44] INFO root fetch - processPackages [pawnlib]: executing diffoscope
+[2023-04-27 08:17:44] INFO root fetch - processPackages [pawnlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pawnlib-0.1.8-py3-none-any.whl.zip tmp/pawnlib-0.1.9-py3-none-any.whl.zip --markdown 20230427/p/pawnlib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-27 08:17:44] INFO root fetch - processPackages [odoo12-addon-pos-cashback-warning]: Downloading https://files.pythonhosted.org/packages/9d/ce/3ec5f88c08270c7a8045d186ad1f13527b6e909cc0ab3e1e72b67cb53c95/odoo12_addon_pos_cashback_warning-12.0.1.0.2-py3-none-any.whl
+[2023-04-27 08:17:44] INFO root fetch - processPackages [lmcloud]: Downloading https://files.pythonhosted.org/packages/a5/e9/2eede19cc80e2408b7e678e655031867f3ad387aa2139d15bcb2800275ec/lmcloud-0.2.3.tar.gz
+[2023-04-27 08:17:44] INFO root fetch - processPackages [teamscale-cli]: Downloading https://files.pythonhosted.org/packages/51/60/362a14efdf3303b43bef6875e96b842494361cd90e43025e36f808dcb1b7/teamscale_cli-8.7.5-py3-none-any.whl
+[2023-04-27 08:17:44] INFO root fetch - processPackages [lmcloud]: executing diffoscope
+[2023-04-27 08:17:44] INFO root fetch - processPackages [lmcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmcloud-0.2.2.tar.gz tmp/lmcloud-0.2.3.tar.gz --markdown 20230427/l/lmcloud/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-04-27 08:17:44] INFO root fetch - processPackages [odoo12-addon-pos-cashback-warning]: Downloading https://files.pythonhosted.org/packages/1b/d0/173e68f65d6a33a96d4efb893e39e85f19dea7544dc1420c9de191d168a4/odoo12_addon_pos_cashback_warning-12.0.1.0.2.99.dev2-py3-none-any.whl
+[2023-04-27 08:17:44] INFO root fetch - processPackages [teamscale-cli]: Downloading https://files.pythonhosted.org/packages/31/a0/6f1eb12ce5d97bc242c11606cca0ca7205280fe622ed7120e2442fc4fcec/teamscale_cli-8.8.0-py3-none-any.whl
+[2023-04-27 08:17:44] INFO root fetch - processPackages [teamscale-cli]: executing diffoscope
+[2023-04-27 08:17:44] INFO root fetch - processPackages [teamscale-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teamscale_cli-8.7.5-py3-none-any.whl.zip tmp/teamscale_cli-8.8.0-py3-none-any.whl.zip --markdown 20230427/t/teamscale-cli/8.7.5-8.8.0/diff.md --exclude *.pyd
+[2023-04-27 08:17:44] INFO root fetch - processPackages [odoo12-addon-pos-cashback-warning]: executing diffoscope
+[2023-04-27 08:17:44] INFO root fetch - processPackages [odoo12-addon-pos-cashback-warning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_pos_cashback_warning-12.0.1.0.2-py3-none-any.whl.zip tmp/odoo12_addon_pos_cashback_warning-12.0.1.0.2.99.dev2-py3-none-any.whl.zip --markdown 20230427/o/odoo12-addon-pos-cashback-warning/12.0.1.0.2-12.0.1.0.2.99.dev2/diff.md --exclude *.pyd
+[2023-04-27 08:17:45] INFO root fetch - main [MainThread]: End processing [lmcloud]: success
+[2023-04-27 08:17:45] INFO root fetch - main [MainThread]: End processing [pawnlib]: success
+[2023-04-27 08:17:45] INFO root fetch - main [MainThread]: End processing [teamscale-cli]: success
+[2023-04-27 08:17:46] INFO root fetch - main [MainThread]: End processing [odoo12-addon-pos-cashback-warning]: success
+[2023-04-27 08:17:46] INFO root fetch - main [MainThread]: Store serial: [17878413]
