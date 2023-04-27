@@ -12208,3 +12208,116 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 09:44:22] INFO root fetch - main [MainThread]: End processing [covfee]: success
 [2023-04-27 09:44:23] INFO root fetch - main [MainThread]: End processing [feeluown]: success
 [2023-04-27 09:44:23] INFO root fetch - main [MainThread]: Store serial: [17879049]
+[2023-04-27 09:49:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17879049]
+[2023-04-27 09:49:33] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-04-27 09:49:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: innerverz-package
+[2023-04-27 09:49:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: giscemultitools
+[2023-04-27 09:49:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cg
+[2023-04-27 09:49:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cg-hermes
+[2023-04-27 09:49:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spiderx
+[2023-04-27 09:49:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: paper-qa
+[2023-04-27 09:49:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vtb-biname
+[2023-04-27 09:49:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: localstack-core
+[2023-04-27 09:49:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-hotel
+[2023-04-27 09:49:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-hotel
+[2023-04-27 09:49:34] INFO root fetch - processPackages [localstack-core]: New version: [2.0.3.dev20230427070834] Old Version: [2.0.3.dev20230426170324]
+[2023-04-27 09:49:34] INFO root fetch - processPackages [cg]: New version: [29.4.7] Old Version: [29.4.6]
+[2023-04-27 09:49:34] WARNING root fetch - processPackages [innerverz-package]: Skipping, unable to determine old version
+[2023-04-27 09:49:34] INFO root fetch - processPackages [innerverz-package]: Start processing: odoo14-addon-hotel-reservation
+[2023-04-27 09:49:34] INFO root fetch - main [MainThread]: End processing [innerverz-package] error
+[2023-04-27 09:49:34] INFO root fetch - processPackages [giscemultitools]: New version: [1.0.0] Old Version: [0.3.4]
+[2023-04-27 09:49:34] WARNING root fetch - processPackages [vtb-biname]: Skipping, unable to determine old version
+[2023-04-27 09:49:34] INFO root fetch - processPackages [vtb-biname]: Start processing: odoo-addon-report-hotel-restaurant
+[2023-04-27 09:49:34] INFO root fetch - processPackages [odoo-addon-hotel]: New version: [15.0.1.0.0.9] Old Version: [15.0.1.0.0.8]
+[2023-04-27 09:49:34] INFO root fetch - processPackages [odoo14-addon-hotel]: New version: [14.0.1.0.1.dev9] Old Version: [14.0.1.0.1.dev7]
+[2023-04-27 09:49:34] INFO root fetch - processPackages [cg-hermes]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-04-27 09:49:34] INFO root fetch - main [MainThread]: End processing [vtb-biname] error
+[2023-04-27 09:49:34] INFO root fetch - processPackages [spiderx]: New version: [1.8.9] Old Version: [1.8.2]
+[2023-04-27 09:49:34] INFO root fetch - processPackages [paper-qa]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-04-27 09:49:34] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-04-27 09:49:34] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.0.3.dev20230426170324.tar.gz tmp/localstack-core-2.0.3.dev20230427070834.tar.gz --markdown 20230427/l/localstack-core/2.0.3.dev20230426170324-2.0.3.dev20230427070834/diff.md --exclude *.pyd
+[2023-04-27 09:49:34] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-04-27 09:49:34] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-29.4.6.tar.gz tmp/cg-29.4.7.tar.gz --markdown 20230427/c/cg/29.4.6-29.4.7/diff.md --exclude *.pyd
+[2023-04-27 09:49:34] INFO root fetch - processPackages [odoo-addon-report-hotel-restaurant]: New version: [15.0.1.0.0.2] Old Version: [15.0.1.0.0.1]
+[2023-04-27 09:49:34] INFO root fetch - processPackages [odoo14-addon-hotel-reservation]: New version: [14.0.1.0.1.dev8] Old Version: [14.0.1.0.1.dev24]
+[2023-04-27 09:49:34] INFO root fetch - processPackages [paper-qa]: Downloading https://files.pythonhosted.org/packages/1d/64/8e61d1b94d4cfa6cf9244ff6e27353e8593836503b8b2f58a32c9d43d5db/paper-qa-1.1.1.tar.gz
+[2023-04-27 09:49:34] INFO root fetch - processPackages [odoo-addon-hotel]: Downloading https://files.pythonhosted.org/packages/2a/de/5bea8e65f68a988e7b46d533a8191a2960d7695ef56fbdced31b6ddaaa22/odoo_addon_hotel-15.0.1.0.0.8-py3-none-any.whl
+[2023-04-27 09:49:34] INFO root fetch - processPackages [giscemultitools]: Downloading https://files.pythonhosted.org/packages/f4/43/583121757e9f0417d89a1c979ac96cbd4511719a2e2cfc7477264706fcd0/giscemultitools-0.3.4.tar.gz
+[2023-04-27 09:49:34] INFO root fetch - processPackages [spiderx]: Downloading https://files.pythonhosted.org/packages/0a/38/bdc5166668af43c8d8fb12955ee54797392b7e8d7c1bc7aa8180d6cf526b/spiderx-1.8.2.tar.gz
+[2023-04-27 09:49:34] INFO root fetch - processPackages [odoo14-addon-hotel]: Downloading https://files.pythonhosted.org/packages/37/c9/a4b88a19ab439dc67f2243029cf786e10a7a87ef8f08c929fafc18c53b63/odoo14_addon_hotel-14.0.1.0.1.dev7-py3-none-any.whl
+[2023-04-27 09:49:34] INFO root fetch - processPackages [cg-hermes]: Downloading https://files.pythonhosted.org/packages/6f/0c/a584534c39bc4d96f13ad4273e0913b59d074204fc74b955f3f496188808/cg-hermes-1.8.0.tar.gz
+[2023-04-27 09:49:34] INFO root fetch - processPackages [odoo14-addon-hotel-reservation]: Downloading https://files.pythonhosted.org/packages/8b/7d/fc43c85befe38d94ed7e38e8f6a6db542cc33b31dbc726adc99478ca59b6/odoo14_addon_hotel_reservation-14.0.1.0.1.dev24-py3-none-any.whl
+[2023-04-27 09:49:34] INFO root fetch - processPackages [odoo-addon-report-hotel-restaurant]: Downloading https://files.pythonhosted.org/packages/92/58/5ec6305f18df7d46500a89dc719e60e8244c9cf955d2858f144597697413/odoo_addon_report_hotel_restaurant-15.0.1.0.0.1-py3-none-any.whl
+[2023-04-27 09:49:34] INFO root fetch - processPackages [paper-qa]: Downloading https://files.pythonhosted.org/packages/d9/d8/9d05b391e652affad761eab075222d9a9498f1f82c8bbe0c39aec5feec49/paper-qa-1.2.0.tar.gz
+[2023-04-27 09:49:34] INFO root fetch - processPackages [cg-hermes]: Downloading https://files.pythonhosted.org/packages/67/6e/f35065005ad8e514ccb9524361723cdde5d9f965e4abcae652b25b97d748/cg-hermes-1.9.0.tar.gz
+[2023-04-27 09:49:34] INFO root fetch - processPackages [odoo-addon-report-hotel-restaurant]: Downloading https://files.pythonhosted.org/packages/3b/67/ca62456927ca484d191c34700f3aa60eea075d6a894f987d20305455df56/odoo_addon_report_hotel_restaurant-15.0.1.0.0.2-py3-none-any.whl
+[2023-04-27 09:49:34] INFO root fetch - processPackages [cg-hermes]: executing diffoscope
+[2023-04-27 09:49:34] INFO root fetch - processPackages [cg-hermes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-hermes-1.8.0.tar.gz tmp/cg-hermes-1.9.0.tar.gz --markdown 20230427/c/cg-hermes/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-04-27 09:49:34] INFO root fetch - processPackages [odoo-addon-hotel]: Downloading https://files.pythonhosted.org/packages/d7/0a/188a625f0ab4ccbf7cdd33b16e453f1a8b32cea2ced9d90f7b20caf9bcc0/odoo_addon_hotel-15.0.1.0.0.9-py3-none-any.whl
+[2023-04-27 09:49:34] INFO root fetch - processPackages [odoo14-addon-hotel-reservation]: Downloading https://files.pythonhosted.org/packages/a9/60/bea9338598177942db0ee67b2c910aeeacd35cdb9605351a7c0575b008d2/odoo14_addon_hotel_reservation-14.0.1.0.1.dev8-py3-none-any.whl
+[2023-04-27 09:49:34] INFO root fetch - processPackages [odoo14-addon-hotel]: Downloading https://files.pythonhosted.org/packages/67/22/df3517622fed232de0578dce5b69f02249345fb9b9b8f3e35fc4ea886980/odoo14_addon_hotel-14.0.1.0.1.dev9-py3-none-any.whl
+[2023-04-27 09:49:34] INFO root fetch - processPackages [giscemultitools]: Downloading https://files.pythonhosted.org/packages/cc/e4/58bfb91dd886b72018f8c7168d630f5b59870877018d4a12438dadad68a7/giscemultitools-1.0.0.tar.gz
+[2023-04-27 09:49:34] INFO root fetch - processPackages [odoo-addon-report-hotel-restaurant]: executing diffoscope
+[2023-04-27 09:49:34] INFO root fetch - processPackages [odoo-addon-report-hotel-restaurant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_report_hotel_restaurant-15.0.1.0.0.1-py3-none-any.whl.zip tmp/odoo_addon_report_hotel_restaurant-15.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230427/o/odoo-addon-report-hotel-restaurant/15.0.1.0.0.1-15.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-04-27 09:49:34] INFO root fetch - processPackages [paper-qa]: executing diffoscope
+[2023-04-27 09:49:34] INFO root fetch - processPackages [paper-qa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paper-qa-1.1.1.tar.gz tmp/paper-qa-1.2.0.tar.gz --markdown 20230427/p/paper-qa/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-04-27 09:49:34] INFO root fetch - processPackages [giscemultitools]: executing diffoscope
+[2023-04-27 09:49:34] INFO root fetch - processPackages [giscemultitools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/giscemultitools-0.3.4.tar.gz tmp/giscemultitools-1.0.0.tar.gz --markdown 20230427/g/giscemultitools/0.3.4-1.0.0/diff.md --exclude *.pyd
+[2023-04-27 09:49:35] INFO root fetch - processPackages [odoo14-addon-hotel]: executing diffoscope
+[2023-04-27 09:49:35] INFO root fetch - processPackages [odoo14-addon-hotel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_hotel-14.0.1.0.1.dev7-py3-none-any.whl.zip tmp/odoo14_addon_hotel-14.0.1.0.1.dev9-py3-none-any.whl.zip --markdown 20230427/o/odoo14-addon-hotel/14.0.1.0.1.dev7-14.0.1.0.1.dev9/diff.md --exclude *.pyd
+[2023-04-27 09:49:35] INFO root fetch - processPackages [spiderx]: Downloading https://files.pythonhosted.org/packages/89/1b/9167dbeeaa50aa50ace655fad0bdde6e911624db12636d31909324747f8a/spiderx-1.8.9.tar.gz
+[2023-04-27 09:49:35] INFO root fetch - processPackages [odoo14-addon-hotel-reservation]: executing diffoscope
+[2023-04-27 09:49:35] INFO root fetch - processPackages [odoo14-addon-hotel-reservation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_hotel_reservation-14.0.1.0.1.dev24-py3-none-any.whl.zip tmp/odoo14_addon_hotel_reservation-14.0.1.0.1.dev8-py3-none-any.whl.zip --markdown 20230427/o/odoo14-addon-hotel-reservation/14.0.1.0.1.dev24-14.0.1.0.1.dev8/diff.md --exclude *.pyd
+[2023-04-27 09:49:35] INFO root fetch - processPackages [spiderx]: executing diffoscope
+[2023-04-27 09:49:35] INFO root fetch - processPackages [spiderx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spiderx-1.8.2.tar.gz tmp/spiderx-1.8.9.tar.gz --markdown 20230427/s/spiderx/1.8.2-1.8.9/diff.md --exclude *.pyd
+[2023-04-27 09:49:35] INFO root fetch - processPackages [odoo-addon-hotel]: executing diffoscope
+[2023-04-27 09:49:35] INFO root fetch - processPackages [odoo-addon-hotel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_hotel-15.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_hotel-15.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230427/o/odoo-addon-hotel/15.0.1.0.0.8-15.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-04-27 09:49:36] INFO root fetch - processPackages [cg-hermes]: Start processing: odoo-addon-report-hotel-reservation
+[2023-04-27 09:49:36] INFO root fetch - main [MainThread]: End processing [cg-hermes]: success
+[2023-04-27 09:49:36] INFO root fetch - processPackages [odoo-addon-report-hotel-restaurant]: Start processing: odoo14-addon-hotel-restaurant
+[2023-04-27 09:49:36] INFO root fetch - main [MainThread]: End processing [odoo-addon-report-hotel-restaurant]: success
+[2023-04-27 09:49:36] INFO root fetch - processPackages [odoo-addon-report-hotel-reservation]: New version: [15.0.1.0.0.2] Old Version: [15.0.1.0.0.1]
+[2023-04-27 09:49:36] INFO root fetch - processPackages [odoo14-addon-hotel-restaurant]: New version: [14.0.1.0.1.dev7] Old Version: [14.0.1.0.1.dev6]
+[2023-04-27 09:49:36] INFO root fetch - processPackages [odoo-addon-report-hotel-reservation]: Downloading https://files.pythonhosted.org/packages/e5/49/247585ab0b63c90718aa41cfe709985fe599bc5413522549e759195c3c9a/odoo_addon_report_hotel_reservation-15.0.1.0.0.1-py3-none-any.whl
+[2023-04-27 09:49:36] INFO root fetch - processPackages [giscemultitools]: Start processing: utbot-executor
+[2023-04-27 09:49:36] INFO root fetch - main [MainThread]: End processing [giscemultitools]: success
+[2023-04-27 09:49:36] INFO root fetch - processPackages [utbot-executor]: New version: [1.6.2] Old Version: [1.6.1]
+[2023-04-27 09:49:36] INFO root fetch - processPackages [odoo14-addon-hotel-restaurant]: Downloading https://files.pythonhosted.org/packages/d0/c5/10b3132578907d0d2cb5ae641834737bc7f09179528536218eca940c676a/odoo14_addon_hotel_restaurant-14.0.1.0.1.dev6-py3-none-any.whl
+[2023-04-27 09:49:36] INFO root fetch - processPackages [utbot-executor]: executing diffoscope
+[2023-04-27 09:49:36] INFO root fetch - processPackages [utbot-executor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utbot_executor-1.6.1.tar.gz tmp/utbot_executor-1.6.2.tar.gz --markdown 20230427/u/utbot-executor/1.6.1-1.6.2/diff.md --exclude *.pyd
+[2023-04-27 09:49:36] INFO root fetch - processPackages [spiderx]: Start processing: odoo14-addon-hotel-housekeeping
+[2023-04-27 09:49:36] INFO root fetch - main [MainThread]: End processing [spiderx]: success
+[2023-04-27 09:49:36] INFO root fetch - processPackages [odoo-addon-report-hotel-reservation]: Downloading https://files.pythonhosted.org/packages/3a/9e/4d42e79605aec7cd28181dde8e4c1f9acc1286f63b428f82fb94a97c5831/odoo_addon_report_hotel_reservation-15.0.1.0.0.2-py3-none-any.whl
+[2023-04-27 09:49:36] INFO root fetch - processPackages [odoo14-addon-hotel-housekeeping]: New version: [14.0.1.0.1.dev9] Old Version: [14.0.1.0.1.dev8]
+[2023-04-27 09:49:37] INFO root fetch - processPackages [paper-qa]: Start processing: keras-nightly
+[2023-04-27 09:49:37] INFO root fetch - main [MainThread]: End processing [paper-qa]: success
+[2023-04-27 09:49:37] INFO root fetch - processPackages [odoo-addon-report-hotel-reservation]: executing diffoscope
+[2023-04-27 09:49:37] INFO root fetch - processPackages [odoo-addon-report-hotel-reservation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_report_hotel_reservation-15.0.1.0.0.1-py3-none-any.whl.zip tmp/odoo_addon_report_hotel_reservation-15.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230427/o/odoo-addon-report-hotel-reservation/15.0.1.0.0.1-15.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-04-27 09:49:37] INFO root fetch - processPackages [keras-nightly]: New version: [2.9.0.dev2022033107] Old Version: [2.9.0.dev2022033007]
+[2023-04-27 09:49:37] INFO root fetch - processPackages [odoo14-addon-hotel-housekeeping]: Downloading https://files.pythonhosted.org/packages/b1/cb/da5726e146e4ceaed89ea9dbdcb73e66f5a3739c8a866ca121ffb2661b71/odoo14_addon_hotel_housekeeping-14.0.1.0.1.dev8-py3-none-any.whl
+[2023-04-27 09:49:37] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2023-04-27 09:49:37] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip --markdown 20230427/k/keras-nightly/2.9.0.dev2022033007-2.9.0.dev2022033107/diff.md --exclude *.pyd
+[2023-04-27 09:49:37] INFO root fetch - processPackages [odoo14-addon-hotel-reservation]: Start processing: cloud-asset
+[2023-04-27 09:49:37] INFO root fetch - main [MainThread]: End processing [odoo14-addon-hotel-reservation]: success
+[2023-04-27 09:49:37] INFO root fetch - processPackages [cloud-asset]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-27 09:49:37] INFO root fetch - main [MainThread]: End processing [odoo14-addon-hotel]: success
+[2023-04-27 09:49:37] INFO root fetch - processPackages [odoo14-addon-hotel-housekeeping]: Downloading https://files.pythonhosted.org/packages/8d/b3/edb668fb05270f3910524b3f4ac1aeef40803a6c0353c34fae4ad71ec3d3/odoo14_addon_hotel_housekeeping-14.0.1.0.1.dev9-py3-none-any.whl
+[2023-04-27 09:49:37] INFO root fetch - processPackages [cloud-asset]: Downloading https://files.pythonhosted.org/packages/8b/b1/7d014e1ac2b012868a51035955dcb763c3b33418286ea99b7b2ae925a9ed/cloud_asset-0.0.2-py3-none-any.whl
+[2023-04-27 09:49:37] INFO root fetch - processPackages [odoo14-addon-hotel-housekeeping]: executing diffoscope
+[2023-04-27 09:49:37] INFO root fetch - processPackages [odoo14-addon-hotel-housekeeping]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_hotel_housekeeping-14.0.1.0.1.dev8-py3-none-any.whl.zip tmp/odoo14_addon_hotel_housekeeping-14.0.1.0.1.dev9-py3-none-any.whl.zip --markdown 20230427/o/odoo14-addon-hotel-housekeeping/14.0.1.0.1.dev8-14.0.1.0.1.dev9/diff.md --exclude *.pyd
+[2023-04-27 09:49:37] INFO root fetch - processPackages [odoo14-addon-hotel-restaurant]: Downloading https://files.pythonhosted.org/packages/d1/3f/7b1f27dfb8eb57a92a1c7aa21d8a7e22f7a32a9362c53b347a02fb9f1196/odoo14_addon_hotel_restaurant-14.0.1.0.1.dev7-py3-none-any.whl
+[2023-04-27 09:49:37] INFO root fetch - processPackages [cloud-asset]: Downloading https://files.pythonhosted.org/packages/f0/bb/4966afd79d1630bc1acbe0bfc18e3428588e2fa363351c3fe6b07dddc725/cloud_asset-0.0.3-py3-none-any.whl
+[2023-04-27 09:49:37] INFO root fetch - processPackages [cloud-asset]: executing diffoscope
+[2023-04-27 09:49:37] INFO root fetch - processPackages [cloud-asset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud_asset-0.0.2-py3-none-any.whl.zip tmp/cloud_asset-0.0.3-py3-none-any.whl.zip --markdown 20230427/c/cloud-asset/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-27 09:49:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-report-hotel-reservation]: success
+[2023-04-27 09:49:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-hotel]: success
+[2023-04-27 09:49:38] INFO root fetch - main [MainThread]: End processing [utbot-executor]: success
+[2023-04-27 09:49:38] INFO root fetch - processPackages [odoo14-addon-hotel-restaurant]: executing diffoscope
+[2023-04-27 09:49:38] INFO root fetch - processPackages [odoo14-addon-hotel-restaurant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_hotel_restaurant-14.0.1.0.1.dev6-py3-none-any.whl.zip tmp/odoo14_addon_hotel_restaurant-14.0.1.0.1.dev7-py3-none-any.whl.zip --markdown 20230427/o/odoo14-addon-hotel-restaurant/14.0.1.0.1.dev6-14.0.1.0.1.dev7/diff.md --exclude *.pyd
+[2023-04-27 09:49:38] INFO root fetch - main [MainThread]: End processing [odoo14-addon-hotel-housekeeping]: success
+[2023-04-27 09:49:39] INFO root fetch - main [MainThread]: End processing [cloud-asset]: success
+[2023-04-27 09:49:40] INFO root fetch - main [MainThread]: End processing [odoo14-addon-hotel-restaurant]: success
+[2023-04-27 09:49:41] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-04-27 09:49:45] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-04-27 09:49:45] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2023-04-27 09:49:45] INFO root fetch - main [MainThread]: Store serial: [17879099]
