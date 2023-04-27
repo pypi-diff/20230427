@@ -12152,3 +12152,59 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 09:39:04] INFO root fetch - main [MainThread]: End processing [discogs-alert]: success
 [2023-04-27 09:39:08] INFO root fetch - main [MainThread]: End processing [gardener-cicd-libs]: success
 [2023-04-27 09:39:08] INFO root fetch - main [MainThread]: Store serial: [17879011]
+[2023-04-27 09:44:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17879011]
+[2023-04-27 09:44:17] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-27 09:44:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: discogs-alert
+[2023-04-27 09:44:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sequana-pipetools
+[2023-04-27 09:44:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pymef
+[2023-04-27 09:44:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: base-system
+[2023-04-27 09:44:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: optilibre
+[2023-04-27 09:44:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: decorworld-database-model
+[2023-04-27 09:44:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: feeluown
+[2023-04-27 09:44:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo13-addon-hr-timesheet-sheet
+[2023-04-27 09:44:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: covfee
+[2023-04-27 09:44:18] INFO root fetch - processPackages [decorworld-database-model]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-04-27 09:44:18] INFO root fetch - processPackages [base-system]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-27 09:44:18] INFO root fetch - processPackages [pymef]: New version: [1.3.5] Old Version: [1.3.4]
+[2023-04-27 09:44:18] INFO root fetch - processPackages [decorworld-database-model]: executing diffoscope
+[2023-04-27 09:44:18] INFO root fetch - processPackages [decorworld-database-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decorworld_database_model-0.6.1.tar.gz tmp/decorworld_database_model-0.6.2.tar.gz --markdown 20230427/d/decorworld-database-model/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-04-27 09:44:18] INFO root fetch - processPackages [base-system]: executing diffoscope
+[2023-04-27 09:44:18] INFO root fetch - processPackages [base-system]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/base_system-0.1.2.tar.gz tmp/base_system-0.1.3.tar.gz --markdown 20230427/b/base-system/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-27 09:44:18] INFO root fetch - processPackages [pymef]: executing diffoscope
+[2023-04-27 09:44:18] INFO root fetch - processPackages [pymef]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymef-1.3.4.tar.gz tmp/pymef-1.3.5.tar.gz --markdown 20230427/p/pymef/1.3.4-1.3.5/diff.md --exclude *.pyd
+[2023-04-27 09:44:18] INFO root fetch - processPackages [optilibre]: New version: [1.2.0] Old Version: [1.1.2]
+[2023-04-27 09:44:18] INFO root fetch - processPackages [covfee]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 09:44:18] INFO root fetch - processPackages [odoo13-addon-hr-timesheet-sheet]: New version: [13.0.1.2.1.dev9] Old Version: [13.0.1.2.1.dev8]
+[2023-04-27 09:44:18] INFO root fetch - processPackages [sequana-pipetools]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-04-27 09:44:18] INFO root fetch - processPackages [feeluown]: New version: [3.8.9] Old Version: [3.8.8]
+[2023-04-27 09:44:18] INFO root fetch - processPackages [discogs-alert]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 09:44:18] INFO root fetch - processPackages [odoo13-addon-hr-timesheet-sheet]: executing diffoscope
+[2023-04-27 09:44:18] INFO root fetch - processPackages [odoo13-addon-hr-timesheet-sheet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_hr_timesheet_sheet-13.0.1.2.1.dev8-py3-none-any.whl.zip tmp/odoo13_addon_hr_timesheet_sheet-13.0.1.2.1.dev9-py3-none-any.whl.zip --markdown 20230427/o/odoo13-addon-hr-timesheet-sheet/13.0.1.2.1.dev8-13.0.1.2.1.dev9/diff.md --exclude *.pyd
+[2023-04-27 09:44:18] INFO root fetch - processPackages [covfee]: Downloading https://files.pythonhosted.org/packages/69/ba/c44d2037882dd882dbd105dbae39fea8e2006aa30e3b132219956c053463/covfee-0.0.8.tar.gz
+[2023-04-27 09:44:18] INFO root fetch - processPackages [optilibre]: Downloading https://files.pythonhosted.org/packages/25/03/b060569be4c9d630add3ef7e12242550d74440a6a60ec95d07fe91b2e6d5/optilibre-1.1.2.tar.gz
+[2023-04-27 09:44:18] INFO root fetch - processPackages [feeluown]: Downloading https://files.pythonhosted.org/packages/b6/72/ff8da1bd3377ba3d147035234180e0238047bf9d9639ef7d84d506279610/feeluown-3.8.8.tar.gz
+[2023-04-27 09:44:18] INFO root fetch - processPackages [sequana-pipetools]: Downloading https://files.pythonhosted.org/packages/b9/9b/026d86b249ac0e19b736b5ba49e470530fdf4c775e3a922364fa98071d99/sequana_pipetools-0.9.5.tar.gz
+[2023-04-27 09:44:18] INFO root fetch - processPackages [discogs-alert]: executing diffoscope
+[2023-04-27 09:44:18] INFO root fetch - processPackages [discogs-alert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discogs_alert-0.0.8.tar.gz tmp/discogs_alert-0.0.9.tar.gz --markdown 20230427/d/discogs-alert/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 09:44:18] INFO root fetch - processPackages [optilibre]: Downloading https://files.pythonhosted.org/packages/ae/57/d0f3ce01ffb8d0bcbcd46bfef54402809f96f07d0f28395668b5d72f82e4/optilibre-1.2.0.tar.gz
+[2023-04-27 09:44:18] INFO root fetch - processPackages [covfee]: Downloading https://files.pythonhosted.org/packages/5f/f6/b7fc4eb509ac50bbe6013751f72415ff708859351606598d97da9570b0e0/covfee-0.0.9.tar.gz
+[2023-04-27 09:44:18] INFO root fetch - processPackages [sequana-pipetools]: Downloading https://files.pythonhosted.org/packages/cf/8f/e03a25d505020aeb82aa541caf6ad21e33496440b057cbb3e04816e72ed4/sequana_pipetools-0.9.6.tar.gz
+[2023-04-27 09:44:18] INFO root fetch - processPackages [feeluown]: Downloading https://files.pythonhosted.org/packages/92/e1/a88c7fc7debde230d7462322224cac832390da8a868e580b01b7d2f8badb/feeluown-3.8.9.tar.gz
+[2023-04-27 09:44:18] INFO root fetch - processPackages [optilibre]: executing diffoscope
+[2023-04-27 09:44:18] INFO root fetch - processPackages [optilibre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optilibre-1.1.2.tar.gz tmp/optilibre-1.2.0.tar.gz --markdown 20230427/o/optilibre/1.1.2-1.2.0/diff.md --exclude *.pyd
+[2023-04-27 09:44:18] INFO root fetch - processPackages [sequana-pipetools]: executing diffoscope
+[2023-04-27 09:44:18] INFO root fetch - processPackages [sequana-pipetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sequana_pipetools-0.9.5.tar.gz tmp/sequana_pipetools-0.9.6.tar.gz --markdown 20230427/s/sequana-pipetools/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-04-27 09:44:18] INFO root fetch - processPackages [covfee]: executing diffoscope
+[2023-04-27 09:44:18] INFO root fetch - processPackages [covfee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/covfee-0.0.8.tar.gz tmp/covfee-0.0.9.tar.gz --markdown 20230427/c/covfee/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 09:44:19] INFO root fetch - processPackages [feeluown]: executing diffoscope
+[2023-04-27 09:44:19] INFO root fetch - processPackages [feeluown]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feeluown-3.8.8.tar.gz tmp/feeluown-3.8.9.tar.gz --markdown 20230427/f/feeluown/3.8.8-3.8.9/diff.md --exclude *.pyd
+[2023-04-27 09:44:19] INFO root fetch - main [MainThread]: End processing [pymef]: success
+[2023-04-27 09:44:19] INFO root fetch - main [MainThread]: End processing [decorworld-database-model]: success
+[2023-04-27 09:44:19] INFO root fetch - main [MainThread]: End processing [base-system]: success
+[2023-04-27 09:44:19] INFO root fetch - main [MainThread]: End processing [optilibre]: success
+[2023-04-27 09:44:20] INFO root fetch - main [MainThread]: End processing [sequana-pipetools]: success
+[2023-04-27 09:44:20] INFO root fetch - main [MainThread]: End processing [discogs-alert]: success
+[2023-04-27 09:44:21] INFO root fetch - main [MainThread]: End processing [odoo13-addon-hr-timesheet-sheet]: success
+[2023-04-27 09:44:22] INFO root fetch - main [MainThread]: End processing [covfee]: success
+[2023-04-27 09:44:23] INFO root fetch - main [MainThread]: End processing [feeluown]: success
+[2023-04-27 09:44:23] INFO root fetch - main [MainThread]: Store serial: [17879049]
