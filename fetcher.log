@@ -12382,3 +12382,34 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 09:54:58] INFO root fetch - main [MainThread]: End processing [cognite-sdk-experimental]: success
 [2023-04-27 09:55:17] INFO root fetch - main [MainThread]: End processing [odoo13-addon-web-disable-export-group]: success
 [2023-04-27 09:55:17] INFO root fetch - main [MainThread]: Store serial: [17879141]
+[2023-04-27 10:00:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17879141]
+[2023-04-27 10:00:27] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-27 10:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: antchain-riskplus
+[2023-04-27 10:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: type-writer-text
+[2023-04-27 10:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cnswd
+[2023-04-27 10:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Spire.XLS
+[2023-04-27 10:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TissUUmaps
+[2023-04-27 10:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: navalmartin-mir-vision-utils
+[2023-04-27 10:00:27] INFO root fetch - processPackages [antchain-riskplus]: New version: [1.9.5] Old Version: [1.9.3]
+[2023-04-27 10:00:27] INFO root fetch - processPackages [navalmartin-mir-vision-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 10:00:27] INFO root fetch - processPackages [TissUUmaps]: New version: [3.1rc3] Old Version: [3.1rc2]
+[2023-04-27 10:00:27] WARNING root fetch - processPackages [type-writer-text]: Skipping, unable to determine old version
+[2023-04-27 10:00:27] INFO root fetch - main [MainThread]: End processing [type-writer-text] error
+[2023-04-27 10:00:27] WARNING root fetch - processPackages [cnswd]: Skipping, unable to determine old version
+[2023-04-27 10:00:27] INFO root fetch - main [MainThread]: End processing [cnswd] error
+[2023-04-27 10:00:27] WARNING root fetch - processPackages [Spire.XLS]: Skipping, unable to determine old version
+[2023-04-27 10:00:27] INFO root fetch - main [MainThread]: End processing [Spire.XLS] error
+[2023-04-27 10:00:27] INFO root fetch - processPackages [TissUUmaps]: Downloading https://files.pythonhosted.org/packages/2b/c9/df5f819c7f7d975651f7910d397070bdb8ca9a0cc5a8e80e11c7b2977ea2/TissUUmaps-3.1rc2.tar.gz
+[2023-04-27 10:00:27] INFO root fetch - processPackages [navalmartin-mir-vision-utils]: executing diffoscope
+[2023-04-27 10:00:27] INFO root fetch - processPackages [navalmartin-mir-vision-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/navalmartin_mir_vision_utils-0.0.8.tar.gz tmp/navalmartin_mir_vision_utils-0.0.9.tar.gz --markdown 20230427/n/navalmartin-mir-vision-utils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 10:00:27] INFO root fetch - processPackages [antchain-riskplus]: Downloading https://files.pythonhosted.org/packages/bf/c1/dbe03c2d25af3fa0175660a07bf2ec833509da27dea50cc2c6116d0311e4/antchain_riskplus-1.9.3.tar.gz
+[2023-04-27 10:00:28] INFO root fetch - processPackages [antchain-riskplus]: Downloading https://files.pythonhosted.org/packages/12/c2/d3710d50579d01a29713d277bd95ab4c8f88ed9d297a3ffb73afbd01cb30/antchain_riskplus-1.9.5.tar.gz
+[2023-04-27 10:00:28] INFO root fetch - processPackages [antchain-riskplus]: executing diffoscope
+[2023-04-27 10:00:28] INFO root fetch - processPackages [antchain-riskplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_riskplus-1.9.3.tar.gz tmp/antchain_riskplus-1.9.5.tar.gz --markdown 20230427/a/antchain-riskplus/1.9.3-1.9.5/diff.md --exclude *.pyd
+[2023-04-27 10:00:29] INFO root fetch - main [MainThread]: End processing [navalmartin-mir-vision-utils]: success
+[2023-04-27 10:00:29] INFO root fetch - processPackages [TissUUmaps]: Downloading https://files.pythonhosted.org/packages/28/8a/b99097644cbf80b0a46efa1b703de3a351778d4e84425509a0c0e8089e7e/TissUUmaps-3.1rc3.tar.gz
+[2023-04-27 10:00:29] INFO root fetch - main [MainThread]: End processing [antchain-riskplus]: success
+[2023-04-27 10:00:31] INFO root fetch - processPackages [TissUUmaps]: executing diffoscope
+[2023-04-27 10:00:31] INFO root fetch - processPackages [TissUUmaps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TissUUmaps-3.1rc2.tar.gz tmp/TissUUmaps-3.1rc3.tar.gz --markdown 20230427/T/TissUUmaps/3.1rc2-3.1rc3/diff.md --exclude *.pyd
+[2023-04-27 10:00:57] INFO root fetch - main [MainThread]: End processing [TissUUmaps]: success
+[2023-04-27 10:00:57] INFO root fetch - main [MainThread]: Store serial: [17879182]
