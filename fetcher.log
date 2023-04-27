@@ -19684,3 +19684,166 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 15:13:35] INFO root fetch - main [MainThread]: End processing [coiled]: success
 [2023-04-27 15:13:55] INFO root fetch - main [MainThread]: End processing [fast2q]: success
 [2023-04-27 15:13:55] INFO root fetch - main [MainThread]: Store serial: [17883329]
+[2023-04-27 15:19:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17883329]
+[2023-04-27 15:19:06] INFO root fetch - main [MainThread]: Found 30 changed packages
+[2023-04-27 15:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: astro-provider-databricks
+[2023-04-27 15:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: QuNet
+[2023-04-27 15:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: starlette-babel
+[2023-04-27 15:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyflagsercount
+[2023-04-27 15:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gaitmap-datasets
+[2023-04-27 15:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nbdev-sphinx
+[2023-04-27 15:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jqkaedctest
+[2023-04-27 15:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nyaa-timer
+[2023-04-27 15:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jsonfmt
+[2023-04-27 15:19:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: metadynminer
+[2023-04-27 15:19:06] WARNING root fetch - processPackages [metadynminer]: Skipping, unable to determine old version
+[2023-04-27 15:19:06] INFO root fetch - processPackages [metadynminer]: Start processing: blackmirror2
+[2023-04-27 15:19:06] WARNING root fetch - processPackages [jsonfmt]: Skipping, unable to determine old version
+[2023-04-27 15:19:06] INFO root fetch - main [MainThread]: End processing [metadynminer] error
+[2023-04-27 15:19:06] INFO root fetch - processPackages [jsonfmt]: Start processing: nbdev-django
+[2023-04-27 15:19:06] INFO root fetch - main [MainThread]: End processing [jsonfmt] error
+[2023-04-27 15:19:06] WARNING root fetch - processPackages [blackmirror2]: Skipping, unable to determine old version
+[2023-04-27 15:19:06] INFO root fetch - processPackages [blackmirror2]: Start processing: cloudflarestatus
+[2023-04-27 15:19:06] INFO root fetch - main [MainThread]: End processing [blackmirror2] error
+[2023-04-27 15:19:06] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-27 15:19:06] INFO root fetch - processPackages [pyflagsercount]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-04-27 15:19:06] INFO root fetch - processPackages [starlette-babel]: New version: [1.0.0] Old Version: [0.2.4]
+[2023-04-27 15:19:06] INFO root fetch - processPackages [QuNet]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-27 15:19:06] ERROR root fetch - processPackages [jqkaedctest]: Unable to get metadata: No such project 'jqkaedctest'
+[2023-04-27 15:19:06] INFO root fetch - processPackages [nyaa-timer]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-04-27 15:19:06] INFO root fetch - processPackages [gaitmap-datasets]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-27 15:19:06] INFO root fetch - processPackages [jqkaedctest]: Start processing: sar-handler
+[2023-04-27 15:19:06] INFO root fetch - main [MainThread]: End processing [jqkaedctest] error
+[2023-04-27 15:19:06] INFO root fetch - processPackages [astro-provider-databricks]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-27 15:19:06] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-27 15:19:06] WARNING root fetch - processPackages [cloudflarestatus]: Skipping, unable to determine old version
+[2023-04-27 15:19:06] INFO root fetch - processPackages [cloudflarestatus]: Start processing: RubAmin
+[2023-04-27 15:19:06] INFO root fetch - main [MainThread]: End processing [cloudflarestatus] error
+[2023-04-27 15:19:06] INFO root fetch - processPackages [sar-handler]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-27 15:19:06] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-04-27 15:19:06] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230427/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-27 15:19:06] INFO root fetch - processPackages [pyflagsercount]: Downloading https://files.pythonhosted.org/packages/f2/00/9fe940e698a4019050ff8a9160fb2ebed43dcd5c428804ff9bbee47831f9/pyflagsercount-0.3.3.tar.gz
+[2023-04-27 15:19:06] INFO root fetch - processPackages [nyaa-timer]: Downloading https://files.pythonhosted.org/packages/f1/7b/ad41d2a02385dfc7af4750c18c1433dab6268313c0e858b4b9324c50c818/nyaa-timer-1.2.2.tar.gz
+[2023-04-27 15:19:06] INFO root fetch - processPackages [RubAmin]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-27 15:19:06] INFO root fetch - processPackages [starlette-babel]: Downloading https://files.pythonhosted.org/packages/78/bd/be0f96dea934ed3d39fbc97f87acc373f1f59d8a3067134a57466f2e7ef3/starlette_babel-0.2.4.tar.gz
+[2023-04-27 15:19:06] INFO root fetch - processPackages [gaitmap-datasets]: Downloading https://files.pythonhosted.org/packages/9b/3c/4b174ecede237cc76bdca94d99e925d5e2e01a58acae41ba37cd1f79a295/gaitmap_datasets-0.8.0.tar.gz
+[2023-04-27 15:19:06] INFO root fetch - processPackages [astro-provider-databricks]: Downloading https://files.pythonhosted.org/packages/74/5a/1251457085b3041f026732893f54453d00b31d2b013c1671baf18b9d7cb9/astro_provider_databricks-0.1.2.tar.gz
+[2023-04-27 15:19:06] INFO root fetch - processPackages [sar-handler]: Downloading https://files.pythonhosted.org/packages/fd/15/404a015175a17b6c0168b5a68b3aec59ed3749e4d4eb76c58690b9deb9b4/sar_handler-0.1.6.tar.gz
+[2023-04-27 15:19:06] INFO root fetch - processPackages [RubAmin]: Downloading https://files.pythonhosted.org/packages/c6/65/aede75f5bcf27a5f85eaa2f29d384596acd0586f1c6ed28c62f2432d4075/RubAmin-0.1.0.tar.gz
+[2023-04-27 15:19:06] INFO root fetch - processPackages [sar-handler]: executing diffoscope
+[2023-04-27 15:19:06] INFO root fetch - processPackages [sar-handler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sar_handler-0.1.5.tar.gz tmp/sar_handler-0.1.6.tar.gz --markdown 20230427/s/sar-handler/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-27 15:19:06] INFO root fetch - processPackages [pyflagsercount]: Downloading https://files.pythonhosted.org/packages/c7/b7/61de906ba295cb6f82d4b4109856f67f72d96681efbbe06a1fa1c3fef290/pyflagsercount-0.3.4.tar.gz
+[2023-04-27 15:19:06] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-04-27 15:19:06] INFO root fetch - processPackages [nyaa-timer]: Downloading https://files.pythonhosted.org/packages/c7/10/b99d5391cbec8318bd2f74d7330ba8d6ca370642ee29e21e1d3c13006d16/nyaa-timer-1.2.3.tar.gz
+[2023-04-27 15:19:06] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230427/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-27 15:19:06] INFO root fetch - processPackages [starlette-babel]: Downloading https://files.pythonhosted.org/packages/c5/aa/59402bb6874c4aedd5816de4bcbbc45fe735a5a5dcd3319cd596e3d6ba0f/starlette_babel-1.0.0.tar.gz
+[2023-04-27 15:19:06] INFO root fetch - processPackages [gaitmap-datasets]: Downloading https://files.pythonhosted.org/packages/98/12/6d8a43e91dfb1b9d09f95042817b710102c668cd72a5193ef65a61ea586c/gaitmap_datasets-0.9.0.tar.gz
+[2023-04-27 15:19:06] INFO root fetch - processPackages [nyaa-timer]: executing diffoscope
+[2023-04-27 15:19:06] INFO root fetch - processPackages [nyaa-timer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nyaa-timer-1.2.2.tar.gz tmp/nyaa-timer-1.2.3.tar.gz --markdown 20230427/n/nyaa-timer/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-04-27 15:19:06] INFO root fetch - processPackages [pyflagsercount]: executing diffoscope
+[2023-04-27 15:19:06] INFO root fetch - processPackages [pyflagsercount]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyflagsercount-0.3.3.tar.gz tmp/pyflagsercount-0.3.4.tar.gz --markdown 20230427/p/pyflagsercount/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-04-27 15:19:06] INFO root fetch - processPackages [astro-provider-databricks]: Downloading https://files.pythonhosted.org/packages/7c/c9/93602875ba75a7f0faba1ee554961e3e3ecf04dc3ce87a0a226caf790ee7/astro_provider_databricks-0.1.3.tar.gz
+[2023-04-27 15:19:06] INFO root fetch - processPackages [starlette-babel]: executing diffoscope
+[2023-04-27 15:19:06] INFO root fetch - processPackages [starlette-babel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starlette_babel-0.2.4.tar.gz tmp/starlette_babel-1.0.0.tar.gz --markdown 20230427/s/starlette-babel/0.2.4-1.0.0/diff.md --exclude *.pyd
+[2023-04-27 15:19:07] INFO root fetch - processPackages [RubAmin]: Downloading https://files.pythonhosted.org/packages/eb/27/4e1a8aa4ae6af241436ac0592797467ece1af63e92da280593f06cc0a50a/RubAmin-0.1.1.tar.gz
+[2023-04-27 15:19:07] INFO root fetch - processPackages [gaitmap-datasets]: executing diffoscope
+[2023-04-27 15:19:07] INFO root fetch - processPackages [gaitmap-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaitmap_datasets-0.8.0.tar.gz tmp/gaitmap_datasets-0.9.0.tar.gz --markdown 20230427/g/gaitmap-datasets/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-27 15:19:07] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-04-27 15:19:07] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.8-py3-none-any.whl.zip tmp/QuNet-0.0.9-py3-none-any.whl.zip --markdown 20230427/Q/QuNet/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-27 15:19:07] INFO root fetch - processPackages [RubAmin]: executing diffoscope
+[2023-04-27 15:19:07] INFO root fetch - processPackages [RubAmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RubAmin-0.1.0.tar.gz tmp/RubAmin-0.1.1.tar.gz --markdown 20230427/R/RubAmin/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-27 15:19:07] INFO root fetch - processPackages [astro-provider-databricks]: executing diffoscope
+[2023-04-27 15:19:07] INFO root fetch - processPackages [astro-provider-databricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro_provider_databricks-0.1.2.tar.gz tmp/astro_provider_databricks-0.1.3.tar.gz --markdown 20230427/a/astro-provider-databricks/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-27 15:19:08] INFO root fetch - processPackages [sar-handler]: Start processing: graphql-service-framework
+[2023-04-27 15:19:08] INFO root fetch - main [MainThread]: End processing [sar-handler]: success
+[2023-04-27 15:19:08] INFO root fetch - processPackages [graphql-service-framework]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-04-27 15:19:08] INFO root fetch - processPackages [nyaa-timer]: Start processing: sql-field-report
+[2023-04-27 15:19:08] INFO root fetch - main [MainThread]: End processing [nyaa-timer]: success
+[2023-04-27 15:19:08] WARNING root fetch - processPackages [sql-field-report]: Skipping, unable to determine old version
+[2023-04-27 15:19:08] INFO root fetch - processPackages [sql-field-report]: Start processing: sgp4
+[2023-04-27 15:19:08] INFO root fetch - main [MainThread]: End processing [sql-field-report] error
+[2023-04-27 15:19:08] INFO root fetch - processPackages [graphql-service-framework]: Downloading https://files.pythonhosted.org/packages/80/23/e5c50372b101b747fd2c16c039e7baa8ea77595c83640b923bdf980ecc0e/graphql_service_framework-1.1.4.tar.gz
+[2023-04-27 15:19:08] INFO root fetch - processPackages [sgp4]: New version: [2.9] Old Version: [2.8]
+[2023-04-27 15:19:08] INFO root fetch - processPackages [graphql-service-framework]: executing diffoscope
+[2023-04-27 15:19:08] INFO root fetch - processPackages [graphql-service-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphql_service_framework-1.1.3.tar.gz tmp/graphql_service_framework-1.1.4.tar.gz --markdown 20230427/g/graphql-service-framework/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-04-27 15:19:08] INFO root fetch - processPackages [QuNet]: Start processing: nyaa-timer
+[2023-04-27 15:19:08] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-04-27 15:19:08] INFO root fetch - processPackages [nyaa-timer]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-04-27 15:19:08] INFO root fetch - processPackages [starlette-babel]: Start processing: vunnel
+[2023-04-27 15:19:08] INFO root fetch - main [MainThread]: End processing [starlette-babel]: success
+[2023-04-27 15:19:08] INFO root fetch - processPackages [sgp4]: Downloading https://files.pythonhosted.org/packages/8c/4c/f92cf21d7c71b013e3069a5113edb38fc0b3d6dac5ca77691fed923cd075/sgp4-2.8.tar.gz
+[2023-04-27 15:19:08] INFO root fetch - processPackages [nyaa-timer]: executing diffoscope
+[2023-04-27 15:19:08] INFO root fetch - processPackages [nyaa-timer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nyaa-timer-1.2.2.tar.gz tmp/nyaa-timer-1.2.3.tar.gz --markdown 20230427/n/nyaa-timer/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-04-27 15:19:08] INFO root fetch - processPackages [gaitmap-datasets]: Start processing: polars-streaming
+[2023-04-27 15:19:08] INFO root fetch - main [MainThread]: End processing [gaitmap-datasets]: success
+[2023-04-27 15:19:08] INFO root fetch - processPackages [nbdev-sphinx]: Start processing: nbdev-apl
+[2023-04-27 15:19:08] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-04-27 15:19:08] INFO root fetch - processPackages [vunnel]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-04-27 15:19:08] WARNING root fetch - processPackages [polars-streaming]: Skipping, unable to determine old version
+[2023-04-27 15:19:08] INFO root fetch - processPackages [polars-streaming]: Start processing: blackmirror2
+[2023-04-27 15:19:08] INFO root fetch - main [MainThread]: End processing [polars-streaming] error
+[2023-04-27 15:19:08] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.738] Old Version: [0.0.737]
+[2023-04-27 15:19:08] INFO root fetch - processPackages [blackmirror2]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-27 15:19:08] INFO root fetch - processPackages [blackmirror2]: Downloading https://files.pythonhosted.org/packages/85/ec/5b655e5385b922cc1f851eb3dd86a689738ff2b6973e3c9be75ffdcca441/blackmirror2-0.0.5.tar.gz
+[2023-04-27 15:19:08] INFO root fetch - processPackages [RubAmin]: Start processing: nyaa-timer
+[2023-04-27 15:19:08] INFO root fetch - main [MainThread]: End processing [RubAmin]: success
+[2023-04-27 15:19:08] INFO root fetch - processPackages [nyaa-timer]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-04-27 15:19:08] INFO root fetch - processPackages [vunnel]: Downloading https://files.pythonhosted.org/packages/f6/6a/85f266b939729e0527c20e7f0d1d4bdb18f43de4df5e4de358517863b381/vunnel-0.8.1.tar.gz
+[2023-04-27 15:19:09] INFO root fetch - processPackages [nyaa-timer]: executing diffoscope
+[2023-04-27 15:19:09] INFO root fetch - processPackages [nyaa-timer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nyaa-timer-1.2.2.tar.gz tmp/nyaa-timer-1.2.3.tar.gz --markdown 20230427/n/nyaa-timer/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-04-27 15:19:09] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/80/c6/0732c4b4909c05ae5f3162450cea2de845655ef4d3dc188b2c76063575bc/nbdev-apl-0.0.738.tar.gz
+[2023-04-27 15:19:09] INFO root fetch - processPackages [astro-provider-databricks]: Start processing: krillscan
+[2023-04-27 15:19:09] INFO root fetch - main [MainThread]: End processing [astro-provider-databricks]: success
+[2023-04-27 15:19:09] INFO root fetch - processPackages [krillscan]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-27 15:19:09] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-04-27 15:19:09] INFO root fetch - processPackages [blackmirror2]: Downloading https://files.pythonhosted.org/packages/e7/92/770d52e30dc00ff5d9fba5c1a0170becffd87832fd70031704b392ca5088/blackmirror2-0.0.6.tar.gz
+[2023-04-27 15:19:09] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.737.tar.gz tmp/nbdev-apl-0.0.738.tar.gz --markdown 20230427/n/nbdev-apl/0.0.737-0.0.738/diff.md --exclude *.pyd
+[2023-04-27 15:19:09] INFO root fetch - processPackages [krillscan]: executing diffoscope
+[2023-04-27 15:19:09] INFO root fetch - processPackages [krillscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krillscan-0.2.8.tar.gz tmp/krillscan-0.2.9.tar.gz --markdown 20230427/k/krillscan/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-27 15:19:09] INFO root fetch - processPackages [vunnel]: Downloading https://files.pythonhosted.org/packages/28/00/513fd11c9a1cce9d061a9d193f4a8185a9d477a88073e4bb693a5516e783/vunnel-0.9.0.tar.gz
+[2023-04-27 15:19:09] INFO root fetch - processPackages [blackmirror2]: executing diffoscope
+[2023-04-27 15:19:09] INFO root fetch - processPackages [blackmirror2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blackmirror2-0.0.5.tar.gz tmp/blackmirror2-0.0.6.tar.gz --markdown 20230427/b/blackmirror2/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-27 15:19:09] INFO root fetch - processPackages [sgp4]: Downloading https://files.pythonhosted.org/packages/0a/c0/ad109e4f245c9c6646e0bb221be2e486a1f813c15f763edbbcc8a8d84f32/sgp4-2.9.tar.gz
+[2023-04-27 15:19:09] INFO root fetch - processPackages [pyflagsercount]: Start processing: nanoprep-ffm
+[2023-04-27 15:19:09] INFO root fetch - main [MainThread]: End processing [pyflagsercount]: success
+[2023-04-27 15:19:09] INFO root fetch - processPackages [vunnel]: executing diffoscope
+[2023-04-27 15:19:09] INFO root fetch - processPackages [vunnel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vunnel-0.8.1.tar.gz tmp/vunnel-0.9.0.tar.gz --markdown 20230427/v/vunnel/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-04-27 15:19:09] INFO root fetch - processPackages [nanoprep-ffm]: New version: [0.0.8] Old Version: [0.0.3]
+[2023-04-27 15:19:09] INFO root fetch - processPackages [nbdev-django]: Start processing: findmyorder
+[2023-04-27 15:19:09] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-04-27 15:19:09] INFO root fetch - processPackages [findmyorder]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-27 15:19:09] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-04-27 15:19:09] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-1.0.8.tar.gz tmp/findmyorder-1.0.9.tar.gz --markdown 20230427/f/findmyorder/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-27 15:19:09] INFO root fetch - processPackages [sgp4]: executing diffoscope
+[2023-04-27 15:19:09] INFO root fetch - processPackages [sgp4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sgp4-2.8.tar.gz tmp/sgp4-2.9.tar.gz --markdown 20230427/s/sgp4/2.8-2.9/diff.md --exclude *.pyd
+[2023-04-27 15:19:09] INFO root fetch - processPackages [nanoprep-ffm]: Downloading https://files.pythonhosted.org/packages/da/cb/07101e761f0b9c768c3218d80882015a000275f493dcc9b1877b2103e927/nanoprep-ffm-0.0.3.tar.gz
+[2023-04-27 15:19:09] INFO root fetch - processPackages [graphql-service-framework]: Start processing: nyaa-timer
+[2023-04-27 15:19:09] INFO root fetch - main [MainThread]: End processing [graphql-service-framework]: success
+[2023-04-27 15:19:09] INFO root fetch - processPackages [nyaa-timer]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-04-27 15:19:10] INFO root fetch - processPackages [nyaa-timer]: executing diffoscope
+[2023-04-27 15:19:10] INFO root fetch - processPackages [nyaa-timer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nyaa-timer-1.2.2.tar.gz tmp/nyaa-timer-1.2.3.tar.gz --markdown 20230427/n/nyaa-timer/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-04-27 15:19:10] INFO root fetch - processPackages [nanoprep-ffm]: Downloading https://files.pythonhosted.org/packages/41/14/7e8071666d416049e6ba639840e5d0889e22a4fdd85ef4e7fe82361f9507/nanoprep-ffm-0.0.8.tar.gz
+[2023-04-27 15:19:10] INFO root fetch - processPackages [nanoprep-ffm]: executing diffoscope
+[2023-04-27 15:19:10] INFO root fetch - processPackages [nanoprep-ffm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanoprep-ffm-0.0.3.tar.gz tmp/nanoprep-ffm-0.0.8.tar.gz --markdown 20230427/n/nanoprep-ffm/0.0.3-0.0.8/diff.md --exclude *.pyd
+[2023-04-27 15:19:10] INFO root fetch - processPackages [nyaa-timer]: Start processing: hyperfetch
+[2023-04-27 15:19:10] INFO root fetch - main [MainThread]: End processing [nyaa-timer]: success
+[2023-04-27 15:19:10] INFO root fetch - processPackages [hyperfetch]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-27 15:19:10] INFO root fetch - processPackages [nyaa-timer]: Start processing: pawnlib
+[2023-04-27 15:19:10] INFO root fetch - main [MainThread]: End processing [nyaa-timer]: success
+[2023-04-27 15:19:10] INFO root fetch - processPackages [pawnlib]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-27 15:19:10] INFO root fetch - processPackages [hyperfetch]: Downloading https://files.pythonhosted.org/packages/52/63/9980e7ef444fa9cc15631fb1c0c24b36ec153c589ca9c0b399d82de0be31/hyperfetch-1.0.9.tar.gz
+[2023-04-27 15:19:10] INFO root fetch - processPackages [pawnlib]: executing diffoscope
+[2023-04-27 15:19:10] INFO root fetch - processPackages [pawnlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pawnlib-0.1.8-py3-none-any.whl.zip tmp/pawnlib-0.1.9-py3-none-any.whl.zip --markdown 20230427/p/pawnlib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-27 15:19:10] INFO root fetch - processPackages [hyperfetch]: executing diffoscope
+[2023-04-27 15:19:10] INFO root fetch - processPackages [hyperfetch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperfetch-1.0.8.tar.gz tmp/hyperfetch-1.0.9.tar.gz --markdown 20230427/h/hyperfetch/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-27 15:19:10] INFO root fetch - main [MainThread]: End processing [blackmirror2]: success
+[2023-04-27 15:19:10] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-04-27 15:19:11] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-04-27 15:19:11] INFO root fetch - main [MainThread]: End processing [nyaa-timer]: success
+[2023-04-27 15:19:11] INFO root fetch - main [MainThread]: End processing [nanoprep-ffm]: success
+[2023-04-27 15:19:12] INFO root fetch - main [MainThread]: End processing [pawnlib]: success
+[2023-04-27 15:19:12] INFO root fetch - main [MainThread]: End processing [hyperfetch]: success
+[2023-04-27 15:19:12] INFO root fetch - main [MainThread]: End processing [vunnel]: success
+[2023-04-27 15:19:12] INFO root fetch - main [MainThread]: End processing [sgp4]: success
+[2023-04-27 15:19:13] INFO root fetch - main [MainThread]: End processing [krillscan]: success
+[2023-04-27 15:19:13] INFO root fetch - main [MainThread]: Store serial: [17883471]
