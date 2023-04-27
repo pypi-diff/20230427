@@ -9449,3 +9449,92 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-27 06:26:49] INFO root fetch - main [MainThread]: End processing [odoo14-addon-fleet-vehicle-log-fuel]: success
 [2023-04-27 06:27:33] INFO root fetch - main [MainThread]: End processing [flet]: success
 [2023-04-27 06:27:33] INFO root fetch - main [MainThread]: Store serial: [17877526]
+[2023-04-27 06:32:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17877526]
+[2023-04-27 06:32:42] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-27 06:32:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo12-addon-helpdesk-mgmt
+[2023-04-27 06:32:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: countess
+[2023-04-27 06:32:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-helpdesk-mgmt
+[2023-04-27 06:32:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: unisci
+[2023-04-27 06:32:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: k2
+[2023-04-27 06:32:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cheeseforyaterminal
+[2023-04-27 06:32:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-helpdesk-mgmt
+[2023-04-27 06:32:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: asaas-sdk
+[2023-04-27 06:32:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mythic-container
+[2023-04-27 06:32:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: monailabel
+[2023-04-27 06:32:42] INFO root fetch - processPackages [countess]: New version: [0.0.24] Old Version: [0.0.22]
+[2023-04-27 06:32:42] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: New version: [14.0.2.6.1.dev9] Old Version: [14.0.2.6.1.dev8]
+[2023-04-27 06:32:42] INFO root fetch - processPackages [odoo12-addon-helpdesk-mgmt]: New version: [12.0.1.9.1.99.dev9] Old Version: [12.0.1.9.1.99.dev7]
+[2023-04-27 06:32:42] WARNING root fetch - processPackages [cheeseforyaterminal]: Skipping, unable to determine old version
+[2023-04-27 06:32:42] INFO root fetch - processPackages [asaas-sdk]: New version: [3.2.0] Old Version: [3.1.1]
+[2023-04-27 06:32:42] INFO root fetch - processPackages [cheeseforyaterminal]: Start processing: quao
+[2023-04-27 06:32:42] INFO root fetch - main [MainThread]: End processing [cheeseforyaterminal] error
+[2023-04-27 06:32:42] INFO root fetch - processPackages [unisci]: New version: [1.2.0] Old Version: [1.1.2]
+[2023-04-27 06:32:42] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-04-27 06:32:42] INFO root fetch - processPackages [mythic-container]: New version: [0.2.3rc1] Old Version: [0.2.2]
+[2023-04-27 06:32:42] INFO root fetch - processPackages [monailabel]: New version: [0.7.0rc6] Old Version: [0.7.0rc5]
+[2023-04-27 06:32:42] INFO root fetch - processPackages [k2]: New version: [1.9.dev20211024] Old Version: [1.9]
+[2023-04-27 06:32:42] INFO root fetch - processPackages [quao]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-27 06:32:42] INFO root fetch - processPackages [countess]: Downloading https://files.pythonhosted.org/packages/85/ef/58c1d4c6a2feb38308fa89b9f10d0941f9c7bf2ffc55ad6d7e64f85057aa/countess-0.0.22.tar.gz
+[2023-04-27 06:32:42] INFO root fetch - processPackages [unisci]: Downloading https://files.pythonhosted.org/packages/14/71/d20af43c093e87dce10409d9a7158d2826fb193b9c75d4f27fc1a7c2b93b/unisci-1.1.2.tar.gz
+[2023-04-27 06:32:42] INFO root fetch - processPackages [asaas-sdk]: Downloading https://files.pythonhosted.org/packages/25/6f/3c593532a76f1fdcc1af5a2042253f79dc9061141c9b31a989db77f762dd/asaas-sdk-3.2.0.tar.gz
+[2023-04-27 06:32:42] INFO root fetch - processPackages [mythic-container]: Downloading https://files.pythonhosted.org/packages/77/a0/f56885ccf827ea1c638dc6049d606a6598d3279449a22edb2c68d725d23d/mythic_container-0.2.3rc1.tar.gz
+[2023-04-27 06:32:42] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Downloading https://files.pythonhosted.org/packages/dd/85/9cdb3892b97fd85e4203ee5c6aef97bbeb8bc2d2808654783d9471c2f09b/odoo_addon_helpdesk_mgmt-16.0.1.0.0.2-py3-none-any.whl
+[2023-04-27 06:32:42] INFO root fetch - processPackages [monailabel]: Downloading https://files.pythonhosted.org/packages/da/47/e9b2b1d1515d9ca6bac8a04dc205dfd501319ae2da27fc1d9fd582589008/monailabel-0.7.0rc5-202304171453-py3-none-any.whl
+[2023-04-27 06:32:42] INFO root fetch - processPackages [k2]: Downloading https://files.pythonhosted.org/packages/c0/59/e8df7d4a1a79e1bc1b6c7cb734c6d1f16e70b9bf5e46c6bc33c268534ffa/k2-1.9-py38-none-any.whl
+[2023-04-27 06:32:42] INFO root fetch - processPackages [odoo12-addon-helpdesk-mgmt]: Downloading https://files.pythonhosted.org/packages/59/ba/833846e37f8cc6d7e7cf40886534d78bda51ac159ef20fb8242ddee4176c/odoo12_addon_helpdesk_mgmt-12.0.1.9.1.99.dev7-py3-none-any.whl
+[2023-04-27 06:32:42] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/df/a3/46226b88c5e69ebfeec2db470775bc4c4d5ba42e3a010b9a28ccdbe80594/quao-0.0.1.tar.gz
+[2023-04-27 06:32:42] INFO root fetch - processPackages [asaas-sdk]: executing diffoscope
+[2023-04-27 06:32:42] INFO root fetch - processPackages [asaas-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asaas-sdk-3.1.1.tar.gz tmp/asaas-sdk-3.2.0.tar.gz --markdown 20230427/a/asaas-sdk/3.1.1-3.2.0/diff.md --exclude *.pyd
+[2023-04-27 06:32:43] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: executing diffoscope
+[2023-04-27 06:32:43] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_helpdesk_mgmt-14.0.2.6.1.dev8-py3-none-any.whl.zip tmp/odoo14_addon_helpdesk_mgmt-14.0.2.6.1.dev9-py3-none-any.whl.zip --markdown 20230427/o/odoo14-addon-helpdesk-mgmt/14.0.2.6.1.dev8-14.0.2.6.1.dev9/diff.md --exclude *.pyd
+[2023-04-27 06:32:43] INFO root fetch - processPackages [mythic-container]: executing diffoscope
+[2023-04-27 06:32:43] INFO root fetch - processPackages [mythic-container]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mythic_container-0.2.2.tar.gz tmp/mythic_container-0.2.3rc1.tar.gz --markdown 20230427/m/mythic-container/0.2.2-0.2.3rc1/diff.md --exclude *.pyd
+[2023-04-27 06:32:43] INFO root fetch - processPackages [unisci]: Downloading https://files.pythonhosted.org/packages/b1/56/e868cf382e79b04c39c4f7882b3612a2395228e29f0d0c0911f1134c1c05/unisci-1.2.0.tar.gz
+[2023-04-27 06:32:43] INFO root fetch - processPackages [countess]: Downloading https://files.pythonhosted.org/packages/26/46/d67e9547436223d37f712f91a82512baaf5c183e0467464aaa1e793f0345/countess-0.0.24.tar.gz
+[2023-04-27 06:32:43] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/54/56/2aca84d68f281f69c5c652c12efbc99008f23eea79c711c44bc738f5b592/quao-0.0.2.tar.gz
+[2023-04-27 06:32:43] INFO root fetch - processPackages [unisci]: executing diffoscope
+[2023-04-27 06:32:43] INFO root fetch - processPackages [unisci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unisci-1.1.2.tar.gz tmp/unisci-1.2.0.tar.gz --markdown 20230427/u/unisci/1.1.2-1.2.0/diff.md --exclude *.pyd
+[2023-04-27 06:32:43] INFO root fetch - processPackages [quao]: executing diffoscope
+[2023-04-27 06:32:43] INFO root fetch - processPackages [quao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quao-0.0.1.tar.gz tmp/quao-0.0.2.tar.gz --markdown 20230427/q/quao/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-27 06:32:43] INFO root fetch - processPackages [countess]: executing diffoscope
+[2023-04-27 06:32:43] INFO root fetch - processPackages [countess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/countess-0.0.22.tar.gz tmp/countess-0.0.24.tar.gz --markdown 20230427/c/countess/0.0.22-0.0.24/diff.md --exclude *.pyd
+[2023-04-27 06:32:43] INFO root fetch - processPackages [odoo12-addon-helpdesk-mgmt]: Downloading https://files.pythonhosted.org/packages/ec/5a/6dcf41aec1c90ec57c026289332604190821df121368e89f661586207216/odoo12_addon_helpdesk_mgmt-12.0.1.9.1.99.dev9-py3-none-any.whl
+[2023-04-27 06:32:43] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Downloading https://files.pythonhosted.org/packages/bc/6c/6516fe9f97f82ff70a5752000c3c848eb02b88373b3445793171693f4b57/odoo_addon_helpdesk_mgmt-16.0.1.0.0.3-py3-none-any.whl
+[2023-04-27 06:32:43] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: executing diffoscope
+[2023-04-27 06:32:43] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_helpdesk_mgmt-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_helpdesk_mgmt-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230427/o/odoo-addon-helpdesk-mgmt/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-04-27 06:32:43] INFO root fetch - processPackages [odoo12-addon-helpdesk-mgmt]: executing diffoscope
+[2023-04-27 06:32:43] INFO root fetch - processPackages [odoo12-addon-helpdesk-mgmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_helpdesk_mgmt-12.0.1.9.1.99.dev7-py3-none-any.whl.zip tmp/odoo12_addon_helpdesk_mgmt-12.0.1.9.1.99.dev9-py3-none-any.whl.zip --markdown 20230427/o/odoo12-addon-helpdesk-mgmt/12.0.1.9.1.99.dev7-12.0.1.9.1.99.dev9/diff.md --exclude *.pyd
+[2023-04-27 06:32:43] WARNING root fetch - processPackages [k2]: Skipping package: exceeds size limit 77736576>=10485760
+[2023-04-27 06:32:43] INFO root fetch - processPackages [k2]: Start processing: odoo14-addon-hr-personal-equipment-request
+[2023-04-27 06:32:43] INFO root fetch - main [MainThread]: End processing [k2] error
+[2023-04-27 06:32:44] INFO root fetch - processPackages [odoo14-addon-hr-personal-equipment-request]: New version: [14.0.1.0.1.dev8] Old Version: [14.0.1.0.1.dev23]
+[2023-04-27 06:32:44] INFO root fetch - processPackages [odoo14-addon-hr-personal-equipment-request]: Downloading https://files.pythonhosted.org/packages/96/50/c153a20192d36917476b12b1c7f9ba8bb55f6b3b51e882129978627d7fee/odoo14_addon_hr_personal_equipment_request-14.0.1.0.1.dev23-py3-none-any.whl
+[2023-04-27 06:32:44] INFO root fetch - processPackages [asaas-sdk]: Start processing: odoo14-addon-hr-course
+[2023-04-27 06:32:44] INFO root fetch - main [MainThread]: End processing [asaas-sdk]: success
+[2023-04-27 06:32:44] INFO root fetch - processPackages [monailabel]: Downloading https://files.pythonhosted.org/packages/41/1d/31cb4a3f6245ba519249d3c54003b0c1d36f36fe93ef82607c37b32d9e09/monailabel-0.7.0rc6-202304270423-py3-none-any.whl
+[2023-04-27 06:32:44] INFO root fetch - processPackages [odoo14-addon-hr-personal-equipment-request]: Downloading https://files.pythonhosted.org/packages/08/07/24019f4a49494ee7ce13af6b2e74ad1a8f024dc6fd01f430d5cb22183fea/odoo14_addon_hr_personal_equipment_request-14.0.1.0.1.dev8-py3-none-any.whl
+[2023-04-27 06:32:44] INFO root fetch - processPackages [odoo14-addon-hr-course]: New version: [14.0.3.0.4.dev3] Old Version: [14.0.3.0.4.dev2]
+[2023-04-27 06:32:44] INFO root fetch - processPackages [odoo14-addon-hr-personal-equipment-request]: executing diffoscope
+[2023-04-27 06:32:44] INFO root fetch - processPackages [odoo14-addon-hr-personal-equipment-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_hr_personal_equipment_request-14.0.1.0.1.dev23-py3-none-any.whl.zip tmp/odoo14_addon_hr_personal_equipment_request-14.0.1.0.1.dev8-py3-none-any.whl.zip --markdown 20230427/o/odoo14-addon-hr-personal-equipment-request/14.0.1.0.1.dev23-14.0.1.0.1.dev8/diff.md --exclude *.pyd
+[2023-04-27 06:32:44] INFO root fetch - processPackages [quao]: Start processing: snowflake-connector-python-nightly
+[2023-04-27 06:32:44] INFO root fetch - main [MainThread]: End processing [quao]: success
+[2023-04-27 06:32:44] INFO root fetch - processPackages [odoo14-addon-hr-course]: Downloading https://files.pythonhosted.org/packages/db/a9/50d259d5e99472c10baaf4b87ffc03fb95832511bbadd239272e989e2d23/odoo14_addon_hr_course-14.0.3.0.4.dev2-py3-none-any.whl
+[2023-04-27 06:32:44] INFO root fetch - processPackages [snowflake-connector-python-nightly]: New version: [2023.4.7] Old Version: [2023.4.6]
+[2023-04-27 06:32:44] INFO root fetch - main [MainThread]: End processing [mythic-container]: success
+[2023-04-27 06:32:44] INFO root fetch - processPackages [snowflake-connector-python-nightly]: executing diffoscope
+[2023-04-27 06:32:44] INFO root fetch - processPackages [snowflake-connector-python-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowflake-connector-python-nightly-2023.4.6.tar.gz tmp/snowflake-connector-python-nightly-2023.4.7.tar.gz --markdown 20230427/s/snowflake-connector-python-nightly/2023.4.6-2023.4.7/diff.md --exclude *.pyd
+[2023-04-27 06:32:44] INFO root fetch - main [MainThread]: End processing [odoo14-addon-helpdesk-mgmt]: success
+[2023-04-27 06:32:45] INFO root fetch - main [MainThread]: End processing [odoo12-addon-helpdesk-mgmt]: success
+[2023-04-27 06:32:45] INFO root fetch - processPackages [odoo14-addon-hr-course]: Downloading https://files.pythonhosted.org/packages/45/35/d393497f7495815ae9cf402fffbe48ea9a36dec718e05a3df9d89f4018db/odoo14_addon_hr_course-14.0.3.0.4.dev3-py3-none-any.whl
+[2023-04-27 06:32:45] INFO root fetch - processPackages [odoo14-addon-hr-course]: executing diffoscope
+[2023-04-27 06:32:45] INFO root fetch - processPackages [odoo14-addon-hr-course]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_hr_course-14.0.3.0.4.dev2-py3-none-any.whl.zip tmp/odoo14_addon_hr_course-14.0.3.0.4.dev3-py3-none-any.whl.zip --markdown 20230427/o/odoo14-addon-hr-course/14.0.3.0.4.dev2-14.0.3.0.4.dev3/diff.md --exclude *.pyd
+[2023-04-27 06:32:45] INFO root fetch - main [MainThread]: End processing [countess]: success
+[2023-04-27 06:32:45] INFO root fetch - main [MainThread]: End processing [odoo-addon-helpdesk-mgmt]: success
+[2023-04-27 06:32:45] INFO root fetch - main [MainThread]: End processing [odoo14-addon-hr-personal-equipment-request]: success
+[2023-04-27 06:32:46] INFO root fetch - processPackages [monailabel]: executing diffoscope
+[2023-04-27 06:32:46] INFO root fetch - processPackages [monailabel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230427:/home/abi/fetcher/20230427:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monailabel-0.7.0rc5-202304171453-py3-none-any.whl.zip tmp/monailabel-0.7.0rc6-202304270423-py3-none-any.whl.zip --markdown 20230427/m/monailabel/0.7.0rc5-0.7.0rc6/diff.md --exclude *.pyd
+[2023-04-27 06:32:46] INFO root fetch - main [MainThread]: End processing [unisci]: success
+[2023-04-27 06:32:46] INFO root fetch - main [MainThread]: End processing [odoo14-addon-hr-course]: success
+[2023-04-27 06:32:46] INFO root fetch - main [MainThread]: End processing [snowflake-connector-python-nightly]: success
+[2023-04-27 06:32:53] INFO root fetch - main [MainThread]: End processing [monailabel]: success
+[2023-04-27 06:32:53] INFO root fetch - main [MainThread]: Store serial: [17877572]
